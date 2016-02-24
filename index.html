@@ -3,21 +3,28 @@ layout: default
 ---
 
 <div class="home">
+  
+  <div class="page-header">
+    <h1>Welcome to Latin@s in Tech Bay Area</h1>
+    <img src="/images/logo.jpg" alt="latinos in tech logo">
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>Join us in <a href="http://www.meetup.com/Latinos-in-Tech-Bay-Area/">meetup</a></p>
+  <p>Join our slack community <a href="http://latinosin.tech">Latinosin.tech</a></p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <!-- <h1 class="page-heading">Posts</h1> -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <!-- <ul class="post-list"> -->
+  <!--   {% for post in site.posts %} -->
+  <!--     <li> -->
+  <!--       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <!--       <h2> -->
+  <!--         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+  <!--       </h2> -->
+  <!--     </li> -->
+  <!--   {% endfor %} -->
+  <!-- </ul> -->
+  <!-- todo: add google advanced mobile pages -->
 </div>
+

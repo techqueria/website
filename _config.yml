@@ -6,16 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Latin@s in Tech
+email: ''
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Calling all latin@s in tech! Whether you just got here last week or your family is been in the country for decades, we have a lot to share and be proud of. Come share your experiences with the community
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://techqueria.org" # the base hostname & protocol for your site
+twitter_username: dvidsilva
+github_username:  techqueria
 
 # Build settings
 markdown: kramdown
