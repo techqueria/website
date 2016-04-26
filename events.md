@@ -29,6 +29,8 @@ InDesign 101– May 31, 6:30-8:30pm. Create an awesome one-pager or sales brochu
 Each workshop is $20, a fraction of the cost of other workshops on similar topics, and we are happy to offer scholarships to anyone who might need one.
 Please contact: sami@alliancecd.org.
 
+**More info and RSVP here:  <a href="http://ow.ly/4mSv2o" target="_blank">ow.ly/4mSv2o</a>**
+
 <strong>Sami Nerenberg</strong> has been teaching design in higher education for the last eight years at Northwestern University, 
 Pratt, and the Rhode Island School of Design. She is currently the executive director of the Alliance for Community Development and is
 the previous associate director of Design for America. 
