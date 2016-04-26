@@ -16,9 +16,9 @@ Latin@s in Tech - Bay Area is hosting a panel on non-traditional paths into tech
 
 <h3>Partner Events</h3>
 
-<strong><a href="https://www.linkedin.com/in/saminerenberg">Sami Nerenberg</a></strong>, Executive Director from the Alliance for Community Development, is extending an invitation to our members.
+<strong><a href="https://www.linkedin.com/in/saminerenberg" target="_blank">Sami Nerenberg</a></strong>, Executive Director from the Alliance for Community Development, is extending an invitation to our members.
 
-Learn design tools like Photoshop, Illustrator and InDesign to boost your work. Check out these upcoming Workshops: ow.ly/4mSv2o
+Learn design tools like Photoshop, Illustrator and InDesign to boost your work. Check out these upcoming Workshops: <a href="http://ow.ly/4mSv2o" target="_blank">ow.ly/4mSv2o</a>
 
 Photoshop 101– April 27, 6:30-8:30pm. Learn how to edit photos and combine images to convey your idea. 
 
