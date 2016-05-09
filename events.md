@@ -6,13 +6,7 @@ permalink: /events/
 
 <h3>Official Events</h3>
 
-<h4><a href="http://www.meetup.com/Latinos-in-Tech-Bay-Area/events/230381934/">Making the Leap into Tech: The Unconventional Path</a></h4>
-
-Latin@s in Tech - Bay Area is hosting a panel on non-traditional paths into tech.  Panelists will include Francisco Fuentes, who will discuss his experience teaching at Samaschool, a group that helps low-income technologists get their first jobs in the digital economy.  Leonardo Sosa, Technology Training Coordinator, will speak about the goals of Mission Techies, a free IT training program for Bay Area youth.  Ricardo Bonilla will discuss the work of Hack the Hood, which introduces low-income youth of color to careers in tech by hiring and training them to build websites for small businesses in their own communities.
-
-<strong>Where:</strong> Dev Bootcamp (733 Folsom Street, 6th Floor), San Francisco 94107
-
-<strong>When:</strong> Thursday, May 5 from 7:00 to 9:00 PM
+No events planned yet for the future, join our [www.meetup.com/Latin-s-in-Tech-Bay-Area/](meetup) to receive information when available.
 
 <h3>Partner Events</h3>
 
