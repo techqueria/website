@@ -1,37 +1,33 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
     <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-        </ul>
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
       </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-3">
+        <span class='st_facebook_vcount' displayText='Facebook'></span>
+        <span class='st_twitter_vcount' displayText='Tweet'></span>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
-          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+          <li>
+            <a href="https://www.facebook.com/groups/techqueria/">
+                <span class="icon icon--facebook">
+                  <img src="/images/fb.jpg" width=18>
+                </span>
+                <span class="username">techqueria</span>
+            </a>
           </li>
-          {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
-
   </div>
-
 </footer>
+<script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "82f8287f-b0eb-4ccd-9925-3dd02ed4a4c3", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+
