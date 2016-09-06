@@ -4,7 +4,7 @@ title: Events
 permalink: /events/
 ---
 
-### Data Science: From Machine Learning to Algorithm Accountability <small>September 28th</small>
+### Data Science: From Machine Learning to Algorithm Accountability <small>Sept 28</small>
 
 In September, our event will center on the field of Data Science. Often defined
 as a bridge between statistics and programming, Data Science can help improve
@@ -30,7 +30,7 @@ two nights a week and can be taken remotely or onsite in the Bay Area.
 [More info here](http://codepath.com/)
 
 
-### #LATAMinSF 2016
+### #LATAMinSF 2016 <small>Sept 14</small>
 
 TechCrunch Disrupt is happening and the LATAM tech community is part of it.
 The second edition of #LATAMinSF will be a great opportunity for San Francisco
@@ -38,7 +38,7 @@ and Latin America to meet, make new friends, and start building partnerships.
 
 [Tickets here](https://www.eventbrite.com/e/lataminsf-2016-tickets-27034003432)
 
-### Latinx[in]tech
+### Latinx[in]tech <small>Sept 15</small>
 
 HOLA (Hispanics of LinkedIn Alliance) would like to invite you for an evening
 of networking and meaningful discussion at the inaugural Latinx in Tech night
