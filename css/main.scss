@@ -49,16 +49,8 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custom"
 ;
 
-.site-header {
-  background: #594641;
-  .site-title, .site-title:visited, .site-nav .page-link {
-    color: #fabe6e;
-  }
-}
 
-h1, h3 {
-    color: #594641;
-}
