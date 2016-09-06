@@ -51,3 +51,14 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.site-header {
+  background: #594641;
+  .site-title, .site-title:visited, .site-nav .page-link {
+    color: #fabe6e;
+  }
+}
+
+h1, h3 {
+    color: #594641;
+}
