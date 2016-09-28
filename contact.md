@@ -9,7 +9,7 @@ The best way to get in touch with us is via Slack.
 You can request an invite to Latin@s in Tech - Bay Area in: <a href="http://latinosin.tech/" target="_blank">latinosin.tech</a>.
 You can also message the main organizers via <a href="http://www.meetup.com/Latinos-in-Tech-Bay-Area/" target="_blank">Meetup.</a>
 
-The second best way to get in touch with the organizers is through LinkedIn.
+Or send us an email to organizers[at]techqueria.org.
 
 <h3>Organizers</h3>
 
