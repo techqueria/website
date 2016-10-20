@@ -3,6 +3,8 @@ layout: page
 permalink: /welcome-to-slack/
 ---
 
+# Welcome to the Techqueria Slack
+
 Slack is a great way for the community to stay in touch, in this page we included some information
 that will make your slack experience better.
 
