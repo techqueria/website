@@ -13,7 +13,7 @@ of everyone and their identity. Disrespectful behavior is not accepted. If you f
 the code of conduct [contact us](http://techqueria.org/contact/) and we will try to sort it out.
 
 If this is your first time using slack  and want to learn more about it, start
-[https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users](here).
+[here](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users).
 
 We have customized a few things about our slack to make communications better, we have bots, custom emoji,
 special commands and channels to make communication better.
@@ -38,7 +38,7 @@ topics in their respective channels.
 # Private channels
 
 We have a few private channels for conversations that you don't want everyone to see, we're using a system created by
-[http://wealljs.org/](WeAllJS) to manage the participation in those.
+[WeAllJs](http://wealljs.org) to manage the participation in those.
 
 To see a list of available channels, run the command `/list-private`, to request an invitation to a channel you're
 interested in, use the command `/join-private` with the channel name.
@@ -47,7 +47,7 @@ interested in, use the command `/join-private` with the channel name.
 
 When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added.
 You can find images for things like arepa, empanada, baseball teams, avocado, etc. Take a look at them and enjoy! and feel
-free to [https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji](add more).
+free to [add more](https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji).
 
 # Contact us
 
