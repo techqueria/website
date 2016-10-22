@@ -11,15 +11,15 @@ Available in 3 colors and most sizes, American Apparel Crew.
 
 <p><a href="https://teespring.com/techqueria" target="_blank">Check it out here!</a></p>
 
-<div class="images">
+<div class="t-shirt-images">
   <a href="/images/t-shirt-1.png" target="_blank">
-    <img src="/images/t-shirt-1.png" alt="T-shirt, version 1">
+    <img src="/images/t-shirt-1-small.png" alt="T-shirt, version 1">
  </a>
   <a href="/images/t-shirt-2.png" target="_blank">
-    <img src="/images/t-shirt-2.png" alt="T-shirt, version 2">
+    <img src="/images/t-shirt-2-small.png" alt="T-shirt, version 2">
  </a>
  <a href="/images/t-shirt-3.png" target="_blank">
-    <img src="/images/t-shirt-3.png" alt="T-shirt, version 3">
+    <img src="/images/t-shirt-3-small.png" alt="T-shirt, version 3">
  </a>
 </div>
 
