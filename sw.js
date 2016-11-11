@@ -1,4 +1,4 @@
-const VERSION = "1.0.4";
+const VERSION = "1.0.6";
 
 const cacheName = 'techqueria';
 
@@ -13,7 +13,15 @@ const filesToCache = [
     '/images/icons/icon-logo-techqueria-144x144.png',
     '/images/icons/icon-logo-techqueria-152x152.png',
     '/images/icons/icon-logo-techqueria-192x192.png',
-    '/images/icons/icon-logo-techqueria-256x256.png'
+    '/images/icons/icon-logo-techqueria-256x256.png',
+    '/images/t-shirt-1-small.png',
+    '/images/t-shirt-2-small.png',
+    '/images/t-shirt-3-small.png',
+    '/about/',
+    '/contact/',
+    '/events/',
+    '/code-of-conduct/',
+    '/merch/'
  ];
 
 this.addEventListener('install', function(e) {
@@ -26,7 +34,7 @@ this.addEventListener('install', function(e) {
   );
 });
  
-this.addEventListener('activate', function(e) {
+this.addEventListener('activate',function(e) {
   console.log('[ServiceWorker] Activate');
   e.waitUntil(
     caches.keys().then(function(keyList) {
@@ -47,7 +55,7 @@ this.addEventListener('fetch', function(event) {
     return fetch(event.request);
   }).then(function(r) {
     response = r;
-    caches.open('v1').then(function(cache) {
+    caches.open(cacheName).then(function(cache) {
       cache.put(event.request, response);
     });
     return response.clone();
