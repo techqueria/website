@@ -1,4 +1,4 @@
-const VERSION = "1.0.6";
+const VERSION = "1.0.7";
 
 const cacheName = 'techqueria';
 
@@ -17,6 +17,9 @@ const filesToCache = [
     '/images/t-shirt-1-small.png',
     '/images/t-shirt-2-small.png',
     '/images/t-shirt-3-small.png',
+    '/images/t-shirt-1.png',
+    '/images/t-shirt-2.png',
+    '/images/t-shirt-3.png',    
     '/about/',
     '/contact/',
     '/events/',
