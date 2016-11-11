@@ -31,4 +31,18 @@
 </footer>
 <script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "82f8287f-b0eb-4ccd-9925-3dd02ed4a4c3", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
-
+<script type="text/javascript">
+   if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/sw.js', {scope: '/'})
+             .then(function(reg) {
+                  if(reg.installing) {
+                    console.log('Service worker installing');
+                  } else if(reg.waiting) {
+                    console.log('Service worker installed');
+                  } else if(reg.active) {
+                    console.log('Service worker active');
+                  }
+              });
+  }
+</script>

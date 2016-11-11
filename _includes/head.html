@@ -2,6 +2,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Techqueria">
+  <link rel="apple-touch-icon" href="images/icons/icon-techqueria-logo-152x152.png">
+  <meta name="msapplication-TileImage" content="images/icons/icon-techqueria-logo-144x144.png">
+  <meta name="msapplication-TileColor" content="#594641">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -23,4 +31,7 @@
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1795759010654444&ev=PageView&noscript=1"/>
   </noscript>
   <!-- End Facebook Pixel Code -->
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
 </head>
