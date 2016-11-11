@@ -51,7 +51,9 @@ this.addEventListener('activate',function(e) {
 
 this.addEventListener('fetch', function(event) {
   var response;
-  event.respondWith(caches.match(event.request).catch(function() {
+  event.respondWith(caches.match(event.request).then(function (match) {
+    return match || fetch(event.request);
+  }).catch(function() {
     return fetch(event.request);
   }).then(function(r) {
     response = r;
