@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://techqueria.org # the base hostname & protocol for your site
 enforce_ssl: techqueria.org   # without any protocol
 
-twitter_username: dvidsilva
+twitter_username: techqueriasf
 github_username:  techqueria
 
 # Build settings
