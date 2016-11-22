@@ -1,6 +1,6 @@
 ---
 permalink: /merch/
-url: Merch
+url: merch
 ---
 
 # Techqueria in teespring
