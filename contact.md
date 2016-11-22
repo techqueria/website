@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Contact
-permalink: /contact/
+url: contact
 ---
 
 We're always looking for partners and sponsors to help move our mission forward.

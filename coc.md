@@ -1,6 +1,5 @@
 ---
-layout: page
-permalink: /code-of-conduct/
+url: /code-of-conduct/
 ---
 
 Latin@s in tech strives to create a comfortable space for all members of our growing community.

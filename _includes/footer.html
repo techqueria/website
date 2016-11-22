@@ -5,19 +5,20 @@
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
         <p><a href="/code-of-conduct/">Code Of Conduct</a></p>
+        <p>&copy; 2016 | made with <a href="https://gloriajs.com">gloria</a></p>
       </div>
       <div class="footer-col footer-col-3">
         <span class='st_facebook_vcount' displayText='Facebook'></span>
         <span class='st_twitter_vcount' displayText='Tweet'></span>
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {{#if site.github_username }}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {{> icon-github.html username=site.github_username }}
           </li>
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {{> icon-twitter.html username=site.twitter_username }}
           </li>
-          {% endif %}
+          {{/if }}
           <li>
               <a href="https://www.linkedin.com/groups/13500636">LinkedIn Group</a>
           </li>

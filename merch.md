@@ -1,7 +1,6 @@
 ---
-layout: page
 permalink: /merch/
-title: Merch
+url: Merch
 ---
 
 # Techqueria in teespring

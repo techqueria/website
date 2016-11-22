@@ -1,7 +1,6 @@
 ---
-layout: page
 title: About
-permalink: /about/
+url: /about/
 ---
 
 Latin@s in Tech - Bay Area is a group interested in connecting folks from underrepresented backgrounds in tech, particularly those from the Latinx community.

@@ -1,8 +1,7 @@
 ---
 excerpt: Learn how to get the most out of our Slack community
 title: Welcome to the techqueria slack
-layout: page
-permalink: /welcome-to-slack/
+url: /welcome-to-slack/
 ---
 
 # Welcome to the Techqueria Slack
