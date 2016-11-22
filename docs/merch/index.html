@@ -140,6 +140,9 @@ Available in 3 colors and most sizes, American Apparel Crew.</p>
                       }
                   });
       }
+      if (location.protocol != 'https:') {
+          location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
     </script>
 
   </body>

@@ -161,6 +161,9 @@ and be more involved, join the channel <code>#meta</code>.</p>
                       }
                   });
       }
+      if (location.protocol != 'https:') {
+          location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
     </script>
 
   </body>

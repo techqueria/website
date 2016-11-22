@@ -24,7 +24,8 @@ const filesToCache = [
     '/contact/',
     '/events/',
     '/code-of-conduct/',
-    '/merch/'
+    '/merch/',
+    'welcome-to-slack/',
  ];
 
 this.addEventListener('install', function(e) {

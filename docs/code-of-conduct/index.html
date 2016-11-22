@@ -143,6 +143,9 @@ we will handle it with confidentiality and care, witch-hunting and shaming other
                       }
                   });
       }
+      if (location.protocol != 'https:') {
+          location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
     </script>
 
   </body>
