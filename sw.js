@@ -1,4 +1,4 @@
-const VERSION = "1.0.11";
+const VERSION = "1.0.2";
 
 const cacheName = 'techqueria';
 
@@ -29,7 +29,7 @@ const filesToCache = [
 
 this.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
-  e.waitUntil(
+  e.waitUntil
     caches.open(cacheName).then(function(cache) {
       console.log('[ServiceWorker] Caching app shell');
       return cache.addAll(filesToCache);
