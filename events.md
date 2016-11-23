@@ -3,7 +3,7 @@ title: Events
 url: /events/
 ---
 
-#[Plan for the future](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/235604788/)
+## Plan for the future
 
 In light of recent political events, Techqueria and PyLadies are committed to ensuring that underrepresented groups in tech feel included, valued, and safe.  
 
@@ -15,7 +15,7 @@ Please fill out [this form](https://docs.google.com/forms/d/1sodh8_s2r0P8GY9hbMM
 
 [RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/235604788/)
 
-// No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. 
+<!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
 ## Partner Events
 
