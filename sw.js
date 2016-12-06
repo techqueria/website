@@ -1,4 +1,4 @@
-const VERSION = "2.0.4";
+const VERSION = "2.0.5";
 
 const cacheName = 'techqueria-org';
 
@@ -6,7 +6,7 @@ console.log(`installing sw.js`);
 
 const filesToCache = [
     '/images/logo.png',
-    '/css/main.css',
+    '/sass/main.css',
     '/',
     '/index.html',
     '/images/icons/icon-logo-techqueria-128x128.png',
@@ -28,10 +28,10 @@ const filesToCache = [
     'welcome-to-slack/',
  ];
 
-this.addEventListener('install', function(e) {
+this.addEventListener('install', function (e) {
   console.log('[ServiceWorker] Install');
-  e.waitUntil
-    caches.open(cacheName).then(function(cache) {
+  e.waitUntil(
+    caches.open(cacheName).then(function (cache) {
       console.log('[ServiceWorker] Caching app shell');
       return cache.addAll(filesToCache);
     })

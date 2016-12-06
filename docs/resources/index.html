@@ -18,7 +18,7 @@
     <meta name="description" content="">
   
     <link rel="stylesheet" href="/sass/main.css">
-    <link rel="canonical" href="">
+    <link rel="canonical" href="resources">
     <link rel="alternate" type="application/rss+xml" title="Latinxs in Tech" href="">
     <!-- Facebook Pixel Code -->
     <script>
@@ -65,9 +65,7 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <p><a href="https://gloriajs.com/">Gloria</a> website for <a href="http://techqueria.org/">Techqueria.org</a></p>
-<p>Fork and create a PR to contribute.</p>
-
+        
       </div>
     </div>
 
@@ -125,7 +123,7 @@
                       }
                   });
       }
-      if (location.protocol != 'https:') {
+      if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1") && location.protocol !== 'https:') {
           location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
       }
     </script>

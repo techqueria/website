@@ -142,7 +142,7 @@ See our main page for links to our social media and to keep informed on what we&
                       }
                   });
       }
-      if (location.protocol != 'https:') {
+      if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1") && location.protocol !== 'https:') {
           location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
       }
     </script>
