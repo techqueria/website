@@ -11,7 +11,7 @@ you know about and want us to include, send an email to **organizers@techqueria.
 add a comment in our [github repo](https://github.com/techqueria/site/issues/3).
 
 - [Daca and Immigration](#daca)
-- [Healtcare and Urgent Care](#health)
+- [HealthCare and Urgent Care](#health)
 - [Job Hunting/Posting](#jobs)
 - [Legal Help](#legal)
 
@@ -51,7 +51,7 @@ FAQ and answers about your rights as an immigrant
 Legal help for DACA beneficiaries
 
 <a name="health"></a>
-## Healtcare and Urgent Care
+## HealthCare and Urgent Care
 
 **California Health Care Resource Guide for Undocumented Immigrants**
 
