@@ -76,12 +76,12 @@ this.addEventListener('fetch', function(event) {
     }).catch(function() {
       return fetch(event.request);
     })
-    // .then(function(response) {
-    //   // response = r;
-    //   caches.open(cacheName).then(function(cache) {
-    //     cache.put(event.request, response);
-    //   });
-    //   return response.clone();
-    // })
+    .then(function(r) {
+      response = r;
+      caches.open(cacheName).then(function(cache) {
+        cache.put(event.request, response);
+      });
+      return response.clone();
+    })
   );
 });
