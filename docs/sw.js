@@ -1,4 +1,4 @@
-const VERSION = "2.0.6";
+const VERSION = "2.0.7";
 
 const cacheName = 'techqueria-org';
 
@@ -26,7 +26,7 @@ const filesToCache = [
     '/events/',
     '/code-of-conduct/',
     '/merch/',
-    'welcome-to-slack/',
+    '/welcome-to-slack/',
  ];
 
 this.addEventListener('install', function (e) {
