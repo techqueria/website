@@ -132,7 +132,7 @@ See our main page for links to our social media and to keep informed on what we&
     <script type="text/javascript">
        if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-                 .register('/sw.js', {scope: '/'})
+                 .register('/sw.old.js', {scope: '/'})
                  .then(function(reg) {
                       if(reg.installing) {
                         console.log('Service worker installing');

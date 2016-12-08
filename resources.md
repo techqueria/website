@@ -57,7 +57,7 @@ Legal help for DACA beneficiaries
 
 [Download PDF](/pdf/HEALTHCARE_RESOURCE_GUIDE_HOPE-FINAL_OCTOBER_28.PDF)
 
-Pretty comprenhensive guide put together by Hispanas Organized for Political
+Pretty comprehensive guide put together by Hispanas Organized for Political
 Equality (HOPE) with resources and information to help you find affordable 
 health care any way in California.
 
@@ -91,7 +91,7 @@ To find local community health centers, search the Community Clinic Association 
 
 **Slack**
 
-In the community we provide different resources to help our members advance their carrers, whether
+In the community we provide different resources to help our members advance their careers, whether
 it is to find a new job, negotiate, practice for interviews or find new employees.
 
 Join our slack team, requesting an invite to your email [latinosin.tech](http://latinosin.tech),
