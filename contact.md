@@ -1,6 +1,7 @@
 ---
 title: Contact
 url: contact
+description: Get in touch with latinxs in tech!
 ---
 
 We're always looking for partners and sponsors to help move our mission forward.
