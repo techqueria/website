@@ -11,8 +11,14 @@
   <meta name="msapplication-TileImage" content="images/icons/icon-techqueria-logo-144x144.png">
   <meta name="msapplication-TileColor" content="#594641">
 
-  <title>{{#if page.title }}{{ page.title }}{{/if }}</title>
-  <meta name="description" content="{{#if page.excerpt }}{{ page.excerpt }}{{/if }}">
+  <title>{{#if page.title }}{{ page.title }}{{else}}{{site.title}}{{/if }}</title>
+  <meta name="description" content="{{#if page.description }}{{ page.description }}{{else}}We're a group of friends trying to connect more with latinxs in the tech industry.{{/if }}" />
+
+  <meta property="og:url"                content="{{site.url}}{{page.url}}" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="Techqueria{{#if page.title }}: {{ page.title }}{{/if }}" />
+  <meta property="og:description"        content="{{#if page.description }}{{ page.description }}{{else}}We're a group of friends trying to connect more with latinxs in the tech industry.{{/if }}" />
+  <meta property="og:image"              content="{{#if page.image }}{{ page.image }}{{else}}htpps://techqueria.org/images/logo-mid.png{{/if}}" />
 
   <link rel="stylesheet" href="/sass/main.css">
   <link rel="canonical" href="{{ page.url }}">

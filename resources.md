@@ -1,5 +1,7 @@
 ---
 url: resources
+title: Resources
+description: We are creating a list of resources for the community, to help you find help on different topics.
 ---
 
 # Resources
