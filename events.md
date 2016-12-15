@@ -5,6 +5,8 @@ url: /events/
 
 ## Holiday Party
 
+Tuesday Dec 20, Downtown Berkeley
+
 Let's get together for a celebration of the holidays and the beautiful things we've accomplished this year.
 
 We'll provide some snacks and drinks, but feel free to bring something to share, drinks or food from your country are encouraged! 

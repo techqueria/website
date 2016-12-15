@@ -1,4 +1,4 @@
-const VERSION = "2.0.6";
+const VERSION = "2.0.7";
 
 const cacheName = 'techqueria-org';
 console.log(`installing sw.js`);
