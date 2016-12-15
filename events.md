@@ -3,17 +3,21 @@ title: Events
 url: /events/
 ---
 
-## Plan for the future
+## Holiday Party
 
-In light of recent political events, Techqueria and PyLadies are committed to ensuring that underrepresented groups in tech feel included, valued, and safe.  
+Let's get together for a celebration of the holidays and the beautiful things we've accomplished this year.
 
-Our lives are enriched when everyone is heard and gets to thrive and, more than ever, we need to work together to make sure this remains a priority in the work we all do. This event is a discussion about we can to do support each other. Let's share resources and knowledge and brainstorm for a movement for inclusion in tech and beyond. All are welcome.
+We'll provide some snacks and drinks, but feel free to bring something to share, drinks or food from your country are encouraged! 
 
-For this event, we plan to have break into groups to plan for skill-sharing and event planning for now and the future.
+Casual event, no dress-code restrictions or schedule! Come over, make new friends, and have a fun time. Friends, family and allies welcome!
 
-Please fill out [this form](https://docs.google.com/forms/d/1sodh8_s2r0P8GY9hbMMkJW9sYA5VdxVQfi53QlgC62Y/viewform?edit_requested=true) so we have a sense of what topics to focus on.
+[RSVP here](https://www.facebook.com/events/1903635419868743/)
 
-[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/235604788/)
+## Latinxs in Open-Source and CyberSecurity
+
+Details will be announced soon! 
+
+[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236223131/)
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
