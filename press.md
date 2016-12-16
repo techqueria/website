@@ -8,7 +8,7 @@ These are some of the articles and press mentions of techqueria or it's members.
 
 For press inquiries, email us at organizers[at]techqueria.org.
 
-### The Tech Industry’s Leaky Pipeline
+## The Tech Industry’s Leaky Pipeline
 
 Dec 16, 2016 **Latino Usa** by [Antonia Cerejido](https://twitter.com/antoniacere)
 
@@ -16,7 +16,7 @@ No matter the measure, whether it be race, class, or gender, the tech industry d
 
 http://latinousa.org/episode/tech-industrys-leaky-pipeline/
 
-### Why Slack Poses as Much of a Threat to Facebook as Snapchat
+## Why Slack Poses as Much of a Threat to Facebook as Snapchat
 
 OCT 4, 2016 **Inc.com** by [Salvador Rodriguez](https://twitter.com/sal19)
 
@@ -24,3 +24,5 @@ As more people create Slack groups outside work, social activity is shifting off
 
 http://www.inc.com/salvador-rodriguez/facebook-work-slack.html
 
+
+**Contribute** If want to add links to this list, consider opening a PR in [github](https://github.com/techqueria/site)
