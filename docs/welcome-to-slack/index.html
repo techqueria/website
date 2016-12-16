@@ -60,10 +60,11 @@
           </a>
           <div class="trigger">
               <!--<a class="page-link" href="/about/">About</a>-->
+              <a class="page-link" href="/press/">Prensa</a>
               <a class="page-link" href="/contact/">Contacto</a>
               <a class="page-link" href="/events/">Eventos</a>
               <a class="page-link" href="/resources/">Recursos</a>
-              <a class="page-link" href="/merch/">Merch</a>
+              <!--<a class="page-link" href="/merch/">Merch</a>-->
           </div>
         </nav>
       </div>
@@ -147,6 +148,9 @@ and be more involved, join the channel <code>#meta</code>.</p>
                     <span class="username">techqueria</span>
                 </a>
               </li>
+              <li>
+                  <a class="page-link" href="/merch/">Merch</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -156,25 +160,23 @@ and be more involved, join the channel <code>#meta</code>.</p>
     <script type="text/javascript">stLight.options({publisher: "82f8287f-b0eb-4ccd-9925-3dd02ed4a4c3", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
     <script type="text/javascript">
        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.old.js', {scope: '/'})
-          .then(function(reg) {
-              if(reg.installing) {
-                console.log('Service worker installing');
-              } else if(reg.waiting) {
-                console.log('Service worker installed');
-              } else if(reg.active) {
-                console.log('Service worker active');
-              }
+          navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                console.log('unregistering old service workers');
+                registration.unregister();
+            } 
           });
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-          for(let registration of registrations) {
-            if (registration.active && registration.active.scriptURL.match('sw.js')) {
-              console.log('lol');
-              registration.unregister();
-            }
-          } 
-        });
     
+          // navigator.serviceWorker.register('/sw.old.js', {scope: '/'})
+          // .then(function(reg) {
+          //     if(reg.installing) {
+          //       console.log('Service worker installing');
+          //     } else if(reg.waiting) {
+          //       console.log('Service worker installed');
+          //     } else if(reg.active) {
+          //       console.log('Service worker active');
+          //     }
+          // });
       }
       if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1") && location.protocol !== 'https:') {
           location.href = 'https:' + window.location.href.substring(window.location.protocol.length);

@@ -1,4 +1,4 @@
-const VERSION = "2.0.7";
+const VERSION = "2.0.8";
 
 const cacheName = 'techqueria-org';
 console.log(`installing sw.js`);
@@ -25,6 +25,7 @@ const filesToCache = [
     '/events/',
     '/index.html',
     '/merch/',
+    '/press/',
     '/welcome-to-slack/',
  ];
 
