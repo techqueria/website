@@ -1,0 +1,12 @@
+---
+excerpt: Learn how to get the most out of our Slack community
+title: Welcome to the techqueria slack
+url: /slack/
+---
+
+# Request an invite to Techqueria Slack
+
+We'd like to learn more a little bit about your interest in our community. Please answer these questions and you'll receive an invitation to our Slack.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
