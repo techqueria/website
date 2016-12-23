@@ -96,7 +96,7 @@ To find local community health centers, search the Community Clinic Association 
 In the community we provide different resources to help our members advance their careers, whether
 it is to find a new job, negotiate, practice for interviews or find new employees.
 
-Join our slack team, requesting an invite to your email [latinosin.tech](http://latinosin.tech),
+Join our slack team, requesting an invite to your email [here](/slack),
 then you can participate with your smartphone or computer. If you haven't used slack before look
 at these pages where we explain how to take advantage of them. 
 
