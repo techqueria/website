@@ -137,7 +137,7 @@ available.
     </footer>
     <script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">
-    if (stLight) {
+    if (typeof stLight !== 'undefined') {
       stLight.options({publisher: "82f8287f-b0eb-4ccd-9925-3dd02ed4a4c3", doNotHash: true, doNotCopy: true, hashAddressBar: false});
     }
     </script>
@@ -168,7 +168,7 @@ available.
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      if (ga) {
+      if (typeof ga !== 'undefined') {
         ga('create', 'UA-88917358-1', 'auto');
         ga('send', 'pageview');
       }
