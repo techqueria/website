@@ -3,21 +3,11 @@ title: Events
 url: /events/
 ---
 
-## Holiday Party
+# Events
 
-Tuesday Dec 20, Downtown Berkeley
+## Open-Source and CyberSecurity
 
-Let's get together for a celebration of the holidays and the beautiful things we've accomplished this year.
-
-We'll provide some snacks and drinks, but feel free to bring something to share, drinks or food from your country are encouraged! 
-
-Casual event, no dress-code restrictions or schedule! Come over, make new friends, and have a fun time. Friends, family and allies welcome!
-
-[RSVP here](https://www.facebook.com/events/1903635419868743/)
-
-## Latinxs in Open-Source and CyberSecurity
-
-Details will be announced soon! 
+In our January event, hosted by GitHub, we wanted to especially profile the innovative open-source work being undertaken by underrepresented groups in tech. We'll also have a cybersecurity component to our talks, as we believe in making the web more secure for everyone.
 
 [RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236223131/)
 
