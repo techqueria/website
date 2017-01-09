@@ -171,6 +171,8 @@ pre {
   .site-nav .page-link {
     color: #111;
     line-height: 1.5; }
+    .site-nav .page-link.active.active {
+      color: white; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
