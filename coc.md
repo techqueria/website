@@ -37,6 +37,11 @@ Respect is important for everybody, if you feel uncomfortable, or suspect of som
 we will handle it with confidentiality and care, witch-hunting and shaming other's actions is equally reprimandable. You can contact
 the organizers in slack, or by sending an email to organizers@techqueria.org.
 
+## Slack
+
+For more information on getting the most out of slack,
+[check out this page](/welcome-to-slack/).
+
 ## Acknowledgment
 
 Our Code of Conduct is inspired by Women Who Code and LGBTQ in Technology.
