@@ -5,11 +5,12 @@ url: /events/
 
 # Events
 
-## Open-Source and CyberSecurity
+## Techqueria comes to Mountain View <small>Feb 23</small>
 
-In our January event, hosted by GitHub, we wanted to especially profile the innovative open-source work being undertaken by underrepresented groups in tech. We'll also have a cybersecurity component to our talks, as we believe in making the web more secure for everyone.
+More details are coming soon. We will be going to meet in Udacity, and share with a panel of managers and directors from
+different companies in the south bay.
 
-[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236223131/)
+[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
