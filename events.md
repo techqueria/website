@@ -28,3 +28,8 @@ available.
 [RSVP Here](http://www.up.co/communities/usa/san-francisco/startup-weekend/9649)
 -->
 
+## Previous Events
+
+You can see videos from our previous events in our [youtube channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
+
+You can find pictures from our previous events in [meetup](https://www.meetup.com/Latinos-in-Tech-Bay-Area/photos/).
