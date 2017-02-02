@@ -5,10 +5,18 @@ url: /events/
 
 # Events
 
-## Techqueria comes to Mountain View <small>Feb 23</small>
+## Advancing into Senior Roles - Mountain View <small>Feb 23</small>
 
-More details are coming soon. We will be going to meet in Udacity, and share with a panel of managers and directors from
-different companies in the south bay.
+Our panelists, whose backgrounds run the gamut from statistical analysis to product management, will speak about lessons learned in the tech industry as they've advanced into senior roles in their careers. 
+
+- Carlos Gomez Uribe, Director of Product, Facebook
+
+- Carolina Huaranca, Principal, Kapor Capital
+
+- Michelle Rodriguez, Diversity & Inclusion program manager, VMWare
+
+- Rubí Sanchez, Product Manager, Atipica
+
 
 [RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
 
