@@ -7,7 +7,7 @@ url: /events/
 
 ## Advancing into Senior Roles - Mountain View <small>Feb 23</small>
 
-Our panelists, whose backgrounds run the gamut from statistical analysis to product management, will speak about lessons learned in the tech industry as they've advanced into senior roles in their careers. 
+Our panelists, whose backgrounds run the gamut from statistical analysis to product management, will speak about lessons learned in the tech industry as they've advanced into senior roles in their careers.
 
 - Carlos Gomez Uribe, Director of Product, Facebook
 
@@ -18,23 +18,44 @@ Our panelists, whose backgrounds run the gamut from statistical analysis to prod
 - Rubí Sanchez, Product Manager, Atipica
 
 
-[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
+## [RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
 ## Partner Events
 
-<!--### Startup Weekend Latinx in Tech <small>Oct 21</small>
+### Startup Weekend Education Oakland <small>Feb 10</small>
 
-Startup Weekend returns to Oakland for first ever #LatinxTech Edition Oct
-21-23rd! We are looking for developers, designers, biz background latinx
-participants. Be part of a 54hr life changing experience to launch your venture
-focused on unlocking a trillion $ market opportunity.  If you know of
-organizations working with Latinx youth please message us - scholarships
-available.
+<img src="/images/oakedu.png" alt="Startup Weekend Education Oakland" />
 
-[RSVP Here](http://www.up.co/communities/usa/san-francisco/startup-weekend/9649)
--->
+What should the future of school look like in Oakland? Come bring your ideas to
+life in just one weekend! You’ll team up with other passionate people to
+reimagine education in Oakland and solve tough problems.  All are welcome,
+especially high school students! No skills required. Just enthusiasm and
+creativity. All meals are provided. Participants will work on: technology tools
+for education, innovations for Oakland school sites, after school programs and
+learning spaces and new school concepts. Register now
+
+Learn more at [swedu.oakedu.org](swedu.oakedu.org) Use discount code
+[techqueria](https://www.eventbrite.com/e/startup-weekend-education-schools-and-tools-for-oakland-tickets-29060726415?discount=techqueria).
+
+
+### Reactathon
+
+A week of community-run events in San Francisco leading up to Facebook's React Conference this March.
+
+If you're already a fan of React, or you want to learn, this is your event.
+
+Events include:
+7 workshops from 6 industry leaders over 4 days
+1 hiring mixer
+1 evening meetup
+2-day React-specific hackathon
+Techqueria members get 10% off all workshops through Friday, February 10th with this secret
+link: [https://ti.to/real-world-react/reactathon-2017/discount/TECHQUERIA9957](https://ti.to/real-world-react/reactathon-2017/discount/TECHQUERIA9957)
+
+You can learn more and register for Reactathon at [https://www.reactathon.com](https://www.reactathon.com)
+Learn more about Real World React at [https://www.meetup.com/Real-World-React/](https://www.meetup.com/Real-World-React/)
 
 ## Previous Events
 
