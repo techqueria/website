@@ -36,7 +36,7 @@ creativity. All meals are provided. Participants will work on: technology tools
 for education, innovations for Oakland school sites, after school programs and
 learning spaces and new school concepts. Register now
 
-Learn more at [swedu.oakedu.org](swedu.oakedu.org) Use discount code
+Learn more at [swedu.oakedu.org](http://swedu.oakedu.org) Use discount code
 [techqueria](https://www.eventbrite.com/e/startup-weekend-education-schools-and-tools-for-oakland-tickets-29060726415?discount=techqueria).
 
 
