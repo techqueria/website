@@ -18,14 +18,14 @@ Our panelists, whose backgrounds run the gamut from statistical analysis to prod
 - Rubí Sanchez, Product Manager, Atipica
 
 
-## [RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
+[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
 
 ## Techqueria LA - Downtown LA <small>Feb 23</small>
 
 Join us at our second meetup of the year!
 Connect with other latinx in tech to support each other, network, and discuss and implement tech solutions to help our communities.
 
-## [RSVP here](https://www.eventbrite.com/e/techqueria-la-tickets-31871006037)
+[RSVP here](https://www.eventbrite.com/e/techqueria-la-tickets-31871006037)
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
