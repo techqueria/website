@@ -12,8 +12,8 @@ Please answer
 and you'll receive an invitation to our Slack.
 
 In the meantime, look at our [LinkedIn](https://www.linkedin.com/groups/13500636) and [Facebook](https://www.facebook.com/groups/techqueria/) groups.
-And review our **[code of conduct](/code-of-conduct/)**.
-
+Review our **[code of conduct](/code-of-conduct/)** and our
+[welcome to slack](/welcome-to-slack) page.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
