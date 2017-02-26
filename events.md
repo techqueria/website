@@ -5,47 +5,26 @@ url: /events/
 
 # Events
 
-## Advancing into Senior Roles - Mountain View <small>Feb 23</small>
+## Save the date: March meetup at Microsoft <small>March 23</small>
 
-Our panelists, whose backgrounds run the gamut from statistical analysis to product management, will speak about lessons learned in the tech industry as they've advanced into senior roles in their careers.
+Our March event with focus on Cybersecurity.
 
-- Carlos Gomez Uribe, Director of Product, Facebook
+More details will be announced soon!
 
-- Carolina Huaranca, Principal, Kapor Capital
+[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/237736844/)
 
-- Michelle Rodriguez, Diversity & Inclusion program manager, VMWare
-
-- Rubí Sanchez, Product Manager, Atipica
-
-
-[RSVP here](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/236882451/)
-
+<!--
 ## Techqueria LA - Downtown LA <small>Feb 23</small>
 
 Join us at our second meetup of the year!
 Connect with other latinx in tech to support each other, network, and discuss and implement tech solutions to help our communities.
 
 [RSVP here](https://www.eventbrite.com/e/techqueria-la-tickets-31871006037)
+-->
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
 ## Partner Events
-
-### Startup Weekend Education Oakland <small>Feb 10</small>
-
-<img src="/images/oakedu.png" alt="Startup Weekend Education Oakland" />
-
-What should the future of school look like in Oakland? Come bring your ideas to
-life in just one weekend! You’ll team up with other passionate people to
-reimagine education in Oakland and solve tough problems.  All are welcome,
-especially high school students! No skills required. Just enthusiasm and
-creativity. All meals are provided. Participants will work on: technology tools
-for education, innovations for Oakland school sites, after school programs and
-learning spaces and new school concepts. Register now
-
-Learn more at [swedu.oakedu.org](http://swedu.oakedu.org) Use discount code
-[techqueria](https://www.eventbrite.com/e/startup-weekend-education-schools-and-tools-for-oakland-tickets-29060726415?discount=techqueria).
-
 
 ### Reactathon
 
