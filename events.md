@@ -17,14 +17,14 @@ professionals on the field. There will be a chance to meet them and ask them que
 
 [See all details and RSVP in meetup](https://www.meetup.com/Latinos-in-Tech-Bay-Area/events/237736844/)
 
-<!--
-## Techqueria LA - Downtown LA <small>Feb 23</small>
+## Techqueria LA - Google Venice <small>Mar 29</small>
 
-Join us at our second meetup of the year!
-Connect with other latinx in tech to support each other, network, and discuss and implement tech solutions to help our communities.
+Hola familia,
+Our next meetup will be hosted at Google in Venice on March 29, 2017 at 7PM
 
-[RSVP here](https://www.eventbrite.com/e/techqueria-la-tickets-31871006037)
--->
+We're excited to have some great speakers from the Latinx community talking about history of email and machine learning.
+
+[RSVP here](https://www.eventbrite.com/e/techqueria-la-march-2017-meetup-tickets-32802779998)
 
 <!--No events planned yet for the future, join our [meetup](http://www.meetup.com/Latin-s-in-Tech-Bay-Area) to receive information when available. -->
 
@@ -48,25 +48,9 @@ employees are Latino. How can we change this reality?
 
 [Details and RSVP in Eventbrite](https://www.eventbrite.com/e/latinos-in-tech-getting-beyond-the-3-tickets-32340530397)
 
-### Reactathon
-
-A week of community-run events in San Francisco leading up to Facebook's React Conference this March.
-
-If you're already a fan of React, or you want to learn, this is your event.
-
-Events include:
-7 workshops from 6 industry leaders over 4 days
-1 hiring mixer
-1 evening meetup
-2-day React-specific hackathon
-Techqueria members get 10% off all workshops through Friday, February 10th with this secret
-link: [https://ti.to/real-world-react/reactathon-2017/discount/TECHQUERIA9957](https://ti.to/real-world-react/reactathon-2017/discount/TECHQUERIA9957)
-
-You can learn more and register for Reactathon at [https://www.reactathon.com](https://www.reactathon.com)
-Learn more about Real World React at [https://www.meetup.com/Real-World-React/](https://www.meetup.com/Real-World-React/)
-
 ## Previous Events
 
 You can see videos from our previous events in our [youtube channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
 
 You can find pictures from our previous events in [meetup](https://www.meetup.com/Latinos-in-Tech-Bay-Area/photos/).
+
