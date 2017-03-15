@@ -1,91 +1,75 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title }}</h2>
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-        <p><a href="/code-of-conduct/">Code Of Conduct</a></p>
-        <p>&copy; 2016 | made with <a href="https://gloriajs.com">gloria</a></p>
-      </div>
-      <div class="footer-col footer-col-3">
-        <span class='st_facebook_vcount' displayText='Facebook'></span>
-        <span class='st_twitter_vcount' displayText='Tweet'></span>
-        <ul class="social-media-list">
-          {{#if site.github_username }}
-          <li>
-            {{> icon-github.html username=site.github_username }}
-          </li>
-          <li>
-            {{> icon-twitter.html username=site.twitter_username }}
-          </li>
-          {{/if }}
-          <li>
-              <a href="https://www.linkedin.com/groups/13500636">LinkedIn Group</a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/groups/techqueria/">
-                <span class="icon icon--facebook">
-                  <img src="/images/fb.jpg" width=18>
-                </span>
-                <span class="username">techqueria</span>
-            </a>
-          </li>
-          <li>
-              <a class="page-link" href="/merch/">Merch</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
+<footer class="dark-bg">
+    <div class="container inner">
+        <div class="row">
 
-
-
-        <footer class="dark-bg">
-            <div class="container inner">
-                <div class="row">
-
-                    <div class="col-md-6 col-sm-6 inner">
-                        <h4>Who we are</h4>
-                        <a href="/">
-                            <img class="logo img-intext" src="/assets/images/logo-transparent.png" alt="Techqueria Logo">
-                        </a>
-                        <p>
-                            Calling all latinxs in tech! Whether you just got
-                            here last week or your family is been in the
-                            country for decades, we have a lot to share and be
-                            proud of. Come share your experiences with the
-                            community
-                        </p>
-                        <a href="#" class="txt-btn">More about us</a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 inner">
-                        <h4>Get In Touch</h4>
-                        <p>We're always looking for partners and sponsors to help move our mission forward.
-                        The best way to get in touch with us is via Slack.
-                        You can request an invite to Latinxs in Tech - slack: <a href="/slack">here</a>.
-                        You can also message the organizers via <a href="http://www.meetup.com/Latinos-in-Tech-Bay-Area/">meetup</a>.</p>
-                        <ul class="contacts">
-                            <li><a href="#"><i class="icon-mail-1 contact"></i> organizers@techqueria.org</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-6 inner">
+                <h4>Who we are</h4>
+                <a href="/">
+                    <img class="logo img-intext" src="/assets/images/logo-transparent.png" alt="Techqueria Logo">
+                </a>
+                <p>
+                    Calling all latinxs in tech! Whether you just got
+                    here last week or your family is been in the
+                    country for decades, we have a lot to share and be
+                    proud of. Come share your experiences with the
+                    community
+                </p>
+                <p><a href="#" class="txt-btn">More about us</a></p>
+                <p><a href="/code-of-conduct/" class="txt-btn">Code of Conduct</a></p>
             </div>
+            <div class="col-md-4 col-sm-6 inner">
+                <h4>Communities</h4>
+                <p>
+                    Our online communities provide a space to communicate with each other,
+                    post about job offers, ask for career advice, share events, music and
+                    recipes!
+                </p>
+                <ul class="contacts">
+                    <li>
+                        <a href="/slack">
+                            <i class="icon-star-1 contact"></i> Slack</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/groups/13500636">
+                            <i class="icon-linkedin-squared contact"></i> LinkedIn Group</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/techqueria/">
+                            <i class="icon-facebook contact"></i> Facebook Group</a>
+                    </li>
+                </ul>
+                <a href="#" class="txt-btn">Communities</a>
+            </div>
+            <div class="col-md-4 col-sm-6 inner">
+                <h4>Get In Touch</h4>
+                <p>We're always looking for partners and sponsors to help move our mission forward.
+                    If interested in learning more about us, and opportunities to work together, you can
+                    send us an email to <i class="icon-mail-1 contact"></i> organizers@techqueria.org</a>.
+                </p>
+                <ul class="contacts">
+                    <li><a href="https://github.com/techqueria"><i class="icon-github contact"></i> github.com/techqueria</a></li>
+                    <li><a href="https://twitter.com/techqueriasf"><i class="icon-twitter contact"></i> twitter.com/techqueriaSF</a></li>
+                    <li><a class="page-link" href="/merch/"><i class="icon-basket contact"></i> Merch</a></li>
+                </ul>
+                <a href="/contact" class="txt-btn">Contact Details</a>
+            </div>
+        </div>
+    </div>
 
-            <div class="footer-bottom">
-                <div class="container inner">
-                    <p class="pull-left">©2017 Techqueria</p>
-                    <ul class="footer-menu pull-right">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/press">Press</a></li>
-                        <li><a href="https://blog.techqueria.org/">Blog</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="/resources">Resources</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                    </ul><!-- .footer-menu -->
-                </div><!-- .container -->
-            </div><!-- .footer-bottom -->
-        </footer>
+    <div class="footer-bottom">
+        <div class="container inner">
+            <p class="pull-left">&copy; 2017 Techqueria | made with <a href="https://gloriajs.com">gloria</a></p>
+            <ul class="footer-menu pull-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/press">Press</a></li>
+                <li><a href="https://blog.techqueria.org/">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
 
 

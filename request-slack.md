@@ -6,6 +6,8 @@ url: /slack/
 
 # Request an invite to Techqueria Slack
 
+If you are already a slack member, sign up here: http://latinos.slack.com/
+
 We'd like to learn more a little bit about your interest in our community.
 Please answer
 [these questions](https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform)
