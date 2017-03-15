@@ -53,4 +53,9 @@ $on-laptop:        800px;
         "custom"
 ;
 
-
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+p a {
+    color: inherit;
+}
