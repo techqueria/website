@@ -1,6 +1,6 @@
 ---
 title: Contact
-url: contact
+url: /contact/
 description: Get in touch with latinxs in tech!
 ---
 # Contact Us

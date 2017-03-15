@@ -477,3 +477,13 @@ h2 {
   margin: 1%;
   border: 2px solid #1756a9;
   border-radius: 5px; }
+
+body.custom {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.navbar-brand {
+  color: #fabe6e;
+  font-weight: bold; }
+  .navbar-brand:hover {
+    color: #fabe6e;
+    text-decoration: underline; }

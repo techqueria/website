@@ -20,3 +20,15 @@ h2 {
     border-radius: 5px;
 }
 
+body.custom {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-brand {
+    color: #fabe6e;
+    font-weight: bold;
+    &:hover {
+        color: #fabe6e;
+        text-decoration: underline;
+    }
+}
+

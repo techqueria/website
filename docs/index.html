@@ -14,15 +14,37 @@
     <meta name="msapplication-TileColor" content="#594641">
   
     <title>Welcome</title>
-    <meta name="description" content="We&#x27;re a group of friends trying to connect more with latinxs in the tech industry." />
+    <meta name="description" content="We&#x27;re a community of latinx professionals in the tech industry." />
   
     <meta property="og:url"                content="https://techqueria.org//" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Techqueria: Welcome" />
-    <meta property="og:description"        content="We&#x27;re a group of friends trying to connect more with latinxs in the tech industry." />
+    <meta property="og:description"        content="We&#x27;re a community of latinx professionals in the tech industry." />
     <meta property="og:image"              content="https://techqueria.org/images/logo-squared.png" />
   
-    <link rel="stylesheet" href="/sass/main.css">
+  
+          <!-- Core CSS -->
+          <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+          <link href="/assets/css/main.css" rel="stylesheet">
+  
+          <!-- AddOn/Plugin CSS -->
+          <link href="/assets/css/blue.css" rel="stylesheet" title="Color">
+          <link href="/assets/css/owl.carousel.css" rel="stylesheet">
+          <link href="/assets/css/owl.transitions.css" rel="stylesheet">
+          <link href="/assets/css/animate.min.css" rel="stylesheet">
+          <link href="/assets/css/aos.css" rel="stylesheet">
+  
+          <!-- Custom CSS -->
+          <link rel="stylesheet" href="/sass/main.css">
+  
+          <!-- Fonts
+          <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
+          <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
+          -->
+  
+          <!-- Icons/Glyphs -->
+          <link href="/assets/fonts/fontello.css" rel="stylesheet">
+  
     <link rel="canonical" href="/">
     <link rel="alternate" type="application/rss+xml" title="Latinxs in Tech" href="">
     <!-- Facebook Pixel Code -->
@@ -32,38 +54,65 @@
       n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
       t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
           document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  
       fbq('init', '1795759010654444');
       fbq('track', "PageView");</script>
     <noscript>
       <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1795759010654444&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
-        <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-     <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-  <body>
-    <header class="site-header">
-      <div class="wrapper">
-        <a class="site-title" href="/">Latinxs in Tech</a>
-        <nav class="site-nav">
-          <a href="#" class="menu-icon">
-            <svg viewBox="0 0 18 15">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </a>
-          <div class="trigger">
-              <a class="page-link " href="/press/">Press</a>
-              <a class="page-link " href="/contact/">Contact</a>
-              <a class="page-link " href="/events/">Events</a>
-              <a class="page-link " href="/resources/">Resources</a>
-          </div>
-        </nav>
-      </div>
+  
+  <body class="custom">
+    <header>
+        <div class="navbar">
+            <div class="navbar-header">
+                <div class="container">
+                    <ul class="info pull-left">
+                        <li><a href="#"><i class="icon-mail-1 contact"></i>organizers@techqueria.org</a></li>
+                    </ul>
+                    <ul class="social pull-right">
+                        <li><a href="https://www.facebook.com/groups/techqueria/">
+                                <i class="icon-s-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/techqueriasf">
+                                <i class="icon-s-twitter"></i></a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/assets/images/logo.png" class="logo" alt="Techqueria logo">
+                    </a>
+                    <a class="navbar-toggle btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+                </div>
+            </div>
+            <div class="yamm">
+                <div class="navbar-collapse collapse">
+                    <div class="container">
+                        <a class="navbar-brand" href="/">
+                            <img src="/assets/images/logo.png" class="logo" alt="Techqueria logo">
+                        </a>
+                        <ul class="nav navbar-nav">
+                            <li class="hover ">
+                                <a href="/press/">Press</a>
+                            </li>
+                            <li class="hover ">
+                                <a href="/contact/">Contact</a>
+                            </li>
+                            <li class="hover ">
+                                <a href="/events/">Events</a>
+                            </li>
+                            <li class="hover ">
+                                <a href="/resources/">Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+    
     <div class="page-content">
       <div class="wrapper">
         
@@ -153,24 +202,6 @@
     }
     </script>
     <script type="text/javascript">
-       if ('serviceWorker' in navigator) {
-          // navigator.serviceWorker.getRegistrations().then(function(registrations) {
-          //   for(let registration of registrations) {
-          //       console.log('unregistering old service workers');
-          //       registration.unregister();
-          //   } 
-          // });
-          // navigator.serviceWorker.register('/sw.old.js', {scope: '/'})
-          // .then(function(reg) {
-          //     if(reg.installing) {
-          //       console.log('Service worker installing');
-          //     } else if(reg.waiting) {
-          //       console.log('Service worker installed');
-          //     } else if(reg.active) {
-          //       console.log('Service worker active');
-          //     }
-          // });
-      }
       if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1") && location.protocol !== 'https:') {
           location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
       }
@@ -185,6 +216,21 @@
       }
     
     </script>
+    
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.easing.1.3.min.js"></script>
+    <script src="/assets/js/jquery.form.js"></script>
+    <script src="/assets/js/jquery.validate.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/aos.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.isotope.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.easytabs.min.js"></script>
+    <script src="/assets/js/viewport-units-buggyfill.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/custom.js"></script>
+    
   </body>
 </html>
 
