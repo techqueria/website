@@ -1,0 +1,123 @@
+a:hover,
+a:focus,
+.bordered .info h3 a:hover,
+.bordered .info h4 a:hover,
+.icon i.icn,
+.meta a:hover,
+.meta li.categories:hover:before,
+.more:hover,
+.navbar.basic .nav > li > a:hover,
+.navbar.basic .nav > li > a:focus,
+.navbar.basic .nav .open > a,
+.navbar.basic .nav .open > a:hover,
+.navbar.basic .nav .open > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active,
+.navbar-header .info a:hover,
+.nav > li > a:hover,
+.owl-carousel:hover .owl-next:hover,
+.owl-carousel:hover .owl-prev:hover,
+.panel-title > a:hover,
+#scrollUp:hover,
+.sidemeta .format-wrapper a,
+.tabs-side .tab.active a,
+.tabs-top .tab.active a,
+.text-center .panel-title > a:hover span:after,
+ul.arrowed li:before,
+ul.circled li:before,
+.yamm .yamm-content a:hover {
+	color: #95A5A6;
+}
+
+.tint-bg .btn,
+.tint-color {
+	color: #95A5A6 !important;
+}
+
+.btn,
+.classic-blog .post .date,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover,
+.navbar .dropdown-submenu:focus > a,
+.navbar .dropdown-submenu:hover > a,
+.owl-pagination .owl-page.active span,
+.owl-pagination .owl-page:hover span,
+#owl-main .caption h1 span.tint-bg,
+#owl-main .caption p span.tint-bg,
+.pagination > li > a,
+.pagination > li > span,
+.post.format-quote,
+.sidemeta .format-wrapper a:hover,
+.sidenav li a:hover,
+.tabs-circle-top .tab.active a,
+.tabs-side .tab a:hover,
+.tabs-top .tab a:hover,
+.tint-bg,
+.tint-bg.img-bg-soft:before,
+.tint-bg.img-bg-softer:before,
+.tooltip-inner {
+	background-color: #95A5A6;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > li > a:hover,
+.pagination > li > a:focus {
+	background-color: #859394;
+}
+
+.icon-overlay a .icn-more,
+.items li .text-overlay,
+.owl-carousel .item .text-overlay,
+.thumbs .thumb .text-overlay {
+	background-color: rgba(149, 165, 166, 0.9);
+}
+
+.classic-blog .post .date,
+.icon.circle,
+.sidemeta .format-wrapper a,
+.tabs-circle-top .tab.active a,
+.tabs-circle-top .tab a:hover,
+.tabs-side .tab a:hover,
+.tabs-top .tab a:hover {
+	border-color: #95A5A6;
+}
+
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+	border-top-color: #95A5A6;
+}
+.tooltip.right .tooltip-arrow {
+	border-right-color: #95A5A6;
+}
+.tooltip.left .tooltip-arrow {
+	border-left-color: #95A5A6;
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+	border-bottom-color: #95A5A6;
+}
+
+#owl-main .caption h1 span.tint-bg,
+#owl-main .caption p span.tint-bg  {
+	box-shadow: -.500em 0 0 #95A5A6, .500em 0 0 #95A5A6;
+}
+
+::selection {
+	background: #DAE5E5; /* Safari */
+}
+
+::-moz-selection {
+	background: #DAE5E5; /* Firefox */
+}
