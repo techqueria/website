@@ -34,4 +34,10 @@ main > section {
 .bg-taco h1 {
     text-shadow: 1px 1px 1px black;
 }
-
+main {
+    section {
+        img {
+            max-width: 100%;
+        }
+    }
+}
