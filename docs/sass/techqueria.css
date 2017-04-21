@@ -23,3 +23,9 @@ main > section {
 
 main section img {
   max-width: 100%; }
+
+main iframe {
+  width: 100%; }
+
+#index-header h1, #index-header p {
+  color: #333; }
