@@ -24,3 +24,7 @@ in the `_posts` folder.
 Create a PR, I think we should get a notification, if you don't see a response
 after a day or so, contact us in slack or at organizers[at]techqueria.org
 
+You can also open issues with suggestions and feedback about the site, for feedback
+and suggestions about the organization you can also contact us directly at
+organizers@techqueria.org or in the #meta channel in slack.
+
