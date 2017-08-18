@@ -49,4 +49,14 @@ main {
         color: #333;
     }
 }
-
+.team {
+    header {
+        margin: 1em 0;
+    }
+    h2 {
+        margin: 0;
+    }
+    .col-sm-10.col-md-8 {
+        margin-top: 0 !important;
+    }
+}
