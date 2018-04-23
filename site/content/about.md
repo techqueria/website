@@ -23,20 +23,20 @@ Techqueria is possible thanks to the work of lots of people, organizers, volunte
 
 ### Bay Area
 
-* [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria and head of logistics, is also the founder of Quajada
-* [Rubi Sanchez](https://www.linkedin.com/in/rubisanchez/), community engagement fellow at Strawberry Creek Ventures
-* [David Hincapie](https://www.linkedin.com/in/david-hincapie-651a412a/), in charge of Product at Oculus VR
-* [Philip Ventura](https://www.linkedin.com/in/fvntr/), UI Engineer at Lending Club
+* [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria and software engineer at Diamond Web Services
+* [Rubi Sanchez](https://www.linkedin.com/in/rubisanchez/), product manager at AdRoll
+* [David Hincapie](https://www.linkedin.com/in/davidohincapie/), product specialist at Oculus VR
+* [Philip Ventura](https://www.linkedin.com/in/fvntr/), software engineer at Lending Club
 
 ### Los Angeles
 
-* [Esteban Uribe](https://www.twitter.com/estebanuribe), co-founder of the LA chapter, and iOS Engineer at Tinder
-* [Hector Carmona](https://www.linkedin.com/in/hectoroddincarmona/), Software Engineer at Google
-* [Josue Bustos](https://www.linkedin.com/in/josuebustos), Technical Evangelist at Samsung
+* [Esteban Uribe](https://www.linkedin.com/in/estebanuribe/), co-founder of Techqueria's LA chapter and iOS Engineer at Tinder
+* [Hector Carmona](https://www.linkedin.com/in/hectoroddincarmona/), software engineer at Google
+* [Josue Bustos](https://www.linkedin.com/in/josuebustos), technical evangelist at Samsung
 
 ### New York
 
-* [Tatiana Carett](https://www.linkedin.com/in/tatianacarett/), consulting professional with experience in health service delivery, technology implementation, healthcare management/operations, public health and managed care/insurance
-* [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and JS developer at dokbid.com
+* [Tatiana Carett](https://www.linkedin.com/in/tatianacarett/), associate at Booz Allen Hamilton
+* [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
 
 ## Learn about our [partners and sponsors](/sponsors/)!
