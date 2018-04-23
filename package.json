@@ -1,8 +1,8 @@
 {
-  "name": "fvcproductions",
+  "name": "techqueria",
   "version": "1.0.0",
-  "description": "I like to dabble with things that ought to be dabbled with.",
-  "repository": "fvcproductions/fvcproductions.github.io",
+  "description": "A community of Latinx professionals in the tech industry.",
+  "repository": "techqueria/site",
   "main": "app.js",
   "scripts": {
     "hugo": "gulp hugo",
