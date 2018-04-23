@@ -1,7 +1,6 @@
 ---
-title: About
+title: About 🌮️
 description: Techqueria is a professional community for Latinxs in tech.
-banner: https://picsum.photos/800/600/?random
 ---
 
 <section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">

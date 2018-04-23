@@ -1,21 +1,23 @@
 {{ define "main" }}
-<section class="hero is-medium is-primary is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        {{ .Title }}
-      </h1>
-      <h2 class="subtitle">
-        {{ .Description }}
-      </h2>
-    </div>
-  </div>
+<!-- Banner -->
+{{ if .Params.banner }}
+<section class="hero is-medium is-primary is-bold background-image" style="background-image:url({{ .Params.banner }});">
+  {{ partial "hero.html" . }}
 </section>
+{{ else }}
+<section class="hero is-medium is-primary is-bold">
+  {{ partial "hero.html" . }}
+</section>
+{{ end }}
+<!-- Content -->
+{{ if .Content }}
 <section class="section page">
   <div class="container">
-    {{ if .Content }} {{ .Content }}
+    {{ .Content }}
     <!-- Taxonomy -->
-    {{ partial "taxonomy.html" . }} {{ end }}
+    {{ partial "taxonomy.html" . }}
   </div>
 </section>
+{{ end }}
+<!-- End Main -->
 {{ end }}

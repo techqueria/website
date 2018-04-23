@@ -1,8 +1,6 @@
 ---
-title: Slack Community
-description: Learn how to get the most out of our Slack community
-banner: https://picsum.photos/800/600/?random
-url: /slack/
+title: Slack Workspace
+description: Learn how to get the most out of our Slack workspace.
 ---
 
 <section class="tint-bg bg-taco" style="background-image: url(/images/slack-taco.png);">

@@ -4,16 +4,17 @@
   <a href="{{ .RelPermalink }}">
     {{end}}
     <div class="card card-equal-height">
+      {{ if .Params.banner }}
       <div class="card-image">
         <figure class="image is-4by3">
-          {{ if .Params.banner }}
-          <img src="{{ .Params.banner }}" alt="{{ .Title }}">{{ else }}
-          <img src="{{ .Site.Params.og_image }}" alt="{{ .Title }}">{{ end }}
+          <img src="{{ .Params.banner }}" alt="{{ .Title }}">
         </figure>
       </div>
+      {{ end }}
       <header class="card-header">
-        <h2 class="card-header-title">{{ .Title }} {{ if .Params.link }}&nbsp;
-          <i class="fas fa-external-link-alt"></i>{{ end }}</h2>
+        <h2 class="card-header-title">
+          {{ .Title }}
+        </h2>
       </header>
       <div class="card-content">
         <div class="content">

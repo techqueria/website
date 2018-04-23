@@ -36,7 +36,7 @@ googleAnalytics               = "UA-63190978-3"
     copyright                 = "Techqueria"
     year                      = 2017
     og_image                  = "https://i.imgur.com/A43r74s.png"
-    logo                      = "https://i.imgur.com/mS3GR9l.png"
+    logo                      = "https://i.imgur.com/mLO2a2t.png"
 
 # Permalinks
 [permalinks]
@@ -101,29 +101,34 @@ googleAnalytics               = "UA-63190978-3"
     identifier                = "fab fa-lg fa-twitter"
 
 [[menu.left]]
-    name                      = "Events"
-    url                       = "/events/"
-    identifier                = "fas fa-calendar-alt"
+    name                      = "About"
+    url                       = "/about/"
+    # identifier                = "fas fa-info-circle"
 
 [[menu.left]]
-    name                      = "Resources"
-    url                       = "/resources/"
-    identifier                = "fas fa-folder-open"
-
-[[menu.left]]
-    name                      = "Press"
-    url                       = "/press/"
-    identifier                = "fas fa-newspaper"
+    name                      = "Communities"
+    url                       = "/communities/"
+    # identifier                = "fas fa-comments"
 
 [[menu.left]]
     name                      = "Contact"
     url                       = "/contact/"
-    identifier                = "fas fa-envelope"
+    # identifier                = "fas fa-envelope"
 
 [[menu.left]]
-    name                      = "About"
-    url                       = "/about/"
-    identifier                = "fas fa-info-circle"
+    name                      = "Events"
+    url                       = "/events/"
+    # identifier                = "fas fa-calendar-alt"
+
+[[menu.left]]
+    name                      = "Press"
+    url                       = "/press/"
+    # identifier                = "fas fa-newspaper"
+
+[[menu.left]]
+    name                      = "Resources"
+    url                       = "/resources/"
+    # identifier                = "fas fa-folder-open"
 
 [[menu.right]]
     name                      = "Facebook"

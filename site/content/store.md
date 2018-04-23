@@ -1,8 +1,6 @@
 ---
-title: Merchandise
+title: Store 🛒️
 description: Show your support and love for the community getting a Techqueria T-shirt.
-banner: https://picsum.photos/800/600/?random
-url: /store/
 ---
 
 # Techqueria T-Shirts on Teespring

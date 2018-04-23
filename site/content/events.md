@@ -1,7 +1,6 @@
 ---
-title: Events
+title: Events 📅️
 description: Find information about our upcoming events and other Latinxs in tech.
-banner: https://picsum.photos/800/600/?random
 ---
 
 <section class="dark-bg img-bg-soft img-bg" style="background-image: url(/images/photos/events.jpg);">

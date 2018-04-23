@@ -1,0 +1,20 @@
+<div class="hero-body">
+  <div class="container">
+    <!-- Title -->
+    <h1 class="title">
+      {{ .Title }}
+    </h1>
+    <!-- Description -->
+    <h2 class="subtitle">
+      {{ .Description }}
+    </h2>
+    <!-- Link -->
+    {{ with .Params.link }}
+    <h3>
+      <a href="{{ . }}" target="_blank" rel="noopener" class="external-link">
+        {{ . }}
+      </a>
+    </h3>
+    {{ end }}
+  </div>
+</div>

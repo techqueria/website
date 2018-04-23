@@ -1,8 +1,6 @@
 ---
-title: Press
+title: Press 📰️
 description: These are some of the articles and press mentions about Techqueria and its members.
-banner: https://picsum.photos/800/600/?random
-url: /press/
 ---
 
 <section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">

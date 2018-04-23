@@ -1,7 +1,6 @@
 ---
-title: Code of Conduct
-description: Latinxs in tech is a professional space for all members of our growing community. We believe in respect, compassion, understanding and inclusion and expect all community members to act in accordance to these values.
-banner: https://picsum.photos/800/600/?random
+title: Code of Conduct 😌
+description: Techqueria believes in respect, compassion, understanding and inclusion and expect all community members to act in accordance to these values.
 ---
 
 <section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">

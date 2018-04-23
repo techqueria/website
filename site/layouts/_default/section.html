@@ -1,0 +1,41 @@
+{{ define "main" }}
+<!-- Banner -->
+{{ if .Params.banner }}
+<!-- If banner is present -->
+<section class="hero is-medium is-primary background-image" style="background-image:url({{ .Params.banner }});">
+  {{ else }}
+  <!-- Default to gradient if banner not present -->
+  <section class="hero is-medium is-primary is-bold">
+    {{ end }}
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          <!-- Title -->
+          {{ .Title }}
+        </h1>
+        <h2 class="subtitle">
+          <!-- Description -->
+          {{ .Description }}
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section class="section page">
+    <div class="container">
+      <!-- Content -->
+      {{ if .Content }} {{ .Content }}
+      <!-- Taxonomy -->
+      {{ partial "taxonomy.html" . }} {{ end }}
+      <div class="columns is-multiline">
+        <!-- Pages -->
+        {{ $pages := .Pages | union (.Sections) }}
+        <!-- Looping -->
+        {{ range $pages.ByTitle }}
+        <div class="column is-one-quarter">
+          {{ partial "card.html" . }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}

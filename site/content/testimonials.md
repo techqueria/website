@@ -1,8 +1,6 @@
 ---
-title: Testimonials
-description: Learn what people have to say about techqueria!
-banner: https://picsum.photos/800/600/?random
-url: /testimonials/
+title: Testimonials 💛️
+description: Read all the great things people have to say about Techqueria!
 ---
 
 This slack channel is simply amazing. I was able to land my first job as a

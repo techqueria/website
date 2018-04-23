@@ -1,8 +1,6 @@
 ---
-title: Sponsors
+title: Sponsors 🙌🏽️
 description: Sponsors and partners help us do our work best.
-banner: https://picsum.photos/800/600/?random
-url: /sponsors/
 ---
 
 <section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">

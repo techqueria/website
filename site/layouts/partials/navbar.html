@@ -1,11 +1,13 @@
-<nav class="navbar has-shadow is-spaced">
+<nav class="navbar has-shadow">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       <img src="{{ .Site.Params.logo }}" height="150">
     </a>
     {{ range .Site.Menus.mobile }}
     <a class="navbar-item is-hidden-desktop" href="{{ .URL }}" target="_blank" rel="noopener">
+      {{ if .Identifier }}
       <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+      {{ end }}
     </a>
     {{ end }}
     <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">

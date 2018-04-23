@@ -1,8 +1,6 @@
 ---
-title: Resources
+title: Resources 📂️
 description: We are creating a list of resources for the community, to help you find help on different topics.
-banner: https://picsum.photos/800/600/?random
-url: /resources/
 ---
 
 <section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">
