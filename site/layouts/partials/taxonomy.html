@@ -1,0 +1,45 @@
+{{ if or (or (.Params.tags) (.Params.categories)) }}
+<!-- Taxonomy -->
+<div class="page-section taxonomy-section">
+  <div class="row">
+    <!-- Categories -->
+    {{ if .Params.categories }}
+    <div class="6u 12u$(small) 12u$(xsmall)">
+      <h3>
+        <a href="/categories/" class="no-underline">
+          📂 {{ .Site.Data.i18n.en.categories }}
+        </a>
+      </h3>
+      <ul>
+        {{ range $category := .Params.categories }}
+        <li>
+          <a href="/categories/{{ $category | urlize }}/" title="{{ $category }}">
+            {{ $category }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    <!-- Tags -->
+    {{ if .Params.tags }}
+    <div class="6u 12u$(small) 12u$(xsmall)">
+      <h3>
+        <a href="/tags/" class="no-underline">
+          📌 {{ .Site.Data.i18n.en.tags }}
+        </a>
+      </h3>
+      <ul>
+        {{ range $tag := .Params.tags }}
+        <li>
+          <a href="/tags/{{ $tag | urlize }}/" title="{{ $tag }}">
+            {{ $tag }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

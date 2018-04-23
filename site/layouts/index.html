@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="hero is-info is-primary is-fullheight">
+  <div class="hero-body home-hero-image">
+    <div class="container has-text-centered ">
+      <h1 class="title">Bienvenido a Techqueria!
+      </h1>
+      <h2 class="subtitle">
+        We're a community of Latinx professionals in the tech industry.
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section page">
+  <div class="container">
+    <div class="columns is-multiline">
+      <!-- Pages -->
+      {{ $pages := where .Site.RegularPages "Type" "page" }}
+      <!-- Section Pages -->
+      {{ $pages := $pages | union (.Site.Sections) }}
+      <!-- Looping -->
+      {{ range $pages.ByTitle }}
+      <div class="column is-one-quarter">{{ partial "card.html" . }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,30 @@
+{{ if .Params.link }}
+<a href="{{ .Params.link }}" target="_blank" rel="noopener">
+  {{ else }}
+  <a href="{{ .RelPermalink }}">
+    {{end}}
+    <div class="card card-equal-height">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          {{ if .Params.banner }}
+          <img src="{{ .Params.banner }}" alt="{{ .Title }}">{{ else }}
+          <img src="{{ .Site.Params.og_image }}" alt="{{ .Title }}">{{ end }}
+        </figure>
+      </div>
+      <header class="card-header">
+        <h2 class="card-header-title">{{ .Title }} {{ if .Params.link }}&nbsp;
+          <i class="fas fa-external-link-alt"></i>{{ end }}</h2>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          <!-- Description -->
+          {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
+          <br>
+          <!-- Date -->
+          {{ if not .PublishDate.IsZero }}
+          <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "Monday - January 2, 2006" .Date }}</time>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </a>

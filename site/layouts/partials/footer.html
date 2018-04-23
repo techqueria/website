@@ -1,0 +1,93 @@
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <p>
+          <b>Who We Are</b>
+        </p>
+        <br>
+        <p>
+          <figure class="image">
+            <img src="{{ .Site.Params.logo }}" alt="{{ .Title }}">
+          </figure>
+        </p>
+        <br>
+        <p> Calling all Latinxs in tech! Whether you just got here last week or your family has been in the country for decades, we have a lot to share and be proud of.</p>
+      </div>
+      <div class="column is-4">
+        <b>Sitemap</b>
+        <!-- Pages -->
+        {{ $pages := where .Site.RegularPages "Type" "page" }}
+        <!-- Section Pages -->
+        {{ $pages := $pages | union (.Site.Sections) }}
+        <!-- Looping -->
+        {{ range $pages.ByTitle }}
+        <p>
+          <a href="{{ .RelPermalink }}">
+            {{.Title}}
+          </a>
+        </p>
+        {{ end }}
+      </div>
+      <div class="column is-4">
+        <b>Communities</b>
+        <p class="bd-footer-link-title">
+          <a href="https://bulma.io">Home</a>
+        </p>
+
+        <p class="bd-footer-link-title">
+          <a href="https://bulma.io/blog">Blog</a>
+        </p>
+
+
+        <p>
+          <a href="/2018/04/14/migration-to-v070/">
+            Migrating to v0.7.0
+          </a>
+        </p>
+
+        <p>
+          <a href="/2018/04/13/website-redesign/">
+            Website redesign
+          </a>
+        </p>
+
+        <p>
+          <a href="/2018/01/18/bulma-supports-font-awesome-5/">
+            Font Awesome 5
+          </a>
+        </p>
+
+        <p>
+          <a href="/2017/11/14/bulma-is-on-patreon/">
+            Bulma on Patreon
+          </a>
+        </p>
+
+
+        <p class="bd-footer-link bd-is-more">
+          <a href="https://bulma.io/blog">
+            View all posts
+          </a>
+        </p>
+      </div>
+
+    </div>
+    <div class="content has-text-centered">
+      {{ with .Site.Params.copyright }}
+            <p>🌮️ <a href="/">{{ . }}</a> </p>
+
+        {{ end }}
+      <p>
+
+        <!-- Copyright -->
+
+               <i title="Copyright" class="fas fa-copyright"></i>
+
+        <!-- Year -->
+        {{ with .Site.Params.year }} {{ . }} {{ end }} to {{ now.Year }}
+      </p>
+    </div>
+
+  </div>
+</footer>

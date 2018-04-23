@@ -1,0 +1,34 @@
+.hero {
+  .home-hero-image {
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-image: url("https: //techqueria.org/images/photos/homepage.jpg");
+    .title,
+    .subtitle {
+      color: white;
+    }
+  }
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+  &.is-primary.is-bold {
+    background-image: linear-gradient(
+      45deg,
+      $techqueria-yellow 0%,
+      lighten($techqueria-yellow, 20%) 99%,
+      lighten($techqueria-yellow, 20%) 100%
+    );
+  }
+}

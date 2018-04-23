@@ -1,0 +1,17 @@
+.card {
+  &:hover {
+    @extend %material-shadow;
+  }
+  .card-header-title,
+  .card-content {
+    padding: 1em;
+  }
+  &.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .card-footer {
+      margin-top: auto;
+    }
+  }
+}

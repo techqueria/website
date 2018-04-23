@@ -1,0 +1,16 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: $techqueria-blue-light;
+  &:hover {
+    color: $techqueria-blue;
+  }
+  &.navbar-item.is-hidden-mobile.icon {
+    &:hover {
+      background-color: white;
+    }
+  }
+}

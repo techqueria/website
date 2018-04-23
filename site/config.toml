@@ -1,0 +1,136 @@
+baseURL                       = "https://techqueria.netlify.com"
+title                         = "Techqueria"
+metaDataFormat                = "yaml"
+enableEmoji                   = true
+footnoteReturnLinkContents    = "↩"
+
+# Language
+languageCode                  = "en-us"
+defaultContentLanguage        = "en"
+
+# Categories
+preserveTaxonomyNames         = false
+
+# Code
+pygmentsCodefences            = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle                 = "manni"
+
+# Internal Templates
+googleAnalytics               = "UA-63190978-3"
+# disqusShortname             = "techqueria"
+
+# RSS
+[outputs]
+    home                      = ["HTML", "AMP", "RSS"]
+    page                      = ["HTML", "AMP"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediatype             = "application/rss"
+        baseName              = "feed"
+
+# SEO
+[params]
+    description               = "We're a community of Latinx professionals in the tech industry. 🌮️"
+    copyright                 = "Techqueria"
+    year                      = 2017
+    og_image                  = "https://i.imgur.com/A43r74s.png"
+    logo                      = "https://i.imgur.com/mS3GR9l.png"
+
+# Permalinks
+[permalinks]
+  blog                        = "/blog/:year/:month/:day/:title/"
+  testimonials                = "/testimonials/:year/:month/:day/:title/"
+
+# Social Links
+[social]
+    # amazon                  = ""
+    # angellist               = ""
+    # behance                 = ""
+    # calendly                = ""
+    # codepen                 = ""
+    # deviantart              = ""
+    # dribbble                = ""
+    email                     = ""
+    # etsy                    = ""
+    facebook                  = ""
+    # freecodecamp            = ""
+    github                    = ""
+    # gitlab                  = ""
+    # goodreads               = ""
+    # googleplus              = ""
+    # hackernews              = ""
+    # houzz                   = ""
+    # instagram               = ""
+    # imgur                   = ""
+    linkedin                  = ""
+    medium                    = ""
+    meetup                    = ""
+    # paypal                  = ""
+    # producthunt             = ""
+    # quora                   = ""
+    # reddit                  = ""
+    # scribd                  = ""
+    # slideshare              = ""
+    # soundcloud              = ""
+    # spotify                 = ""
+    # stackexchange           = ""
+    # stackoverflow           = ""
+    # steam                   = ""
+    # trello                  = ""
+    # tumblr                  = ""
+    twitter                   = ""
+    # vimeo                   = ""
+    # wordpress               = ""
+    # yelp                    = ""
+    # youtube                 = ""
+
+[author]
+    name                      = "Techqueria"
+    copyright                 = "©️ Techqueria.org"
+
+[[menu.mobile]]
+    name                      = "Facebook"
+    url                       = "https://www.facebook.com/groups/techqueria"
+    identifier                = "fab fa-lg fa-facebook"
+
+[[menu.mobile]]
+    name                      = "Twitter"
+    url                       = "https://twitter.com/techqueriasf"
+    identifier                = "fab fa-lg fa-twitter"
+
+[[menu.left]]
+    name                      = "Events"
+    url                       = "/events/"
+    identifier                = "fas fa-calendar-alt"
+
+[[menu.left]]
+    name                      = "Resources"
+    url                       = "/resources/"
+    identifier                = "fas fa-folder-open"
+
+[[menu.left]]
+    name                      = "Press"
+    url                       = "/press/"
+    identifier                = "fas fa-newspaper"
+
+[[menu.left]]
+    name                      = "Contact"
+    url                       = "/contact/"
+    identifier                = "fas fa-envelope"
+
+[[menu.left]]
+    name                      = "About"
+    url                       = "/about/"
+    identifier                = "fas fa-info-circle"
+
+[[menu.right]]
+    name                      = "Facebook"
+    url                       = "https://www.facebook.com/groups/techqueria"
+    identifier                = "fab fa-lg fa-facebook"
+
+[[menu.right]]
+    name                      = "Twitter"
+    url                       = "https://twitter.com/techqueriasf"
+    identifier                = "fab fa-lg fa-twitter"

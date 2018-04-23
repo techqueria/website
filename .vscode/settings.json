@@ -1,0 +1,9 @@
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false
+}

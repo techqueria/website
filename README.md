@@ -1,30 +1,161 @@
----
-ignore: true
----
+# techqueria.org
 
-[Gloria](https://gloriajs.com/) website for [Techqueria.org](http://techqueria.org/)
+[![GitHub Issues](https://img.shields.io/github/issues/techqueria/site.svg?style=flat-square)](https://github.com/techqueria/site/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/site.svg?style=flat-square)](https://github.com/techqueria/site/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/site.svg?style=flat-square)](http://badges.mit-license.org)
 
-# Running Locally
+Website for [Techqueria.org](http://techqueria.org/)
 
-1. To run this locally, _fork it and_ clone it.
+## Installation
 
-2. Install gloria `npm install -g gloria`
+Install [Gloria](https://github.com/gloriajs/gloria) globally.
 
-3. cd into the directory and run `gloria serve`, this will build
-the site and open your default browser. It will auto build when you
-save a new file. The website will be build into a folder called `docs`.
+`npm install -g gloria`
 
-4. Top level pages are found in the root folder, blog posts are located
-in the `_posts` folder.
+Serve up website.
 
-5. For additional information look at [gloriajs](https://gloriajs.com).
+`gloria serve`
 
-# Contributing
+Files are built into the `docs` folder.
 
-Create a PR, I think we should get a notification, if you don't see a response
-after a day or so, contact us in slack or at organizers[at]techqueria.org
+Top level pages are found in the root folder, blog posts are located in the `_posts` folder.
 
-You can also open issues with suggestions and feedback about the site, for feedback
-and suggestions about the organization you can also contact us directly at
-organizers@techqueria.org or in the #meta channel in slack.
+**A Hugo boilerplate for creating truly epic websites**
 
+This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/) as your asset pipeline.
+
+Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
+
+This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+
+## Usage
+
+### Prerequisites
+
+You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+
+Next step, clone this repository and run:
+
+```bash
+npm install
+```
+
+This will take some time and will install all packages necessary to run Victor Hugo and it's tasks.
+
+### Development
+
+While developing your website, use:
+
+```bash
+npm start
+```
+
+or
+
+```bash
+gulp server
+```
+
+Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new website. BrowserSync will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+
+### Static build
+
+To build a static version of the website inside the `/dist` folder, run:
+
+```bash
+npm run build
+```
+
+To get a preview of posts or articles not yet published, run:
+
+```bash
+npm run build-preview
+```
+
+See [package.json](package.json#L7) or the included gulp file for all tasks.
+
+## Structure
+
+```text
+|--site                // Everything in here will be built with hugo
+|  |--content          // Pages and collections - ask if you need extra pages
+|  |--data             // YAML data files with any data for use in examples
+|  |--layouts          // This is where all templates go
+|  |  |--partials      // This is where includes live
+|  |  |--index.html    // The index page
+|  |--static           // Files in here ends up in the public folder
+|--src                 // Files that will pass through the asset pipeline
+|  |--css              // CSS files in the root of this folder will end up in /css/...
+|  |--js               // app.js will be compiled to /app.js with babel
+```
+
+## Basic Concepts
+
+You can read more about Hugo's template language in their documentation here:
+
+https://gohugo.io/templates/overview/
+
+The most useful page there is the one about the available functions:
+
+https://gohugo.io/templates/functions/
+
+For assets that are completely static and don't need to go through the asset pipeline,
+use the `site/static` folder. Images, font-files, etc, all go there.
+
+Files in the static folder ends up in the web root. So a file called `site/static/favicon.ico`
+will end up being available as `/favicon.ico` and so on...
+
+The `src/js/app.js` file is the entrypoint for webpack and will be built to `/dist/app.js`.
+
+You can use **ES6** and use both relative imports or import libraries from npm.
+
+Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
+to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
+
+## Environment variables
+
+To separate the development and production _- aka build -_ stages, all gulp tasks run with a node environment variable named either `development` or `production`.
+
+You can access the environment variable inside the theme files with `getenv "NODE_ENV"`. See the following example for a conditional statement:
+
+    {{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
+
+All tasks starting with _build_ set the environment variable to `production` - the other will set it to `development`.
+
+## Deploying to Netlify
+
+* Push your clone to your own GitHub repository.
+* [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+
+Now Netlify will build and deploy your site whenever you push to git.
+
+You can also click this button:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
+
+## Contributing
+
+> To get started...
+
+1.  🍴 [Fork this repo](https://github.com/techqueria/site#fork-destination-box)
+2.  🔨 View the contributing guidelines at [CONTRIBUTING.md](CONTRIBUTING.md)
+3.  👥 Add yourself as a contributor under the credits section
+4.  🔧 [Open a new pull request](https://github.com/techqueria/site/compare)
+5.  🎉 Get your pull request approved - success!
+
+Or just [create an issue](https://github.com/techqueria/site/issues) - any little bit of help counts! 😊
+
+## Code of Conduct
+
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+More details can be found at this project's [code of conduct](.github/CODE_OF_CONDUCT.md).
+
+## Further Resources
+
+For more insight on how to use Gloria, a static site generator based on Node.js, please refer to the [documentation](https://gloriajs.com/).
+
+## Credits
+
+* [David Silva](https://github.com/dvidsilva)
+* [CJ Joulain](https://github.com/cjoulain)
+* [Kimberly Munoz](https://github.com/KimberlyMunoz)
+* [Frances Coronel](https://github.com/fvcproductions)

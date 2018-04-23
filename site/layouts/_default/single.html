@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero is-medium is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ .Title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ .Description }}
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section page">
+  <div class="container">
+    {{ if .Content }} {{ .Content }}
+    <!-- Taxonomy -->
+    {{ partial "taxonomy.html" . }} {{ end }}
+  </div>
+</section>
+{{ end }}
