@@ -1,9 +1,11 @@
+<!-- Checking for external link -->
 {{ if .Params.link }}
 <a href="{{ .Params.link }}" target="_blank" rel="noopener">
   {{ else }}
   <a href="{{ .RelPermalink }}">
     {{end}}
     <div class="card card-equal-height">
+      <!-- Banner -->
       {{ if .Params.banner }}
       <div class="card-image">
         <figure class="image is-4by3">
@@ -11,20 +13,21 @@
         </figure>
       </div>
       {{ end }}
+      <!-- Title -->
       <header class="card-header">
         <h2 class="card-header-title">
           {{ .Title }}
         </h2>
       </header>
+      <!-- Description -->
       <div class="card-content">
         <div class="content">
-          <!-- Description -->
           {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
         </div>
       </div>
+      <!-- Date -->
       {{ if not .PublishDate.IsZero }}
       <footer class="card-footer">
-        <!-- Date -->
         <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>
       </footer>
       {{ end }}

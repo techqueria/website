@@ -30,10 +30,15 @@
 <!-- Internal Template - Google News -->
 {{ template "_internal/google_news.html" . }}
 <!-- Updated Time -->
+{{ if .IsPage }}
+<!-- Check for valid date -->
+{{ if not .PublishDate.IsZero }}
 <meta itemprop="datePublished" content="{{ dateFormat "2006-01-02" .Date }}">
-<meta itemprop="dateModified" content="{{ dateFormat "2006-01-02" .Date }}">
 <meta property="article:published_time" content="{{ dateFormat "2006-01-02" .Date }}">
 <meta property="article:modified_time" content="{{ dateFormat "2006-01-02" .Date }}">
+<meta property="og:updated_time" content="{{ dateFormat "2006-01-02" .Date }}">
+{{ end }}
+{{ end }}
 <!-- Keywords -->
 {{ if .Params.tags }}
   <meta itemprop="keywords" content="{{ delimit .Params.tags ", " }}">
@@ -54,8 +59,8 @@
 {{ end }}
 <!-- Images -->
 <!-- Open Graph -->
-<meta property="og:image:width" content="1050">
-<meta property="og:image:height" content="600">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="500">
 <meta property="og:image" content="{{ if .Params.banner }}{{ .Params.banner }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />

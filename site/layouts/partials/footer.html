@@ -1,11 +1,10 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
+      <!-- Who We Are -->
       <div class="column is-6">
         <p>
-          <a href="/about/">
-            <b>Who We Are</b>
-          </a>
+          <b>Who We Are</b>
         </p>
         <br>
         <p>
@@ -19,10 +18,11 @@
         <br>
         <p>So join us and share your experience with the Techqueria community.</p>
       </div>
+      <!-- Sitemap -->
       <div class="column is-3">
-        <a href="/">
+        <p>
           <b>Sitemap</b>
-        </a>
+        </p>
         <!-- Pages -->
         {{ $pages := where .Site.RegularPages "Type" "page" }}
         <!-- Section Pages -->
@@ -30,29 +30,37 @@
         <!-- Looping -->
         {{ range $pages.ByTitle }}
         <p>
-          <a href="{{ .RelPermalink }}">
-            {{.Title}}
-          </a>
+          {{ if .Params.link }}
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+            {{ else }}
+            <a href="{{ .RelPermalink }}">
+              {{ end }} {{.Title}}
+            </a>
         </p>
         {{ end }}
       </div>
+      <!-- Communities -->
       <div class="column is-3">
-        <a href="/communities/">
+        <p>
           <b>Communities</b>
-        </a>
-        <!-- Section - Communities -->
+        </p>
+        <!-- Section Pages - Communities -->
         {{ $community := where .Site.RegularPages "Section" "communities" }}
         <!-- Looping -->
         {{ range $community.ByTitle }}
         <p>
-          <a href="{{ .RelPermalink }}">
-            {{.Title}}
-          </a>
+          {{ if .Params.link }}
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+            {{ else }}
+            <a href="{{ .RelPermalink }}">
+              {{ end }} {{.Title}}
+            </a>
         </p>
         {{ end }}
       </div>
     </div>
     <br>
+    <!-- Copyright -->
     <div class="content has-text-centered">
       {{ with .Site.Params.copyright }} 🌮️
       <p>
@@ -60,7 +68,6 @@
       </p>
       {{ end }}
       <p>
-        <!-- Copyright -->
         <i title="Copyright" class="fas fa-copyright mr-sm"></i>
         <!-- Year -->
         {{ with .Site.Params.year }} {{ . }} {{ end }} to {{ now.Year }}

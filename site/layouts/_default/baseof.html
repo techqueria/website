@@ -12,8 +12,10 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/css/styles.css">
   <!-- Prefetch Third Party Resources -->
+  <!-- Twemoji -->
   <link rel="dns-prefetch" href="https://twemoji.maxcdn.com">
-  <link rel="dns-prefetch" href="https://google-analytics.com">
+  <!-- Google Analytics -->
+  <!-- <link rel="dns-prefetch" href="https://google-analytics.com"> -->
   <!-- Preload -->
   <link rel="preload" href="/assets/css/styles.css" as="style">
 </head>
@@ -29,15 +31,15 @@
   <script src="/assets/js/app.js"></script>
   <!-- Service Worker -->
   <script>
-    // if ('serviceWorker' in navigator) {
-    //   window.addEventListener('load', () => {
-    //     navigator.serviceWorker.register('/sw.js').then(registration => {
-    //       console.info('The service worker was registered! 🎉', registration);
-    //     }).catch(registrationError => {
-    //       console.error('The service worker registration failed. 😭️', registrationError);
-    //     });
-    //   });
-    // }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+          console.info('The service worker was registered! 🎉', registration);
+        }).catch(registrationError => {
+          console.error('The service worker registration failed. 😭️', registrationError);
+        });
+      });
+    }
 
   </script>
 </body>

@@ -1,8 +1,9 @@
 {{ define "main" }}
 <section class="hero is-info is-primary is-fullheight">
-  <div class="hero-body background-image" style="background-image:url(https://techqueria.org/images/photos/homepage.jpg);">
+  <div class="hero-body background-image" style="background-image:url('/assets/img/homepage.jpg');">
     <div class="container has-text-centered ">
-      <h1 class="title">Bienvenido a Techqueria!
+      <h1 class="title">
+        Bienvenido a Techqueria!
       </h1>
       <h2 class="subtitle">
         We're a community of Latinx professionals in the tech industry.
@@ -15,11 +16,13 @@
     <div class="columns is-multiline">
       <!-- Pages -->
       {{ $pages := where .Site.RegularPages "Type" "page" }}
-      <!-- Section Pages -->
+      <!-- Pages & Section Pages -->
       {{ $pages := $pages | union (.Site.Sections) }}
       <!-- Looping -->
       {{ range $pages.ByTitle }}
-      <div class="column is-one-quarter">{{ partial "card.html" . }}</div>
+      <div class="column is-one-quarter">
+        {{ partial "card.html" . }}
+      </div>
       {{ end }}
     </div>
   </div>

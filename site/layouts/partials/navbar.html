@@ -3,6 +3,8 @@
     <a class="navbar-item" href="/">
       <img src="{{ .Site.Params.logo }}" height="150">
     </a>
+    <!-- Left Icons -->
+    <!-- Show only on mobile -->
     {{ range .Site.Menus.mobile }}
     <a class="navbar-item is-hidden-desktop" href="{{ .URL }}" target="_blank" rel="noopener">
       {{ if .Identifier }}
@@ -10,6 +12,7 @@
       {{ end }}
     </a>
     {{ end }}
+    <!-- Hamburger Menu -->
     <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
       <span></span>
       <span></span>
@@ -18,13 +21,15 @@
   </div>
   <div id="navMenuDocumentation" class="navbar-menu">
     <div class="navbar-start">
+      <!-- Left Navbar Items -->
       {{ range .Site.Menus.left }}
       <a class="navbar-item" href="{{ .URL }}">
         {{ if .Identifier }}
         <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-        {{ end }}&nbsp;&nbsp; {{.Name}}
+        {{ end }} &nbsp;&nbsp; {{.Name}}
       </a>
       {{ end }}
+      <!-- Activate for Dropdown Menu -->
       <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           <i class="fas fa-info-circle" alt="More Options"></i>
@@ -54,6 +59,8 @@
       </div> -->
     </div>
     <div class="navbar-end">
+      <!-- Right Navbar Items (Icons) -->
+      <!-- Hidden on Mobile -->
       {{ range .Site.Menus.right }}
       <a class="navbar-item is-hidden-mobile" href="{{ .URL }}" target="_blank" rel="noopener">
         <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
