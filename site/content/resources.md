@@ -3,136 +3,151 @@ title: Resources 📂️
 description: We are creating a list of resources for the community, to help you find help on different topics.
 ---
 
-<section class="tint-bg img-bg-softer" style="background-image: url(/assets/images/art/pattern-background03.png);">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-9 inner center-block text-center aos-init aos-animate" data-aos="fade-up">
-                <header>
-                    <h1>Resources</h1>
-                    <p>We are creating a list of resources for the community, to help you find help on different topics</p>
-                </header>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="row">
-            <header>
-              <p>We are creating a list of resources for the community, to help you find help
-                on different topics. The list is still under construction, if there's
-                something we can help you with and is not on the list, or there are resources
-                you know about and want us to include, send an email to <strong>organizers@techqueria.org</strong> or
-                add a comment in our <a href="https://github.com/techqueria/site/issues/3">github repo</a>.</p>
-            </header>
-            <div class="col-sm-10 col-md-8">
-                <ul>
-                    <li><a class="txt-btn" href="#partners">- Partners and Scholarships</a></li>
-                    <li><a class="txt-btn" href="#daca">- Daca and Immigration</a></li>
-                    <li><a class="txt-btn" href="#health">- HealthCare and Urgent Care</a></li>
-                    <li><a class="txt-btn" href="#jobs">- Job Hunting/Posting</a></li>
-                    <li><a class="txt-btn" href="#legal">- Legal Help</a></li>
-                </ul>
-                <p><a name="partners"></a></p>
-                <h2>Partners and Scholarships</h2>
-                {{> partner-resources.html }}
-                <p><a name="daca"></a></p>
-                <h2 id="daca">Daca</h2>
-                <p><strong>Center for Immigration Studies</strong></p>
-                <p><a href="http://cis.org/">cis.org</a></p>
-                <p>The Center for Immigration Studies is an independent, non-partisan, non-profit
-                research organization founded in 1985. It is the nation's only think tank
-                devoted exclusively to research and policy analysis of the economic, social, demographic, fiscal,
-                and other impacts of immigration on the United States.</p>
-                <p><strong>Coalition for Humane Immigrant Rights of Los Angeles</strong></p>
-                <p>For more information about health and other benefits for non-citizens, call
-                (888) 624-4752.</p>
-                <p><strong>Dreamer’s Roadmap</strong></p>
-                <p><a href="http://www.dreamersroadmap.com/">dreamersroadmap.com</a></p>
-                <p>Student loans, scholarships and resources for DACA students</p>
-                <p><strong>Informed Immigrant</strong></p>
-                <p><a href="https://www.informedimmigrant.com/">informedimmigrant.com</a></p>
-                <p>FAQ and answers about your rights as an immigrant</p>
-                <p><strong>Immigrante Informado</strong></p>
-                <p><a href="https://www.inmigranteinformado.com/">inmigranteinformado.com/</a></p>
-                <p>Preguntas, respuestas e información para immigrantes en español.</p>
-                <p><strong>United we Dream</strong></p>
-                <p><a href="http://unitedwedream.org/">unitedwedream.org/</a></p>
-                <p>Legal help for DACA beneficiaries</p>
-                <p><a name="health"></a></p>
-                <h2 id="healthcare-and-urgent-care">HealthCare and Urgent Care</h2>
-                <p><strong>California Health Care Resource Guide for Undocumented Immigrants</strong></p>
-                <p><a href="/pdf/HEALTHCARE_RESOURCE_GUIDE_HOPE-FINAL_OCTOBER_28.PDF">Download PDF</a></p>
-                <p>Pretty comprehensive guide put together by Hispanas Organized for Political
-                Equality (HOPE) with resources and information to help you find affordable
-                health care any way in California.</p>
-                <p><strong>Health Resources and Services Administration</strong></p>
-                <p><a href="http://findahealthcenter.hrsa.gov/">hrsa.gov</a></p>
-                <p>Find a Federally Qualified Health Center by searching the U.S. Health Resources and Services
-                Administration website.</p>
-                <p><strong>Healthy Way L.A. Unmatched</strong></p>
-                <p><a href="http://dhs.lacounty.gov/wps/portal/dhs">dhs.lacounty.gov</a></p>
-                <p>This program provides primary care for uninsured patients, including immigrants without legal status.
-                Many counties also offer special health programs and services for children. Local county health
-                departments can provide residents with detailed information.</p>
-                <p><strong>LA Community Clinic Association</strong></p>
-                <p><a href="http://www.ccalac.org">ccalac.org</a></p>
-                <p>To find local community health centers, search the Community Clinic Association of Los Angeles County.</p>
-                <p><a name="jobs"></a></p>
-                <h2 id="job-hunting-posting">Job Hunting/Posting</h2>
-                <h3 id="techqueria">Techqueria</h3>
-                <p><strong>Slack</strong></p>
-                <p>In the community we provide different resources to help our members advance their careers, whether
-                it is to find a new job, negotiate, practice for interviews or find new employees.</p>
-                <p>Join our slack team, requesting an invite to your email <a href="/slack">here</a>,
-                then you can participate with your smartphone or computer. If you haven't used slack before look
-                at these pages where we explain how to take advantage of them. </p>
-                <p><a href="https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users">Getting started with slack</a></p>
-                <p><a href="/welcome-to-slack/">Welcome to the latinxs in tech Slack</a></p>
-                <p>In slack we have a channel titled <code>#jobs</code> that hosts all these discussions.</p>
-                <p><strong>LinkedIn</strong></p>
-                <p>There's a <a href="https://www.linkedin.com/groups/13500636">LinkedIn</a> group to post about job offers,
-                recommendations, and get information to advance your career.</p>
-                <p><strong>Meetup</strong></p>
-                <p>We hold events around once a month in the bay area, these events are a great opportunity to make new
-                friends and connections, to help you land a job, and for some events we have coding workshops or
-                trainings relating for career progress.</p>
-                <p><a href="https://www.meetup.com/techqueria/">Subscribe to our events here</a></p>
-                <p><a name="legal"></a></p>
-                <h2 id="legal-help">Legal Help</h2>
-                <p><strong>Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI</strong></p>
-                <p><a href="https://www.aclu.org/know-your-rights/what-do-if-youre-stopped-police-immigration-agents-or-fbi">ACLU.org</a></p>
-                <p>We rely on the police to keep us safe and treat us all fairly, regardless of
-                race, ethnicity, national origin or religion. This card provides tips for
-                interacting with police and understanding your rights.</p>
-		<p><strong>A Guide to ITINs, EINs and Taxes</strong></p>
-		<p><a href="https://immigrantsrising.org/wp-content/uploads/2017/08/Immigrants-Rising-ITINs-EINs-Taxes-Guide.pdf">Immigrants Rising</a></p>
-		<p>Topics in this guide include filing taxes as an independent contractor, expenses and deductions, managing cashflow and saving for taxes. These guides accompany the webinars and handouts, which you may watch and read for additional information.</p>
-                <p><strong>National Immigration Legal Services Directory</strong></p>
-                <p><a href="https://www.immigrationadvocates.org/nonprofit/legaldirectory/">immigrationadvocates.org</a></p>
-                <p>The National Immigration Legal Services Directory helps you find immigration
-                legal services providers by state, county, or detention facility.  Only
-                nonprofit organizations that provide free or low-cost immigration legal
-                services are included.  For more information, email them at
-                directory@immigrationadvocates.org.</p>
-                <p><strong>Pro Bono Legal Service Providers</strong></p>
-                <p><a href="https://www.justice.gov/eoir/list-pro-bono-legal-service-providers-map">justice.gov</a></p>
-                <p>The List contains information on non-profit organizations and attorneys who
-                have committed to providing at least 50 hours per year of pro bono legal
-                services before the immigration court location where they appear on the List.
-                It also contains information on pro bono referral services that refer
-                individuals in immigration court proceedings to pro bono counsel. For a copy of
-                the full List of Pro Bono Legal Service Providers.</p>
-                <p><strong>Undocumented Workers: Employment Rights</strong></p>
-                <p><a href="http://las-elc.org/fact-sheets/undocumented-workers-employment-rights">las-elc.org</a></p>
-                <p>This Fact Sheet is intended to provide accurate, general information regarding
-                legal rights relating to employment in California. Yet because laws and legal
-                procedures are subject to frequent change and differing interpretations, the
-                Legal Aid Society–Employment Law Center cannot ensure the information in this
-                Fact Sheet is current nor be responsible for any use to which it is put.  Do
-                not rely on this information without consulting an attorney or the appropriate
-                agency about your rights in your particular situation.</p>
-            </div>
-        </div>
-    </div>
-</section>
+We are creating a list of resources for the community, to help you find help on different topics
+
+We are creating a list of resources for the community, to help you find help on different topics.
+
+The list is still under construction so if there's something we can help you with and is not on the list, or there are resources you know about and want us to include, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in our [GitHub repo](https://github.com/techqueria/site/issues).
+
+<!-- TOC -->
+
+- [DACA](#daca)
+  - [Center for Immigration Studies](#center-for-immigration-studies)
+  - [Coalition for Humane Immigrant Rights of Los Angeles](#coalition-for-humane-immigrant-rights-of-los-angeles)
+  - [Dreamer’s Roadmap](#dreamers-roadmap)
+  - [Informed Immigrant](#informed-immigrant)
+  - [Immigrante Informado](#immigrante-informado)
+  - [United We Dream](#united-we-dream)
+- [HealthCare and Urgent Care](#healthcare-and-urgent-care)
+  - [California Health Care Resource Guide for Undocumented Immigrants](#california-health-care-resource-guide-for-undocumented-immigrants)
+  - [Health Resources and Services Administration](#health-resources-and-services-administration)
+  - [Healthy Way L.A. Unmatched](#healthy-way-la-unmatched)
+  - [LA Community Clinic Association](#la-community-clinic-association)
+- [Legal Help](#legal-help)
+  - [Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI](#know-your-rights-what-to-do-if-youre-stopped-by-police-immigration-agents-or-the-fbi)
+  - [A Guide to ITINs, EINs and Taxes](#a-guide-to-itins-eins-and-taxes)
+  - [National Immigration Legal Services Directory](#national-immigration-legal-services-directory)
+  - [Pro Bono Legal Service Providers](#pro-bono-legal-service-providers)
+  - [Undocumented Workers: Employment Rights](#undocumented-workers-employment-rights)
+- [Job Hunting/Posting](#job-huntingposting)
+  - [Slack](#slack)
+  - [LinkedIn](#linkedin)
+  - [Meetup](#meetup)
+
+<!-- /TOC -->
+
+## DACA
+
+### Center for Immigration Studies
+
+[cis.org](http://cis.org/)
+
+The Center for Immigration Studies is an independent, non-partisan, non-profit research organization founded in 1985. It is the nation's only think tank devoted exclusively to research and policy analysis of the economic, social, demographic, fiscal, and other impacts of immigration on the United States.
+
+### Coalition for Humane Immigrant Rights of Los Angeles
+
+For more information about health and other benefits for non-citizens, call (888) 624-4752.
+
+### Dreamer’s Roadmap
+
+[dreamersroadmap.com](http://www.dreamersroadmap.com/)
+
+Student loans, scholarships and resources for DACA students
+
+### Informed Immigrant
+
+[informedimmigrant.com](https://www.informedimmigrant.com/)
+
+FAQ and answers about your rights as an immigrant
+
+### Immigrante Informado
+
+[inmigranteinformado.com/](https://www.inmigranteinformado.com/)
+
+Preguntas, respuestas e información para immigrantes en español.
+
+### United We Dream
+
+[unitedwedream.org/](http://unitedwedream.org/)
+
+Legal help for DACA beneficiaries
+
+## HealthCare and Urgent Care
+
+### California Health Care Resource Guide for Undocumented Immigrants
+
+[Download PDF](/pdf/HEALTHCARE_RESOURCE_GUIDE_HOPE-FINAL_OCTOBER_28.PDF)
+
+Pretty comprehensive guide put together by Hispanas Organized for Political Equality (HOPE) with resources and information to help you find affordable health care any way in California.
+
+### Health Resources and Services Administration
+
+[hrsa.gov](http://findahealthcenter.hrsa.gov/)
+
+Find a Federally Qualified Health Center by searching the U.S. Health Resources and Services Administration website.
+
+### Healthy Way L.A. Unmatched
+
+[dhs.lacounty.gov](http://dhs.lacounty.gov/wps/portal/dhs)
+
+This program provides primary care for uninsured patients, including immigrants without legal status. Many counties also offer special health programs and services for children. Local county health departments can provide residents with detailed information.
+
+### LA Community Clinic Association
+
+[ccalac.org](http://www.ccalac.org)
+
+To find local community health centers, search the Community Clinic Association of Los Angeles County.
+
+## Legal Help
+
+### Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI
+
+[ACLU.org](https://www.aclu.org/know-your-rights/what-do-if-youre-stopped-police-immigration-agents-or-fbi)
+
+We rely on the police to keep us safe and treat us all fairly, regardless of race, ethnicity, national origin or religion. This card provides tips for interacting with police and understanding your rights.
+
+### A Guide to ITINs, EINs and Taxes
+
+[Immigrants Rising](https://immigrantsrising.org/wp-content/uploads/2017/08/Immigrants-Rising-ITINs-EINs-Taxes-Guide.pdf)
+
+Topics in this guide include filing taxes as an independent contractor, expenses and deductions, managing cashflow and saving for taxes. These guides accompany the webinars and handouts, which you may watch and read for additional information.
+
+### National Immigration Legal Services Directory
+
+[immigrationadvocates.org](https://www.immigrationadvocates.org/nonprofit/legaldirectory/)
+
+The National Immigration Legal Services Directory helps you find immigration legal services providers by state, county, or detention facility. Only nonprofit organizations that provide free or low-cost immigration legal services are included. For more information, email them at directory@immigrationadvocates.org.
+
+### Pro Bono Legal Service Providers
+
+[justice.gov](https://www.justice.gov/eoir/list-pro-bono-legal-service-providers-map)
+
+The List contains information on non-profit organizations and attorneys who have committed to providing at least 50 hours per year of pro bono legal services before the immigration court location where they appear on the List. It also contains information on pro bono referral services that refer individuals in immigration court proceedings to pro bono counsel. For a copy of the full List of Pro Bono Legal Service Providers.
+
+### Undocumented Workers: Employment Rights
+
+[las-elc.org](http://las-elc.org/fact-sheets/undocumented-workers-employment-rights)
+
+This Fact Sheet is intended to provide accurate, general information regarding legal rights relating to employment in California. Yet because laws and legal procedures are subject to frequent change and differing interpretations, the Legal Aid Society–Employment Law Center cannot ensure the information in this Fact Sheet is current nor be responsible for any use to which it is put. Do not rely on this information without consulting an attorney or the appropriate agency about your rights in your particular situation.
+
+## Job Hunting/Posting
+
+### Slack
+
+Within the Techqueria community, we provide different resources to help our members advance their careers, whether it is to find a new job, negotiate, practice for interviews or find new employees.
+
+To join our Slack team, you can request an invite to your email [on our Slack welcome page](/slack/) and then you can participate with your smartphone or computer.
+
+If you haven't used Slack before, take a look at these [Getting Started pages](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) where they explain how to take advantage of all the features.
+
+In Slack, we have a channel titled `#jobs` that hosts all these discussions.
+
+### LinkedIn
+
+There's a [LinkedIn](https://www.linkedin.com/groups/13500636) group to post about job offers, recommendations, and get information to advance your career.
+
+### Meetup
+
+We hold events around once a month in the bay area, these events are a great opportunity to make new friends and connections, to help you land a job, and for some events we have coding workshops or trainings relating for career progress.
+
+[Subscribe to our events here](https://www.meetup.com/techqueria/)

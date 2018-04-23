@@ -13,9 +13,11 @@
 {{ if .Content }}
 <section class="section page">
   <div class="container">
-    {{ .Content }}
-    <!-- Taxonomy -->
-    {{ partial "taxonomy.html" . }}
+    <div class="content">
+      {{ .Content }}
+      <!-- Taxonomy -->
+      {{ partial "taxonomy.html" . }}
+    </div>
   </div>
 </section>
 {{ end }}

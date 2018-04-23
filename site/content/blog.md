@@ -1,5 +1,6 @@
 ---
 title: Blog 📝️
-description: "Where we share our stories on Medium."
+description: "We share our stories from the community on Medium."
 link: "https://blog.techqueria.org"
+url: "/blog/"
 ---

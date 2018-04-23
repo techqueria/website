@@ -20,12 +20,13 @@
         <div class="content">
           <!-- Description -->
           {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
-          <br>
-          <!-- Date -->
-          {{ if not .PublishDate.IsZero }}
-          <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "Monday - January 2, 2006" .Date }}</time>
-          {{ end }}
         </div>
       </div>
+      {{ if not .PublishDate.IsZero }}
+      <footer class="card-footer">
+        <!-- Date -->
+        <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>
+      </footer>
+      {{ end }}
     </div>
   </a>

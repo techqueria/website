@@ -1,9 +1,11 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
-      <div class="column is-4">
+      <div class="column is-6">
         <p>
-          <b>Who We Are</b>
+          <a href="/about/">
+            <b>Who We Are</b>
+          </a>
         </p>
         <br>
         <p>
@@ -11,11 +13,16 @@
             <img src="{{ .Site.Params.logo }}" alt="{{ .Title }}">
           </figure>
         </p>
+        <p>Calling all Latinxs in tech!</p>
         <br>
-        <p> Calling all Latinxs in tech! Whether you just got here last week or your family has been in the country for decades, we have a lot to share and be proud of.</p>
+        <p>Whether you just got here last week or your family has been in the country for decades, we have a lot to share and be proud of.</p>
+        <br>
+        <p>So join us and share your experience with the Techqueria community.</p>
       </div>
-      <div class="column is-4">
-        <b>Sitemap</b>
+      <div class="column is-3">
+        <a href="/">
+          <b>Sitemap</b>
+        </a>
         <!-- Pages -->
         {{ $pages := where .Site.RegularPages "Type" "page" }}
         <!-- Section Pages -->
@@ -29,8 +36,10 @@
         </p>
         {{ end }}
       </div>
-      <div class="column is-4">
-        <b>Communities</b>
+      <div class="column is-3">
+        <a href="/communities/">
+          <b>Communities</b>
+        </a>
         <!-- Section - Communities -->
         {{ $community := where .Site.RegularPages "Section" "communities" }}
         <!-- Looping -->

@@ -3,7 +3,8 @@
     @extend %material-shadow;
   }
   .card-header-title,
-  .card-content {
+  .card-content,
+  .card-footer {
     padding: 1em;
   }
   .card-header {

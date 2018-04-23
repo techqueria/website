@@ -20,14 +20,19 @@
       </div>
     </div>
   </section>
-  <section class="section page">
+  <section class="section">
     <div class="container">
       <!-- Content -->
-      {{ if .Content }} {{ .Content }}
-      <!-- Taxonomy -->
-      {{ partial "taxonomy.html" . }} {{ end }}
+      {{ if .Content }}
+      <div class="content">
+        {{ .Content }}
+        <!-- Taxonomy -->
+        {{ partial "taxonomy.html" . }}
+      </div>
+      {{ end }}
+      <!-- Children Pages -->
       <div class="columns is-multiline">
-        <!-- Pages -->
+        <!-- Defining Pages -->
         {{ $pages := .Pages | union (.Sections) }}
         <!-- Looping -->
         {{ range $pages.ByTitle }}

@@ -3,91 +3,32 @@ title: Events 📅️
 description: Find information about our upcoming events and other Latinxs in tech.
 ---
 
-<section class="dark-bg img-bg-soft img-bg" style="background-image: url(/images/photos/events.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-9 inner center-block text-center aos-init aos-animate" data-aos="fade-up">
-                <header>
-                    <h1>Events</h1>
-                    <p>Find information about our upcoming events, and share con la familia latina</p>
-                </header>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <header>
-            <h1>Official Events</h1>
-        </header>
-        <div class="row event">
-            <h2>Sunnyvale, CA - Latinx in eCommerce @ Walmart Labs <small>Apr 24</small></h2>
-            <p>Come network, engage with recruiters, and hear diverse professionals in eCommerce showcase their work.</p>
-            <p><a href="https://www.eventbrite.com/e/latinx-in-ecommerce-walmart-labs-tickets-44786460509" target="_blank" class="txt-btn">
-                Details and RSVP here
-            </a></p>
-        </div>
-    </div>
-</section>
+## Official Events
 
-<section>
-    <div class="container">
-        <h1>Partner Events</h1>
-        <div class="row event">
-            <h2>Techstars Startup Weekend NYC - Impactful Ventures <small>May 04, 6 - San Francisco</small></h2>
-            <p><strong>Startup Weekend is coming back to New York! Create a startup in 54 hours!</strong></p>
-            <p>A mindful entrepreneur is a happy entrepreneur!</p>
-            <p>
-                Come at the 2018 “Impactful Ventures” Startup Weekend to
-                pitch your idea, meet a co-founder, learn new skills and ...
-                create a company! Startup Weekend is a weekend-long event
-                that gathers developers, designers, business developers and
-                people from all backgrounds to meet and create their startup.
-            </p>
-            <p><a href="https://www.eventbrite.com/e/techstars-startup-weekend-nyc-impactful-ventures-tickets-44341949966" target="_blank">Register here</a></p>
-        </div>
-        <div class="row event">
-            <h2>BeVisible Presents: #BeWokeSF <small>May 17 - San Francisco</small></h2>
-            <p>
-                The first ever #BeWokeSF event, presented by BeVisible, will
-                offer leaders and influencers from around the country a forum
-                to explore the challenges and opportunities of building the
-                future multicultural American workforce.
-            </p>
-            <p>Use code <code>bvtechqueria</code> for 50% off.</p>
-            <p><a href="https://www.eventbrite.com/e/bevisible-presents-bewokesf-registration-44263961701?discount=bvtechqueria/" target="_blank">Register here</a></p>
-        </div>
-  </div>
-</section>
-<section>
-    <div class="container">
-        <header>
-          <h1>Subscribe to our calendar</h1>
-        </header>
-        <div class="row event">
-            <div class="col-sm-12 col-md-8">
-                <p>You can use our public calendar URL to add our calendar into your google account and never miss out
-                in future events.</p>
-                <p><a href="https://calendar.google.com/calendar/ical/dvidsilva.com_eieh0fli3i3nheb8j8naav4tco%40group.calendar.google.com/public/basic.ics">
-                        Download ICS
-                </a></p>
-                <p><input type="text" value="https://calendar.google.com/calendar/ical/dvidsilva.com_eieh0fli3i3nheb8j8naav4tco%40group.calendar.google.com/public/basic.ics"></p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="previous">
-    <div class="container">
-        <header>
-            <h1>Previous Events</h1>
-        </header>
-        <div class="row event">
-            <div class="col-sm-12 col-md-8">
-              <p>You can see videos from our previous events in our <a href="https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ">
-                  YouTube Channel</a>.</p>
-              <p>Get some event recaps and other posts from our community in the <a href="https://blog.techqueria.org">Blog</a>.</p>
-              <p>You can find pictures from our previous events in <a href="https://www.meetup.com/Latinos-in-Tech-Bay-Area/photos/">Meetup</a>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+### [Latinx in eCommerce @ Walmart Labs - April 24, 2018 - Sunnyvale, CA](https://www.eventbrite.com/e/latinx-in-ecommerce-walmart-labs-tickets-44786460509)
+
+Come network, engage with recruiters, and hear diverse professionals in eCommerce showcase their work.
+
+## Partner Events
+
+### [Techstars Startup Weekend NYC - May 4, 2018 - San Francisco, CA](https://www.eventbrite.com/e/techstars-startup-weekend-nyc-impactful-ventures-tickets-44341949966)
+
+Come at the 2018 “Impactful Ventures” Startup Weekend to pitch your idea, meet a co-founder, learn new skills and ... create a company! Startup Weekend is a weekend-long event that gathers developers, designers, business developers and people from all backgrounds to meet and create their startup.
+
+### [BeVisible Presents: #BeWokeSF - May 17, 2018 - San Francisco, CA](https://www.eventbrite.com/e/bevisible-presents-bewokesf-registration-44263961701?discount=bvtechqueria/)
+
+The first ever #BeWokeSF event, presented by BeVisible, will offer leaders and influencers from around the country a forum to explore the challenges and opportunities of building the future multicultural American workforce.
+
+Use code `bvtechqueria` for 50% off.
+
+---
+
+## Calendar Subscription
+
+You can use our [public Google Calendar URL](https://calendar.google.com/calendar/ical/dvidsilva.com_eieh0fli3i3nheb8j8naav4tco%40group.calendar.google.com/public/basic.ics) to add the Techqueria calendar into your Google account so you never have to miss out on future events.
+
+## Previous Events
+
+* You can see videos from previous events on our [YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ)
+* You can find event recaps and other posts from our community [on our Medium Blog](https://blog.techqueria.org).
+* You can find pictures from our previous events on our [Meetup Group page](https://www.meetup.com/Latinos-in-Tech-Bay-Area/photos/)

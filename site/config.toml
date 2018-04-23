@@ -33,7 +33,7 @@ googleAnalytics               = "UA-63190978-3"
 # SEO
 [params]
     description               = "We're a community of Latinx professionals in the tech industry. 🌮️"
-    copyright                 = "Techqueria"
+    copyright                 = "Techqueria.org"
     year                      = 2017
     og_image                  = "https://i.imgur.com/A43r74s.png"
     logo                      = "https://i.imgur.com/mLO2a2t.png"
