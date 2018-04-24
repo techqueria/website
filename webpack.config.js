@@ -84,10 +84,6 @@ export default {
           }
         },
         {
-          urlPattern: new RegExp("https://cdn.embedly.com"),
-          handler: "staleWhileRevalidate"
-        },
-        {
           urlPattern: new RegExp("https://imgur.com"),
           handler: "staleWhileRevalidate"
         },
