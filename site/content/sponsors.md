@@ -11,8 +11,8 @@ The following companies have hosted our events and provided us with snacks and d
 * [Ecosystem SF](http://eco-systm.com/), co-working space in SF
 * [GitHub](https://github.com/about/careers), building the tools that make collaborating and writing software easier for everyone
 * [Hackbright Academy](https://hackbrightacademy.com/), leading software engineering school for women founded in San Francisco in 2012
-* [Huge](http://www.hugeinc.com/contactus/oakland), small teams working on big challenges in honest collaboration with our clients
-* [Kapor Center](http://www.kaporcenter.org/), making the tech ecosystem and entrepreneurship more diverse, inclusive, and impactful
+* [Huge](https://www.hugeinc.com/contactus/oakland), small teams working on big challenges in honest collaboration with our clients
+* [Kapor Center](https://www.kaporcenter.org/), making the tech ecosystem and entrepreneurship more diverse, inclusive, and impactful
 * [NextSpace Berkeley](http://nextspace.us), co-working space in Berkeley
 * [Stripe](https://stripe.com/jobs), universal payments infrastructure of the internet
 * [Uber](https://www.uber.com/careers/), take your ideas to the next level and make something that people use every day

@@ -146,6 +146,4 @@ There's a [LinkedIn](https://www.linkedin.com/groups/13500636) group to post abo
 
 ### Meetups
 
-We hold events around once a month in the bay area, these events are an excellent opportunity to make new friends and connections, to help you land a job, and for some Meetups, we have coding workshops or training related t0 career progress.
-
-[Subscribe to our events here](https://www.meetup.com/techqueria/)
+We hold events around once a month through [our Meetup Group](https://www.meetup.com/techqueria/) in the Bay Area, these events are an excellent opportunity to make new friends and connections, to help you land a job, and for some Meetups, we have coding workshops or training related t0 career progress.

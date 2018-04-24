@@ -1,6 +1,6 @@
 ---
 title: Events 📅️
-description: Find information about our upcoming events and other Latinxs in tech.
+description: Find information about our upcoming events with other Latinxs in tech.
 ---
 
 ## Official Events
