@@ -9,26 +9,26 @@ aliases:
 
 <!-- TOC -->
 
-- [Request an invite](#request-an-invite)
-- [Code of Conduct](#code-of-conduct)
-- [Public Channels](#public-channels)
-  - [Default Channels](#default-channels)
-  - [Location Channels](#location-channels)
-  - [Topic Channels](#topic-channels)
-- [Private Channels](#private-channels)
-- [Emojis](#emojis)
-- [Meta](#meta)
-- [Contact Admins](#contact-admins)
+* [Request an invite](#request-an-invite)
+* [Code of Conduct](#code-of-conduct)
+* [Public Channels](#public-channels)
+  * [Default Channels](#default-channels)
+  * [Location Channels](#location-channels)
+  * [Topic Channels](#topic-channels)
+* [Private Channels](#private-channels)
+* [Emojis](#emojis)
+* [Meta](#meta)
+* [Contact Admins](#contact-admins)
 
 <!-- /TOC -->
 
 ## Request an invite
 
-We'd like to learn more a little bit about your interest in our community so we kindly request you [fill out the Google Form below](https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform) in order to receive an invitation to our Slack Workspace.
+We'd like to learn more a little bit about your interest in our community so we kindly request you [fill out the Typeform below](https://fvcproductions.typeform.com/to/FpJlJp) in order to receive an invitation to our Slack Workspace.
 
 <br>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading... 🌮🌮🌮</iframe>
+<div class="typeform-widget" data-url="https://fvcproductions.typeform.com/to/FpJlJp" style="width: 100%; height: 800px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=FpJlJp&utm_source=typeform.com-4884364-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
 <br>
 
