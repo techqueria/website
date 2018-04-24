@@ -15,8 +15,8 @@ The following companies have hosted our events and provided us with snacks and d
 * [Kapor Center](http://www.kaporcenter.org/), making the tech ecosystem and entrepreneurship more diverse, inclusive, and impactful
 * [NextSpace Berkeley](http://nextspace.us), co-working space in Berkeley
 * [Stripe](https://stripe.com/jobs), universal payments infrastructure of the internet
-* [Uber](https://www.uber.com/careers/), take your ideas to the next level and make something that people use everyday
-* [Udacity](https://www.udacity.com/jobs), empowering students to not just advance their education, but to land their dream job in technology through a relevant 21st century education
+* [Uber](https://www.uber.com/careers/), take your ideas to the next level and make something that people use every day
+* [Udacity](https://www.udacity.com/jobs), empowering students not just to advance their education, but to land their dream job in technology through a relevant 21st-century education
 * [Yammer](https://careers.microsoft.com/yammer), driven to help companies become more open and to make it easier for coworkers to share ideas and experiences
 
 ## Interested in becoming a sponsor?

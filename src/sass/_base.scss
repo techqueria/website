@@ -5,9 +5,9 @@ body {
 }
 
 a {
-  color: $techqueria-blue-light;
+  color: $techqueria-blue;
   &:hover {
-    color: $techqueria-blue;
+    color: $techqueria-black;
   }
   &.navbar-item.is-hidden-mobile.icon {
     &:hover {

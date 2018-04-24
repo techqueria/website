@@ -1,14 +1,14 @@
 <nav class="navbar has-shadow">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
-      <img src="{{ .Site.Params.logo }}" height="150">
+      <img src="/assets/img/logo.png" height="128" alt="{{ .Title }}">
     </a>
     <!-- Left Icons -->
     <!-- Show only on mobile -->
     {{ range .Site.Menus.mobile }}
     <a class="navbar-item is-hidden-desktop" href="{{ .URL }}" target="_blank" rel="noopener">
       {{ if .Identifier }}
-      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
       {{ end }}
     </a>
     {{ end }}
@@ -32,7 +32,7 @@
       <!-- Activate for Dropdown Menu -->
       <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          <i class="fas fa-info-circle" alt="More Options"></i>
+          <i class="fas fa-info-circle" alt="More Options" title="More Options"></i>
           &nbsp;&nbsp; More
         </a>
         <div class="navbar-dropdown">
@@ -63,7 +63,7 @@
       <!-- Hidden on Mobile -->
       {{ range .Site.Menus.right }}
       <a class="navbar-item is-hidden-mobile" href="{{ .URL }}" target="_blank" rel="noopener">
-        <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+        <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
       </a>
       {{ end }}
     </div>

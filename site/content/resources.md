@@ -1,13 +1,11 @@
 ---
 title: Resources 📂️
-description: We are creating a list of resources for the community, to help you find help on different topics.
+description: We are creating a list of resources for the community.
 ---
 
-We are creating a list of resources for the community, to help you find help on different topics
+This crowd-sourced list of community resources is there to help you in any way we can.
 
-We are creating a list of resources for the community, to help you find help on different topics.
-
-The list is still under construction so if there's something we can help you with and is not on the list, or there are resources you know about and want us to include, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in our [GitHub repo](https://github.com/techqueria/site/issues).
+The list is still under construction. If there's something we can help you with that is not on the list or if there are resources you know about, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in [this website's GitHub repo](https://github.com/techqueria/site/issues).
 
 <!-- TOC -->
 
@@ -52,7 +50,7 @@ For more information about health and other benefits for non-citizens, call (888
 
 [dreamersroadmap.com](http://www.dreamersroadmap.com/)
 
-Student loans, scholarships and resources for DACA students
+Student loans, scholarships, and resources for DACA students
 
 ### Informed Immigrant
 
@@ -78,7 +76,7 @@ Legal help for DACA beneficiaries
 
 [Download PDF](/pdf/HEALTHCARE_RESOURCE_GUIDE_HOPE-FINAL_OCTOBER_28.PDF)
 
-Pretty comprehensive guide put together by Hispanas Organized for Political Equality (HOPE) with resources and information to help you find affordable health care any way in California.
+The pretty comprehensive guide put together by Hispanas Organized for Political Equality (HOPE) with resources and information to help you find affordable health care anyway in California.
 
 ### Health Resources and Services Administration
 
@@ -90,7 +88,7 @@ Find a Federally Qualified Health Center by searching the U.S. Health Resources 
 
 [dhs.lacounty.gov](http://dhs.lacounty.gov/wps/portal/dhs)
 
-This program provides primary care for uninsured patients, including immigrants without legal status. Many counties also offer special health programs and services for children. Local county health departments can provide residents with detailed information.
+This program provides primary care for uninsured patients, including immigrants without legal status. Many counties also offer specialized health programs and services for children. Local county health departments can provide residents with detailed information.
 
 ### LA Community Clinic Association
 
@@ -106,11 +104,11 @@ To find local community health centers, search the Community Clinic Association 
 
 We rely on the police to keep us safe and treat us all fairly, regardless of race, ethnicity, national origin or religion. This card provides tips for interacting with police and understanding your rights.
 
-### A Guide to ITINs, EINs and Taxes
+### A Guide to ITINs, EINs, and Taxes
 
 [Immigrants Rising](https://immigrantsrising.org/wp-content/uploads/2017/08/Immigrants-Rising-ITINs-EINs-Taxes-Guide.pdf)
 
-Topics in this guide include filing taxes as an independent contractor, expenses and deductions, managing cashflow and saving for taxes. These guides accompany the webinars and handouts, which you may watch and read for additional information.
+Topics in this guide include filing taxes as an independent contractor, expenses, and deductions, managing cash flow and saving for taxes. These guides accompany the webinars and handouts, which you may watch and read for additional information.
 
 ### National Immigration Legal Services Directory
 
@@ -128,7 +126,7 @@ The List contains information on non-profit organizations and attorneys who have
 
 [las-elc.org](http://las-elc.org/fact-sheets/undocumented-workers-employment-rights)
 
-This Fact Sheet is intended to provide accurate, general information regarding legal rights relating to employment in California. Yet because laws and legal procedures are subject to frequent change and differing interpretations, the Legal Aid Society–Employment Law Center cannot ensure the information in this Fact Sheet is current nor be responsible for any use to which it is put. Do not rely on this information without consulting an attorney or the appropriate agency about your rights in your particular situation.
+This Fact Sheet is intended to provide accurate, general information regarding legal rights relating to employment in California. Because laws and legal procedures are subject to frequent change and differing interpretations, the Legal Aid Society-Employment Law Center cannot ensure the information in this Fact Sheet is current nor be responsible for any use. Do not rely on this information without consulting an attorney or the appropriate agency about your rights in your particular situation.
 
 ## Job Hunting/Posting
 
@@ -146,8 +144,8 @@ In Slack, we have a channel titled `#jobs` that hosts all these discussions.
 
 There's a [LinkedIn](https://www.linkedin.com/groups/13500636) group to post about job offers, recommendations, and get information to advance your career.
 
-### Meetup
+### Meetups
 
-We hold events around once a month in the bay area, these events are a great opportunity to make new friends and connections, to help you land a job, and for some events we have coding workshops or trainings relating for career progress.
+We hold events around once a month in the bay area, these events are an excellent opportunity to make new friends and connections, to help you land a job, and for some Meetups, we have coding workshops or training related t0 career progress.
 
 [Subscribe to our events here](https://www.meetup.com/techqueria/)
