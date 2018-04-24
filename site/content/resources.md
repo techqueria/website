@@ -1,5 +1,5 @@
 ---
-title: Resources 📂️
+title: Resources 📌️
 description: We are creating a list of resources for the community.
 ---
 
@@ -23,14 +23,14 @@ The list is still under construction. If there's something we can help you with 
   * [LA Community Clinic Association](#la-community-clinic-association)
 * [Legal Help](#legal-help)
   * [Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI](#know-your-rights-what-to-do-if-youre-stopped-by-police-immigration-agents-or-the-fbi)
-  * [A Guide to ITINs, EINs and Taxes](#a-guide-to-itins-eins-and-taxes)
+  * [A Guide to ITINs, EINs, and Taxes](#a-guide-to-itins-eins-and-taxes)
   * [National Immigration Legal Services Directory](#national-immigration-legal-services-directory)
   * [Pro Bono Legal Service Providers](#pro-bono-legal-service-providers)
   * [Undocumented Workers: Employment Rights](#undocumented-workers-employment-rights)
 * [Job Hunting/Posting](#job-huntingposting)
   * [Slack](#slack)
   * [LinkedIn](#linkedin)
-  * [Meetup](#meetup)
+  * [Meetups](#meetups)
 
 <!-- /TOC -->
 
