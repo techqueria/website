@@ -1,4 +1,4 @@
-baseURL                       = "https://techqueria.com"
+baseURL                       = "https://techqueriawebsite.netlify.com/"
 title                         = "Techqueria"
 metaDataFormat                = "yaml"
 enableEmoji                   = true
