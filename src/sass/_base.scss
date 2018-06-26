@@ -1,0 +1,27 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+a {
+  color: $techqueria-blue;
+  &:hover {
+    color: $techqueria-black;
+  }
+  &.navbar-item.is-hidden-mobile.icon {
+    &:hover {
+      background-color: white;
+    }
+  }
+  &.external-link {
+    text-decoration: underline;
+    &:hover {
+      font-weight: 700;
+    }
+  }
+}
+
+iframe {
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+<nav class="navbar has-shadow">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/assets/img/logo.png" height="128" alt="{{ .Title }}">
+    </a>
+    <!-- Left Icons -->
+    <!-- Show only on mobile -->
+    {{ range .Site.Menus.mobile }}
+    <a class="navbar-item is-hidden-desktop" href="{{ .URL }}" target="_blank" rel="noopener">
+      {{ if .Identifier }}
+      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+      {{ end }}
+    </a>
+    {{ end }}
+    <!-- Hamburger Menu -->
+    <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div id="navMenuDocumentation" class="navbar-menu">
+    <div class="navbar-start">
+      <!-- Left Navbar Items -->
+      {{ range .Site.Menus.left }}
+      <a class="navbar-item" href="{{ .URL }}">
+        {{ if .Identifier }}
+        <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+        {{ end }} &nbsp;&nbsp; {{.Name}}
+      </a>
+      {{ end }}
+      <!-- Activate for Dropdown Menu -->
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          <i class="fas fa-info-circle" alt="More Options" title="More Options"></i>
+          &nbsp;&nbsp; More
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item " href="https://bulma.io//bulma-start">
+            <span>
+              <span class="icon has-text-success">
+                <i class="fas fa-rocket"></i>
+              </span>
+              <strong>Bulma start</strong>
+              <br> A tiny npm package to get started
+            </span>
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item " href="https://bulma.io//made-with-bulma">
+            <span>
+              <span class="icon has-text-primary">
+                <i class="fas fa-certificate"></i>
+              </span>
+              <strong>Made with Bulma</strong>
+              <br> The official community badge
+            </span>
+          </a>
+        </div>
+      </div> -->
+    </div>
+    <div class="navbar-end">
+      <!-- Right Navbar Items (Icons) -->
+      <!-- Hidden on Mobile -->
+      {{ range .Site.Menus.right }}
+      <a class="navbar-item is-hidden-mobile" href="{{ .URL }}" target="_blank" rel="noopener">
+        <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,39 @@
+.hero {
+  .title,
+  .subtitle {
+    color: white;
+  }
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+  &.is-primary.is-bold {
+    background-image: linear-gradient(
+      45deg,
+      $techqueria-blue-light 0%,
+      lighten($techqueria-blue-light, 25%) 99%,
+      lighten($techqueria-blue-light, 25%) 100%
+    );
+    text-shadow: none;
+  }
+}
+
+.background-image {
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  &.overlay {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  }
+}

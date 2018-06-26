@@ -1,0 +1,27 @@
+{{ define "main" }}
+<!-- Banner -->
+{{ if .Params.banner }}
+<section class="hero is-medium is-primary is-bold background-image" style="background-image:url({{ .Params.banner }});">
+  {{ partial "hero.html" . }}
+</section>
+{{ else }}
+<section class="hero is-medium is-primary is-bold">
+  {{ partial "hero.html" . }}
+</section>
+{{ end }}
+<!-- Content -->
+{{ if .Content }}
+<section class="section page">
+  <div class="container">
+    <div class="content">
+      {{ .Content }}
+      <!-- Taxonomy -->
+      {{ partial "taxonomy.html" . }}
+      <!-- Contribute -->
+      {{ partial "contribute.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- End Main -->
+{{ end }}

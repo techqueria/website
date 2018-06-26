@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head prefix="og: http://ogp.me/ns#">
+  <title>{{ .Title }}</title>
+  <!-- SEO -->
+  {{ partial "head.html" . }}
+  <!-- Favicons -->
+  {{ partial "favicons.html" }}
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- Prefetch Third Party Resources -->
+  <!-- Twemoji -->
+  <link rel="dns-prefetch" href="https://twemoji.maxcdn.com">
+  <!-- Google Analytics -->
+  <!-- <link rel="dns-prefetch" href="https://google-analytics.com"> -->
+  <!-- Preload -->
+  <link rel="preload" href="/assets/css/styles.css" as="style">
+</head>
+
+<body>
+  {{ partial "navbar.html" . }}
+  <!-- Main Block -->
+  {{ block "main" . }} {{ end }}
+  <!-- Footer -->
+  {{ partial "footer.html" . }}
+  <!-- Scripts -->
+  <!-- Custom JS -->
+  <script src="/assets/js/app.js"></script>
+  <!-- Service Worker -->
+  <script>
+    // if ('serviceWorker' in navigator) {
+    //   window.addEventListener('load', () => {
+    //     navigator.serviceWorker.register('/sw.js').then(registration => {
+    //       console.info('The service worker was registered! 🎉', registration);
+    //     }).catch(registrationError => {
+    //       console.error('The service worker registration failed. 😭️', registrationError);
+    //     });
+    //   });
+    // }
+
+  </script>
+</body>
+
+</html>
