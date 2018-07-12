@@ -5,7 +5,7 @@ description: We are creating a list of resources for the community.
 
 This crowd-sourced list of community resources is there to help you in any way we can.
 
-The list is still under construction. If there's something we can help you with that is not on the list or if there are resources you know about, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in [this website's GitHub repo](https://github.com/techqueria/site/issues).
+The list is still under construction. If there's something we can help you with that is not on the list or if there are resources you know about, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in [this website's GitHub repo](https://github.com/techqueria/website/issues).
 
 <!-- TOC -->
 

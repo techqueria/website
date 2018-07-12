@@ -1,6 +1,6 @@
 # techqueria.org
 
-[![GitHub Issues](https://img.shields.io/github/issues/techqueria/site.svg?style=flat-square)](https://github.com/techqueria/site/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/site.svg?style=flat-square)](https://github.com/techqueria/site/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/site.svg?style=flat-square)](http://badges.mit-license.org)
+[![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org)
 
 Website for [Techqueria.org](http://techqueria.org/)
 
@@ -56,13 +56,13 @@ It is setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io
 
 > To get started...
 
-1.  🍴 [Fork this repo](https://github.com/techqueria/site#fork-destination-box)
+1.  🍴 [Fork this repo](https://github.com/techqueria/website#fork-destination-box)
 2.  🔨 View the contributing guidelines at [CONTRIBUTING.md](CONTRIBUTING.md)
 3.  👥 Add yourself as a contributor under the credits section
-4.  🔧 [Open a new pull request](https://github.com/techqueria/site/compare)
+4.  🔧 [Open a new pull request](https://github.com/techqueria/website/compare)
 5.  🎉 Get your pull request approved - success!
 
-Or just [create an issue](https://github.com/techqueria/site/issues) - any little bit of help counts! 😊
+Or just [create an issue](https://github.com/techqueria/website/issues) - any little bit of help counts! 😊
 
 ## Code of Conduct
 
@@ -72,8 +72,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 
 ## Credits
 
-* [David Silva](https://github.com/dvidsilva)
-* [CJ Joulain](https://github.com/cjoulain)
-* [Kimberly Munoz](https://github.com/KimberlyMunoz)
-* [Frances Coronel](https://github.com/fvcproductions)
-* [Victor Hugo Boilerplate by Netlify](https://github.com/netlify/victor-hugo)
+- [David Silva](https://github.com/dvidsilva)
+- [Frances Coronel](https://github.com/fvcproductions)
+- [CJ Joulain](https://github.com/cjoulain)
+- [Kimberly Munoz](https://github.com/KimberlyMunoz)
