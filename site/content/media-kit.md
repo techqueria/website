@@ -3,6 +3,8 @@ title: Media Kit 📸
 description: Download our assets and discover our style guide.
 ---
 
+> To download these assets, please use [this Sketch Cloud link](https://sketch.cloud/s/rQ2aE).
+
 ## Logos
 
 ### Version 1

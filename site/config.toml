@@ -79,6 +79,11 @@ pygmentsStyle                 = "manni"
     # identifier              = "fas fa-calendar-alt"
 
 [[menu.left]]
+    name                      = "Media Kit"
+    url                       = "/media-kit/"
+    # identifier              = "fas fa-camera"
+
+[[menu.left]]
     name                      = "Press"
     url                       = "/press/"
     # identifier              = "fas fa-newspaper"
