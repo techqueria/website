@@ -1,4 +1,4 @@
-baseURL                       = "https://techqueriawebsite.netlify.com/"
+baseURL                       = "https://beta.techqueria.com/"
 title                         = "Techqueria"
 metaDataFormat                = "yaml"
 enableEmoji                   = true
@@ -77,6 +77,11 @@ pygmentsStyle                 = "manni"
     name                      = "Events"
     url                       = "/events/"
     # identifier              = "fas fa-calendar-alt"
+
+[[menu.left]]
+    name                      = "Media Kit"
+    url                       = "/media-kit/"
+    # identifier              = "fas fa-camera"
 
 [[menu.left]]
     name                      = "Press"

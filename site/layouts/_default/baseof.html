@@ -12,6 +12,10 @@
   <!-- Prefetch Third Party Resources -->
   <!-- Twemoji -->
   <link rel="dns-prefetch" href="https://twemoji.maxcdn.com">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
   <!-- Google Analytics -->
   <!-- <link rel="dns-prefetch" href="https://google-analytics.com"> -->
   <!-- Preload -->
@@ -29,15 +33,15 @@
   <script src="/assets/js/app.js"></script>
   <!-- Service Worker -->
   <script>
-    // if ('serviceWorker' in navigator) {
-    //   window.addEventListener('load', () => {
-    //     navigator.serviceWorker.register('/sw.js').then(registration => {
-    //       console.info('The service worker was registered! 🎉', registration);
-    //     }).catch(registrationError => {
-    //       console.error('The service worker registration failed. 😭️', registrationError);
-    //     });
-    //   });
-    // }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+          console.info('The service worker was registered! 🎉', registration);
+        }).catch(registrationError => {
+          console.error('The service worker registration failed. 😭️', registrationError);
+        });
+      });
+    }
 
   </script>
 </body>

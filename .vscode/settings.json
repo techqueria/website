@@ -4,6 +4,9 @@
   "editor.wordWrap": "on",
   "files.trimTrailingWhitespace": true,
   "markdown.extension.preview.autoShowPreviewToSide": false,
+  "prettier.tabWidth": 2,
+  "editor.insertSpaces": true,
   "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "prettier.eslintIntegration": true
 }

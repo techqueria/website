@@ -1,10 +1,7 @@
-// Source Sans Pro
-require("typeface-source-sans-pro");
-
 // Font Awesome
-require("@fortawesome/fontawesome");
-require("@fortawesome/fontawesome-free-solid");
-require("@fortawesome/fontawesome-free-brands");
+// require("@fortawesome/fontawesome");
+// require("@fortawesome/fontawesome-free-solid");
+// require("@fortawesome/fontawesome-free-brands");
 
 // Twemoji
 import twemoji from "twemoji";
