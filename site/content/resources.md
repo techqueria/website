@@ -98,6 +98,7 @@ This program provides primary care for uninsured patients, including immigrants 
 To find local community health centers, search the Community Clinic Association of Los Angeles County.
 
 ### Latino Health Resources
+
 [Latino Health Resource Guide](https://www.medicareadvantage.com/latino-health-resource-guide)
 
 [Latino Health Resource Guide - California](https://www.medicareadvantage.com/latino-health-resource-guide#CA)
