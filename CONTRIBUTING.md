@@ -1,5 +1,7 @@
 ## Contributing
 
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all)](https://waffle.io/techqueria/website)
+
 > To get started...
 
 1.  🍴 [Fork this repo](https://github.com/techqueria/website#fork-destination-box)
@@ -9,6 +11,9 @@
 5.  🎉 Get your pull request approved - success!
 
 Or just [create an issue](https://github.com/techqueria/website/issues) - any little bit of help counts! 😊
+
+Checkout currently open issues, and their progress on
+[waffle.io](https://waffle.io/techqueria/website)
 
 ### Guidelines
 
