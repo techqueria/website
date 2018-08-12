@@ -23,18 +23,21 @@ description: Download our assets and discover our style guide.
 
 ![Logo - V4](https://i.imgur.com/RRVpP6V.png)
 
-
 ## Banners
 
 ### Banner 1
 
-![Banner 1](https://i.imgur.com/QZAbJUJ.png)
+![Banner 1](https://i.imgur.com/ONfQqEV.png)
 
 ### Banner 2
 
 ![Banner 2](https://i.imgur.com/EoAZnOp.jpg)
 
-## Example Testimonial
+### Banner 3
+
+![Banner 3](https://i.imgur.com/QZAbJUJ.png)
+
+## Testimonials
 
 ![Testimonial 1](https://i.imgur.com/zptsdmw.jpg)
 
