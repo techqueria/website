@@ -9,7 +9,7 @@ description: Download our assets and discover our style guide.
 
 ### Version 1 - Rectangular
 
-![Logo - ](https://i.imgur.com/VCqpxcT.png)
+![Logo - V1](https://i.imgur.com/VCqpxcT.png)
 
 ### Version 2 - Rectangular with no URL
 
