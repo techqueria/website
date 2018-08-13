@@ -43,4 +43,4 @@ description: Download our assets and discover our style guide.
 
 ## Imgur Album
 
-[Find all images here](https://imgur.com/a/xfBpacn)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/xfBpacn"><a href="//imgur.com/xfBpacn"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
