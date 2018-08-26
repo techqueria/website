@@ -9,29 +9,29 @@ The list is still under construction. If there's something we can help you with 
 
 <!-- TOC -->
 
-* [DACA](#daca)
-  * [Center for Immigration Studies](#center-for-immigration-studies)
-  * [Coalition for Humane Immigrant Rights of Los Angeles](#coalition-for-humane-immigrant-rights-of-los-angeles)
-  * [Dreamer’s Roadmap](#dreamers-roadmap)
-  * [Informed Immigrant](#informed-immigrant)
-  * [Immigrante Informado](#immigrante-informado)
-  * [United We Dream](#united-we-dream)
-* [HealthCare and Urgent Care](#healthcare-and-urgent-care)
-  * [California Health Care Resource Guide for Undocumented Immigrants](#california-health-care-resource-guide-for-undocumented-immigrants)
-  * [Health Resources and Services Administration](#health-resources-and-services-administration)
-  * [Healthy Way L.A. Unmatched](#healthy-way-la-unmatched)
-  * [LA Community Clinic Association](#la-community-clinic-association)
-  * [Latino Health Resources](#latino-health-resources)
-* [Legal Help](#legal-help)
-  * [Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI](#know-your-rights-what-to-do-if-youre-stopped-by-police-immigration-agents-or-the-fbi)
-  * [A Guide to ITINs, EINs, and Taxes](#a-guide-to-itins-eins-and-taxes)
-  * [National Immigration Legal Services Directory](#national-immigration-legal-services-directory)
-  * [Pro Bono Legal Service Providers](#pro-bono-legal-service-providers)
-  * [Undocumented Workers: Employment Rights](#undocumented-workers-employment-rights)
-* [Job Hunting/Posting](#job-huntingposting)
-  * [Slack](#slack)
-  * [LinkedIn](#linkedin)
-  * [Meetups](#meetups)
+- [DACA](#daca)
+  - [Center for Immigration Studies](#center-for-immigration-studies)
+  - [Coalition for Humane Immigrant Rights of Los Angeles](#coalition-for-humane-immigrant-rights-of-los-angeles)
+  - [Dreamer’s Roadmap](#dreamers-roadmap)
+  - [Informed Immigrant](#informed-immigrant)
+  - [Immigrante Informado](#immigrante-informado)
+  - [United We Dream](#united-we-dream)
+- [HealthCare and Urgent Care](#healthcare-and-urgent-care)
+  - [California Health Care Resource Guide for Undocumented Immigrants](#california-health-care-resource-guide-for-undocumented-immigrants)
+  - [Health Resources and Services Administration](#health-resources-and-services-administration)
+  - [Healthy Way L.A. Unmatched](#healthy-way-la-unmatched)
+  - [LA Community Clinic Association](#la-community-clinic-association)
+  - [Latino Health Resources](#latino-health-resources)
+- [Legal Help](#legal-help)
+  - [Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI](#know-your-rights-what-to-do-if-youre-stopped-by-police-immigration-agents-or-the-fbi)
+  - [A Guide to ITINs, EINs, and Taxes](#a-guide-to-itins-eins-and-taxes)
+  - [National Immigration Legal Services Directory](#national-immigration-legal-services-directory)
+  - [Pro Bono Legal Service Providers](#pro-bono-legal-service-providers)
+  - [Undocumented Workers: Employment Rights](#undocumented-workers-employment-rights)
+- [Job Hunting/Posting](#job-huntingposting)
+  - [Slack](#slack)
+  - [LinkedIn](#linkedin)
+  - [Meetups](#meetups)
 
 <!-- /TOC -->
 
@@ -123,7 +123,7 @@ Topics in this guide include filing taxes as an independent contractor, expenses
 
 [immigrationadvocates.org](https://www.immigrationadvocates.org/nonprofit/legaldirectory/)
 
-The National Immigration Legal Services Directory helps you find immigration legal services providers by state, county, or detention facility. Only nonprofit organizations that provide free or low-cost immigration legal services are included. For more information, email them at directory@immigrationadvocates.org.
+The National Immigration Legal Services Directory helps you find immigration legal services providers by state, county, or detention facility. Only nonprofit organizations that provide free or low-cost immigration legal services are included. For more information, email them at `directory@immigrationadvocates.org`.
 
 ### Pro Bono Legal Service Providers
 

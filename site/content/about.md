@@ -1,6 +1,6 @@
 ---
 title: About 🌮️
-description: Techqueria is a community of Latinx professionals in the tech industry first established in 2016.
+description: Techqueria is a community of Latinx professionals in the tech industry that was first established in 2016.
 ---
 
 ## Who we are
