@@ -8,7 +8,7 @@ const BrotliPlugin = require("brotli-webpack-plugin");
 // GZip
 const CompressionPlugin = require("compression-webpack-plugin");
 
-export default {
+module.exports = {
   module: {
     rules: [{
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -46,44 +46,24 @@ export default {
     new webpack.ProvidePlugin({
       fetch: "imports-loader?this=>global!exports?global.fetch!whatwg-fetch"
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false,
-        screw_ie8: true,
-        conditionals: true,
-        unused: true,
-        comparisons: true,
-        sequences: true,
-        dead_code: true,
-        evaluate: true,
-        if_return: true,
-        join_vars: true
-      },
-      output: {
-        comments: false
-      }
-    }),
     new webpack.optimize.AggressiveMergingPlugin(),
     new BrotliPlugin(),
     new CompressionPlugin(),
     new WorkboxPlugin({
       cacheId: "techqueria",
-      globDirectory: "dist",
-      globPatterns: ["**/*.{css,png,gif,jpg,svg,xml,js,ico,json}"],
-      globStrict: false,
       swDest: path.join("dist", "sw.js"),
+      globDirectory: "dist",
+      globPatterns: ["index.html", "404.html", "**/*.{css,png,gif,jpg,svg,xml,js,ico,json}"],
+      globStrict: false,
       clientsClaim: true,
       skipWaiting: true,
       runtimeCaching: [{
-        urlPattern: /\.(?:png|gif|jpg)$/,
+        urlPattern: /\.(?:html)$/,
         handler: "networkFirst",
-        options: {
-            cacheName: "techqueria-image-cache"
-          }
       },
       {
-        urlPattern: new RegExp("https://imgur.com"),
-        handler: "staleWhileRevalidate"
+        urlPattern: /\.(?:css|png|gif|jpg|svg|xml|js|ico|json)$/,
+        handler: "staleWhileRevalidate",
       },
       {
         urlPattern: new RegExp("https://google-analytics.com"),

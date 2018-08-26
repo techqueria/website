@@ -15,7 +15,6 @@ import watch from "gulp-watch";
 import hugoBin from "hugo-bin";
 import PluginError from "plugin-error";
 import csso from "postcss-csso";
-import runSequence from "run-sequence";
 import webpack from "webpack";
 
 import webpackConfig from "./webpack.config";
@@ -30,9 +29,7 @@ const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v"];
 gulp.task("hugo", (cb) => buildSite(cb));
 
 // Build/production tasks
-gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (callback) => {
-  runSequence("minify", callback);
-});
+gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => buildSite(cb, [], "production"));
 
 // Compress SASS
 gulp.task("sass", () =>
