@@ -5,7 +5,7 @@ description: We are creating a list of resources for the community.
 
 This crowd-sourced list of community resources is there to help you in any way we can.
 
-The list is still under construction. If there's something we can help you with that is not on the list or if there are resources you know about, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in [this website's GitHub repo](https://github.com/techqueria/site/issues).
+The list is still under construction. If there's something we can help you with that is not on the list or if there are resources you know about, send an email to [organizers@techqueria.org](mailto:organizers@techqueria.org) or create an issue in [this website's GitHub repo](https://github.com/techqueria/website/issues).
 
 <!-- TOC -->
 
@@ -21,6 +21,7 @@ The list is still under construction. If there's something we can help you with 
   * [Health Resources and Services Administration](#health-resources-and-services-administration)
   * [Healthy Way L.A. Unmatched](#healthy-way-la-unmatched)
   * [LA Community Clinic Association](#la-community-clinic-association)
+  * [Latino Health Resources](#latino-health-resources)
 * [Legal Help](#legal-help)
   * [Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI](#know-your-rights-what-to-do-if-youre-stopped-by-police-immigration-agents-or-the-fbi)
   * [A Guide to ITINs, EINs, and Taxes](#a-guide-to-itins-eins-and-taxes)
@@ -95,6 +96,14 @@ This program provides primary care for uninsured patients, including immigrants 
 [ccalac.org](http://www.ccalac.org)
 
 To find local community health centers, search the Community Clinic Association of Los Angeles County.
+
+### Latino Health Resources
+
+[Latino Health Resource Guide](https://www.medicareadvantage.com/latino-health-resource-guide)
+
+[Latino Health Resource Guide - California](https://www.medicareadvantage.com/latino-health-resource-guide#CA)
+
+Compilation of state and national resources for many of the biggest health care risks faced by the Latino community.
 
 ## Legal Help
 

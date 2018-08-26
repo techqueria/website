@@ -34,9 +34,9 @@ pygmentsStyle                 = "manni"
 [params]
     description               = "We're a community of Latinx professionals in the tech industry. 🌮️"
     copyright                 = "Techqueria.org"
-    year                      = 2017
-    og_image                  = "https://i.imgur.com/A43r74s.png"
-    logo                      = "https://i.imgur.com/mLO2a2t.png"
+    year                      = 2016
+    og_image                  = "https://i.imgur.com/ONfQqEV.png"
+    logo                      = "https://i.imgur.com/iJpGY6L.png"
 
 # Permalinks
 [permalinks]

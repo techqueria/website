@@ -2,7 +2,7 @@
   "name": "techqueria",
   "version": "1.0.0",
   "description": "A community of Latinx professionals in the tech industry.",
-  "repository": "techqueria/site",
+  "repository": "techqueria/website",
   "main": "app.js",
   "scripts": {
     "hugo": "gulp hugo",
@@ -65,7 +65,7 @@
     "minimatch": "^3.0.4",
     "mixitup": "^3.2.2",
     "node-sass": "^4.7.2",
-    "npm": "^5.7.1",
+    "npm": "^5.10.0",
     "plugin-error": "^1.0.1",
     "popper.js": "^1.13.0",
     "postcss-csso": "^3.0.0",
