@@ -1,0 +1,65 @@
+// Colors
+// Texas Rose
+$techqueria-yellow: #fbae52;
+// Flamingo
+$techqueria-red: #ff551f;
+// Madison
+$techqueria-black: #2f4052;
+// Gray
+$techqueria-gray: #a3b1bf;
+// Boston Blue
+$techqueria-blue-light: #3f8db9;
+// Fun Blue
+$techqueria-blue: #1756a9;
+// Kabul
+$techqueria-brown: #5a4640;
+// Rebel
+$techqueria-brown-dark: #46352f;
+// Apple
+$techqueria-green: #6BAF3C;
+// White
+$techqueria-white: white;
+// Material Shadow
+$darker-shadow: rgba(0, 0, 0, 0.3);
+$material-shadow: rgba(0, 0, 0, 0.2);
+$image-shadow: rgba(0, 0, 0, 0.1);
+// Brand Colors
+$github: #333;
+$facebook: #4267b2;
+$twitter: #55acee;
+// Breakpoints
+$mobile: 500px;
+$laptop: 1024px;
+// Navbar
+$navbar-breakpoint: $mobile !default;
+// Typography
+$font-size: 24px;
+$font-size-mobile: 12px;
+$font-family: 'Roboto Mono',
+monospace,
+BlinkMacSystemFont,
+-apple-system,
+'Roboto',
+'Segoe UI',
+'Oxygen',
+'Ubuntu',
+'Cantarell',
+'Fira Sans',
+'Droid Sans',
+'Helvetica Neue',
+'Helvetica',
+'Arial';
+$font-family-headers: 'Rubik',
+sans-serif,
+BlinkMacSystemFont,
+-apple-system,
+'Roboto',
+'Segoe UI',
+'Oxygen',
+'Ubuntu',
+'Cantarell',
+'Fira Sans',
+'Droid Sans',
+'Helvetica Neue',
+'Helvetica',
+'Arial';

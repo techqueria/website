@@ -5,7 +5,7 @@ description: Get in touch with Latinxs in tech!
 
 ## Partnering
 
-We're always looking for partners and sponsors to help move our mission forward! We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
+We're always looking for [partners and sponsors](/sponsors/) to help move our mission forward! We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
 
 We are looking for speakers, locations for our events, those who can sponsors programs for our members, food, services, merchandise and we're open to other partnering ideas.
 

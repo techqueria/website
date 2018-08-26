@@ -9,14 +9,17 @@
   .subtitle {
     font-size: 2em;
   }
-  &.is-primary.is-bold {
-    background-image: linear-gradient(
-      45deg,
-      $techqueria-blue-light 0%,
-      lighten($techqueria-blue-light, 25%) 99%,
-      lighten($techqueria-blue-light, 25%) 100%
-    );
+  &.is-bold {
     text-shadow: none;
+  }
+  &.is-primary.is-bold {
+    background-image: linear-gradient( 45deg, $techqueria-blue-light 0%, lighten($techqueria-blue-light, 25%) 99%, lighten($techqueria-blue-light, 25%) 100%);
+  }
+  &.is-danger.is-bold {
+    background-image: linear-gradient(141deg, $techqueria-red, $techqueria-yellow 60%, lighten($techqueria-red, 15%));
+    .subtitle {
+      color: $techqueria-black;
+    }
   }
 }
 
@@ -32,8 +35,8 @@
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 3px $darker-shadow;
   &.overlay {
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1000px $image-shadow;
   }
 }

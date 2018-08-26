@@ -1,3 +1,11 @@
 .footer {
   padding: 2em;
+  background-color: $techqueria-black;
+  color: $techqueria-white;
+  a {
+    color: $techqueria-yellow;
+    &:hover {
+      color: $techqueria-white;
+    }
+  }
 }

@@ -2,10 +2,10 @@
 <!-- Banner -->
 {{ if .Params.banner }}
 <!-- If banner is present -->
-<section class="hero is-medium is-primary background-image" style="background-image:url({{ .Params.banner }});">
+<section class="hero is-medium is-danger background-image" style="background-image:url({{ .Params.banner }});">
   {{ else }}
   <!-- Default to gradient if banner not present -->
-  <section class="hero is-medium is-primary is-bold">
+  <section class="hero is-medium is-danger is-bold">
     {{ end }}
     <div class="hero-body">
       <div class="container">
@@ -29,7 +29,7 @@
         <!-- Taxonomy -->
         {{ partial "taxonomy.html" . }}
       </div>
-      {{ end }}
+      <br> {{ end }}
       <!-- Children Pages -->
       <div class="columns is-multiline">
         <!-- Defining Pages -->

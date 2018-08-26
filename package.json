@@ -75,7 +75,6 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
     "twemoji": "^2.5.0",
-    "typeface-source-sans-pro": "0.0.54",
     "uncss": "^0.16.1",
     "url-loader": "^0.5.9",
     "webpack": "^3.11.0",

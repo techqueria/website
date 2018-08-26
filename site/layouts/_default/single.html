@@ -1,11 +1,11 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ if .Params.banner }}
-<section class="hero is-medium is-primary is-bold background-image" style="background-image:url({{ .Params.banner }});">
+<section class="hero is-medium is-danger is-bold background-image" style="background-image:url({{ .Params.banner }});">
   {{ partial "hero.html" . }}
 </section>
 {{ else }}
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-medium is-danger is-bold">
   {{ partial "hero.html" . }}
 </section>
 {{ end }}

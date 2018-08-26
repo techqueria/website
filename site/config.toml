@@ -1,4 +1,4 @@
-baseURL                       = "https://techqueriawebsite.netlify.com/"
+baseURL                       = "https://beta.techqueria.com/"
 title                         = "Techqueria"
 metaDataFormat                = "yaml"
 enableEmoji                   = true
@@ -22,8 +22,8 @@ pygmentsStyle                 = "manni"
 
 # RSS
 [outputs]
-    home                      = ["HTML", "AMP", "RSS"]
-    page                      = ["HTML", "AMP"]
+    home                      = ["HTML", "RSS"]
+    page                      = ["HTML"]
 
 [outputFormats]
     [outputFormats.RSS]
@@ -64,6 +64,11 @@ pygmentsStyle                 = "manni"
     # identifier              = "fas fa-info-circle"
 
 [[menu.left]]
+    name                      = "Branding"
+    url                       = "/branding/"
+    # identifier              = "fas fa-newspaper"
+
+[[menu.left]]
     name                      = "Communities"
     url                       = "/communities/"
     # identifier              = "fas fa-comments"
@@ -79,14 +84,8 @@ pygmentsStyle                 = "manni"
     # identifier              = "fas fa-calendar-alt"
 
 [[menu.left]]
-    name                      = "Press"
-    url                       = "/press/"
-    # identifier              = "fas fa-newspaper"
-
-[[menu.left]]
-    name                      = "Resources"
-    url                       = "/resources/"
-    # identifier              = "fas fa-folder-open"
+    name                      = "Sponsors"
+    url                       = "/sponsors/"
 
 [[menu.right]]
     name                      = "Facebook"

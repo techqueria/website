@@ -3,9 +3,9 @@
     <div class="columns is-8 is-variable">
       <!-- Who We Are -->
       <div class="column is-6">
-        <p>
+        <h6>
           <b>Who We Are</b>
-        </p>
+        </h6>
         <br>
         <p>
           <img src="/assets/img/logo-alt.png" alt="{{ .Title }}" width="500">
@@ -19,9 +19,9 @@
       </div>
       <!-- Sitemap -->
       <div class="column is-3">
-        <p>
+        <h6>
           <b>Sitemap</b>
-        </p>
+        </h6>
         <!-- Pages -->
         {{ $pages := where .Site.RegularPages "Type" "page" }}
         <!-- Section Pages -->
@@ -40,9 +40,9 @@
       </div>
       <!-- Communities -->
       <div class="column is-3">
-        <p>
+        <h6>
           <b>Communities</b>
-        </p>
+        </h6>
         <!-- Section Pages - Communities -->
         {{ $community := where .Site.RegularPages "Section" "communities" }}
         <!-- Looping -->
@@ -61,7 +61,8 @@
     <br>
     <!-- Copyright -->
     <div class="content has-text-centered">
-      {{ with .Site.Params.copyright }} 🌮️
+      {{ with .Site.Params.copyright }}
+      <span class="is-size-1">🌮</span>️
       <p>
         <a href="/">{{ . }}</a>
       </p>

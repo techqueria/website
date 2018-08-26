@@ -1,24 +1,27 @@
 ---
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace.
-aliases:
-  - /slack/
+url: /slack/
 ---
 
 > If you are already a Slack member, you can log in at [latinos.slack.com](http://latinos.slack.com/).
 
+---
+
+# Table of Contents
+
 <!-- TOC -->
 
-* [Request an invite](#request-an-invite)
-* [Code of Conduct](#code-of-conduct)
-* [Public Channels](#public-channels)
-  * [Default Channels](#default-channels)
-  * [Location Channels](#location-channels)
-  * [Topic Channels](#topic-channels)
-* [Private Channels](#private-channels)
-* [Emojis](#emojis)
-* [Meta](#meta)
-* [Contact Admins](#contact-admins)
+- [Request an invite](#request-an-invite)
+- [Code of Conduct](#code-of-conduct)
+- [Public Channels](#public-channels)
+  - [Default Channels](#default-channels)
+  - [Location Channels](#location-channels)
+  - [Topic Channels](#topic-channels)
+- [Private Channels](#private-channels)
+- [Emojis](#emojis)
+- [Meta](#meta)
+- [Contact Admins](#contact-admins)
 
 <!-- /TOC -->
 
@@ -56,12 +59,12 @@ By default, you do not join those channels but you can click on _CHANNELS_ to se
 
 There are three default channels:
 
-* `#admin-announcements`
-  * locked to the organizers, is where we post news and information about the community and future events
-* `#jobs`
-  * sharing and requesting job opportunities
-* `#random`
-  * conversations that don't fit in any topic channel, but could be relevant for everyone
+- `#admin-announcements`
+  - locked to the organizers, is where we post news and information about the community and future events
+- `#jobs`
+  - sharing and requesting job opportunities
+- `#random`
+  - conversations that don't fit in any topic channel, but could be relevant for everyone
 
 We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
 
@@ -69,11 +72,11 @@ We monitor most activity in those channels to make sure content is relevant so i
 
 We have a few location channels that are prefixed with `locals`, e.g.
 
-* `#locals-sf`
-* `#locals-chicago`
-* `#locals-nyc`
-* `#locals-la`
-* `#locals-sandiego`
+- `#locals-sf`
+- `#locals-chicago`
+- `#locals-nyc`
+- `#locals-la`
+- `#locals-sandiego`
 
 You can use these channels to communicate with folks in those locations, whether you live there or visiting it can be a great resource.
 

@@ -1,13 +1,12 @@
 import autoprefixer from "autoprefixer";
 import BrowserSync from "browser-sync";
-import {spawn} from "child_process";
+import {
+  spawn
+} from "child_process";
 import cssnano from "cssnano";
 import del from "del";
 import log from "fancy-log";
 import gulp from "gulp";
-import brotli from "gulp-brotli";
-import gzip from "gulp-gzip";
-import htmlmin from "gulp-htmlmin";
 import imagemin from "gulp-imagemin";
 import postcss from "gulp-postcss";
 import sass from "gulp-sass";
@@ -25,10 +24,7 @@ import webpackConfig from "./webpack.config";
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site"];
-
-// Verbose Hugo Log
-// const hugoArgsVerbose = ["-d", "../dist", "-s", "site", "-v"];
+const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v"];
 
 // Development tasks
 gulp.task("hugo", (cb) => buildSite(cb));
@@ -38,64 +34,35 @@ gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (callback) 
   runSequence("minify", callback);
 });
 
-// Minify HTML
-gulp.task("minify", () =>
-  gulp
-    .src("./dist/**/*.html")
-    .pipe(
-      htmlmin({
-        collapseWhitespace: true,
-        minifyCSS: true,
-        minifyJS: true,
-        removeComments: true,
-        useShortDoctype: true
-      })
-    )
-    .pipe(
-      brotli.compress({
-        skipLarger: true,
-        mode: 0,
-        quality: 11,
-        lgblock: 0
-      })
-    )
-    .pipe(
-      gzip({
-        skipGrowingFiles: true
-      })
-    )
-    .pipe(gulp.dest("./dist"))
-);
-
 // Compress SASS
 gulp.task("sass", () =>
   gulp
-    .src("./src/sass/styles.scss")
-    .pipe(
-      sass({
-        outputStyle: "compressed"
-      }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer(), cssnano(), csso()]))
-    .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest("./dist/assets/css"))
-    .pipe(browserSync.stream())
+  .src("./src/sass/styles.scss")
+  .pipe(
+    sass({
+      outputStyle: "compressed"
+    }).on("error", sass.logError)
+  )
+  .pipe(postcss([autoprefixer(), cssnano(), csso()]))
+  .pipe(sourcemaps.write("."))
+  .pipe(gulp.dest("./dist/assets/css"))
+  .pipe(browserSync.stream())
 );
 
 // Compress images
 gulp.task("img", () =>
   gulp
-    .src("./src/img/**/*")
-    .pipe(imagemin())
-    .pipe(gulp.dest("./dist/assets/img"))
+  .src("./src/img/**/*")
+  .pipe(imagemin())
+  .pipe(gulp.dest("./dist/assets/img"))
 );
 
 // Copy static files
 gulp.task("static", () =>
   gulp
-    .src("./src/static/**/*")
-    .pipe(gulp.dest("./dist/assets"))
-    .pipe(browserSync.stream())
+  .src("./src/static/**/*")
+  .pipe(gulp.dest("./dist/assets"))
+  .pipe(browserSync.stream())
 );
 
 // Clean up dist
