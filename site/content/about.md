@@ -28,7 +28,6 @@ Techqueria is possible thanks to the work of lots of people, organizers, volunte
 ### Bay Area
 
 - [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria and software engineer at Diamond Web Services
-- [Rubi Sanchez](https://www.linkedin.com/in/rubisanchez/), product manager at AdRoll
 - [David Hincapie](https://www.linkedin.com/in/davidohincapie/), product specialist at Oculus VR
 - [Philip Ventura](https://www.linkedin.com/in/fvntr/), a software engineer at Lending Club
 
@@ -49,7 +48,7 @@ Our developers maintain this website.
 
 Feel free to learn how to contribute using the section below.
 
-- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
 - [Frances Coronel](https://www.linkedin.com/in/fvcroductions), a software engineer at Slack
+- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
 
 # You can also learn more about our partners and sponsors on our [sponsors page](/sponsors/).
