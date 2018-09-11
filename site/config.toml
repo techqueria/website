@@ -64,11 +64,6 @@ pygmentsStyle                 = "manni"
     # identifier              = "fas fa-info-circle"
 
 [[menu.left]]
-    name                      = "Branding"
-    url                       = "/branding/"
-    # identifier              = "fas fa-newspaper"
-
-[[menu.left]]
     name                      = "Communities"
     url                       = "/communities/"
     # identifier              = "fas fa-comments"

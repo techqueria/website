@@ -52,3 +52,7 @@ Feel free to learn how to contribute using the section below.
 - [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
 
 # You can also learn more about our partners and sponsors on our [sponsors page](/sponsors/).
+
+# Branding
+
+Find more about our brand, image and guidelines for our website in our [branding](/branding) page.

@@ -16,7 +16,9 @@ The following companies have hosted our events and provided us with snacks and d
 - [NextSpace Berkeley](http://nextspace.us), co-working space in Berkeley
 - [Stripe](https://stripe.com/jobs), universal payments infrastructure of the internet
 - [Uber](https://www.uber.com/careers/), take your ideas to the next level and make something that people use every day
-- [Udacity](https://www.udacity.com/jobs), empowering students not just to advance their education, but to land their dream job in technology through a relevant 21st-century education
+- [Udacity](https://www.udacity.com/jobs), empowering students not just to advance their education, but to land their dream job in technology through a relevant 21st-cenury education
 - [Yammer](https://careers.microsoft.com/yammer), driven to help companies become more open and to make it easier for coworkers to share ideas and experiences
+- [DigitalOcean](https://www.digitalocean.com/careers/), is built on the power of community, and we are committed to creating a workplace that is able to best serve this community – for DO today, and in the future
+- [Spotify](https://www.spotifyjobs.com/), is a digital music service that gives you access to millions of songs
 
 # Interested in becoming a sponsor? Feel free to [contact us](/contact)!
