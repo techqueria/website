@@ -24,7 +24,7 @@ This will automatically open a browser tab with the website and BrowserSync will
 
 ### Build
 
-To build a static version of the website inside the `/dist` folder. 
+To build a static version of the website inside the `/dist` folder.
 
 This command is not generally needed for local development as it is just used to handle deployments through Netlify.
 
@@ -85,3 +85,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [CJ Joulain](https://github.com/cjoulain)
 - [Kimberly Munoz](https://github.com/KimberlyMunoz)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
+- [Phillip Ventura](https://github.com/fvntr)
