@@ -5,7 +5,7 @@ description: Sponsors and partners who help provide an inclusive community.
 
 ## Location and Event Sponsors
 
-The following companies have hosted our events and provided us with snacks and drinks for our members.
+The following companies have hosted our events:
 
 - [DevBootcamp](https://devbootcamp.com/), coding bootcamp in SF
 - [Ecosystem SF](http://eco-systm.com/), co-working space in SF
