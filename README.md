@@ -31,3 +31,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [CJ Joulain](https://github.com/cjoulain)
 - [Kimberly Munoz](https://github.com/KimberlyMunoz)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
+- [Phillip Ventura](https://github.com/fvntr)
