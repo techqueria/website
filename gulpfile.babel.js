@@ -35,7 +35,7 @@ gulp.task("sass", () =>
     .src("./src/sass/styles.scss")
     .pipe(
       sass({
-        outputStyle: "compressed",
+        outputStyle: "compressed"
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer(), cssnano(), csso()]))
