@@ -1,7 +1,9 @@
 ---
 title: Communities 👥️
-description: Our online communities provide a space to communicate with each other, post about job offers, ask for career advice, share events, music and even recipes!
+description: Safe spaces to network and connect with other Latinx in tech.
 url: /communities/
 ---
 
-If want to add a community, feel free to open a PR on [GitHub](https://github.com/techqueria/website).
+## Networking
+
+Our online communities provide a space to communicate with each other, post about job offers, ask for career advice and share events, music and even recipes!

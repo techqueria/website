@@ -2,20 +2,24 @@
   &:hover {
     @extend %material-shadow;
   }
+
   .card-header-title,
   .card-content,
   .card-footer {
     padding: 1em;
   }
+
   .card-header {
     img.emoji {
       margin-left: 0.5em;
     }
   }
+
   &.card-equal-height {
     display: flex;
     flex-direction: column;
     height: 100%;
+
     .card-footer {
       margin-top: auto;
     }

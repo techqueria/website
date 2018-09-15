@@ -6,60 +6,6 @@
 
 Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry.
 
-## Installation
-
-```bash
-npm i
-```
-
-## Development
-
-### Live Server
-
-```bash
-npm start
-```
-
-This will automatically open a browser tab with the website and BrowserSync will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
-
-### Build
-
-To build a static version of the website inside the `/dist` folder. 
-
-This command is not generally needed for local development as it is just used to handle deployments through Netlify.
-
-```bash
-npm run build
-```
-
-## Usage
-
-This website uses [Hugo](https://gohugo.io/) as the static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/) as the asset pipeline.
-
-The website is hosted and deployed by [Netlify](https://netlify.com).
-
-The asset pipeline uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for Sass and JavaScript compilation and transpilation.
-
-### Structure
-
-```text
-├── dist                // Static files generated and deployed (.gitignore)
-├── gulpfile.babel.js   // Build processes for assets
-├── netlify.toml        // Netlify deployment configuration
-├── package.json        // NPM packages to install
-├── site                // Hugo site that is built
-|  ├── archetypes       // Default templates
-|  ├── config.toml      // Hugo configuration file
-|  ├── content          // Content goes here (Markdown files with posts and pages)
-|  ├── layouts          // Layouts for pages and posts (Liquid HTML templates)
-|  └── static           // Any static files that go into root of dist directory
-├── src                 // Go to assets directory in dist
-|  ├── img              // Optimized through gulp configuration
-|  ├── js               // Compressed and transpiled to single JS file
-|  └── sass             // Compressed and compiled to single CSS file
-└── webpack.config.js   // Webpack configuration
-```
-
 ## Contributing
 
 > To get started...

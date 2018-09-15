@@ -1,10 +1,17 @@
 {{ define "main" }}
-<!-- Banner -->
-{{ if .Params.banner }}
-<!-- If banner is present -->
-<section class="hero is-medium is-danger background-image" style="background-image:url({{ .Params.banner }});">
+<!-- Defining Pages -->
+{{ $pages := .Pages | union (.Sections) }}
+{{ if .Params.sortByTitle }}
+{{ $pages := $pages.ByTitle}}
+{{ else }}
+{{ $pages := $pages.ByDate.Reverse }}
+{{ end }}
+<!-- Image -->
+{{ if .Params.image }}
+<!-- If image is present -->
+<section class="hero is-medium is-danger background-image" style="background-image:url({{ .Params.image }});">
   {{ else }}
-  <!-- Default to gradient if banner not present -->
+  <!-- Default to gradient if image not present -->
   <section class="hero is-medium is-danger is-bold">
     {{ end }}
     <div class="hero-body">
@@ -29,17 +36,22 @@
         <!-- Taxonomy -->
         {{ partial "taxonomy.html" . }}
       </div>
-      <br> {{ end }}
+      {{ end }}
       <!-- Children Pages -->
       <div class="columns is-multiline">
-        <!-- Defining Pages -->
-        {{ $pages := .Pages | union (.Sections) }}
         <!-- Looping -->
-        {{ range $pages.ByTitle }}
-        <div class="column is-one-quarter">
+        {{ range $pages }}
+        <div class="column is-one-third">
           {{ partial "card.html" . }}
         </div>
         {{ end }}
+      </div>
+      <hr>
+      <div class="content mt-2">
+        <!-- Sponsor Us -->
+        {{ partial "sponsor-us.html" . }}
+        <!-- Contribute -->
+        {{ partial "contribute.html" . }}
       </div>
     </div>
   </section>

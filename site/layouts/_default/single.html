@@ -1,7 +1,7 @@
 {{ define "main" }}
-<!-- Banner -->
-{{ if .Params.banner }}
-<section class="hero is-medium is-danger is-bold background-image" style="background-image:url({{ .Params.banner }});">
+<!-- Image -->
+{{ if .Params.image }}
+<section class="hero is-medium is-danger is-bold background-image" style="background-image:url({{ .Params.image }});">
   {{ partial "hero.html" . }}
 </section>
 {{ else }}
@@ -17,6 +17,9 @@
       {{ .Content }}
       <!-- Taxonomy -->
       {{ partial "taxonomy.html" . }}
+      <hr>
+      <!-- Sponsor Us -->
+      {{ partial "sponsor-us.html" . }}
       <!-- Contribute -->
       {{ partial "contribute.html" . }}
     </div>

@@ -2,6 +2,7 @@
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace.
 url: /slack/
+image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
 ---
 
 > If you are already a Slack member, you can log in at [latinos.slack.com](http://latinos.slack.com/).

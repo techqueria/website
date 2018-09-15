@@ -2,6 +2,7 @@
   a {
     text-decoration: underline;
   }
+
   img {
     @extend %image-shadow;
     display: block;
@@ -11,4 +12,23 @@
     position: relative;
     max-width: 100%;
   }
+}
+
+.responsiveCal {
+
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
 }

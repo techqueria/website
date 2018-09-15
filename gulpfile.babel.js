@@ -1,8 +1,6 @@
 import autoprefixer from "autoprefixer";
 import BrowserSync from "browser-sync";
-import {
-  spawn
-} from "child_process";
+import {spawn} from "child_process";
 import cssnano from "cssnano";
 import del from "del";
 import log from "fancy-log";
@@ -23,7 +21,7 @@ import webpackConfig from "./webpack.config";
 const browserSync = BrowserSync.create();
 
 // Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v"];
+const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v", "-F"];
 
 // Development tasks
 gulp.task("hugo", (cb) => buildSite(cb));
@@ -34,32 +32,32 @@ gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => bui
 // Compress SASS
 gulp.task("sass", () =>
   gulp
-  .src("./src/sass/styles.scss")
-  .pipe(
-    sass({
-      outputStyle: "compressed"
-    }).on("error", sass.logError)
-  )
-  .pipe(postcss([autoprefixer(), cssnano(), csso()]))
-  .pipe(sourcemaps.write("."))
-  .pipe(gulp.dest("./dist/assets/css"))
-  .pipe(browserSync.stream())
+    .src("./src/sass/styles.scss")
+    .pipe(
+      sass({
+        outputStyle: "compressed",
+      }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer(), cssnano(), csso()]))
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest("./dist/assets/css"))
+    .pipe(browserSync.stream())
 );
 
 // Compress images
 gulp.task("img", () =>
   gulp
-  .src("./src/img/**/*")
-  .pipe(imagemin())
-  .pipe(gulp.dest("./dist/assets/img"))
+    .src("./src/img/**/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("./dist/assets/img"))
 );
 
 // Copy static files
 gulp.task("static", () =>
   gulp
-  .src("./src/static/**/*")
-  .pipe(gulp.dest("./dist/assets"))
-  .pipe(browserSync.stream())
+    .src("./src/static/**/*")
+    .pipe(gulp.dest("./dist/assets"))
+    .pipe(browserSync.stream())
 );
 
 // Clean up dist
@@ -76,7 +74,7 @@ gulp.task("js", () => {
       "[webpack]",
       stats.toString({
         colors: true,
-        progress: true
+        progress: true,
       })
     );
     browserSync.reload();
@@ -87,8 +85,8 @@ gulp.task("js", () => {
 gulp.task("server", ["hugo", "sass", "js", "img", "static"], () => {
   browserSync.init({
     server: {
-      baseDir: "./dist"
-    }
+      baseDir: "./dist",
+    },
   });
   watch("./src/sass/**/*.scss", () => {
     gulp.start(["sass"]);
@@ -112,7 +110,7 @@ function buildSite(cb, options, environment = "development") {
   const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
   process.env.NODE_ENV = environment;
   return spawn(hugoBin, args, {
-    stdio: "inherit"
+    stdio: "inherit",
   }).on("close", (code) => {
     if (code === 0) {
       browserSync.reload();

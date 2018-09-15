@@ -45,33 +45,33 @@
 {{ end }}
 <!-- Keywords -->
 {{ if .Params.tags }}
-  <meta itemprop="keywords" content="{{ delimit .Params.tags ", " }}">
-  <meta name="DC.subject" content="{{ delimit .Params.tags ", " }}">
+<meta itemprop="keywords" content="{{ delimit .Params.tags ", " }}">
+<meta name="DC.subject" content="{{ delimit .Params.tags ", " }}">
 {{ end }}
 <!-- Categories & Tags Present -->
 {{ if and (.Params.Categories) (.Params.tags) }}
-  <!-- Categories -->
-  {{ if .Params.categories }}
-    <meta name="twitter:label1" value="Categories 📂️">
-    <meta name="twitter:data1" value="{{ delimit .Params.categories ", " }}">
-  {{ end }}
-  <!-- Twitter Labels -->
-  {{ if .Params.tags }}
-    <meta name="twitter:label2" value="Tags 📌️">
-    <meta name="twitter:data2" value="{{ delimit .Params.tags ", " }}">
-  {{ end }}
+<!-- Categories -->
+{{ if .Params.categories }}
+<meta name="twitter:label1" value="Categories 📂️">
+<meta name="twitter:data1" value="{{ delimit .Params.categories ", " }}">
+{{ end }}
+<!-- Twitter Labels -->
+{{ if .Params.tags }}
+<meta name="twitter:label2" value="Tags 📌️">
+<meta name="twitter:data2" value="{{ delimit .Params.tags ", " }}">
+{{ end }}
 {{ end }}
 <!-- Images -->
 <!-- Open Graph -->
 <meta property="og:image:width" content="1000">
 <meta property="og:image:height" content="500">
-<meta property="og:image" content="{{ if .Params.banner }}{{ .Params.banner }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image:src" content="{{ if .Params.banner }}{{ .Params.banner }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
-<meta name="image" content="{{ if .Params.banner }}{{ .Params.banner }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta name="twitter:image:src" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta name="image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <!-- Schema -->
-<meta itemprop="image" content="{{ if .Params.banner }}{{ .Params.banner }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta itemprop="image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <!-- Links -->
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="manifest" href="/manifest.json" />
@@ -80,16 +80,18 @@
 <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
 <!-- RSS -->
 {{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
 {{ end }}
 <!-- Add prefetch and prerender on section pages. Works especially well for articles or blog posts in a series -->
 {{ if .IsPage }}
-  <!-- Next Section -->
-  {{ if .NextInSection }}
-  <link rel="prefetch" href="{{ .NextInSection.Permalink }}"><link rel="prerender" href="{{ .NextInSection.Permalink }}">
-  {{ end }}
-  <!-- Previous Section -->
-  {{ if .PrevInSection }}
-  <link rel="prefetch" href="{{ .PrevInSection.Permalink }}"><link rel="prerender" href="{{ .PrevInSection.Permalink }}">
-  {{ end }}
+<!-- Next Section -->
+{{ if .NextInSection }}
+<link rel="prefetch" href="{{ .NextInSection.Permalink }}">
+<link rel="prerender" href="{{ .NextInSection.Permalink }}">
+{{ end }}
+<!-- Previous Section -->
+{{ if .PrevInSection }}
+<link rel="prefetch" href="{{ .PrevInSection.Permalink }}">
+<link rel="prerender" href="{{ .PrevInSection.Permalink }}">
+{{ end }}
 {{ end }}

@@ -1,13 +1,13 @@
 ---
-title: {{ replace .TranslationBaseName "-" " " | title }}
-date: {{ .Date }}
+title: { { replace .TranslationBaseName "-" " " | title } }
+date: { { .Date } }
 description: ''
 # Featured image hosted on Imgur
-banner: ''
-# (Optional) Caption for banner image.
+image: ''
+# (Optional) Caption for image.
 caption: ''
 # (Optional) Link the featured image points to.
-bannerLink: ''
+imageLink: ''
 # (Optional) Link this post redirects user to.
 link: ''
 # Not ready for publishing
