@@ -1,6 +1,6 @@
 ---
 title: Communities 👥️
-description: Safe spaces to network and connect with other Latinx in tech.
+description: Opportunities to network and connect with other Latinx in tech.
 url: /communities/
 ---
 
