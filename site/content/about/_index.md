@@ -1,6 +1,7 @@
 ---
 title: About 🌮️
 description: Techqueria is a community of Latinx professionals in the tech industry that was first established in 2016.
+sortByTitle: true
 ---
 
 ## Who we are
@@ -51,8 +52,4 @@ Feel free to learn how to contribute using the section below.
 - [Frances Coronel](https://www.linkedin.com/in/fvcroductions), a software engineer at Slack
 - [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
 
-# You can also learn more about our partners and sponsors on our [sponsors page](/sponsors/).
-
-# Branding
-
-Find more about our brand, image and guidelines for our website in our [branding](/branding) page.
+## More about us

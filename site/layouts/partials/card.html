@@ -5,11 +5,11 @@
   <a href="{{ .RelPermalink }}">
     {{end}}
     <div class="card card-equal-height">
-      <!-- Banner -->
-      {{ if .Params.banner }}
+      <!-- Image -->
+      {{ if .Params.image }}
       <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="{{ .Params.banner }}" alt="{{ .Title }}">
+        <figure class="image">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}">
         </figure>
       </div>
       {{ end }}

@@ -6,21 +6,9 @@
   <!-- SEO -->
   {{ partial "head.html" . }}
   <!-- Favicons -->
-  {{ partial "favicons.html" }}
-  <!-- Google Fonts -->
-  <link href="//fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <!-- Prefetch Third Party Resources -->
-  <!-- Twemoji -->
-  <link rel="dns-prefetch" href="//twemoji.maxcdn.com">
-  <!-- Google Analytics -->
-  <!-- <link rel="dns-prefetch" href="//google-analytics.com"> -->
-  <!-- Preload -->
-  <link rel="preload" href="/assets/css/styles.css" as="style">
+  {{ partial "favicons.html" . }}
+  <!-- Styling -->
+  {{ partial "styles.html" . }}
 </head>
 
 <body>
@@ -30,23 +18,7 @@
   <!-- Footer -->
   {{ partial "footer.html" . }}
   <!-- Scripts -->
-  <!-- Twemoji -->
-  <script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.0"></script>
-  <!-- Custom JS -->
-  <script src="/assets/js/app.js"></script>
-  <!-- Service Worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').then(registration => {
-          console.info('The service worker was registered! 🎉', registration);
-        }).catch(registrationError => {
-          console.error('The service worker registration failed. 😭️', registrationError);
-        });
-      });
-    }
-
-  </script>
+  {{ partial "scripts.html" . }}
 </body>
 
 </html>
