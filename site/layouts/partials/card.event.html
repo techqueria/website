@@ -1,0 +1,26 @@
+<!-- Checking for external link -->
+  <div class="card card-equal-height">
+    <!-- Title -->
+    <header class="card-header">
+      <h2 class="card-header-title">
+        {{ .Title }}
+      </h2>
+    </header>
+    <!-- Description -->
+    <div class="card-content">
+      <div class="content">
+        {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
+      </div>
+    </div>
+    <!-- Date -->
+    {{ if not .PublishDate.IsZero }}
+    <footer class="card-footer">
+      <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>&nbsp;
+      <a href="{{ .RelPermalink }}">More info...</a>&nbsp;
+      {{ if .Params.link }}
+        <a href="{{ .Params.link }}" target="_blank" rel="noopener">RSVP now</a>&nbsp;
+      {{ end }}
+    </footer>
+    {{ end }}
+  </div>
+

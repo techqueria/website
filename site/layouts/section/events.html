@@ -1,0 +1,57 @@
+{{ define "main" }}
+<!-- Defining Pages -->
+{{ $pages := .Pages | union (.Sections) }}
+{{ $pages := $pages.ByTitle}}
+<!-- Image -->
+{{ if .Params.image }}
+<!-- If image is present -->
+<section class="hero is-medium is-danger background-image" style="background-image:url({{ .Params.image }});">
+  {{ else }}
+  <!-- Default to gradient if image not present -->
+  <section class="hero is-medium is-danger is-bold">
+    {{ end }}
+    <div class="hero-body">
+      <div class="container">
+        <!-- Title -->
+        <h1 class="title">
+          {{ .Title }}
+        </h1>
+        <!-- Description -->
+        <h2 class="subtitle">
+          {{ .Description }}
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <!-- Content -->
+      {{ if .Content }}
+      <div class="content">
+
+        <!-- Children Pages -->
+          <div class="columns is-multiline">
+            <!-- Looping -->
+            {{ range $pages }}
+            <div class="column is-full">
+              {{ partial "card.event.html" . }}
+            </div>
+            {{ end }}
+          </div>
+
+
+        {{ .Content }}
+        <!-- Taxonomy -->
+        {{ partial "taxonomy.html" . }}
+      </div>
+      {{ end }}
+      <hr>
+      <div class="content mt-2">
+        <!-- Sponsor Us -->
+        {{ partial "sponsor-us.html" . }}
+        <!-- Contribute -->
+        {{ partial "contribute.html" . }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
