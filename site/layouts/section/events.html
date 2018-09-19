@@ -25,21 +25,18 @@
   </section>
   <section class="section">
     <div class="container">
+      <!-- Children Pages -->
+      <div class="columns is-multiline">
+        <!-- Looping -->
+        {{ range $pages }}
+        <div class="column is-full">
+          {{ partial "card.event.html" . }}
+        </div>
+        {{ end }}
+      </div>
       <!-- Content -->
       {{ if .Content }}
       <div class="content">
-
-        <!-- Children Pages -->
-          <div class="columns is-multiline">
-            <!-- Looping -->
-            {{ range $pages }}
-            <div class="column is-full">
-              {{ partial "card.event.html" . }}
-            </div>
-            {{ end }}
-          </div>
-
-
         {{ .Content }}
         <!-- Taxonomy -->
         {{ partial "taxonomy.html" . }}

@@ -9,16 +9,16 @@
     <!-- Description -->
     <div class="card-content">
       <div class="content">
-        {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
+        <p><time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time></p>
+        {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 200 | safeHTML }} {{ end }}
       </div>
     </div>
     <!-- Date -->
     {{ if not .PublishDate.IsZero }}
     <footer class="card-footer">
-      <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>&nbsp;
-      <a href="{{ .RelPermalink }}">More info...</a>&nbsp;
+      <a href="{{ .RelPermalink }}" class="card-footer-item">More info...</a>
       {{ if .Params.link }}
-        <a href="{{ .Params.link }}" target="_blank" rel="noopener">RSVP now</a>&nbsp;
+        <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">RSVP now</a>&nbsp;
       {{ end }}
     </footer>
     {{ end }}
