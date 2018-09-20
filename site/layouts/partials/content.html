@@ -1,11 +1,12 @@
+{{ if or (.Content) (.Params.image) }}
 <div class="content">
-  <!-- Content -->
+  <!-- Hero Image -->
   {{ if .Params.image }}
   <img class="image hero mb-1" src="{{ .Params.image }}">
   {{ end }}
+  <!-- Content -->
   {{ if .Content }}
   {{ .Content }}
-  {{ else }}
-  <p>No content here - only tacitos. 🌮</p>
   {{ end }}
 </div>
+{{ end }}
