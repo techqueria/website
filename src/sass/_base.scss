@@ -23,10 +23,10 @@ a {
   }
 
   &.hero-link {
-    color: $techqueria-white !important;
+    text-decoration: underline;
 
     &:hover {
-      text-decoration: underline;
+      color: $techqueria-white !important;
     }
   }
 }
