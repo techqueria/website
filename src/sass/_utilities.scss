@@ -1,11 +1,31 @@
-.mr-sm {
-  margin-right: 0.5em;
+.mt-1 {
+  margin-top: 1em !important;
 }
 
 .mt-2 {
-  margin-top: 2em;
+  margin-top: 2em !important;
 }
 
-iframe {
-  width: 100%;
+.mr-sm {
+  margin-right: 0.5em !important;
+}
+
+.mb-1 {
+  margin-bottom: 1em !important;
+}
+
+.mb-2 {
+  margin-bottom: 2em !important;
+}
+
+.pd-1 {
+  padding: 1em !important;
+}
+
+.image-shadow {
+  @extend %image-shadow;
+}
+
+.material-shadow {
+  @extend %material-shadow;
 }

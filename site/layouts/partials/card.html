@@ -27,7 +27,7 @@
       </div>
       <!-- Date -->
       {{ if not .PublishDate.IsZero }}
-      <footer class="card-footer">
+      <footer class="card-footer pd-1">
         <time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>
       </footer>
       {{ end }}

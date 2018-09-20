@@ -1,26 +1,35 @@
-<!-- Checking for external link -->
-  <div class="card card-equal-height">
-    <!-- Title -->
-    <header class="card-header">
-      <h2 class="card-header-title">
-        {{ .Title }}
-      </h2>
-    </header>
-    <!-- Description -->
-    <div class="card-content">
-      <div class="content">
-        <p><time datetime=" {{ dateFormat " 2006-01-02 " .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time></p>
-        {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 200 | safeHTML }} {{ end }}
-      </div>
-    </div>
-    <!-- Date -->
-    {{ if not .PublishDate.IsZero }}
-    <footer class="card-footer">
-      <a href="{{ .RelPermalink }}" class="card-footer-item">More info...</a>
-      {{ if .Params.link }}
-        <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">RSVP now</a>&nbsp;
-      {{ end }}
-    </footer>
-    {{ end }}
+<div class="card card-equal-height">
+  <!-- Image -->
+  {{ if .Params.image }}
+  <div class="card-image">
+    <figure class="image">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}">
+    </figure>
   </div>
-
+  {{ end }}
+  <!-- Title -->
+  <header class="card-header">
+    <h2 class="card-header-title">
+      {{ .Title }}
+    </h2>
+  </header>
+  <!-- Description -->
+  <div class="card-content">
+    <div class="content">
+      {{ if not .PublishDate.IsZero }}
+      <p class="subtitle mb-1"><time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time></p>
+      {{ end }}
+      {{ with .Params.location }}
+      <p class="subtitle mb-1">{{ . }}</p>
+      {{ end }}
+      {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 200 | safeHTML }} {{ end }}
+    </div>
+  </div>
+  <!-- Date -->
+  <footer class="card-footer">
+    <a href="{{ .RelPermalink }}" class="card-footer-item">ℹ️ More info</a>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">📝 RSVP now</a>&nbsp;
+    {{ end }}
+  </footer>
+</div>
