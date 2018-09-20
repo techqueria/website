@@ -3,6 +3,7 @@ body {
   font-weight: normal;
   font-size: $font-size;
   word-wrap: break-word;
+
   @media screen and (max-width: $mobile) {
     font-size: $font-size-mobile;
   }
@@ -10,18 +11,22 @@ body {
 
 a {
   color: $techqueria-blue;
+
   &:hover {
     color: $techqueria-red;
   }
+
   &.navbar-item.is-hidden-mobile.icon {
     &:hover {
       background-color: $techqueria-white;
     }
   }
-  &.external-link {
+
+  &.hero-link {
     text-decoration: underline;
+
     &:hover {
-      font-weight: 700;
+      color: $techqueria-white !important;
     }
   }
 }

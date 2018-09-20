@@ -1,0 +1,12 @@
+{{ if or (.Content) (.Params.image) }}
+<div class="content">
+  <!-- Hero Image -->
+  {{ if .Params.image }}
+  <img class="image hero mb-1" src="{{ .Params.image }}">
+  {{ end }}
+  <!-- Content -->
+  {{ if .Content }}
+  {{ .Content }}
+  {{ end }}
+</div>
+{{ end }}

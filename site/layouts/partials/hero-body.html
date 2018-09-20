@@ -1,0 +1,18 @@
+<div class="hero-body">
+  <div class="container">
+    <!-- Title -->
+    <h1 class="title">
+      {{ .Title }}
+    </h1>
+    <!-- Description -->
+    <h2 class="subtitle">
+      {{ .Description }}
+    </h2>
+    <!-- External Link -->
+    {{ with .Params.link }}
+    <a class="button is-link is-inverted is-large" href="{{ . }}" target="_blank" rel="noopener">
+      More info ➡
+    </a>
+    {{ end }}
+  </div>
+</div>

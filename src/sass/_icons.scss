@@ -11,8 +11,25 @@
 }
 
 img.emoji {
-  border-radius: 0;
-  width: 1em;
-  margin: 0 0.1em;
+  -webkit-box-shadow: none;
+  background: 0 0;
+  border: 0;
   box-shadow: none;
+  margin: 0 0.25em;
+  padding: 0;
+  vertical-align: -0.1em;
+  width: 1em;
+}
+
+.card-header,
+.hero a {
+  img.emoji {
+    margin-left: 0.5em;
+  }
+}
+
+.card-footer {
+  img.emoji {
+    margin-right: 0.5em;
+  }
 }

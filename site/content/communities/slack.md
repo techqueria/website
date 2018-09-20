@@ -30,7 +30,9 @@ image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
 
 We'd like to learn more a little bit about your interest in our community so we kindly request you [fill out the Google Form below](https://goo.gl/forms/VRARl4qkkLj3BJLl1) in order to receive an invitation to our Slack Workspace.
 
+<div class="mt-2 mb-2 has-text-centered">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="640" height="2283" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
 
 In the meantime, feel free to check out [our different Community groups](/communities/) and review the overview we've provided of our Slack group below.
 

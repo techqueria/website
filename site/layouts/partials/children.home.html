@@ -1,0 +1,48 @@
+<!-- Pages -->
+{{ $pages := where .Site.RegularPages "Type" "page" }}
+<!-- Pages & Section Pages -->
+{{ $pages := $pages | union (.Site.Sections) }}
+<!-- Pages By Title -->
+{{ $pages := $pages.ByTitle }}
+<!-- Please note this page will need to be updated depending on number of pages -->
+<!-- First 3 Pages -->
+<section class="section page">
+  <div class="container">
+    <div class="columns is-multiline">
+      <!-- Looping -->
+      {{ range first 3 $pages }}
+      <div class="column is-one-third-desktop is-half-tablet">
+        {{ partial "card.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- CTA - Join Slack -->
+{{ partial "cta.slack.html" . }}
+<!-- Second 3 Pages -->
+<section class="section page">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range first 3 (after 3 $pages) }}
+      <div class="column is-one-third-desktop is-half-tablet">
+        {{ partial "card.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- CTA - Become a sponsor -->
+{{ partial "cta.sponsor.html" . }}
+<!-- Last 3 Pages -->
+<section class="section page">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range first 3 (after 6 $pages) }}
+      <div class="column is-one-third-desktop is-half-tablet">
+        {{ partial "card.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

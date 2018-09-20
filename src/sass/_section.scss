@@ -1,3 +1,9 @@
+.section {
+  @media screen and (max-width: $tablet) {
+    padding: 1rem;
+  }
+}
+
 .content {
   a {
     text-decoration: underline;
@@ -11,5 +17,9 @@
     display: inline-block;
     position: relative;
     max-width: 100%;
+
+    &.hero {
+      width: 100%;
+    }
   }
 }
