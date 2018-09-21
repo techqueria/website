@@ -32,3 +32,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Kimberly Munoz](https://github.com/KimberlyMunoz)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
 - [Phillip Ventura](https://github.com/fvntr)
+- [Darryl Balderas](https://github.com/db118)
