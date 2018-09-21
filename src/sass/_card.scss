@@ -7,6 +7,12 @@
   .card-content {
     padding: 1em;
   }
+  .card-image {
+    img {
+      height: 45vh;
+      width: 100%;
+    }
+  }
 
   &.card-equal-height {
     display: flex;
