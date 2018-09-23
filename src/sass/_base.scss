@@ -30,3 +30,36 @@ a {
     }
   }
 }
+
+.media-content {
+  padding: 1em;
+}
+
+.button {
+  font-size: inherit;
+  padding: .5em 1em;
+}
+
+.button,
+.file-cta,
+.file-name,
+.input,
+.pagination-ellipsis,
+.pagination-link,
+.pagination-next,
+.pagination-previous,
+.select select,
+.textarea {
+  line-height: 1;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  @extend %overflow-text;
+}
+
+.breadcrumb {
+  font-size: inherit;
+}

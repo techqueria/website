@@ -12,37 +12,39 @@
       <!-- Looping -->
       {{ range first 3 $pages }}
       <div class="column is-one-third-desktop is-half-tablet">
-        {{ partial "card.html" . }}
+        {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- CTA - Join Slack -->
-{{ partial "cta.slack.html" . }}
+{{ partial "content/cta/cta.slack.html" . }}
 <!-- Second 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $pages) }}
       <div class="column is-one-third-desktop is-half-tablet">
-        {{ partial "card.html" . }}
+        {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- CTA - Become a sponsor -->
-{{ partial "cta.sponsor.html" . }}
+{{ partial "content/cta/cta.sponsor.html" . }}
 <!-- Last 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $pages) }}
       <div class="column is-one-third-desktop is-half-tablet">
-        {{ partial "card.html" . }}
+        {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+<!-- CTA - Subscribe to newsletter -->
+{{ partial "content/cta/cta.newsletter.html" . }}

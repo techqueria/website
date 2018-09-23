@@ -1,6 +1,7 @@
 ---
 title: Brand 🎨
 description: Download our assets and discover our style guide.
+image: https://i.imgur.com/A43r74s.png
 ---
 
 <!-- TOC -->

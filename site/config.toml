@@ -1,4 +1,4 @@
-baseURL                       = "https://beta.techqueria.com/"
+baseURL                       = "https://techqueria.org/"
 title                         = "Techqueria"
 metaDataFormat                = "yaml"
 enableEmoji                   = true

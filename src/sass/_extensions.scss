@@ -5,3 +5,14 @@
 %image-shadow {
   box-shadow: 0 0 20px $image-shadow;
 }
+
+%overflow-text {
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: none;
+  display: inline-block;
+  white-space: pre-wrap;
+  height: 100%;
+}
