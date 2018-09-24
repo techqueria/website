@@ -2,5 +2,5 @@
 title: Twilio
 description: Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale
 link: https://www.twilio.com/company/jobs
-image: https://cdn-images-1.medium.com/max/1300/1*RgTiFJX6Aa7ftVjqXHcm2Q.png
+image: https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/twilio-730x365.jpg
 ---

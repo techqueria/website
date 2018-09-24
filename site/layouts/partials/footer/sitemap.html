@@ -1,0 +1,20 @@
+<div class="column is-6">
+  <h6>
+    <b>Sitemap</b>
+  </h6>
+  <!-- Pages -->
+  {{ $pages := where .Site.RegularPages "Type" "page" }}
+  <!-- Section Pages -->
+  {{ $pages := $pages | union (.Site.Sections) }}
+  <!-- Looping -->
+  {{ range $pages.ByTitle }}
+  <p>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+        {{ end }} {{.Title}}
+      </a>
+  </p>
+  {{ end }}
+</div>

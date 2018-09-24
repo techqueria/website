@@ -11,7 +11,7 @@
   {{ range $pages.ByDate }}
   {{ if .Date.Before now }} {{ else }}
   <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "card.event.html" . }}
+    {{ partial "content/card/card.event.html" . }}
   </div>
   {{ end }} {{ end }}
 </div>
@@ -24,7 +24,7 @@
   {{ range $pages.ByDate.Reverse }}
   {{ if .Date.Before now }}
   <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "card.event.html" . }}
+    {{ partial "content/card/card.event.html" . }}
   </div>
   {{ else }} {{ end }} {{ end }}
 </div>

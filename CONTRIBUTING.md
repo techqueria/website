@@ -3,12 +3,14 @@
 <!-- TOC -->
 
 - [Steps](#steps)
-- [Project Tracker](#project-tracker)
-- [Tools](#tools)
-- [Structure](#structure)
-- [Installation](#installation)
-- [Live Server](#live-server)
-- [Build](#build)
+- [Development](#development)
+  - [Installation](#installation)
+  - [Service Worker](#service-worker)
+  - [Live Server](#live-server)
+  - [Project Tracker](#project-tracker)
+  - [Tools](#tools)
+  - [Structure](#structure)
+- [Deployment](#deployment)
 - [Questions?](#questions)
 
 <!-- /TOC -->
@@ -18,28 +20,63 @@
 > To get started...
 
 1.  🍴 [Fork this repo](https://github.com/techqueria/website#fork-destination-box)
-2.  🔨 Hack away
+2.  🔨 Look over the [development](#development) guidelines and hack away.
 3.  👥 Add yourself as a contributor under the credits section
 4.  🔧 [Open a new pull request](https://github.com/techqueria/website/compare)
 5.  🎉 Get your pull request approved - success!
 
 Or just [create an issue](https://github.com/techqueria/website/issues) - any little bit of help counts! 😊
 
-## Project Tracker
+## Development
+
+### Installation
+
+```bash
+npm i
+```
+
+This will install all the packages needed to run this website locally.
+
+### Service Worker
+
+The [service worker](https://developers.google.com/web/tools/workbox/) is being initialized in `site/layouts/partials/scripts/service-worker.html` and is included in the `.gitignore`.
+
+Make sure to comment out this file before running the live server.
+
+### Live Server
+
+```bash
+npm start
+```
+
+This will automatically open a browser tab with the website and BrowserSync will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+
+Our pipeline is inspired by [Victor Hugo](https://github.com/netlify-templates/victor-hugo) which is a Hugo boilerplate for creating truly epic websites.
+
+### Project Tracker
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all)](https://waffle.io/techqueria/website)
 
-We are using [Waffle.io](https://waffle.io/techqueria/website) to track open issues and progress being made.
+We are using [Waffle.io](https://waffle.io/techqueria/website) as well as [GitHub Milestones](https://help.github.com/articles/about-milestones/) to track open issues and progress being made.
 
-## Tools
+### Tools
 
-This website uses [Hugo](https://gohugo.io/) as the static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/) as the asset pipeline.
+- [Hugo](https://gohugo.io/)
+  - static site generators or CMS
+- [Bulma.io](https://bulma.io/)
+  - design system
+- [Gulp](https://gulpjs.com/)
+  - asset pipeline
+- [Webpack](https://webpack.js.org/)
+  - asset pipeline and service worker
+- [Netlify](https://netlify.com)
+  - hosting and deployment
+- [PostCSS](http://postcss.org/)
+  - Sass compilation
+- [Babel](https://babeljs.io/)
+  - JavaScript compilation and transpilation
 
-The website is hosted and deployed by [Netlify](https://netlify.com).
-
-The asset pipeline uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for Sass and JavaScript compilation and transpilation.
-
-## Structure
+### Structure
 
 ```text
 ├── CNAME                   // domain
@@ -64,29 +101,15 @@ The asset pipeline uses [PostCSS](http://postcss.org/) and [Babel](https://babel
 └── webpack.config.js       // build configuration that works in tandem with Gulp
 ```
 
-## Installation
-
-```bash
-npm i
-```
-
-## Live Server
-
-```bash
-npm start
-```
-
-This will automatically open a browser tab with the website and BrowserSync will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
-
-## Build
-
-To build a static version of the website inside the `/dist` folder.
-
-This command is not generally needed for local development as it is just used to handle deployments through Netlify.
+## Deployment
 
 ```bash
 npm run build
 ```
+
+This will build a static version of the website inside the `/dist` folder.
+
+This command is not generally needed for local development as it is just used to handle deployments through Netlify - see `netlify.toml`.
 
 ## Questions?
 

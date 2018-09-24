@@ -65,3 +65,6 @@ typings/
 config/env.js
 dist
 site/public
+
+# Service Worker
+site/layouts/partials/scripts/service-worker.html

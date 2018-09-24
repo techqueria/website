@@ -1,0 +1,19 @@
+<!-- Defining Pages -->
+{{ $pages := .Pages }}
+{{ $pages := union (.Pages) (.Sections) }}
+<!-- Children Pages -->
+<div class="columns is-multiline">
+  {{ if .Param "sortByTitle" }}
+  {{ $pages := $pages.ByTitle }}
+  {{ else if .Params.sortLatestFirst }}
+  {{ $pages := $pages.ByDate }}
+  {{ else }}
+  {{ $pages := $pages.ByDate.Reverse }}
+  {{ end }}
+  <!-- Looping -->
+  {{ range $pages }}
+  <div class="column is-one-third-desktop is-half-tablet">
+    {{ partial "content/card/_index.html" . }}
+  </div>
+  {{ end }}
+</div>

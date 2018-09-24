@@ -2,23 +2,18 @@
 <html lang="en">
 
 <head prefix="og: http://ogp.me/ns#">
-  <!-- SEO -->
-  {{ partial "head.html" . }}
-  <title>{{ .Title }}</title>
-  <!-- Favicons -->
-  {{ partial "favicons.html" . }}
-  <!-- Styling -->
-  {{ partial "styles.html" . }}
+  <!-- Head -->
+  {{ partial "head/_index.html" . }}
 </head>
 
 <body>
-  {{ partial "navbar.html" . }}
+  {{ partial "navbar/_index.html" . }}
   <!-- Main Block -->
   {{ block "main" . }} {{ end }}
   <!-- Footer -->
-  {{ partial "footer.html" . }}
+  {{ partial "footer/_index.html" . }}
   <!-- Scripts -->
-  {{ partial "scripts.html" . }}
+  {{ partial "scripts/_index.html" . }}
 </body>
 
 </html>

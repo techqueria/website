@@ -22,34 +22,43 @@ We meet for events in our different chapters, usually with speakers or a panel t
 
 We create partnerships with other organizations and communities; both those that provide value to our members or to those that we can volunteer and help them get closer to their goals.
 
+---
+
 ## Team
 
 Techqueria is possible thanks to the work of lots of people, organizers, volunteers, mentors, sponsors, and advisors; and we're thankful for all of them.
 
-### Bay Area
+### Co-Founders
 
-- [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria and software engineer at Diamond Web Services
+- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria & senior developer at Slingshot Health
+- [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria & software engineer at Diamond Web Services
+
+### Organizers
+
+#### Bay Area
+
+- [Shashi Jain](https://www.linkedin.com/in/quahada), co-founder of Techqueria & software engineer at Diamond Web Services
 - [David Hincapie](https://www.linkedin.com/in/davidohincapie/), product specialist at Oculus VR
-- [Philip Ventura](https://www.linkedin.com/in/fvntr/), a software engineer at Lending Club
+- [Philip Ventura](https://www.linkedin.com/in/fvntr/), software engineer at Lending Club
 
-### Los Angeles
+#### Los Angeles
 
-- [Esteban Uribe](https://www.linkedin.com/in/estebanuribe/), co-founder of Techqueria's LA chapter and iOS Engineer at Tinder
-- [Hector Carmona](https://www.linkedin.com/in/hectoroddincarmona/), a software engineer at Google
+- [Esteban Uribe](https://www.linkedin.com/in/estebanuribe/), co-founder of Techqueria's LA chapter & iOS Engineer at Tinder
+- [Hector Carmona](https://www.linkedin.com/in/hectoroddincarmona/), software engineer at Google
 - [Josue Bustos](https://www.linkedin.com/in/josuebustos), technical evangelist at Samsung
 
-### New York
+#### New York
 
-- [Tatiana Carett](https://www.linkedin.com/in/tatianacarett/), an associate at Booz Allen Hamilton
-- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
+- [Tatiana Carett](https://www.linkedin.com/in/tatianacarett/), associate at Booz Allen Hamilton
+- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria & senior developer at Slingshot Health
 
-## Developers
+### Developers
 
-Our developers maintain this website.
+Our developers maintain this website. You can [contribute](https://github.com/techqueria/website) as well!
 
-Feel free to learn how to contribute using the section below.
+- [Frances Coronel](https://www.linkedin.com/in/fvcproductions), software engineer at Slack
+- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria & senior developer at Slingshot Health
 
-- [Frances Coronel](https://www.linkedin.com/in/fvcroductions), a software engineer at Slack
-- [David Silva](https://linkedin.com/in/dvidsilva), co-founder of Techqueria and senior developer at Slingshot Health
+---
 
 ## More about us

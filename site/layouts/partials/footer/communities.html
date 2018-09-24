@@ -1,0 +1,18 @@
+<div class="column is-6">
+  <h6>
+    <b>Communities</b>
+  </h6>
+  <!-- Section Pages - Communities -->
+  {{ $community := where .Site.RegularPages "Section" "communities" }}
+  <!-- Looping -->
+  {{ range $community.ByTitle }}
+  <p>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+        {{ end }} {{.Title}}
+      </a>
+  </p>
+  {{ end }}
+</div>

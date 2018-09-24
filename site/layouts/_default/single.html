@@ -1,13 +1,15 @@
 {{ define "main" }}
 <!-- Hero -->
-{{ partial "hero.html" . }}
+{{ partial "content/hero/_index.html" . }}
 <!-- Content -->
 <section class="section page">
   <div class="container">
+    <!-- Breadcrumbs -->
+    {{ partial "content/breadcrumbs.html" . }}
     <!-- Content -->
-    {{ partial "content.html" . }}
+    {{ partial "content/_index.html" . }}
     <!-- Content Footer -->
-    {{ partial "content.footer.html" . }}
+    {{ partial "content/footer/_index.html" . }}
   </div>
 </section>
 <!-- End Main -->
