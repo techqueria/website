@@ -7,10 +7,7 @@
     <div class="card card-equal-height">
       <!-- Image -->
       {{ if .Params.image }}
-      <div class="card-image">
-        <figure class="image">
-          <img src="{{ .Params.image }}" alt="{{ .Title }}">
-        </figure>
+      <div class="card-image" style="background-image: url({{.Params.image}})">
       </div>
       {{ end }}
       <!-- Title -->
