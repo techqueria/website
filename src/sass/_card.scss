@@ -9,25 +9,13 @@
   }
 
   .card-image {
-    background-size: 100% 100%;
-    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    @media screen and (max-width: $mobile) {
-      height: 11em;
-    }
-
-    @media screen and (min-width: $mobile + 1) and (max-width: $tablet - 1) {
-      height: 10em;
-    }
-
-    @media screen and (min-width: $tablet + 1) and (max-width: $laptop - 1) {
-      height: 9em;
-    }
-
-    @media screen and (min-width: $laptop) {
-      height: 8em;
-    }
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 10em;
   }
 
   &.card-equal-height {
