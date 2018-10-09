@@ -18,6 +18,16 @@
     height: 10em;
   }
 
+  .card-image-sponsors{
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    height: 10em;
+  }
+
   &.card-equal-height {
     display: flex;
     flex-direction: column;
