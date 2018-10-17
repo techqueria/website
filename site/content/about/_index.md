@@ -1,36 +1,36 @@
 ---
 title: About 🌮️
-description: Techqueria is a community of Latinx professionals in the tech industry that was first established in 2016.
+description: Techqueria is a community of Latinxs in the tech industry that was first established in 2016.
 sortByTitle: true
 ---
 
 ## Who we are
 
-We're a professional community for Latinxs in tech.
+We're a community of Latinxs in tech.
 
-Techqueria is a space where we can network and advance in our careers, work on open-source together, and help Latinx workers across the industry.
+We're a space where Latinxs can network and advance in our careers, work on open-source together, and help workers like us across the industry.
 
-We come from all walks of life and believe that the diversity of the community is our most reliable asset.
+We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
-We promote collaboration among our members and aim to create a culture where we are continually looking for ways to uplift each other.
+We promote collaboration among our members and aim to create a culture that advances our individual and collective success.
 
 ## What we do
 
-We maintain online communities to hold conversations around different topics that are valuable for the community; career advice, work opportunities, events,resources and even where to get great food!
+We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and even where to get great food!
 
-We meet for events in our different chapters, usually with speakers on a panel to learn, network, and create stronger bonds.
+## Our Story
 
-We create partnerships with other organizations and communities that advance our mission.
+David Silva and Shashi Jain organized the first events at the NextSpace in Berkeley, CA. We later started hosting at companies across the Bay Area and grew our community thanks to the work of Kimberly Muñoz and CJ Joulain. LA was the first place we held events outside the Bay Area thanks to the help of Esteban Uribe.
+
+As our community moves, we form chapters and support one another in building a home for Latinxs in tech. We welcome all that share our mission!
+
+If you are interested in starting a chapter, reach out to organizers@techqueria.org
+
 ---
 
 ## Team
 
-Techqueria is an all-volunteer organiztion that is made possible thanks to the work of lots of organizers, mentors, sponsors, and advisors!
-
-### Co-Founders
-
-- [David Silva](https://linkedin.com/in/dvidsilva), Co-founder of Techqueria & Senior Developer at Slingshot Health
-- [Shashi Jain](https://www.linkedin.com/in/quahada), Co-founder of Techqueria & Software Engineer
+Techqueria is an all-volunteer organization that is made possible thanks to the work of lots of organizers, mentors, sponsors, and advisors!
 
 ### Active Organizers By Region
 
@@ -44,7 +44,7 @@ Techqueria is an all-volunteer organiztion that is made possible thanks to the w
 
 #### Los Angeles
 
-- [Esteban Uribe](https://www.linkedin.com/in/estebanuribe/), Co-founder of Techqueria's LA chapter & iOS Engineer at Tinder
+- [Esteban Uribe](https://www.linkedin.com/in/estebanuribe/), iOS Engineer at Tinder
 - [Hector Carmona](https://www.linkedin.com/in/hectoroddincarmona/), Software Engineer at Google
 - [Josue Bustos](https://www.linkedin.com/in/josuebustos), Technical Evangelist at Samsung
 - [Maritza Alas](https://www.linkedin.com/in/maritza-alas/), Software Engineer at Age of Learning
@@ -52,7 +52,7 @@ Techqueria is an all-volunteer organiztion that is made possible thanks to the w
 #### New York
 
 - [Tatiana Carett](https://www.linkedin.com/in/tatianacarett/), Associate at Booz Allen Hamilton
-- [David Silva](https://linkedin.com/in/dvidsilva),Senior Developer at Slingshot Health
+- [David Silva](https://linkedin.com/in/dvidsilva), Senior Developer at Slingshot Health
 
 ### Austin
 
@@ -63,7 +63,7 @@ Techqueria is an all-volunteer organiztion that is made possible thanks to the w
 Our developers maintain this website. You can [contribute](https://github.com/techqueria/website) as well!
 
 - [Frances Coronel](https://www.linkedin.com/in/fvcproductions), Software Engineer at Slack
-- [David Silva](https://linkedin.com/in/dvidsilva), Co-founder of Techqueria & Senior Developer at Slingshot Health
+- [David Silva](https://linkedin.com/in/dvidsilva), Senior Developer at Slingshot Health
 - [Phillip Ventura](https://www.linkedin.com/in/fvntr/), Fullstack Software Engineer at Way2B1
 
 ---
