@@ -40,7 +40,7 @@ We have customized a few things about our slack to make communications better; w
 
 ## Code of Conduct
 
-First of all, we have a [code of conduct](/code-of-conduct/), in short, this is a professional community, be respectful of everyone and their identity.
+First of all, we have a [code of conduct](/about/code-of-conduct/), in short, this is a professional community, be respectful of everyone and their identity.
 
 Unprofessional behavior is not accepted.
 
