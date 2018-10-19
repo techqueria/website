@@ -21,7 +21,7 @@
 
 1.  🍴 [Fork this repo](https://github.com/techqueria/website#fork-destination-box)
 2.  🔨 Look over the [development](#development) guidelines and hack away.
-3.  👥 Add yourself as a contributor under the credits section
+3.  👥 Add yourself as a contributor under the contributors section
 4.  🔧 [Open a new pull request](https://github.com/techqueria/website/compare)
 5.  🎉 Get your pull request approved - success!
 
