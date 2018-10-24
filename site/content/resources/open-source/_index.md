@@ -1,4 +1,4 @@
 ---
-title: Open source
+title: Open Source
 description: Resources related to open source projects.
 ---
