@@ -30,6 +30,6 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Frances Coronel](https://github.com/fvcproductions)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
 - [Phillip Ventura](https://github.com/fvntr)
-- [Darryl Balderas](https://github.com/db118)
+- [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)
 - [Kristian Polso](https://github.com/krisseck)
