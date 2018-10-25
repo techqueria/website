@@ -57,6 +57,7 @@ Techqueria is an all-volunteer organization that is made possible thanks to the 
 ### Austin
 
 - [Andrea Flores](https://www.linkedin.com/in/andreaf), PhD Student at The University of Texas at Austin School of Information
+- [Andrea Cardona](https://www.linkedin.com/in/andrea-cardona), Software Engineer at Chipper
 
 ### Developers
 
