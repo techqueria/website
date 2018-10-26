@@ -35,3 +35,5 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)
 - [Kristian Polso](https://github.com/krisseck)
+- [Ariana M. Davis](https://github.com/yourmobilegeek)
+
