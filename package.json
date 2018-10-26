@@ -76,7 +76,7 @@
     "style-loader": "^0.23.0",
     "twemoji": "^2.5.0",
     "uncss": "^0.16.1",
-    "url-loader": "^0.5.9",
+    "url-loader": "^0.6.0",
     "webpack": "^3.11.0",
     "whatwg-fetch": "^1.0.0",
     "workbox-build": "^2.1.2",
