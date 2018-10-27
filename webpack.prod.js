@@ -50,7 +50,7 @@ module.exports = {
     new BrotliPlugin(),
     new CompressionPlugin(),
     new WorkboxPlugin({
-      cacheId: "hugoma",
+      cacheId: "techqueria",
       swDest: path.join("dist", "sw.js"),
       globDirectory: "dist",
       globPatterns: ["index.html", "404.html", "**/*.{css,png,gif,jpg,svg,js,ico,json}"],
@@ -70,15 +70,7 @@ module.exports = {
         handler: "staleWhileRevalidate"
       },
       {
-        urlPattern: new RegExp("https://i.imgur.com"),
-        handler: "staleWhileRevalidate"
-      },
-      {
         urlPattern: new RegExp("https://www.google-analytics.com"),
-        handler: "staleWhileRevalidate"
-      },
-      {
-        urlPattern: new RegExp("https://cdn.onesignal.com"),
         handler: "staleWhileRevalidate"
       }
       ]

@@ -6,7 +6,7 @@ Remove this sentence and insert the description of the pull request here.
 
 <!-- Before creating a PR, make sure to verify the following. -->
 
-## ✅️ By submitting this PR, I have verified the following
+> ✅️ By submitting this PR, I have verified the following
 
 - [ ] Checked to [see if a similar PR has already been opened](https://github.com/techqueria/website/pulls) 🤔️
 - [ ] Reviewed the [contributing guidelines](https://github.com/techqueria/website/blob/master/.github/CONTRIBUTING.md) 🔍️
