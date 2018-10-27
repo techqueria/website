@@ -55,7 +55,7 @@
     "gulp-sass": "^4.0.0",
     "gulp-shell": "^0.6.5",
     "gulp-watch": "^5.0.0",
-    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-plugin": "^3.0.0",
     "hugo-bin": "^0.37.0",
     "image-webpack-loader": "^4.1.0",
     "imagemin-mozjpeg": "^7.0.0",
