@@ -8,6 +8,7 @@
     - [Installation](#installation)
   - [2. Local Development](#2-local-development)
     - [Live Server](#live-server)
+    - [Branding](#branding)
     - [Tools Being Used](#tools-being-used)
     - [Directory Structure](#directory-structure)
     - [Available Commands](#available-commands)
@@ -61,6 +62,10 @@ At this point, you are able to preview the website locally and can make changes 
 
 > Our pipeline is inspired by [Victor Hugo](https://github.com/netlify-templates/victor-hugo) which is a Hugo boilerplate for creating truly epic websites.
 
+### Branding
+
+You can view https://techqueria.org/about/brand/ as a reference for how we tackle our organization branding.
+
 ### Tools Being Used
 
 - [Hugo](https://gohugo.io/)
@@ -77,6 +82,10 @@ At this point, you are able to preview the website locally and can make changes 
   - Sass compilation
 - [Babel](https://babeljs.io/)
   - JavaScript compilation and transpilation
+- [Twemoji](https://twemoji.com)
+  - Emoji rendering the same regardless of platform or browser
+- [Font Awesome](https://fontawesome.com/)
+  - Standardized icons
 
 ### Directory Structure
 

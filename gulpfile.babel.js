@@ -24,7 +24,7 @@ const browserSync = BrowserSync.create();
 // Compress SASS
 gulp.task("sass", () =>
   gulp
-  .src(["./src/sass/styles.scss", "./src/sass/search.scss"])
+  .src(["./src/sass/styles.scss"])
   .pipe(
     sass({
       outputStyle: "compressed",
@@ -47,7 +47,7 @@ gulp.task("img", () =>
 // Copy static files
 gulp.task("static", () =>
   gulp
-  .src("./static/**/*")
+  .src("./site/static/**/*")
   .pipe(gulp.dest("./dist"))
   .pipe(browserSync.stream())
 );
@@ -91,7 +91,7 @@ const runServer = () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
   gulp.watch("./src/sass/**/*.scss", ["sass"]);
   gulp.watch("./src/img/**/*", ["img"]);
-  gulp.watch("./src/static/**/*", ["static"]);
+  gulp.watch("./site/static/**/*", ["static"]);
   gulp.watch("./site/**/*", ["hugo"]);
 };
 
