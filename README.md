@@ -1,9 +1,10 @@
 # techqueria.org
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce2c8e9c1f404c318e5f35a454ec7698)](https://app.codacy.com/app/techqueria/website?utm_source=github.com&utm_medium=referral&utm_content=techqueria/website&utm_campaign=Badge_Grade_Settings)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all&style=flat-square)](https://waffle.io/techqueria/website)
 
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org) 
+
+[![Codebeat badge](https://codebeat.co/badges/e73abe72-e542-48d5-95a3-b6b874e4da29)](https://codebeat.co/projects/github-com-techqueria-website-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deef3999385443f6a24eb32848ae889e)](https://www.codacy.com/app/techqueria/website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=techqueria/website&amp;utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/techqueria/website/badge)](https://www.codefactor.io/repository/github/techqueria/website)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
