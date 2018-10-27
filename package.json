@@ -49,7 +49,7 @@
     "gulp-gzip": "^1.4.2",
     "gulp-htmlmin": "^5.0.0",
     "gulp-imagemin": "^4.1.0",
-    "gulp-minify": "^2.1.0",
+    "gulp-minify": "^3.0.0",
     "gulp-postcss": "^6.1.1",
     "gulp-purifycss": "^0.2.0",
     "gulp-sass": "^3.1.0",
