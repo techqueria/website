@@ -48,17 +48,13 @@
 }
 
 .background-image {
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
+  -webkit-background-size: cover;
   background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-shadow: 0 2px 3px $darker-shadow;
 
   &.overlay {
