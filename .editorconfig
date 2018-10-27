@@ -1,20 +1,25 @@
-# editorconfig.org
+# EditorConfig is an config file that helps to
+# enforce coding styles across different editors
+#
+# For the most part, you'll need to download a plugin
+# to get your IDE to recognize this file. There are,
+# however, editors that support EditorConfig natively
+# (e.g., Coda, BBEdit, IntelliJIDEA, etc.)
+#
+# For more on EditorConfig, visit:  http://editorconfig.org/
+#
 
 root = true
 
+# Line endings, whitespaces, and newlines - O, my!
 [*]
 charset = utf-8
 end_of_line = lf
 indent_size = 2
 indent_style = space
-insert_final_newline = true
+insert_final_newline = false
 trim_trailing_whitespace = true
 
+# TOML
 [*.toml]
 max_line_length = 100
-
-[*.md]
-trim_trailing_whitespace = true
-
-[layouts/shortcodes/*.html]
-insert_final_newline = false
