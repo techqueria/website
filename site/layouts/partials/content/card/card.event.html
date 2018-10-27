@@ -7,7 +7,7 @@
   <!-- Title -->
   <header class="card-header">
     <h2 class="card-header-title">
-      {{ .Title }}
+      {{ if .Title}}{{ .Title | truncate 50 }}{{ end }}
     </h2>
   </header>
   <!-- Description -->
