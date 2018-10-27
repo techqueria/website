@@ -1,8 +1,12 @@
 # techqueria.org
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all)](https://waffle.io/techqueria/website)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all&style=flat-square)](https://waffle.io/techqueria/website)
 
-[![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org)
+[![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org) 
+
+[![Codebeat badge](https://codebeat.co/badges/e73abe72-e542-48d5-95a3-b6b874e4da29)](https://codebeat.co/projects/github-com-techqueria-website-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deef3999385443f6a24eb32848ae889e)](https://www.codacy.com/app/techqueria/website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=techqueria/website&amp;utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/techqueria/website/badge)](https://www.codefactor.io/repository/github/techqueria/website)
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
 Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry.
 
@@ -33,4 +37,5 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)
 - [Kristian Polso](https://github.com/krisseck)
+- [Ariana M. Davis](https://github.com/yourmobilegeek)
 - [Elizabeth Bryant](https://github.com/ejbryant28)
