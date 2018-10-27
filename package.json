@@ -79,7 +79,7 @@
     "twemoji": "^2.5.0",
     "uncss": "^0.16.1",
     "url-loader": "^1.0.0",
-    "webpack": "^3.11.0",
+    "webpack": "^4.0.0",
     "whatwg-fetch": "^3.0.0",
     "workbox-build": "^2.1.2",
     "workbox-webpack-plugin": "^2.1.2"
