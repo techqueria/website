@@ -149,7 +149,7 @@ Refer to the formatting section for a look at these fonts in action for this web
 
 ## Photography
 
-See our [Photos](/about/photos/).
+See our [Photos](/about/photos/) page.
 
 ## Testimonials
 
