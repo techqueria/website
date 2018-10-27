@@ -1,5 +1,6 @@
 # techqueria.org
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce2c8e9c1f404c318e5f35a454ec7698)](https://app.codacy.com/app/techqueria/website?utm_source=github.com&utm_medium=referral&utm_content=techqueria/website&utm_campaign=Badge_Grade_Settings)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all&style=flat-square)](https://waffle.io/techqueria/website)
 
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org) 
