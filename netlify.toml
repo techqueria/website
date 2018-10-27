@@ -1,3 +1,47 @@
 [build]
-  command = "gulp build"
   publish = "dist"
+  command = "gulp build"
+
+[context.production.environment]
+  HUGO_VERSION = "0.48"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.48"
+
+# Redirect www to primary domain
+[[redirects]]
+  from = "http://www.techqueria.org/*"
+  to = "/:splat"
+  status = 301
+
+# Redirect www to primary domain
+[[redirects]]
+  from = "https://www.techqueria.org/*"
+  to = "/:splat"
+  status = 301
+
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "http://techqueria.netlify.com/*"
+  to = "/:splat"
+  status = 301
+
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "https://techqueria.netlify.com/*"
+  to = "/:splat"
+  status = 301
+
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "http://beta.techqueria.org/*"
+  to = "/:splat"
+  status = 301
+
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "https://beta.techqueria.org/*"
+  to = "/:splat"
+  status = 301

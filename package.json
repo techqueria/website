@@ -5,9 +5,11 @@
   "repository": "techqueria/website",
   "main": "app.js",
   "scripts": {
-    "hugo": "gulp hugo",
     "build": "gulp build",
+    "build:dev": "gulp build-dev",
     "start": "gulp server",
+    "start:prod": "gulp server-prod",
+    "start:preview": "gulp server-preview",
     "lint": "eslint src"
   },
   "author": "Frances Coronel",
@@ -19,8 +21,8 @@
     "autoprefixer": "^9.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^10.0.0",
-    "babel-loader": "^8.0.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "babel-plugin-transform-object-assign": "^6.8.0",
