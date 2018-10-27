@@ -52,7 +52,7 @@
     "gulp-minify": "^3.0.0",
     "gulp-postcss": "^8.0.0",
     "gulp-purifycss": "^0.2.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.0",
     "gulp-shell": "^0.6.5",
     "gulp-watch": "^5.0.0",
     "html-webpack-plugin": "^2.30.1",
