@@ -61,7 +61,7 @@
     "imagemin-mozjpeg": "^7.0.0",
     "imagesloaded": "^4.1.4",
     "imports-loader": "^0.8.0",
-    "less": "^2.7.3",
+    "less": "^3.0.0",
     "minimatch": "^3.0.4",
     "mixitup": "^3.2.2",
     "node-sass": "^4.7.2",
