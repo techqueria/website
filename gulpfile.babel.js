@@ -122,9 +122,9 @@ gulp.task("hugo-dev", (cb) => buildSite(cb, [], "dev"));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview, "dev"));
 
 // Server tasks
-gulp.task("server", ["hugo-dev", "sass", "js", "img", "static"], (cb) => runServer(cb));
-gulp.task("server-prod", ["hugo", "sass", "js", "img", "static"], (cb) => runServer(cb));
-gulp.task("server-preview", ["hugo-preview", "sass", "js", "img", "static"], (cb) => runServer(cb));
+gulp.task("server", ["clean", "hugo-dev", "sass", "js", "img", "static"], (cb) => runServer(cb));
+gulp.task("server-prod", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => runServer(cb));
+gulp.task("server-preview", ["clean", "hugo-preview", "sass", "js", "img", "static"], (cb) => runServer(cb));
 
 // Production tasks
 gulp.task("build", ["clean", "hugo", "sass", "img", "static", "js"], (cb) => buildSite(cb, [], "prod"));

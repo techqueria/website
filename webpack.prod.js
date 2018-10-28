@@ -58,10 +58,6 @@ module.exports = {
       clientsClaim: true,
       skipWaiting: true,
       runtimeCaching: [{
-        urlPattern: /\.(?:html)$/,
-        handler: "networkFirst",
-      },
-      {
         urlPattern: /\.(?:css|png|gif|jpg|svg|xml|js|ico|json)$/,
         handler: "staleWhileRevalidate",
       },
