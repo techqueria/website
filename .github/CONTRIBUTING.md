@@ -4,17 +4,24 @@
 
 - [Contributing](#contributing)
   - [1. Setting Up](#1-setting-up)
+    - [Ways to Contribute](#ways-to-contribute)
     - [Fork the repo](#fork-the-repo)
     - [Installation](#installation)
   - [2. Local Development](#2-local-development)
     - [Live Server](#live-server)
     - [Branding](#branding)
-    - [Tools Being Used](#tools-being-used)
+    - [Service Workers](#service-workers)
+    - [Tools](#tools)
+    - [Platforms](#platforms)
+    - [Languages](#languages)
     - [Directory Structure](#directory-structure)
     - [Available Commands](#available-commands)
+    - [Audits](#audits)
     - [Deployment](#deployment)
   - [3. Opening a Pull Request](#3-opening-a-pull-request)
     - [A Good PR](#a-good-pr)
+    - [Checks](#checks)
+    - [GitHub Integrations](#github-integrations)
     - [Issue Tracker](#issue-tracker)
     - [Stale Pull Requests](#stale-pull-requests)
   - [Questions?](#questions)
@@ -26,9 +33,23 @@
 
 ## 1. Setting Up
 
-### Fork the repo
+### Ways to Contribute
 
 > If you are new to open source, we recommend reading [GitHub's open source guide](https://opensource.guide/how-to-contribute/) and their [Hello World tutorial](https://guides.github.com/activities/hello-world/).
+
+Feel free to contribute to the Techqueria website in one or more of the following ways and thank you for being willing to help out! 😊
+
+- Tackle any of the [open issues](https://github.com/techqueria/website/issues) that are labeled `help wanted`, `good first issue` or `hacktoberfest`.
+  - If an issue is labeled as `in progress`, someone is already working on it.
+- [Open a new issue](https://github.com/techqueria/website/issues/new)
+- [Report a bug](https://github.com/techqueria/website/issues/new?template=bug-report.md)
+- [Request a new feature](https://github.com/techqueria/website/issues/new?template=feature-request.md)
+- Improve our [contributing guidelines](https://github.com/techqueria/website/blob/master/.github/CONTRIBUTING.md) (this file) or other documentation
+- Fix typos or grammar errors on pages or across the code base
+- Refactor code
+- Anything else you can think of! 😆
+
+### Fork the repo
 
 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository and clone it locally.
 
@@ -60,32 +81,53 @@ This will automatically open a browser tab with the website and BrowserSync will
 
 At this point, you are able to preview the website locally and can make changes to the source code.
 
-> Our pipeline is inspired by [Victor Hugo](https://github.com/netlify-templates/victor-hugo) which is a Hugo boilerplate for creating truly epic websites.
+> Our pipeline was inspired by [Victor Hugo](https://github.com/netlify-templates/victor-hugo) which is a Hugo boilerplate for creating truly epic websites.
 
 ### Branding
 
-You can view https://techqueria.org/about/brand/ as a reference for how we tackle our organization branding.
+You can view https://techqueria.org/about/brand as a reference for how we tackle our organization branding.
 
-### Tools Being Used
+### Service Workers
+
+We are using [Workbox](https://developers.google.com/web/tools/workbox/) to register a service worker on the production version of the website.
+
+A [service worker](https://developers.google.com/web/fundamentals/primers/service-workers/) allows users to view the homepage of Techqueria even when they are offline and therefore caches the necessary assets.
+
+❗ If you see a console error complaining about the service worker not registering while developing locally, that's okay! The service worker registration should fail in development since we don't want caching.
+
+### Tools
 
 - [Hugo](https://gohugo.io/)
-  - static site generators or CMS
+  - static site generator or CMS
 - [Bulma.io](https://bulma.io/)
   - design system
 - [Gulp](https://gulpjs.com/)
   - asset pipeline
+  - [PostCSS](http://postcss.org/) for Sass compilation
+  - [ImageMin](https://github.com/imagemin/imagemin) to optimize images
+  - [CSSO](https://github.com/css/csso) for CSS minification
 - [Webpack](https://webpack.js.org/)
-  - asset pipeline and service worker
-- [Netlify](https://netlify.com)
-  - hosting and deployment
-- [PostCSS](http://postcss.org/)
-  - Sass compilation
+  - asset pipeline
+  - [Workbox](https://developers.google.com/web/tools/workbox/) to create a service worker
 - [Babel](https://babeljs.io/)
   - JavaScript compilation and transpilation
-- [Twemoji](https://twemoji.com)
+- [Twemoji](https://twemoji.twitter.com/)
   - Emoji rendering the same regardless of platform or browser
 - [Font Awesome](https://fontawesome.com/)
   - Standardized icons
+
+### Platforms
+
+- [Netlify](https://netlify.com)
+  - hosting and deployment
+
+### Languages
+
+- JavaScript
+- SASS
+- HTML
+- TOML
+- JSON
 
 ### Directory Structure
 
@@ -146,6 +188,18 @@ We've covered one of them already - `npm start` - here are the others.
 - `npm lint`
   - This will report any ESLint issues within the command line.
 
+### Audits
+
+We use Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to check for performance, accessibility, SEO, our PWA score and to make sure we follow best practices.
+
+If you are using Chrome, Lighthouse is the default audit system so it's easy to use!
+
+![Chrome DevTools - Lighthouse](https://i.imgur.com/NiXPxuP.jpg)
+
+As of October 2018, we have scores of 100 or close to that for every metric and we strive to keep it that way through automated checks in PRs (see more below).
+
+![Techqueria - Lighthouse Scores](https://i.imgur.com/NceItoo.jpg)
+
 ### Deployment
 
 > _Heads up_, you do not need to run this command for development purposes.
@@ -187,6 +241,23 @@ This adds a contact form to the website using Bulma - fixes #92.
 - [x] Reviewed the [contributing guidelines](https://github.com/techqueria/website/blob/master/.github/CONTRIBUTING.md) 🔍️
 - [x] Added my name to the bottom of the list under the **Contributors** section in the [README.md](https://github.com/techqueria/website/blob/master/README.md) with a link to my personal website or GitHub profile 👥️
 ```
+
+### Checks
+
+We use several GitHub integrations/bots to make it easy to catch errors for every new PR created.
+
+> Here's an example of how that would look like for a great PR.
+
+![GitHub Checks](https://imgur.com/RrYIKCK.png)
+
+### GitHub Integrations
+
+- [AccessLint](https://www.accesslint.com/)
+  - tests accessibility
+- [Codacy](https://www.codacy.com), [CodeFactor](http://codefactor.io/) amd [Codebeat](https://codebeat.co)
+  - automated code reviews and code analytics
+- [Netlify Deploy Previews](https://www.netlify.com/docs/continuous-deployment/)
+  - see how your changes would look like in production
 
 ### Issue Tracker
 

@@ -2,13 +2,15 @@
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all&style=flat-square)](https://waffle.io/techqueria/website)
 
-[![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg?style=flat-square)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg?style=flat-square)](http://badges.mit-license.org)
+[![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg)](http://badges.mit-license.org)
 
-[![Codebeat badge](https://codebeat.co/badges/e73abe72-e542-48d5-95a3-b6b874e4da29)](https://codebeat.co/projects/github-com-techqueria-website-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deef3999385443f6a24eb32848ae889e)](https://www.codacy.com/app/techqueria/website?utm_source=github.com&utm_medium=referral&utm_content=techqueria/website&utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/techqueria/website/badge)](https://www.codefactor.io/repository/github/techqueria/website)
+[![Codebeat badge](https://codebeat.co/badges/e73abe72-e542-48d5-95a3-b6b874e4da29)](https://codebeat.co/projects/github-com-techqueria-website-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deef3999385443f6a24eb32848ae889e)](https://www.codacy.com/app/techqueria/website?utm_source=github.com&utm_medium=referral&utm_content=techqueria/website&utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/techqueria/website/badge)](https://www.codefactor.io/repository/github/techqueria/website) [![LGTM - Total Alerts](https://img.shields.io/lgtm/alerts/g/techqueria/website.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/techqueria/website/alerts/)
+
+[![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
-Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry.
+Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry. 🌮
 
 ## Contributing
 
