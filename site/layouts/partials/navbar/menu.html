@@ -1,14 +1,34 @@
 <div id="navMenuDocumentation" class="navbar-menu">
-  <div class="navbar-start">
+  <ul class="navbar-start">
     <!-- Left Navbar Items -->
     {{ range .Site.Menus.left }}
-    <a class="navbar-item" href="{{ .URL }}">
-      {{ if .Identifier }}
-      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-      {{ end }} {{.Name}}
-    </a>
+      {{ if .HasChildren }}
+        <li class="navbar-item has-children">
+          <a href="#">
+            {{ if .Identifier }}
+            <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+            {{ end }} {{.Name}}
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </a>
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ else }}
+        <li class="navbar-item">
+          <a href="{{ .URL }}">
+            {{ if .Identifier }}
+            <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+            {{ end }} {{.Name}}
+          </a>
+        </li>
+      {{ end }}
     {{ end }}
-  </div>
+  </ul>
   <div class="navbar-end">
     <!-- Right Navbar Items (Icons) -->
     <!-- Hidden on Mobile, Desktop Only -->

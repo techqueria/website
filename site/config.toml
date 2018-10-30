@@ -82,6 +82,20 @@ pygmentsStyle                 = "manni"
     name                      = "Sponsors"
     url                       = "/sponsors/"
 
+[[menu.left]]
+    name                      = "Resources"
+    url                       = "/resources/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Career Growth"
+    url                       = "/resources/career/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Design"
+    url                       = "/resources/design/"
+
 [[menu.right]]
     name                      = "Facebook"
     url                       = "https://www.facebook.com/groups/techqueria"
