@@ -8,10 +8,11 @@
     }
 
     li {
-      padding: .5em 1em;
+      padding: 0.5em 1em;
       @media (max-width: 767.98px) {
-        padding: .5em 0;
+        padding: 0.5em 0;
       }
+
     }
   }
 
@@ -26,10 +27,10 @@
       top: 59px;
 
       @media (max-width: 767.98px) {
-        position: relative;
-        display: block;
-        top: 0;
         background: transparent;
+        display: block;
+        position: relative;
+        top: 0;
       }
 
     }
