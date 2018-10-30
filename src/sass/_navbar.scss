@@ -7,46 +7,27 @@
     width: 3em;
   }
   .navbar-item {
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     img {
       max-height: 3em;
     }
-    padding: .5em 1em;
+    padding: 0.5em 1em;
 
     &:hover {
-      background-color: #fafafa;
+      background-color: $techqueria-menu-hover;
       cursor: pointer;
+
+      @media (max-width: 767.98px) {
+        background: transparent;
+      }
+
       a {
-        color: #3273dc;
+        color: $techqueria-menu-link;
       }
     }
 
     a {
-      color: #4a4a4a;
-    }
-
-    &.has-children {
-
-      .dropdown-menu {
-        li {
-          padding: .5em 1em;
-          @media (max-width: 767.98px) {
-            padding: .5em 0;
-          }
-        }
-      }
-
-      &:hover {
-        .dropdown-menu {
-          display: block;
-          position: absolute;
-          top: 59px;
-          left: 0;
-          min-width: 16rem;
-          padding: 0 0 .3rem;
-          background: #fafafa;
-        }
-      }
+      color: $techqueria-menu-default;
     }
   }
   .navbar-dropdown {
@@ -56,13 +37,6 @@
     }
     .navbar-divider {
       margin: 0;
-    }
-  }
-
-  .dropdown-menu {
-    @media (max-width: 767.98px) {
-      position: relative;
-      display: block;
     }
   }
 }
