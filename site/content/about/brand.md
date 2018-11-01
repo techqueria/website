@@ -18,6 +18,7 @@ image: https://i.imgur.com/A43r74s.png
 - [Typography](#typography)
 - [Photography](#photography)
 - [Testimonials](#testimonials)
+- [Organizers](#organizers)
 - [Sketch Assets](#sketch-assets)
 - [Formatting](#formatting)
   - [Third level](#third-level)
