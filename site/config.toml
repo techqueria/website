@@ -32,7 +32,7 @@ pygmentsStyle                 = "manni"
 
 # SEO
 [params]
-    description               = "We're a community of Latinx professionals in the tech industry. 🌮️"
+    description               = "We're a community of Latinx professionals in the tech industry. 🌮️ This space is for all Latinxs, and that includes the regions of the Caribbean, Haiti and Brazil as well as Afro-Latinx and Indigenous, Queer & Trans communities. Latinx is used instead of Latino or Latinos because it is a gender-neutral and inclusive term"
     copyright                 = "Techqueria.org"
     year                      = 2016
     og_image                  = "https://i.imgur.com/ONfQqEV.png"
