@@ -6,8 +6,8 @@
   {{ $community := where .Site.RegularPages "Section" "communities" }}
 
   <!-- Looping none cities-->
+    {{ range $community.ByTitle }}
   <p>
-  {{ range where $community ".Params.city" "none"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
@@ -15,79 +15,14 @@
         {{ end }}
 
         {{ if .Params.identifier }}
+        {{.Title}}
           <i class="{{ .Params.identifier }}"
             alt="{{ .Params.Title }}"
             title="{{ .Params.Title }}"></i>
         {{ else}}
           <br>{{.Title}}</br>
         {{ end}}
-      </a>
-  {{ end }}
+    </a>
   </p>
-
-  <!-- Looping SF -->
-  <p>
-    <br>
-  SF
-  {{ range where $community ".Params.city" "sf"}}
-    {{ if .Params.link }}
-    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
-      {{ else }}
-      <a href="{{ .RelPermalink }}">
-        {{ end }}
-
-        {{ if .Params.identifier }}
-          <i class="{{ .Params.identifier }}"
-            alt="{{ .Params.Title }}"
-            title="{{ .Params.Title }}"></i>
-        {{ else}}
-          <br>{{.Title}}</br>
-        {{ end}}
-      </a>
   {{ end }}
-  </p>
-
-  <!-- Looping LA -->
-  <p>
-    <br>
-  LA
-  {{ range where $community ".Params.city" "la"}}
-    {{ if .Params.link }}
-    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
-      {{ else }}
-      <a href="{{ .RelPermalink }}">
-        {{ end }}
-
-        {{ if .Params.identifier }}
-          <i class="{{ .Params.identifier }}"
-            alt="{{ .Params.Title }}"
-            title="{{ .Params.Title }}"></i>
-        {{ else}}
-          <br>{{.Title}}</br>
-        {{ end}}
-      </a>
-  {{ end }}
-  </p>
-
-  <!-- Looping NYC -->
-  <p>
-    <br>
-  NYC
-  {{ range where $community ".Params.city" "nyc"}}
-    {{ if .Params.link }}
-    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
-      {{ else }}
-      <a href="{{ .RelPermalink }}">
-        {{ end }}
-
-        {{ if .Params.identifier }}
-          <i class="{{ .Params.identifier }}"
-            alt="{{ .Params.Title }}"
-            title="{{ .Params.Title }}"></i>
-        {{ else}}
-          <br>{{.Title}}</br>
-        {{ end}}
-      </a>
-  {{ end }}
-  </p>
 </div>
