@@ -4,8 +4,48 @@
   </h6>
   <!-- Section Pages - Communities -->
   {{ $community := where .Site.RegularPages "Section" "communities" }}
-  <!-- Looping -->
-  {{ range $community.ByTitle }}
+
+  <!-- Looping none cities-->
+  {{ range where $community ".Params.city" "none"}}
+  <p>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+        {{ end }} {{.Title}}
+      </a>
+  </p>
+  {{ end }}
+
+  <!-- Looping SF -->
+  <b>SF</b>
+  {{ range where $community ".Params.city" "sf"}}
+  <p>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+        {{ end }} {{.Title}}
+      </a>
+  </p>
+  {{ end }}
+
+  <!-- Looping LA -->
+  <b>LA</b>
+  {{ range where $community ".Params.city" "la"}}
+  <p>
+    {{ if .Params.link }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+        {{ end }} {{.Title}}
+      </a>
+  </p>
+  {{ end }}
+
+  <!-- Looping NYC -->
+  <b>NYC</b>
+  {{ range where $community ".Params.city" "nyc"}}
   <p>
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
