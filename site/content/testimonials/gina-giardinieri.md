@@ -2,7 +2,7 @@
 title: 'Gina Giardinieri'
 description: 'Sales Coordinator at Mulberry Platform'
 date: 2017-09-29
-image: https://media.licdn.com/dms/image/C5603AQFrzddDCeuU4A/profile-displayphoto-shrink_800_800/0?e=1547078400&v=beta&t=dzNj_8_ekB80nQmeUpCxxgXCWr-egH-XIJsu-zzkr18
+image: https://i.imgur.com/oxnVaMg.jpg
 ---
 
 Techstars Startup Weekend was an unforgettable experience. 
