@@ -64,6 +64,21 @@ pygmentsStyle                 = "manni"
     # identifier              = "fas fa-info-circle"
 
 [[menu.left]]
+    parent                    = "About"
+    name                      = "Photos"
+    url                       = "/resources/photos/"
+
+[[menu.left]]
+    parent                    = "About"
+    name                      = "Brand"
+    url                       = "/resources/brand/"
+
+[[menu.left]]
+    parent                    = "About"
+    name                      = "Code of Conduct"
+    url                       = "/resources/code-of-conduct/"
+
+[[menu.left]]
     name                      = "Communities"
     url                       = "/communities/"
     # identifier              = "fas fa-comments"
@@ -81,6 +96,41 @@ pygmentsStyle                 = "manni"
 [[menu.left]]
     name                      = "Sponsors"
     url                       = "/sponsors/"
+
+[[menu.left]]
+    name                      = "Resources"
+    url                       = "/resources/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Career Growth"
+    url                       = "/resources/career/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Design"
+    url                       = "/resources/design/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Health"
+    url                       = "/resources/health/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Immigration"
+    url                       = "/resources/immigration/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Legal"
+    url                       = "/resources/legal/"
+
+[[menu.left]]
+    parent                    = "Resources"
+    name                      = "Open-source"
+    url                       = "/resources/open-source/"
+
 
 [[menu.right]]
     name                      = "Facebook"
