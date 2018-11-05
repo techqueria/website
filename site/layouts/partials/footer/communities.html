@@ -6,8 +6,8 @@
   {{ $community := where .Site.RegularPages "Section" "communities" }}
 
   <!-- Looping none cities-->
-  {{ range where $community ".Params.city" "none"}}
   <p>
+  {{ range where $community ".Params.city" "none"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
@@ -22,13 +22,13 @@
           {{.Title}}
         {{ end}}
       </a>
-  </p>
   {{ end }}
+  </p>
 
   <!-- Looping SF -->
-  <b>SF</b>
-  {{ range where $community ".Params.city" "sf"}}
+  SF
   <p>
+  {{ range where $community ".Params.city" "sf"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
@@ -43,13 +43,13 @@
           {{.Title}}
         {{ end}}
       </a>
-  </p>
   {{ end }}
+  </p>
 
   <!-- Looping LA -->
-  <b>LA</b>
-  {{ range where $community ".Params.city" "la"}}
+  LA
   <p>
+  {{ range where $community ".Params.city" "la"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
@@ -64,13 +64,13 @@
           {{.Title}}
         {{ end}}
       </a>
-  </p>
   {{ end }}
+  </p>
 
   <!-- Looping NYC -->
-  <b>NYC</b>
-  {{ range where $community ".Params.city" "nyc"}}
+  NYC
   <p>
+  {{ range where $community ".Params.city" "nyc"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
@@ -85,6 +85,6 @@
           {{.Title}}
         {{ end}}
       </a>
-  </p>
   {{ end }}
+  </p>
 </div>
