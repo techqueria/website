@@ -1,20 +1,22 @@
 ---
+# Required - title of page
 title: { { replace .TranslationBaseName "-" " " | title } }
+# Optional - date published, required for event pages
 date: { { .Date } }
-description: ''
+# Required - description of page
+description: ""
 # Featured image hosted on Imgur
-image: ''
-# (Optional) Caption for image.
-caption: ''
-# (Optional) Link the featured image points to.
-imageLink: ''
-# (Optional) Link this post redirects user to.
-link: ''
-# Not ready for publishing
+image: ""
+# External link
+link: ""
+# For event pages only
+location: New York, NY
+# Only needed if not ready for publishing
 draft: true
-# taxonomy
+# Categories
 categories:
   - category
+# Tags
 tags:
   - tag
 ---

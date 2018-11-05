@@ -1,12 +1,12 @@
-Insert description of issue here
+Remove this sentence and insert the description of the issue here.
 
 ---
 
-<!-- Thank you for contributing to this repo, it is much appreciated! 😊 -->
+<!-- Thank you for contributing to Techqueria, it is much appreciated! 😊 -->
 
 <!-- Before raising an issue, make sure to verify the following. -->
 
 > ✅️ By submitting this issue, I have verified the following
 
-* [ ] Checked to see if the issue has already been discussed before 🤔️
-* [ ] If proposing new content to be added, made sure enough details were provided 🔍️
+- [ ] Checked to [see if the issue has already been discussed before](https://github.com/techqueria/website/issues) 🤔️
+- [ ] Made sure enough details were provided if proposing a new feature 🔍️

@@ -11,7 +11,7 @@
     <div class="columns is-multiline">
       <!-- Looping -->
       {{ range first 3 $pages }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
@@ -25,7 +25,7 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $pages) }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
@@ -39,7 +39,7 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $pages) }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}

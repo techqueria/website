@@ -1,13 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
 
-// Workbox
-const WorkboxPlugin = require("workbox-webpack-plugin");
-// Brotli
-const BrotliPlugin = require("brotli-webpack-plugin");
-// GZip
-const CompressionPlugin = require("compression-webpack-plugin");
-
 module.exports = {
   module: {
     rules: [{
@@ -46,35 +39,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       fetch: "imports-loader?this=>global!exports?global.fetch!whatwg-fetch"
     }),
-    new webpack.optimize.AggressiveMergingPlugin(),
-    new BrotliPlugin(),
-    new CompressionPlugin(),
-    new WorkboxPlugin({
-      cacheId: "techqueria",
-      swDest: path.join("dist", "sw.js"),
-      globDirectory: "dist",
-      globPatterns: ["index.html", "404.html", "**/*.{css,png,gif,jpg,svg,xml,js,ico,json}"],
-      globStrict: false,
-      clientsClaim: true,
-      skipWaiting: true,
-      runtimeCaching: [{
-        urlPattern: /\.(?:html)$/,
-        handler: "networkFirst",
-      },
-      {
-        urlPattern: /\.(?:css|png|gif|jpg|svg|xml|js|ico|json)$/,
-        handler: "staleWhileRevalidate",
-      },
-      {
-        urlPattern: new RegExp("https://google-analytics.com"),
-        handler: "staleWhileRevalidate"
-      },
-      {
-        urlPattern: new RegExp("https://twemoji.maxcdn.com"),
-        handler: "staleWhileRevalidate"
-      }
-      ]
-    })
+    new webpack.optimize.AggressiveMergingPlugin()
   ],
   context: path.join(__dirname, "src"),
   entry: {

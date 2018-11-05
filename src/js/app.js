@@ -1,3 +1,5 @@
+// Twemoji
+// https://github.com/twitter/twemoji
 twemoji.parse(document.body, {
   folder: "svg",
   ext: ".svg"

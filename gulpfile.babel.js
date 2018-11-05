@@ -1,6 +1,8 @@
 import autoprefixer from "autoprefixer";
 import BrowserSync from "browser-sync";
-import {spawn} from "child_process";
+import {
+  spawn
+} from "child_process";
 import cssnano from "cssnano";
 import del from "del";
 import log from "fancy-log";
@@ -9,65 +11,57 @@ import imagemin from "gulp-imagemin";
 import postcss from "gulp-postcss";
 import sass from "gulp-sass";
 import sourcemaps from "gulp-sourcemaps";
-import watch from "gulp-watch";
 import hugoBin from "hugo-bin";
 import PluginError from "plugin-error";
 import csso from "postcss-csso";
 import webpack from "webpack";
-
-import webpackConfig from "./webpack.config";
+import webpackConfig from "./webpack.prod";
+import webpackDevConfig from "./webpack.dev";
 
 // Browser Sync
 const browserSync = BrowserSync.create();
 
-// Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v", "-F"];
-
-// Development tasks
-gulp.task("hugo", (cb) => buildSite(cb));
-
-// Build/production tasks
-gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => buildSite(cb, [], "production"));
-
 // Compress SASS
 gulp.task("sass", () =>
   gulp
-    .src("./src/sass/styles.scss")
-    .pipe(
-      sass({
-        outputStyle: "compressed"
-      }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer(), cssnano(), csso()]))
-    .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest("./dist/assets/css"))
-    .pipe(browserSync.stream())
+  .src(["./src/sass/styles.scss"])
+  .pipe(
+    sass({
+      outputStyle: "compressed",
+    }).on("error", sass.logError)
+  )
+  .pipe(postcss([autoprefixer(), cssnano(), csso()]))
+  .pipe(sourcemaps.write("."))
+  .pipe(gulp.dest("./dist/assets/css"))
+  .pipe(browserSync.stream())
 );
 
 // Compress images
 gulp.task("img", () =>
   gulp
-    .src("./src/img/**/*")
-    .pipe(imagemin())
-    .pipe(gulp.dest("./dist/assets/img"))
+  .src("./src/img/**/*")
+  .pipe(imagemin())
+  .pipe(gulp.dest("./dist/assets/img"))
 );
 
 // Copy static files
 gulp.task("static", () =>
   gulp
-    .src("./src/static/**/*")
-    .pipe(gulp.dest("./dist/assets"))
-    .pipe(browserSync.stream())
+  .src("./site/static/**/*")
+  .pipe(gulp.dest("./dist"))
+  .pipe(browserSync.stream())
 );
-
-// Clean up dist
-gulp.task("clean", () => {
-  return del.sync("dist");
-});
 
 // Compile Javascript
 gulp.task("js", () => {
-  const myConfig = Object.assign({}, webpackConfig);
+  const environment = process.env.NODE_ENV;
+  log("ENVIRONMENT: " + environment);
+  let myConfig = {};
+  if (environment === "dev") {
+    myConfig = Object.assign({}, webpackDevConfig);
+  } else {
+    myConfig = Object.assign({}, webpackConfig);
+  }
   webpack(myConfig, (err, stats) => {
     if (err) throw new PluginError("webpack", err);
     log(
@@ -81,36 +75,32 @@ gulp.task("js", () => {
   });
 });
 
-// Development server with browser sync
-gulp.task("server", ["hugo", "sass", "js", "img", "static"], () => {
-  browserSync.init({
-    server: {
-      baseDir: "./dist",
-    },
-  });
-  watch("./src/sass/**/*.scss", () => {
-    gulp.start(["sass"]);
-  });
-  watch("./src/js/**/*.js", () => {
-    gulp.start(["js"]);
-  });
-  watch("./src/img/**/*", () => {
-    gulp.start(["img"]);
-  });
-  watch("./src/assets/**/*", () => {
-    gulp.start(["static"]);
-  });
-  watch("./site/**/*", () => {
-    gulp.start(["hugo"]);
-  });
+
+// Clean up dist
+gulp.task("clean", () => {
+  return del.sync("dist");
 });
 
-// Run Hugo and build site
-function buildSite(cb, options, environment = "development") {
+// Development server with browsersync
+const runServer = () => {
+  browserSync.init({
+    server: {
+      baseDir: "./dist"
+    }
+  });
+  gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./src/sass/**/*.scss", ["sass"]);
+  gulp.watch("./src/img/**/*", ["img"]);
+  gulp.watch("./site/static/**/*", ["static"]);
+  gulp.watch("./site/**/*", ["hugo"]);
+};
+
+// Run Hugo
+function buildSite(cb, options, environment) {
   const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
   process.env.NODE_ENV = environment;
   return spawn(hugoBin, args, {
-    stdio: "inherit",
+    stdio: "inherit"
   }).on("close", (code) => {
     if (code === 0) {
       browserSync.reload();
@@ -121,3 +111,21 @@ function buildSite(cb, options, environment = "development") {
     }
   });
 }
+
+// Hugo arguments
+const hugoArgsDefault = ["-d", "../dist", "-s", "site"];
+const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
+
+// Development tasks
+gulp.task("hugo", (cb) => buildSite(cb, [], "prod"));
+gulp.task("hugo-dev", (cb) => buildSite(cb, [], "dev"));
+gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview, "dev"));
+
+// Server tasks
+gulp.task("server", ["clean", "hugo-dev", "sass", "js", "img", "static"], (cb) => runServer(cb));
+gulp.task("server-prod", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => runServer(cb));
+gulp.task("server-preview", ["clean", "hugo-preview", "sass", "js", "img", "static"], (cb) => runServer(cb));
+
+// Production tasks
+gulp.task("build", ["clean", "hugo", "sass", "img", "static", "js"], (cb) => buildSite(cb, [], "prod"));
+gulp.task("build-dev", ["clean", "hugo-dev", "sass", "img", "static", "js"], (cb) => buildSite(cb, [], "dev"));

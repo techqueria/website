@@ -43,13 +43,7 @@
     "comma-spacing": 2,
     "eol-last": 2,
     "eqeqeq": ["error", "smart"],
-    "indent": [
-      2,
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
+    "indent": ["error", 2],
     "keyword-spacing": 2,
     "max-len": [1, 160, 2],
     "new-parens": 2,

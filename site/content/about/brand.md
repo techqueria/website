@@ -149,7 +149,7 @@ Refer to the formatting section for a look at these fonts in action for this web
 
 ## Photography
 
-TBA - we are planning on creating [a "Latinx in Tech" photo album](https://github.com/techqueria/website/issues/6)
+See our [Photos](/about/photos/) page.
 
 ## Testimonials
 
