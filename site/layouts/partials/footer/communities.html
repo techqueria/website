@@ -19,15 +19,16 @@
             alt="{{ .Params.Title }}"
             title="{{ .Params.Title }}"></i>
         {{ else}}
-          {{.Title}}
+          <br>{{.Title}}</br>
         {{ end}}
       </a>
   {{ end }}
   </p>
 
   <!-- Looping SF -->
-  SF
   <p>
+    <br>
+  SF
   {{ range where $community ".Params.city" "sf"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
@@ -40,15 +41,16 @@
             alt="{{ .Params.Title }}"
             title="{{ .Params.Title }}"></i>
         {{ else}}
-          {{.Title}}
+          <br>{{.Title}}</br>
         {{ end}}
       </a>
   {{ end }}
   </p>
 
   <!-- Looping LA -->
-  LA
   <p>
+    <br>
+  LA
   {{ range where $community ".Params.city" "la"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
@@ -61,15 +63,16 @@
             alt="{{ .Params.Title }}"
             title="{{ .Params.Title }}"></i>
         {{ else}}
-          {{.Title}}
+          <br>{{.Title}}</br>
         {{ end}}
       </a>
   {{ end }}
   </p>
 
   <!-- Looping NYC -->
-  NYC
   <p>
+    <br>
+  NYC
   {{ range where $community ".Params.city" "nyc"}}
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
@@ -82,7 +85,7 @@
             alt="{{ .Params.Title }}"
             title="{{ .Params.Title }}"></i>
         {{ else}}
-          {{.Title}}
+          <br>{{.Title}}</br>
         {{ end}}
       </a>
   {{ end }}
