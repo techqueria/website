@@ -1,6 +1,7 @@
 ---
 title: Newsletter
 description: Subscribe to our mailing list.
+city: none
 link: https://eepurl.com/c5xNWX
 image: https://res.cloudinary.com/tdm-assets/image/upload/v1534294090/mailchimp-logo-1920_q1ysfi.jpg
 ---
