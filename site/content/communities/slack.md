@@ -2,7 +2,6 @@
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace.
 city: none
-platform: Slack
 identifier: fab fa-lg fa-slack
 url: /slack/
 image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
