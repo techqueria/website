@@ -5,7 +5,7 @@ description: Resources related to health care.
 
 ## California Health Care Resource Guide for Undocumented Immigrants
 
-[Download PDF](/pdf/HEALTHCARE_RESOURCE_GUIDE_HOPE-FINAL_OCTOBER_28.PDF)
+[Download PDF](http://www.hopeact.latinas.org/atf/cf/%7B8C8C08B7-90F7-4F81-A642-DEC25A476698%7D/HEALTHCARE%20RESOURCE%20GUIDE%20HOPE-FINAL%20SEPTEMBER%2018.PDF)
 
 The pretty comprehensive guide put together by Hispanas Organized for Political Equality (HOPE) with resources and information to help you find affordable health care anyway in California.
 
