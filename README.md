@@ -40,3 +40,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Ariana M. Davis](https://github.com/yourmobilegeek)
 - [Elizabeth Bryant](https://github.com/ejbryant28)
 - [Kyle Holmberg](https://github.com/kylemh)
+- [Snezana Jovic](https://github.com/SneX13)
