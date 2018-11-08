@@ -14,8 +14,8 @@
         <a href="{{ .RelPermalink }}">
       {{ end }}
       {{ if .Params.identifier }}
-        {{.Title}} <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
-      {{ else}}
+        {{ .Title }} <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
+      {{ else }}
         <br>{{ .Title }}</br>
       {{ end }}
     </a>
