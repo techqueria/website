@@ -4,15 +4,21 @@
   </h6>
   <!-- Section Pages - Communities -->
   {{ $community := where .Site.RegularPages "Section" "communities" }}
-  <!-- Looping -->
-  {{ range $community.ByTitle }}
+
+  <!-- Looping none cities-->
+    {{ range $community.ByTitle }}
   <p>
     {{ if .Params.link }}
     <a href="{{ .Params.link }}" target="_blank" rel="noopener">
       {{ else }}
-      <a href="{{ .RelPermalink }}">
-        {{ end }} {{.Title}}
-      </a>
+        <a href="{{ .RelPermalink }}">
+      {{ end }}
+      {{ if .Params.identifier }}
+        {{ .Title }} <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
+      {{ else }}
+        <br>{{ .Title }}</br>
+      {{ end }}
+    </a>
   </p>
   {{ end }}
 </div>
