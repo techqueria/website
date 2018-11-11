@@ -2,22 +2,29 @@
   &.has-shadow {
     @extend %material-shadow;
   }
+
   .navbar-burger {
     height: inherit;
     width: 3em;
   }
+
   .navbar-item {
     padding: .5em 1em;
+
     img {
       max-height: 3em;
     }
+
     padding: .5em 1em;
   }
+
   .navbar-dropdown {
     padding: 0;
+
     .navbar-item {
       padding: 1em;
     }
+
     .navbar-divider {
       margin: 0;
     }

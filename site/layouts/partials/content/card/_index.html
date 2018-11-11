@@ -19,6 +19,12 @@
       <div class="card-content">
         <div class="content">
           {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 100 | safeHTML }} {{ end }}
+          {{ with .Params.location }}
+          <p class="subtitle mt-1 mb-1">{{ . }}</p>
+          {{ end }}
+          {{ with .Params.role }}
+          <p class="subtitle mb-1">{{ . }}</p>
+          {{ end }}
         </div>
       </div>
       <!-- Date -->
