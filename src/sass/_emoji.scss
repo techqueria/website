@@ -1,5 +1,4 @@
-img.emoji {
-  -webkit-box-shadow: none;
+.emoji {
   background: 0 0;
   border: 0;
   box-shadow: none;
@@ -11,13 +10,13 @@ img.emoji {
 
 .card-header,
 .hero a {
-  img.emoji {
+  .emoji {
     margin-left: 0.5em;
   }
 }
 
 .card-footer {
-  img.emoji {
+  .emoji {
     margin-right: 0.5em;
   }
 }

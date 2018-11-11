@@ -14,7 +14,7 @@ root = true
 # Line endings, whitespaces, and newlines - O, my!
 [*]
 end_of_line = lf
-insert_final_newline = false
+insert_final_newline = true
 charset = utf-8
 
 # JS, PHP, and Less explicitly lint for this
