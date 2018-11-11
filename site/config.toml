@@ -20,10 +20,6 @@ pygmentsStyle                 = "manni"
 # googleAnalytics             = ""
 # disqusShortname             = ""
 
-[taxonomies]
-  tag                         = "tags"
-  category                    = "categories"
-
 # RSS
 [outputs]
     home                      = ["HTML", "RSS"]
