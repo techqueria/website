@@ -20,6 +20,15 @@
   line-height: 1;
 }
 
+form button,
+form input,
+form label,
+form pre code,
+form span,
+form textarea {
+  font-size: inherit !important;
+}
+
 .breadcrumb {
   font-size: inherit;
 }

@@ -3,7 +3,7 @@ title: Contact 📨️
 description: Get in touch with Latinx in Tech!
 ---
 
-## Options
+## Ways To Contact Us
 
 ### Email
 
@@ -12,6 +12,43 @@ description: Get in touch with Latinx in Tech!
 ### Slack
 
 Use the command `/admin` in [our Slack workspace](/slack/).
+
+### Contact Form
+
+<div class="contact-form">
+  <form name="contact" method="POST" netlify>
+    <input type="hidden" name="_subject" value="Techqueria - New Contact Message">
+    <div class="field">
+      <label class="label">Name</label>
+      <div class="control has-icons-left">
+        <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name">
+        <span class="icon is-left">
+          ✒️
+        </span>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control has-icons-left">
+        <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email">
+        <span class="icon is-left">
+          ✉️
+        </span>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label">Message</label>
+      <div class="control">
+        <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <div class="field">
+      <div class="control">
+        <button type="submit" class="button is-link">Send message</button>
+      </div>
+    </div>
+  </form>
+</div>
 
 ---
 
@@ -25,7 +62,7 @@ In return, we can provide a spotlight for your organization in our events and ne
 
 You can email us at [organizers@techqueria.org](mailto:organizers@techqueria.org), or use the contact feature in [our Meetup group](https://www.meetup.com/techqueria/).
 
-## Meet Us
+## Meet Us In Person
 
 We usually host an event per month, so you are also welcome to connect with us at our various panels and talks in-person.
 
