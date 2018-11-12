@@ -33,7 +33,7 @@
     "brotli-webpack-plugin": "^1.0.0",
     "browser-sync": "^2.23.6",
     "bulma": "^0.7.1",
-    "clean-webpack-plugin": "^0.1.18",
+    "clean-webpack-plugin": "^1.0.0",
     "compression-webpack-plugin": "^1.1.7",
     "concat": "^1.0.3",
     "connect": "^3.6.5",
