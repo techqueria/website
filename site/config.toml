@@ -1,12 +1,15 @@
 baseURL                       = "https://techqueria.org/"
-title                         = "Techqueria"
-metaDataFormat                = "yaml"
+buildFuture                   = true
+copyright                     = "This work is licensed under MIT."
 enableEmoji                   = true
+enableRobotsTXT               = true
 footnoteReturnLinkContents    = "↩"
+metaDataFormat                = "yaml"
+title                         = "Techqueria"
 
 # Language
 languageCode                  = "en-us"
-defaultContentLanguage        = "en"
+DefaultContentLanguage        = "en"
 
 # Categories
 preserveTaxonomyNames         = false
@@ -37,6 +40,17 @@ pygmentsStyle                 = "manni"
     year                      = 2015
     og_image                  = "https://i.imgur.com/O2YyA3E.png"
     logo                      = "https://i.imgur.com/iJpGY6L.png"
+    locale                    = "en_US"
+
+# Social Links
+[social]
+    email                     = "organizers@techqueria.org"
+    facebook                  = "techqueria"
+    instagram                 = "techqueriala"
+    linkedin                  = "company/techqueria"
+    meetup                    = "techqueria"
+    twitter                   = "TechqueriaSF"
+    youtube                   = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 # Permalinks
 [permalinks]

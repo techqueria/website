@@ -30,12 +30,15 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 More details can be found at this project's [code of conduct](.github/CODE_OF_CONDUCT.md).
 
+## Maintainers
+
+- [Frances Coronel](https://github.com/fvcproductions)
+- [Phillip Ventura](https://github.com/fvntr)
+
 ## Contributors
 
 - [David Silva](https://github.com/dvidsilva)
-- [Frances Coronel](https://github.com/fvcproductions)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
-- [Phillip Ventura](https://github.com/fvntr)
 - [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)
 - [Kristian Polso](https://github.com/krisseck)
