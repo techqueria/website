@@ -28,6 +28,9 @@
     - [GitHub Mentions](#github-mentions)
     - [Slack](#slack)
     - [Email](#email)
+  - [Troubleshooting](#troubleshooting)
+    - [Error: Cannot find module](#error-cannot-find-module)
+    - [Not seeing changes live](#not-seeing-changes-live)
 
 <!-- /TOC -->
 
@@ -57,7 +60,7 @@ Connect your local to the original "upstream" repository by adding it as [a remo
 
 Pull in changes from "upstream" often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely.
 
-See more detailed instructions [here](https://help.github.com/articles/syncing-a-fork/).
+See more detailed instructions through this GitHub article called ["Syncing a Fork"](https://help.github.com/articles/syncing-a-fork/).
 
 ### Installation
 
@@ -296,3 +299,17 @@ If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack
 ### Email
 
 If needed, there is also the option of emailing us using [organizers@techqueria.org](mailto:organizers@techqueria.org).
+
+## Troubleshooting
+
+### Error: Cannot find module
+
+Try `rm -rf node_modules` and then `npm install` again.
+
+### Not seeing changes live
+
+> Outdated pages, service worker still loading on local development
+
+Try running `npm run clean` - this will delete the `dist` directory.
+
+You can then run `npm start` to spin up a local server.

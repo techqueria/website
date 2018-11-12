@@ -1,6 +1,6 @@
 ---
-title: 'Frances Coronel'
-description: 'Software Engineer at Slack'
+title: "Frances Coronel"
+description: "Software Engineer at Slack"
 date: 2018-04-22
 image: https://i.imgur.com/NWXkplC.jpg
 ---

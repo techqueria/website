@@ -1,18 +1,12 @@
 ---
 title: Events 📅️
-description: Find information about our upcoming events with other Latinxs in tech.
-layout: events
+description: Find information about our upcoming events with other Latinx in Tech.
+sortLatestFirst: true
 ---
-
-## Google Calendar
-
-You can [subscribe to our Google Calendar](https://calendar.google.com/calendar/r?cid=dvidsilva.com_eieh0fli3i3nheb8j8naav4tco@group.calendar.google.com) so you never have to miss out on events.
-
-<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=dvidsilva.com_eieh0fli3i3nheb8j8naav4tco%40group.calendar.google.com&amp;color=%237b510e&amp;ctz=America%2FNew_York" style="border-width:0" height="750" width="100%" frameborder="0" scrolling="no"></iframe>
 
 ## Adding Events
 
-If you have an event you'd like to add, you can email the details to [`organizers@techqueria.org`](mailto:organizers@techqueria.org) or message David Silva through Slack.
+If you have an event you'd like to add, you can email the details to [`organizers@techqueria.org`](mailto:organizers@techqueria.org) or [message an admin in Slack](/slack/#contact-admins).
 
 If you're a developer, feel free to [open a pull request](https://github.com/techqueria/website/compare) and add the event yourself!
 

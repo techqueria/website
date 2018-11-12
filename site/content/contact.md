@@ -1,6 +1,18 @@
 ---
 title: Contact 📨️
-description: Get in touch with Latinxs in tech!
+description: Get in touch with Latinx in Tech!
+---
+
+## Options
+
+### Email
+
+[organizers@techqueria.org](mailto:organizers@techqueria.org)
+
+### Slack
+
+Use the command `/admin` in [our Slack workspace](/slack/).
+
 ---
 
 ## Partnering
@@ -13,20 +25,20 @@ In return, we can provide a spotlight for your organization in our events and ne
 
 You can email us at [organizers@techqueria.org](mailto:organizers@techqueria.org), or use the contact feature in [our Meetup group](https://www.meetup.com/techqueria/).
 
-## Feedback - Code of Conduct Reports
+## Meet Us
+
+We usually host an event per month, so you are also welcome to connect with us at our various panels and talks in-person.
+
+See our [Communities](/communities/) page for links to our social media groups and to keep informed on what we're doing.
+
+We also like to help other groups with their events and ideas.
+
+Connect and share what you're working on with us!
+
+## Feedback
 
 We're always listening to your feedback and ready to help in any way we can.
 
 Use the command `/admin` in the Slack workspace to get in touch with us the quicker, or send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
 If you need an invitation to Slack, request it on [our Slack welcome page](/slack/).
-
-## Meet us!
-
-We usually host an event per month, so you are also welcome to connect with us at our various panels and talks in-person.
-
-See our [Communities](/communities/) page for links to our social media and to keep informed on what we're doing.
-
-We also like to help other groups with their events and ideas.
-
-Connect and share what you're working on with us!

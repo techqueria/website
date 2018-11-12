@@ -1,7 +1,6 @@
 ---
-title: Code of Conduct 😌
+title: Code of Conduct 🌼
 description: Techqueria believes in respect, compassion, understanding and inclusion and expect all community members to act in accordance to these values.
-image: http://files.all-free-download.com//downloadfiles/wallpapers/1920_1200/peaceful_lake_wallpaper_landscape_nature_1208.jpg
 aliases:
   - /code-of-conduct/
 ---

@@ -34,8 +34,8 @@ pygmentsStyle                 = "manni"
 [params]
     description               = "We're a community of Latinx professionals in the tech industry. 🌮️ This space aims to be inclusive so we invite Latinx from the regions of the Caribbean, Haiti, and Brazil as well as those who identify as Afro-Latinx or LGBTQ. The term Latinx is used instead of Latino because it is a gender-neutral and inclusive term."
     copyright                 = "Techqueria.org"
-    year                      = 2016
-    og_image                  = "https://i.imgur.com/ONfQqEV.png"
+    year                      = 2015
+    og_image                  = "https://i.imgur.com/O2YyA3E.png"
     logo                      = "https://i.imgur.com/iJpGY6L.png"
 
 # Permalinks

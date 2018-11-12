@@ -1,0 +1,20 @@
+pre code {
+  font-size: inherit;
+}
+
+pre,
+code {
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre,
+code,
+pre code,
+.highlight,
+pre code span {
+  font-family: $family-code !important;
+}

@@ -1,0 +1,33 @@
+.media-content {
+  padding: 1em;
+}
+
+.button {
+  font-size: inherit;
+  padding: 0.5em 1em;
+}
+
+.button,
+.file-cta,
+.file-name,
+.input,
+.pagination-ellipsis,
+.pagination-link,
+.pagination-next,
+.pagination-previous,
+.select select,
+.textarea {
+  line-height: 1;
+}
+
+.breadcrumb {
+  font-size: inherit;
+}
+
+.subtitle {
+  font-weight: 500;
+
+  @media screen and (max-width: $mobile) {
+    font-size: inherit;
+  }
+}
