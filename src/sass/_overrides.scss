@@ -38,8 +38,5 @@ form {
 
 .subtitle {
   font-weight: 500;
-
-  @media screen and (max-width: $mobile) {
-    font-size: inherit;
-  }
+  font-size: inherit;
 }
