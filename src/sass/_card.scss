@@ -10,13 +10,9 @@
 
   .card-image {
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    background-position: center center;
+    background-position: 50%;
     height: 10em;
-    left: 15%;
   }
 
   &.card-equal-height {
