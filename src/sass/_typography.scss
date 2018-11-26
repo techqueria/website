@@ -25,6 +25,7 @@ textarea {
 }
 
 form {
+
   label,
   textarea,
   input,
@@ -32,6 +33,7 @@ form {
   button,
   pre code {
     font-family: $font-family !important;
+
     @media screen and (min-width: $mobile) {
       font-size: initial !important;
     }

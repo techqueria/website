@@ -1,7 +1,6 @@
 ---
-title: Communities 👥️
-description: Opportunities to network and connect with other Latinx in tech.
-url: /communities/
+title: Communities 🌐
+description: Opportunities to network and connect with other Latinx in Tech.
 ---
 
 ## Networking

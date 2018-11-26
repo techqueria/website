@@ -1,0 +1,15 @@
+{{ with .Params.people }}
+<div class="content">
+  <p><strong>Written by
+      {{ range $i, $kw := . }}
+      {{ if $i }}&bullet;{{ end }}
+      {{ if isset $.Site.Data.names . }}
+      {{ $dtitle := (index $.Site.Data.names .) }}
+      <a href="/people/{{ . | urlize }}/" rel="author">{{ index $dtitle.shortname }}</a>
+      {{ else }}
+      <a href="/people/{{ . | urlize }}/" rel="author">{{ . }}</a>
+      {{ end }}
+      {{ end }}
+    </strong></p>
+</div>
+{{ end }}

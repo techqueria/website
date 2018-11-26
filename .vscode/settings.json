@@ -1,11 +1,11 @@
 {
-  "editor.fontSize": 18,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "eslint.autoFixOnSave": true,
   "files.trimTrailingWhitespace": true,
   "markdown.extension.preview.autoShowPreviewToSide": false,
+  "markdown.extension.toc.updateOnSave": false,
   "prettier.eslintIntegration": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false

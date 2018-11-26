@@ -5,6 +5,8 @@
   {{ if .Params.image }}
   <img class="image hero mb-1" src="{{ .Params.image }}">
   {{ end }}
+  <!-- Author -->
+  {{ partial "content/person.html" . }}
   <!-- Content -->
   {{ if .Content }}
   {{ .Content }}

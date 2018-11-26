@@ -1,0 +1,42 @@
+.media-content {
+  padding: 1em;
+}
+
+.button {
+  font-size: inherit;
+  padding: 0.5em 1em;
+}
+
+.button,
+.file-cta,
+.file-name,
+.input,
+.pagination-ellipsis,
+.pagination-link,
+.pagination-next,
+.pagination-previous,
+.select select,
+.textarea {
+  line-height: 1;
+}
+
+form {
+
+  button,
+  input,
+  label,
+  pre code,
+  span,
+  textarea {
+    font-size: inherit !important;
+  }
+}
+
+.breadcrumb {
+  font-size: inherit;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: inherit;
+}

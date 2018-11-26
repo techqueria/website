@@ -1,19 +1,17 @@
-<!-- Defining Pages -->
-{{ $pages := .Pages }}
-{{ $pages := union (.Pages) (.Sections) }}
 <!-- Children Pages -->
 <div class="columns is-multiline">
-  {{ if .Param "sortByTitle" }}
-  {{ $pages := $pages.ByTitle }}
-  {{ else if .Params.sortLatestFirst }}
-  {{ $pages := $pages.ByDate }}
-  {{ else }}
-  {{ $pages := $pages.ByDate.Reverse }}
-  {{ end }}
   <!-- Looping -->
-  {{ range $pages }}
-  <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "content/card/_index.html" . }}
-  </div>
+  <!-- Sorting Option: Latest Posts First -->
+  {{ if .Params.sortLatestFirst }}
+  {{ range (.Sections | union .Pages).ByDate.Reverse }}{{ partial "content/children/child.html" . }}{{ end }}
+  <!-- Sorting Option: Oldest Posts First -->
+  {{ else if .Params.sortOldestFirst }}
+  {{ range (.Sections | union .Pages).ByDate }}{{ partial "content/children/child.html" . }}{{ end }}
+  <!-- Sort By Location -->
+  {{ else if .Params.sortByLocation }}
+  {{ range sort (.Sections | union .Pages) "Params.location" }}{{ partial "content/children/child.html" . }}{{ end }}
+  <!-- Default sorting option is By Title -->
+  {{ else }}
+  {{ range (.Sections | union .Pages).ByTitle }}{{ partial "content/children/child.html" . }}{{ end }}
   {{ end }}
 </div>

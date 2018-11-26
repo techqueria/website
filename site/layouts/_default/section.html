@@ -6,10 +6,19 @@
   <div class="container">
     <!-- Breadcrumbs -->
     {{ partial "content/breadcrumbs.html" . }}
+    <!-- if events page -->
+    {{ if eq .Section "events" }}
+    <!-- Children -->
+    {{ partial "content/children/_index.html" . }}
+    <hr>
+    <!-- Content -->
+    {{ partial "content/_index.html" . }}
+    {{ else }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Children -->
     {{ partial "content/children/_index.html" . }}
+    {{ end }}
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}
   </div>
