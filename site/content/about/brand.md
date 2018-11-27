@@ -1,23 +1,23 @@
 ---
 title: Brand 🎨
 description: Download our assets and discover our style guide.
-image: https://i.imgur.com/A43r74s.png
+image: "/assets/img/logos/banner-logo-only.png"
 ---
 
 <!-- TOC -->
 
 - [Overview](#overview)
 - [Logos](#logos)
-  - [Version 1](#version-1)
-  - [Version 2](#version-2)
-  - [Version 3](#version-3)
+  - [Logo - Rectangle](#logo---rectangle)
+  - [Logo - Square](#logo---square)
+  - [Logo - Square - Color](#logo---square---color)
+  - [Logo - Square - No Text](#logo---square---no-text)
 - [Banners](#banners)
-  - [Banner 1](#banner-1)
-  - [Banner 2](#banner-2)
+  - [Banner](#banner)
+  - [Banner - Logo Only](#banner---logo-only)
 - [Colors](#colors)
 - [Typography](#typography)
 - [Photography](#photography)
-- [Testimonials](#testimonials)
 - [Sketch Assets](#sketch-assets)
 - [Formatting](#formatting)
   - [Third level](#third-level)
@@ -35,29 +35,33 @@ Techqueria is a community of Latinx professionals in the tech industry.
 
 Our logos and print material use a different font than our website.
 
-Our logos use [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro).
+Our logos use [Source San Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Rubik](https://fonts.google.com/specimen/Rubik).
 
-### Version 1
+### Logo - Rectangle
 
-![Logo - V1](https://i.imgur.com/ATxChJD.png)
+![Logo - Rectangle](/assets/img/logos/logo-rectangle.png)
 
-### Version 2
+### Logo - Square
 
-![Logo - V2](https://i.imgur.com/mS3GR9l.png)
+![Logo - Square](/assets/img/logos/logo-square.png)
 
-### Version 3
+### Logo - Square - Color
 
-![Logo - V3](https://i.imgur.com/mLO2a2t.png)
+![Logo - Square - Color](/assets/img/logos/logo-square-color.png)
+
+### Logo - Square - No Text
+
+![Logo - Square - No Text](/assets/img/logos/logo-square-no-text.png)
 
 ## Banners
 
-### Banner 1
+### Banner
 
-![Banner 1](https://i.imgur.com/A43r74s.png)
+![Banner](/assets/img/logos/banner.png)
 
-### Banner 2
+### Banner - Logo Only
 
-![Banner 2](https://i.imgur.com/qulc21w.png)
+![Banner - Logo Only](/assets/img/logos/banner-logo-only.png)
 
 ## Colors
 
@@ -143,17 +147,13 @@ $techqueria-brown-dark: #46352f;
 
 ## Typography
 
-Headers use the [Rubik font](https://fonts.google.com/specimen/Rubik) in bold (700 weight) while everything else uses the [Roboto Mono font](https://fonts.google.com/specimen/Roboto+Mono) in regular (400 weight).
+We use the [Rubik font](https://fonts.google.com/specimen/Rubik).
 
 Refer to the formatting section for a look at these fonts in action for this website.
 
 ## Photography
 
-TBA - we are planning on creating [a "Latinx in Tech" photo album](https://github.com/techqueria/website/issues/6)
-
-## Testimonials
-
-![Testimonial 1](https://i.imgur.com/6NkbPaD.png)
+See our [Photos](/about/photos/) page.
 
 ## Sketch Assets
 
@@ -174,8 +174,8 @@ We use **Bulma** for our CSS framework. It's pretty nifty!
 You can find out more about using Bulma [in their documentation](https://bulma.io/documentation/).
 
 1.  I'm in an ordered list.
-2.  Look at me go!
-3.  Okay, next thing please.
+2.  I'm less subtle that unordered lists.
+3.  More interesting stuff to come!
 
 > This is a blockquote
 

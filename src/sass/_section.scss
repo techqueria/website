@@ -11,15 +11,9 @@
 
   img {
     @extend %image-shadow;
-    display: block;
-    border-radius: _size(border-radius);
     border: 0;
     display: inline-block;
-    position: relative;
     max-width: 100%;
-
-    &.hero {
-      width: 100%;
-    }
+    position: relative;
   }
 }

@@ -19,6 +19,12 @@ $techqueria-brown-dark: #46352f;
 $techqueria-green: #6BAF3C;
 // White
 $techqueria-white: white;
+// Colors
+$link: $techqueria-blue;
+$info: $techqueria-blue-light;
+$success: $techqueria-green;
+$warning: $techqueria-yellow;
+$danger: $techqueria-red;
 // Material Shadow
 $darker-shadow: rgba(0, 0, 0, 0.3);
 $material-shadow: rgba(0, 0, 0, 0.2);
@@ -27,40 +33,45 @@ $image-shadow: rgba(0, 0, 0, 0.1);
 $github: #333;
 $facebook: #4267b2;
 $twitter: #55acee;
+// Typography
+$font-size: 25px;
+$font-size-mobile: 15px;
+$font-family: "Rubik",
+BlinkMacSystemFont,
+-apple-system,
+"Roboto",
+"Segoe UI",
+"Oxygen",
+"Ubuntu",
+"Cantarell",
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+"Helvetica",
+"Arial";
+$font-family-headers: "Rubik",
+sans-serif,
+BlinkMacSystemFont,
+-apple-system,
+"Roboto",
+"Segoe UI",
+"Oxygen",
+"Ubuntu",
+"Cantarell",
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+"Helvetica",
+"Arial";
+$size-1: 3em;
+$size-2: 2.5em;
+$size-3: 2em;
+$size-4: 1.5em;
+$size-5: 1.25em;
+$size-6: 1em;
 // Breakpoints
 $mobile: 425px;
 $tablet: 768px;
 $laptop: 1024px;
 // Navbar
 $navbar-breakpoint: $mobile !default;
-// Typography
-$font-size: 24px;
-$font-size-mobile: 14px;
-$font-family: 'Roboto Mono',
-monospace,
-BlinkMacSystemFont,
--apple-system,
-'Roboto',
-'Segoe UI',
-'Oxygen',
-'Ubuntu',
-'Cantarell',
-'Fira Sans',
-'Droid Sans',
-'Helvetica Neue',
-'Helvetica',
-'Arial';
-$font-family-headers: 'Rubik',
-sans-serif,
-BlinkMacSystemFont,
--apple-system,
-'Roboto',
-'Segoe UI',
-'Oxygen',
-'Ubuntu',
-'Cantarell',
-'Fira Sans',
-'Droid Sans',
-'Helvetica Neue',
-'Helvetica',
-'Arial';

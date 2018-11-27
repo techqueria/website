@@ -1,73 +1,58 @@
-import autoprefixer from "autoprefixer";
-import BrowserSync from "browser-sync";
-import {spawn} from "child_process";
-import cssnano from "cssnano";
-import del from "del";
-import log from "fancy-log";
-import gulp from "gulp";
-import imagemin from "gulp-imagemin";
-import postcss from "gulp-postcss";
-import sass from "gulp-sass";
-import sourcemaps from "gulp-sourcemaps";
-import watch from "gulp-watch";
-import hugoBin from "hugo-bin";
-import PluginError from "plugin-error";
-import csso from "postcss-csso";
-import webpack from "webpack";
-
-import webpackConfig from "./webpack.config";
-
-// Browser Sync
-const browserSync = BrowserSync.create();
-
-// Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v", "-F"];
-
-// Development tasks
-gulp.task("hugo", (cb) => buildSite(cb));
-
-// Build/production tasks
-gulp.task("build", ["clean", "hugo", "sass", "js", "img", "static"], (cb) => buildSite(cb, [], "production"));
+// Load plugins
+const autoprefixer = require("autoprefixer");
+const browserSync = require("browser-sync").create();
+const cssnano = require("cssnano");
+const csso = require("postcss-csso");
+const del = require("del");
+const gulp = require("gulp");
+const hugoBin = require("hugo-bin");
+const imagemin = require("gulp-imagemin");
+const log = require("fancy-log");
+const PluginError = require("plugin-error");
+const postcss = require("gulp-postcss");
+const sass = require("gulp-sass");
+const sourcemaps = require("gulp-sourcemaps");
+const cp = require("child_process");
+const webpack = require("webpack");
+const webpackConfig = require("./webpack.prod");
+const webpackDevConfig = require("./webpack.dev");
+const newer = require("gulp-newer");
 
 // Compress SASS
-gulp.task("sass", () =>
-  gulp
-    .src("./src/sass/styles.scss")
+gulp.task("sass", () => {
+  return gulp
+    .src(["./src/sass/styles.scss"])
     .pipe(
       sass({
-        outputStyle: "compressed"
+        outputStyle: "compressed",
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer(), cssnano(), csso()]))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("./dist/assets/css"))
-    .pipe(browserSync.stream())
-);
-
-// Compress images
-gulp.task("img", () =>
-  gulp
-    .src("./src/img/**/*")
-    .pipe(imagemin())
-    .pipe(gulp.dest("./dist/assets/img"))
-);
-
-// Copy static files
-gulp.task("static", () =>
-  gulp
-    .src("./src/static/**/*")
-    .pipe(gulp.dest("./dist/assets"))
-    .pipe(browserSync.stream())
-);
-
-// Clean up dist
-gulp.task("clean", () => {
-  return del.sync("dist");
+    .pipe(browserSync.stream());
 });
 
-// Compile Javascript
-gulp.task("js", () => {
-  const myConfig = Object.assign({}, webpackConfig);
+// Compress images
+const images = () => {
+  return gulp
+    .src("./src/img/**/*")
+    .pipe(newer("./dist/assets/img"))
+    .pipe(imagemin())
+    .pipe(gulp.dest("./dist/assets/img"));
+};
+
+gulp.task("img", images);
+
+const js = (done) => {
+  const environment = process.env.NODE_ENV;
+  log("ENVIRONMENT: " + environment);
+  let myConfig = {};
+  if (environment === "dev") {
+    myConfig = Object.assign({}, webpackDevConfig);
+  } else {
+    myConfig = Object.assign({}, webpackConfig);
+  }
   webpack(myConfig, (err, stats) => {
     if (err) throw new PluginError("webpack", err);
     log(
@@ -79,45 +64,76 @@ gulp.task("js", () => {
     );
     browserSync.reload();
   });
+  done();
+};
+// Compile Javascript
+gulp.task("js", js);
+
+// Clean up dist
+gulp.task("clean", () => {
+  return del(["dist"]);
 });
 
-// Development server with browser sync
-gulp.task("server", ["hugo", "sass", "js", "img", "static"], () => {
+// Development server with browsersync
+const runServer = (options) => {
   browserSync.init({
     server: {
-      baseDir: "./dist",
-    },
+      baseDir: "./dist"
+    }
   });
-  watch("./src/sass/**/*.scss", () => {
-    gulp.start(["sass"]);
-  });
-  watch("./src/js/**/*.js", () => {
-    gulp.start(["js"]);
-  });
-  watch("./src/img/**/*", () => {
-    gulp.start(["img"]);
-  });
-  watch("./src/assets/**/*", () => {
-    gulp.start(["static"]);
-  });
-  watch("./site/**/*", () => {
-    gulp.start(["hugo"]);
-  });
-});
+  gulp.watch("./src/js/**/*.js", gulp.series("js"));
+  gulp.watch("./src/sass/**/*.scss", gulp.series("sass"));
+  gulp.watch("./src/img/**/*", gulp.series("img"));
+  gulp.watch("./site/**/*", gulp.series(options));
+};
 
-// Run Hugo and build site
-function buildSite(cb, options, environment = "development") {
+// Run Hugo
+const buildSite = (done, options, environment) => {
   const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
   process.env.NODE_ENV = environment;
-  return spawn(hugoBin, args, {
-    stdio: "inherit",
+  return cp.spawn(hugoBin, args, {
+    stdio: "inherit"
   }).on("close", (code) => {
     if (code === 0) {
       browserSync.reload();
-      cb();
+      done();
     } else {
       browserSync.notify("Hugo build failed :(");
-      cb("Hugo build failed");
+      done("Hugo build failed");
     }
   });
-}
+};
+
+// Hugo arguments
+const hugoArgsDefault = ["-d", "../dist", "-s", "site"];
+const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
+
+// Development tasks
+gulp.task("hugo", (done) => buildSite(done, [], "prod"));
+gulp.task("hugo-dev", (done) => buildSite(done, [], "dev"));
+gulp.task("hugo-preview", (done) => buildSite(done, hugoArgsPreview, "dev"));
+
+// Server tasks
+gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", (done) => {
+  runServer("hugo-dev");
+  done();
+}));
+
+gulp.task("server-prod", gulp.series("hugo", "sass", "img", "js", (done) => {
+  runServer("hugo");
+  done();
+}));
+
+gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", (done) => {
+  runServer("hugo-preview");
+  done();
+}));
+
+// Production tasks
+gulp.task("build", gulp.series("clean", "hugo", "sass", "img", "js", (done) => {
+  buildSite(done, [], "prod");
+}));
+
+gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js", (done) => {
+  buildSite(done, [], "dev");
+}));

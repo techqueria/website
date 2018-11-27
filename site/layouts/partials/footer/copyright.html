@@ -1,13 +1,8 @@
 <div class="content has-text-centered">
   {{ with .Site.Params.copyright }}
   <span class="is-size-1">🌮</span>️
-  <p>
-    <a href="/">{{ . }}</a>
-  </p>
+  <p><a href="/">{{ . }}</a></p>
   {{ end }}
-  <p>
-    <i title="Copyright" class="fas fa-copyright mr-sm"></i>
-    <!-- Year -->
-    {{ with .Site.Params.year }} {{ . }} {{ end }} to {{ now.Year }}
-  </p>
+  <!-- Year -->
+  <p>Powered by Latinx since {{ .Site.Params.year }}</p>
 </div>

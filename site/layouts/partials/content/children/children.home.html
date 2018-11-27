@@ -11,7 +11,7 @@
     <div class="columns is-multiline">
       <!-- Looping -->
       {{ range first 3 $pages }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
@@ -25,7 +25,7 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $pages) }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
@@ -34,12 +34,12 @@
 </section>
 <!-- CTA - Become a sponsor -->
 {{ partial "content/cta/cta.sponsor.html" . }}
-<!-- Last 3 Pages -->
+<!-- Third 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $pages) }}
-      <div class="column is-one-third-desktop is-half-tablet">
+      <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/_index.html" . }}
       </div>
       {{ end }}
@@ -48,3 +48,15 @@
 </section>
 <!-- CTA - Subscribe to newsletter -->
 {{ partial "content/cta/cta.newsletter.html" . }}
+<!-- Last 3 Pages -->
+<section class="section page">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range first 3 (after 9 $pages) }}
+      <div class="column is-one-third-desktop is-full-touch">
+        {{ partial "content/card/_index.html" . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

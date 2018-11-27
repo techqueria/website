@@ -1,6 +1,7 @@
 ---
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace.
+identifier: fab fa-slack
 url: /slack/
 image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
 ---
@@ -11,7 +12,7 @@ image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
 
 # Table of Contents
 
-<!-- TOC -->
+<!-- TOC depthFrom:2 -->
 
 - [Request an invite](#request-an-invite)
 - [Code of Conduct](#code-of-conduct)
@@ -28,10 +29,10 @@ image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
 
 ## Request an invite
 
-We'd like to learn more a little bit about your interest in our community so we kindly request you [fill out the Google Form below](https://goo.gl/forms/VRARl4qkkLj3BJLl1) in order to receive an invitation to our Slack Workspace.
+We'd like to learn more a little bit about your interest in our community so we kindly request you [fill out the Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1) below in order to receive an invitation to our Slack Workspace.
 
-<div class="mt-2 mb-2 has-text-centered">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="640" height="2283" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<div class="mt-2 mb-1 has-text-centered">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="600" height="2050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 
 In the meantime, feel free to check out [our different Community groups](/communities/) and review the overview we've provided of our Slack group below.
@@ -99,7 +100,7 @@ When you click on the emoji icon in the conversation or to add a reaction, you c
 
 You can find images for things like arepa, empanada, baseball teams, avocado, etc.
 
-Take a look at them and feel free to [add more](https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji).
+Take a look at them and feel free to [add more custom emoji yourself](https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji).
 
 ## Meta
 

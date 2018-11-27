@@ -5,7 +5,9 @@
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
+    {{ if ne .Section "blog" }}
     {{ partial "content/breadcrumbs.html" . }}
+    {{ end }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Content Footer -->

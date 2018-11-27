@@ -4,7 +4,6 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
 
 # Runtime data
 pids
@@ -64,7 +63,6 @@ typings/
 # Output
 config/env.js
 dist
-site/public
 
-# Service Worker
-site/layouts/partials/scripts/service-worker.html
+# Lock
+/package-lock.json

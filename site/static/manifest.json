@@ -1,5 +1,5 @@
 {
-  "background_color": "#594641",
+  "background_color": "#fbae52",
   "description": "We're a community of Latinx professionals in the tech industry.",
   "display": "standalone",
   "name": "Techqueria",
@@ -7,9 +7,8 @@
   "scope": "/",
   "short_name": "Techqueria",
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "#594641",
-  "icons": [
-    {
+  "theme_color": "#fbae52",
+  "icons": [{
       "src": "/assets/img/favicons/36x36.png",
       "sizes": "36x36",
       "type": "image/png"

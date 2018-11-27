@@ -13,9 +13,7 @@
     <!-- Right Navbar Items (Icons) -->
     <!-- Hidden on Mobile, Desktop Only -->
     {{ range .Site.Menus.right }}
-    <a class="navbar-item is-hidden-mobile" href="{{ .URL }}" target="_blank" rel="noopener">
-      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-    </a>
+    <a class="navbar-item is-hidden-mobile" href="{{ .URL }}" target="_blank" rel="noopener">{{ if .Identifier }} <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>{{ end }}</a>
     {{ end }}
   </div>
 </div>
