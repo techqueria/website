@@ -48,3 +48,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Snezana Jovic](https://github.com/SneX13)
 - [William Mena](https://github.com/WilliamMena)
 - [Steven Jimenez](https://wepadev.com/)
+- [Axhon Ruiz-Gonzalez](https://github.com/axhon)
