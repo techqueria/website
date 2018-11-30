@@ -1,6 +1,6 @@
 ---
 title: About 🌮️
-description: Techqueria is a community of Latinxs in the tech industry that was first established in 2016.
+description: Techqueria is a community of Latinxs in the tech industry that was first established in 2015.
 ---
 
 ## Who we are
@@ -23,7 +23,7 @@ David Silva and Shashi Jain organized the first events at the NextSpace in Berke
 
 We later started hosting at companies across the Bay Area and grew our community thanks to the work of Kimberly Muñoz and CJ Joulain.
 
-LA was the first place we held events outside the Bay Area thanks to the help of Esteban Uribe.
+LA was the first place we held events outside the Bay Area thanks to the help of Esteban Uribe and Hector Carmona.
 
 As our community moves, we form chapters and support one another in building a home for Latinxs in tech. We welcome all that share our mission!
 
