@@ -1,9 +1,11 @@
 <!-- Content -->
 {{ if or (.Content) (.Params.image) }}
-<div class="content has-text-centered">
+<div class="content">
   <!-- Hero Image -->
   {{ if .Params.image }}
-  <img class="image hero mb-1" src="{{ .Params.image }}">
+  <div class="has-text-centered">
+    <img class="image hero mb-1" src="{{ .Params.image }}" alt="{{ .Title }}">
+  </div>
   {{ end }}
   <!-- Author -->
   {{ partial "content/person.html" . }}
