@@ -33,4 +33,16 @@ To find local community health centers, search the Community Clinic Association 
 
 [Latino Health Resource Guide - California](https://www.medicareadvantage.com/latino-health-resource-guide#CA)
 
+## Therapy for Latinx
+
+[therapyforlatinx.com](https://therapyforlatinx.com/)
+
+Encouraging Latinx mental health
+
+## Counseling And Trauma Therapy
+
+[counselingandtraumatherapy.com](https://www.counselingandtraumatherapy.com)
+
+Adriana is a relationship therapist and counselor, speaker on sexual assault, sexual violence and trauma.
+
 Compilation of state and national resources for many of the biggest health care risks faced by the Latino community.
