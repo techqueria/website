@@ -38,7 +38,7 @@
     "compression-webpack-plugin": "^1.1.7",
     "concat": "^1.0.3",
     "connect": "^3.6.5",
-    "css-loader": "^1.0.0",
+    "css-loader": "^2.0.0",
     "cssnano": "^4.0.0",
     "del": "^3.0.0",
     "eslint": "^5.0.0",
