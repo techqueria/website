@@ -50,6 +50,7 @@
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-brotli": "^1.2.1",
+    "gulp-cli": "^2.0.1",
     "gulp-gzip": "^1.4.2",
     "gulp-htmlmin": "^5.0.0",
     "gulp-imagemin": "^5.0.0",
