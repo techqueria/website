@@ -16,7 +16,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 ### Contact Form
 
 <div class="contact-form">
-  <form name="contact" method="POST" netlify>
+  <form name="contact" method="POST" data-netlify="true">
     <input type="hidden" name="_subject" value="Techqueria - New Contact Message">
     <div class="field">
       <label class="label">Name</label>
@@ -42,6 +42,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
         <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message"></textarea>
       </div>
     </div>
+    <div data-netlify-recaptcha="true"></div>
     <div class="field">
       <div class="control">
         <button type="submit" class="button is-link">Send message</button>
