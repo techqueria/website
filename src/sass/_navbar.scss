@@ -9,19 +9,25 @@
   }
 
   .navbar-item {
-    padding: 0.5em 1em;
-
     img {
       max-height: 3em;
     }
   }
 
-  .navbar-dropdown {
-    padding: 0;
+  .navbar-item,
+  .navbar-link {
+    padding: .5rem 1.5rem;
+  }
 
-    .navbar-item {
-      padding: 1em;
-    }
+  .navbar-link {
+    padding-right: 2.5em;
+  }
+
+  .navbar-item.has-dropdown {
+    padding: 0;
+  }
+
+  .navbar-dropdown {
 
     .navbar-divider {
       margin: 0;

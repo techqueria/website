@@ -5,20 +5,32 @@ twemoji.parse(document.body, {
   ext: ".svg"
 });
 
-// The following code is based off a toggle menu by @Bradcomp
-// https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
-(function() {
-  var burger = document.querySelector(".burger");
-  var menu = document.querySelector("#" + burger.dataset.target);
-  burger.addEventListener("click", function() {
-    burger.classList.toggle("is-active");
-    menu.classList.toggle("is-active");
-  });
-})();
+// Navbar
+document.addEventListener("DOMContentLoaded", () => {
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+    // Add a click event on each of them
+    $navbarBurgers.forEach((el) => {
+      el.addEventListener("click", () => {
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle("is-active");
+        $target.classList.toggle("is-active");
+      });
+    });
+  }
+});
 
-const anchors = document.querySelectorAll(".content a[href^='https://']");
-
+// External Links
+const anchors = document.querySelectorAll(".content a, .navbar-menu a");
+// Loop through and add blank target and noopener rel
 for (let i = 0; i < anchors.length; i++) {
-  anchors[i].target = "_blank";
-  anchors[i].rel = "noopener";
+  if (anchors[i].hostname != window.location.hostname) {
+      anchors[i].target = "_blank";
+      anchors[i].rel = "noopener";
+   }
 }

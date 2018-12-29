@@ -4,6 +4,7 @@ description: Stock photos of Latinx in Tech. This work is licensed under CC BY-N
 aliases:
   - /photos/
   - /stock-photos/
+  - /about/photos/
 ---
 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.

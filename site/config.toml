@@ -62,96 +62,158 @@ pygmentsStyle                 = "manni"
     name                      = "Techqueria"
     copyright                 = "©️ Techqueria.org"
 
-[[menu.mobile]]
+[[menu.social]]
     name                      = "Facebook"
     url                       = "https://www.facebook.com/groups/techqueria"
     identifier                = "fab fa-lg fa-facebook"
 
-[[menu.mobile]]
+[[menu.social]]
     name                      = "Twitter"
     url                       = "https://twitter.com/techqueriasf"
     identifier                = "fab fa-lg fa-twitter"
 
-[[menu.left]]
+# Homepage
+# 1. About
+# 2. Blog
+# 3. Code of Conduct
+# 4. Communities
+# 5. Contact
+# 6. Events
+# 7. People
+# 8. Press
+# 9. Resources
+# 10. Sponsors
+# 11. Stock Photos
+# 12. Testimonials
+
+# Menu
+# 1. About
+# 2. Communities
+# 3. Contact
+# 4. Events
+# 5. Resources
+# 6. Sponsors
+
+[[menu.main]]
     name                      = "About"
     url                       = "/about/"
-    # identifier              = "fas fa-info-circle"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "About"
-    name                      = "Photos"
-    url                       = "/resources/photos/"
-
-[[menu.left]]
+    name                      = "Blog 📝"
+    url                       = "/blog/"
+[[menu.main]]
     parent                    = "About"
-    name                      = "Brand"
-    url                       = "/resources/brand/"
-
-[[menu.left]]
+    name                      = "Brand 🎨"
+    url                       = "/about/brand/"
+[[menu.main]]
     parent                    = "About"
-    name                      = "Code of Conduct"
-    url                       = "/resources/code-of-conduct/"
+    name                      = "Code of Conduct 🌼"
+    url                       = "/code-of-conduct/"
+[[menu.main]]
+    parent                    = "About"
+    name                      = "People 👥"
+    url                       = "/people/"
+[[menu.main]]
+    parent                    = "About"
+    name                      = "Press 📰️"
+    url                       = "/press/"
+[[menu.main]]
+    parent                    = "About"
+    name                      = "Stock Photos 📸"
+    url                       = "/photos/"
+[[menu.main]]
+    parent                    = "About"
+    name                      = "Testimonials 💌"
+    url                       = "/testimonials/"
 
-[[menu.left]]
+[[menu.main]]
     name                      = "Communities"
     url                       = "/communities/"
-    # identifier              = "fas fa-comments"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Chapter - Bay Area"
+    url                       = "/communities/bay-area/"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Chapter - Los Angeles"
+    url                       = "/communities/los-angeles/"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Chapter - New York City"
+    url                       = "/communities/new-york-city/"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Facebook Group"
+    url                       = "https://www.facebook.com/groups/techqueria"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Facebook Page"
+    url                       = "https://www.facebook.com/techqueria"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "GitHub Organization"
+    url                       = "https://github.com/techqueria"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "LinkedIn Group"
+    url                       = "https://www.linkedin.com/groups/13500636"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Meetup Group"
+    url                       = "https://www.meetup.com/techqueria/"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Newsletter"
+    url                       = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "Slack Workspace"
+    url                       = "/communities/slack/"
+[[menu.main]]
+    parent                    = "Communities"
+    name                      = "YouTube Channel"
+    url                       = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
-[[menu.left]]
+[[menu.main]]
     name                      = "Contact"
     url                       = "/contact/"
-    # identifier              = "fas fa-envelope"
 
-[[menu.left]]
+[[menu.main]]
     name                      = "Events"
     url                       = "/events/"
-    # identifier              = "fas fa-calendar-alt"
 
-[[menu.left]]
+[[menu.main]]
     name                      = "Sponsors"
     url                       = "/sponsors/"
 
-[[menu.left]]
+[[menu.main]]
     name                      = "Resources"
     url                       = "/resources/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Career Growth"
+    name                      = "Career Growth 💼️"
     url                       = "/resources/career/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Design"
+    name                      = "Design 🖌️"
     url                       = "/resources/design/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Health"
+    name                      = "Health Care 🏥"
     url                       = "/resources/health/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Immigration"
+    name                      = "Immigration 📄"
     url                       = "/resources/immigration/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Legal"
+    name                      = "Legal Help ⚖️"
     url                       = "/resources/legal/"
-
-[[menu.left]]
+[[menu.main]]
     parent                    = "Resources"
-    name                      = "Open-source"
+    name                      = "Open Source 🔧️"
     url                       = "/resources/open-source/"
-
-
-[[menu.right]]
-    name                      = "Facebook"
-    url                       = "https://www.facebook.com/groups/techqueria"
-    identifier                = "fab fa-lg fa-facebook"
-
-[[menu.right]]
-    name                      = "Twitter"
-    url                       = "https://twitter.com/techqueriasf"
-    identifier                = "fab fa-lg fa-twitter"
+[[menu.main]]
+    parent                    = "Resources"
+    name                      = "Podcasts 🎙️"
+    url                       = "/resources/podcasts/"

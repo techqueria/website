@@ -7,7 +7,7 @@
   <!-- Title -->
   <header class="card-header">
     <h2 class="card-header-title">
-      {{ if .Title}}{{ .Title | truncate 50 }}{{ end }}
+      {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ if .Title}}{{ .Title | truncate 50 }}{{ end }}
     </h2>
   </header>
   <!-- Description -->
@@ -25,10 +25,10 @@
   <!-- Date -->
   <footer class="card-footer">
     <a href="{{ .RelPermalink }}" class="card-footer-item">ℹ️ More info</a>
-    {{ if .Params.link  }}
-      {{ if not (.Date.Before now) }}
-        <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">📝 RSVP now</a>&nbsp;
-      {{end}}
+    {{ if .Params.link }}
+    {{ if not (.Date.Before now) }}
+    <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">📝 RSVP now</a>&nbsp;
+    {{end}}
     {{ end }}
   </footer>
 </div>

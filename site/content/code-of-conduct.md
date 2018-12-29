@@ -3,6 +3,7 @@ title: Code of Conduct 🌼
 description: Techqueria believes in respect, compassion, understanding and inclusion and expect all community members to act in accordance to these values.
 aliases:
   - /code-of-conduct/
+  - /about/code-of-conduct/
 ---
 
 Techqueria is a professional space for all members of our growing community. We believe in respect, compassion, understanding, and inclusion and expect all community members to act on these values.

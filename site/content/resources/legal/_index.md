@@ -1,6 +1,10 @@
 ---
-title: Legal Help
+title: Legal Help ⚖️
 description: Resources related to legal services.
+aliases:
+  - /legal-help/
+  - /legal/
+  - /resources/legal/
 ---
 
 ## Know Your Rights: What To Do If You're Stopped By Police, Immigration Agents or the FBI
@@ -29,6 +33,6 @@ The List contains information on non-profit organizations and attorneys who have
 
 ## Undocumented Workers: Employment Rights
 
-[las-elc.org](http://las-elc.org/fact-sheets/undocumented-workers-employment-rights)
+[las-elc.org](https://las-elc.org/fact-sheets/undocumented-workers-employment-rights)
 
 This Fact Sheet is intended to provide accurate, general information regarding legal rights relating to employment in California. Because laws and legal procedures are subject to frequent change and differing interpretations, the Legal Aid Society-Employment Law Center cannot ensure the information in this Fact Sheet is current nor be responsible for any use. Do not rely on this information without consulting an attorney or the appropriate agency about your rights in your particular situation.
