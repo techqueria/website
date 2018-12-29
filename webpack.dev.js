@@ -16,8 +16,8 @@ module.exports = {
       loader: "babel-loader",
       exclude: /node_modules/,
       query: {
-          cacheDirectory: true
-        }
+        cacheDirectory: true
+      }
     },
     {
       test: /\.css$/,
@@ -26,11 +26,11 @@ module.exports = {
     {
       test: /\.(gif|png|jpe?g|svg)$/i,
       use: [
-          "file-loader",
-          {
-            loader: "image-webpack-loader"
-          }
-        ]
+        "file-loader",
+        {
+          loader: "image-webpack-loader"
+        }
+      ]
     }
     ]
   },

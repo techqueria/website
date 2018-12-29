@@ -12,23 +12,22 @@
     img {
       max-height: 3em;
     }
+
+    .has-dropdown {
+      padding: 0;
+    }
   }
 
   .navbar-item,
   .navbar-link {
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
 
   .navbar-link {
     padding-right: 2.5em;
   }
 
-  .navbar-item.has-dropdown {
-    padding: 0;
-  }
-
   .navbar-dropdown {
-
     .navbar-divider {
       margin: 0;
     }
