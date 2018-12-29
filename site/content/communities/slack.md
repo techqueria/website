@@ -205,13 +205,19 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
 
 ## Sidebar Theme
 
+Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
+
+`#FFFFFF,#FFFFFF,#FBAE52,#000000,#FBAE52,#000000,#FF551F,#FF551F`
+
+![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
+
 ## Emojis
 
 When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added. 🎉
 
 You can find images for things like arepa, empanada, baseball teams, avocado, etc.
 
-Take a look at them and feel free to [add more custom emoji yourself](https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji) using [https://latinos.slack.com/customize/emoji](https://latinos.slack.com/customize/emoji).
+Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 

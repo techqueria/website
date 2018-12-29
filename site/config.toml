@@ -191,6 +191,10 @@ pygmentsStyle                 = "manni"
     url                       = "/resources/"
 [[menu.main]]
     parent                    = "Resources"
+    name                      = "Bay Area 🌉"
+    url                       = "/resources/bay-area/"
+[[menu.main]]
+    parent                    = "Resources"
     name                      = "Career Growth 💼️"
     url                       = "/resources/career/"
 [[menu.main]]
