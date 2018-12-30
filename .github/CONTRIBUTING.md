@@ -2,35 +2,35 @@
 
 <!-- TOC -->
 
-- [Contributing](#contributing)
-  - [1. Setting Up](#1-setting-up)
-    - [Ways to Contribute](#ways-to-contribute)
-    - [Fork the repo](#fork-the-repo)
-    - [Installation](#installation)
-  - [2. Local Development](#2-local-development)
-    - [Live Server](#live-server)
-    - [Branding](#branding)
-    - [Service Workers](#service-workers)
-    - [Tools](#tools)
-    - [Platforms](#platforms)
-    - [Languages](#languages)
-    - [Directory Structure](#directory-structure)
-    - [Available Commands](#available-commands)
-    - [Audits](#audits)
-    - [Deployment](#deployment)
-  - [3. Opening a Pull Request](#3-opening-a-pull-request)
-    - [A Good PR](#a-good-pr)
-    - [Checks](#checks)
-    - [GitHub Integrations](#github-integrations)
-    - [Issue Tracker](#issue-tracker)
-    - [Stale Pull Requests](#stale-pull-requests)
-  - [Questions?](#questions)
-    - [GitHub Mentions](#github-mentions)
-    - [Slack](#slack)
-    - [Email](#email)
-  - [Troubleshooting](#troubleshooting)
-    - [Error: Cannot find module](#error-cannot-find-module)
-    - [Not seeing changes live](#not-seeing-changes-live)
+- [1. Setting Up](#1-setting-up)
+  - [Ways to Contribute](#ways-to-contribute)
+  - [Fork the repo](#fork-the-repo)
+  - [Installation](#installation)
+- [2. Local Development](#2-local-development)
+  - [Live Server](#live-server)
+  - [Branding](#branding)
+  - [Service Workers](#service-workers)
+  - [Tools](#tools)
+  - [Platforms](#platforms)
+  - [Languages](#languages)
+  - [Translations](#translations)
+  - [Directory Structure](#directory-structure)
+  - [Available Commands](#available-commands)
+  - [Audits](#audits)
+  - [Deployment](#deployment)
+- [3. Opening a Pull Request](#3-opening-a-pull-request)
+  - [A Good PR](#a-good-pr)
+  - [Checks](#checks)
+  - [GitHub Integrations](#github-integrations)
+  - [Issue Tracker](#issue-tracker)
+  - [Stale Pull Requests](#stale-pull-requests)
+- [Questions?](#questions)
+  - [GitHub Mentions](#github-mentions)
+  - [Slack](#slack)
+  - [Email](#email)
+- [Troubleshooting](#troubleshooting)
+  - [Error: Cannot find module](#error-cannot-find-module)
+  - [Not seeing changes live](#not-seeing-changes-live)
 
 <!-- /TOC -->
 
@@ -131,6 +131,10 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 - HTML
 - TOML
 - JSON
+
+### Translations
+
+Content is in the progress of being translated to Español.
 
 ### Directory Structure
 

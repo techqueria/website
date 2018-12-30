@@ -74,5 +74,6 @@ $size-7: 0.75em;
 $mobile: 425px;
 $tablet: 768px;
 $laptop: 1024px;
+$laptop-large: 1440px;
 // Navbar
-$navbar-breakpoint: $mobile !default;
+$navbar-breakpoint: $laptop-large !default;

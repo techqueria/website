@@ -1,27 +1,37 @@
 .card {
-  &:hover {
-    @extend %material-shadow;
-  }
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, .1) !important;
 
-  .card-header-title,
-  .card-content {
-    padding: 1em;
-  }
+	&:hover {
+		@extend %material-shadow;
+	}
 
-  .card-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 10em;
-  }
+	.card-image--figure {
 
-  &.card-equal-height {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+		img {
+			width: 100%;
+			height: 10em;
+			object-fit: cover;
+		}
+	}
 
-    .card-footer {
-      margin-top: auto;
-    }
-  }
+	.card-header-title,
+	.card-content {
+		padding: 1em;
+	}
+
+	.card-footer {
+		border: none;
+		padding: 0 1em 1em;
+	}
+
+	&.card-equal-height {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+
+		.card-footer {
+			margin-top: auto;
+		}
+	}
 }

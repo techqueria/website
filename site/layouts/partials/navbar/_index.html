@@ -5,12 +5,12 @@
     <!-- Brand -->
     <div class="navbar-brand">
       <!-- Logo -->
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="{{ "/" | absLangURL }}">
         <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Title }}">
       </a>
       <!-- Left Icons -->
       <!-- Hidden on Desktop, Mobile Only -->
-      <div class="navbar-item is-hidden-desktop">
+      <div class="navbar-item is-hidden-fullhd">
         <div class="buttons">
           {{ range .Site.Menus.social }}
           <a class="button is-white" href="{{ .URL }}" target="_blank" rel="noopener">
@@ -32,19 +32,19 @@
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
+          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | absLangURL }}">
             {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i> {{ end }}{{- .Name -}}
           </a>
-          <div class="navbar-dropdown is-hidden-touch is-size-7">
+          <div class="navbar-dropdown is-size-7">
             {{ range .Children }}
-            <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL }}">
+            <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL | absLangURL }}">
               {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{ end }} {{ .Name }}
             </a>
             {{ end }}
           </div>
         </div>
         {{ else }}
-        <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL }}">
+        <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL | absLangURL }}">
           {{- if .Identifier -}}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{- end -}} {{ .Name }}
         </a>
         {{ end }}
