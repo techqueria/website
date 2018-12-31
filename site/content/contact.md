@@ -79,4 +79,4 @@ We're always listening to your feedback and ready to help in any way we can.
 
 Use the command `/admin` in the Slack workspace to get in touch with us the quicker, or send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
-If you need an invitation to Slack, request it on [our Slack welcome page](/slack/).
+If you need an invitation to Slack, request it on [our Slack welcome page](/communities/slack/).

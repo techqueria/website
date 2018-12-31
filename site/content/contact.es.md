@@ -11,7 +11,7 @@ description: ¡Ponte en contacto con Latinx en Tech!
 
 ### Flojo
 
-Use el comando `/admin` en [nuestro espacio de trabajo Slack](/slack/).
+Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
 
 <div class="contact-form">
   <form name="contact" method="POST" data-netlify="true">

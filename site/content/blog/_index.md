@@ -1,8 +1,9 @@
 ---
 title: Blog 📝️
 description: "Where we share our stories from the community."
-url: "/blog/"
 sortLatestFirst: true
+aliases:
+  - /blog/
 ---
 
 Our blog used to be hosted on Medium at [https://blog.techqueria.org](https://blog.techqueria.org).

@@ -232,11 +232,11 @@ googleAnalytics                      = "UA-88917358-1"
 #
 [languages]
 [languages.en]
-  weight                             = 0
+  weight                             = 1
   languageName                       = "English"
 
 [languages.es]
-  weight                             = 1
+  weight                             = 2
   languageName                       = "Español"
   [languages.es.params]
     description                      = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️ Este espacio pretende ser inclusivo, por lo que invitamos a Latinx desde las regiones del Caribe, Haití y Brasil, así como a aquellos que se identifican como Afro-Latinx o LGBTQ. El término Latinx se usa en lugar de Latino porque es un término neutral e inclusivo."
@@ -323,7 +323,7 @@ googleAnalytics                      = "UA-88917358-1"
 
 [[languages.es.menu.main]]
     name                             = "Contacto"
-    url                              = "/contact/"
+    url                              = "/contacto/"
 
 [[languages.es.menu.main]]
     name                             = "Eventos"
@@ -367,4 +367,4 @@ googleAnalytics                      = "UA-88917358-1"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Podcasts 🎙️"
-    url                       = "/resources/podcasts/"
+    url                              = "/resources/podcasts/"

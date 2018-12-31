@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct 🌼
-description: Techqueria believes in respect, compassion, understanding and inclusion and expect all community members to act in accordance to these values.
+description: Techqueria believes in respect, compassion, understanding, and inclusion and expects all community members to act in accordance with these values.
 aliases:
   - /code-of-conduct/
   - /about/code-of-conduct/
@@ -26,7 +26,7 @@ Respect is essential for everybody so if you feel uncomfortable, or suspect of s
 
 ## Slack
 
-For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/slack/).
+For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/communities/slack/).
 
 ## Violations
 

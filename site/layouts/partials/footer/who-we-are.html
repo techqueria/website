@@ -8,4 +8,25 @@
   <br>
   <p>{{ i18n "join_us" }}</p>
   <br>
+  <!-- Language Dropdown -->
+  <!-- Not ready for prime time yet -->
+  <!-- {{ if .IsTranslated }}
+  <div class="dropdown is-hoverable">
+    <div class="dropdown-trigger">
+      <button class="button" aria-haspopup="true" aria-controls="language-dropdown-menu">
+        <span>{{ .Language.LanguageName }}</span>
+        <span class="icon is-small">
+          <i class="fas fa-angle-down" aria-hidden="true"></i>
+        </span>
+      </button>
+    </div>
+    <div class="dropdown-menu" id="language-dropdown-menu" role="menu">
+      <div class="dropdown-content">
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" class="dropdown-item">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }} -->
 </div>

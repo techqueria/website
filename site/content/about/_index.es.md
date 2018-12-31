@@ -27,4 +27,4 @@ LA fue el primer lugar donde realizamos eventos fuera del Área de la Bahía gra
 
 A medida que nuestra comunidad se mueve, formamos capítulos y nos apoyamos mutuamente en la construcción de un hogar para Latinxs en tecnología. ¡Damos la bienvenida a todos los que comparten nuestra misión!
 
-> Si está interesado en comenzar un capítulo, comuníquese con [organizers@techqueria.org](mailto:organizers@techqueria.org) o comuníquese con nosotros [a través de Slack](/slack/#contact-admins).
+> Si está interesado en comenzar un capítulo, comuníquese con [organizers@techqueria.org](mailto:organizers@techqueria.org) o comuníquese con nosotros [a través de Slack](/es/communities/slack/).
