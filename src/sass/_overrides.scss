@@ -37,6 +37,10 @@ form {
 }
 
 .subtitle {
-  font-weight: 500;
+  font-weight: $weight-medium !important;
   font-size: inherit;
+}
+
+.is-active {
+  font-weight: $weight-medium;
 }

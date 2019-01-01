@@ -37,14 +37,14 @@
           </a>
           <div class="navbar-dropdown is-size-7">
             {{ range .Children }}
-            <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL | relLangURL }}">
+            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
               {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{ end }} {{ .Name }}
             </a>
             {{ end }}
           </div>
         </div>
         {{ else }}
-        <a class='navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}' href="{{ .URL | absLangURL }}">
+        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | absLangURL }}">
           {{- if .Identifier -}}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{- end -}} {{ .Name }}
         </a>
         {{ end }}

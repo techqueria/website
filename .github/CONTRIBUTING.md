@@ -14,6 +14,10 @@
   - [Platforms](#platforms)
   - [Languages](#languages)
   - [Translations](#translations)
+    - [Configuration](#configuration)
+    - [How to translate content](#how-to-translate-content)
+      - [1. Replace individual strings from the HTML templates in the `layouts` folder.](#1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
+      - [2. Create a separate Markdown file with the language code extension](#2-create-a-separate-markdown-file-with-the-language-code-extension)
   - [Directory Structure](#directory-structure)
   - [Available Commands](#available-commands)
   - [Audits](#audits)
@@ -136,6 +140,61 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 
 Content is in the progress of being translated to Español.
 
+#### Configuration
+
+The language dropdown is located at `site/layouts/partials/footer/language-dropdown.html` which is referenced at `site/layouts/partials/footer/who-we-are.html`. It is currently disabled until parent pages are translated.
+
+Language names are configured using `site/data/i18n/languages.toml`. For now, these only have English and Español but more can be added.
+
+Translated strings can be located at `site/i18n/en.toml` and `site/i18n/es.toml`
+
+#### How to translate content
+
+##### 1. Replace individual strings from the HTML templates in the `layouts` folder.
+
+Here's an example of translating one string from the `who-we-are.html` layout template.
+
+> The syntax for translated strings in the HTML is `{{ i18n "translation_id" }}`.
+
+```html
+<!-- who-we-are.html -->
+<p>{{ i18n "join_us" }}</p>
+```
+
+> The translation IDs must be the same in both `en.toml` and `es.toml`.
+
+```toml
+# site/i18n/en.toml
+[join_us]
+other = "Join us and share your experience with Techqueria."
+```
+
+```toml
+# site/i18n/es.toml
+[join_us]
+other = "Únete a nosotros y comparte tu experiencia con Techqueria."
+```
+
+##### 2. Create a separate Markdown file with the language code extension
+
+Here's an example of translating the "Brand" page in Markdown.
+
+So for Markdown pages to be translated in Spanish, add an identical file with `.es.md` at the end.
+
+> `site/content/about/brand.md`
+
+```markdown
+title: Brand 🎨
+description: Download our assets and discover our style guide.
+```
+
+> `site/content/about/brand.es.md`
+
+```markdown
+title: Marca 🎨
+description: Descarga nuestros recursos y descubre nuestra guía de estilo.
+```
+
 ### Directory Structure
 
 ```text
@@ -149,20 +208,24 @@ Content is in the progress of being translated to Español.
 ├── .vscode
 |  └──  settings.json       // VS Code workspace settings
 ├── dist                    // (ignored) static files generated and served through Netlify using npm start or npm build
-├── site
+├── site                    // HUGO site folder
 |  ├── archetypes           // default post formats
 |  ├── content              // content goes here (Markdown files with posts and pages)
+|  ├── data                 // languages configuration
+|  ├── i18n                 // translations for strings in HTML layouts
 |  ├── layouts              // HTML Liquid templates for pages
 |  ├── static               // files that go into root of dist directory
 |  └── config.toml          // configuration file (Hugo)
-├── src
+├── src                     // folder of assets handled by Gulp/Webpack
 |  ├── img                  // images are optimized through Gulp
 |  ├── js                   // compressed and transpiled to a single JS file
 |  └── sass                 // compressed and compiled to a single CSS file
+├── _redirects              // redirect configuration for Netlify
 ├── .babelrc                // configuration for Babel
 ├── .editorconfig           // configuration for editors
 ├── .eslintrc               // configuration for ESLint
 ├── .gitignore              // ignored files and folders
+├── .hound.yml              // configuration for Hound (GitHub integration)
 ├── .nvmrc                  // configuration for NVM
 ├── .prettierrc             // configuration for Prettier formatter
 ├── CNAME                   // domain name
@@ -261,7 +324,7 @@ We use several GitHub integrations/bots to make it easy to catch errors for ever
 
 - [AccessLint](https://www.accesslint.com/)
   - tests accessibility
-- [Codacy](https://www.codacy.com), [CodeFactor](http://codefactor.io/) amd [Codebeat](https://codebeat.co)
+- [Codacy](https://www.codacy.com), [CodeFactor](http://codefactor.io/), [Codebeat](https://codebeat.co) and [LGTM](https://lgtm.com/)
   - automated code reviews and code analytics
 - [Netlify Deploy Previews](https://www.netlify.com/docs/continuous-deployment/)
   - see how your changes would look like in production
