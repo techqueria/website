@@ -6,7 +6,7 @@
     @extend %material-shadow;
   }
 
-  .card-image--figure img {
+  .card-image--figure {
     height: 10em;
     object-fit: cover;
     width: 100%;

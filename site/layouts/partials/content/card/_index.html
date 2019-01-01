@@ -8,8 +8,8 @@
       <!-- Image -->
       {{ if .Params.image }}
       <div class="card-image">
-        <figure class="image card-image--figure">
-          <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad">
+        <figure class="image">
+          <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
         </figure>
       </div>
       {{ end }}
