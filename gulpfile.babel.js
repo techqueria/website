@@ -59,11 +59,11 @@ gulp.task("img", () => {
 });
 
 // PROD: Move & minify images
-gulp.task("img-minify", () =>
-  gulp.src("./src/img/**/*")
-  .pipe(imagemin())
-  .pipe(gulp.dest("./dist/assets/img"))
-);
+gulp.task("img-minify", () => {
+  return gulp.src("./src/img/**/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("./dist/assets/img"))
+});
 
 // DEV & PROD: Compile Javascript
 gulp.task("js", (done) => {

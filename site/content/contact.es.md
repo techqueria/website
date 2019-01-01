@@ -15,7 +15,7 @@ Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack
 
 <div class="contact-form">
   <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="_subject" value="Techqueria - New Contact Message (EN)">
+    <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message (EN)">
     <div class="field">
       <label class="label">Nombre</label>
       <div class="control has-icons-left">
