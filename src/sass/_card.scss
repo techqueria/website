@@ -1,6 +1,6 @@
 .card {
-  box-shadow: none;
   border: 1px solid $techqueria-black !important;
+  box-shadow: none;
 
   &:hover {
     @extend %material-shadow;

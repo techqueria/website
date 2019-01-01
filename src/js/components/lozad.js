@@ -1,4 +1,4 @@
-require("lozad");
+import lozad from "lozad";
 
 // Initialize library
 lozad(".lozad", {
