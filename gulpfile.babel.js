@@ -62,7 +62,7 @@ gulp.task("img", () => {
 gulp.task("img-minify", () => {
   return gulp.src("./src/img/**/*")
     .pipe(imagemin())
-    .pipe(gulp.dest("./dist/assets/img"))
+    .pipe(gulp.dest("./dist/assets/img"));
 });
 
 // DEV & PROD: Compile Javascript
