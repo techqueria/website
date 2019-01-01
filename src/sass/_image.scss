@@ -1,0 +1,16 @@
+.blur {
+  animation-name: blur;
+  animation-duration: .75s;
+}
+
+@keyframes blur {
+
+  from {
+    -webkit-filter: blur(10px);
+  }
+
+  to {
+    -webkit-filter: blur(0px);
+  }
+
+}

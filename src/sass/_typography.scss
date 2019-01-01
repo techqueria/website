@@ -4,8 +4,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-family-headers;
   @extend .has-text-weight-bold;
+  font-family: $font-family-headers;
 }
 
 button,

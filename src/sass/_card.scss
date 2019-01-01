@@ -1,37 +1,37 @@
 .card {
-	box-shadow: none;
-	border: 1px solid rgba(0, 0, 0, .1) !important;
+  box-shadow: none;
+  border: 1px solid $techqueria-black !important;
 
-	&:hover {
-		@extend %material-shadow;
-	}
+  &:hover {
+    @extend %material-shadow;
+  }
 
-	.card-image--figure {
+  .card-image--figure {
 
-		img {
-			width: 100%;
-			height: 10em;
-			object-fit: cover;
-		}
-	}
+    img {
+      width: 100%;
+      height: 10em;
+      object-fit: cover;
+    }
+  }
 
-	.card-header-title,
-	.card-content {
-		padding: 1em;
-	}
+  .card-header-title,
+  .card-content {
+    padding: 1em;
+  }
 
-	.card-footer {
-		border: none;
-		padding: 0 1em 1em;
-	}
+  .card-footer {
+    border: none;
+    padding: 0 1em 1em;
+  }
 
-	&.card-equal-height {
-		display: flex;
-		flex-direction: column;
-		height: 100%;
+  &.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
-		.card-footer {
-			margin-top: auto;
-		}
-	}
+    .card-footer {
+      margin-top: auto;
+    }
+  }
 }
