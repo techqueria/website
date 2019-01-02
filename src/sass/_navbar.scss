@@ -20,6 +20,7 @@
 
   .navbar-item,
   .navbar-link {
+    font-weight: $weight-medium;
     padding: 0.5rem 1.5rem;
   }
 
@@ -30,6 +31,19 @@
   .navbar-dropdown {
     .navbar-divider {
       margin: 0;
+    }
+
+    .navbar-item,
+    .navbar-link {
+      @extend .has-text-weight-normal;
+    }
+  }
+
+  @media screen and (max-width: $mobile) {
+
+    .navbar-link:after,
+    .navbar-dropdown {
+      display: none;
     }
   }
 }
