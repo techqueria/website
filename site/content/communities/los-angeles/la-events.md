@@ -2,8 +2,9 @@
 title: Google Calendar - Los Angeles
 description: "Events from our LA chapters via Google Calendar."
 identifier: fab fa-google
-image: "/assets/img/banners/google-calendar-logo.jpg"
-url: /la-events/
+image: "/assets/img/banners/google-calendar.png"
+aliases:
+  - /la-events/
 ---
 
 ## Google Calendar

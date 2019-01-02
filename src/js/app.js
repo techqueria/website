@@ -1,24 +1,11 @@
 // Twemoji
-// https://github.com/twitter/twemoji
-twemoji.parse(document.body, {
-  folder: "svg",
-  ext: ".svg"
-});
+require("./components/twemoji");
 
-// The following code is based off a toggle menu by @Bradcomp
-// https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
-(function() {
-  var burger = document.querySelector(".burger");
-  var menu = document.querySelector("#" + burger.dataset.target);
-  burger.addEventListener("click", function() {
-    burger.classList.toggle("is-active");
-    menu.classList.toggle("is-active");
-  });
-})();
+// Navbar
+require("./components/navbar");
 
-const anchors = document.querySelectorAll(".content a[href^='https://']");
+// External Links
+require("./components/externalLinks");
 
-for (let i = 0; i < anchors.length; i++) {
-  anchors[i].target = "_blank";
-  anchors[i].rel = "noopener";
-}
+// Lozad
+require("./components/lozad");

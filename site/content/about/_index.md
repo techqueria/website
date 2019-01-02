@@ -27,6 +27,4 @@ LA was the first place we held events outside the Bay Area thanks to the help of
 
 As our community moves, we form chapters and support one another in building a home for Latinxs in tech. We welcome all that share our mission!
 
-> If you are interested in starting a chapter, reach out to [organizers@techqueria.org](mailto:organizers@techqueria.org) or [via Slack](/slack/#contact-admins).
-
----
+> If you are interested in starting a chapter, reach out to [organizers@techqueria.org](mailto:organizers@techqueria.org) or [via Slack](/communities/slack/).

@@ -7,12 +7,16 @@
     <div class="card card-equal-height">
       <!-- Image -->
       {{ if .Params.image }}
-      <div class="card-image" style="background-image: url({{.Params.image}})"></div>
+      <div class="card-image">
+        <figure class="image">
+          <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
+        </figure>
+      </div>
       {{ end }}
       <!-- Title -->
       <header class="card-header">
         <h2 class="card-header-title">
-          {{ .Title }}
+          {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}
         </h2>
       </header>
       <!-- Description -->

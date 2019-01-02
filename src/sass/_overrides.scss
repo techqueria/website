@@ -2,9 +2,9 @@
   padding: 1em;
 }
 
-.button {
+.button,
+.dropdown-item {
   font-size: inherit;
-  padding: 0.5em 1em;
 }
 
 .button,
@@ -37,6 +37,10 @@ form {
 }
 
 .subtitle {
-  font-weight: 500;
   font-size: inherit;
+  font-weight: $weight-medium !important;
+}
+
+.is-active {
+  font-weight: $weight-medium;
 }

@@ -10,9 +10,9 @@
   {{ range $pages.ByTitle }}
   <p>
     {{ if .Params.link }}
-    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="link--techqueria-yellow">
       {{ else }}
-      <a href="{{ .RelPermalink }}">
+      <a href="{{ .RelPermalink }}" class="link--techqueria-yellow">
         {{ end }} {{.Title}}
       </a>
   </p>

@@ -17,7 +17,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 
 <div class="contact-form">
   <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="_subject" value="Techqueria - New Contact Message">
+    <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
     <div class="field">
       <label class="label">Name</label>
       <div class="control has-icons-left">
@@ -79,4 +79,4 @@ We're always listening to your feedback and ready to help in any way we can.
 
 Use the command `/admin` in the Slack workspace to get in touch with us the quicker, or send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
-If you need an invitation to Slack, request it on [our Slack welcome page](/slack/).
+If you need an invitation to Slack, request it on [our Slack welcome page](/communities/slack/).

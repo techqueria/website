@@ -2,7 +2,7 @@
 
   .title,
   .subtitle {
-    color: white;
+    color: $techqueria-white;
   }
 
   .title {
@@ -15,7 +15,7 @@
 
   &.is-homepage {
     .subtitle {
-      color: white;
+      color: $techqueria-white;
     }
 
     .background-image {

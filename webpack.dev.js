@@ -2,6 +2,7 @@ const webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
+  mode: "development",
   module: {
     rules: [{
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -16,8 +17,8 @@ module.exports = {
       loader: "babel-loader",
       exclude: /node_modules/,
       query: {
-          cacheDirectory: true
-        }
+        cacheDirectory: true
+      }
     },
     {
       test: /\.css$/,
@@ -26,11 +27,11 @@ module.exports = {
     {
       test: /\.(gif|png|jpe?g|svg)$/i,
       use: [
-          "file-loader",
-          {
-            loader: "image-webpack-loader"
-          }
-        ]
+        "file-loader",
+        {
+          loader: "image-webpack-loader"
+        }
+      ]
     }
     ]
   },

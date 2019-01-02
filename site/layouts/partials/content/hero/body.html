@@ -2,7 +2,7 @@
   <div class="container">
     <!-- Title -->
     <h1 class="title">
-      {{ .Title }}
+      {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}
     </h1>
     <!-- Description -->
     <h2 class="subtitle">

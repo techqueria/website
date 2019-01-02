@@ -5,7 +5,6 @@
   "eslint.autoFixOnSave": true,
   "files.trimTrailingWhitespace": true,
   "markdown.extension.preview.autoShowPreviewToSide": false,
-  "markdown.extension.toc.updateOnSave": false,
   "prettier.eslintIntegration": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false

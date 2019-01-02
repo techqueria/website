@@ -1,5 +1,5 @@
 ---
-title: People 😊
+title: People 👥
 description: The minds and bodies behind this organization.
 url: "/people/"
 sortByLocation: true

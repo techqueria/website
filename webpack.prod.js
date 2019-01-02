@@ -9,6 +9,7 @@ const BrotliPlugin = require("brotli-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
 
 module.exports = {
+  mode: "production",
   module: {
     rules: [{
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -23,8 +24,8 @@ module.exports = {
       loader: "babel-loader",
       exclude: /node_modules/,
       query: {
-          cacheDirectory: true
-        }
+        cacheDirectory: true
+      }
     },
     {
       test: /\.css$/,
@@ -33,11 +34,11 @@ module.exports = {
     {
       test: /\.(gif|png|jpe?g|svg)$/i,
       use: [
-          "file-loader",
-          {
-            loader: "image-webpack-loader"
-          }
-        ]
+        "file-loader",
+        {
+          loader: "image-webpack-loader"
+        }
+      ]
     }
     ]
   },
@@ -49,20 +50,37 @@ module.exports = {
     new webpack.optimize.AggressiveMergingPlugin(),
     new BrotliPlugin(),
     new CompressionPlugin(),
-    new WorkboxPlugin({
+    new WorkboxPlugin.GenerateSW({
       cacheId: "techqueria",
-      swDest: path.join("dist", "sw.js"),
-      globDirectory: "dist",
-      globPatterns: ["index.html", "404.html", "**/*.{css,png,gif,jpg,svg,js,ico,json}"],
-      globStrict: false,
+      swDest: "sw.js",
+      globDirectory: "./dist",
+      globPatterns: ["index.html", "404.html", "**/*.{js,css,png,svg,jpg,jpeg,icon,json}"],
+      offlineGoogleAnalytics: true,
       clientsClaim: true,
       skipWaiting: true,
       runtimeCaching: [{
-        urlPattern: /\.(?:css|png|gif|jpg|svg|xml|js|ico|json)$/,
-        handler: "staleWhileRevalidate",
+        urlPattern: /\.(?:html)$/,
+        handler: "networkFirst",
+        options: {
+          cacheName: "page-cache",
+          expiration: {
+            maxEntries: 50
+          },
+        }
+      },
+      {
+        urlPattern: /\.(?:png|gif|jpg|svg|ico|jpeg|css|js)$/,
+        handler: "cacheFirst",
+        options: {
+          cacheName: "assets-cache"
+        }
       },
       {
         urlPattern: new RegExp("https://twemoji.maxcdn.com"),
+        handler: "staleWhileRevalidate"
+      },
+      {
+        urlPattern: new RegExp("https://i.imgur.com"),
         handler: "staleWhileRevalidate"
       },
       {
@@ -77,8 +95,7 @@ module.exports = {
     app: ["./js/app"]
   },
   output: {
-    path: path.join(__dirname, "dist/assets/js"),
-    publicPath: "/dist/assets/js/",
-    filename: "[name].js"
+    filename: path.join("assets", "js", "[name].js"),
+    path: path.join(__dirname, "dist"),
   }
 };

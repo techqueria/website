@@ -1,6 +1,15 @@
 .card {
+  border: 1px solid $image-shadow;
+  box-shadow: none;
+
   &:hover {
     @extend %material-shadow;
+  }
+
+  .card-image--figure {
+    height: 10em;
+    object-fit: cover;
+    width: 100%;
   }
 
   .card-header-title,
@@ -8,11 +17,9 @@
     padding: 1em;
   }
 
-  .card-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 10em;
+  .card-footer {
+    border: 0;
+    padding: 0 1em 1em;
   }
 
   &.card-equal-height {
