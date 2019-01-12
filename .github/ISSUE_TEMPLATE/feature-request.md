@@ -1,7 +1,6 @@
 ---
 name: Feature Request
 about: Suggest an idea for the website
-
 ---
 
 ## Is your feature request related to a problem?
