@@ -41,7 +41,7 @@
 
   @media screen and (max-width: $mobile) {
 
-    .navbar-link:after,
+    .navbar-link::after,
     .navbar-dropdown {
       display: none;
     }
