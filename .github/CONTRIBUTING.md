@@ -47,7 +47,9 @@
 Feel free to contribute to the Techqueria website in one or more of the following ways and thank you for being willing to help out! 😊
 
 - Tackle any of the [open issues](https://github.com/techqueria/website/issues) that are labeled `help wanted`, `good first issue` or `hacktoberfest`.
-  - If an issue is labeled as `in progress`, someone is already working on it.
+  - If an issue has the label `in progress`, someone is already working on it.
+  - If an issue has the label `admin`, an admin probably needs to get involved since it requires admin access.
+  - **Even if an issue has someone assigned, it still might need extra help so check it out if it appeals to you!**
 - [Open a new issue](https://github.com/techqueria/website/issues/new)
 - [Report a bug](https://github.com/techqueria/website/issues/new?template=bug-report.md)
 - [Request a new feature](https://github.com/techqueria/website/issues/new?template=feature-request.md)
