@@ -42,6 +42,7 @@ googleAnalytics                      = "UA-88917358-1"
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
     locale                           = "en_US"
+    default_content_language         = "en"
 
 # Social Links
 [social]
