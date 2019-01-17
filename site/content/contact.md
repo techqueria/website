@@ -43,7 +43,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
       </div>
     </div>
     <div data-netlify-recaptcha="true"></div>
-    <div class="field">
+    <div class="field mt-sm">
       <div class="control">
         <button type="submit" class="button is-link">Send message</button>
       </div>
