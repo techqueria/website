@@ -1,5 +1,5 @@
 <meta itemprop="description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
-<meta itemprop="image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta itemprop="image" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta itemprop="name" content="{{ .Title }}">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -9,7 +9,7 @@
 <meta name="DC.title" content="{{ .Title }}">
 <meta name="description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta name="HandheldFriendly" content="True">
-<meta name="image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta name="image" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="MobileOptimized" content="320">
 <meta name="msapplication-tooltip" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
@@ -18,14 +18,14 @@
 <meta name="title" content="{{ .Title }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
-<meta name="twitter:image:src" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta name="twitter:image:src" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta name="twitter:text:title" content="{{ .Title }}">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta property="dcterms:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta property="dcterms:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
+<meta property="og:image" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
