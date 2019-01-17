@@ -2,7 +2,7 @@
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace through our Slack Community Guidelines.
 identifier: fab fa-slack
-image: https://rbltracker.com/wp-content/uploads/2016/06/slack-large.png
+image: "/assets/img/slack/banner.jpeg"
 aliases:
   - /slack/
   - /communities/slack/
