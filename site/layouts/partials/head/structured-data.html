@@ -63,7 +63,7 @@
         "@id":           "{{ .Permalink }}"
     },
     "image":             [
-        "{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}"
+        "{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}"
     ],
     "publisher":         {
         "@type":         "Organization",
