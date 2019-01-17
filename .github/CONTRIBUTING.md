@@ -50,7 +50,7 @@ Feel free to contribute to the Techqueria website in one or more of the followin
   - If an issue has the label `in progress`, someone is already working on it.
   - If an issue has the label `admin`, an admin probably needs to get involved since it requires admin access.
   - **Even if an issue has someone assigned, it still might need extra help so check it out if it appeals to you!**
-- [Open a new issue](https://github.com/techqueria/website/issues/new)
+- [Open a new issue](https://github.com/techqueria/website/issues/new/choose)
 - [Report a bug](https://github.com/techqueria/website/issues/new?template=bug-report.md)
 - [Request a new feature](https://github.com/techqueria/website/issues/new?template=feature-request.md)
 - Improve our [contributing guidelines](https://github.com/techqueria/website/blob/master/.github/CONTRIBUTING.md) (this file) or other documentation
