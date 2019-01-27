@@ -23,7 +23,7 @@
     "autoprefixer": "9.4.6",
     "babel-eslint": "10.0.1",
     "babel-loader": "^8.0.4",
-    "brotli-webpack-plugin": "1.0.0",
+    "brotli-webpack-plugin": "1.1.0",
     "browser-sync": "2.26.3",
     "bulma": "^0.7.2",
     "compression-webpack-plugin": "2.0.0",
