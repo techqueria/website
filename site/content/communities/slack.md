@@ -12,11 +12,9 @@ aliases:
 
 If you are already a Slack member, you can log in at [latinos.slack.com](https://latinos.slack.com/).
 
+If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
+
 - [Request an invite](#request-an-invite)
-- [New to Slack?](#new-to-slack)
-  - [Slack Demo](#slack-demo)
-  - [Slack Foundry](#slack-foundry)
-  - [Getting Started Guide](#getting-started-guide)
 - [Code of Conduct](#code-of-conduct)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
@@ -31,6 +29,17 @@ If you are already a Slack member, you can log in at [latinos.slack.com](https:/
 - [Emojis](#emojis)
 - [Meta](#meta)
 - [Contact Admins](#contact-admins)
+- [New to Slack?](#new-to-slack)
+  - [Slack Demo](#slack-demo)
+  - [Slack Foundry](#slack-foundry)
+  - [Getting Started Guide](#getting-started-guide)
+  - [Aloha](#aloha)
+    - [Immediately](#immediately)
+    - [1 minute after joining](#1-minute-after-joining)
+    - [3 minutes after joining](#3-minutes-after-joining)
+    - [8 minutes after joining](#8-minutes-after-joining)
+    - [10 minutes after joining](#10-minutes-after-joining)
+    - [15 minutes after joining](#15-minutes-after-joining)
 
 ## Request an invite
 
@@ -43,68 +52,6 @@ We'd like to learn more a little bit about your interest in our community so we 
 In the meantime, feel free to check out [our different Community groups](/communities/) and review the overview we've provided of our Slack group below.
 
 We have customized a few things about our slack to make communications better; we have bots, custom emoji, custom commands and channels to make communication better.
-
-## New to Slack?
-
-We use [Aloha](https://aloha.ftw.nyc) for on-boarding which automatically sends new members Slack messages at certain times upon joining the Techqueria Workspace.
-
-> Immediately
-
-All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
-
-https://techqueria.org/code-of-conduct.
-
-If you have questions, comments or concerns - reach out using the `/admin` command or send an email to `organizers@techqueria.org`.
-
-...
-
-Bienvenidx a Techqueria! 🌮
-
-We're a community of Latinx professionals in the tech industry.
-
-You can find more information about us at https://techqueria.org.
-
-> 5 minutes after joining
-
-Now that you're situated, go ahead and introduce yourself in the `#introductions` channel so we can all get to know who you are! 🎉
-
-As part of onboarding, we'd also love it if you uploaded a profile photo 🖼️ and filled out your profile on Slack.
-
-https://get.slack.help/hc/en-us/articles/115005506003
-
-https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
-
-> 15 minutes after joining
-
-Here's a link to our Slack Community Guidelines that will help you get started! 📝️
-
-https://techqueria.org/slack
-
-> 1 hour after joining
-
-We do our best to cut down on interruptions 🔕
-
-- Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
-- If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
-- Use threads for deeper discussions around specific topics or posts without clogging the rest of the channel.
-
-### Slack Demo
-
-Here's [a demo](https://slackdemo.com) of how Slack works!
-
-[![Slack Demo](https://i.imgur.com/o2ZWFGt.jpg)](https://slackdemo.com)
-
-### Slack Foundry
-
-[Slack Foundry](https://slackfoundry.builtbyslack.com/) is a training app for Slack that you can access (you guessed it!) in Slack.
-
-[![Slack Foundry](https://i.imgur.com/RxwMHdC.jpg)](https://slackfoundry.builtbyslack.com/)
-
-### Getting Started Guide
-
-Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) covers the basics and is the official documentation provided by Slack.
-
-[![Getting Started Guide](https://i.imgur.com/pVQbhkX.jpg)](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started)
 
 ## Code of Conduct
 
@@ -246,3 +193,74 @@ There's also the `#twitter` channel (Techqueria's Twitter feeds) and `#websit
 If you want to message the moderators for whatever reason, to say hi, request an invite, send us flowers or anything, use the following command `/admin` followed by your message.
 
 ![Admin](/assets/img/slack/admin.png)
+
+## New to Slack?
+
+### Slack Demo
+
+Here's [a demo](https://slackdemo.com) of how Slack works!
+
+[![Slack Demo](https://i.imgur.com/o2ZWFGt.jpg)](https://slackdemo.com)
+
+### Slack Foundry
+
+[Slack Foundry](https://slackfoundry.builtbyslack.com/) is a training app for Slack that you can access (you guessed it!) in Slack.
+
+[![Slack Foundry](https://i.imgur.com/RxwMHdC.jpg)](https://slackfoundry.builtbyslack.com/)
+
+### Getting Started Guide
+
+Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) covers the basics and is the official documentation provided by Slack.
+
+[![Getting Started Guide](https://i.imgur.com/pVQbhkX.jpg)](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started)
+
+### Aloha
+
+We use [Aloha](https://aloha.ftw.nyc) for on-boarding which automatically sends new members Slack messages at certain times upon joining the Techqueria Workspace.
+
+#### Immediately
+
+Bienvenidx a Techqueria! :techqueria-new:
+
+We're a community of Latinx professionals in the tech industry.
+
+You can find more information about us on our website!
+
+https://techqueria.org/
+
+#### 1 minute after joining
+
+All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! :techqueria-new:
+
+If you have questions, comments or concerns - reach out using the `/admin` command or send an email to `organizers@techqueria.org`.
+
+https://techqueria.org/code-of-conduct/
+
+#### 3 minutes after joining
+
+As part of onboarding, we'd also love it if you uploaded a photo of yourself 🖼️ and completely filled out your profile on Slack.
+
+*Uploading a photo* https://get.slack.help/hc/en-us/articles/115005506003
+
+*Filling out your profile* https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
+
+#### 8 minutes after joining
+
+Now that you're situated, go ahead and introduce yourself in the `#introductions` channel so we can all get to know who you are! 🎉
+
+#### 10 minutes after joining
+
+You can learn how to get the most out of the Techqueria Slack workspace through our Slack Community Guidelines.
+
+https://techqueria.org/communities/slack/
+
+#### 15 minutes after joining
+
+This is the last Aloha from us as we do our best to cut down on interruptions 🔕
+
+With that in mind, here are some guidelines we recommend you follow.
+
+- Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
+- If you need someone's attention, it's usually better to *mention them in a public channel* instead of sending a private message whenever possible.
+- Use threads for deeper discussions around specific topics or posts without clogging the rest of the channel.
+- Feel free to check pins in each channel for more useful information. 📌
