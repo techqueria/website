@@ -16,7 +16,7 @@
     </div>
     <div class="columns is-multiline">
       {{ range $pages }}
-      {{ if eq .Params.location "Bay Area" }}
+      {{ if and (eq .Params.location "Bay Area") (not (eq .Params.role "Past Organizer")) }}
       {{ partial "content/children/child.html" . }}
       {{ end }}
       {{ end }}
@@ -26,7 +26,7 @@
     </div>
     <div class="columns is-multiline">
       {{ range $pages }}
-      {{ if eq .Params.location "New York City" }}
+      {{ if and (eq .Params.location "New York City") (not (eq .Params.role "Past Organizer")) }}
       {{ partial "content/children/child.html" . }}
       {{ end }}
       {{ end }}
@@ -37,7 +37,7 @@
     <!-- Los Angeles - Children Pages -->
     <div class="columns is-multiline">
       {{ range $pages }}
-      {{ if eq .Params.location "Los Angeles" }}
+      {{ if and (eq .Params.location "Los Angeles") (not (eq .Params.role "Past Organizer")) }}
       {{ partial "content/children/child.html" . }}
       {{ end }}
       {{ end }}
@@ -48,7 +48,18 @@
     <!-- Austin - Children Pages -->
     <div class="columns is-multiline">
       {{ range $pagesSortedByLastName }}
-      {{ if eq .Params.location "Austin" }}
+      {{ if and (eq .Params.location "Austin") (not (eq .Params.role "Past Organizer")) }}
+      {{ partial "content/children/child.html" . }}
+      {{ end }}
+      {{ end }}
+    </div>
+    <!-- Past Organizers -->
+    <div class="content mt-2">
+      <h2>Past Organizers</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range $pages }}
+      {{ if eq .Params.role "Past Organizer" }}
       {{ partial "content/children/child.html" . }}
       {{ end }}
       {{ end }}

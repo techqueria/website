@@ -4,5 +4,5 @@ image: "/assets/img/resources/mountain.jpg"
 description: Moutain Nazca is a Latin American focused VC that was acquired by Mountain Partners AG. NAZCA Ventures is an investment platform based in Latin America with local hubs in Mexico, Chile and Colombia
 categories:
   - Venture Capital
-link: http://www.mountainnazca.com/index.html
+link: https://www.mountainnazca.com/index.html
 ---

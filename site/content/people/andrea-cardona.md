@@ -1,9 +1,13 @@
 ---
 title: Andrea Cardona
-image: https://media.licdn.com/dms/image/C4E03AQHfmpqN_5oYXA/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=toMNN3gR6YM4uca8jiLc8p_yEvCaMtX29Auc8ehJaac
-description: Software Engineer at Chipper
+image: "/assets/img/people/andrea-cardona.jpeg"
+description: Software Designer at IBM
 link: https://www.linkedin.com/in/andrea-cardona-b647594b/
 location: Austin
 weight: 1
 role: Current Organizer
 ---
+
+I am currently a full stack software engineer with a passion for bringing diversity to the programming community. After spending a few years in tech on the marking and sales side of San Francisco based startups, and working in media at VICE in NY - while focusing on LatinX and Latin America growth initiatives - I realized my passion really lied to make an impact within the Tech community. I wanted to help bridge the gap between the tech and LatinX worlds.
+
+After attending the NYC Flatiron Full-stack Immersive program, I am now proud to say I am a full stack engineer at an Austin based startup, called Chipper. I am also an organizer for the Techqueria Austin Chapter and always looking to make tech more accessible to the LatinX community. I love helping others find a passion for programming and finding inspiration in others!

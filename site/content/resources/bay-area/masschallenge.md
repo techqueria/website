@@ -4,5 +4,5 @@ image: "/assets/img/resources/mass.jpg"
 description: Masschalenge is a non for profit accelerator that gives grants to high-impact startups. They currently have an office in Mexico. Grants and cash prices range from 40k to 400k
 categories:
   - Accelerator
-link: http://masschallenge.org/
+link: https://masschallenge.org/
 ---
