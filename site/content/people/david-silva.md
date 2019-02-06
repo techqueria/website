@@ -1,6 +1,6 @@
 ---
 title: David Silva
-image: https://pbs.twimg.com/profile_images/1009664936253927424/v2LJP_01_400x400.jpg
+image: "/assets/img/people/david-silva.jpeg"
 description: Senior Developer at Slingshot Health
 link: https://linkedin.com/in/dvidsilva
 location: New York City

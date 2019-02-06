@@ -169,6 +169,10 @@ googleAnalytics                      = "UA-88917358-1"
     url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
 [[menu.main]]
     parent                           = "Communities"
+    name                             = "Patreon"
+    url                              = "https://www.patreon.com/techqueria/"
+[[menu.main]]
+    parent                           = "Communities"
     name                             = "Slack Workspace"
     url                              = "/communities/slack/"
 [[menu.main]]

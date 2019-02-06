@@ -5,5 +5,5 @@ description: 4-month seed program with access to mentorship, hands-on sessions w
 categories:
   - Venture Capital
   - Accelerator
-link: http://www.500.co/
+link: https://www.500.co/
 ---
