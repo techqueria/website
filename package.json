@@ -40,7 +40,7 @@
     "gulp-purifycss": "0.2.0",
     "gulp-sass": "4.0.2",
     "gulp-sourcemaps": "2.6.4",
-    "hugo-bin": "0.41.0",
+    "hugo-bin": "0.42.0",
     "lozad": "1.8.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "3.0.0",
