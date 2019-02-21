@@ -30,12 +30,17 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 More details can be found at this project's [code of conduct](.github/CODE_OF_CONDUCT.md).
 
-## Maintainers
+
+## 💛️ Contributors, Backers & Sponsors
+
+### This project exists thanks to all the **people who contribute**. ([Become a contributor](.github/CONTRIBUTING.md))
+
+#### Maintainers
 
 - [Frances Coronel](https://github.com/fvcproductions)
 - [Phillip Ventura](https://github.com/fvntr)
 
-## Contributors
+#### Contributors
 
 - [David Silva](https://github.com/dvidsilva)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
@@ -49,3 +54,11 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [William Mena](https://github.com/WilliamMena)
 - [Steven Jimenez](https://wepadev.com/)
 - [Axhon Ruiz-Gonzalez](https://github.com/axhon)
+
+### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
+
+<a href="https://opencollective.com/techqueria#backers" target="_blank"><img src="https://opencollective.com/techqueria/backers.svg?width=890"></a>
+
+### **Support this project by becoming a sponsor.** Your logo will show up here with a link to your website. ([Become a sponsor](https://opencollective.com/techqueria#sponsor))
+
+<a href="https://opencollective.com/techqueria#sponsor" target="_blank"><img src="https://opencollective.com/techqueria/sponsors.svg?width=890"></a>
