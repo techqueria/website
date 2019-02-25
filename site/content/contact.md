@@ -15,41 +15,38 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 
 ### Contact Form
 
-<div class="contact-form">
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
-    <div class="field">
-      <label class="label">Name</label>
-      <div class="control has-icons-left">
-        <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name">
-        <span class="icon is-left">
-          ✒️
-        </span>
-      </div>
+<form name="contact" action="https://formspree.io/organizers@techqueria.org" method="POST">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name">
+      <span class="icon is-left">
+        ✒️
+      </span>
     </div>
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control has-icons-left">
-        <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email">
-        <span class="icon is-left">
-          ✉️
-        </span>
-      </div>
+  </div>
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email">
+      <span class="icon is-left">
+        ✉️
+      </span>
     </div>
-    <div class="field">
-      <label class="label">Message</label>
-      <div class="control">
-        <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message"></textarea>
-      </div>
+  </div>
+  <div class="field">
+    <label class="label">Message</label>
+    <div class="control">
+      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message"></textarea>
     </div>
-    <div data-netlify-recaptcha="true"></div>
-    <div class="field mt-sm">
-      <div class="control">
-        <button type="submit" class="button is-link">Send message</button>
-      </div>
+  </div>
+  <div class="field mt-sm">
+    <div class="control">
+      <button type="submit" class="button is-link">Send message</button>
     </div>
-  </form>
-</div>
+  </div>
+</form>
 
 ---
 
@@ -61,7 +58,7 @@ We are looking for speakers, locations for our events, those who can sponsors pr
 
 In return, we can provide a spotlight for your organization in our events and networks.
 
-You can email us at [organizers@techqueria.org](mailto:organizers@techqueria.org), or use the contact feature in [our Meetup group](https://www.meetup.com/techqueria/).
+You can email us at [organizers@techqueria.org](mailto:organizers@techqueria.org), or use the contact form above to get in touch with us.
 
 ## Meet Us In Person
 

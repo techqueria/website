@@ -15,5 +15,9 @@
     display: inline-block;
     max-width: 100%;
     position: relative;
+
+    &:hover {
+      @extend %material-shadow;
+    }
   }
 }
