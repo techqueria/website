@@ -5,7 +5,7 @@
     <!-- Brand -->
     <div class="navbar-brand">
       <!-- Logo -->
-      <a class="navbar-item" href="{{ "/" | absLangURL }}">
+      <a class="navbar-item" href="/">
         <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Title }}">
       </a>
       <!-- Left Icons -->
@@ -32,19 +32,19 @@
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
             {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i> {{ end }}{{- .Name -}}
           </a>
           <div class="navbar-dropdown is-size-7">
             {{ range .Children }}
-            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
               {{ if .Identifier }}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{ end }} {{ .Name }}
             </a>
             {{ end }}
           </div>
         </div>
         {{ else }}
-        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | absLangURL }}">
+        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
           {{- if .Identifier -}}<i class="{{ .Identifier }}" alt="{{ .Name }}"></i>{{- end -}} {{ .Name }}
         </a>
         {{ end }}

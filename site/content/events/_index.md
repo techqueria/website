@@ -6,7 +6,7 @@ sortLatestFirst: true
 
 ## Adding Events
 
-If you have an event you'd like to add, you can email the details to [`organizers@techqueria.org`](mailto:organizers@techqueria.org) or [message an admin in Slack](/communities/slack/).
+If you have an event you'd like to add, you can email the details to [organizers@techqueria.org](mailto:organizers@techqueria.org) or [message an admin in Slack](/communities/slack/).
 
 If you're a developer, feel free to [open a pull request](https://github.com/techqueria/website/compare) and add the event yourself!
 
