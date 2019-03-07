@@ -8,8 +8,6 @@ aliases:
   - /about/brand/
 ---
 
-<!-- TOC -->
-
 - [Overview](#overview)
 - [Logos](#logos)
   - [Logo - Rectangle](#logo---rectangle)
@@ -22,14 +20,12 @@ aliases:
 - [Colors](#colors)
 - [Typography](#typography)
 - [Photography](#photography)
-- [Sketch Assets](#sketch-assets)
+- [Design Assets](#design-assets)
 - [Formatting](#formatting)
   - [Third level](#third-level)
     - [Fourth level](#fourth-level)
       - [Fifth level](#fifth-level)
         - [Sixth level](#sixth-level)
-
-<!-- /TOC -->
 
 ## Overview
 
@@ -159,9 +155,9 @@ Refer to the formatting section for a look at these fonts in action for this web
 
 See our [Photos](/about/photos/) page.
 
-## Sketch Assets
+## Design Assets
 
-You can find the logos and download them using [this Sketch Cloud link](https://sketch.cloud/s/rQ2aE).
+You can find the logos and download them using [this Figma link](https://www.figma.com/file/I33DuKmkVHxSKdkFCE7LqlHu/Techqueria).
 
 ---
 
@@ -203,14 +199,14 @@ There are so many ways to use Markdown and it makes tedious things like tables a
 
 ```md
 | Column A | Column B | Column C |
-| -------- | -------- | -------- |
+|----------|----------|----------|
 | A1       | B1       | C1       |
 | A2       | B2       | C2       |
 | A3       | B3       | C3       |
 ```
 
 | Column A | Column B | Column C |
-| -------- | -------- | -------- |
+|----------|----------|----------|
 | A1       | B1       | C1       |
 | A2       | B2       | C2       |
 | A3       | B3       | C3       |
