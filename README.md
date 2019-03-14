@@ -30,7 +30,6 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 More details can be found at this project's [code of conduct](.github/CODE_OF_CONDUCT.md).
 
-
 ## 💛️ Contributors, Backers & Sponsors
 
 ### This project exists thanks to all the **people who contribute**. ([Become a contributor](.github/CONTRIBUTING.md))
