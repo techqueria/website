@@ -19,17 +19,18 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
   - [Public Channels](#public-channels)
-    - [Location Channels](#location-channels)
+  - [Location Based Channels](#location-based-channels)
   - [Private Channels](#private-channels)
+  - [Meta](#meta)
   - [Requesting A Channel](#requesting-a-channel)
 - [Best Practices](#best-practices)
   - [Use threads](#use-threads)
   - [Channel naming conventions](#channel-naming-conventions)
   - [Mentions](#mentions)
-- [Sidebar Theme](#sidebar-theme)
-- [Emojis](#emojis)
-- [Meta](#meta)
-- [Contact Admins](#contact-admins)
+- [Customization](#customization)
+  - [Sidebar Theme](#sidebar-theme)
+  - [Custom Status](#custom-status)
+  - [Emojis](#emojis)
 - [New to Slack?](#new-to-slack)
   - [Slack Demo](#slack-demo)
   - [Slack Foundry](#slack-foundry)
@@ -39,9 +40,9 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
 
 To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
 
-You should get an invite within 2 weeks. If you don't get an invite by then, please email us at `organizers@techqueria.org`.
-
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
+
+You should get an invite within 2 weeks. If you don't get an invite by then, please email us at `organizers@techqueria.org`.
 
 ## Code of Conduct
 
@@ -49,7 +50,11 @@ You can find our code of conduct at [https://techqueria.org/code-of-conduct](/co
 
 In short, this is a professional community so be respectful of everyone and their identity.
 
-Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to [contact us](/contact/) and we will sort it out.
+Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to contact an admin and we will sort it out.
+
+You can contact and admin by using the command `/admin` in Slack followed by your message.
+
+![Admin](/assets/img/slack/admin.png)
 
 ## Channels
 
@@ -82,7 +87,7 @@ By default, you do not join those channels but you can click on _CHANNELS_ to se
 
 We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
 
-#### Location Channels
+### Location Based Channels
 
 We have a few location channels that are prefixed with `#locals-`.
 
@@ -109,6 +114,24 @@ We have a few private channels for conversations that you don't want everyone to
 To see a list of available channels, run the command `/list-private`, and click on the join button to request an invitation.
 
 ![Private List](/assets/img/slack/private-list.png)
+
+### Meta
+
+If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
+
+- `#meta`
+  - Give feedback about how we run Slack or events
+- `#twitter`
+  - Automated feed of Twitter account activity
+    - https://twitter.com/TechqueriaSF
+    - https://twitter.com/TechqueriaNYC
+    - https://twitter.com/TechqueriaLA
+- `#website`
+  - Discussing & contributing to Techqueria website https://techqueria.org
+- `#website-github`
+  - Automated activity feed from https://github.com/techqueria/website
+
+There's also the `#twitter` channel (Techqueria's Twitter feeds) and `#websit
 
 ### Requesting A Channel
 
@@ -142,7 +165,11 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
 - Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
 - If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
 
-## Sidebar Theme
+## Customization
+
+All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
+
+### Sidebar Theme
 
 Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
 
@@ -150,7 +177,19 @@ Copy and paste these values to your settings [Sidebar Theme](https://get.slack.h
 
 ![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
 
-## Emojis
+### Custom Status
+
+Something fun we do in Techqueria's Slack is [setting a custom status](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) with a flag representing our Latinx heritage/background.
+
+![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
+
+![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
+
+If you want to put multiple flags, you can do that too!
+
+![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
+
+### Emojis
 
 When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added. 🎉
 
@@ -159,30 +198,6 @@ You can find images for things like arepa, empanada, baseball teams, avocado, et
 Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
-
-## Meta
-
-If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
-
-- `#meta`
-  - Give feedback about how we run Slack or events
-- `#twitter`
-  - Automated feed of Twitter account activity
-    - https://twitter.com/TechqueriaSF
-    - https://twitter.com/TechqueriaNYC
-    - https://twitter.com/TechqueriaLA
-- `#website`
-  - Discussing & contributing to Techqueria website https://techqueria.org
-- `#website-github`
-  - Automated activity feed from https://github.com/techqueria/website
-
-There's also the `#twitter` channel (Techqueria's Twitter feeds) and `#websit
-
-## Contact Admins
-
-If you want to message the moderators for whatever reason, to say hi, request an invite, send us flowers or anything, use the following command `/admin` followed by your message.
-
-![Admin](/assets/img/slack/admin.png)
 
 ## New to Slack?
 
