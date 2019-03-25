@@ -1,9 +1,9 @@
 {{ with .Params.people }}
-<div class="content">
+<div class="content mt-2">
   <p><strong>Written by
       {{ range $i, $kw := . }}
       {{ if $i }}&bullet;{{ end }}
-      <a href="/people/{{ . | urlize }}/" rel="author">{{ . }}</a>
+      <a class="u-link--dark-background" href="/people/{{ . | urlize }}/" rel="author">{{ . }}</a>
       {{ end }}
     </strong></p>
 </div>

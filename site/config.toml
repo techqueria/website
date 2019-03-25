@@ -36,7 +36,7 @@ googleAnalytics                      = "UA-88917358-1"
 
 # SEO
 [params]
-    description                      = "We're a community of Latinx professionals in the tech industry. 🌮️ This space aims to be inclusive so we invite Latinx from the regions of the Caribbean, Haiti, and Brazil as well as those who identify as Afro-Latinx or LGBTQ. The term Latinx is used instead of Latino because it is a gender-neutral and inclusive term."
+    description                      = "Techqueria is one of the largest communities of Latinx professionals in the tech industry. 🌮"
     copyright                        = "Techqueria.org"
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
@@ -65,9 +65,9 @@ googleAnalytics                      = "UA-88917358-1"
     copyright                        = "©️ Techqueria.org"
 
 [[menu.social]]
-    name                             = "Facebook"
-    url                              = "https://www.facebook.com/groups/techqueria"
-    identifier                       = "fab fa-lg fa-facebook"
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/groups/13500636"
+    identifier                       = "fab fa-lg fa-linkedin"
 
 [[menu.social]]
     name                             = "Twitter"

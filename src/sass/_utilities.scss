@@ -37,3 +37,23 @@
 .material-shadow {
   @extend %material-shadow;
 }
+
+.u-background--default {
+  background-color: $techqueria;
+}
+
+.u-text--centered {
+  text-align: center;
+}
+
+img.u-shadow--none {
+  box-shadow: none !important;
+}
+
+.u-link--dark-background {
+  color: $link !important;
+
+  &:hover {
+    color: white !important;
+  }
+}

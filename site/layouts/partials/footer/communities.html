@@ -8,9 +8,9 @@
   <!-- Looping through communities-->
   <p>
     {{ if .Params.link }}
-    <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="link--techqueria-yellow">
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="link--techqueria">
       {{ else }}
-      <a href="{{ .RelPermalink }}" class="link--techqueria-yellow">{{ end }}
+      <a href="{{ .RelPermalink }}" class="link--techqueria">{{ end }}
         {{ if .Params.identifier }}{{ .Title }} <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
         {{ else }}{{ .Title }}{{ end }}
       </a>

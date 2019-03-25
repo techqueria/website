@@ -8,13 +8,15 @@
     <h2 class="subtitle">
       {{ .Description }}
     </h2>
+    <!-- Author -->
+    {{ partial "content/person.html" . }}
     <!-- Location -->
     {{ with .Params.location }}
-    <p class="mb-1">{{ . }}</p>
+    <p class="mb-1">Location: {{ . }} </p>
     {{ end }}
     <!-- Role -->
     {{ with .Params.role }}
-    <p class="mb-1">{{ . }}</p>
+    <p class="mb-1">Role with Techqueria: {{ . }}</p>
     {{ end }}
     <!-- External Link -->
     {{ if .Params.link }}

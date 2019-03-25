@@ -7,8 +7,6 @@
     <img class="image hero mb-1 lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
   </div>
   {{ end }}
-  <!-- Author -->
-  {{ partial "content/person.html" . }}
   <!-- Content -->
   {{ if .Content }}
   {{ .Content }}

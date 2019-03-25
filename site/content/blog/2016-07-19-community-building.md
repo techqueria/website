@@ -1,6 +1,5 @@
 ---
 title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
-description: A few weeks ago, Techqueria hosted a fireside chat with senior Latinx engineers at Dev Bootcamp SF. Back in May, we had an event on non-traditional tech paths that was oriented towards how folks…
 date: 2016-07-19
 people:
   - CJ Joulain
