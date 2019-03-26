@@ -13,7 +13,7 @@ To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in
 
 [![Request Invite](/assets/img/slack/invite-request-CTA.png)](https://goo.gl/forms/VRARl4qkkLj3BJLl1)
 
-If you have already received an invitation, you can log in. [here](https://latinos.slack.com/).
+If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
 
 [![Slack Group](/assets/img/slack/slack-group-CTA.png)](https://latinos.slack.com/)
 
@@ -136,7 +136,6 @@ If you'd like to participate in the conversation about the future of the communi
 - `#website-github`
   - Automated activity feed from https://github.com/techqueria/website
 
-There's also the `#twitter` channel (Techqueria's Twitter feeds) and `#website`
 
 ### Requesting A Channel
 
