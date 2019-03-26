@@ -12,6 +12,8 @@
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
+[![Open Source Helpers](https://www.codetriage.com/techqueria/website/badges/users.svg)](https://www.codetriage.com/techqueria/website)
+
 Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry. 🌮
 
 ## Contributing
