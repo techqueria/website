@@ -55,6 +55,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [William Mena](https://github.com/WilliamMena)
 - [Steven Jimenez](https://wepadev.com/)
 - [Axhon Ruiz-Gonzalez](https://github.com/axhon)
+- [Sonali Agrawal](https://github.com/sonali9696)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
