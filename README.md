@@ -10,6 +10,10 @@
 
 [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
+
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
+
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
 Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry. 🌮
@@ -53,7 +57,9 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [William Mena](https://github.com/WilliamMena)
 - [Steven Jimenez](https://wepadev.com/)
 - [Axhon Ruiz-Gonzalez](https://github.com/axhon)
+- [Sonali Agrawal](https://github.com/sonali9696)
 - [Kristal Garcia](https://github.com/kgmajor)
+
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
