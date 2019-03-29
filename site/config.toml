@@ -205,12 +205,16 @@ googleAnalytics                      = "UA-88917358-1"
     url                              = "/resources/bay-area/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Career Growth 💼️"
+    name                             = "Career Growth 🚀"
     url                              = "/resources/career/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Design 🖌️"
     url                              = "/resources/design/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Health Care 🏥"
@@ -351,12 +355,16 @@ googleAnalytics                      = "UA-88917358-1"
     url                              = "/resources/bay-area/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Career Growth 💼️"
+    name                             = "Career Growth 🚀️"
     url                              = "/resources/career/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Design 🖌️"
     url                              = "/resources/design/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Health Care 🏥"
