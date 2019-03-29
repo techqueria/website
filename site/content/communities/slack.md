@@ -1,6 +1,6 @@
 ---
 title: Slack Workspace
-description: Learn how to get the most out of our Slack workspace through our Slack Community Guidelines.
+description: Learn about our Community Guidelines and request an invitation to our Slack community.
 identifier: fab fa-slack
 image: "/assets/img/slack/slack-banner.jpeg"
 aliases:
@@ -8,13 +8,21 @@ aliases:
   - /communities/slack/
 ---
 
-# Slack Community Guidelines
+# Join us!
 
-If you are already a Slack member, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+
+[![Request Invite](/assets/img/slack/invite-request-CTA.png)](https://goo.gl/forms/VRARl4qkkLj3BJLl1)
+
+If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+
+[![Slack Group](/assets/img/slack/slack-group-CTA.png)](https://latinos.slack.com/)
 
 If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
 
-- [Request an invite](#request-an-invite)
+## Slack Community Guidelines
+
+- [Waiting for Invitation](#waiting-for-invitation)
 - [Code of Conduct](#code-of-conduct)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
@@ -36,9 +44,7 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
   - [Slack Foundry](#slack-foundry)
   - [Getting Started Guide](#getting-started-guide)
 
-## Request an invite
-
-To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+## Waiting for Invitation
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
@@ -131,7 +137,6 @@ If you'd like to participate in the conversation about the future of the communi
 - `#website-github`
   - Automated activity feed from https://github.com/techqueria/website
 
-There's also the `#twitter` channel (Techqueria's Twitter feeds) and `#websit
 
 ### Requesting A Channel
 
