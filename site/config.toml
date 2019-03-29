@@ -127,7 +127,6 @@ googleAnalytics                      = "UA-88917358-1"
     parent                           = "About"
     name                             = "Testimonials 💌"
     url                              = "/testimonials/"
-
 [[menu.main]]
     name                             = "Communities"
     url                              = "/communities/"
@@ -199,10 +198,6 @@ googleAnalytics                      = "UA-88917358-1"
 [[menu.main]]
     name                             = "Resources"
     url                              = "/resources/"
-[[menu.main]]
-    parent                           = "Resources"
-    name                             = "Bay Area 🌉"
-    url                              = "/resources/bay-area/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Career Growth 🚀"
@@ -349,10 +344,6 @@ googleAnalytics                      = "UA-88917358-1"
 [[languages.es.menu.main]]
     name                             = "Recursos"
     url                              = "/resources/"
-[[languages.es.menu.main]]
-    parent                           = "Recursos"
-    name                             = "Bay Area 🌉"
-    url                              = "/resources/bay-area/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Career Growth 🚀️"
