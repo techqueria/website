@@ -26,8 +26,8 @@ googleAnalytics                      = "UA-88917358-1"
 
 # RSS
 [outputs]
-    home                             = ["HTML", "RSS"]
-    page                             = ["HTML"]
+    home                             = ["HTML", "AMP", "RSS"]
+    page                             = ["HTML", "AMP"]
 
 [outputFormats]
     [outputFormats.RSS]
@@ -36,7 +36,7 @@ googleAnalytics                      = "UA-88917358-1"
 
 # SEO
 [params]
-    description                      = "Techqueria is one of the largest communities of Latinx professionals in the tech industry. 🌮"
+    description                      = "Techqueria is one of the largest communities for Latinx professionals in the tech industry. 🌮"
     copyright                        = "Techqueria.org"
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"

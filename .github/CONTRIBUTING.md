@@ -26,15 +26,19 @@
   - [A Good PR](#a-good-pr)
   - [Checks](#checks)
   - [GitHub Integrations](#github-integrations)
+  - [GitHub Bots](#github-bots)
+    - [Adding a contributor](#adding-a-contributor)
+    - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
   - [Issue Tracker](#issue-tracker)
   - [Stale Pull Requests](#stale-pull-requests)
-- [Questions?](#questions)
-  - [GitHub Mentions](#github-mentions)
-  - [Slack](#slack)
-  - [Email](#email)
 - [Troubleshooting](#troubleshooting)
   - [Error: Cannot find module](#error-cannot-find-module)
   - [Not seeing changes live](#not-seeing-changes-live)
+- [Questions?](#questions)
+  - [GitHub](#github)
+  - [Gitter](#gitter)
+  - [Slack](#slack)
+  - [Email](#email)
 
 <!-- /TOC -->
 
@@ -299,7 +303,9 @@ Make sure to do the following when opening your pull request (or PR)
 > Notice it has a with a description with a reference to an existing issue. It also has all the checks filled in with an x.
 
 ```markdown
-This adds a contact form to the website using Bulma - fixes #92.
+Adds a contact form to the website using Bulma
+
+- Fixes #92
 
 ---
 
@@ -320,16 +326,61 @@ We use several GitHub integrations/bots to make it easy to catch errors for ever
 
 > Here's an example of how that would look like for a great PR.
 
-![GitHub Checks](https://imgur.com/RrYIKCK.png)
+![GitHub Checks](https://i.imgur.com/6gvqgkc.jpg)
 
 ### GitHub Integrations
 
-- [AccessLint](https://www.accesslint.com/)
-  - tests accessibility
-- [Codacy](https://www.codacy.com), [CodeFactor](http://codefactor.io/), [Codebeat](https://codebeat.co) and [LGTM](https://lgtm.com/)
-  - automated code reviews and code analytics
-- [Netlify Deploy Previews](https://www.netlify.com/docs/continuous-deployment/)
-  - see how your changes would look like in production
+- [AccessLint](https://www.accesslint.com/) tests accessibility
+- [Codacy](https://www.codacy.com) automatically identify issues through static code analysis
+- [Codebeat](https://codebeat.co) allows you to get instant feedback on your code
+- [CodeFactor](http://codefactor.io/) provides automated code review
+- [Hound](https://houndci.com/) comments on code quality and style issues, allowing our team to better review and maintain a clean codebase
+- [LGTM](https://lgtm.com/) allows us to find and prevent zero-days and other critical bugs, with customizable alerts and automated code review
+- [Netlify Deploy Previews](https://www.netlify.com/docs/continuous-deployment/) lets you see how your changes would look like in production
+- [Pull Reminders](https://pullreminders.com/) lets you review and merge pull requests faster with Slack reminders and notifications
+- [Synk](https://snyk.io/) is a developer-first solution that automates finding & fixing vulnerabilities in our dependencies
+
+### GitHub Bots
+
+We take advantage of GitHub bots to make reviewing PRs and recognizing contributors easier.
+
+- [All Contributors](https://allcontributors.org/) helps us recognize all contributors, not just the ones who push code
+- [Background Check](https://probot.github.io/apps/background-check/) notifies maintainers when new contributors who have been toxic in the past join the project
+- [Delete Merged Branch](https://probot.github.io/apps/delete-merged-branch/) automatically deletes merged branches
+- [First Timers](https://probot.github.io/apps/first-timers/) creates starter issues to help onboard new open source contributors
+- [Invite Contributors](https://probot.github.io/apps/invite-contributors/) invites authors of merged pull requests to our organization
+- [Reminders](https://probot.github.io/apps/reminders/) set reminders on issues and pull requests
+- [Request Info](https://github.com/apps/request-info) requests more info from PRs/Issues with either the default title or a blank body
+- [Sentiment Bot](https://probot.github.io/apps/sentiment-bot/) replies to toxic comments with a maintainer designated reply and a link to the repo's code of conduct
+- [Stale](https://github.com/apps/stale) closes abandoned issues after a period of inactivity
+- [Todo](https://github.com/apps/todo) creates new issues based on actionable comments in your code
+- [Top Issues](https://probot.github.io/apps/topissues/) labels issues with the most "+1" emoji reactions
+- [Unfurl Links](https://probot.github.io/apps/unfurl-links/) adds context to the links shared in discussions
+- [WaffleBot](https://github.com/apps/wafflebot) automatically updates the status of our work
+- [Welcome](https://probot.github.io/apps/welcome/) welcomes new users
+- [Work In Progress](https://probot.github.io/apps/wip/) prevents merging of pull requests with "WIP" in the title
+
+#### Adding a contributor
+
+See https://allcontributors.org
+
+```txt
+@all-contributors please add @awesomeContributor for infrastructure, tests and code
+```
+
+![Adding a contributor](https://d33wubrfki0l68.cloudfront.net/fb5b8bea253987f2e06b259398fcf78ae8ae824c/1eec9/img/add-contributors.png)
+
+#### Remind yourself to tackle an issue
+
+Use the `/remind` slash command to set a reminder on any comment box on GitHub and you'll get a ping about it again when the reminder is due.
+
+Use any form of /remind me [what][when], such as:
+
+- `/remind me to deploy on Oct 10`
+- `/remind me next Monday to review the requirements`
+- `/remind me that the specs on the rotary girder need checked in 6 months`
+
+![Remind me](https://user-images.githubusercontent.com/173/30673997-505a993a-9e77-11e7-8f0f-d5a606816e8e.png)
 
 ### Issue Tracker
 
@@ -353,22 +404,6 @@ There are 2 labels being used to track progress - these are used [Wafflebot](htt
 
 If after a week you haven't heard from any of the maintainers, please mention `@techqueria/admins` in the PR.
 
-## Questions?
-
-If you have any questions, comments, concerns or general feedback, we're happy to help!
-
-### GitHub Mentions
-
-Please make a comment mentioning `@techqueria/admins` in your issue or PR and one of us will get back to you ASAP.
-
-### Slack
-
-If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#website` channel for discussion and a `#website-gh` for GitHub notifications.
-
-### Email
-
-If needed, there is also the option of emailing us using [organizers@techqueria.org](mailto:organizers@techqueria.org).
-
 ## Troubleshooting
 
 ### Error: Cannot find module
@@ -382,3 +417,23 @@ Try `rm -rf node_modules` and then `npm install` again.
 Try running `npm run clean` - this will delete the `dist` directory.
 
 You can then run `npm start` to spin up a local server.
+
+## Questions?
+
+If you have any questions, comments, concerns or general feedback, we're happy to help!
+
+### GitHub
+
+Please make a comment mentioning `@techqueria/admins` in your issue or PR and one of us will get back to you ASAP.
+
+### Gitter
+
+If you are not part of our Slack community and want to use something besides GitHub, we also have [a Gitter lobby](https://gitter.im/techqueria/Lobby).
+
+### Slack
+
+If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#website` channel for discussion and a `#website-gh` for GitHub notifications.
+
+### Email
+
+If needed, there is also the option of emailing us using [organizers@techqueria.org](mailto:organizers@techqueria.org).

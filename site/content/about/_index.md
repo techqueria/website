@@ -1,30 +1,30 @@
 ---
 title: About 🌮️
-description: Techqueria is a community of Latinxs in the tech industry that was first established in 2015.
+description: "Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮"
 ---
 
 ## Who we are
 
-We're a community of Latinxs in tech.
+Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
 
-We're a space where Latinxs can network and advance in our careers, work on open-source together, and help workers like us across the industry.
+We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
-We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
+Our space aims to be inclusive so we invite Latinx from the regions of the Caribbean, Haiti, and Brazil as well as those who identify as Afro-Latinx or LGBTQ. The term Latinx is used instead of Latino because it is a gender-neutral and inclusive term.
 
-We promote collaboration among our members and aim to create a culture that advances our individual and collective success.
+We have ~3,000 members in our Slack community, ~6,000 through our newsletter, supporters on Patreon, and thousands of followers on social media through Twitter, LinkedIn, and Facebook. The group began in Silicon Valley in 2015 and has since expanded to New York City, Austin, Los Angeles, and Chicago to connect and support Latinx professionals in those cities. We have also partnered with various organizations to sponsor our events and software such as 1Password, Dropbox, Uber, Stripe, Spotify, Digital Ocean, GitHub, and Google.
 
-## What we do
-
-We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and even where to get great food!
+Ultimately, Techqueria's goal is to become the largest network for Latinx in tech professionals across the world.
 
 ## Our Story
 
-David Silva and Shashi Jain organized the first events at the NextSpace in Berkeley, CA.
+David Silva and Shashi Jain organized the first event at NextSpace in Berkeley, CA.
 
 We later started hosting at companies across the Bay Area and grew our community thanks to the work of Kimberly Muñoz and CJ Joulain.
 
 LA was the first place we held events outside the Bay Area thanks to the help of Esteban Uribe and Hector Carmona.
 
-As our community moves, we form chapters and support one another in building a home for Latinxs in tech. We welcome all that share our mission!
+As our community moves, we form chapters and support one another in building a home for Latinx in tech.
+
+We welcome all that share our mission!
 
 > If you are interested in starting a chapter, reach out to [organizers@techqueria.org](mailto:organizers@techqueria.org) or [via Slack](/communities/slack/).

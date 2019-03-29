@@ -13,7 +13,7 @@ https://www.immigrationadvocates.org/nonprofit/legaldirectory/
 
 ## Immigrants Rising: Pro Bono Legal Service Providers"
 
-The List contains information on non-profit organizations and attorneys who have committed to providing at least 50 hours per year of pro bono legal services before the immigration court location where they appear on the List. It also contains information on pro bono referral services that refer individuals in immigration court proceedings to pro bono counsel. For a copy of the full List of Pro Bono Legal Service Providers.
+The List contains information on nonprofit organizations and attorneys who have committed to providing at least 50 hours per year of pro bono legal services before the immigration court location where they appear on the List. It also contains information on pro bono referral services that refer individuals in immigration court proceedings to pro bono counsel. For a copy of the full List of Pro Bono Legal Service Providers.
 
 https://www.justice.gov/eoir/list-pro-bono-legal-service-providers-map
 

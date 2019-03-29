@@ -33,23 +33,29 @@ aliases:
 
 ### Meta Description
 
-Techqueria is one of the largest communities of Latinx professionals in the tech industry. 🌮
+Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
 
 ### Standard Description
 
-Techqueria is one of the largest communities of Latinx professionals in the tech industry. We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
+Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+
+We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source.
+
+We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
 https://techqueria.org
 
 ### Long Description
 
-Techqueria is one of the largest communities of Latinx professionals in the tech industry. We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
+Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+
+We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
 Our space aims to be inclusive so we invite Latinx from the regions of the Caribbean, Haiti, and Brazil as well as those who identify as Afro-Latinx or LGBTQ. The term Latinx is used instead of Latino because it is a gender-neutral and inclusive term.
 
 We have ~3,000 members in our Slack community, ~6,000 through our newsletter, supporters on Patreon, and thousands of followers on social media through Twitter, LinkedIn, and Facebook. The group began in Silicon Valley in 2015 and has since expanded to New York City, Austin, Los Angeles, and Chicago to connect and support Latinx professionals in those cities. We have also partnered with various organizations to sponsor our events and software such as 1Password, Dropbox, Uber, Stripe, Spotify, Digital Ocean, GitHub, and Google.
 
-While there are Latinx in tech-focused organizations in most major cities, our goal for Techqueria is to become the largest network for Latinx in tech professionals across the country.
+Ultimately, Techqueria's goal is to become the largest network for Latinx in tech professionals across the world.
 
 ## Colors
 

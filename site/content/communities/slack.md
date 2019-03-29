@@ -2,7 +2,7 @@
 title: Slack Workspace
 description: Learn how to get the most out of our Slack workspace through our Slack Community Guidelines.
 identifier: fab fa-slack
-image: "/assets/img/slack/banner.jpeg"
+image: "/assets/img/slack/slack-banner.jpeg"
 aliases:
   - /slack/
   - /communities/slack/
