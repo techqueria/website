@@ -33,18 +33,18 @@
   }
 
   img {
+    @extend %image-shadow;
     border: 0;
-    position: relative;
-    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    @extend %image-shadow;
+    max-width: 100%;
+    position: relative;
 
     &.emoji,
     &.no-box-shadow {
-      display: inline-block;
       box-shadow: none;
+      display: inline-block;
     }
 
     p,
