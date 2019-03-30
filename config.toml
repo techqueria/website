@@ -127,7 +127,6 @@ disqusShortname                      = "techqueria"
     parent                           = "About"
     name                             = "Testimonials 💌"
     url                              = "/testimonials/"
-
 [[menu.main]]
     name                             = "Communities"
     url                              = "/communities/"
@@ -201,16 +200,16 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Bay Area 🌉"
-    url                              = "/resources/bay-area/"
-[[menu.main]]
-    parent                           = "Resources"
-    name                             = "Career Growth 💼️"
+    name                             = "Career Growth 🚀"
     url                              = "/resources/career/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Design 🖌️"
     url                              = "/resources/design/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Health Care 🏥"
@@ -347,16 +346,16 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Bay Area 🌉"
-    url                              = "/resources/bay-area/"
-[[languages.es.menu.main]]
-    parent                           = "Recursos"
-    name                             = "Career Growth 💼️"
+    name                             = "Career Growth 🚀️"
     url                              = "/resources/career/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Design 🖌️"
     url                              = "/resources/design/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Health Care 🏥"
