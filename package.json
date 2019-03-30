@@ -10,7 +10,7 @@
     "start": "gulp server",
     "start:prod": "gulp server-prod",
     "start:preview": "gulp server-preview",
-    "lint": "eslint src",
+    "lint": "eslint assets/js",
     "clean": "gulp clean"
   },
   "author": "Frances Coronel",

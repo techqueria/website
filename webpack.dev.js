@@ -42,7 +42,7 @@ module.exports = {
     }),
     new webpack.optimize.AggressiveMergingPlugin()
   ],
-  context: path.join(__dirname, "src"),
+  context: path.join(__dirname, "assets"),
   entry: {
     app: ["./js/app"]
   },

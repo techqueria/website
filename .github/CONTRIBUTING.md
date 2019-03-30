@@ -148,11 +148,11 @@ Content is in the progress of being translated to Español.
 
 #### Configuration
 
-The language dropdown is located at `site/layouts/partials/footer/language-dropdown.html` which is referenced at `site/layouts/partials/footer/who-we-are.html`. It is currently disabled until parent pages are translated.
+The language dropdown is located at `layouts/partials/footer/language-dropdown.html` which is referenced at `layouts/partials/footer/who-we-are.html`. It is currently disabled until parent pages are translated.
 
-Language names are configured using `site/data/i18n/languages.toml`. For now, these only have English and Español but more can be added.
+Language names are configured using `data/i18n/languages.toml`. For now, these only have English and Español but more can be added.
 
-Translated strings can be located at `site/i18n/en.toml` and `site/i18n/es.toml`
+Translated strings can be located at `i18n/en.toml` and `i18n/es.toml`
 
 #### How to translate content
 
@@ -187,14 +187,14 @@ Here's an example of translating the "Brand" page in Markdown.
 
 So for Markdown pages to be translated in Spanish, add an identical file with `.es.md` at the end.
 
-> `site/content/about/brand.md`
+> `content/about/brand.md`
 
 ```markdown
 title: Brand 🎨
 description: Download our assets and discover our style guide.
 ```
 
-> `site/content/about/brand.es.md`
+> `content/about/brand.es.md`
 
 ```markdown
 title: Marca 🎨
@@ -214,15 +214,14 @@ description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 ├── .vscode
 |  └──  settings.json       // VS Code workspace settings
 ├── dist                    // (ignored) static files generated and served through Netlify using npm start or npm build
-├── site                    // HUGO site folder
-|  ├── archetypes           // default post formats
-|  ├── content              // content goes here (Markdown files with posts and pages)
-|  ├── data                 // languages configuration
-|  ├── i18n                 // translations for strings in HTML layouts
-|  ├── layouts              // HTML Liquid templates for pages
-|  ├── static               // files that go into root of dist directory
-|  └── config.toml          // configuration file (Hugo)
-├── src                     // folder of assets handled by Gulp/Webpack
+├── archetypes              // default post formats
+├── content                 // content goes here (Markdown files with posts and pages)
+├── data                    // languages configuration
+├── i18n                    // translations for strings in HTML layouts
+├── layouts                 // HTML Liquid templates for pages
+├── static                  // files that go into root of dist directory
+├── config.toml             // configuration file (Hugo)
+├── assets                  // folder of assets handled by Gulp/Webpack
 |  ├── img                  // images are optimized through Gulp
 |  ├── js                   // compressed and transpiled to a single JS file
 |  └── sass                 // compressed and compiled to a single CSS file
