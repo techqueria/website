@@ -14,20 +14,18 @@
       display: inline-block;
 
       &.emoji {
-        -webkit-box-shadow: none;
         box-shadow: none;
       }
     }
 
     &:hover {
-      color: black;
+      color: $techqueria-black;
 
       img {
         @extend %material-shadow;
-        border-bottom: none;
+        border-bottom: 0;
 
         &.emoji {
-          -webkit-box-shadow: none;
           box-shadow: none;
         }
       }
@@ -46,7 +44,6 @@
     &.emoji,
     &.no-box-shadow {
       display: inline-block;
-      -webkit-box-shadow: none;
       box-shadow: none;
     }
 
