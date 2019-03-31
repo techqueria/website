@@ -443,7 +443,6 @@ We take advantage of GitHub bots to make reviewing PRs and recognizing contribut
 - [Todo](https://github.com/apps/todo) creates new issues based on actionable comments in your code
 - [Top Issues](https://probot.github.io/apps/topissues/) labels issues with the most "+1" emoji reactions
 - [Unfurl Links](https://probot.github.io/apps/unfurl-links/) adds context to the links shared in discussions
-- [WaffleBot](https://github.com/apps/wafflebot) automatically updates the status of our work
 - [Welcome](https://probot.github.io/apps/welcome/) welcomes new users
 - [Work In Progress](https://probot.github.io/apps/wip/) prevents merging of pull requests with "WIP" in the title
 
@@ -471,21 +470,15 @@ Use any form of /remind me [what][when], such as:
 
 ### Issue Tracker
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all)](https://waffle.io/techqueria/website)
-
-We are using [Waffle.io](https://waffle.io/techqueria/website) to track open issues and progress being made.
-
-There are 2 labels being used to track progress - these are used [Wafflebot](https://github.com/apps/wafflebot) to automate most of the process.
+There are 2 labels being used to track progress.
 
 1. `in progress`
 
-   Maintainers are responsible for adding the label `in progress` once someone has decided to take on an open issue.
+   Maintainers & contributors are responsible for adding the label `in progress` once someone has decided to take on an open issue.
 
 2. `review`
 
    A PR has been opened and references a specific issue.
-
-![Waffle.io Columns](https://i.imgur.com/UUh4glr.png)
 
 ### Stale Pull Requests
 
