@@ -4,6 +4,7 @@
 
 - [1. Setting Up](#1-setting-up)
   - [Ways to Contribute](#ways-to-contribute)
+    - [Benefits of Contributing](#benefits-of-contributing)
   - [Fork the repo](#fork-the-repo)
   - [Installation](#installation)
 - [2. Local Development](#2-local-development)
@@ -13,6 +14,10 @@
   - [Tools](#tools)
   - [Platforms](#platforms)
   - [Languages](#languages)
+  - [Content Updates](#content-updates)
+    - [People](#people)
+    - [Companies](#companies)
+    - [Blog Posts](#blog-posts)
   - [Translations](#translations)
     - [Configuration](#configuration)
     - [How to translate content](#how-to-translate-content)
@@ -34,6 +39,7 @@
 - [Troubleshooting](#troubleshooting)
   - [Error: Cannot find module](#error-cannot-find-module)
   - [Not seeing changes live](#not-seeing-changes-live)
+  - [Recently Merged Changes](#recently-merged-changes)
 - [Questions?](#questions)
   - [GitHub](#github)
   - [Gitter](#gitter)
@@ -61,6 +67,40 @@ Feel free to contribute to the Techqueria website in one or more of the followin
 - Fix typos or grammar errors on pages or across the code base
 - Refactor code
 - Anything else you can think of! 😆
+
+#### Benefits of Contributing
+
+> GitHub Profile
+
+After we've added you to our Techqueria GitHub organization as a contibutor, you can tell the world you've helped us by displaying our organization avatar on your GitHub profile. By default, this is made private but you [can easily make it public.](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership).
+
+Let us know if we haven't already added you.
+
+![GitHub Organizations](https://i.imgur.com/DpZcMFl.jpg)
+
+> LinkedIn
+
+Showcase your contributions through LinkedIn with Techqueria's company profile: https://linkedin.com/company/techqueria.
+
+Just make sure to use the description below and you can briefly describe what you did as well.
+
+```txt
+Techqueria is a 501c3 non-profit representing one of the largest communities for Latinx professionals in the tech industry.
+
+- Contributed to their open source website through translations and bug fixes
+```
+
+Here's an example of how that can be done by posting under "Experience" or "Volunteering" on your LinkedIn profile.
+
+![LinkedIn Contributions](https://i.imgur.com/t01auIB.jpg)
+
+> Street Cred
+
+- You can tell people you've contributed to an open source project - [not that many developers do](https://www.digitalocean.com/currents/october-2018/)!
+- You can tell people you have contributed to one of the largest communities for Latinx in Tech
+- You can also tell people you've worked on a project that uses one of the [most popular static site generators in the world](https://www.staticgen.com/) - [Hugo](https://gohugo.io/)
+
+> And there are [many more reasons](https://opensource.guide/how-to-contribute/) why contributing to open source is great!
 
 ### Fork the repo
 
@@ -141,6 +181,54 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 - HTML
 - TOML
 - JSON
+
+### Content Updates
+
+#### People
+
+When adding a new person, make sure to use their LinkedIn profile as the URL and download their LinkedIn profile picture so we can host it locally.
+
+```markdown
+---
+title: Frances Coronel
+description: Software Engineer at Slack
+image: "/assets/img/people/frances-coronel.jpg"
+link: https://www.linkedin.com/in/fvcproductions
+location: Bay Area
+role: Open Source Lead, Slack Admin
+---
+```
+
+#### Companies
+
+When adding a new company, make sure to link their careers site and download an appropriate logo image so we can host it locally.
+
+Example:
+
+```markdown
+---
+title: Braintree
+description: All-in-one solution to accept, process, and split payments in your mobile app or online
+image: "/assets/img/sponsors/braintree.png"
+link: https://www.braintreepayments.com/careers
+---
+```
+
+#### Blog Posts
+
+Make sure to always turn comments on and add or reference a person as the author. If there is a special character in the blog title, make sure to use double quotes.
+
+Example:
+
+```markdown
+---
+title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
+comments: true
+date: 2016-07-19
+people:
+  - CJ Joulain
+---
+```
 
 ### Translations
 
@@ -416,6 +504,10 @@ Try `rm -rf node_modules` and then `npm install` again.
 Try running `npm run clean` - this will delete the `dist` directory.
 
 You can then run `npm start` to spin up a local server.
+
+### Recently Merged Changes
+
+If there were changes recently merged that involved a lot of changes, you first want to pull the master branch, resolve any merge conflicts correctly and then make sure to run both `npm run clean`, `npm install` and `npm start` in that order before opening a new issue.
 
 ## Questions?
 

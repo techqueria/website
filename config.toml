@@ -195,6 +195,10 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     name                             = "Sponsors"
     url                              = "/sponsors/"
+[[menu.main]]
+    parent                           = "Sponsors"
+    name                             = "Patreon Supporters"
+    url                              = "/sponsors/patreon-supporters/"
 
 [[menu.main]]
     name                             = "Resources"
