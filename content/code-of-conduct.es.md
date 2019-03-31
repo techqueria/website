@@ -29,7 +29,7 @@ Para obtener más información sobre cómo aprovechar al máximo nuestro espacio
 
 En el desafortunado caso de que vea a alguien violando el código de conducta, aquí hay algunas formas en que puede informarnos a nosotros.
 
-- DM [@techqueriaSF](https://twitter.com/techqueriasf) en Twitter
+- DM [@Techqueria](https://twitter.com/Techqueria) en Twitter
 - Envíenos un correo electrónico a [organizers@techqueria.org](mailto:organizers@techqueria.org)
 - Dentro del grupo Slack, puedes usar el comando `/admin` para contactar a un administrador
 

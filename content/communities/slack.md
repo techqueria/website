@@ -22,6 +22,7 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
 
 ## Slack Community Guidelines
 
+- [Slack Community Guidelines](#slack-community-guidelines)
 - [Waiting for Invitation](#waiting-for-invitation)
 - [Code of Conduct](#code-of-conduct)
 - [Channels](#channels)
@@ -129,14 +130,13 @@ If you'd like to participate in the conversation about the future of the communi
   - Give feedback about how we run Slack or events
 - `#twitter`
   - Automated feed of Twitter account activity
-    - https://twitter.com/TechqueriaSF
+    - https://twitter.com/Techqueria
     - https://twitter.com/TechqueriaNYC
     - https://twitter.com/TechqueriaLA
 - `#website`
   - Discussing & contributing to Techqueria website https://techqueria.org
 - `#website-github`
   - Automated activity feed from https://github.com/techqueria/website
-
 
 ### Requesting A Channel
 

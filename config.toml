@@ -51,7 +51,7 @@ disqusShortname                      = "techqueria"
     instagram                        = "techqueriala"
     linkedin                         = "company/techqueria"
     meetup                           = "techqueria"
-    twitter                          = "TechqueriaSF"
+    twitter                          = "Techqueria"
     youtube                          = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 # Permalinks
@@ -71,7 +71,7 @@ disqusShortname                      = "techqueria"
 
 [[menu.social]]
     name                             = "Twitter"
-    url                              = "https://twitter.com/techqueriasf"
+    url                              = "https://twitter.com/Techqueria"
     identifier                       = "fab fa-lg fa-twitter"
 
 # Homepage
