@@ -1,0 +1,383 @@
+baseURL                              = "https://techqueria.org/"
+buildFuture                          = true
+copyright                            = "This work is licensed under MIT."
+enableEmoji                          = true
+enableRobotsTXT                      = true
+footnoteReturnLinkContents           = "↩"
+metaDataFormat                       = "yaml"
+title                                = "Techqueria"
+
+# Language
+languageCode                         = "en-US"
+defaultContentLanguage               = "en"
+enableMissingTranslationPlaceholders = true
+
+# Categories
+preserveTaxonomyNames                = false
+
+# Code
+pygmentsCodefences                   = true
+pygmentsCodefencesGuessSyntax        = true
+pygmentsStyle                        = "manni"
+
+# Internal Templates
+googleAnalytics                      = "UA-88917358-1"
+disqusShortname                      = "techqueria"
+
+# RSS
+[outputs]
+    home                             = ["HTML", "AMP", "RSS"]
+    page                             = ["HTML", "AMP"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediatype                    = "application/rss"
+        baseName                     = "feed"
+
+# SEO
+[params]
+    description                      = "Techqueria is one of the largest communities for Latinx professionals in the tech industry. 🌮"
+    copyright                        = "Techqueria.org"
+    year                             = 2015
+    og_image                         = "https://i.imgur.com/O2YyA3E.png"
+    logo                             = "https://i.imgur.com/iJpGY6L.png"
+    locale                           = "en_US"
+    default_content_language         = "en"
+
+# Social Links
+[social]
+    email                            = "organizers@techqueria.org"
+    facebook                         = "techqueria"
+    instagram                        = "techqueriala"
+    linkedin                         = "company/techqueria"
+    meetup                           = "techqueria"
+    twitter                          = "Techqueria"
+    youtube                          = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
+
+# Permalinks
+[permalinks]
+  blog                               = "/blog/:year/:month/:day/:title/"
+  testimonials                       = "/testimonials/:year/:month/:day/:title/"
+  press                              = "/press/:year/:month/:day/:title/"
+
+[author]
+    name                             = "Techqueria"
+    copyright                        = "©️ Techqueria.org"
+
+[[menu.social]]
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+
+[[menu.social]]
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
+
+# Homepage
+# 1. About
+# 2. Blog
+# 3. Code of Conduct
+# 4. Communities
+# 5. Contact
+# 6. Events
+# 7. People
+# 8. Press
+# 9. Resources
+# 10. Sponsors
+# 11. Stock Photos
+# 12. Supporters
+# 13. Testimonials
+
+# Menu
+# 1. About
+# 2. Communities
+# 3. Contact
+# 4. Events
+# 5. Resources
+# 6. Sponsors
+
+[[menu.main]]
+    name                             = "About"
+    url                              = "/about/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Blog 📝"
+    url                              = "/blog/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Brand 🎨"
+    url                              = "/about/brand/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Code of Conduct 🌼"
+    url                              = "/code-of-conduct/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "People 👥"
+    url                              = "/people/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Press 📰️"
+    url                              = "/press/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Stock Photos 📸"
+    url                              = "/photos/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Testimonials 💌"
+    url                              = "/testimonials/"
+[[menu.main]]
+    name                             = "Communities"
+    url                              = "/communities/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "City Chapters"
+    url                              = "/communities/chapters/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Eventbrite"
+    url                              = "https://techqueria.eventbrite.com"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Facebook Group"
+    url                              = "https://www.facebook.com/groups/techqueria"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Facebook Page"
+    url                              = "https://www.facebook.com/techqueria"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "GitHub Organization"
+    url                              = "https://github.com/techqueria"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "LinkedIn Group"
+    url                              = "https://www.linkedin.com/groups/13500636"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "LinkedIn Page"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Meetup Group"
+    url                              = "https://www.meetup.com/techqueria/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Newsletter"
+    url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Open Collective"
+    url                              = "https://opencollective.com/techqueria/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Patreon"
+    url                              = "https://www.patreon.com/techqueria/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Slack Workspace"
+    url                              = "/communities/slack/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "YouTube Channel"
+    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+
+[[menu.main]]
+    name                             = "Contact"
+    url                              = "/contact/"
+
+[[menu.main]]
+    name                             = "Events"
+    url                              = "/events/"
+
+[[menu.main]]
+    name                             = "Sponsors"
+    url                              = "/sponsors/"
+[[menu.main]]
+    parent                           = "Sponsors"
+    name                             = "Patreon Supporters 💕"
+    url                              = "/sponsors/patreon-supporters/"
+
+[[menu.main]]
+    name                             = "Resources"
+    url                              = "/resources/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Career Growth 🚀"
+    url                              = "/resources/career/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Design 🖌️"
+    url                              = "/resources/design/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Health Care 🏥"
+    url                              = "/resources/health/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Housing 🏠"
+    url                              = "/resources/housing/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Immigration 📄"
+    url                              = "/resources/immigration/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Legal Help ⚖️"
+    url                              = "/resources/legal/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Open Source 🔧️"
+    url                              = "/resources/open-source/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Podcasts 🎙️"
+    url                              = "/resources/podcasts/"
+
+#
+# Supporting Multiple Languages
+#
+[languages]
+[languages.en]
+  weight                             = 1
+  languageName                       = "English"
+
+[languages.es]
+  weight                             = 2
+  languageName                       = "Español"
+  [languages.es.params]
+    description                      = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️ Este espacio pretende ser inclusivo, por lo que invitamos a Latinx desde las regiones del Caribe, Haití y Brasil, así como a aquellos que se identifican como Afro-Latinx o LGBTQ. El término Latinx se usa en lugar de Latino porque es un término neutral e inclusivo."
+
+[[languages.es.menu.main]]
+    name                             = "Sobre nosotros"
+    url                              = "/about/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Blog 📝"
+    url                              = "/blog/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Marca 🎨"
+    url                              = "/about/brand/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Código de Conducta 🌼"
+    url                              = "/code-of-conduct/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Gente 👥"
+    url                              = "/gente/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Prensa 📰️"
+    url                              = "/prensa/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Almacén de fotografías 📸"
+    url                              = "/stock-photos/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Testimonios 💌"
+    url                              = "/testimonials/"
+
+[[languages.es.menu.main]]
+    name                             = "Comunidades"
+    url                              = "/communities/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Capítulo - Area de la Bahía"
+    url                              = "/communities/bay-area/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Capítulo - Los Angeles"
+    url                              = "/communities/los-angeles/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Capítulo - Nueva York"
+    url                              = "/communities/new-york-city/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Grupo de Facebook"
+    url                              = "https://www.facebook.com/groups/techqueria"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Pagina de Facebook"
+    url                              = "https://www.facebook.com/techqueria"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "GitHub Organization"
+    url                              = "https://github.com/techqueria"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "LinkedIn Group"
+    url                              = "https://www.linkedin.com/groups/13500636"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Meetup Group"
+    url                              = "https://www.meetup.com/techqueria/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Newsletter"
+    url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Slack Workspace"
+    url                              = "/communities/slack/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "YouTube Channel"
+    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+
+[[languages.es.menu.main]]
+    name                             = "Contacto"
+    url                              = "/contacto/"
+
+[[languages.es.menu.main]]
+    name                             = "Eventos"
+    url                              = "/events/"
+
+[[languages.es.menu.main]]
+    name                             = "Patrocinadores"
+    url                              = "/sponsors/"
+
+[[languages.es.menu.main]]
+    name                             = "Recursos"
+    url                              = "/resources/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Career Growth 🚀️"
+    url                              = "/resources/career/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Design 🖌️"
+    url                              = "/resources/design/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Entrepreneurship 💼"
+    url                              = "/resources/entrepreneurship/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Health Care 🏥"
+    url                              = "/resources/health/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Immigration 📄"
+    url                              = "/resources/immigration/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Legal Help ⚖️"
+    url                              = "/resources/legal/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Open Source 🔧️"
+    url                              = "/resources/open-source/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Podcasts 🎙️"
+    url                              = "/resources/podcasts/"

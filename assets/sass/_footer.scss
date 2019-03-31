@@ -1,0 +1,13 @@
+.footer {
+  background-color: $techqueria-black;
+  color: $techqueria-white;
+  padding: 2em;
+
+  .link--techqueria {
+    color: $techqueria;
+
+    &:hover {
+      color: $techqueria-white;
+    }
+  }
+}
