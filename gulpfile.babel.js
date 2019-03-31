@@ -11,7 +11,6 @@ const imagemin = require("gulp-imagemin");
 const log = require("fancy-log");
 const PluginError = require("plugin-error");
 const postcss = require("gulp-postcss");
-// const purifyCSS = require("gulp-purifycss");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const webpack = require("webpack");
@@ -22,7 +21,7 @@ const webpackDevConfig = require("./webpack.dev");
 // Does not purify it since that takes longer
 gulp.task("sass", () => {
   return gulp
-    .src("./src/sass/styles.scss")
+    .src("./assets/sass/styles.scss")
     .pipe(
       sass({
         outputStyle: "compressed",
@@ -35,16 +34,12 @@ gulp.task("sass", () => {
 // PROD: Compress SASS
 gulp.task("sass-minify", () => {
   return gulp
-    .src("./src/sass/styles.scss")
+    .src("./assets/sass/styles.scss")
     .pipe(
       sass({
         outputStyle: "compressed",
       }).on("error", sass.logError)
     )
-    // .pipe(purifyCSS([
-    //   "./dist/**/*.html",
-    //   "./dist/assets/*.js"
-    // ]))
     .pipe(postcss([autoprefixer(), cssnano(), csso()]))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("./dist/assets/css"))
@@ -54,13 +49,13 @@ gulp.task("sass-minify", () => {
 // DEV: Move images
 gulp.task("img", () => {
   return gulp
-    .src("./src/img/**/*")
+    .src("./assets/img/**/*")
     .pipe(gulp.dest("./dist/assets/img"));
 });
 
 // PROD: Move & minify images
 gulp.task("img-minify", () => {
-  return gulp.src("./src/img/**/*")
+  return gulp.src("./assets/img/**/*")
     .pipe(imagemin())
     .pipe(gulp.dest("./dist/assets/img"));
 });
@@ -118,10 +113,10 @@ const runServer = (options) => {
       baseDir: "./dist"
     }
   });
-  gulp.watch("./src/js/**/*.js", gulp.series("js"));
-  gulp.watch("./src/sass/**/*.scss", gulp.series("sass"));
-  gulp.watch("./src/img/**/*", gulp.series("img"));
-  gulp.watch("./site/**/*", gulp.series(options));
+  gulp.watch("./assets/js/**/*.js", gulp.series("js"));
+  gulp.watch("./assets/sass/**/*.scss", gulp.series("sass"));
+  gulp.watch("./assets/img/**/*", gulp.series("img"));
+  gulp.watch(["./content/**/*", "./data/**/*", "./i18n/**/*", "./layouts/**/*", "./resources/**/*", "./static/**/*", "./config.toml"], gulp.series(options));
 };
 
 // DEV & PROD: Run Hugo
@@ -142,16 +137,19 @@ const buildSite = (done, options, environment) => {
 };
 
 // Hugo arguments
-const hugoArgsDefault = ["-d", "../dist", "-s", "site", "--verbose"];
+const hugoArgsDefault = ["-d", "./dist", "-s", "./", "--verbose"];
 const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
 
 // DEVELOPMENT
 gulp.task("hugo-dev", (done) => buildSite(done, [], "dev"));
+
 gulp.task("hugo-preview", (done) => buildSite(done, hugoArgsPreview, "dev"));
+
 gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", (done) => {
   runServer("hugo-dev");
   done();
 }));
+
 gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", (done) => {
   runServer("hugo-preview");
   done();
@@ -160,8 +158,10 @@ gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js"));
 
 // PRODUCTION
 gulp.task("hugo", (done) => buildSite(done, [], "prod"));
+
 gulp.task("server-prod", gulp.series("hugo", "img-minify", "js", "sass-minify", "html-minify", (done) => {
   runServer("hugo");
   done();
 }));
+
 gulp.task("build", gulp.series("clean", "hugo", "img-minify", "js", "sass-minify", "html-minify"));
