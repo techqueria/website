@@ -1,6 +1,7 @@
 ---
 title: Contacto 📨️
 description: ¡Ponte en contacto con Latinx en Tech!
+noTimeEstimate: true
 ---
 
 ## Formas de contactarnos

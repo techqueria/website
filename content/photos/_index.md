@@ -2,6 +2,7 @@
 title: Stock Photos 📸
 description: Stock photos of Latinx in Tech. This work is licensed under CC BY-NC-ND 4.0.
 sortLatestFirst: true
+noTimeEstimate: true
 aliases:
   - /photos/
   - /stock-photos/
