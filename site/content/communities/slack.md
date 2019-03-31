@@ -35,6 +35,7 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
   - [Channel naming conventions](#channel-naming-conventions)
   - [Mentions](#mentions)
 - [Customization](#customization)
+  - [HeyTaco!](#heytaco)
   - [Sidebar Theme](#sidebar-theme)
   - [Custom Status](#custom-status)
   - [Emojis](#emojis)
@@ -136,7 +137,6 @@ If you'd like to participate in the conversation about the future of the communi
 - `#website-github`
   - Automated activity feed from https://github.com/techqueria/website
 
-
 ### Requesting A Channel
 
 Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
@@ -172,6 +172,14 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
 ## Customization
 
 All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
+
+### HeyTaco!
+
+The HeyTaco! bot sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
+
+Their model fits perfectly with Techqueria's brand so we were so glad when the founders decided to offer us a community discount, making it completely free for all 3000+ of our Slack members when it usually costs \$2 bucks per person per month. 🤯
+
+You can learn more about HeyTaco! at [https://www.heytaco.chat](https://www.heytaco.chat)
 
 ### Sidebar Theme
 
