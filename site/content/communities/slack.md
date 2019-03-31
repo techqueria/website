@@ -193,7 +193,9 @@ You can use @heytaco to give someone a 🌮 when you'd like to show praise, appr
 
 - Like this: `@username your positive attitude was a real help today! :taco:`
 
-**3**. You can give tacos to anyone on your team as long as the bot has invited to the channel
+![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+
+**3**. You can give tacos to anyone on your team as long as the bot has been invited to the channel
 
 - You can invite the bot to channels using `/invite @heytaco`
 
@@ -203,7 +205,7 @@ You can use @heytaco to give someone a 🌮 when you'd like to show praise, appr
 
 **5**. Need help?
 
-- If you need help, you can just DM @heytaco the word help and it will assist you.
+- If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
 
 ### Sidebar Theme
 
