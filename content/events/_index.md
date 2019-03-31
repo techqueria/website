@@ -1,5 +1,5 @@
 ---
-title: Events 📅️
+title: Events
 description: Find information about our upcoming events with other Latinx in Tech.
 sortLatestFirst: true
 noTimeEstimate: true

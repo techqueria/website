@@ -1,5 +1,5 @@
 ---
-title: Gente 👥
+title: Gente
 description: "Techqueria es una organización de voluntarios que ha sido posible gracias al trabajo de varios organizadores, mentores, patrocinadores y asesores."
 url: "/people/"
 sortByLocation: true

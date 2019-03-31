@@ -1,5 +1,5 @@
 ---
-title: Brand 🎨
+title: Brand
 description: Download our assets and discover our style guide.
 image: "/assets/img/logos/banner-logo-only.png"
 aliases:
@@ -171,8 +171,8 @@ You can view all our design assets using [this Figma link](https://www.figma.com
 
 ### Default
 
-![Banner](/assets/img/logos/banner.png)
+<a href="/assets/img/logos/banner.png" download><img src="/assets/img/logos/banner.png" alt="Banner"></a>
 
 ### Logo Only
 
-![Banner - Logo Only](/assets/img/logos/banner-logo-only.png)
+<a href="/assets/img/logos/banner-logo-only.png" download><img src="/assets/img/logos/banner-logo-only.png" alt="Banner - Logo Only"></a>

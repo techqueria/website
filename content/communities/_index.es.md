@@ -1,5 +1,5 @@
 ---
-title: Comunidades 🌐
+title: Comunidades
 description: Oportunidades para establecer contactos y conectarse con otros Latinx en tecnología.
 ---
 

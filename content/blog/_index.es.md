@@ -1,5 +1,5 @@
 ---
-title: Blog 📝️
+title: Blog
 description: "Donde compartimos nuestras historias de la comunidad."
 sortLatestFirst: true
 ---

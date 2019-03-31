@@ -1,5 +1,5 @@
 ---
-title: Communities 🌐
+title: Communities
 description: Opportunities to network and connect with other Latinx in Tech.
 comments: true
 noTimeEstimate: true

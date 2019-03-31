@@ -1,6 +1,6 @@
 ---
-title: About 🌮️
-description: "Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮"
+title: About
+description: "Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
 noTimeEstimate: true
 ---
 

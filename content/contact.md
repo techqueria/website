@@ -1,5 +1,5 @@
 ---
-title: Contact 📨️
+title: Contact
 description: Get in touch with Latinx in Tech!
 noTimeEstimate: true
 ---

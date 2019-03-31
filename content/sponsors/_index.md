@@ -1,5 +1,5 @@
 ---
-title: Sponsors 💙
+title: Sponsors
 description: Sponsors and partners who help provide an inclusive community.
 ---
 

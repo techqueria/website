@@ -1,6 +1,6 @@
 <!-- Homepage -->
 {{ if .IsHome -}}
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
     "@context":         "https://schema.org",
     "@type":            "WebSite",
@@ -33,9 +33,9 @@
     ]
 }
 </script>
-<!-- Blog Posting -->
+  <!-- Blog Posting -->
 {{- else if .IsPage -}}
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
     "@context":          "http://schema.org",
     "@type":             "BlogPosting",
@@ -51,10 +51,10 @@
     "articleSection":    "{{ .Section }}",
     "copyrightYear":     "{{ .Date.Format "2006" }}",
     "genre":             "{{ .Type }}",
-    "headline":          "{{ .Title }}",
+    "headline":          "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}",
     "inLanguage":        "en-US",
     "license":           "{{ .Site.Params.copyright }}",
-    "name":              "{{ .Title }}",
+    "name":              "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}",
     "url":               "{{ .Permalink }}",
     "wordcount":         {{ .WordCount }},
     "description":       "{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.Description | truncate 150 }}{{ end }}",
@@ -93,11 +93,11 @@
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 {{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
 {{ range $index, $element := split $url "/" }}
-{{ $.Scratch.Add "path" $element }}
-{{ $.Scratch.Add "path" "/" }}
-{{ if ne $element "" }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
-{{ end }}
+  {{ $.Scratch.Add "path" $element }}
+  {{ $.Scratch.Add "path" "/" }}
+  {{ if ne $element "" }}
+    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+  {{ end }}
 {{ end }}
 <script type="application/ld+json">
 {

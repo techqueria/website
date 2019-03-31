@@ -1,5 +1,5 @@
 ---
-title: Patrocinadores 💙
+title: Patrocinadores
 description: Patrocinadores y socios que ayudan a proveer una comunidad inclusiva.
 ---
 

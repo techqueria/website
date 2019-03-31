@@ -1,5 +1,5 @@
 ---
-title: Code of Conduct 🌼
+title: Code of Conduct
 description: All participants of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.
 noTimeEstimate: true
 aliases:

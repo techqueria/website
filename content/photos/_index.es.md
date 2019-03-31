@@ -1,5 +1,5 @@
 ---
-title: Fotografías de Archivo 📸
+title: Fotografías de Archivo
 description: Fotografías de Latinx en tecnología. Este trabajo está bajo la licencia de CC BY-NC-ND 4.0.
 sortLatestFirst: true
 aliases:

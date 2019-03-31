@@ -1,5 +1,5 @@
 ---
-title: Press 📰️
+title: Press
 description: These are some of the articles and press mentions about Techqueria and its members.
 sortLatestFirst: true
 aliases:
