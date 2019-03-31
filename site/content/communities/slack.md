@@ -181,6 +181,30 @@ Their model fits perfectly with Techqueria's brand so we were so glad when the f
 
 You can learn more about HeyTaco! at [https://www.heytaco.chat](https://www.heytaco.chat)
 
+#### How @heytaco works 📌
+
+You can use @heytaco to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day. `:hey-taco:`
+
+**1**. Every person in our Slack Workspace has 5 tacos to give out per day
+
+- 🌮 x 5️⃣
+
+**2**. To give someone a taco, add a taco emoji after their username
+
+- Like this: `@username your positive attitude was a real help today! :taco:`
+
+**3**. You can give tacos to anyone on your team as long as the bot has invited to the channel
+
+- You can invite the bot to channels using `/invite @heytaco`
+
+**4**. There is a leaderboard to see who is getting the most tacos
+
+- Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+
+**5**. Need help?
+
+- If you need help, you can just DM @heytaco the word help and it will assist you.
+
 ### Sidebar Theme
 
 Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
