@@ -8,22 +8,11 @@ aliases:
   - /communities/slack/
 ---
 
-# Join us!
+# Slack Community Guidelines
 
-To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
-
-[![Request Invite](/assets/img/slack/invite-request-CTA.png)](https://goo.gl/forms/VRARl4qkkLj3BJLl1)
-
-If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
-
-[![Slack Group](/assets/img/slack/slack-group-CTA.png)](https://latinos.slack.com/)
-
-If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
-
-## Slack Community Guidelines
-
-- [Slack Community Guidelines](#slack-community-guidelines)
-- [Waiting for Invitation](#waiting-for-invitation)
+- [Join us!](#join-us)
+- [Already a member?](#already-a-member)
+- [New to Slack?](#new-to-slack)
 - [Code of Conduct](#code-of-conduct)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
@@ -40,16 +29,30 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
   - [Sidebar Theme](#sidebar-theme)
   - [Custom Status](#custom-status)
   - [Emojis](#emojis)
-- [New to Slack?](#new-to-slack)
+- [New to Slack?](#new-to-slack-1)
   - [Slack Demo](#slack-demo)
   - [Slack Foundry](#slack-foundry)
   - [Getting Started Guide](#getting-started-guide)
 
-## Waiting for Invitation
+## Join us!
+
+To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+
+<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
 You should get an invite within 2 weeks. If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+
+## Already a member?
+
+If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+
+<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/go-to-slack.png"></a>
+
+## New to Slack?
+
+If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
 
 ## Code of Conduct
 

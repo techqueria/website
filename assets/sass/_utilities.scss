@@ -38,6 +38,16 @@
   @extend %material-shadow;
 }
 
+.image-external-plain {
+  img {
+    box-shadow: none !important;
+  }
+
+  &:after {
+    content: "" !important;
+  }
+}
+
 .u-background--default {
   background-color: $techqueria;
 }
