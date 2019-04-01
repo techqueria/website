@@ -272,14 +272,14 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Gente 👥"
-    url                              = "/gente/"
+    url                              = "/people/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Prensa 📰️"
-    url                              = "/prensa/"
+    url                              = "/press/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Almacén de fotografías 📸"
+    name                             = "Fotografías de Archivo 📸"
     url                              = "/stock-photos/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
@@ -307,19 +307,19 @@ disqusShortname                      = "techqueria"
     url                              = "https://www.facebook.com/groups/techqueria"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Pagina de Facebook"
+    name                             = "Página de Facebook"
     url                              = "https://www.facebook.com/techqueria"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "GitHub Organization"
+    name                             = "Organización de GitHub"
     url                              = "https://github.com/techqueria"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "LinkedIn Group"
+    name                             = "Grupo de LinkedIn"
     url                              = "https://www.linkedin.com/groups/13500636"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Meetup Group"
+    name                             = "Grupo de Meetup"
     url                              = "https://www.meetup.com/techqueria/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
@@ -331,12 +331,12 @@ disqusShortname                      = "techqueria"
     url                              = "/communities/slack/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "YouTube Channel"
+    name                             = "Canal de YouTube"
     url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 [[languages.es.menu.main]]
     name                             = "Contacto"
-    url                              = "/contacto/"
+    url                              = "/contact/"
 
 [[languages.es.menu.main]]
     name                             = "Eventos"
@@ -351,27 +351,27 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Career Growth 🚀️"
+    name                             = "Desarrollo Profesional 🚀️"
     url                              = "/resources/career/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Design 🖌️"
+    name                             = "Diseño 🖌️"
     url                              = "/resources/design/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Entrepreneurship 💼"
+    name                             = "Emprendimiento 💼"
     url                              = "/resources/entrepreneurship/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Health Care 🏥"
+    name                             = "Cuidado de Salud 🏥"
     url                              = "/resources/health/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Immigration 📄"
+    name                             = "Immigración 📄"
     url                              = "/resources/immigration/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Legal Help ⚖️"
+    name                             = "Ayuda Legal ⚖️"
     url                              = "/resources/legal/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
