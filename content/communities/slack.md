@@ -37,6 +37,7 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
   - [Channel naming conventions](#channel-naming-conventions)
   - [Mentions](#mentions)
 - [Customization](#customization)
+  - [HeyTaco!](#heytaco)
   - [Sidebar Theme](#sidebar-theme)
   - [Custom Status](#custom-status)
   - [Emojis](#emojis)
@@ -173,6 +174,40 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
 ## Customization
 
 All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
+
+### HeyTaco!
+
+The HeyTaco! bot sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
+
+Their model fits perfectly with Techqueria's brand so we were so glad when the founders decided to offer us a community discount, making it completely free for all 3000+ of our Slack members when it usually costs \$2 bucks per person per month. 🤯
+
+You can learn more about HeyTaco! at [https://www.heytaco.chat](https://www.heytaco.chat)
+
+#### How @heytaco works 📌
+
+You can use @heytaco to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day. `:hey-taco:`
+
+**1**. Every person in our Slack Workspace has 5 tacos to give out per day
+
+- 🌮 x 5️⃣
+
+**2**. To give someone a taco, add a taco emoji after their username
+
+- Like this: `@username your positive attitude was a real help today! :taco:`
+
+![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+
+**3**. You can give tacos to anyone on your team as long as the bot has been invited to the channel
+
+- You can invite the bot to channels using `/invite @heytaco`
+
+**4**. There is a leaderboard to see who is getting the most tacos
+
+- Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+
+**5**. Need help?
+
+- If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
 
 ### Sidebar Theme
 
