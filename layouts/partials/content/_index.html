@@ -1,0 +1,15 @@
+<!-- Content -->
+{{ if or (.Content) (.Params.image) }}
+<div class="content">
+  <!-- Hero Image -->
+  {{ if .Params.image }}
+  <div class="has-text-centered">
+    <img class="image hero mb-1 lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
+  </div>
+  {{ end }}
+  <!-- Content -->
+  {{ if .Content }}
+  {{ .Content }}
+  {{ end }}
+</div>
+{{ end }}

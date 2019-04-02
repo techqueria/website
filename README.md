@@ -1,18 +1,22 @@
 # Techqueria.org
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/techqueria/website.svg?columns=all&style=flat-square)](https://waffle.io/techqueria/website)
-
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg)](http://badges.mit-license.org)
 
 [![Codebeat badge](https://codebeat.co/badges/e73abe72-e542-48d5-95a3-b6b874e4da29)](https://codebeat.co/projects/github-com-techqueria-website-master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deef3999385443f6a24eb32848ae889e)](https://www.codacy.com/app/techqueria/website?utm_source=github.com&utm_medium=referral&utm_content=techqueria/website&utm_campaign=Badge_Grade) [![CodeFactor](https://www.codefactor.io/repository/github/techqueria/website/badge)](https://www.codefactor.io/repository/github/techqueria/website) [![LGTM - Total Alerts](https://img.shields.io/lgtm/alerts/g/techqueria/website.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/techqueria/website/alerts/)
 
+[![Open Source Helpers](https://www.codetriage.com/techqueria/website/badges/users.svg)](https://www.codetriage.com/techqueria/website) [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
+
 [![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-latinos.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
 
-[![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/729d8cea-4059-4116-b695-16dc88c9a76d/deploy-status)](https://app.netlify.com/sites/techqueria/deploys)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
-Website for [Techqueria.org](http://techqueria.org/), a community of Latinx professionals in the tech industry. 🌮
+[![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
+
+[Techqueria](http://techqueria.org/) is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+
+This repo is where we host our open-source website and soon to be member hub.
 
 ## Contributing
 
@@ -53,6 +57,9 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [William Mena](https://github.com/WilliamMena)
 - [Steven Jimenez](https://wepadev.com/)
 - [Axhon Ruiz-Gonzalez](https://github.com/axhon)
+- [Sonali Agrawal](https://github.com/sonali9696)
+- [Kristal Garcia](https://github.com/kgmajor)
+- [Enrique Novoa](https://github.com/enriquenov)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 

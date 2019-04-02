@@ -1,20 +1,16 @@
 ---
-name: Feature Request
+name: New Feature Request
 about: Suggest an idea for the website
 ---
 
-## Is your feature request related to a problem?
+## Request
 
-> A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Let's add...
 
-## Describe the solution you'd like
+## Why did you make this request?
 
-> A clear and concise description of what you want to happen.
+I need...
 
-## Describe alternatives you've considered
+## Any additional context?
 
-> A clear and concise description of any alternative solutions or features you've considered.
-
-## Additional context
-
-> Add any other context or screenshots about the feature request here.
+This needs to be...
