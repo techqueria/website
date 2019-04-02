@@ -1,6 +1,9 @@
 # Espanol
+[techqueria_is]
+other = "Techqueria es una organización 501c3 sin fines de lucro que representa una de las comunidades más grandes de Latinx profesionales en la industria de la tecnología. 🌮"
+
 [who_we_are]
-other = "Quienes somos"
+other = "Quiénes somos"
 
 [join_us]
 other = "Únete a nosotros y comparte tu experiencia con Techqueria."
@@ -8,8 +11,56 @@ other = "Únete a nosotros y comparte tu experiencia con Techqueria."
 [calling_all]
 other = "¡Llamando a todo Latinx en tecnología!"
 
+[join_us_slack]
+other = "Únete a nosotros en Slack!"
+
+[join_us_slack_description]
+other = "Nuestro espacio de trabajo de Slack provee una mejor forma de mantenerse en contacto con otros miembros de Techqueria."
+
+[join_us_slack_button]
+other = "Solicita una invitación!"
+
+[become_sponsor]
+other = "Conviértete en un Patrocinador!"
+
+[become_sponsor_description1]
+other = "Siempre estamos buscando nuevos"
+
+[become_sponsor_description2]
+other = "socios y patrocinadores"
+
+[become_sponsor_description3]
+other = "para ayudar a avanzar nuestra misión."
+
+[become_sponsor_button]
+other = "Contáctanos!"
+
+[subscribe_newsletter]
+other = "Suscríbete a nuestra newsletter!"
+
+[subscribe_newsletter_description]
+other = "Recibe nuestras últimas noticias por correo electrónico."
+
+[subscribe_newsletter_button]
+other = "Suscríbete!"
+
 [interested_sponsor]
 other = "Interesado en ser un patrocinador?"
 
-[join_us_slack]
-other = "Únete a nosotros en Slack!"
+[not_found]
+other = "Oops, parece que esta página no existe! ☠️"
+
+[go_back]
+other = "Intenta regresar al "
+
+[back_home]
+other = "inicio"
+
+[or]
+other = "o"
+
+[contact_us]
+other = "contáctanos"
+
+[to_find_what]
+other = "para ayudarle a encontrar lo que está buscando."
