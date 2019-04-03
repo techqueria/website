@@ -21,10 +21,10 @@ Construimos espacios centrados en Latinx que giran en torno a consejos profesion
 
 David Silva y Shashi Jain organizaron los primeros eventos en el NextSpace en Berkeley, CA.
 
-Más tarde, comenzamos a alojar empresas en toda el Área de la Bahía y desarrollamos nuestra comunidad gracias al trabajo de Kimberly Muñoz y CJ Joulain.
+Más adelante, comenzamos a organizar eventos en empresas de toda el Área de la Bahía y así nuestra comunidad creció gracias al trabajo de Kimberly Muñoz y CJ Joulain.
 
 LA fue el primer lugar donde realizamos eventos fuera del Área de la Bahía gracias a la ayuda de Esteban Uribe y Héctor Carmona.
 
-A medida que nuestra comunidad se mueve, formamos capítulos y nos apoyamos mutuamente en la construcción de un hogar para Latinxs en tecnología. ¡Damos la bienvenida a todos los que comparten nuestra misión!
+A medida que nuestra comunidad avanza, formamos nuevas sedes y nos apoyamos mutuamente en el desarrollo de un hogar para Latinxs en tecnología. ¡Damos la bienvenida a todos los que comparten nuestra misión!
 
-> Si está interesado en comenzar un capítulo, comuníquese con [organizers@techqueria.org](mailto:organizers@techqueria.org) o comuníquese con nosotros [a través de Slack](/es/communities/slack/).
+> Si está interesado en comenzar una sede, comuníquese con [organizers@techqueria.org](mailto:organizers@techqueria.org) o comuníquese con nosotros [a través de Slack](/es/communities/slack/).

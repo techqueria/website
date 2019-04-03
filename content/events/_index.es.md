@@ -1,6 +1,6 @@
 ---
 title: Eventos
-description: Encuentra información sobre nuestros próximos eventos con otros Latinx en tecnología.
+description: Encuentre información sobre nuestros próximos eventos con otros Latinx en tecnología.
 sortLatestFirst: true
 ---
 
