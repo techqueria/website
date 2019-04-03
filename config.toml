@@ -291,15 +291,15 @@ disqusShortname                      = "techqueria"
     url                              = "/communities/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Capítulo - Area de la Bahía"
+    name                             = "Sede - Area de la Bahía"
     url                              = "/communities/bay-area/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Capítulo - Los Angeles"
+    name                             = "Sede - Los Angeles"
     url                              = "/communities/los-angeles/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Capítulo - Nueva York"
+    name                             = "Sede - Nueva York"
     url                              = "/communities/new-york-city/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
