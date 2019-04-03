@@ -19,6 +19,14 @@
     <!-- Content -->
     <div class="card-content">
       <div class="content">
+        <!-- Description -->
+        <p>
+          {{ if .Description }}
+          {{ .Description | safeHTML }}
+          {{ else }}
+          {{ .Summary | safeHTML }}
+          {{ end }}
+        </p>
         <!-- More Info -->
         {{ partial "content/info.html" . }}
       </div>

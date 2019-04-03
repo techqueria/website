@@ -9,7 +9,7 @@ aliases:
 ---
 
 - [Overview](#overview)
-  - [Slogan](#slogan)
+  - [Slogans](#slogans)
   - [Meta Description](#meta-description)
   - [Standard Description](#standard-description)
   - [Long Description](#long-description)
@@ -25,9 +25,11 @@ aliases:
 
 ## Overview
 
-### Slogan
+### Slogans
 
 "We're a community of Latinx professionals in the tech industry."
+
+"We're one of the largest communities for Latinx professionals in the tech industry."
 
 "Techqueria is a community of Latinx professionals in the tech industry."
 

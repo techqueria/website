@@ -1,11 +1,3 @@
-<!-- Description -->
-<p class="subtitle">
-  {{ if .Description }}
-  {{ .Description | safeHTML }}
-  {{ else }}
-  {{ .Summary | safeHTML }}
-  {{ end }}
-</p>
 <!-- Location -->
 {{ with .Params.location }}
 <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ . }}</p>

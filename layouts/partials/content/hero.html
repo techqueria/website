@@ -5,6 +5,14 @@
       <h1 class="title">
         {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}
       </h1>
+      <!-- Description -->
+      <p class="subtitle">
+        {{ if .Description }}
+        {{ .Description | safeHTML }}
+        {{ else }}
+        {{ .Summary | safeHTML }}
+        {{ end }}
+      </p>
       <!-- More Info -->
       {{ partial "content/info.html" . }}
       <!-- Author -->
