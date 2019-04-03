@@ -7,11 +7,11 @@
     <!-- Categories -->
     {{ if .Params.categories }}
     <div class="column">
-      <h3>
+      <h2>
         <a href="/categories/">
           📂 Categories
         </a>
-      </h3>
+      </h2>
       <ul>
         {{ range $category := .Params.categories }}
         <li>
@@ -26,11 +26,11 @@
     <!-- Tags -->
     {{ if .Params.tags }}
     <div class="column">
-      <h3>
+      <h2>
         <a href="/tags/">
           📌 Tags
         </a>
-      </h3>
+      </h2>
       <ul>
         {{ range $tag := .Params.tags }}
         <li>
@@ -46,13 +46,13 @@
   {{ end }}
   <!-- Comment -->
   {{ if .Params.comments }}
-  <h3>💬 Comment
-  </h3>
+  <h2>💬 Comment
+  </h2>
   {{ template "_internal/disqus.html" . }}
   {{ end }}
   <!-- Sponsor Us -->
-  <h3>💵
-    {{ i18n "interested_sponsor" }}</h3>
+  <h2>💵
+    {{ i18n "interested_sponsor" }}</h2>
   <p>You can
     <a href="/contact/" rel="noopener">contact us</a>
     and we can talk about the different ways you can support our growing community of Latinx in Tech.</p>
@@ -60,7 +60,7 @@
   <a href="https://www.patreon.com/techqueria" rel="noopener" target="_blank"><img alt="Patreon" src="/assets/img/donate/patreon.svg" style="height: 3em;"></a>
   <a href="https://opencollective.com/techqueria" rel="noopener" target="_blank"><img alt="Open Collective" src="/assets/img/donate/open-collective.svg" style="height: 3em;"></a>
   <!-- Subscribe -->
-  <h3>📬 Subscribe</h3>
+  <h2>📬 Subscribe</h2>
   <p>Get new updates about Techqueria sent to your inbox by entering your email below!</p>
   <form action="https://techqueria.us16.list-manage.com/subscribe/post?u=b0e4bfe18a46d5bef899fb312&amp;id=0e1710b6ee" class="validate mb-1" method="post" name="mc-embedded-subscribe-form" novalidate target="_blank">
     <div class="field is-grouped">
@@ -79,7 +79,7 @@
     <a href="https://us16.campaign-archive.com/home/?u=b0e4bfe18a46d5bef899fb312&id=0e1710b6ee" rel="noopener" target="_blank" title="View previous email campaigns">view the previous email campaigns</a>
     to get a better idea of what is sent out.</p>
   <!-- Contribute -->
-  <h3>💻 Contribute</h3>
+  <h2>💻 Contribute</h2>
   <p>If you'd like to make this page better or notice something off, feel free to
     <a href="https://github.com/techqueria/website/issues/new/choose" rel="noopener" target="_blank">open an issue on GitHub</a>.</p>
   <p>Any help is greatly appreciated. 😊</p>

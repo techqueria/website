@@ -6,6 +6,8 @@ link: https://www.linkedin.com/in/andrea-cardona-b647594b/
 location: Austin
 weight: 1
 role: Current Organizer
+categories:
+  - austin
 ---
 
 I am currently a full stack software engineer with a passion for bringing diversity to the programming community. After spending a few years in tech on the marking and sales side of San Francisco based startups, and working in media at VICE in NY - while focusing on LatinX and Latin America growth initiatives - I realized my passion really lied to make an impact within the Tech community. I wanted to help bridge the gap between the tech and LatinX worlds.

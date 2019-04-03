@@ -7,4 +7,6 @@ location: Bay Area
 lastName: Sanchez
 weight: 6
 role: Current Organizer
+categories:
+  - bay-area
 ---

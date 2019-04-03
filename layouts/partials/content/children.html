@@ -4,22 +4,22 @@
   <!-- Sorting Option: Latest Posts First -->
   {{ if .Params.sortLatestFirst }}
   {{ range (.Sections | union .Pages).ByDate.Reverse }}
-  {{ partial "children/child.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Sorting Option: Oldest Posts First -->
   {{ else if .Params.sortOldestFirst }}
   {{ range (.Sections | union .Pages).ByDate }}
-  {{ partial "children/child.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Sort By Location -->
   {{ else if .Params.sortByLocation }}
   {{ range sort (.Sections | union .Pages) "Params.location" }}
-  {{ partial "children/child.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Default sorting option is By Title -->
   {{ else }}
   {{ range (.Sections | union .Pages).ByTitle }}
-  {{ partial "children/child.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
   {{ end }}
 </div>

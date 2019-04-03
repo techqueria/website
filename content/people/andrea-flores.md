@@ -6,4 +6,6 @@ link: https://www.linkedin.com/in/andreaf
 location: Austin
 weight: 2
 role: Current Organizer
+categories:
+  - austin
 ---

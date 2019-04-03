@@ -6,4 +6,6 @@ link: https://www.linkedin.com/in/cjoulain
 location: Bay Area
 lastName: Joulain
 role: Past Organizer
+categories:
+  - bay-area
 ---

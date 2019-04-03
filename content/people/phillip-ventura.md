@@ -6,4 +6,6 @@ link: https://www.linkedin.com/in/fvntr/
 location: Bay Area
 weight: 2
 role: Current Organizer
+categories:
+  - bay-area
 ---

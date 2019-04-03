@@ -27,7 +27,7 @@
       <!-- Looping -->
       {{ range first 3 $pages }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "card/_index.html" . }}
+        {{ partial "content/card.html" . }}
       </div>
       {{ end }}
     </div>
@@ -41,7 +41,7 @@
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "card/_index.html" . }}
+        {{ partial "content/card.html" . }}
       </div>
       {{ end }}
     </div>
@@ -55,7 +55,7 @@
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "card/_index.html" . }}
+        {{ partial "content/card.html" . }}
       </div>
       {{ end }}
     </div>
@@ -69,7 +69,7 @@
     <div class="columns is-multiline">
       {{ range first 3 (after 9 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "card/_index.html" . }}
+        {{ partial "content/card.html" . }}
       </div>
       {{ end }}
     </div>

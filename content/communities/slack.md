@@ -19,6 +19,11 @@ aliases:
   - [Channel naming conventions](#channel-naming-conventions)
   - [Mentions](#mentions)
   - [HeyTaco!](#heytaco)
+    - [1. Every person in our Slack Workspace has 5 tacos to give out per day](#1-every-person-in-our-slack-workspace-has-5-tacos-to-give-out-per-day)
+    - [2. To give someone a taco, add a taco emoji after their username](#2-to-give-someone-a-taco-add-a-taco-emoji-after-their-username)
+    - [3. You can give tacos to anyone on your team as long as the bot has been invited to the channel](#3-you-can-give-tacos-to-anyone-on-your-team-as-long-as-the-bot-has-been-invited-to-the-channel)
+    - [4. There is a leaderboard to see who is getting the most tacos](#4-there-is-a-leaderboard-to-see-who-is-getting-the-most-tacos)
+    - [5. Need help?](#5-need-help)
 - [Customization](#customization)
   - [Sidebar Theme](#sidebar-theme)
   - [Custom Status](#custom-status)
@@ -43,7 +48,9 @@ To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
-You should get an invite within 2 weeks. If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+You should get an invite within 2 weeks.
+
+If you don't get an invite by then, please email us at `organizers@techqueria.org`.
 
 ## Already a member?
 
@@ -89,6 +96,8 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
   - `#proj-`
 - Support
   - `#help-`
+- Organizers
+  - `#organizers-`
 
 ### Mentions
 
@@ -101,25 +110,27 @@ The [HeyTaco! bot](https://www.heytaco.chat) sparks conversations and builds str
 
 You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day.
 
-1. Every person in our Slack Workspace has 5 tacos to give out per day 🌮 x 5️⃣
+#### 1. Every person in our Slack Workspace has 5 tacos to give out per day
 
-2. To give someone a taco, add a taco emoji after their username
+5️⃣ 🌮
 
-   Like this: `@username your positive attitude was a real help today! :taco:`
+#### 2. To give someone a taco, add a taco emoji after their username
 
-   ![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+Like this: `@username your positive attitude was a real help today! :taco:`
 
-3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
+![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
 
-   You can invite the bot to channels using `/invite @heytaco`
+#### 3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
 
-4. There is a leaderboard to see who is getting the most tacos
+You can invite the bot to channels using `/invite @heytaco`
 
-   Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+#### 4. There is a leaderboard to see who is getting the most tacos
 
-5. Need help?
+Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
 
-   If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
+#### 5. Need help?
+
+If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
 
 ## Customization
 
@@ -161,7 +172,7 @@ Take a look at them and feel free to [add more custom emoji](https://latinos.sla
 
 There are three default channels everyone automatically gets added to upon joining.
 
-- `#admin-announcements`
+- `#announcements`
   - locked to the organizers - this is where admins/organizers will post news and information about the community at large
 - `#jobs`
   - sharing and requesting job opportunities
@@ -170,7 +181,7 @@ There are three default channels everyone automatically gets added to upon joini
 
 ### Public Channels
 
-We have created different channels to keep conversations relevant, e.g.
+We have created different channels to keep conversations relevant, for example:
 
 - `#comida`
 - `#front-end`
@@ -188,9 +199,7 @@ We monitor most activity in those channels to make sure content is relevant so i
 
 ### Location Based Channels
 
-We have a few location channels that are prefixed with `#locals-`.
-
-For example:
+We have a few location channels that are prefixed with `#locals-`, for example:
 
 - `#locals-atl`
 - `#locals-austin`
@@ -199,7 +208,7 @@ For example:
 - `#locals-la`
 - `#locals-nyc`
 - `#locals-philly`
-- `#locals-sandiego`
+- `#locals-san-diego`
 - `#locals-sf`
 
 You can use these channels to communicate with folks in those locations, whether you live there or visiting it can be a great resource.
