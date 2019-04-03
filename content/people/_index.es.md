@@ -1,9 +1,9 @@
 ---
 title: Gente
 description: "Techqueria es una organización de voluntarios que ha sido posible gracias al trabajo de varios organizadores, mentores, patrocinadores y asesores."
-url: "/people/"
-sortByLocation: true
 layout: "people"
+noTimeEstimate: true
+sortByLocation: true
 ---
 
 Techqueria es una organización de voluntarios que ha sido posible gracias al trabajo de varios organizadores, mentores, patrocinadores y asesores.

@@ -1,6 +1,6 @@
 # English
 [techqueria_is]
-other = "Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮"
+other = "We're one of the largest communities for Latinx professionals in the tech industry. 🌮"
 
 [who_we_are]
 other = "Who We Are"
@@ -18,10 +18,10 @@ other = "Join us in Slack!"
 other = "Our Slack workspace provides a more engaged way to stay in touch with fellow Techqueria members."
 
 [join_us_slack_button]
-other = "Request an invite!"
+other = "Request an invite"
 
 [become_sponsor]
-other = "Become a Sponsor!"
+other = "Become a Sponsor"
 
 [become_sponsor_description1]
 other = "We're always looking for new"
@@ -33,16 +33,16 @@ other = "partners and sponsors"
 other = "to help move our mission forward."
 
 [become_sponsor_button]
-other = "Contact us!"
+other = "Contact us"
 
 [subscribe_newsletter]
-other = "Subscribe to our newsletter!"
+other = "Subscribe to our newsletter"
 
 [subscribe_newsletter_description]
 other = "Get the latest updates by email."
 
 [subscribe_newsletter_button]
-other = "Subscribe!"
+other = "Subscribe"
 
 [interested_sponsor]
 other = "Interested in becoming a sponsor?"
@@ -112,3 +112,6 @@ other = "contact us"
 
 [to_find_what]
 other = "to find what you're looking for."
+
+[comment]
+other = "Comment"

@@ -1,0 +1,29 @@
+<!-- Twemoji -->
+<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.0"></script>
+<!-- Custom JS -->
+<script src="/assets/js/app.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88917358-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'UA-88917358-1');
+
+</script>
+<!-- Service Worker -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').then(registration => {
+        console.info('The service worker was registered! 🎉', registration);
+      }).catch(registrationError => {
+        console.error('The service worker registration failed. 😭️', registrationError);
+      });
+    });
+  }
+
+</script>

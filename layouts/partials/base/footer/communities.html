@@ -1,0 +1,21 @@
+<div class="column is-3">
+  <p class="mb-1 is-size-5">
+    <b>{{ i18n "communities" }}</b>
+  </p>
+  <!-- Sections & Pages - Communities -->
+  {{ with .Site.GetPage "/communities" }}
+  {{ range (.Sections | union .Pages).ByTitle }}
+  <!-- Looping through communities-->
+  <p>
+    <a {{ if .Params.link }} href="{{ .Params.link }}" target="_blank" rel="noopener" {{ else }} href="{{ .RelPermalink }}" {{ end }} class="link--techqueria">
+      {{ if .Params.identifier }}
+      {{ .Title }}
+      <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
+      {{ else }}
+      {{ .Title }}
+      {{ end }}
+    </a>
+  </p>
+  {{ end }}
+  {{ end }}
+</div>
