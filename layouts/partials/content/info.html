@@ -1,28 +1,28 @@
 <!-- Description -->
 <p class="subtitle">
   {{ if .Description }}
-  {{ .Description | truncate 100 | safeHTML }}
+  {{ .Description | safeHTML }}
   {{ else }}
-  {{ .Summary | truncate 100 | safeHTML }}
+  {{ .Summary | safeHTML }}
   {{ end }}
 </p>
 <!-- Location -->
 {{ with .Params.location }}
-<p class="has-text-weight-light mt-sm has-text-dark">{{ . }}</p>
+<p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ . }}</p>
 {{ end }}
 <!-- Role -->
 {{ with .Params.role }}
-<p class="has-text-weight-light mt-sm has-text-dark">{{ . }}</p>
+<p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ . }}</p>
 {{ end }}
 <!-- Date -->
 {{ if not .PublishDate.IsZero }}
-<p class="has-text-weight-light mt-sm has-text-dark">{{ dateFormat "Monday - January 2, 2006" .Date }}</p>
+<p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ dateFormat "Monday - January 2, 2006" .Date }}</p>
 {{ end }}
 <!-- Reading Time & Word Count -->
 {{- if not .Params.noTimeEstimate }}
 {{- if gt .ReadingTime 1 }}
 {{- if .WordCount }}
-<p class="has-text-weight-light mt-sm has-text-dark">{{ .ReadingTime }}
+<p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ .ReadingTime }}
   min read ∙
   {{ .WordCount }}
   words</p>

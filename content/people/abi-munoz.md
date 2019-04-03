@@ -7,4 +7,5 @@ location: New York City
 role: Past Organizer
 categories:
   - nyc
+  - past-organizer
 ---
