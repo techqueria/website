@@ -10,7 +10,7 @@ noTimeEstimate: true
 
 [organizers@techqueria.org](mailto:organizers@techqueria.org)
 
-### Flojo
+### Slack
 
 Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
 
