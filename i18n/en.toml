@@ -47,6 +47,18 @@ other = "Subscribe!"
 [interested_sponsor]
 other = "Interested in becoming a sponsor?"
 
+[you_can]
+other = "You can"
+
+[interested_contact_us]
+other = "contact us"
+
+[and_we_can]
+other = "and we can talk about the different ways you can support our growing community of Latinx in Tech."
+
+[there_is_also]
+other = "There's also the option of by becoming an ongoing patron via Patreon or Open Collective."
+
 [not_found]
 other = "Woops, this page doesn't seem to exist! ☠️"
 

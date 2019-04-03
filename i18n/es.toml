@@ -47,11 +47,23 @@ other = "Suscríbete!"
 [interested_sponsor]
 other = "Interesado en ser un patrocinador?"
 
+[you_can]
+other = "Puede"
+
+[interested_contact_us]
+other = "contactarnos"
+
+[and_we_can]
+other = "y podemos conversar sobre las múltiples maneras en las que podría apoyar a nuestra creciente comunidad de Latinx en tecnología."
+
+[there_is_also]
+other = "También existe la opción de convertirse en un patrocinador activo a través de Patreon o Open Collective."
+
 [not_found]
 other = "Oops, parece que esta página no existe! ☠️"
 
 [go_back]
-other = "Intenta regresar al "
+other = "Intente regresar al "
 
 [back_home]
 other = "inicio"
@@ -60,7 +72,7 @@ other = "inicio"
 other = "o"
 
 [contact_us]
-other = "contáctanos"
+other = "contáctenos"
 
 [to_find_what]
 other = "para ayudarle a encontrar lo que está buscando."
