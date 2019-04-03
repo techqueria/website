@@ -86,6 +86,15 @@ other = "open an issue on GitHub"
 [any_help]
 other = "Any help is greatly appreciated."
 
+[powered_by]
+other = "Powered by Latinx since"
+
+[sitemap]
+other = "Sitemap"
+
+[communities]
+other = "Communities"
+
 [not_found]
 other = "Woops, this page doesn't seem to exist! ☠️"
 
