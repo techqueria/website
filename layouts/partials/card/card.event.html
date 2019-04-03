@@ -10,19 +10,29 @@
   <!-- Title -->
   <header class="card-header">
     <h2 class="card-header-title">
-      {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ if .Title}}{{ .Title | truncate 50 }}{{ end }}
+      {{ if .Params.partnerEvent }}Partner Event:
+      {{ end }}
+      {{ if .Title}}
+      {{ .Title | truncate 50 }}
+      {{ end }}
     </h2>
   </header>
   <!-- Description -->
   <div class="card-content">
     <div class="content">
       {{ if not .PublishDate.IsZero }}
-      <p class="subtitle mb-1"><time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time></p>
+      <p class="subtitle mb-1">
+        <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>
+      </p>
       {{ end }}
       {{ with .Params.location }}
       <p class="subtitle mb-1">{{ . }}</p>
       {{ end }}
-      {{ if .Description }} {{ .Description | truncate 100 | safeHTML }} {{ else }} {{ .Summary | truncate 200 | safeHTML }} {{ end }}
+      {{ if .Description }}
+      {{ .Description | truncate 100 | safeHTML }}
+      {{ else }}
+      {{ .Summary | truncate 200 | safeHTML }}
+      {{ end }}
     </div>
   </div>
   <!-- Date -->
@@ -31,7 +41,7 @@
     {{ if .Params.link }}
     {{ if not (.Date.Before now) }}
     <a href="{{ .Params.link }}" class="card-footer-item" target="_blank" rel="noopener">📝 RSVP now</a>&nbsp;
-    {{end}}
+    {{ end }}
     {{ end }}
   </footer>
 </div>

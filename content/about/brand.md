@@ -31,15 +31,15 @@ aliases:
 
 "Techqueria is a community of Latinx professionals in the tech industry."
 
-"Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
+"Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
 
 ### Meta Description
 
-Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
 
 ### Standard Description
 
-Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
 
 We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source.
 
@@ -49,7 +49,7 @@ https://techqueria.org
 
 ### Long Description
 
-Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
 
 We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
@@ -145,7 +145,9 @@ $techqueria-brown-dark: #46352f;
 
 ## Typography
 
-[Rubik font](https://fonts.google.com/specimen/Rubik)
+[Rubik font](https://fonts.google.com/specimen/Rubik) is used for the website.
+
+Our logos use [Source San Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Rubik](https://fonts.google.com/specimen/Rubik) with a plan in progress to use Rubik for all our logos in the future.
 
 ## Photography
 
@@ -153,9 +155,7 @@ See our [Stock Photos](/about/stock-photos/) page.
 
 ## Logos
 
-Our logos use [Source San Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Rubik](https://fonts.google.com/specimen/Rubik) with a plan in progress to use Rubik for all our logos in the future.
-
-You can view all our design assets using [this Figma link](https://www.figma.com/file/I33DuKmkVHxSKdkFCE7LqlHu/Techqueria) but you can download any of these images below by clicking on them.
+You can view all our design assets using [this Figma link](https://www.figma.com/file/I33DuKmkVHxSKdkFCE7LqlHu/Techqueria) and you can download any of these images below by clicking on them.
 
 ### Transparent
 

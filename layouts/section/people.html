@@ -1,74 +1,34 @@
 {{ define "main" }}
-<!-- TODO: Optimize templates for scalability -->
+<!-- Pages -->
 {{ $pages := (.Sections | union .Pages).ByWeight }}
-<!-- {{ $pagesSortedByLastName := ($pages.ByParam "lastName") }} -->
 <!-- Hero -->
-{{ partial "content/hero/_index.html" . }}
+{{ partial "content/hero.html" . }}
 <!-- Page -->
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
-    {{ partial "content/breadcrumbs.html" . }}
+    {{ partial "custom/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
+    <!-- Filters -->
     <div class="content mt-2">
       <h2>Bay Area</h2>
+      <!-- Bay Area, New York City, Los Angeles, Austin -->
     </div>
+    <!-- People -->
     <div class="columns is-multiline">
       {{ range $pages }}
-      {{ if and (eq .Params.location "Bay Area") (not (eq .Params.role "Past Organizer")) }}
-      {{ partial "content/children/child.html" . }}
-      {{ end }}
+      {{ partial "children/child.html" . }}
       {{ end }}
     </div>
-    <div class="content mt-2">
-      <h2>New York City</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range $pages }}
-      {{ if and (eq .Params.location "New York City") (not (eq .Params.role "Past Organizer")) }}
-      {{ partial "content/children/child.html" . }}
-      {{ end }}
-      {{ end }}
-    </div>
-    <div class="content mt-2">
-      <h2>Los Angeles</h2>
-    </div>
-    <!-- Los Angeles - Children Pages -->
-    <div class="columns is-multiline">
-      {{ range $pages }}
-      {{ if and (eq .Params.location "Los Angeles") (not (eq .Params.role "Past Organizer")) }}
-      {{ partial "content/children/child.html" . }}
-      {{ end }}
-      {{ end }}
-    </div>
-    <div class="content mt-2">
-      <h2>Austin</h2>
-    </div>
-    <!-- Austin - Children Pages -->
-    <div class="columns is-multiline">
-      {{ range $pagesSortedByLastName }}
-      {{ if and (eq .Params.location "Austin") (not (eq .Params.role "Past Organizer")) }}
-      {{ partial "content/children/child.html" . }}
-      {{ end }}
-      {{ end }}
-    </div>
-    <!-- Past Organizers -->
-    <div class="content mt-2">
-      <h2>Past Organizers</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range $pages }}
-      {{ if eq .Params.role "Past Organizer" }}
-      {{ partial "content/children/child.html" . }}
-      {{ end }}
-      {{ end }}
-    </div>
+    <!-- Developers -->
     <div class="content mt-2">
       <h2>Developers</h2>
-      <p>We get a lot of help from the open source community - you can see <a href="https://github.com/techqueria/website/graphs/contributors" rel="noopener" target="_blank">view our website contributors</a> on our GitHub repo.</p>
+      <p>We get a lot of help from the open source community - you can see
+        <a href="https://github.com/techqueria/website/graphs/contributors" rel="noopener" target="_blank">view our website contributors</a>
+        on our GitHub repo.</p>
     </div>
     <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
+    {{ partial "content/footer.html" . }}
 </section>
 {{ end }}

@@ -1,4 +1,4 @@
-<nav class="breadcrumb mb-2" aria-label="breadcrumbs">
+<nav aria-label="breadcrumbs" class="breadcrumb mb-2">
   <ul>
     {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
   </ul>
@@ -9,5 +9,7 @@
 {{ else if not .p1.IsHome }}
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
 {{ end }}
-<li {{ if eq .p1 .p2 }} class="is-active" {{ end }}><a href="{{ .p1.Permalink }}" {{ if eq .p1 .p2 }} aria-current="page" {{ end }}>{{ .p1.Title }}</a></li>
+<li {{ if eq .p1 .p2 }} class="is-active" {{ end }}>
+  <a href="{{ .p1.Permalink }}" {{ if eq .p1 .p2 }} aria-current="page" {{ end }}>{{ .p1.Title }}</a>
+</li>
 {{ end }}

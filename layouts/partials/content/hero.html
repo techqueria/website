@@ -1,0 +1,36 @@
+<section class="hero is-medium is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Title -->
+      <h1 class="title">
+        {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}
+      </h1>
+      <!-- Description -->
+      <h2 class="subtitle">
+        {{ .Description }}
+      </h2>
+      <!-- Author -->
+      {{ partial "custom/person.html" . }}
+      <!-- Location -->
+      {{ with .Params.location }}
+      <p class="mb-1 has-text-dark"><span class="has-text-weight-semibold">Location:</span> {{ . }} </p>
+      {{ end }}
+      <!-- Role -->
+      {{ with .Params.role }}
+      <p class="mb-1 has-text-dark"><span class="has-text-weight-semibold">Role with Techqueria:</span> {{ . }}</p>
+      {{ end }}
+      <!-- External Link -->
+      {{ if .Params.link }}
+      <a class="button is-link is-inverted is-large" href="{{ .Params.link }}" target="_blank" rel="noopener">
+        {{ if in .Params.link "linkedin.com/in/" }}LinkedIn Profile ➡{{ else }}More info ➡{{ end }}
+      </a>
+      {{ end }}
+      <!-- Event Link -->
+      {{ if .Params.eventLink }}
+      <a class="button is-link is-inverted is-large" href="{{ .Params.eventLink }}" target="_blank" rel="noopener">
+        Register for the event ➡
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>

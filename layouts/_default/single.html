@@ -1,17 +1,17 @@
 {{ define "main" }}
 <!-- Hero -->
-{{ partial "content/hero/_index.html" . }}
+{{ partial "content/hero.html" . }}
 <!-- Content -->
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
     {{ if ne .Section "blog" }}
-    {{ partial "content/breadcrumbs.html" . }}
+    {{ partial "custom/breadcrumbs.html" . }}
     {{ end }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
+    {{ partial "content/footer.html" . }}
   </div>
 </section>
 <!-- End Main -->

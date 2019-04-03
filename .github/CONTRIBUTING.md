@@ -14,6 +14,8 @@
   - [Tools](#tools)
   - [Platforms](#platforms)
   - [Languages](#languages)
+  - [Coding Guidelines](#coding-guidelines)
+    - [File Size](#file-size)
   - [Content Updates](#content-updates)
     - [People](#people)
     - [Companies](#companies)
@@ -85,7 +87,7 @@ Showcase your contributions through LinkedIn with Techqueria's company profile: 
 Just make sure to use the description below and you can briefly describe what you did as well.
 
 ```txt
-Techqueria is a 501c3 non-profit representing one of the largest communities for Latinx professionals in the tech industry.
+Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry.
 
 - Contributed to their open source website through translations and bug fixes
 ```
@@ -182,11 +184,19 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 - TOML
 - JSON
 
+### Coding Guidelines
+
+#### File Size
+
+For files longer than 500 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "custom/breadcrumbs.html" . }}`.
+
 ### Content Updates
 
 #### People
 
 When adding a new person, make sure to use their LinkedIn profile as the URL and download their LinkedIn profile picture so we can host it locally.
+
+> Organizing Team
 
 ```markdown
 ---
@@ -197,6 +207,29 @@ link: https://www.linkedin.com/in/fvcproductions
 location: Bay Area
 role: Open Source Lead, Slack Admin
 ---
+```
+
+> Patreon Supporters
+
+```markdown
+---
+title: Liliana A Monge
+description: Co-Founder & CEO
+image: "/assets/img/people/liliana-a-monge.jpg"
+link: https://www.linkedin.com/in/lilianamonge
+tier: "Core - $25 or more per month"
+---
+```
+
+> Tier Options
+
+```txt
+Friend - $1 or more per month
+Supporter - $5 or more per month
+Advocate - $10 or more per month
+Core - $25 or more per month
+Patron - $50 or more per month
+Champion - $100 or more per month
 ```
 
 #### Companies

@@ -12,8 +12,17 @@ aliases:
 
 - [Join us!](#join-us)
 - [Already a member?](#already-a-member)
-- [New to Slack?](#new-to-slack)
+- [Never used Slack before?](#never-used-slack-before)
 - [Code of Conduct](#code-of-conduct)
+- [Best Practices](#best-practices)
+  - [Use threads](#use-threads)
+  - [Channel naming conventions](#channel-naming-conventions)
+  - [Mentions](#mentions)
+  - [HeyTaco!](#heytaco)
+- [Customization](#customization)
+  - [Sidebar Theme](#sidebar-theme)
+  - [Custom Status](#custom-status)
+  - [Emojis](#emojis)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
   - [Public Channels](#public-channels)
@@ -21,16 +30,7 @@ aliases:
   - [Private Channels](#private-channels)
   - [Meta](#meta)
   - [Requesting A Channel](#requesting-a-channel)
-- [Best Practices](#best-practices)
-  - [Use threads](#use-threads)
-  - [Channel naming conventions](#channel-naming-conventions)
-  - [Mentions](#mentions)
-- [Customization](#customization)
-  - [HeyTaco!](#heytaco)
-  - [Sidebar Theme](#sidebar-theme)
-  - [Custom Status](#custom-status)
-  - [Emojis](#emojis)
-- [New to Slack?](#new-to-slack-1)
+- [Intro to Slack](#intro-to-slack)
   - [Slack Demo](#slack-demo)
   - [Slack Foundry](#slack-foundry)
   - [Getting Started Guide](#getting-started-guide)
@@ -49,11 +49,11 @@ You should get an invite within 2 weeks. If you don't get an invite by then, ple
 
 If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
 
-<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/go-to-slack.png"></a>
+<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
 
-## New to Slack?
+## Never used Slack before?
 
-If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
+If you are new to Slack, please check out our [**Intro to Slack**](#intro-to-slack) section first.
 
 ## Code of Conduct
 
@@ -66,6 +66,94 @@ Unprofessional behavior is **not** acceptable so if you feel that someone is bre
 You can contact and admin by using the command `/admin` in Slack followed by your message.
 
 ![Admin](/assets/img/slack/admin.png)
+
+## Best Practices
+
+### Use threads
+
+This convo in the `#website` channel could have been 28 separate messages! 🤯
+
+Instead, with threads - it turned into a more rich and focused discussion. 😌
+
+![Threads](https://i.imgur.com/H9KWoqD.jpg)
+
+### Channel naming conventions
+
+- Locations
+  - `#locals-`
+- Website
+  - `#website-`
+- Teams
+  - `#team-`
+- Projects
+  - `#proj-`
+- Support
+  - `#help-`
+
+### Mentions
+
+- Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
+- If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
+
+### HeyTaco!
+
+The [HeyTaco! bot](https://www.heytaco.chat) sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
+
+You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day.
+
+1. Every person in our Slack Workspace has 5 tacos to give out per day 🌮 x 5️⃣
+
+2. To give someone a taco, add a taco emoji after their username
+
+   Like this: `@username your positive attitude was a real help today! :taco:`
+
+   ![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+
+3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
+
+   You can invite the bot to channels using `/invite @heytaco`
+
+4. There is a leaderboard to see who is getting the most tacos
+
+   Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+
+5. Need help?
+
+   If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
+
+## Customization
+
+All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
+
+### Sidebar Theme
+
+Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
+
+`#FFFFFF,#FFFFFF,#FBAE52,#000000,#FBAE52,#000000,#FF551F,#FF551F`
+
+![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
+
+### Custom Status
+
+Something fun we do in Techqueria's Slack is [setting a custom status](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) with a flag representing our Latinx heritage/background.
+
+![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
+
+![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
+
+If you want to put multiple flags, you can do that too!
+
+![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
+
+### Emojis
+
+When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added. 🎉
+
+You can find images for things like arepa, empanada, baseball teams, avocado, etc.
+
+Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
+
+![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 
 ## Channels
 
@@ -146,103 +234,7 @@ If you'd like to participate in the conversation about the future of the communi
 
 Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
 
-## Best Practices
-
-### Use threads
-
-This convo in the `#website` channel could have been 28 separate messages! 🤯
-
-Instead, with threads - it turned into a more rich and focused discussion. 😌
-
-![Threads](https://i.imgur.com/H9KWoqD.jpg)
-
-### Channel naming conventions
-
-- Locations
-  - `#locals-`
-- Website
-  - `#website-`
-- Teams
-  - `#team-`
-- Projects
-  - `#proj-`
-- Support
-  - `#help-`
-
-### Mentions
-
-- Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
-- If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
-
-## Customization
-
-All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
-
-### HeyTaco!
-
-The HeyTaco! bot sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
-
-Their model fits perfectly with Techqueria's brand so we were so glad when the founders decided to offer us a community discount, making it completely free for all 3000+ of our Slack members when it usually costs \$2 bucks per person per month. 🤯
-
-You can learn more about HeyTaco! at [https://www.heytaco.chat](https://www.heytaco.chat)
-
-#### How @heytaco works 📌
-
-You can use @heytaco to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day. `:hey-taco:`
-
-**1**. Every person in our Slack Workspace has 5 tacos to give out per day
-
-- 🌮 x 5️⃣
-
-**2**. To give someone a taco, add a taco emoji after their username
-
-- Like this: `@username your positive attitude was a real help today! :taco:`
-
-![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
-
-**3**. You can give tacos to anyone on your team as long as the bot has been invited to the channel
-
-- You can invite the bot to channels using `/invite @heytaco`
-
-**4**. There is a leaderboard to see who is getting the most tacos
-
-- Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
-
-**5**. Need help?
-
-- If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
-
-### Sidebar Theme
-
-Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
-
-`#FFFFFF,#FFFFFF,#FBAE52,#000000,#FBAE52,#000000,#FF551F,#FF551F`
-
-![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
-
-### Custom Status
-
-Something fun we do in Techqueria's Slack is [setting a custom status](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) with a flag representing our Latinx heritage/background.
-
-![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
-
-![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
-
-If you want to put multiple flags, you can do that too!
-
-![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
-
-### Emojis
-
-When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added. 🎉
-
-You can find images for things like arepa, empanada, baseball teams, avocado, etc.
-
-Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
-
-![Empanada](https://i.imgur.com/2lUgWs2.jpg)
-
-## New to Slack?
+## Intro to Slack
 
 ### Slack Demo
 

@@ -10,11 +10,13 @@
 <div class="columns is-multiline mb-2">
   <!-- Looping -->
   {{ range $pages.ByDate }}
-  {{ if .Date.Before now }} {{ else }}
+  {{ if .Date.Before now }}
+  {{ else }}
   <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "content/card/card.event.html" . }}
+    {{ partial "card/card.event.html" . }}
   </div>
-  {{ end }} {{ end }}
+  {{ end }}
+  {{ end }}
 </div>
 <!-- Past Events -->
 <div class="content">
@@ -25,9 +27,11 @@
   {{ range $pages.ByDate.Reverse }}
   {{ if .Date.Before now }}
   <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "content/card/card.event.html" . }}
+    {{ partial "card/card.event.html" . }}
   </div>
-  {{ else }} {{ end }} {{ end }}
+  {{ else }}
+  {{ end }}
+  {{ end }}
 </div>
 {{ end }}
 <hr>

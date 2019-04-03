@@ -1,0 +1,92 @@
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <!-- Who We Are -->
+      <div class="column is-6">
+        <h6 class="mb-1">
+          <b>{{ i18n "who_we_are" }}</b>
+        </h6>
+        <img src="/assets/img/logos/logo-rectangle.png" alt="{{ .Title }}" width="300">
+        <br>
+        <br>
+        <p>{{ i18n "calling_all" }}</p>
+        <br>
+        <p>{{ i18n "join_us" }}</p>
+        <br>
+        <!-- Language Dropdown -->
+        {{ if .IsTranslated }}
+        <div class="dropdown is-hoverable">
+          <div class="dropdown-trigger">
+            <button aria-controls="language-dropdown-menu" aria-haspopup="true" class="button">
+              <span>{{ .Language.LanguageName }}</span>
+              <span class="icon is-small">
+                <i aria-hidden="true" class="fas fa-angle-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="language-dropdown-menu" role="menu">
+            <div class="dropdown-content">
+              {{ range .Translations }}
+              <a href="{{ .RelPermalink }}" class="dropdown-item">{{ .Language.LanguageName }}</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <!-- Sitemap -->
+      <div class="column is-3">
+        <h6 class="mb-1">
+          <b>Sitemap</b>
+        </h6>
+        <!-- Pages -->
+        {{ $pages := where .Site.RegularPages "Type" "page" }}
+        <!-- Section Pages -->
+        {{ $pages := $pages | union (.Site.Sections) }}
+        <!-- Looping -->
+        {{ range $pages.ByTitle }}
+        <p>
+          <a {{ if .Params.link }} href="{{ .Params.link }}" target="_blank" rel="noopener" {{ else }} href="{{ .RelPermalink }}" {{ end }} class="link--techqueria">
+            {{.Title}}
+          </a>
+        </p>
+        {{ end }}
+      </div>
+      <!-- Communities -->
+      <div class="column is-3">
+        <h6 class="mb-1">
+          <b>Communities</b>
+        </h6>
+        <!-- Sections & Pages - Communities -->
+        {{ with .Site.GetPage "/communities" }}
+        {{ range (.Sections | union .Pages).ByTitle }}
+        <!-- Looping through communities-->
+        <p>
+          <a {{ if .Params.link }} href="{{ .Params.link }}" target="_blank" rel="noopener"{{ else }} href="{{ .RelPermalink }}"{{ end }} class="link--techqueria">
+            {{ if .Params.identifier }}
+            {{ .Title }}
+            <i class="footer-icons {{ .Params.identifier }}" alt="{{ .Params.Title }}" title="{{ .Params.Title }}"></i>
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+          </a>
+        </p>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <br>
+    <!-- Copyright -->
+    <div class="content has-text-centered">
+      {{ with .Site.Params.copyright }}
+      <span class="is-size-1">🌮</span>️
+      <p>
+        <a class="link--techqueria" href="/">{{ . }}</a>
+      </p>
+      {{ end }}
+      <!-- Year -->
+      <p>Powered by Latinx since
+        {{ .Site.Params.year }}</p>
+    </div>
+  </div>
+</footer>

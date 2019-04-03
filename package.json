@@ -1,17 +1,17 @@
 {
   "name": "techqueria",
   "version": "1.0.0",
-  "description": "Techqueria is a 501c3 nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮",
+  "description": "Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮",
   "repository": "techqueria/website",
   "main": "app.js",
   "scripts": {
-    "build": "gulp build",
     "build:dev": "gulp build-dev",
-    "start": "gulp server",
-    "start:prod": "gulp server-prod",
-    "start:preview": "gulp server-preview",
+    "build": "gulp build",
+    "clean": "gulp clean",
     "lint": "eslint assets/js",
-    "clean": "gulp clean"
+    "start:preview": "gulp server-preview",
+    "start:prod": "gulp server-prod",
+    "start": "gulp server"
   },
   "author": "Frances Coronel",
   "license": "MIT",

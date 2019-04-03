@@ -27,49 +27,49 @@
       <!-- Looping -->
       {{ range first 3 $pages }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/_index.html" . }}
+        {{ partial "card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- CTA - Join Slack -->
-{{ partial "content/cta/cta.slack.html" . }}
+{{ partial "cta/cta.slack.html" . }}
 <!-- Second 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/_index.html" . }}
+        {{ partial "card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- CTA - Become a sponsor -->
-{{ partial "content/cta/cta.sponsor.html" . }}
+{{ partial "cta/cta.sponsor.html" . }}
 <!-- Third 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/_index.html" . }}
+        {{ partial "card/_index.html" . }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- CTA - Subscribe to newsletter -->
-{{ partial "content/cta/cta.newsletter.html" . }}
+{{ partial "cta/cta.newsletter.html" . }}
 <!-- Last 3 Pages -->
 <section class="section page">
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 9 $pages) }}
       <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/_index.html" . }}
+        {{ partial "card/_index.html" . }}
       </div>
       {{ end }}
     </div>

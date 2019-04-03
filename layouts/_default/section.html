@@ -1,15 +1,15 @@
 {{ define "main" }}
 <!-- Hero -->
-{{ partial "content/hero/_index.html" . }}
+{{ partial "content/hero.html" . }}
 <!-- Page -->
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
-    {{ partial "content/breadcrumbs.html" . }}
+    {{ partial "custom/breadcrumbs.html" . }}
     <!-- if events page -->
     {{ if eq .Section "events" }}
     <!-- Children -->
-    {{ partial "content/children/_index.html" . }}
+    {{ partial "children/_index.html" . }}
     <hr>
     <!-- Content -->
     {{ partial "content/_index.html" . }}
@@ -17,10 +17,10 @@
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Children -->
-    {{ partial "content/children/_index.html" . }}
+    {{ partial "children/_index.html" . }}
     {{ end }}
     <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
+    {{ partial "content/footer.html" . }}
   </div>
 </section>
 {{ end }}
