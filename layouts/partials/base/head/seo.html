@@ -1,75 +1,27 @@
-<!--
-  _____         _                           _
- |_   _|__  ___| |__   __ _ _   _  ___ _ __(_) __ _
-   | |/ _ \/ __| '_ \ / _` | | | |/ _ \ '__| |/ _` |
-   | |  __/ (__| | | | (_| | |_| |  __/ |  | | (_| |
-   |_|\___|\___|_| |_|\__, |\__,_|\___|_|  |_|\__,_|
-                         |_|
-
-  {\__/}
-  (●_●)
-  ( >🌮
-
-	I see you're a Latinx developer...
-
-	You should definitely contribute to this website!
-
-	©️ Techqueria.org
-  -->
-<!-- Web Basics -->
-<meta charset="utf-8">
-<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
-<meta name="HandheldFriendly" content="True">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="MobileOptimized" content="320">
-<meta name="robots" content="index, follow">
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="google" content="notranslate">
-<meta name="google-site-verification" content="eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-<!-- Preload/Prefetch/Preconnect -->
-<link rel="dns-prefetch" href="https://use.fontawesome.com">
-<link rel="dns-prefetch" href="https://www.fonts.googleapis.com">
-<link rel="dns-prefetch" href="https://twemoji.maxcdn.com">
-<link rel="dns-prefetch" href="https://i.imgur.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="preconnect" href="{{ .Site.BaseURL }}">
-<link rel="preload" href="/assets/css/styles.css" as="style">
-<!-- Styling -->
-<!-- Google Fonts - Rubik -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,700">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="/assets/css/styles.css">
-<!-- SEO -->
 <meta itemprop="description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta itemprop="image" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
 <meta name="application-name" content="{{ .Site.Title }}">
 <meta name="DC.description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta name="DC.title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <meta name="description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
-<meta name="HandheldFriendly" content="True">
+<meta content="True" name="HandheldFriendly">
 <meta name="image" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="MobileOptimized" content="320">
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="320" name="MobileOptimized">
 <meta name="msapplication-tooltip" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
-<meta name="msapplication-window" content="width=device-width;height=device-height">
-<meta name="robots" content="index, follow">
+<meta content="width=device-width;height=device-height" name="msapplication-window">
+<meta content="index, follow" name="robots">
 <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-<meta name="twitter:card" content="summary_large_image">
+<meta content="summary_large_image" name="twitter:card">
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta name="twitter:image:src" content="{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}">
 <meta name="twitter:text:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport">
 <meta property="dcterms:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
 <meta property="dcterms:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.description | truncate 150 }}{{ end }}">
@@ -88,8 +40,8 @@
 {{ end }}
 <!-- Twitter -->
 {{ with .Site.Social.twitter }}
-<meta name="twitter:creator" content="@{{ . }}">
-<meta name="twitter:site" content="@{{ . }}">
+<meta content="@{{ . }}" name="twitter:creator">
+<meta content="@{{ . }}" name="twitter:site">
 {{ end }}
 <!-- Author -->
 {{ with $.Site.Author.name }}
@@ -98,8 +50,8 @@
 {{ end }}
 <!-- Facebook -->
 {{ with .Site.Social.facebook }}
-<meta property="article:author" content="https://www.facebook.com/{{ . }}">
-<meta property="article:publisher" content="https://www.facebook.com/{{ . }}">
+<meta content="https://www.facebook.com/{{ . }}" property="article:author">
+<meta content="https://www.facebook.com/{{ . }}" property="article:publisher">
 {{ end }}
 <!-- Google Site Verification -->
 {{ with .Site.Params.google_site_verification }}
@@ -111,7 +63,7 @@
 {{ end }}
 <!-- Blog Post -->
 {{ if .IsPage }}
-<meta property="article:section" content="Blog">
+<meta content="Blog" property="article:section">
 <meta itemprop="wordCount" content="{{ .WordCount }}">
 {{ end }}
 <!-- Check for valid date -->
@@ -170,51 +122,3 @@
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 {{ end }}
 {{ end }}
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/114x114.png">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/favicons/120x120.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/144x144.png">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/favicons/152x152.png">
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/favicons/180x180.png">
-<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/assets/img/favicons/192x192.png">
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicons/57x57.png">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/img/favicons/60x60.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/72x72.png">
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/favicons/76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicons/120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/180x180.png">
-<link rel="apple-touch-icon" sizes="192x192" href="/assets/img/favicons/192x192.png">
-<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicons/60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicons/72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicons/76x76.png">
-<link rel="icon" sizes="128x128" type="image/png" href="/assets/img/favicons/128x128.png">
-<link rel="icon" sizes="144x144" type="image/png" href="/assets/img/favicons/144x144.png">
-<link rel="icon" sizes="16x16 32x32" type="image/x-icon" href="/favicon.ico?v=2">
-<link rel="icon" sizes="16x16" type="image/png" href="/assets/img/favicons/16x16.png">
-<link rel="icon" sizes="192x192" type="image/png" href="/assets/img/favicons/192x192.png">
-<link rel="icon" sizes="196x196" type="image/png" href="/assets/img/favicons/196x196.png">
-<link rel="icon" sizes="256x256" type="image/png" href="/assets/img/favicons/256x256.png">
-<link rel="icon" sizes="32x32" type="image/png" href="/assets/img/favicons/32x32.png">
-<link rel="icon" sizes="36x36" type="image/png" href="/assets/img/favicons/36x36.png">
-<link rel="icon" sizes="384x384" type="image/png" href="/assets/img/favicons/384x384.png">
-<link rel="icon" sizes="48x48" type="image/png" href="/assets/img/favicons/48x48.png">
-<link rel="icon" sizes="512x512" type="image/png" href="/assets/img/favicons/512x512.png">
-<link rel="icon" sizes="72x72" type="image/png" href="/assets/img/favicons/72x72.png">
-<link rel="icon" sizes="96x96" type="image/png" href="/assets/img/favicons/96x96.png">
-<link rel="manifest" href="/manifest.json?v=2">
-<link rel="mask-icon" color="#fbae52" href="/assets/img/favicons/114x114.png">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="msapplication-config" content="/browserconfig.xml">
-<meta name="msapplication-square150x150logo" content="/assets/img/favicons/150x150.png">
-<meta name="msapplication-square310x310logo" content="/assets/img/favicons/310x310.png">
-<meta name="msapplication-square70x70logo" content="/assets/img/favicons/70x70.png">
-<meta name="msapplication-TileColor" content="#fbae52">
-<meta name="msapplication-TileImage" content="/assets/img/favicons/144x144.png">
-<meta name="msapplication-wide310x150logo" content="/assets/img/favicons/310x150.png">
-<meta name="theme-color" content="#fbae52">
-<!-- Structured Data -->
-{{ partial "custom/structured-data.html" . }}

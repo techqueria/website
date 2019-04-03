@@ -188,7 +188,9 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 
 #### File Size
 
-For files longer than 500 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "custom/breadcrumbs.html" . }}`.
+For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "custom/breadcrumbs.html" . }}`.
+
+If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 
 ### Content Updates
 
