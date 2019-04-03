@@ -59,6 +59,21 @@ other = "and we can talk about the different ways you can support our growing co
 [there_is_also]
 other = "There's also the option of by becoming an ongoing patron via Patreon or Open Collective."
 
+[subscribe]
+other = "Subscribe"
+
+[get_updates]
+other = "Get new updates about Techqueria sent to your inbox by entering your email below!"
+
+[feel_free_to]
+other = "Feel free to"
+
+[view_previous]
+other = "view the previous email campaigns"
+
+[get_better_idea]
+other = "to get a better idea of what is sent out."
+
 [not_found]
 other = "Woops, this page doesn't seem to exist! ☠️"
 
