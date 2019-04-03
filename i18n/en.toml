@@ -74,11 +74,23 @@ other = "view the previous email campaigns"
 [get_better_idea]
 other = "to get a better idea of what is sent out."
 
+[contribute]
+other = "Contribute"
+
+[if_youd_like]
+other = "If you'd like to make this page better or notice something off, feel free to"
+
+[open_issue]
+other = "open an issue on GitHub"
+
+[any_help]
+other = "Any help is greatly appreciated."
+
 [not_found]
 other = "Woops, this page doesn't seem to exist! ☠️"
 
 [go_back]
-other = "Try going back "
+other = "Try going back"
 
 [back_home]
 other = "home"

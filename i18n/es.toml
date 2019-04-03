@@ -74,11 +74,23 @@ other = "ver nuestras campañas de email pasadas"
 [get_better_idea]
 other = "para tener una mejor idea de lo que enviamos."
 
+[contribute]
+other = "Contribuya"
+
+[if_youd_like]
+other = "Si le gustaría mejorar esta página o nota algún error, siéntase libre de"
+
+[open_issue]
+other = "abrir un issue en Github"
+
+[any_help]
+other = "Cualquier ayuda se apreciará enormemente."
+
 [not_found]
 other = "Oops, parece que esta página no existe! ☠️"
 
 [go_back]
-other = "Intente regresar al "
+other = "Intente regresar al"
 
 [back_home]
 other = "inicio"
