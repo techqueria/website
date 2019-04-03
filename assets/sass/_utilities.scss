@@ -43,7 +43,7 @@
     box-shadow: none !important;
   }
 
-  &:after {
+  &::after {
     content: "" !important;
   }
 }
