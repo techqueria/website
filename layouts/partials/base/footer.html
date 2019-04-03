@@ -37,7 +37,7 @@
       <!-- Sitemap -->
       <div class="column is-3">
         <p class="mb-1 is-size-5">
-          <b>Sitemap</b>
+          <b>{{ i18n "sitemap" }}</b>
         </p>
         <!-- Pages -->
         {{ $pages := where .Site.RegularPages "Type" "page" }}
@@ -55,7 +55,7 @@
       <!-- Communities -->
       <div class="column is-3">
         <p class="mb-1 is-size-5">
-          <b>Communities</b>
+          <b>{{ i18n "communities" }}</b>
         </p>
         <!-- Sections & Pages - Communities -->
         {{ with .Site.GetPage "/communities" }}
@@ -85,7 +85,7 @@
       </p>
       {{ end }}
       <!-- Year -->
-      <p>Powered by Latinx since
+      <p>{{ i18n "powered_by" }}
         {{ .Site.Params.year }}</p>
     </div>
   </div>

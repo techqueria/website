@@ -47,11 +47,59 @@ other = "Subscribe!"
 [interested_sponsor]
 other = "Interested in becoming a sponsor?"
 
+[you_can]
+other = "You can"
+
+[interested_contact_us]
+other = "contact us"
+
+[and_we_can]
+other = "and we can talk about the different ways you can support our growing community of Latinx in Tech."
+
+[there_is_also]
+other = "There's also the option of by becoming an ongoing patron via Patreon or Open Collective."
+
+[subscribe]
+other = "Subscribe"
+
+[get_updates]
+other = "Get new updates about Techqueria sent to your inbox by entering your email below!"
+
+[feel_free_to]
+other = "Feel free to"
+
+[view_previous]
+other = "view the previous email campaigns"
+
+[get_better_idea]
+other = "to get a better idea of what is sent out."
+
+[contribute]
+other = "Contribute"
+
+[if_youd_like]
+other = "If you'd like to make this page better or notice something off, feel free to"
+
+[open_issue]
+other = "open an issue on GitHub"
+
+[any_help]
+other = "Any help is greatly appreciated."
+
+[powered_by]
+other = "Powered by Latinx since"
+
+[sitemap]
+other = "Sitemap"
+
+[communities]
+other = "Communities"
+
 [not_found]
 other = "Woops, this page doesn't seem to exist! ☠️"
 
 [go_back]
-other = "Try going back "
+other = "Try going back"
 
 [back_home]
 other = "home"
