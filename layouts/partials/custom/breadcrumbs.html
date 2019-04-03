@@ -1,4 +1,4 @@
-<nav aria-label="breadcrumbs" class="breadcrumb mb-2">
+<nav aria-label="breadcrumbs" class="breadcrumb {{ if .Params.image }}mb-1{{ else }}mb-2{{ end }}">
   <ul>
     {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
   </ul>

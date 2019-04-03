@@ -112,3 +112,6 @@ other = "contact us"
 
 [to_find_what]
 other = "to find what you're looking for."
+
+[comment]
+other = "Comment"
