@@ -24,6 +24,7 @@ requestInfoLabelToAdd: needs-more-info
 
 todo:
   keyword: "TODO:"
+  label: "todo comment"
 
 ####################################################################################################
 

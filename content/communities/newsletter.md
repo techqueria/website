@@ -13,16 +13,16 @@ image: https://cdn.woorkup.com/wp-content/uploads/2015/07/mailchimp.png
       <div class="field">
         <label class="label" for="mce-EMAIL">Email
         </label>
-        <input class="input required email" type="email" value="" name="EMAIL" id="mce-EMAIL">
+        <input class="input required email" type="email" value="" name="EMAIL" id="mce-EMAIL" required>
       </div>
       <div class="field">
         <label class="label" for="mce-FNAME">Name </label>
-        <input class="input" type="text" value="" name="FNAME" id="mce-FNAME">
+        <input class="input" type="text" value="" name="FNAME" id="mce-FNAME" required>
       </div>
       <div class="field">
         <label class="label" for="mce-LOCATION">Location</label>
         <div class="select">
-          <select name="LOCATION" class="" id="mce-LOCATION">
+          <select name="LOCATION" class="" id="mce-LOCATION" required>
             <option value="San Francisco / Bay Area">San Francisco / Bay Area</option>
             <option value="Los Angeles">Los Angeles</option>
             <option value="Chicago">Chicago</option>

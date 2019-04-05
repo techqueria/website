@@ -2,9 +2,6 @@
 title: Código de Conducta
 description: Techqueria cree en el respeto, la compasión, la comprensión y la inclusión y espera que todos los miembros de la comunidad actúen de acuerdo con estos valores.
 noTimeEstimate: true
-aliases:
-  - /code-of-conduct/
-  - /about/code-of-conduct/
 ---
 
 # Código de Conducta
@@ -16,16 +13,16 @@ Creemos en el respeto, la compasión, la comprensión y la inclusión, y esperam
 No tenemos tolerancia para ninguna forma de acoso; esperamos que todos actúen profesionalmente y sigan las normas sociales de la comunidad.
 
 - [El Compromiso](#el-compromiso)
-- [Los Estándares](#los-estándares)
+- [Los Estándares](#los-est%C3%A1ndares)
   - [Ejemplos de comportamiento que contribuyen a crear un espacio positivo incluyen:](#ejemplos-de-comportamiento-que-contribuyen-a-crear-un-espacio-positivo-incluyen)
-  - [Ejemplos de comportamiento inacceptable por parte de participantes incluyen:](#ejemplos-de-comportamiento-inacceptable-por-parte-de-participantes-incluyen)
+  - [Ejemplos de comportamiento inacceptable por parte de participantes incluyen](#ejemplos-de-comportamiento-inacceptable-por-parte-de-participantes-incluyen)
   - [Alcohol](#alcohol)
 - [Denunciar Violaciones](#denunciar-violaciones)
   - [Twitter](#twitter)
   - [Email](#email)
   - [Slack](#slack)
-- [Medidas de Aplicación](#medidas-de-aplicación)
-- [Atribución](#atribución)
+- [Medidas de Aplicación](#medidas-de-aplicaci%C3%B3n)
+- [Atribución](#atribuci%C3%B3n)
 
 ## El Compromiso
 
