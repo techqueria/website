@@ -1,31 +1,35 @@
 <!-- Start - Main -->
 {{ define "main" }}
-<!-- Start - By Year -->
-{{ range .Data.Pages.GroupByDate "2006" }}
-<h1>{{ .Key }}</h1>
-<!-- Start - Pages for Each Year -->
-{{ range .Pages }}
-<hr />
-<h2>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</h2>
-<p>
-  {{ dateFormat "Monday - January 2, 2006" .Date }}
-</p>
-<div>
-  {{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}
-</div>
-<div>
-  {{ .Summary }}
-  <p class="align-right">
-    <a href="{{ .RelPermalink }}">
-      <nobr>More →</nobr>
-    </a>
-  </p>
-</div>
-{{ end }}
-<!-- End - Pages for Each Year -->
-{{ end }}
-<!-- End - By Year -->
+  <!-- Start - By Year -->
+  {{ range .Data.Pages.GroupByDate "2006" }}
+    <h1>{{ .Key }}</h1>
+    <!-- Start - Pages for Each Year -->
+    {{ range .Pages }}
+      <hr/>
+      <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
+      <p>
+        {{ dateFormat "Monday - January 2, 2006" .Date }}
+      </p>
+      <div>
+        {{ if .Description }}
+          {{ .Description }}
+        {{ else }}
+          {{ .Summary }}
+        {{ end }}
+      </div>
+      <div>
+        {{ .Summary }}
+        <p class="align-right">
+          <a href="{{ .RelPermalink }}">
+            <nobr>More →</nobr>
+          </a>
+        </p>
+      </div>
+    {{ end }}
+    <!-- End - Pages for Each Year -->
+  {{ end }}
+  <!-- End - By Year -->
 {{ end }}
 <!-- End - Main -->

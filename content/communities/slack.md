@@ -8,23 +8,26 @@ aliases:
   - /communities/slack/
 ---
 
-# Join us!
+# Slack Community Guidelines
 
-To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
-
-[![Request Invite](/assets/img/slack/invite-request-CTA.png)](https://goo.gl/forms/VRARl4qkkLj3BJLl1)
-
-If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
-
-[![Slack Group](/assets/img/slack/slack-group-CTA.png)](https://latinos.slack.com/)
-
-If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack) section first.
-
-## Slack Community Guidelines
-
-- [Slack Community Guidelines](#slack-community-guidelines)
-- [Waiting for Invitation](#waiting-for-invitation)
+- [Join us!](#join-us)
+- [Already a member?](#already-a-member)
+- [Never used Slack before?](#never-used-slack-before)
 - [Code of Conduct](#code-of-conduct)
+- [Best Practices](#best-practices)
+  - [Use threads](#use-threads)
+  - [Channel naming conventions](#channel-naming-conventions)
+  - [Mentions](#mentions)
+  - [HeyTaco!](#heytaco)
+    - [1. Every person in our Slack Workspace has 5 tacos to give out per day](#1-every-person-in-our-slack-workspace-has-5-tacos-to-give-out-per-day)
+    - [2. To give someone a taco, add a taco emoji after their username](#2-to-give-someone-a-taco-add-a-taco-emoji-after-their-username)
+    - [3. You can give tacos to anyone on your team as long as the bot has been invited to the channel](#3-you-can-give-tacos-to-anyone-on-your-team-as-long-as-the-bot-has-been-invited-to-the-channel)
+    - [4. There is a leaderboard to see who is getting the most tacos](#4-there-is-a-leaderboard-to-see-who-is-getting-the-most-tacos)
+    - [5. Need help?](#5-need-help)
+- [Customization](#customization)
+  - [Sidebar Theme](#sidebar-theme)
+  - [Custom Status](#custom-status)
+  - [Emojis](#emojis)
 - [Channels](#channels)
   - [Default Channels](#default-channels)
   - [Public Channels](#public-channels)
@@ -32,24 +35,32 @@ If you are new to Slack, please check out our [**New to Slack?**](#new-to-slack)
   - [Private Channels](#private-channels)
   - [Meta](#meta)
   - [Requesting A Channel](#requesting-a-channel)
-- [Best Practices](#best-practices)
-  - [Use threads](#use-threads)
-  - [Channel naming conventions](#channel-naming-conventions)
-  - [Mentions](#mentions)
-- [Customization](#customization)
-  - [Sidebar Theme](#sidebar-theme)
-  - [Custom Status](#custom-status)
-  - [Emojis](#emojis)
-- [New to Slack?](#new-to-slack)
+- [Intro to Slack](#intro-to-slack)
   - [Slack Demo](#slack-demo)
   - [Slack Foundry](#slack-foundry)
   - [Getting Started Guide](#getting-started-guide)
 
-## Waiting for Invitation
+## Join us!
+
+To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+
+<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
-You should get an invite within 2 weeks. If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+You should get an invite within 2 weeks.
+
+If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+
+## Already a member?
+
+If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+
+<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+
+## Never used Slack before?
+
+If you are new to Slack, please check out our [**Intro to Slack**](#intro-to-slack) section first.
 
 ## Code of Conduct
 
@@ -62,85 +73,6 @@ Unprofessional behavior is **not** acceptable so if you feel that someone is bre
 You can contact and admin by using the command `/admin` in Slack followed by your message.
 
 ![Admin](/assets/img/slack/admin.png)
-
-## Channels
-
-### Default Channels
-
-There are three default channels everyone automatically gets added to upon joining.
-
-- `#admin-announcements`
-  - locked to the organizers - this is where admins/organizers will post news and information about the community at large
-- `#jobs`
-  - sharing and requesting job opportunities
-- `#random`
-  - conversations that don't fit in any topic channel but could be relevant for everyone
-
-### Public Channels
-
-We have created different channels to keep conversations relevant, e.g.
-
-- `#comida`
-- `#front-end`
-- `#futbol`
-- `#javascript`
-- `#memes`
-- `#mentoring`
-- `#musica`
-- `#open-source`
-- `#politica`
-
-By default, you do not join those channels but you can click on _CHANNELS_ to see a list of all the channels and join the ones that seem the most interesting.
-
-We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
-
-### Location Based Channels
-
-We have a few location channels that are prefixed with `#locals-`.
-
-For example:
-
-- `#locals-atl`
-- `#locals-austin`
-- `#locals-boston`
-- `#locals-chicago`
-- `#locals-la`
-- `#locals-nyc`
-- `#locals-philly`
-- `#locals-sandiego`
-- `#locals-sf`
-
-You can use these channels to communicate with folks in those locations, whether you live there or visiting it can be a great resource.
-
-You can contact the admins to get new location channels created.
-
-### Private Channels
-
-We have a few private channels for conversations that you don't want everyone to see, and we're using a system created by [WeAllJs](https://wealljs.org) to manage the participation of those.
-
-To see a list of available channels, run the command `/list-private`, and click on the join button to request an invitation.
-
-![Private List](/assets/img/slack/private-list.png)
-
-### Meta
-
-If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
-
-- `#meta`
-  - Give feedback about how we run Slack or events
-- `#twitter`
-  - Automated feed of Twitter account activity
-    - https://twitter.com/Techqueria
-    - https://twitter.com/TechqueriaNYC
-    - https://twitter.com/TechqueriaLA
-- `#website`
-  - Discussing & contributing to Techqueria website https://techqueria.org
-- `#website-github`
-  - Automated activity feed from https://github.com/techqueria/website
-
-### Requesting A Channel
-
-Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
 
 ## Best Practices
 
@@ -164,11 +96,41 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
   - `#proj-`
 - Support
   - `#help-`
+- Organizers
+  - `#organizers-`
 
 ### Mentions
 
 - Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
 - If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
+
+### HeyTaco!
+
+The [HeyTaco! bot](https://www.heytaco.chat) sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
+
+You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day.
+
+#### 1. Every person in our Slack Workspace has 5 tacos to give out per day
+
+5️⃣ 🌮
+
+#### 2. To give someone a taco, add a taco emoji after their username
+
+Like this: `@username your positive attitude was a real help today! :taco:`
+
+![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+
+#### 3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
+
+You can invite the bot to channels using `/invite @heytaco`
+
+#### 4. There is a leaderboard to see who is getting the most tacos
+
+Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+
+#### 5. Need help?
+
+If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
 
 ## Customization
 
@@ -204,7 +166,84 @@ Take a look at them and feel free to [add more custom emoji](https://latinos.sla
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 
-## New to Slack?
+## Channels
+
+### Default Channels
+
+There are three default channels everyone automatically gets added to upon joining.
+
+- `#announcements`
+  - locked to the organizers - this is where admins/organizers will post news and information about the community at large
+- `#jobs`
+  - sharing and requesting job opportunities
+- `#random`
+  - conversations that don't fit in any topic channel but could be relevant for everyone
+
+### Public Channels
+
+We have created different channels to keep conversations relevant, for example:
+
+- `#comida`
+- `#front-end`
+- `#futbol`
+- `#javascript`
+- `#memes`
+- `#mentoring`
+- `#musica`
+- `#open-source`
+- `#politica`
+
+By default, you do not join those channels but you can click on _CHANNELS_ to see a list of all the channels and join the ones that seem the most interesting.
+
+We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
+
+### Location Based Channels
+
+We have a few location channels that are prefixed with `#locals-`, for example:
+
+- `#locals-atl`
+- `#locals-austin`
+- `#locals-boston`
+- `#locals-chicago`
+- `#locals-la`
+- `#locals-nyc`
+- `#locals-philly`
+- `#locals-san-diego`
+- `#locals-sf`
+
+You can use these channels to communicate with folks in those locations, whether you live there or visiting it can be a great resource.
+
+You can contact the admins to get new location channels created.
+
+### Private Channels
+
+We have a few private channels for conversations that you don't want everyone to see, and we're using a system created by [WeAllJs](https://wealljs.org) to manage the participation of those.
+
+To see a list of available channels, run the command `/list-private`, and click on the join button to request an invitation.
+
+![Private List](/assets/img/slack/private-list.png)
+
+### Meta
+
+If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
+
+- `#meta`
+  - Give feedback about how we run Slack or events
+- `#twitter`
+  - Automated feed of Twitter account activity
+    - https://twitter.com/Techqueria
+    - https://twitter.com/TechqueriaNYC
+    - https://twitter.com/TechqueriaLA
+- `#website`
+  - Discussing & contributing to Techqueria website https://techqueria.org
+- `#website-github`
+  - Automated activity feed from https://github.com/techqueria/website
+
+### Requesting A Channel
+
+Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
+
+## Intro to Slack
 
 ### Slack Demo
 

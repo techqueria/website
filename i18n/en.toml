@@ -1,4 +1,7 @@
 # English
+[techqueria_is]
+other = "We're one of the largest communities for Latinx professionals in the tech industry. 🌮"
+
 [who_we_are]
 other = "Who We Are"
 
@@ -8,8 +11,107 @@ other = "Join us and share your experience with Techqueria."
 [calling_all]
 other = "Calling all Latinx in Tech!"
 
+[join_us_slack]
+other = "Join us in Slack!"
+
+[join_us_slack_description]
+other = "Our Slack workspace provides a more engaged way to stay in touch with fellow Techqueria members."
+
+[join_us_slack_button]
+other = "Request an invite"
+
+[become_sponsor]
+other = "Become a Sponsor"
+
+[become_sponsor_description1]
+other = "We're always looking for new"
+
+[become_sponsor_description2]
+other = "partners and sponsors"
+
+[become_sponsor_description3]
+other = "to help move our mission forward."
+
+[become_sponsor_button]
+other = "Contact us"
+
+[subscribe_newsletter]
+other = "Subscribe to our newsletter"
+
+[subscribe_newsletter_description]
+other = "Get the latest updates by email."
+
+[subscribe_newsletter_button]
+other = "Subscribe"
+
 [interested_sponsor]
 other = "Interested in becoming a sponsor?"
 
-[join_us_slack]
-other = "Join us in Slack!"
+[you_can]
+other = "You can"
+
+[interested_contact_us]
+other = "contact us"
+
+[and_we_can]
+other = "and we can talk about the different ways you can support our growing community of Latinx in Tech."
+
+[there_is_also]
+other = "There's also the option of by becoming an ongoing patron via Patreon or Open Collective."
+
+[subscribe]
+other = "Subscribe"
+
+[get_updates]
+other = "Get new updates about Techqueria sent to your inbox by entering your email below!"
+
+[feel_free_to]
+other = "Feel free to"
+
+[view_previous]
+other = "view the previous email campaigns"
+
+[get_better_idea]
+other = "to get a better idea of what is sent out."
+
+[contribute]
+other = "Contribute"
+
+[if_youd_like]
+other = "If you'd like to make this page better or notice something off, feel free to"
+
+[open_issue]
+other = "open an issue on GitHub"
+
+[any_help]
+other = "Any help is greatly appreciated."
+
+[powered_by]
+other = "Powered by Latinx since"
+
+[sitemap]
+other = "Sitemap"
+
+[communities]
+other = "Communities"
+
+[not_found]
+other = "Woops, this page doesn't seem to exist! ☠️"
+
+[go_back]
+other = "Try going back"
+
+[back_home]
+other = "home"
+
+[or]
+other = "or"
+
+[contact_us]
+other = "contact us"
+
+[to_find_what]
+other = "to find what you're looking for."
+
+[comment]
+other = "Comment"

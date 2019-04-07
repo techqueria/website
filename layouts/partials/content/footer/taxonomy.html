@@ -1,14 +1,13 @@
 {{ if or (or (.Params.tags) (.Params.categories)) }}
-<!-- Taxonomy -->
 <div class="columns">
   <!-- Categories -->
   {{ if .Params.categories }}
   <div class="column">
-    <h3>
+    <h2>
       <a href="/categories/">
         📂 Categories
       </a>
-    </h3>
+    </h2>
     <ul>
       {{ range $category := .Params.categories }}
       <li>
@@ -23,11 +22,11 @@
   <!-- Tags -->
   {{ if .Params.tags }}
   <div class="column">
-    <h3>
+    <h2>
       <a href="/tags/">
         📌 Tags
       </a>
-    </h3>
+    </h2>
     <ul>
       {{ range $tag := .Params.tags }}
       <li>
