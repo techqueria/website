@@ -1,6 +1,6 @@
 ---
-title: Non profits
-description: Resources related to non-profits
+title: Nonprofits
+description: Resources related to nonprofits
 aliases:
   - /nonprofits
   - /resources/nonprofits/
