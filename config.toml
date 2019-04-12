@@ -239,6 +239,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Podcasts 🎙️"
     url                              = "/resources/podcasts/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Nonprofits 💛"
+    url                              = "/resources/nonprofits/"
 
 #
 # Supporting Multiple Languages
