@@ -1,5 +1,5 @@
 ---
-title: Espacio de trabajo de Slack
+title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
 image: "/assets/img/slack/slack-banner.jpeg"
@@ -40,37 +40,37 @@ aliases:
   - [Slack Foundry](#slack-foundry)
   - [Guía de Inicio](#getting-started-guide)
 
-## Join us!
+## Únete!
 
-To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
 
 <a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
 
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
+Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestros otros grupos de la comunidad](/communities/) y los detalles que hemos proporcionado sobre nuestro espacio de Slack a continuación.
 
-You should get an invite within 2 weeks.
+Debería recibir una invitación dentro de las próximas dos semanas.
 
-If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo electrónico a `organizers@techqueria.org`.
 
-## Already a member?
+## Ya es miembro?
 
-If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+Si ya ha recibido una invitación, puede If you have already received an invitation, puede iniciar sesión en [latinos.slack.com](https://latinos.slack.com/).
 
 <a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
 
-## Never used Slack before?
+## Nunca ha usado Slack antes?
 
-If you are new to Slack, please check out our [**Intro to Slack**](#intro-to-slack) section first.
+Si usted es nuevo en Slack, por favor visite nuestra sección de [**Introducción a Slack**](#intro-to-slack) primero.
 
-## Code of Conduct
+## Código de Conducta
 
-You can find our code of conduct at [https://techqueria.org/code-of-conduct](/code-of-conduct/).
+Puede encontrar nuestro Código de Conducta en [https://techqueria.org/code-of-conduct](/code-of-conduct/).
 
-In short, this is a professional community so be respectful of everyone and their identity.
+En resumen, esta es una comunidad profesional, así que por favor tenga respeto con todos sin importar sus identidades.
 
-Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to contact an admin and we will sort it out.
+El comportamiento no-profesional **no** es aceptable, por eso si usted siente que alguien está transgrediendo el Código de Conducta, póngase en contacto con un administrador y nosotros lo resolveremos.
 
-You can contact and admin by using the command `/admin` in Slack followed by your message.
+Puede contactar a un administraro usando el comando `/admin` en Slack seguido de su mensaje.
 
 ![Admin](/assets/img/slack/admin.png)
 
