@@ -26,7 +26,7 @@ aliases:
     - [5. Necesita ayuda?](#5-necesita-ayuda)
 - [Personalización](#personalización)
   - [Temática de la Barra Lateral](#temática-de-la-barra-lateral)
-  - [Perzonalización de Estado](#personalización-de-estado)
+  - [Personalización de Estado](#personalización-de-estado)
   - [Emojis](#emojis)
 - [Channels](#channels)
   - [Channels Predeterminados](#channels-predeterminados)
@@ -144,31 +144,31 @@ Copie y pegue estos valores en la sección de configuración [Sidebar Theme](htt
 
 ![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
 
-### Custom Status
+### Personalización de Estado
 
-Something fun we do in Techqueria's Slack is [setting a custom status](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) with a flag representing our Latinx heritage/background.
+Algo divertido que hacemos en el espacio de Slack de Techqueria es [configurar el estado](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) con una bandera representando nuestra herencia/historia Latinx.
 
 ![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
 
 ![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
 
-If you want to put multiple flags, you can do that too!
+Si quiere poner varias banderas, también puede hacerlo!
 
 ![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
 
 ### Emojis
 
-When you click on the emoji icon in the conversation or to add a reaction, you can see a ton of custom ones we've added. 🎉
+Cuando hace click en el ícono de emoji en la conversación o para agregar una reacción, puede ver un montón de los emojis personalizados que nosotros hemos agregado. 🎉
 
-You can find images for things like arepa, empanada, baseball teams, avocado, etc.
+Puede encontrar imágenes de cosas como arepa, empanada, equipos de baseball, avocado, etc.
 
-Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
+Dele una mirada y siéntase libre de [agregar más emojis personalizados](https://latinos.slack.com/customize/emoji) usted mismo.
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 
 ## Channels
 
-### Default Channels
+### Channels Predeterminados
 
 There are three default channels everyone automatically gets added to upon joining.
 
@@ -179,7 +179,7 @@ There are three default channels everyone automatically gets added to upon joini
 - `#random`
   - conversations that don't fit in any topic channel but could be relevant for everyone
 
-### Public Channels
+### Channels Públicos
 
 We have created different channels to keep conversations relevant, for example:
 
@@ -197,7 +197,7 @@ By default, you do not join those channels but you can click on _CHANNELS_ to se
 
 We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
 
-### Location Based Channels
+### Channels por Ubicación
 
 We have a few location channels that are prefixed with `#locals-`, for example:
 
@@ -215,7 +215,7 @@ You can use these channels to communicate with folks in those locations, whether
 
 You can contact the admins to get new location channels created.
 
-### Private Channels
+### Channels Privados
 
 We have a few private channels for conversations that you don't want everyone to see, and we're using a system created by [WeAllJs](https://wealljs.org) to manage the participation of those.
 
@@ -239,13 +239,13 @@ If you'd like to participate in the conversation about the future of the communi
 - `#website-github`
   - Automated activity feed from https://github.com/techqueria/website
 
-### Requesting A Channel
+### Solicite un Channel
 
 Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
 
-## Intro to Slack
+## Introducción a Slack
 
-### Slack Demo
+### Demostración de Slack
 
 Here's [a demo](https://slackdemo.com) of how Slack works!
 
@@ -257,7 +257,7 @@ Here's [a demo](https://slackdemo.com) of how Slack works!
 
 [![Slack Foundry](https://i.imgur.com/RxwMHdC.jpg)](https://slackfoundry.builtbyslack.com/)
 
-### Getting Started Guide
+### Guía de Inicio
 
 Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) covers the basics and is the official documentation provided by Slack.
 
