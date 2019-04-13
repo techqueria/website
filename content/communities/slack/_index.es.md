@@ -54,7 +54,7 @@ Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo
 
 ## Ya es miembro?
 
-Si ya ha recibido una invitación, puede If you have already received an invitation, puede iniciar sesión en [latinos.slack.com](https://latinos.slack.com/).
+Si ya ha recibido una invitación, puede iniciar sesión en [latinos.slack.com](https://latinos.slack.com/).
 
 <a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
 
@@ -70,75 +70,75 @@ En resumen, esta es una comunidad profesional, así que por favor tenga respeto 
 
 El comportamiento no-profesional **no** es aceptable, por eso si usted siente que alguien está transgrediendo el Código de Conducta, póngase en contacto con un administrador y nosotros lo resolveremos.
 
-Puede contactar a un administraro usando el comando `/admin` en Slack seguido de su mensaje.
+Puede contactar a un administrador usando el comando `/admin` en Slack seguido de su mensaje.
 
 ![Admin](/assets/img/slack/admin.png)
 
-## Best Practices
+## Buenas Prácticas
 
-### Use threads
+### Utilice threads
 
-This convo in the `#website` channel could have been 28 separate messages! 🤯
+Esta conversación en el channel de `#website` pudo haber sido 28 mensajes por separado! 🤯
 
-Instead, with threads - it turned into a more rich and focused discussion. 😌
+En cambio, con threads - se convirtió en una discusión más rica y centrada. 😌
 
 ![Threads](https://i.imgur.com/H9KWoqD.jpg)
 
-### Channel naming conventions
+### Convenciones de denominación de Channels
 
-- Locations
+- Ubicaciones
   - `#locals-`
 - Website
   - `#website-`
-- Teams
+- Equipos
   - `#team-`
-- Projects
+- Proyectos
   - `#proj-`
-- Support
+- Soporte
   - `#help-`
-- Organizers
+- Organizadores
   - `#organizers-`
 
-### Mentions
+### Menciones
 
-- Please avoid using `@channel` mentions whenever possible (you can use `@here` instead to notify desktop users).
-- If you need someone's attention, it's usually better to _mention them in a public channel_ instead of sending a private message whenever possible.
+- Por favor evite usar menciones a `@channel` siempre que sea posible (puede usar `@here` para notificar a los usuarios de escritorio).
+- Si necesita la atención de alguien, generalmente es mejor _mencionar en un channel publico_ en vez de enviar mensajes privados.
 
 ### HeyTaco!
 
-The [HeyTaco! bot](https://www.heytaco.chat) sparks conversations and builds stronger relationships with its fun and unique kindness currency... tacos! 🌮
+El [bot HeyTaco!](https://www.heytaco.chat) estimula conversaciones y crea relaciones más fuertes con su distintiva moneda de amabilidad... tacos! 🌮
 
-You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day.
+Puede usar `@heytaco` para darle a alguien un 🌮 cuando quiera mostrar admiración, agradecimiento o alegrarle el día.
 
-#### 1. Every person in our Slack Workspace has 5 tacos to give out per day
+#### 1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día
 
 5️⃣ 🌮
 
-#### 2. To give someone a taco, add a taco emoji after their username
+#### 2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario
 
-Like this: `@username your positive attitude was a real help today! :taco:`
+De esta manera: `@username tu actitud positiva el día de hoy fue de gran ayuda! :taco:`
 
-![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+![HeyTaco! Ejemplos](/assets/img/slack/hey-taco-examples.png)
 
-#### 3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
+#### 3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel
 
-You can invite the bot to channels using `/invite @heytaco`
+Puede invitar al bot a cualquier channel usando `/invite @heytaco`
 
-#### 4. There is a leaderboard to see who is getting the most tacos
+#### 4. Hay una tabla de clasificación para ver quién está recibiendo más tacos
 
-Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+Todos los miembros de nuestro espacio de Slack pueden conectarse y ver la tabla de clasificación usando [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
 
-#### 5. Need help?
+#### 5. Necesita ayuda?
 
-If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
+Si necesita ayuda, puede simplemente mander un mensaje directo a `@heytaco` con la palabra `help` y le asistirá.
 
-## Customization
+## Personalización
 
 All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
 
-### Sidebar Theme
+### Temática de la Barra Lateral
 
-Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
+Copie y pegue estos valores en la sección de configuración [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) para obtener la temática de Techqueria.
 
 `#FFFFFF,#FFFFFF,#FBAE52,#000000,#FBAE52,#000000,#FF551F,#FF551F`
 
