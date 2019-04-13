@@ -134,7 +134,7 @@ Si necesita ayuda, puede simplemente mander un mensaje directo a `@heytaco` con 
 
 ## Personalización
 
-All these customization suggestions are completely optional and solely meant to improve your experience using Techqueria's Slack.
+Todas estas sugerencias de personalización son completamente opcionales y su única intención es mejorar su experiencia usando el Slack de Techqueria.
 
 ### Temática de la Barra Lateral
 
@@ -193,7 +193,7 @@ Hemos creado diferentes channels para mantener las conversaciones relevantes, po
 - `#open-source`
 - `#politica`
 
-Usted no será agregado a estos channels por defecto, pero si quiere, podría dar click en _CHANNELS_ para ver la lista de todos los channels y unirse a los que les parezca más interesantes.
+Usted no será agregado a estos channels por defecto, pero si quiere, puede dar click en _CHANNELS_ para ver la lista de todos los channels y unirse a los que le parezca más interesantes.
 
 Supervisamos la mayor parte de actividad en esos channels para asegurarnos de que el contenido es relevante, por lo que si se publica algo fuera del tema, podríamos decidir por moverlo a otro channel más apropiado.
 
@@ -211,7 +211,7 @@ Tenemos algunos channels por ubicación con el prefijo `#locals-`, por ejemplo:
 - `#locals-san-diego`
 - `#locals-sf`
 
-Puede usar estos channels para comunicarse con gente en esas ubicaciones, You can use these channels to communicate with folks in those locations, puede ser un recurso útil si vive ahí o planea ir de visita.
+Puede usar estos channels para comunicarse con gente en esas ubicaciones, puede ser un recurso útil si vive ahí o planea ir de visita.
 
 Puede contactar a los administradores para crear un channel con una nueva ubicación.
 
@@ -247,18 +247,18 @@ Si desea participar en conversaciones sobre el futuro de la comunidad, planifica
 
 ### Demostración de Slack
 
-Here's [a demo](https://slackdemo.com) of how Slack works!
+Aquí hay [una demostración](https://slackdemo.com) de cómo funciona Slack!
 
 [![Slack Demo](https://i.imgur.com/o2ZWFGt.jpg)](https://slackdemo.com)
 
 ### Slack Foundry
 
-[Slack Foundry](https://slackfoundry.builtbyslack.com/) is a training app for Slack that you can access (you guessed it!) in Slack.
+[Slack Foundry](https://slackfoundry.builtbyslack.com/) es una aplicacion de entrenamiento para Slack a la que puede acceder (¡adivinó bien!) en Slack.
 
 [![Slack Foundry](https://i.imgur.com/RxwMHdC.jpg)](https://slackfoundry.builtbyslack.com/)
 
 ### Guía de Inicio
 
-Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) covers the basics and is the official documentation provided by Slack.
+La [Guía de Inicio](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) de Slack cubre lo básico, y es la documentación oficial proporcionada por Slack.
 
 [![Getting Started Guide](https://i.imgur.com/pVQbhkX.jpg)](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started)
