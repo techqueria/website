@@ -170,18 +170,18 @@ Dele una mirada y siéntase libre de [agregar más emojis personalizados](https:
 
 ### Channels Predeterminados
 
-There are three default channels everyone automatically gets added to upon joining.
+Hay tres channels predeterminados a los que todos son agregados automáticamente cuando se unen al espacio de Slack.
 
 - `#announcements`
-  - locked to the organizers - this is where admins/organizers will post news and information about the community at large
+  - bloqueado para los organizadores - es aquí donde los administradores/organizadores van a publicar noticias e información general relacionada a la comunidad
 - `#jobs`
-  - sharing and requesting job opportunities
+  - donde se puede compartir y solicitar oportunidades de trabajo
 - `#random`
-  - conversations that don't fit in any topic channel but could be relevant for everyone
+  - conversaciones que no encajan en ningún channel específico pero podrían ser importantes para algunos
 
 ### Channels Públicos
 
-We have created different channels to keep conversations relevant, for example:
+Hemos creado diferentes channels para mantener las conversaciones relevantes, por ejemplo:
 
 - `#comida`
 - `#front-end`
@@ -193,13 +193,13 @@ We have created different channels to keep conversations relevant, for example:
 - `#open-source`
 - `#politica`
 
-By default, you do not join those channels but you can click on _CHANNELS_ to see a list of all the channels and join the ones that seem the most interesting.
+Usted no será agregado a estos channels por defecto, pero si quiere, podría dar click en _CHANNELS_ para ver la lista de todos los channels y unirse a los que les parezca más interesantes.
 
-We monitor most activity in those channels to make sure content is relevant so if something off-topic is posted there, we might move it to a more appropriate channel.
+Supervisamos la mayor parte de actividad en esos channels para asegurarnos de que el contenido es relevante, por lo que si se publica algo fuera del tema, podríamos decidir por moverlo a otro channel más apropiado.
 
 ### Channels por Ubicación
 
-We have a few location channels that are prefixed with `#locals-`, for example:
+Tenemos algunos channels por ubicación con el prefijo `#locals-`, por ejemplo:
 
 - `#locals-atl`
 - `#locals-austin`
@@ -211,37 +211,37 @@ We have a few location channels that are prefixed with `#locals-`, for example:
 - `#locals-san-diego`
 - `#locals-sf`
 
-You can use these channels to communicate with folks in those locations, whether you live there or visiting it can be a great resource.
+Puede usar estos channels para comunicarse con gente en esas ubicaciones, You can use these channels to communicate with folks in those locations, puede ser un recurso útil si vive ahí o planea ir de visita.
 
-You can contact the admins to get new location channels created.
+Puede contactar a los administradores para crear un channel con una nueva ubicación.
 
 ### Channels Privados
 
-We have a few private channels for conversations that you don't want everyone to see, and we're using a system created by [WeAllJs](https://wealljs.org) to manage the participation of those.
+Tenemos algunos channels privados para conversaciones que no quiere que todos vean, y estamos usando un sistema creado por [WeAllJs](https://wealljs.org) para gestionar dichos channels.
 
-To see a list of available channels, run the command `/list-private`, and click on the join button to request an invitation.
+Para ver el listado de estos channels, escriba el comando `/list-private`, y and click on the join button to request an invitation.
 
 ![Private List](/assets/img/slack/private-list.png)
 
 ### Meta
 
-If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
+Si desea participar en conversaciones sobre el futuro de la comunidad, planificación de eventos, sugerir oradores y estar más involucrado, puede unirse a los siguientes channels.
 
 - `#meta`
-  - Give feedback about how we run Slack or events
+  - Dé su opinión sobre cómo ejecutamos Slack o eventos
 - `#twitter`
-  - Automated feed of Twitter account activity
+  - Feed automatizado de la actividad de la cuenta de Twitter
     - https://twitter.com/Techqueria
     - https://twitter.com/TechqueriaNYC
     - https://twitter.com/TechqueriaLA
 - `#website`
-  - Discussing & contributing to Techqueria website https://techqueria.org
+  - Discutir y contribuir a la website de Techqueria https://techqueria.org
 - `#website-github`
-  - Automated activity feed from https://github.com/techqueria/website
+  - Feed automatizado de la actividad del repositorio https://github.com/techqueria/website
 
 ### Solicite un Channel
 
-Not finding a channel you want? No worries, head on over to `#request-a-channel` to request the creation, archival or deletion of a channel.
+¿No encuentra el channel que quiere? No se preocupe, vaya a `#request-a-channel` para solicitar la creación, el archivo o la eliminicación de un channel.
 
 ## Introducción a Slack
 
