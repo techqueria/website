@@ -13,7 +13,7 @@ image: https://cdn.woorkup.com/wp-content/uploads/2015/07/mailchimp.png
       <div class="field">
         <label class="label" for="mce-EMAIL">Email
         </label>
-        <input class="input required email" type="email" value="" name="EMAIL" id="mce-EMAIL" required>
+        <input class="input" type="email" value="" name="EMAIL" id="mce-EMAIL" required>
       </div>
       <div class="field">
         <label class="label" for="mce-FNAME">Name </label>

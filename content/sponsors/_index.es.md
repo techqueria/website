@@ -1,6 +1,8 @@
 ---
 title: Patrocinadores
 description: Patrocinadores y socios que ayudan a proveer una comunidad inclusiva.
+aliases:
+  - /patrocinadores/
 ---
 
 ## Patrocinadores de eventos

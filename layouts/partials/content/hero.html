@@ -8,9 +8,9 @@
       <!-- Description -->
       <p class="subtitle">
         {{ if .Description }}
-        {{ .Description | safeHTML }}
+        {{ .Description | truncate 150 | safeHTML }}
         {{ else }}
-        {{ .Summary | safeHTML }}
+        {{ .Summary | truncate 150 | safeHTML }}
         {{ end }}
       </p>
       <!-- More Info -->

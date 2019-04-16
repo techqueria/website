@@ -3,7 +3,8 @@ title: Google Calendar - New York City
 description: "Events from our NYC chapter via Google Calendar."
 identifier: fab fa-google
 image: "/assets/img/banners/google-calendar-logo.jpg"
-url: /nyc-events/
+aliases:
+  - /nyc-events/
 ---
 
 ## Google Calendar
