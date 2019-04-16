@@ -291,11 +291,11 @@ disqusShortname                      = "techqueria"
     url                              = "/communities/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Sede - Area de la Bahía"
+    name                             = "Sede - Área de la Bahía"
     url                              = "/communities/bay-area/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Sede - Los Angeles"
+    name                             = "Sede - Los Ángeles"
     url                              = "/communities/los-angeles/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
@@ -367,7 +367,7 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/health/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Immigración 📄"
+    name                             = "Inmigración 📄"
     url                              = "/resources/immigration/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"

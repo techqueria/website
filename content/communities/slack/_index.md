@@ -70,7 +70,7 @@ In short, this is a professional community so be respectful of everyone and thei
 
 Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to contact an admin and we will sort it out.
 
-You can contact and admin by using the command `/admin` in Slack followed by your message.
+You can contact an admin by using the command `/admin` in Slack followed by your message.
 
 ![Admin](/assets/img/slack/admin.png)
 
