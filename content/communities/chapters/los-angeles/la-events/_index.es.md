@@ -3,8 +3,6 @@ title: Calendario de Google - Los Ángeles
 description: "Eventos de nuestra sede de LA vía Calendario de Google."
 identifier: fab fa-google
 image: "/assets/img/banners/google-calendar.png"
-aliases:
-  - /la-events/
 ---
 
 ## Calendario de Google
