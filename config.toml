@@ -102,31 +102,31 @@ disqusShortname                      = "techqueria"
     url                              = "/about/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Blog 📝"
+    name                             = "Blog"
     url                              = "/blog/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Brand 🎨"
+    name                             = "Brand"
     url                              = "/about/brand/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Code of Conduct 🌼"
+    name                             = "Code of Conduct"
     url                              = "/code-of-conduct/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "People 👥"
+    name                             = "People"
     url                              = "/people/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Press 📰️"
+    name                             = "Press️"
     url                              = "/press/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Stock Photos 📸"
+    name                             = "Stock Photos"
     url                              = "/photos/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Testimonials 💌"
+    name                             = "Testimonials"
     url                              = "/testimonials/"
 [[menu.main]]
     name                             = "Communities"
@@ -197,7 +197,7 @@ disqusShortname                      = "techqueria"
     url                              = "/sponsors/"
 [[menu.main]]
     parent                           = "Sponsors"
-    name                             = "Patreon Supporters 💕"
+    name                             = "Patreon Supporters"
     url                              = "/sponsors/patreon-supporters/"
 
 [[menu.main]]
@@ -205,43 +205,43 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Career Growth 🚀"
+    name                             = "Career Growth"
     url                              = "/resources/career/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Design 🖌️"
+    name                             = "Design"
     url                              = "/resources/design/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Entrepreneurship 💼"
+    name                             = "Entrepreneurship"
     url                              = "/resources/entrepreneurship/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Health Care 🏥"
+    name                             = "Health Care"
     url                              = "/resources/health/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Housing 🏠"
+    name                             = "Housing"
     url                              = "/resources/housing/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Immigration 📄"
+    name                             = "Immigration"
     url                              = "/resources/immigration/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Legal Help ⚖️"
+    name                             = "Legal Help"
     url                              = "/resources/legal/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Open Source 🔧️"
+    name                             = "Open Source"
     url                              = "/resources/open-source/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Podcasts 🎙️"
+    name                             = "Podcasts"
     url                              = "/resources/podcasts/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Nonprofits 💛"
+    name                             = "Nonprofits"
     url                              = "/resources/nonprofits/"
 
 #
@@ -263,31 +263,31 @@ disqusShortname                      = "techqueria"
     url                              = "/about/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Blog 📝"
+    name                             = "Blog"
     url                              = "/blog/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Marca 🎨"
+    name                             = "Marca"
     url                              = "/about/brand/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Código de Conducta 🌼"
+    name                             = "Código de Conducta"
     url                              = "/code-of-conduct/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Gente 👥"
+    name                             = "Gente"
     url                              = "/people/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Prensa 📰️"
+    name                             = "Prensa"
     url                              = "/press/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Fotografías de Archivo 📸"
+    name                             = "Fotografías de Archivo"
     url                              = "/stock-photos/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Testimonios 💌"
+    name                             = "Testimonios"
     url                              = "/testimonials/"
 
 [[languages.es.menu.main]]
@@ -355,33 +355,33 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Desarrollo Profesional 🚀️"
+    name                             = "Desarrollo Profesional"
     url                              = "/resources/career/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Diseño 🖌️"
+    name                             = "Diseño"
     url                              = "/resources/design/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Emprendimiento 💼"
+    name                             = "Emprendimiento"
     url                              = "/resources/entrepreneurship/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Cuidado de Salud 🏥"
+    name                             = "Cuidado de Salud"
     url                              = "/resources/health/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Inmigración 📄"
+    name                             = "Inmigración"
     url                              = "/resources/immigration/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Ayuda Legal ⚖️"
+    name                             = "Ayuda Legal"
     url                              = "/resources/legal/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Open Source 🔧️"
+    name                             = "Open Source"
     url                              = "/resources/open-source/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Podcasts 🎙️"
+    name                             = "Podcasts"
     url                              = "/resources/podcasts/"
