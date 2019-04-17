@@ -243,6 +243,9 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Nonprofits 💛"
     url                              = "/resources/nonprofits/"
+[[menu.main]]
+    name                             = "Nonprofits"
+    url                              = "/resources/nonprofits/"
 
 #
 # Supporting Multiple Languages
