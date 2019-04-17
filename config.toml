@@ -263,31 +263,31 @@ disqusShortname                      = "techqueria"
     url                              = "/about/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Blog 📝"
+    name                             = "Blog"
     url                              = "/blog/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Marca 🎨"
+    name                             = "Marca"
     url                              = "/about/brand/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Código de Conducta 🌼"
+    name                             = "Código de Conducta"
     url                              = "/code-of-conduct/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Gente 👥"
+    name                             = "Gente"
     url                              = "/people/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Prensa 📰️"
+    name                             = "Prensa"
     url                              = "/press/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Fotografías de Archivo 📸"
+    name                             = "Fotografías de Archivo"
     url                              = "/stock-photos/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Testimonios 💌"
+    name                             = "Testimonios"
     url                              = "/testimonials/"
 
 [[languages.es.menu.main]]
@@ -355,33 +355,33 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Desarrollo Profesional 🚀️"
+    name                             = "Desarrollo Profesional"
     url                              = "/resources/career/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Diseño 🖌️"
+    name                             = "Diseño"
     url                              = "/resources/design/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Emprendimiento 💼"
+    name                             = "Emprendimiento"
     url                              = "/resources/entrepreneurship/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Cuidado de Salud 🏥"
+    name                             = "Cuidado de Salud"
     url                              = "/resources/health/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Inmigración 📄"
+    name                             = "Inmigración"
     url                              = "/resources/immigration/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Ayuda Legal ⚖️"
+    name                             = "Ayuda Legal"
     url                              = "/resources/legal/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Open Source 🔧️"
+    name                             = "Open Source"
     url                              = "/resources/open-source/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Podcasts 🎙️"
+    name                             = "Podcasts"
     url                              = "/resources/podcasts/"
