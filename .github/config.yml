@@ -56,7 +56,7 @@ newIssueWelcomeComment: >
   If you don't hear back from anyone within the next week, feel free to reach out to one of the maintainers. 💛
   
   
-  And if you haven't already, become an official contributor using [this link](http://probot-invite.herokuapp.com/join/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZWNocXVlcmlhIiwiaXNzIjo4NDg3MTQsInJvbGUiOiJtZW1iZXIiLCJ0ZWFtcyI6WyIyMTQ0NDU0Il0sImlhdCI6MTU1NTU0NDI3OX0.UfCj5CdniOAPtFFy5ZOpCcVFzFbXDcmEqTK_y__nmiA). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
+  And if you haven't already, become an official contributor using [this link](https://bit.ly/become-a-techqueria-github-contributor). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 # Comment to be posted to on PRs from first time contributors in your repository
@@ -71,7 +71,7 @@ newPRWelcomeComment: >
   If you don't hear back from anyone within the next week, feel free to reach out to one of the maintainers. 💛
   
   
-  And if you haven't already, become an official contributor using [this link](http://probot-invite.herokuapp.com/join/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZWNocXVlcmlhIiwiaXNzIjo4NDg3MTQsInJvbGUiOiJtZW1iZXIiLCJ0ZWFtcyI6WyIyMTQ0NDU0Il0sImlhdCI6MTU1NTU0NDI3OX0.UfCj5CdniOAPtFFy5ZOpCcVFzFbXDcmEqTK_y__nmiA). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
+  And if you haven't already, become an official contributor using [this link](https://bit.ly/become-a-techqueria-github-contributor). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
