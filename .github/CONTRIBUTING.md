@@ -519,7 +519,7 @@ There are 2 labels being used to track progress.
 
 ### Stale Pull Requests
 
-If after a week you haven't heard from any of the maintainers, please mention `@techqueria/admins` in the PR.
+If after a week you haven't heard from any of the maintainers, please mention `@techqueria/owners` in the PR.
 
 ## Troubleshooting
 
