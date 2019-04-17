@@ -324,7 +324,7 @@ title: Marca 🎨
 description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 ```
 
-‼️ For pages like this, **do not copy over the urls** as this will break the page and redirect users to the Spanish version always even if they don't want it.
+‼️ For pages like this, **do not copy over the urls or aliases** as this will break the page and redirect users to the Spanish version always even if they don't want it.
 
 ### Directory Structure
 

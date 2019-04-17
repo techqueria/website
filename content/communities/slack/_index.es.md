@@ -3,42 +3,39 @@ title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
 image: "/assets/img/slack/slack-banner.jpeg"
-aliases:
-  - /slack/
-  - /communities/slack/
 ---
 
 # Normas de la comunidad de Slack
 
-- [Únete!](#únete)
+- [Únete!](#%C3%BAnete)
 - [Ya es miembro?](#ya-es-miembro)
 - [Nunca ha usado Slack antes?](#nunca-ha-usado-slack-antes)
-- [Código de Conducta](#código-de-conducta)
-- [Buenas Prácticas](#buenas-prácticas)
+- [Código de Conducta](#c%C3%B3digo-de-conducta)
+- [Buenas Prácticas](#buenas-pr%C3%A1cticas)
   - [Utilice threads](#utilice-threads)
-  - [Convenciones de denominación de Channels](#convenciones-de-denominación-de-channels)
+  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%C3%B3n-de-channels)
   - [Menciones](#menciones)
   - [HeyTaco!](#heytaco)
-    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-día)
-    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-después-del-nombre-de-usuario)
+    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%C3%ADa)
+    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%C3%A9s-del-nombre-de-usuario)
     - [3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel](#3-puede-darle-tacos-a-cualquier-integrante-del-grupo-siempre-y-cuando-el-bot-haya-sido-invitado-al-channel)
-    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificación-para-ver-quién-está-recibiendo-más-tacos)
+    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%C3%B3n-para-ver-qui%C3%A9n-est%C3%A1-recibiendo-m%C3%A1s-tacos)
     - [5. Necesita ayuda?](#5-necesita-ayuda)
-- [Personalización](#personalización)
-  - [Temática de la Barra Lateral](#temática-de-la-barra-lateral)
-  - [Personalización de Estado](#personalización-de-estado)
+- [Personalización](#personalizaci%C3%B3n)
+  - [Temática de la Barra Lateral](#tem%C3%A1tica-de-la-barra-lateral)
+  - [Personalización de Estado](#personalizaci%C3%B3n-de-estado)
   - [Emojis](#emojis)
 - [Channels](#channels)
   - [Channels Predeterminados](#channels-predeterminados)
-  - [Channels Públicos](#channels-públicos)
-  - [Channels por Ubicación](#channels-por-ubicación)
+  - [Channels Públicos](#channels-p%C3%BAblicos)
+  - [Channels por Ubicación](#channels-por-ubicaci%C3%B3n)
   - [Channels Privados](#channels-privados)
   - [Meta](#meta)
   - [Solicite un Channel](#solicite-un-channel)
-- [Introducción a Slack](#introducción-a-slack)
-  - [Demostración de Slack](#demostración-de-slack)
+- [Introducción a Slack](#introducci%C3%B3n-a-slack)
+  - [Demostración de Slack](#demostraci%C3%B3n-de-slack)
   - [Slack Foundry](#slack-foundry)
-  - [Guía de Inicio](#guía-de-inicio)
+  - [Guía de Inicio](#gu%C3%ADa-de-inicio)
 
 ## Únete!
 
