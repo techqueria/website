@@ -1,6 +1,8 @@
 ---
 name: Report a bug
 about: Create a bug report to help us improve our website
+title: "Bug: "
+labels: "bug"
 ---
 
 ## What's going on?
@@ -20,7 +22,7 @@ It should...
 
 ## Any screenshots?
 
-[Screenshot](screenshot.png)
+Insert screenshot here
 
 ## What is your environment?
 
