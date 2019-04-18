@@ -1,3 +1,8 @@
+---
+title: "New Issue: "
+labels: "new issue"
+---
+
 Remove this sentence and insert the description of the issue here.
 
 ---
