@@ -1,6 +1,8 @@
 ---
 name: Update existing content
 about: Request content be updated on the website
+title: "New Content Update Request: "
+labels: "content update"
 ---
 
 ## Link where content currently exists
@@ -13,4 +15,4 @@ The first paragraph needs to be updated to be...
 
 ## Any additional context?
 
-This was requested by...
+This was requested because...
