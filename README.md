@@ -62,6 +62,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Enrique Novoa](https://github.com/enriquenov)
 - [Konrad Gladala](https://github.com/KonradGladala)
 - [Terrence Eisenhower](https://github.com/teisenhower)
+- [Juan Soto](http://www.jstechstack.com/)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
