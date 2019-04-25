@@ -247,6 +247,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Conferences"
     url                              = "/resources/conferences/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Similar Organizations"
+    url                              = "/resources/similar-organizations/"
 #
 # Supporting Multiple Languages
 #
