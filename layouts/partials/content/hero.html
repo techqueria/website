@@ -20,19 +20,8 @@
       {{ partial "content/info.html" . }}
       <!-- Author -->
       {{ partial "custom/person.html" . }}
-      <!-- Photos -->
-      {{ if .Params.photos }}
-        <a class="mt-1 button is-link is-inverted" href="{{ .Params.photos }}" target="_blank" rel="noopener">
-          Photos
-        </a>
-      {{ end }}
-      <!-- External Link -->
-      {{ if .Params.link }}
-        <a class="mt-1 button is-link is-inverted" href="{{ .Params.link }}" target="_blank" rel="noopener">
-          {{ if in .Params.link "linkedin.com/in/" }}LinkedIn Profile ➡{{ else if in .Params.link "meetup.com" }}Register for the Meetup ➡{{ else if in .Params.link "eventbrite.com" }}Register on Eventbrite ➡{{ else }}More info ➡
-          {{ end }}
-        </a>
-      {{ end }}
+      <!-- Links -->
+      {{ partial "content/links.html" . }}
     </div>
   </div>
 </section>

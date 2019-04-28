@@ -1,19 +1,12 @@
 ---
-title: Latinx in eCommerce @ Walmart Labs
-location: San Francisco, CA
+title: "Latinx Community Meet And Greet With Techqueria Latinas In Tech Nyc"
+location: New York, NY
 partnerEvent: true
-description: Come network, engage with recruiters, and hear diverse professionals in eCommerce showcase their work at Walmart Labs Sunnyvale!
-date: 2018-04-24
-link: https://www.eventbrite.com/e/latinx-in-ecommerce-walmart-labs-tickets-44786460509#
-image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43029630%2F212374299091%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=2fa135cbb044375c6c70b3ea30ba598a
+description: Techqueria and Latinas in Tech would like invite you to an evening of new friends, drinks, and food.
+date: 2018-08-16
+link: https://donyc.com/events/2018/8/16/latinx-community-meet-and-greet-with-techqueria-latinas-in-tech-nyc
+image: ""
 ---
-
-LATINX COMMUNITY MEET AND GREET WITH TECHQUERIA & LATINAS IN TECH NYC
-PAST(08/16/2018) 6:30PM - 9:00PM
-
-https://donyc.com/events/2018/8/16/latinx-community-meet-and-greet-with-techqueria-latinas-in-tech-nyc
-
-Hola!
 
 Techqueria and Latinas in Tech would like invite you to an evening of new friends, drinks, and food.
 
@@ -21,17 +14,8 @@ Today, there are several Latinx organizations and community leaders in NYC but w
 
 We're inviting Latinx leaders, including startup founders, mentors and community organizers who are deeply involved in organizations that build and support our community. We hope this night serves as the beginning of new friendships and alliances. This is a unique gathering of around 50 Latinx leaders in the tech field. We hope you can join us.
 
-About the organizers:
-
-Techqueria
-
 Techqueria is a professional community for latinxs in tech. A space where we can network and advance in our careers, bring access to tech for low income communities and increase the opportunities for us in tech.
 
-For more information, visit https://techqueria.org @techquerianyc
-
-Latinas In Tech NYC
 Latinas in Tech NYC is a chapter of Latinas in Tech, a national non-profit organization with the mission to connect, support and empower Latina women working in technology.
-
-For more information, visit https://www.latinasintech.org #latinasintechnyc
 
 Sponsored by MailChimp
