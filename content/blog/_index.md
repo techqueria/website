@@ -5,4 +5,8 @@ sortLatestFirst: true
 noTimeEstimate: true
 aliases:
   - /blog/
+  - /testimonials/
+  - /testimonial/
+  - /la-techqueria/
+  - /posts/
 ---

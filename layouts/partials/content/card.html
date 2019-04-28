@@ -1,12 +1,13 @@
-<a {{ if .Params.link }} href="{{ .Params.link }}" target="_blank" rel="noopener" {{ else }} href="{{ .RelPermalink }}" {{ end }}>
-  <div class="card card-equal-height {{ if .Params.categories }}{{ delimit .Params.categories " , " }}{{ end }}">
+<a href="{{ .RelPermalink }}">
+  <div
+    " }}{{ end }}" , class="card card-equal-height {{ if .Params.categories }}{{ delimit .Params.categories ">
     <!-- Image -->
     {{ if .Params.image }}
-    <div class="card-image">
-      <figure class="image">
-        <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
-      </figure>
-    </div>
+      <div class="card-image">
+        <figure class="image">
+          <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
+        </figure>
+      </div>
     {{ end }}
     <!-- Title -->
     <header class="card-header">
@@ -18,13 +19,14 @@
     </header>
     <!-- Content -->
     <div class="card-content">
-      <div class="content">
+      <div
+        class="content">
         <!-- Description -->
         <p>
           {{ if .Description }}
-          {{ .Description | truncate 150 | safeHTML }}
+            {{ .Description | truncate 150 | safeHTML }}
           {{ else }}
-          {{ .Summary | truncate 150 | safeHTML }}
+            {{ .Summary | truncate 150 | safeHTML }}
           {{ end }}
         </p>
         <!-- More Info -->

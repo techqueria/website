@@ -1,10 +1,13 @@
 ---
-title: Techstars Startup Weekend NYC | Latinx in Tech
-description: Join us for the 2nd annual Techstars Startup Weekend Latinx in Tech NYC!
-location: New York, NY
 date: 2018-09-21
-eventLink: https://www.eventbrite.com/e/techstars-startup-weekend-nyc-latinx-in-tech-tickets-48652017494?discount=website#
-image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49199101%2F1954445013%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=fb734455c7d0e7ed914696216b71b50c
+description: Join us for the 2nd annual Techstars Startup Weekend Latinx in Tech NYC!
+link: https://www.eventbrite.com/e/techstars-startup-weekend-nyc-latinx-in-tech-tickets-48652017494?discount=website#
+image: "/assets/img/photos/2018-09-23.jpg"
+link: https://photos.app.goo.gl/QooxpXvb9s3f2t6V9
+location: New York, NY
+title: Techstars Startup Weekend NYC | Latinx in Tech
+aliases:
+  - /2018-09-23-startup-weekend-nyc/
 ---
 
 Join us for the 2nd annual Techstars Startup Weekend Latinx in Tech NYC!

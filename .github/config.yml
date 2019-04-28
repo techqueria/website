@@ -54,8 +54,8 @@ newIssueWelcomeComment: >
 
 
   If you don't hear back from anyone within the next week, feel free to reach out to one of the maintainers. 💛
-  
-  
+
+
   And if you haven't already, become an official contributor using [this link](https://bit.ly/become-a-techqueria-github-contributor). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
@@ -69,8 +69,8 @@ newPRWelcomeComment: >
 
 
   If you don't hear back from anyone within the next week, feel free to reach out to one of the maintainers. 💛
-  
-  
+
+
   And if you haven't already, become an official contributor using [this link](https://bit.ly/become-a-techqueria-github-contributor). This will allow you to showcase the Techqueria GitHub organization on your profile! 😸
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge

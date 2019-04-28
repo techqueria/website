@@ -37,7 +37,6 @@ disqusShortname                      = "techqueria"
 # SEO
 [params]
     description                      = "Techqueria is one of the largest communities for Latinx professionals in the tech industry. 🌮"
-    copyright                        = "Techqueria.org"
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
@@ -74,28 +73,54 @@ disqusShortname                      = "techqueria"
     url                              = "https://twitter.com/Techqueria"
     identifier                       = "fab fa-lg fa-twitter"
 
-# Homepage
-# 1. About
-# 2. Blog
-# 3. Code of Conduct
-# 4. Communities
-# 5. Contact
-# 6. Events
-# 7. People
-# 8. Press
-# 9. Resources
-# 10. Sponsors
-# 11. Stock Photos
-# 12. Supporters
-# 13. Testimonials
+# About
+    # Blog
+    # Brand
+    # Code of Conduct
+    # Contact
+    # Events
+    # Photos
+    # Press
+    # Team
+# Communities
+    # City Chapters
+    # Eventbrite
+    # Facebook Group
+    # Facebook Page
+    # GitHub Organization
+    # Instagram
+    # LinkedIn Group
+    # LinkedIn Page
+    # Meetup Group
+    # Newsletter
+    # Open Collective
+    # Patreon
+    # Slack Workspace
+    # Twitter
+    # YouTube Channel
+# Donate
+    # Become a volunteer
+    # Donate space
+# Sponsor Us
+    # Our Sponsors
+    # Patreon Supporters
+# Resources
+    # Career Growth
+    # Conferences
+    # Design
+    # Entrepeanurship
+    # Health Care
+    # Housing
+    # Immigration
+    # Legal Help
+    # Nonprofits
+    # Open Source
+    # Podcasts
+    # Similar Organizations
+    # Students
+# Shop
 
-# Menu
-# 1. About
-# 2. Communities
-# 3. Contact
-# 4. Events
-# 5. Resources
-# 6. Sponsors
+# Join
 
 [[menu.main]]
     name                             = "About"
@@ -247,6 +272,7 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Conferences"
     url                              = "/resources/conferences/"
+
 #
 # Supporting Multiple Languages
 #

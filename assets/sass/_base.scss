@@ -46,6 +46,10 @@ iframe {
   width: 100%;
 }
 
+form {
+  max-width: $tablet;
+}
+
 .content {
 
   h1,

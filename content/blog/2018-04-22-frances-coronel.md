@@ -3,6 +3,8 @@ title: "Frances Coronel"
 description: "Software Engineer at Slack"
 date: 2018-04-22
 image: https://i.imgur.com/NWXkplC.jpg
+categories:
+  - testimonial
 ---
 
 Techqueria helped me get in touch with four different Latinxs in tech who all offered me tips on how to prepare for my interviews as I searched for my next role.

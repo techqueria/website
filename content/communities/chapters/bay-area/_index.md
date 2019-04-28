@@ -6,4 +6,6 @@ image: "/assets/img/resources/community-bay-area-photo.jpeg"
 aliases:
   - /bay-area/
   - /communities/bay-area/
+  - /san-francisco/
+  - /sf/
 ---

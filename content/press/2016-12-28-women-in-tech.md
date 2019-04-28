@@ -1,4 +1,10 @@
-https://www.businessinsider.com/women-in-tech-myspace-2016-12
+---
+title: ""
+date: 2016-12-28
+description: ""
+image: ""
+link: https://www.businessinsider.com/women-in-tech-myspace-2016-12
+---
 
 Latinos USA reporter Antonia Cereijido joined the Slack channel Techqueria, a large group message for Latinos in technology.
 

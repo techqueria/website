@@ -1,8 +1,0 @@
-<!-- Author -->
-{{ partial "custom/person.html" . }}
-<!-- External Link -->
-{{ if .Params.link }}
-<a class="mt-1 button is-link is-inverted is-large" href="{{ .Params.link }}" target="_blank" rel="noopener">
-  {{ if in .Params.link "linkedin.com/in/" }}LinkedIn Profile ➡{{ else if and (eq .Section "events") (.Date "ge" now) }}Register for the event ➡{{ else }}More info ➡{{ end }}
-</a>
-{{ end }}

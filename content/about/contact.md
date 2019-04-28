@@ -16,6 +16,8 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 
 ### Contact Form
 
+> Filling out the form below sends an email to `organizers@techqueria.org`.
+
 <form name="contact" action="https://formspree.io/organizers@techqueria.org" method="POST">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
   <div class="field">

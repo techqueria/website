@@ -1,11 +1,13 @@
 <div class="content has-text-centered">
-  {{ with .Site.Params.copyright }}
   <span class="is-size-1">🌮</span>️
   <p>
-    <a class="link--techqueria" href="/">{{ . }}</a>
+    &copy;
+    <a class="link--techqueria" href="/">Techqueria</a>
+    {{ with .Site.Params.year }}
+      {{ . }}
+    {{ end }}
+    to
+    {{ now.Year }}
   </p>
-  {{ end }}
-  <!-- Year -->
-  <p>{{ i18n "powered_by" }}
-    {{ .Site.Params.year }}</p>
+  <p>EIN 83-2656715</p>
 </div>
