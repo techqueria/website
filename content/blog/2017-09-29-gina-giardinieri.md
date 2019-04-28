@@ -1,5 +1,5 @@
 ---
-title: "Gina Giardinieri"
+title: "Testimonial: Gina Giardinieri"
 description: "Sales Coordinator at Mulberry Platform"
 date: 2017-09-29
 image: https://i.imgur.com/oxnVaMg.jpg

@@ -1,16 +1,16 @@
+{{ $currentPage := . }}
+
 <div class="column is-3">
   <p class="mb-1 is-size-5">
     <b>{{ i18n "sitemap" }}</b>
   </p>
-  <!-- Pages -->
-  {{ $pages := where .Site.RegularPages "Type" "page" }}
-  <!-- Section Pages -->
-  {{ $pages := $pages | union (.Site.Sections) }}
-  <!-- Looping -->
-  {{ range $pages.ByTitle }}
+  {{ range .Site.Menus.sitemap }}
     <p>
-      <a href="{{ .RelPermalink }}" class="link--techqueria">
-        {{.Title}}
+      <a class="link--techqueria{{ if (eq $currentPage.URL .URL) }} has-text-white{{ end }}" href="{{ .URL }}">
+        {{- if .Identifier -}}
+          <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+        {{- end -}}
+        {{ .Name }}
       </a>
     </p>
   {{ end }}

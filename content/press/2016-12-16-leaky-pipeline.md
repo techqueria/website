@@ -1,6 +1,7 @@
 ---
 title: The Tech Industry’s Leaky Pipeline
 date: 2016-12-16
+publication: "Latino USA"
 description: No matter the measure, whether it be race, class, or gender, the tech industry does not reflect the American work horse.
 image: https://latinousa.org/wp-content/uploads/2016/12/techPipeline_edited-2-600x380.png
 link: https://latinousa.org/episode/tech-industrys-leaky-pipeline/

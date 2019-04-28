@@ -1,6 +1,6 @@
 ---
-title: 'Miguel Correa'
-description: 'Front-End Engineer at HelloFresh'
+title: "Testimonial: Miguel Correa"
+description: "Front-End Engineer at HelloFresh"
 date: 2017-04-20
 image: https://avatars2.githubusercontent.com/u/11799597?s=460&v=4
 ---

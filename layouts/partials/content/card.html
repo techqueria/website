@@ -1,8 +1,7 @@
 <a href="{{ .RelPermalink }}">
-  <div
-    " }}{{ end }}" , class="card card-equal-height {{ if .Params.categories }}{{ delimit .Params.categories ">
-    <!-- Image -->
+  <div class="card card-equal-height">
     {{ if .Params.image }}
+      <!-- Image -->
       <div class="card-image">
         <figure class="image">
           <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
@@ -31,10 +30,6 @@
         </p>
         <!-- More Info -->
         {{ partial "content/info.html" . }}
-        <!-- Author -->
-        {{ partial "custom/person.html" . }}
-        <!-- Links -->
-        {{ partial "content/links.html" . }}
       </div>
     </div>
   </div>

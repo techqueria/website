@@ -6,6 +6,11 @@
   .navbar-burger {
     height: inherit;
     width: 3em;
+
+    span {
+      width: 20px;
+      height: 2px;
+    }
   }
 
   .navbar-item {

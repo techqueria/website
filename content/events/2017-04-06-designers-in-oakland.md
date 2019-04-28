@@ -8,8 +8,6 @@ image: https://i.imgur.com/UHZUWS7.jpg
 photos: https://photos.app.goo.gl/h3jtdoXhfqqSmk8q9
 ---
 
-## APRIL 6, 2017 @ 6:00 PM - 9:30 PM Free
-
 Designers are an important part of companies from any size and type. Join us for an evening of talks with some very talented designers that work at different companies in Oakland, talking about:
 
 - How to succeed as a graphic designer

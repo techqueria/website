@@ -73,6 +73,16 @@ disqusShortname                      = "techqueria"
     url                              = "https://twitter.com/Techqueria"
     identifier                       = "fab fa-lg fa-twitter"
 
+[[menu.slack]]
+    name                             = "Join our Slack"
+    url                              = "/communities/slack/"
+    identifier                       = "fab fa-lg fa-slack"
+
+[[menu.slack]]
+    name                             = "Login to Slack"
+    url                              = "https://latinos.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"
+
 # About
     # Blog
     # Brand
@@ -82,6 +92,7 @@ disqusShortname                      = "techqueria"
     # Photos
     # Press
     # Team
+    # Shop
 # Communities
     # City Chapters
     # Eventbrite
@@ -101,9 +112,6 @@ disqusShortname                      = "techqueria"
 # Donate
     # Become a volunteer
     # Donate space
-# Sponsor Us
-    # Our Sponsors
-    # Patreon Supporters
 # Resources
     # Career Growth
     # Conferences
@@ -118,9 +126,12 @@ disqusShortname                      = "techqueria"
     # Podcasts
     # Similar Organizations
     # Students
-# Shop
+# Sponsor Us
+    # Our Sponsors
+    # Patreon Supporters
 
-# Join
+# Join our Slack
+# Login into Slack
 
 [[menu.main]]
     name                             = "About"
@@ -149,10 +160,6 @@ disqusShortname                      = "techqueria"
     parent                           = "About"
     name                             = "Stock Photos"
     url                              = "/photos/"
-[[menu.main]]
-    parent                           = "About"
-    name                             = "Testimonials"
-    url                              = "/testimonials/"
 [[menu.main]]
     name                             = "Communities"
     url                              = "/communities/"
@@ -272,6 +279,70 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Conferences"
     url                              = "/resources/conferences/"
+
+# Sitemap
+# Should always be 9 items
+
+# About
+# Blog
+# Communities
+# Contact
+# Donate
+# Events
+# Join Our Slack
+# Press
+# Resources
+# Shop
+# Sponsors
+# Team
+
+[[menu.sitemap]]
+  name = "About"
+  url = "/about/"
+
+[[menu.sitemap]]
+  name = "Blog"
+  url = "/blog/"
+
+[[menu.sitemap]]
+  name = "Communities"
+  url = "/communities/"
+
+[[menu.sitemap]]
+  name = "Contact"
+  url = "/contact/"
+
+[[menu.sitemap]]
+  name = "Donate"
+  url = "/donate/"
+
+[[menu.sitemap]]
+  name = "Events"
+  url = "/events/"
+
+[[menu.sitemap]]
+  name = "Join Our Slack"
+  url = "/communities/slack/"
+
+[[menu.sitemap]]
+  name = "Press"
+  url = "/press/"
+
+[[menu.sitemap]]
+  name = "Resources"
+  url = "/resources/"
+
+[[menu.sitemap]]
+  name = "Shop"
+  url = "/blog/"
+
+[[menu.sitemap]]
+  name = "Sponsors"
+  url = "/sponsors/"
+
+[[menu.sitemap]]
+  name = "Team"
+  url = "/team/"
 
 #
 # Supporting Multiple Languages

@@ -22,6 +22,18 @@ a {
     }
   }
 
+  &.tag {
+    border-bottom: none;
+    color: white;
+
+    &:hover {
+      border-bottom: none;
+      background-color: $techqueria;
+      color: $techqueria-black;
+      text-decoration: none;
+    }
+  }
+
   &.hero-link {
     text-decoration: underline;
 
@@ -40,6 +52,14 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   @extend %overflow-text;
+}
+
+.button {
+  &.is-link {
+    &:hover {
+      background-color: $techqueria-black;
+    }
+  }
 }
 
 iframe {
