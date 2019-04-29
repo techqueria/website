@@ -2,7 +2,10 @@
 title: "Terms of Service"
 description: "By accessing this website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws."
 url: /terms-of-service/
-noTimeEstimate: true
+aliases:
+  - /tos/
+  - /about/tos/
+  - /about/terms-of-service/
 ---
 
 ### 1. Terms

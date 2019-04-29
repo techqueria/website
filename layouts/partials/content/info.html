@@ -14,6 +14,10 @@
 {{ if not .PublishDate.IsZero }}
   <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ dateFormat "Monday - January 2, 2006" .Date }}</p>
 {{ end }}
+<!-- Tier -->
+{{ with .Params.tier }}
+  <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ . }}</p>
+{{ end }}
 <!-- Reading Time & Word Count -->
 {{- if not .Params.noTimeEstimate }}
   {{- if gt .ReadingTime 1 }}
@@ -24,4 +28,4 @@
         words</p>
     {{- end }}
   {{- end }}
-  {{- end }}
+{{- end }}

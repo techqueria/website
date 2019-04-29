@@ -2,12 +2,14 @@
 title: Team
 description: "Techqueria is an all-volunteer organization that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors."
 layout: "people"
-noTimeEstimate: true
 sortByLocation: true
+url: /team/
 aliases:
   - /team/
   - /organizers/
   - /people/
+categories:
+  - sitemap
 ---
 
 Techqueria is an all-volunteer organization that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors.

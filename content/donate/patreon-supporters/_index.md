@@ -1,7 +1,7 @@
 ---
-title: Patreon Supporters
+title: Our Patreon Supporters
 description: We want to recognize our Patreon supporters for their financial support.
-image: "/assets/img/supporters/patreon-supporters.jpg"
+image: "/assets/img/patreon/patreon-supporters.jpg"
 aliases:
   - /patreon-supporters/
   - /supporters/

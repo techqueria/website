@@ -2,6 +2,13 @@
 title: Contact
 description: Get in touch with Latinx in Tech!
 noTimeEstimate: true
+url: /contact/
+aliases:
+  - /contact/
+  - /about/contact/
+  - /message-us/
+categories:
+  - sitemap
 ---
 
 ## Ways To Contact Us
@@ -46,7 +53,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
   </div>
   <div class="field mt-sm">
     <div class="control">
-      <button type="submit" class="button is-link">Send message</button>
+      <button type="submit" class="button is-primary">Send message</button>
     </div>
   </div>
 </form>

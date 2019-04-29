@@ -67,18 +67,18 @@
         class="navbar-end">
         <!-- Social -->
         {{ range .Site.Menus.social }}
-          <a class="navbar-item is-hidden-touch" href="{{ .URL }}" target="_blank" rel="noopener">
+          <a class="navbar-item navbar-item__social is-hidden-touch" href="{{ .URL }}" target="_blank" rel="noopener">
             {{ if .Identifier }}
               <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
             {{ end }}
           </a>
         {{ end }}
         <!-- Slack -->
-        <div class="navbar-item is-hidden-desktop">
+        <div class="navbar-item is-hidden-desktop-only is-hidden-widescreen-only">
           <div class="field is-grouped">
             {{ range .Site.Menus.slack }}
               <p class="control">
-                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="{{ .URL }}">
+                <a class="bd-tw-button button is-primary" target="_blank" href="{{ .URL }}">
                   <span class="icon">
                     {{ if .Identifier }}
                       <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>

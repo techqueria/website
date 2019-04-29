@@ -55,15 +55,4 @@
       margin: 0;
     }
   }
-
-  .button {
-    &.is-link {
-      &:hover {
-        border-bottom: none;
-        background-color: $techqueria;
-        color: $techqueria-black;
-        text-decoration: none;
-      }
-    }
-  }
 }

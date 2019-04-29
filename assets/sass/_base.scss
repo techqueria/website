@@ -22,18 +22,6 @@ a {
     }
   }
 
-  &.tag {
-    border-bottom: none;
-    color: white;
-
-    &:hover {
-      border-bottom: none;
-      background-color: $techqueria;
-      color: $techqueria-black;
-      text-decoration: none;
-    }
-  }
-
   &.hero-link {
     text-decoration: underline;
 
@@ -58,6 +46,18 @@ input[type='submit'] {
   &.is-link {
     &:hover {
       background-color: $techqueria-black;
+    }
+  }
+
+  &.is-primary {
+    background-color: $techqueria-black;
+    color: $techqueria-white;
+
+    &:hover {
+      border-bottom: none;
+      background-color: $techqueria;
+      color: $techqueria-black;
+      text-decoration: none;
     }
   }
 }
@@ -95,4 +95,20 @@ form {
 
 .container.is-fluid {
   margin: 0;
+}
+
+a,
+.content a {
+  &.tag {
+    border-bottom: none;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: none;
+      background-color: $techqueria;
+      color: $techqueria-black;
+      text-decoration: none;
+    }
+  }
 }

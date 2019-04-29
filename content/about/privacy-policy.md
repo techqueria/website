@@ -2,7 +2,8 @@
 title: "Privacy Policy"
 description: "Your privacy is important to us. It is Techqueria's policy to respect your privacy regarding any information we may collect from you across our website and other sites we own and operate."
 url: /privacy-policy/
-noTimeEstimate: true
+aliases:
+  - /about/privacy-policy/
 ---
 
 Your privacy is important to us. It is Techqueria's policy to respect your privacy regarding any information we may collect from you across our website, [https://techqueria.org](https://techqueria.org), and other sites we own and operate.

@@ -2,8 +2,8 @@
 title: Events
 description: Find information about our upcoming events with other Latinx in Tech.
 layout: "events"
-noTimeEstimate: true
 sortLatestFirst: true
+url: /events/
 aliases:
   - /about/photos/
   - /eventbrite/
@@ -11,6 +11,8 @@ aliases:
   - /meetups/
   - /photos/
   - /stock-photos/
+categories:
+  - sitemap
 ---
 
 See all our events on [Eventbrite](https://techqueria.eventbrite.com) or [Meetup](https://meetup.com/techqueria/).

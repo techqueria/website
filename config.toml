@@ -124,7 +124,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Brand"
-    url                              = "/about/brand/"
+    url                              = "/brand/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Contact"
@@ -209,6 +209,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Donate"
     name                             = "Contribute on Patreon"
     url                              = "https://www.patreon.com/techqueria/"
+[[menu.main]]
+    parent                           = "Donate"
+    name                             = "Our Patreon Supporters"
+    url                              = "/donate/patreon-supporters/"
 
 [[menu.main]]
     name                             = "Resources"
@@ -263,20 +267,20 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/similar-organizations/"
 
 [[menu.main]]
-    name                             = "Sponsor Us"
-    url                              = "/sponsors/become-a-sponsor"
+    name                             = "Support Us"
+    url                              = "/support-us/"
 [[menu.main]]
-    parent                           = "Sponsor Us"
-    name                             = "Our Current Sponsors"
-    url                              = "/sponsors/"
-[[menu.main]]
-    parent                           = "Sponsor Us"
+    parent                           = "Support Us"
     name                             = "Become a volunteer"
-    url                              = "/donate/volunteer"
+    url                              = "/volunteer/"
 [[menu.main]]
-    parent                           = "Sponsor Us"
+    parent                           = "Support Us"
     name                             = "Donate space"
-    url                              = "/donate/space/"
+    url                              = "/donate-space/"
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Our Supporters"
+    url                              = "/supporters/"
 
 # Social Menu
 
@@ -294,7 +298,7 @@ disqusShortname                      = "techqueria"
 
 [[menu.slack]]
     name                             = "Join our Slack"
-    url                              = "/communities/slack/"
+    url                              = "https://goo.gl/forms/VRARl4qkkLj3BJLl1"
     identifier                       = "fab fa-lg fa-slack"
 
 [[menu.slack]]
@@ -326,7 +330,7 @@ disqusShortname                      = "techqueria"
   url = "/blog/"
 [[menu.sitemap]]
   name = "Code of Conduct"
-  url = "/about/code-of-conduct/"
+  url = "/code-of-conduct/"
 [[menu.sitemap]]
   name = "Communities"
   url = "/communities/"
@@ -347,10 +351,10 @@ disqusShortname                      = "techqueria"
   url = "/resources/"
 [[menu.sitemap]]
   name = "Shop"
-  url = "/blog/"
+  url = "/shop/"
 [[menu.sitemap]]
-  name = "Sponsors"
-  url = "/sponsors/"
+  name = "Support Us"
+  url = "/support-us/"
 [[menu.sitemap]]
   name = "Team"
   url = "/team/"

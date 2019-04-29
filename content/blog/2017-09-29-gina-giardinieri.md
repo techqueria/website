@@ -1,8 +1,9 @@
 ---
-title: "Testimonial: Gina Giardinieri"
+title: "Gina Giardinieri"
 description: "Sales Coordinator at Mulberry Platform"
 date: 2017-09-29
 image: https://i.imgur.com/oxnVaMg.jpg
+link: https://www.linkedin.com/in/gina-giardinieri/
 categories:
   - testimonial
 ---
@@ -18,5 +19,3 @@ I ended up joining a great team of people with with careers in tech and outside 
 Techstars start up weekend was such an amazing learning experience because it showed me how a company can be built in 52 hours.
 
 This was so rewarding and I would recommend it to anyone looking to learn,network, and be challenged.
-
-> https://www.linkedin.com/in/gina-giardinieri/

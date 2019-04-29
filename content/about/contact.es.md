@@ -1,7 +1,6 @@
 ---
 title: Contacto
 description: ¡Ponte en contacto con Latinx en Tech!
-noTimeEstimate: true
 ---
 
 ## Formas de contactarnos
@@ -43,7 +42,7 @@ Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack
   <div data-netlify-recaptcha="true"></div>
   <div class="field mt-sm">
     <div class="control">
-      <button type="submit" class="button is-link">Enviar mensaje</button>
+      <button type="submit" class="button is-primary">Enviar mensaje</button>
     </div>
   </div>
 </form>
