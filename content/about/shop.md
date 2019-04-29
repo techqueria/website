@@ -1,6 +1,6 @@
 ---
 title: "Shop"
-description: "Buy swag from Techqueria 🛒️"
+description: "Buy all kinds of cool swag from Techqueria's offical Spreadshirt store! 🛒️"
 url: /shop/
 aliases:
   - /shop/

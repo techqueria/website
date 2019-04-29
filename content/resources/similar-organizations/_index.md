@@ -1,5 +1,5 @@
 ---
-title: Similar Organizations
+title: Similar Organizations 💡
 description: Resources related to similar organizations.
 aliases:
   - /resources/similar-organizations/

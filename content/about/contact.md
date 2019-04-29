@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Get in touch with Latinx in Tech!
+description: Get in touch with a Techqueria team member via email, Slack or social media.
 noTimeEstimate: true
 url: /contact/
 aliases:
@@ -62,7 +62,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 
 ## Partnering
 
-We're always looking for [partners and sponsors](/sponsors/) to help move our mission forward! We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
+We're always looking for [partners and sponsors](/support-us/) to help move our mission forward! We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
 
 We are looking for speakers, locations for our events, those who can sponsors programs for our members, food, services, merchandise and we're open to other partnering ideas.
 

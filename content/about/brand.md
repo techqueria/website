@@ -1,6 +1,6 @@
 ---
 title: Brand
-description: Download our assets and discover our style guide.
+description: Download our assets and discover our style guide. 🎨
 image: "/assets/img/logos/banner-logo-only.png"
 url: /brand/
 aliases:

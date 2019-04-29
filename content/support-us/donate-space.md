@@ -1,6 +1,6 @@
 ---
 title: "Donate space"
-description: "Our events are a great opportunity to support our members' growth and advancement while giving them a glimpse of the environment at your company."
+description: "Donating space for Techqueria events provides a great opportunity for our members to get a peek of your company environment while also supporting the growth and advancement of our members."
 image: "/assets/img/banners/donate-space.jpg"
 url: /donate-space/
 aliases:
@@ -8,26 +8,31 @@ aliases:
   - /support-us/donate-space/
 ---
 
-Most /dev/color events take place in space generously donated by technology companies in the area. Our events are a great opportunity to support our members' growth and advancement while giving them a glimpse of the environment at your company. The events vary in the number of attendees, from a handful to hundreds of engineers. Most events are on weekday evenings from 6PM to 9PM. We ask that the host company provide the following:
+Techqueria events are usually held at different tech companies across the US.
 
-Logistical support in preparing the venue and signing in guests
+Donating space for Techqueria events provides a great opportunity for our members to get a peek of your company environment while also supporting the growth and advancement of our members.
 
-Appetizers and/or dinner for the group of attendees
+The number of attendees varies - from a few to hundreds with most events happening on evenings during the week from 6 to 9 pm.
 
-An engineering or company leader to welcome the group and share a few words about the company.
+As a host, you commit to providing the following:
 
-If you're interesting in hosting one of our events in the future, please fill out the form below and we'll let you know when we have one that might be a good fit!
+- catering & space up for our attendees
+- a company representative to initially welcome the group and introduce the company (ideally, they identify as Latinx)
+- (optional) [a shared channel](https://get.slack.help/hc/en-us/articles/115004151203-Create-shared-channels-on-a-workspace-beta-) between Techqueria's Slack Workspace and your company's Slack Workspace
 
-Organization Name
-Your Name
-Your Email
-What's the max number of people you can host (comfortably) for an event?
-In which cities can you host an event?
-How did you hear about dev/color?
-Are you interested in hearing about official partnership opportunities? \*
+> If you're interested in donating space, please fill out the form below and we'll get back to you ASAP.
 
-<form name="contact" method="POST" data-netlify="true">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Volunteering Position">
+<form name="Donate Space" method="POST" data-netlify="true">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
+  <div class="field">
+    <label class="label">Organization</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Organization" autocomplete="on" type="text" name="organization" placeholder="Your organization" required>
+      <span class="icon is-left">
+        🏢
+      </span>
+    </div>
+  </div>
   <div class="field">
     <label class="label">Name</label>
     <div class="control has-icons-left">
@@ -40,22 +45,58 @@ Are you interested in hearing about official partnership opportunities? \*
   <div class="field">
     <label class="label">Email</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Email" required>
+      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
         ✉️
       </span>
     </div>
   </div>
   <div class="field">
-    <label class="label">Anything else?</label>
+    <label class="label">LinkedIn Profile URL</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <span class="icon is-left">
+        💼
+      </span>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">What's the max number of people you can host (comfortably) for an event?</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Attendees" autocomplete="on" type="number" name="attendees" placeholder="200" required>
+      <span class="icon is-left">
+        👥
+      </span>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Where would you like to host an event?</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Location" autocomplete="on" type="text" name="location" placeholder="San Francisco, CA" required>
+      <span class="icon is-left">
+        📍
+      </span>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">How did you hear about Techqueria?</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Referral" autocomplete="on" type="text" name="referral" placeholder="Twitter">
+      <span class="icon is-left">
+        🔍️
+      </span>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Anything else you'd like to add?</label>
     <div class="control">
-      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="" required></textarea>
+      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder=""></textarea>
     </div>
   </div>
   <div data-netlify-recaptcha="true"></div>
   <div class="field mt-sm">
     <div class="control">
-      <button type="submit" class="button is-primary">Submit application</button>
+      <button type="submit" class="button is-primary">Submit</button>
     </div>
   </div>
 </form>
