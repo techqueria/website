@@ -1,5 +1,5 @@
 ---
 title: Resources
-description: We are creating a list of resources for the community.
+description: A list of helpful resources for our Latinx in Tech community.
 noTimeEstimate: true
 ---

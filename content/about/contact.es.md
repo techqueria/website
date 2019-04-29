@@ -14,41 +14,39 @@ noTimeEstimate: true
 
 Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
 
-<div class="contact-form">
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message (EN)">
-    <div class="field">
-      <label class="label">Nombre</label>
-      <div class="control has-icons-left">
-        <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Tu nombre completo" required>
-        <span class="icon is-left">
-          ✒️
-        </span>
-      </div>
+<form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message (EN)">
+  <div class="field">
+    <label class="label">Nombre</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Tu nombre completo" required>
+      <span class="icon is-left">
+        ✒️
+      </span>
     </div>
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control has-icons-left">
-        <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Tu correo electrónico" required>
-        <span class="icon is-left">
-          ✉️
-        </span>
-      </div>
+  </div>
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Tu correo electrónico" required>
+      <span class="icon is-left">
+        ✉️
+      </span>
     </div>
-    <div class="field">
-      <label class="label">Mensaje</label>
-      <div class="control">
-        <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Tu mensaje" required></textarea>
-      </div>
+  </div>
+  <div class="field">
+    <label class="label">Mensaje</label>
+    <div class="control">
+      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Tu mensaje" required></textarea>
     </div>
-    <div data-netlify-recaptcha="true"></div>
-    <div class="field mt-sm">
-      <div class="control">
-        <button type="submit" class="button is-link">Enviar mensaje</button>
-      </div>
+  </div>
+  <div data-netlify-recaptcha="true"></div>
+  <div class="field mt-sm">
+    <div class="control">
+      <button type="submit" class="button is-link">Enviar mensaje</button>
     </div>
-  </form>
-</div>
+  </div>
+</form>
 
 ---
 

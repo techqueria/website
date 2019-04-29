@@ -63,33 +63,12 @@ disqusShortname                      = "techqueria"
     name                             = "Techqueria"
     copyright                        = "©️ Techqueria.org"
 
-[[menu.social]]
-    name                             = "LinkedIn"
-    url                              = "https://www.linkedin.com/company/techqueria/"
-    identifier                       = "fab fa-lg fa-linkedin"
-
-[[menu.social]]
-    name                             = "Twitter"
-    url                              = "https://twitter.com/Techqueria"
-    identifier                       = "fab fa-lg fa-twitter"
-
-[[menu.slack]]
-    name                             = "Join our Slack"
-    url                              = "/communities/slack/"
-    identifier                       = "fab fa-lg fa-slack"
-
-[[menu.slack]]
-    name                             = "Login to Slack"
-    url                              = "https://latinos.slack.com"
-    identifier                       = "fas fa-lg fa-sign-in-alt"
-
 # About
     # Blog
     # Brand
     # Code of Conduct
     # Contact
     # Events
-    # Photos
     # Press
     # Team
     # Shop
@@ -104,14 +83,12 @@ disqusShortname                      = "techqueria"
     # LinkedIn Page
     # Meetup Group
     # Newsletter
-    # Open Collective
-    # Patreon
     # Slack Workspace
     # Twitter
     # YouTube Channel
 # Donate
-    # Become a volunteer
-    # Donate space
+    # Contribute on Open Collective
+    # Contribute on Patreon
 # Resources
     # Career Growth
     # Conferences
@@ -127,8 +104,12 @@ disqusShortname                      = "techqueria"
     # Similar Organizations
     # Students
 # Sponsor Us
-    # Our Sponsors
-    # Patreon Supporters
+    # Our Current Sponsors
+    # Become a volunteer
+    # Donate space
+
+# Twitter
+# LinkedIn
 
 # Join our Slack
 # Login into Slack
@@ -146,20 +127,25 @@ disqusShortname                      = "techqueria"
     url                              = "/about/brand/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Code of Conduct"
-    url                              = "/code-of-conduct/"
+    name                             = "Contact"
+    url                              = "/contact/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "People"
-    url                              = "/people/"
+    name                             = "Events"
+    url                              = "/events/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Press️"
     url                              = "/press/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Stock Photos"
-    url                              = "/photos/"
+    name                             = "Team"
+    url                              = "/team/"
+[[menu.main]]
+    parent                           = "About"
+    name                             = "Shop"
+    url                              = "/shop/"
+
 [[menu.main]]
     name                             = "Communities"
     url                              = "/communities/"
@@ -201,36 +187,28 @@ disqusShortname                      = "techqueria"
     url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
 [[menu.main]]
     parent                           = "Communities"
-    name                             = "Open Collective"
-    url                              = "https://opencollective.com/techqueria/"
-[[menu.main]]
-    parent                           = "Communities"
-    name                             = "Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
-[[menu.main]]
-    parent                           = "Communities"
     name                             = "Slack Workspace"
     url                              = "/communities/slack/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
 [[menu.main]]
     parent                           = "Communities"
     name                             = "YouTube Channel"
     url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 [[menu.main]]
-    name                             = "Contact"
-    url                              = "/contact/"
-
+    name                             = "Donate"
+    url                              = "/donate/"
 [[menu.main]]
-    name                             = "Events"
-    url                              = "/events/"
-
+    parent                           = "Donate"
+    name                             = "Contribute on Open Collective"
+    url                              = "https://opencollective.com/techqueria/"
 [[menu.main]]
-    name                             = "Sponsors"
-    url                              = "/sponsors/"
-[[menu.main]]
-    parent                           = "Sponsors"
-    name                             = "Patreon Supporters"
-    url                              = "/sponsors/patreon-supporters/"
+    parent                           = "Donate"
+    name                             = "Contribute on Patreon"
+    url                              = "https://www.patreon.com/techqueria/"
 
 [[menu.main]]
     name                             = "Resources"
@@ -239,6 +217,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Career Growth"
     url                              = "/resources/career/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Conferences"
+    url                              = "/resources/conferences/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Design"
@@ -265,6 +247,10 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/legal/"
 [[menu.main]]
     parent                           = "Resources"
+    name                             = "Nonprofits"
+    url                              = "/resources/nonprofits/"
+[[menu.main]]
+    parent                           = "Resources"
     name                             = "Open Source"
     url                              = "/resources/open-source/"
 [[menu.main]]
@@ -273,73 +259,98 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/podcasts/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Nonprofits"
-    url                              = "/resources/nonprofits/"
+    name                             = "Similar Organizations"
+    url                              = "/resources/similar-organizations/"
+
 [[menu.main]]
-    parent                           = "Resources"
-    name                             = "Conferences"
-    url                              = "/resources/conferences/"
+    name                             = "Sponsor Us"
+    url                              = "/sponsors/become-a-sponsor"
+[[menu.main]]
+    parent                           = "Sponsor Us"
+    name                             = "Our Current Sponsors"
+    url                              = "/sponsors/"
+[[menu.main]]
+    parent                           = "Sponsor Us"
+    name                             = "Become a volunteer"
+    url                              = "/donate/volunteer"
+[[menu.main]]
+    parent                           = "Sponsor Us"
+    name                             = "Donate space"
+    url                              = "/donate/space/"
+
+# Social Menu
+
+[[menu.social]]
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+
+[[menu.social]]
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
+
+# Slack Menu
+
+[[menu.slack]]
+    name                             = "Join our Slack"
+    url                              = "/communities/slack/"
+    identifier                       = "fab fa-lg fa-slack"
+
+[[menu.slack]]
+    name                             = "Login to Slack"
+    url                              = "https://latinos.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"
 
 # Sitemap
 # Should always be 9 items
 
 # About
 # Blog
+# Code of Conduct
 # Communities
 # Contact
 # Donate
 # Events
-# Join Our Slack
 # Press
 # Resources
 # Shop
-# Sponsors
+# Sponsor Us
 # Team
 
 [[menu.sitemap]]
   name = "About"
   url = "/about/"
-
 [[menu.sitemap]]
   name = "Blog"
   url = "/blog/"
-
+[[menu.sitemap]]
+  name = "Code of Conduct"
+  url = "/about/code-of-conduct/"
 [[menu.sitemap]]
   name = "Communities"
   url = "/communities/"
-
 [[menu.sitemap]]
   name = "Contact"
   url = "/contact/"
-
 [[menu.sitemap]]
   name = "Donate"
   url = "/donate/"
-
 [[menu.sitemap]]
   name = "Events"
   url = "/events/"
-
-[[menu.sitemap]]
-  name = "Join Our Slack"
-  url = "/communities/slack/"
-
 [[menu.sitemap]]
   name = "Press"
   url = "/press/"
-
 [[menu.sitemap]]
   name = "Resources"
   url = "/resources/"
-
 [[menu.sitemap]]
   name = "Shop"
   url = "/blog/"
-
 [[menu.sitemap]]
   name = "Sponsors"
   url = "/sponsors/"
-
 [[menu.sitemap]]
   name = "Team"
   url = "/team/"

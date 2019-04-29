@@ -6,4 +6,4 @@ noTimeEstimate: true
 
 Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry.
 
-Techqueria is a 501c3 nonprofit and all donations are tax deductible. Our EIN is 83-2656715. To learn more about Techqueria's mission, visit https://techqueria.org.
+Techqueria is a 501c3 nonprofit and all donations are tax deductible. Our EIN is 83-2656715.
