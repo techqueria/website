@@ -15,7 +15,7 @@ categories:
 
 Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
 
-<form name="Contacto" method="POST" data-netlify="true">
+<form name="Contact" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message (EN)">
   <div class="field">
     <label class="label">Nombre</label>
