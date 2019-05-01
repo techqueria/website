@@ -100,16 +100,21 @@
   {{ end }}
 {{ end }}
 <script type="application/ld+json">
-{
-  "@context":        "https://schema.org",
-  "@type":           "BreadcrumbList",
-  "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
-        "@type":     "ListItem",
-        "position":  {{ .position }},
-        "item":      {
-          "@id":     "{{ .url }}",
-          "name":    "{{ .name }}"
+  {
+    "@context":        "https://schema.org",
+    "@type":           "BreadcrumbList",
+    "itemListElement": [
+  {{ range $.Scratch.Get "breadcrumb" }}
+    {{ if ne .position 1 }},
+    {{ end }}{
+            "@type":     "ListItem",
+            "position":
+    {{ .position }},
+            "item":      {
+              "@id":     "{{ .url }}",
+              "name":    "{{ .name }}"
+            }
         }
-    }{{ end }}]
-}
+  {{ end }}]
+  }
 </script>

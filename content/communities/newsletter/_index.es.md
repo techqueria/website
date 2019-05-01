@@ -40,7 +40,7 @@ image: https://cdn.woorkup.com/wp-content/uploads/2015/07/mailchimp.png
       <br>
       <div class="field">
         <div class="control">
-          <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-link">Suscríbase</button>
+          <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-primary">Suscríbase</button>
         </div>
       </div>
     </div>

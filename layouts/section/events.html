@@ -1,46 +1,47 @@
 {{ define "main" }}
-<!-- Variables -->
-{{ $events := .Sections | union .Pages }}
-{{ $upcomingEvents := where $events "Date" "ge" now }}
-{{ $pastEvents := where $events "Date" "lt" now }}
-<!-- Hero -->
-{{ partial "content/hero.html" . }}
-<!-- Page -->
-<section class="section page">
-  <div class="container">
-    <!-- Breadcrumbs -->
-    {{ partial "custom/breadcrumbs.html" . }}
-    <!-- Content -->
-    {{ partial "content/_index.html" . }}
-    <!-- Upcoming Events -->
-    {{ if (len $upcomingEvents) "ge" 1 }}
-    <div class="content mt-2">
-      <h2>⏳️
-        {{ len $upcomingEvents }}
-        Upcoming
-        {{ if gt (len $upcomingEvents) 1 }}Events{{ else }}Event
+  <!-- Variables -->
+  {{ $events := .Sections | union .Pages }}
+  {{ $upcomingEvents := where $events "Date" "ge" now }}
+  {{ $pastEvents := where $events "Date" "lt" now }}
+  <!-- Hero -->
+  {{ partial "content/hero.html" . }}
+  <!-- Page -->
+  <section class="section page">
+    <div
+      class="container">
+      <!-- Breadcrumbs -->
+      {{ partial "custom/breadcrumbs.html" . }}
+      <!-- Content -->
+      {{ partial "content/_index.html" . }}
+      <!-- Upcoming Events -->
+      {{ if (len $upcomingEvents) "ge" 1 }}
+        <div class="content mt-2">
+          <h2>⏳️
+            {{ len $upcomingEvents }}
+            Upcoming
+            {{ if gt (len $upcomingEvents) 1 }}Events{{ else }}Event
+            {{ end }}
+          </h2>
+        </div>
+        <div class="columns is-multiline">
+          {{ range $upcomingEvents.ByDate.Reverse }}
+            {{ partial "content/child.html" . }}
+          {{ end }}
+        </div>
+      {{ end }}
+      <!-- Past Events -->
+      <div class="content mt-2">
+        <h2>⌛️
+          {{ len $pastEvents }}
+          Past Events</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range $pastEvents.ByDate.Reverse }}
+          {{ partial "content/child.html" . }}
         {{ end }}
-      </h2>
+      </div>
+      <!-- Content Footer -->
+      {{ partial "content/footer/_index.html" . }}
     </div>
-    <div class="columns is-multiline">
-      {{ range $upcomingEvents.ByDate.Reverse }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    {{ end }}
-    <!-- Past Events -->
-    <div class="content mt-2">
-      <h2>⌛️
-        {{ len $pastEvents }}
-        Past Events</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range $pastEvents.ByDate.Reverse }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
-  </div>
-</section>
+  </section>
 {{ end }}

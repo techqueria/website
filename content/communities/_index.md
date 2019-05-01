@@ -1,8 +1,9 @@
 ---
 title: Communities
 description: Opportunities to network and connect with other Latinx in Tech.
-comments: true
-noTimeEstimate: true
+url: /communities/
+categories:
+  - sitemap
 ---
 
 ## Networking
