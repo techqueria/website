@@ -1,25 +1,25 @@
 {{ define "main" }}
-<!-- Pages -->
-{{ $pages := (.Sections | union .Pages) }}
-<!-- Hero -->
-{{ partial "content/hero.html" . }}
-<!-- Page -->
-<section class="section page">
-  <div class="container">
-    <!-- Breadcrumbs -->
-    {{ partial "custom/breadcrumbs.html" . }}
-    <!-- Content -->
-    {{ partial "content/_index.html" . }}
-    <!-- Filters -->
-    <!-- TODO: Add buttons to filter by location and role -->
-    <!-- People -->
-    <div class="columns is-multiline">
-      {{ range $pages }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
+  <!-- Pages -->
+  {{ $pages := (.Sections | union .Pages) }}
+  <!-- Hero -->
+  {{ partial "content/hero.html" . }}
+  <!-- Page -->
+  <section class="section page">
+    <div
+      class="container">
+      <!-- Breadcrumbs -->
+      {{ partial "custom/breadcrumbs.html" . }}
+      <!-- Content -->
+      {{ partial "content/_index.html" . }}
+      <!-- Filters -->
+      <!-- TODO: Add buttons to filter by location and role -->
+      <!-- People -->
+        <div class="columns is-multiline"> {{ range $pages }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Content Footer -->
+      {{ partial "content/footer/_index.html" . }}
     </div>
-    <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
-  </div>
-</section>
+  </section>
 {{ end }}

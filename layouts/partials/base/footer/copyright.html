@@ -4,9 +4,9 @@
     &copy;
     <a class="link--techqueria" href="/">Techqueria</a>
     {{ with .Site.Params.year }}
-      {{ . }}
+    {{ . }}
     {{ end }}
-    to
+    {{ i18n "copyright_to" }}
     {{ now.Year }}
   </p>
   <p>EIN 83-2656715</p>

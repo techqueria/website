@@ -1,7 +1,7 @@
-<div class="content mt-2">
-  {{ if .Params.comments }}
+{{ if .Params.comments }}
+  <div class="content mt-2">
     <h2>{{ i18n "comment" }}
       💬</h2>
     {{ template "_internal/disqus.html" . }}
+  </div>
   {{ end }}
-</div>

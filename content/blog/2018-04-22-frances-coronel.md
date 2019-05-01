@@ -2,6 +2,7 @@
 title: "Frances Coronel"
 description: "Software Engineer at Slack"
 date: 2018-04-22
+comments: true
 image: https://i.imgur.com/NWXkplC.jpg
 link: https://linkedin.com/in/fvcproductions
 categories:

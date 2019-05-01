@@ -5,13 +5,13 @@
     <b>{{ i18n "sitemap" }}</b>
   </p>
   {{ range .Site.Menus.sitemap }}
-    <p>
-      <a class="link--techqueria{{ if (eq $currentPage.URL .URL) }} has-text-white{{ end }}" href="{{ .URL }}">
-        {{- if .Identifier -}}
-          <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-        {{- end -}}
-        {{ .Name }}
-      </a>
-    </p>
+  <p>
+    <a class="link--techqueria{{ if (eq $currentPage.URL .URL) }} has-text-white{{ end }}" href="{{ .URL | relLangURL }}">
+      {{- if .Identifier -}}
+      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+      {{- end -}}
+      {{ .Name }}
+    </a>
+  </p>
   {{ end }}
 </div>

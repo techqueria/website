@@ -1,11 +1,6 @@
 ---
-title: "Shop"
-description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
-url: /shop/
-aliases:
-  - /shop/
-  - /store/
-  - /about/shop/
+title: "Tienda"
+description: "¡Compre todo tipo de botines geniales en la tienda oficial de camisetas de Techqueria!"
 categories:
   - sitemap
 ---

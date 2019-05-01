@@ -1,25 +1,25 @@
 {{ $currentPage := . }}
 
 <nav aria-label="main navigation" class="navbar has-shadow is-spaced" role="navigation">
-  <div
-    class="container is-fluid">
+  <div class="container is-fluid">
     <!-- Brand -->
-    <div
-      class="navbar-brand">
+    <div class="navbar-brand">
       <!-- Logo -->
-      <a class="navbar-item" href="/">
-        <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Title }}">
+      {{ range .Site.Menus.homepage }}
+      <a class="navbar-item" href="{{ .URL | relLangURL }}">
+        <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Name }}">
       </a>
+      {{ end }}
       <!-- Left Icons -->
       <!-- Hidden on Desktop, Mobile Only -->
       <div class="navbar-item is-hidden-desktop is-hidden-fullhd">
         <div class="buttons">
           {{ range .Site.Menus.social }}
-            <a class="button is-white" href="{{ .URL }}" target="_blank" rel="noopener">
-              {{ if .Identifier }}
-                <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-              {{ end }}
-            </a>
+          <a class="button is-white" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+            {{ if .Identifier }}
+            <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+            {{ end }}
+          </a>
           {{ end }}
         </div>
       </div>
@@ -34,61 +34,60 @@
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-start">
         {{ range .Site.Menus.main }}
-          {{ if .HasChildren }}
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
-                {{ if .Identifier }}
-                  <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-                {{ end }}
-                {{- .Name -}}
-              </a>
-              <div class="navbar-dropdown is-size-7">
-                {{ range .Children }}
-                  <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
-                    {{ if .Identifier }}
-                      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-                    {{ end }}
-                    {{ .Name }}
-                  </a>
-                {{ end }}
-              </div>
-            </div>
-          {{ else }}
-            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL }}">
-              {{- if .Identifier -}}
-                <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-              {{- end -}}
+        {{ if .HasChildren }}
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+            {{ if .Identifier }}
+            <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+            {{ end }}
+            {{- .Name -}}
+          </a>
+          <div class="navbar-dropdown is-size-7">
+            {{ range .Children }}
+            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+              {{ if .Identifier }}
+              <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+              {{ end }}
               {{ .Name }}
             </a>
-          {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ else }}
+        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+          {{- if .Identifier -}}
+          <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+          {{- end -}}
+          {{ .Name }}
+        </a>
+        {{ end }}
         {{ end }}
       </div>
-      <div
-        class="navbar-end">
+      <div class="navbar-end">
         <!-- Social -->
         {{ range .Site.Menus.social }}
-          <a class="navbar-item navbar-item--social is-hidden-touch" href="{{ .URL }}" target="_blank" rel="noopener">
-            {{ if .Identifier }}
-              <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-            {{ end }}
-          </a>
+        <a class="navbar-item navbar-item--social is-hidden-touch" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+          {{ if .Identifier }}
+          <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+          {{ end }}
+        </a>
         {{ end }}
         <!-- Slack -->
         <div class="navbar-item is-hidden-desktop-only is-hidden-widescreen-only">
           <div class="field is-grouped">
             {{ range .Site.Menus.slack }}
-              <p class="control">
-                <a class="bd-tw-button button is-primary" target="_blank" href="{{ .URL }}" rel="noopener">
-                  <span class="icon">
-                    {{ if .Identifier }}
-                      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-                    {{ end }}
-                  </span>
-                  <span>
-                    {{ .Name }}
-                  </span>
-                </a>
-              </p>
+            <p class="control">
+              <a class="bd-tw-button button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+                <span class="icon">
+                  {{ if .Identifier }}
+                  <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+                  {{ end }}
+                </span>
+                <span>
+                  {{ .Name }}
+                </span>
+              </a>
+            </p>
             {{ end }}
           </div>
         </div>
