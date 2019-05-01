@@ -21,7 +21,6 @@
 }
 
 form {
-
   button,
   input,
   label,
@@ -43,4 +42,44 @@ form {
 
 .is-active {
   font-weight: $weight-bold !important;
+}
+
+.button {
+  &.is-link {
+    &:hover {
+      background-color: $techqueria-black;
+    }
+  }
+
+  &.is-primary {
+    background-color: $techqueria-black;
+    color: $techqueria-white;
+
+    &:hover {
+      background-color: $techqueria;
+      border-bottom: 0;
+      color: $techqueria-black;
+      text-decoration: none;
+    }
+  }
+}
+
+.container.is-fluid {
+  margin: 0;
+}
+
+a,
+.content a {
+  &.tag {
+    border-bottom: 0;
+    color: $techqueria-white;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 0;
+      background-color: $techqueria;
+      color: $techqueria-black;
+      text-decoration: none;
+    }
+  }
 }

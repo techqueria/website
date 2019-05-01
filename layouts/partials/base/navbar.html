@@ -78,7 +78,7 @@
           <div class="field is-grouped">
             {{ range .Site.Menus.slack }}
               <p class="control">
-                <a class="bd-tw-button button is-primary" target="_blank" href="{{ .URL }}">
+                <a class="bd-tw-button button is-primary" target="_blank" href="{{ .URL }}" rel="noopener">
                   <span class="icon">
                     {{ if .Identifier }}
                       <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>

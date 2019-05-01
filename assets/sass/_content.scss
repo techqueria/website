@@ -1,14 +1,35 @@
 .content {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul,
+  li,
+  table {
+    a[href^="https://"]:not([href*="techqueria.org"]):after {
+      content: " ↗";
+    }
+
+    a[href^="http://"]:not([href*="techqueria.org"]):after {
+      content: " ↗";
+    }
+  }
+
   a {
     text-decoration: underline;
 
     img {
       @extend %image-shadow;
       display: inline-block;
-    }
 
-    img.emoji {
-      box-shadow: none;
+      &.emoji {
+        box-shadow: none;
+      }
     }
 
     &:hover {
@@ -17,10 +38,10 @@
       img {
         @extend %material-shadow;
         border-bottom: 0;
-      }
 
-      img.emoji {
-        box-shadow: none;
+        &.emoji {
+          box-shadow: none;
+        }
       }
     }
   }
@@ -39,11 +60,10 @@
       box-shadow: none;
       display: inline-block;
     }
-  }
 
-  img p,
-  img a & {
-    text-align: center;
+    p, a & {
+      text-align: center;
+    }
   }
 
   figure {

@@ -28,7 +28,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="nopener">Display Name</a>*</label>
+    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="noopener">Display Name</a>*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Slack Handle" autocomplete="on" type="text" name="slack" placeholder="@" required>
       <span class="icon is-left">

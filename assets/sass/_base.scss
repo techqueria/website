@@ -42,26 +42,6 @@ input[type='submit'] {
   @extend %overflow-text;
 }
 
-.button {
-  &.is-link {
-    &:hover {
-      background-color: $techqueria-black;
-    }
-  }
-
-  &.is-primary {
-    background-color: $techqueria-black;
-    color: $techqueria-white;
-
-    &:hover {
-      border-bottom: 0;
-      background-color: $techqueria;
-      color: $techqueria-black;
-      text-decoration: none;
-    }
-  }
-}
-
 iframe {
   width: 100%;
 }
@@ -71,48 +51,5 @@ form {
 
   .field {
     margin-top: 1em;
-  }
-}
-
-.content {
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul,
-  li,
-  table {
-    a[href^="https://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
-
-    a[href^="http://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
-  }
-}
-
-.container.is-fluid {
-  margin: 0;
-}
-
-a,
-.content a {
-  &.tag {
-    border-bottom: 0;
-    color: $techqueria-white;
-    text-decoration: none;
-
-    &:hover {
-      border-bottom: 0;
-      background-color: $techqueria;
-      color: $techqueria-black;
-      text-decoration: none;
-    }
   }
 }
