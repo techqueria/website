@@ -67,7 +67,7 @@
         class="navbar-end">
         <!-- Social -->
         {{ range .Site.Menus.social }}
-          <a class="navbar-item navbar-item__social is-hidden-touch" href="{{ .URL }}" target="_blank" rel="noopener">
+          <a class="navbar-item navbar-item--social is-hidden-touch" href="{{ .URL }}" target="_blank" rel="noopener">
             {{ if .Identifier }}
               <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
             {{ end }}

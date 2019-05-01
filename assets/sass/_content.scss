@@ -1,16 +1,14 @@
-
 .content {
-
   a {
     text-decoration: underline;
 
     img {
       @extend %image-shadow;
       display: inline-block;
+    }
 
-      &.emoji {
-        box-shadow: none;
-      }
+    img.emoji {
+      box-shadow: none;
     }
 
     &:hover {
@@ -19,10 +17,10 @@
       img {
         @extend %material-shadow;
         border-bottom: 0;
+      }
 
-        &.emoji {
-          box-shadow: none;
-        }
+      img.emoji {
+        box-shadow: none;
       }
     }
   }
@@ -41,11 +39,11 @@
       box-shadow: none;
       display: inline-block;
     }
+  }
 
-    p,
-    a & {
-      text-align: center;
-    }
+  img p,
+  img a & {
+    text-align: center;
   }
 
   figure {

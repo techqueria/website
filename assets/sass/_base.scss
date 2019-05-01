@@ -54,16 +54,12 @@ input[type='submit'] {
     color: $techqueria-white;
 
     &:hover {
-      border-bottom: none;
+      border-bottom: 0;
       background-color: $techqueria;
       color: $techqueria-black;
       text-decoration: none;
     }
   }
-}
-
-input[type="checkbox"] {
-  height: 1rem;
 }
 
 iframe {
@@ -108,12 +104,12 @@ form {
 a,
 .content a {
   &.tag {
-    border-bottom: none;
-    color: white;
+    border-bottom: 0;
+    color: $techqueria-white;
     text-decoration: none;
 
     &:hover {
-      border-bottom: none;
+      border-bottom: 0;
       background-color: $techqueria;
       color: $techqueria-black;
       text-decoration: none;
