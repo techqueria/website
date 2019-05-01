@@ -42,6 +42,8 @@ disqusShortname                      = "techqueria"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
     locale                           = "en_US"
     default_content_language         = "en"
+    google_site_verification         = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
+    # pinterest_domain_verification    =
 
 # Social Links
 [social]
