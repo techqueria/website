@@ -20,17 +20,6 @@
   line-height: 1;
 }
 
-form {
-  button,
-  input,
-  label,
-  pre code,
-  span,
-  textarea {
-    font-size: inherit !important;
-  }
-}
-
 .breadcrumb {
   font-size: inherit;
 }
@@ -76,10 +65,14 @@ a,
     text-decoration: none;
 
     &:hover {
-      border-bottom: 0;
       background-color: $techqueria;
+      border-bottom: 0;
       color: $techqueria-black;
       text-decoration: none;
     }
   }
+}
+
+.field {
+  margin-top: 1em;
 }

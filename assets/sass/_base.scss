@@ -49,7 +49,12 @@ iframe {
 form {
   max-width: $tablet;
 
-  .field {
-    margin-top: 1em;
+  button,
+  input,
+  label,
+  pre code,
+  span,
+  textarea {
+    font-size: inherit !important;
   }
 }
