@@ -8,38 +8,6 @@ aliases:
   - /communities/slack/
 ---
 
-# Slack Community Guidelines
-
-- [Join us!](#join-us)
-- [Already a member?](#already-a-member)
-- [Never used Slack before?](#never-used-slack-before)
-- [Code of Conduct](#code-of-conduct)
-- [Best Practices](#best-practices)
-  - [Use threads](#use-threads)
-  - [Channel naming conventions](#channel-naming-conventions)
-  - [Mentions](#mentions)
-  - [HeyTaco!](#heytaco)
-    - [1. Every person in our Slack Workspace has 5 tacos to give out per day](#1-every-person-in-our-slack-workspace-has-5-tacos-to-give-out-per-day)
-    - [2. To give someone a taco, add a taco emoji after their username](#2-to-give-someone-a-taco-add-a-taco-emoji-after-their-username)
-    - [3. You can give tacos to anyone on your team as long as the bot has been invited to the channel](#3-you-can-give-tacos-to-anyone-on-your-team-as-long-as-the-bot-has-been-invited-to-the-channel)
-    - [4. There is a leaderboard to see who is getting the most tacos](#4-there-is-a-leaderboard-to-see-who-is-getting-the-most-tacos)
-    - [5. Need help?](#5-need-help)
-- [Customization](#customization)
-  - [Sidebar Theme](#sidebar-theme)
-  - [Custom Status](#custom-status)
-  - [Emojis](#emojis)
-- [Channels](#channels)
-  - [Default Channels](#default-channels)
-  - [Public Channels](#public-channels)
-  - [Location Based Channels](#location-based-channels)
-  - [Private Channels](#private-channels)
-  - [Meta](#meta)
-  - [Requesting A Channel](#requesting-a-channel)
-- [Intro to Slack](#intro-to-slack)
-  - [Slack Demo](#slack-demo)
-  - [Slack Foundry](#slack-foundry)
-  - [Getting Started Guide](#getting-started-guide)
-
 ## Join us!
 
 To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in Tech , please [fill out this Google Form](https://goo.gl/forms/VRARl4qkkLj3BJLl1).

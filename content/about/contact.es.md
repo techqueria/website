@@ -13,7 +13,7 @@ description: ¡Ponte en contacto con Latinx en Tech!
 
 Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="Contacto" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message (EN)">
   <div class="field">
     <label class="label">Nombre</label>

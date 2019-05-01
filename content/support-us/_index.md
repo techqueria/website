@@ -19,7 +19,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
 <form name="Become a Supporter" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Supporter">
   <div class="field">
-    <label class="label">Organization</label>
+    <label class="label">Organization*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="text" name="organization" placeholder="Your organization" required>
       <span class="icon is-left">
@@ -28,7 +28,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">Name</label>
+    <label class="label">Name*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your name" required>
       <span class="icon is-left">
@@ -37,7 +37,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">Email</label>
+    <label class="label">Email*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
@@ -46,7 +46,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">LinkedIn Profile URL</label>
+    <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">

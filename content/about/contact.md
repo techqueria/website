@@ -25,7 +25,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
 
 > Filling out the form below sends an email to `organizers@techqueria.org`.
 
-<form name="contact" action="https://formspree.io/organizers@techqueria.org" method="POST">
+<form name="Contact" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
   <div class="field">
     <label class="label">Name</label>
@@ -51,6 +51,7 @@ Use the command `/admin` in [our Slack workspace](/slack/).
       <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea>
     </div>
   </div>
+  <div data-netlify-recaptcha="true"></div>
   <div class="field mt-sm">
     <div class="control">
       <button type="submit" class="button is-primary">Send message</button>

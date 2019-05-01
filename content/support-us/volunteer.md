@@ -19,7 +19,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
 <form name="Volunteer" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Volunteer">
   <div class="field">
-    <label class="label">Name</label>
+    <label class="label">Name*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your name" required>
       <span class="icon is-left">
@@ -28,7 +28,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="nopener">Display Name</a></label>
+    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="nopener">Display Name</a>*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Slack Handle" autocomplete="on" type="text" name="slack" placeholder="@" required>
       <span class="icon is-left">
@@ -37,7 +37,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">LinkedIn Profile URL</label>
+    <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
@@ -46,7 +46,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">What chapter are you interested in volunteering for?</label>
+    <label class="label">What chapter are you interested in volunteering for?*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Location" autocomplete="on" type="text" name="location" placeholder="San Francisco, CA" required>
       <span class="icon is-left">
@@ -55,7 +55,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">How would you like to volunteer?</label>
+    <label class="label">How would you like to volunteer?*</label>
     <div class="control">
       <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Planning events, social media, open source, etc." required></textarea>
     </div>

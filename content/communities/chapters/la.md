@@ -1,9 +1,13 @@
 ---
-title: Google Calendar - Los Angeles
-description: "Events from our LA chapters via Google Calendar."
-identifier: fab fa-google
-image: "/assets/img/banners/google-calendar.png"
+title: Chapter - Los Angeles
+description: Los Angeles is a sprawling Southern California city and the center of the nation’s film and television industry.
+identifier: fas fa-map-marker-alt
+link: https://latinos.slack.com/messages/C1RJU0G6R/
+image: "/assets/img/resources/community-la-area-photo.jpg"
 aliases:
+  - /communities/los-angeles/
+  - /communities/la/
+  - /la/
   - /la-events/
 ---
 

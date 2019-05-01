@@ -72,6 +72,10 @@ iframe {
 
 form {
   max-width: $tablet;
+
+  .field {
+    margin-top: 1em;
+  }
 }
 
 .content {

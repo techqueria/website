@@ -25,7 +25,7 @@ As a host, you commit to providing the following:
 <form name="Donate Space" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
   <div class="field">
-    <label class="label">Organization</label>
+    <label class="label">Organization*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="text" name="organization" placeholder="Your organization" required>
       <span class="icon is-left">
@@ -34,7 +34,7 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">Name</label>
+    <label class="label">Name*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your name" required>
       <span class="icon is-left">
@@ -43,7 +43,7 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">Email</label>
+    <label class="label">Email*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
@@ -52,7 +52,7 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">LinkedIn Profile URL</label>
+    <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
@@ -61,7 +61,7 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">What's the max number of people you can host (comfortably) for an event?</label>
+    <label class="label">What's the max number of people you can host (comfortably) for an event?*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Attendees" autocomplete="on" type="number" name="attendees" placeholder="200" required>
       <span class="icon is-left">
@@ -70,7 +70,7 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">Where would you like to host an event?</label>
+    <label class="label">Where would you like to host an event?*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Location" autocomplete="on" type="text" name="location" placeholder="San Francisco, CA" required>
       <span class="icon is-left">
