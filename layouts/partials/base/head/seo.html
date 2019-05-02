@@ -112,19 +112,17 @@ property="og:url" content="{{ .Permalink }}">
   <meta property="article:published_time" content="{{ $pageDate }}">
   <meta property="og:updated_time" content="{{ $pageDate }}">
 {{ end }}
-<!-- Categories & Tags Present -->
-{{ if or (.Params.Categories) (.Params.tags) }}
-  <!-- Categories -->
+<!-- Twitter Labels - Categories & Tags -->
+<!-- {{ if or (.Params.Categories) (.Params.tags) }}
   {{ if .Params.categories }}
     <meta name="twitter:label1" value="Categories 📂️">
     <meta name="twitter:data1" value="{{ $pageCategories }}">
   {{ end }}
-  <!-- Twitter Labels -->
   {{ if .Params.tags }}
     <meta name="twitter:label2" value="Tags 📌️">
     <meta name="twitter:data2" value="{{ $pageTags }}">
   {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- Keywords -->
 {{ if or (.Params.categories) (.Params.tags) }}
   <meta itemprop="keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
