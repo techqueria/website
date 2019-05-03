@@ -39,7 +39,7 @@
     "gulp-postcss": "8.0.0",
     "gulp-sass": "4.0.2",
     "gulp-sourcemaps": "2.6.5",
-    "hugo-bin": "0.43.4",
+    "hugo-bin": "0.43.5",
     "lozad": "1.9.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "3.0.0",
