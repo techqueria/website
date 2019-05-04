@@ -53,9 +53,22 @@
   }
 
   @media screen and (max-width: $laptop) {
+
     .navbar-link::after,
     .navbar-dropdown {
       display: none;
+    }
+  }
+
+  .navbar-logo {
+    @media screen and (max-width: $tablet) {
+      padding-right: 0;
+    }
+  }
+
+  .slack-buttons {
+    @media screen and (min-width: $laptop) {
+      margin-left: 2em;
     }
   }
 }
