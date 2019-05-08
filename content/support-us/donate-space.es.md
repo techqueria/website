@@ -1,5 +1,5 @@
 ---
-title: "Donate space"
+title: "Donate Space"
 description: "Donating space for Techqueria events provides a great opportunity for our members to get a peek of your company environment while also supporting the growth and advancement of our members."
 image: "/assets/img/banners/donate-space.jpg"
 ---
@@ -50,7 +50,7 @@ As a host, you commit to providing the following:
   <div class="field">
     <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="LinkedIn Profile URL" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
         💼
       </span>
