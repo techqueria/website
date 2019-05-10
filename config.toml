@@ -273,6 +273,10 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/similar-organizations/"
 [[menu.main]]
     parent                           = "Resources"
+    name                             = "Students"
+    url                              = "/resources/students/"
+[[menu.main]]
+    parent                           = "Resources"
     name                             = "Travel"
     url                              = "/resources/travel/"
 [[menu.main]]
