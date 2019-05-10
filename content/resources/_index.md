@@ -1,5 +1,9 @@
 ---
 title: Resources
-description: We are creating a list of resources for the community.
-noTimeEstimate: true
+description: A list of helpful resources for our Latinx in Tech community.
+url: /resources/
+aliases:
+  - /resource/
+categories:
+  - sitemap
 ---

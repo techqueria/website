@@ -6,11 +6,14 @@
         🚫 404
       </h1>
       <h2 class="subtitle">
-          {{ i18n "not_found" }}
+        {{ i18n "not_found" }}
       </h2>
       <h2 class="subtitle">
-          {{ i18n "go_back" }}
-        <a class="hero-link" href="/"> {{ i18n "back_home" }}</a> {{ i18n "or" }}
+        {{ i18n "go_back" }}
+        {{ range .Site.Menus.homepage }}
+        <a class="hero-link" href="{{ .URL | relLangURL }}"> {{ i18n "back_home" }}</a>
+        {{ end }}
+        {{ i18n "or" }}
         <a class="hero-link" href="/contact/">{{ i18n "contact_us" }}</a> {{ i18n "to_find_what" }}
       </h2>
     </div>

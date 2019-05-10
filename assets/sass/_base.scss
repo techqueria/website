@@ -46,29 +46,15 @@ iframe {
   width: 100%;
 }
 
-.content {
+form {
+  max-width: $tablet;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul,
-  li,
-  table {
-    a[href^="https://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
-
-    a[href^="http://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
+  button,
+  input,
+  label,
+  pre code,
+  span,
+  textarea {
+    font-size: inherit !important;
   }
-}
-
-.container.is-fluid {
-  margin: 0;
 }

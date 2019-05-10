@@ -14,6 +14,10 @@
   margin-right: 0.5em !important;
 }
 
+.ml-2 {
+  margin-left: 2em !important;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -61,5 +65,13 @@
 
   &:hover {
     color: $techqueria-white !important;
+  }
+}
+
+.is-hidden-laptop-xx-large {
+  display: none;
+
+  @media screen and (min-width:$laptop-xx-large) {
+    display: block;
   }
 }

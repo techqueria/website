@@ -1,11 +1,13 @@
 ---
 name: New Resource
 about: Add a new resource to the website
+title: "New Resource Request: "
+labels: "enhancement"
 ---
 
 ## Name
 
-Resource
+XYZ
 
 ## Image
 
@@ -15,10 +17,14 @@ https://imgur.com/example-image.jpg
 
 This allows Latinx to...
 
-## Link
+## Link to Resources
 
 https://resource-link.com
 
+## Category
+
+Insert category here
+
 ## Desired Slug (optional)
 
-https://techqueria.org/slug-goes-here
+https://techqueria.org/category/slug

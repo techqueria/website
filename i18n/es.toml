@@ -23,14 +23,8 @@ other = "Solicite una invitación!"
 [become_sponsor]
 other = "Conviértase en un Patrocinador!"
 
-[become_sponsor_description1]
-other = "Siempre estamos buscando nuevos"
-
-[become_sponsor_description2]
-other = "socios y patrocinadores"
-
-[become_sponsor_description3]
-other = "para ayudar a avanzar nuestra misión."
+[become_sponsor_description]
+other = "Siempre estamos buscando nuevos socios y patrocinadores para ayudar a avanzar nuestra misión."
 
 [become_sponsor_button]
 other = "Contáctenos!"
@@ -42,7 +36,7 @@ other = "Suscríbase a nuestra newsletter!"
 other = "Recibe nuestras últimas noticias por correo electrónico."
 
 [subscribe_newsletter_button]
-other = "Suscríbase!"
+other = "Suscríbase"
 
 [interested_sponsor]
 other = "Interesado en ser un patrocinador?"
@@ -115,3 +109,13 @@ other = "para ayudarle a encontrar lo que está buscando."
 
 [comment]
 other = "Comenta"
+
+# Who We Are
+
+[who_we_are_nonprofit]
+other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
+
+# Copyright
+
+[copyright_to]
+other = "a"

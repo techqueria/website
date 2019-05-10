@@ -1,34 +1,27 @@
 <section class="hero is-medium is-danger is-bold">
   <div class="hero-body">
-    <div class="container">
+    <div
+      class="container">
       <!-- Title -->
       <h1 class="title">
-        {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}
+        {{ if .Params.partnerEvent }}Partner Event:
+        {{ end }}
+        {{ .Title }}
       </h1>
       <!-- Description -->
       <p class="subtitle">
         {{ if .Description }}
-        {{ .Description | safeHTML }}
+          {{ .Description | truncate 150 | safeHTML }}
         {{ else }}
-        {{ .Summary | safeHTML }}
+          {{ .Summary | truncate 150 | safeHTML }}
         {{ end }}
       </p>
       <!-- More Info -->
       {{ partial "content/info.html" . }}
       <!-- Author -->
       {{ partial "custom/person.html" . }}
-      <!-- External Link -->
-      {{ if .Params.link }}
-      <a class="mt-1 button is-link is-inverted" href="{{ .Params.link }}" target="_blank" rel="noopener">
-        {{ if in .Params.link "linkedin.com/in/" }}LinkedIn Profile ➡{{ else }}More info ➡{{ end }}
-      </a>
-      {{ end }}
-      <!-- Event Link -->
-      {{ if .Params.eventLink }}
-      <a class="mt-1 button is-link is-inverted" href="{{ .Params.eventLink }}" target="_blank" rel="noopener">
-        Register for the event ➡
-      </a>
-      {{ end }}
+      <!-- Links -->
+      {{ partial "content/links.html" . }}
     </div>
   </div>
 </section>

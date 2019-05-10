@@ -2,8 +2,6 @@
 title: Marca 🎨
 description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 image: "/assets/img/logos/banner-logo-only.png"
-aliases:
-  - /marca/
 ---
 
 - [Visión general](#visi%C3%B3n-general)
