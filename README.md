@@ -64,6 +64,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Terrence Eisenhower](https://github.com/teisenhower)
 - [Bethany Meier](https://github.com/whimsicurl-creations)
 - [Juan Soto](http://www.jstechstack.com/)
+- [Ania Nakayama](https://github.com/Ania-chan)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
