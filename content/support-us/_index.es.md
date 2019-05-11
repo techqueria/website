@@ -7,7 +7,7 @@ categories:
 
 Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndose un patrocinador, socio, o voluntario.
 
-> Si esta interesado en convertirse en un patrocinador o socio oficial, por favor complete el formulario y le contestaremos lo más pronto posible. 
+> Si está interesado en convertirse en un patrocinador o socio oficial, por favor complete el formulario y le contestaremos lo más pronto posible. 
 
 <form name="Become a Supporter" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Supporter">
@@ -57,7 +57,7 @@ Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndos
     </div>
   </div>
   <div class="field">
-    <label class="label">¿Cómo escucho de Techqueria?</label>
+    <label class="label">¿Cómo escuchó de Techqueria?</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Referral" autocomplete="on" type="text" name="referral" placeholder="Twitter">
       <span class="icon is-left">
