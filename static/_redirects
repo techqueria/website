@@ -2,6 +2,7 @@
 https://beta.techqueria.org/* https://techqueria.org/:splat 301!
 
 # Redirect blog
+http://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
 https://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
