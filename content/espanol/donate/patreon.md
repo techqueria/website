@@ -4,6 +4,4 @@ description: Conviértase en un patrocinador para respaldar los esfuerzos de Tec
 identifier: fab fa-patreon
 link: https://www.patreon.com/techqueria
 image: "/assets/img/banners/patreon.jpg"
-aliases:
-  - /patreon/
 ---

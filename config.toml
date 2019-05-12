@@ -26,6 +26,7 @@ enableMissingTranslationPlaceholders = true
     weight = 2
     [languages.es.params]
       description                    = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️"
+      og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
 preserveTaxonomyNames                = false
