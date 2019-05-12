@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Your privacy is important to us. It is Techqueria's policy to respect your privacy regarding any information we may collect from you across our website and other sites we own and operate."
+description: "Su privacidad es importante para nosotros. Es política de Techqueria respetar su privacidad con respecto a cualquier información que podamos recopilar de usted en nuestro sitio web y en otros sitios que poseemos y operamos."
 ---
 
 Su privacidad es importante para nosotros. Es política de Techqueria respetar su privacidad con respecto a cualquier información que podamos recopilar de usted en nuestro sitio web, [https://techqueria.org](https://techqueria.org), y otros sitios que poseemos y operamos.

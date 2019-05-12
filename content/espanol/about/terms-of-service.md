@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service"
-description: "By accessing this website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws."
+description: "Al acceder a este sitio web, usted acepta estar sujeto a estos términos de servicio, a todas las leyes y regulaciones aplicables, y acepta que usted es responsable de cumplir con todas las leyes locales aplicables."
 ---
 
 ### 1. Términos

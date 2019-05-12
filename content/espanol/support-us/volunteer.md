@@ -1,12 +1,12 @@
 ---
 title: "Hagase Voluntario"
-description: ""
-image: "Si está interesado en apoyar a Techueria usted mismo, ofreciendo su tiempo como voluntario es una manera fantástica de ayudar."
+description: "Si está interesado en apoyar a Techueria usted mismo, ofreciendo su tiempo como voluntario es una manera fantástica de ayudar."
+image: "/assets/img/banners/become-a-volunteer.jpg"
 ---
 
 Si está interesado en apoyar a Techueria usted mismo, ofreciendo su tiempo como voluntario es una manera fantástica de ayudar.
 
-Complete el formulario y le contactaremos a través vez de Slack con más detalles sobre cómo puede usted ayudar nuestra misión. 
+Complete el formulario y le contactaremos a través vez de Slack con más detalles sobre cómo puede usted ayudar nuestra misión.
 
 > Antes de llenar el formulario, por favor [asegurase que ya es parte de nuestra comunidad Slack](/communities/slack) ya que le contactaremos a través de Slack.
 

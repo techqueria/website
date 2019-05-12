@@ -355,7 +355,7 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Eventos"
-    url                              = "/about/events/"
+    url                              = "/events/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Equipo"
@@ -556,11 +556,11 @@ disqusShortname                      = "techqueria"
   name = "Contacto"
   url = "/about/contact/"
 [[languages.es.menu.sitemap]]
-  name = "Donate"
+  name = "Donar"
   url = "/donate/"
 [[languages.es.menu.sitemap]]
   name = "Eventos"
-  url = "/about/events/"
+  url = "/events/"
 [[languages.es.menu.sitemap]]
   name = "Prensa"
   url = "/about/press/"
@@ -575,4 +575,4 @@ disqusShortname                      = "techqueria"
   url = "/support-us/"
 [[languages.es.menu.sitemap]]
   name = "Equipo"
-  url = "/about/team/"
+  url = "/team/"
