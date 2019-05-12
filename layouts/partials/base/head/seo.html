@@ -1,7 +1,7 @@
 <!-- Set Title Variable -->
 {{ $pageTitle := .Title }}
 {{ if .IsHome }}
-  {{ $pageTitle = .Site.Title }}
+  {{ $pageTitle = (print .Site.Title " | " .Title) }}
 {{ else }}
   {{ $pageTitle = (print .Title " | " .Site.Title) }}
 {{ end }}
@@ -124,9 +124,8 @@ property="og:url" content="{{ .Permalink }}">
   {{ end }}
 {{ end }} -->
 <!-- Keywords -->
-{{ if or (.Params.categories) (.Params.tags) }}
-  <meta itemprop="keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
-  <meta name="DC.subject" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
+  {{ if or (.Params.categories) (.Params.tags) }}
+  <meta itemprop="keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria"> <meta name="DC.subject" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
   {{ if .IsPage }}
     <meta name="news_keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
     <meta property="article:tag" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
