@@ -557,15 +557,15 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
     name                             = "Hazte voluntario"
-    url                              = "/volunteer/"
+    url                              = "/support-us/volunteer/"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
     name                             = "Donar espacio"
-    url                              = "/donate-space/"
+    url                              = "/support-us/donate-space/"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
     name                             = "Nuestros partidarios"
-    url                              = "/supporters/"
+    url                              = "/support-us/supporters/"
 
 [[languages.es.menu.social]]
     name                             = "LinkedIn"
