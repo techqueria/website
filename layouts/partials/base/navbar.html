@@ -14,7 +14,7 @@
       {{ end }}
       <!-- Left Icons -->
       <!-- Hidden on Desktop, Mobile Only -->
-      <div class="navbar-item is-hidden-desktop is-hidden-fullhd">
+      <div class="navbar-item is-hidden-desktop is-hidden-fullhd show-on-larger-size">
         <div class="buttons">
           {{ range .Site.Menus.social }}
             <a class="button is-white" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">

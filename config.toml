@@ -18,11 +18,11 @@ enableMissingTranslationPlaceholders = true
 [languages]
   [languages.en]
     languageName = "English"
-    contentDir = "content/en"
+    contentDir = "content/english"
     weight = 1
   [languages.es]
     languageName = "Español"
-    contentDir = "content/es"
+    contentDir = "content/espanol"
     weight = 2
     [languages.es.params]
       description                    = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️"
@@ -359,7 +359,7 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Equipo"
-    url                              = "/about/team/"
+    url                              = "/team/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Prensa"
@@ -436,7 +436,7 @@ disqusShortname                      = "techqueria"
     url                              = "https://www.patreon.com/techqueria/"
 [[languages.es.menu.main]]
     parent                           = "Donar"
-    name                             = "Nuestros partidarios de Patreon"
+    name                             = "Nuestros Partidarios de Patreon"
     url                              = "/donate/patreon-supporters/"
 
 # Resources
@@ -505,15 +505,15 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
-    name                             = "Hazte voluntario"
+    name                             = "Hazte Voluntario"
     url                              = "/support-us/volunteer/"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
-    name                             = "Donar espacio"
+    name                             = "Donar Espacio"
     url                              = "/support-us/donate-space/"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
-    name                             = "Nuestros partidarios"
+    name                             = "Nuestros Partidarios"
     url                              = "/support-us/supporters/"
 
 [[languages.es.menu.social]]

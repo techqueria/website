@@ -71,4 +71,10 @@
       margin-left: 2em;
     }
   }
+
+  .show-on-larger-size {
+    @media only screen and (max-width: 1439px) and (min-width: 1088px) {
+      display: flex !important
+    }
+  }
 }
