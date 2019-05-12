@@ -50,7 +50,7 @@ Como anfitrión, usted se compromete a proveer lo siguiente:
   <div class="field">
     <label class="label">URL de Perfil LinkedIn </label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="LinkedIn Profile URL" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
         💼
       </span>

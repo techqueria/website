@@ -39,7 +39,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
   <div class="field">
     <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="LinkedIn Profile URL" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
         💼
       </span>

@@ -285,11 +285,11 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/"
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a volunteer"
+    name                             = "Become a Volunteer"
     url                              = "/volunteer/"
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Donate space"
+    name                             = "Donate Space"
     url                              = "/donate-space/"
 [[menu.main]]
     parent                           = "Support Us"
