@@ -1,6 +1,6 @@
 ---
 title: Spotify
-description: Digital music service that gives you access to millions of songs
+description: Servicio digital de música que te da acceso a millones de canciones
 link: https://www.spotifyjobs.com/
 image: "/assets/img/sponsors/spotify.png"
 ---

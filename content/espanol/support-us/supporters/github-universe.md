@@ -1,6 +1,6 @@
 ---
 title: GitHub Universe
-description: "With GitHub Universe one month away we are excited to announce our 2017 Community Partners!"
+description: “Con menos de un mes para GitHub Universe, nos emociona anunciar nuestros Socios Comunitarios de 2017!”
 link: https://githubuniverse.com/2017/after-party/
 image: https://pbs.twimg.com/media/DppRwaLWkAAdYOR.jpg
 ---

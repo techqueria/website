@@ -1,6 +1,6 @@
 ---
 title: Kapor Center
-description: Making the tech ecosystem and entrepreneurship more diverse, inclusive, and impactful
+description: Haciendo el ecosistema tech y el emprendimiento más diverso, inclusivo, e impactante
 link: https://www.kaporcenter.org/
 image: "/assets/img/sponsors/kapor-center.png"
 ---

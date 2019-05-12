@@ -1,11 +1,11 @@
 ---
 title: Nuestros partidarios
-description: Nuestros patrocinadores, socios o colaboradores que nos han ayudado a mantener una de las comunidades más grandes de Latinx in Tech.
+description: Sponsors, partners or contributors who have helped us maintain one of the largest Latinx in Tech communities.
 image: "/assets/img/banners/our-supporters.jpg"
 ---
 
-Las siguientes compañías o individuos han ayudado con uno o más de los siguientes:
+Las siguientes compañías o individuos nos han ayudado con una o mas de las siguientes: 
 
-- alojó nuestros eventos (en el pasado o presente)
-- Donamos recursos a nuestra comunidad.
-- se asoció con nosotros en eventos
+- alojaron nuestros eventos (en el pasado o presente)
+- donaron recursos a nuestra comunidad
+- se asociaron con nosotros en nuestros eventos

@@ -1,6 +1,6 @@
 ---
 title: Braintree
-description: All-in-one solution to accept, process, and split payments in your mobile app or online
+description: Solución completa para aceptar, procesar, y dividir pagos en su app mobil o en la red
 link: https://www.braintreepayments.com/careers
 image: "/assets/img/sponsors/braintree.png"
 ---
