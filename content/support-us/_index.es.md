@@ -5,14 +5,14 @@ categories:
   - sitemap
 ---
 
-Help us grow one of the largest Latinx in Tech communities by becoming a sponsor, partner or volunteer.
+Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndose un patrocinador, socio, o voluntario.
 
-> If you're interested in becoming an official sponsor or partner, please fill out the form below and we'll get back to you ASAP.
+> Si está interesado en convertirse en un patrocinador o socio oficial, por favor complete el formulario y le contestaremos lo más pronto posible. 
 
 <form name="Become a Supporter" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Supporter">
   <div class="field">
-    <label class="label">Organization*</label>
+    <label class="label">Organización*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="text" name="organization" placeholder="Your organization" required>
       <span class="icon is-left">
@@ -21,7 +21,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">Name*</label>
+    <label class="label">Nombre*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your name" required>
       <span class="icon is-left">
@@ -30,7 +30,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">Email*</label>
+    <label class="label">Correo Electrónico*</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
@@ -39,7 +39,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">LinkedIn Profile URL*</label>
+    <label class="label">URL de Perfil LinkedIn *</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
@@ -48,7 +48,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">What does your maximum budget look like for sponsorship?</label>
+    <label class="label">¿Cuál parece ser su presupuesto máximo de patrocinio?</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Referral" type="number" name="referral" min="100" step="100" placeholder="">
       <span class="icon is-left">
@@ -57,7 +57,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">How did you hear about Techqueria?</label>
+    <label class="label">¿Cómo escuchó de Techqueria?</label>
     <div class="control has-icons-left">
       <input class="input" aria-label="Referral" autocomplete="on" type="text" name="referral" placeholder="Twitter">
       <span class="icon is-left">
@@ -66,7 +66,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
     </div>
   </div>
   <div class="field">
-    <label class="label">Anything else you'd like to add?</label>
+    <label class="label">¿Algún otro asunto que desea incluir?</label>
     <div class="control">
       <textarea class="textarea" aria-label="Message" spellcheck="true" rows="3" name="message" id="message" placeholder=""></textarea>
     </div>
@@ -74,7 +74,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div data-netlify-recaptcha="true"></div>
   <div class="field mt-sm">
     <div class="control">
-      <button type="submit" class="button is-primary">Submit</button>
+      <button type="submit" class="button is-primary">Enviar</button>
     </div>
   </div>
 </form>
