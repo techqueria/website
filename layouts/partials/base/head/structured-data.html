@@ -1,4 +1,29 @@
 <!-- Structured Data -->
+<!-- Set Title Variable -->
+{{ $pageTitle := .Title }}
+{{ if .IsHome }}
+  {{ $pageTitle = (print .Site.Title " | " .Title) }}
+{{ else }}
+  {{ $pageTitle = (print .Title " | " .Site.Title) }}
+{{ end }}
+<!-- Set Description Variable -->
+{{ $pageDescription := .Description | truncate 150 }}
+{{ if .Description }}
+  {{ $pageDescription = .Description | truncate 150 }}
+{{ else if .IsPage }}
+  {{ $pageDescription = .Summary | truncate 150 }}
+{{ else }}
+  {{ $pageDescription = .Site.Params.description | truncate 150 }}
+{{ end }}
+<!-- Set Image Variable -->
+{{ $pageImage := .Params.image }}
+{{ if hasPrefix .Params.image "/assets" }}
+  {{ $pageImage = .Params.image | absURL }}
+{{ else if .Params.image }}
+  {{ $pageImage = .Params.image }}
+{{ else }}
+  {{ $pageImage = .Site.Params.og_image }}
+{{ end }}
 <!-- Homepage -->
 {{ if .IsHome -}}
 <script type="application/ld+json">
