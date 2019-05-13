@@ -1,5 +1,5 @@
 ---
-title: Students 💛
+title: Students 🎓
 description: Resources related to students 
 aliases:
   - /students
