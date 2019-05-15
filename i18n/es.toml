@@ -110,6 +110,17 @@ other = "para ayudarle a encontrar lo que está buscando."
 [comment]
 other = "Comenta"
 
+# CTA - Shop
+
+[cta_shop_title]
+other = "Compra Techqueria Merch"
+
+[cta_shop_subtitle]
+other = "Ahora tenemos una tienda oficial de Spreadshirt donde vendemos todo tipo de prendas como camisas, sudaderas, tazas, sombreros, mochilas, etc."
+
+[cta_shop_button]
+other = "Visita nuestra tienda"
+
 # Who We Are
 
 [who_we_are_nonprofit]
