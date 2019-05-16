@@ -66,6 +66,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Juan Soto](http://www.jstechstack.com/)
 - [Ania Nakayama](https://github.com/Ania-chan)
 - [Omar De Los Santos](https://github.com/omarnyte)
+- [Nathan Toms](https://github.com/nathantomsfairsailcom)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
