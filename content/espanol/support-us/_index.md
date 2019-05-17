@@ -7,7 +7,7 @@ categories:
 
 Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndose un patrocinador, socio, o voluntario.
 
-> Si está interesado en convertirse en un patrocinador o socio oficial, por favor complete el formulario y le contestaremos lo más pronto posible. 
+> Si está interesado en convertirse en un patrocinador o socio oficial, por favor complete el formulario y le contestaremos lo más pronto posible.
 
 <form name="Become a Supporter" method="POST" data-netlify="true">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Supporter">
@@ -41,7 +41,7 @@ Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndos
   <div class="field">
     <label class="label">URL de Perfil LinkedIn *</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="URL de Perfil LinkedIn" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
         💼
       </span>
@@ -50,7 +50,7 @@ Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndos
   <div class="field">
     <label class="label">¿Cuál parece ser su presupuesto máximo de patrocinio?</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Referral" type="number" name="referral" min="100" step="100" placeholder="">
+      <input class="input" aria-label="Presupuesto máximo de patrocinio" type="number" name="max_budget" min="100" step="100" placeholder="">
       <span class="icon is-left">
         💲
       </span>

@@ -48,7 +48,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div class="field">
     <label class="label">LinkedIn Profile URL*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="on" type="url" name="organization" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="LinkedIn Profile URL" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
       <span class="icon is-left">
         💼
       </span>
@@ -57,7 +57,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div class="field">
     <label class="label">What does your maximum budget look like for sponsorship?</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Referral" type="number" name="referral" min="100" step="100" placeholder="">
+      <input class="input" aria-label="Maximum Budget" type="number" name="max_budget" min="100" step="100" placeholder="">
       <span class="icon is-left">
         💲
       </span>
