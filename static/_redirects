@@ -10,3 +10,4 @@ https://techqueria.netlify.com/* https://techqueria.org/:splat 301!
 
 # Redirect random deploy preview
 https://deploy-preview-55--techqueria.netlify.com/* https://techqueria.org/:splat 301!
+https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:splat 301!
