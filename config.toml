@@ -53,7 +53,7 @@ disqusShortname                      = "techqueria"
 
 # SEO
 [params]
-    description                      = "Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
+    description                      = "Techqueria is a nonprofit representing the largest community for Latinx in Tech."
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
