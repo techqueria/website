@@ -25,7 +25,7 @@ enableMissingTranslationPlaceholders = true
     contentDir = "content/espanol"
     weight = 2
     [languages.es.params]
-      description                    = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️"
+      description                    = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
       og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
@@ -53,7 +53,7 @@ disqusShortname                      = "techqueria"
 
 # SEO
 [params]
-    description                      = "Techqueria is one of the largest communities for Latinx professionals in the tech industry. 🌮"
+    description                      = "Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"

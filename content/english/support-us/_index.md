@@ -5,6 +5,7 @@ url: /support-us/
 aliases:
   - /sponsor-us/
   - /sponsors/
+  - /sponsor/
   - /support-us/
   - /become-a-sponsor/
   - /become-a-supporter/
