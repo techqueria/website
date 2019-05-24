@@ -88,7 +88,7 @@ Showcase your contributions through LinkedIn with Techqueria's company profile: 
 Just make sure to use the description below and you can briefly describe what you did as well.
 
 ```txt
-Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry.
+Techqueria is a nonprofit representing the largest community for Latinx in Tech.
 
 - Contributed to their open source website through translations and bug fixes
 ```
@@ -100,7 +100,7 @@ Here's an example of how that can be done by posting under "Experience" or "Volu
 > Street Cred
 
 - You can tell people you've contributed to an open source project - [not that many developers do](https://www.digitalocean.com/currents/october-2018/)!
-- You can tell people you have contributed to one of the largest communities for Latinx in Tech
+- You can tell people you have contributed to the largest community for Latinx in Tech
 - You can also tell people you've worked on a project that uses one of the [most popular static site generators in the world](https://www.staticgen.com/) - [Hugo](https://gohugo.io/)
 
 > And there are [many more reasons](https://opensource.guide/how-to-contribute/) why contributing to open source is great!

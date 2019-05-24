@@ -1,6 +1,6 @@
 ---
 title: About
-description: "Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry."
+description: "Techqueria is a nonprofit representing the largest community for Latinx in Tech."
 noTimeEstimate: true
 url: /about/
 aliases:
@@ -11,7 +11,7 @@ categories:
 
 ## Who we are
 
-Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry.
+Techqueria is a nonprofit representing the largest community for Latinx in Tech.
 
 We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 

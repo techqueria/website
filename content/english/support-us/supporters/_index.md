@@ -1,6 +1,6 @@
 ---
 title: Our Supporters
-description: Sponsors, partners or contributors who have helped us maintain one of the largest Latinx in Tech communities.
+description: Sponsors, partners or contributors who have helped us maintain the largest Latinx in Tech community.
 image: "/assets/img/banners/our-supporters.jpg"
 url: /supporters/
 aliases:
