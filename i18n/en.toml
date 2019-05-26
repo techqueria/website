@@ -121,7 +121,7 @@ other = "We now have an offical Spreadshirt store where we sell all kinds of swa
 [cta_shop_button]
 other = "Visit our store"
 
-# Who We Are
+# layouts/partials/base/footer/who-we-are.html
 
 [who_we_are_nonprofit]
 other = "Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx professionals in the tech industry."
