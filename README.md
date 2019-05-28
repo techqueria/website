@@ -14,7 +14,7 @@
 
 [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
-[Techqueria](http://techqueria.org/) is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+[Techqueria](http://techqueria.org/) is a nonprofit representing the largest community for Latinx in Tech. 🌮
 
 This repo is where we host our open-source website and soon to be member hub.
 
@@ -22,9 +22,9 @@ This repo is where we host our open-source website and soon to be member hub.
 
 > To get started...
 
-1.  🍴 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository
-2.  🔨 View our [contributing guidelines](.github/CONTRIBUTING.md)
-3.  🎉 [Open a new pull request](https://github.com/techqueria/website/compare) and get it approved!
+1. 🍴 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository
+2. 🔨 View our [contributing guidelines](.github/CONTRIBUTING.md)
+3. 🎉 [Open a new pull request](https://github.com/techqueria/website/compare) and get it approved!
 
 You can even [report a bug or request a feature](https://github.com/techqueria/website/issues/new/choose) - any little bit of help counts! 😊
 
@@ -65,6 +65,8 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Bethany Meier](https://github.com/whimsicurl-creations)
 - [Juan Soto](http://www.jstechstack.com/)
 - [Ania Nakayama](https://github.com/Ania-chan)
+- [Omar De Los Santos](https://github.com/omarnyte)
+- [Nathan Toms](https://github.com/nathantomsfairsailcom)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 

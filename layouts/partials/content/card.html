@@ -1,4 +1,4 @@
-<a href="{{ .RelPermalink }}">
+<a {{ if .Params.link }}href="{{ .Params.link }}" rel="noopener" target="_blank"{{ else }}href="{{ .RelPermalink }}"{{ end}}>
   <div class="card card-equal-height">
     {{ if .Params.image }}
       <!-- Image -->

@@ -2,52 +2,57 @@
 
 <!-- TOC -->
 
-- [Contributing](#contributing)
-  - [1. Setting Up](#1-setting-up)
-    - [Ways to Contribute](#ways-to-contribute)
-      - [Benefits of Contributing](#benefits-of-contributing)
-    - [Fork the repo](#fork-the-repo)
-    - [Installation](#installation)
-  - [2. Local Development](#2-local-development)
-    - [Live Server](#live-server)
-    - [Branding](#branding)
-    - [Service Workers](#service-workers)
-    - [Tools](#tools)
-    - [Platforms](#platforms)
-    - [Languages](#languages)
-    - [Coding Guidelines](#coding-guidelines)
-      - [File Size](#file-size)
-    - [Content Updates](#content-updates)
-      - [People](#people)
-      - [Companies](#companies)
-      - [Blog Posts](#blog-posts)
-    - [Translations](#translations)
-      - [Configuration](#configuration)
-      - [How to translate content](#how-to-translate-content)
-        - [1. Replace individual strings from the HTML templates in the `layouts` folder.](#1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
-        - [2. Create a separate Markdown file with the language code extension](#2-create-a-separate-markdown-file-with-the-language-code-extension)
-    - [Directory Structure](#directory-structure)
-    - [Available Commands](#available-commands)
-    - [Audits](#audits)
-    - [Deployment](#deployment)
-  - [3. Opening a Pull Request](#3-opening-a-pull-request)
-    - [A Good PR](#a-good-pr)
-    - [Checks](#checks)
-    - [GitHub Integrations](#github-integrations)
-    - [GitHub Bots](#github-bots)
-      - [Adding a contributor](#adding-a-contributor)
-      - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
-    - [Issue Tracker](#issue-tracker)
-    - [Stale Pull Requests](#stale-pull-requests)
-  - [Troubleshooting](#troubleshooting)
-    - [Error: Cannot find module](#error-cannot-find-module)
-    - [Not seeing changes live](#not-seeing-changes-live)
-    - [Recently Merged Changes](#recently-merged-changes)
-  - [Questions?](#questions)
-    - [GitHub](#github)
-    - [Gitter](#gitter)
-    - [Slack](#slack)
-    - [Email](#email)
+- [1. Setting Up](#1-setting-up)
+  - [Ways to Contribute](#ways-to-contribute)
+    - [Benefits of Contributing](#benefits-of-contributing)
+      - [GitHub Profile](#github-profile)
+      - [LinkedIn](#linkedin)
+      - [Credibility](#credibility)
+  - [Fork the repo](#fork-the-repo)
+  - [Installation](#installation)
+- [2. Local Development](#2-local-development)
+  - [Live Server](#live-server)
+  - [Branding](#branding)
+  - [Service Workers](#service-workers)
+  - [Tools](#tools)
+  - [Platforms](#platforms)
+  - [Languages](#languages)
+  - [Coding Guidelines](#coding-guidelines)
+    - [File Size](#file-size)
+  - [Adding Images](#adding-images)
+  - [Content Updates](#content-updates)
+    - [People](#people)
+      - [Team](#team)
+      - [Patreon Supporters](#patreon-supporters)
+    - [Companies](#companies)
+    - [Blog Posts](#blog-posts)
+    - [Resources](#resources)
+  - [Translations](#translations)
+    - [How to translate content](#how-to-translate-content)
+      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#option-1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
+      - [Option 2. Create a separate Markdown file with the language code extension](#option-2-create-a-separate-markdown-file-with-the-language-code-extension)
+  - [Directory Structure](#directory-structure)
+  - [Available Commands](#available-commands)
+  - [Audits](#audits)
+  - [Deployment](#deployment)
+- [3. Opening a Pull Request](#3-opening-a-pull-request)
+  - [A Good PR](#a-good-pr)
+  - [Checks](#checks)
+  - [GitHub Integrations](#github-integrations)
+  - [GitHub Bots](#github-bots)
+    - [Adding a contributor](#adding-a-contributor)
+    - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
+  - [Issue Tracker](#issue-tracker)
+  - [Stale Pull Requests](#stale-pull-requests)
+- [Troubleshooting](#troubleshooting)
+  - [Error: Cannot find module](#error-cannot-find-module)
+  - [Not seeing changes live](#not-seeing-changes-live)
+  - [Recently Merged Changes](#recently-merged-changes)
+- [Questions?](#questions)
+  - [GitHub](#github)
+  - [Slack](#slack)
+  - [Gitter](#gitter)
+  - [Email](#email)
 
 <!-- /TOC -->
 
@@ -73,22 +78,24 @@ Feel free to contribute to the Techqueria website in one or more of the followin
 
 #### Benefits of Contributing
 
-> GitHub Profile
+##### GitHub Profile
 
-After we've added you to our Techqueria GitHub organization as a contibutor, you can tell the world you've helped us by displaying our organization avatar on your GitHub profile. By default, this is made private but you [can easily make it public.](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership).
+You can ask to be added to our GitHub organization.
 
-Let us know if we haven't already added you.
+After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
 
 ![GitHub Organizations](https://i.imgur.com/DpZcMFl.jpg)
 
-> LinkedIn
+By default, this is made private but you [can easily make it public.](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership).
+
+##### LinkedIn
 
 Showcase your contributions through LinkedIn with Techqueria's company profile: https://linkedin.com/company/techqueria.
 
 Just make sure to use the description below and you can briefly describe what you did as well.
 
 ```txt
-Techqueria is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry.
+Techqueria is a 501c3 nonprofit representing the largest community for Latinx in Tech.
 
 - Contributed to their open source website through translations and bug fixes
 ```
@@ -97,10 +104,10 @@ Here's an example of how that can be done by posting under "Experience" or "Volu
 
 ![LinkedIn Contributions](https://i.imgur.com/t01auIB.jpg)
 
-> Street Cred
+##### Credibility
 
 - You can tell people you've contributed to an open source project - [not that many developers do](https://www.digitalocean.com/currents/october-2018/)!
-- You can tell people you have contributed to one of the largest communities for Latinx in Tech
+- You can tell people you have contributed to the largest community for Latinx in Tech
 - You can also tell people you've worked on a project that uses one of the [most popular static site generators in the world](https://www.staticgen.com/) - [Hugo](https://gohugo.io/)
 
 > And there are [many more reasons](https://opensource.guide/how-to-contribute/) why contributing to open source is great!
@@ -193,13 +200,25 @@ For files longer than 200 lines, we recommend breaking it out into multiple file
 
 If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 
+### Adding Images
+
+All images should be added to `assets/img` within the relevant folder.
+
+If there is not a relevant directory, please create one.
+
+We do have automated image optimization but feel free to compress the image locally as well.
+
 ### Content Updates
+
+If there is a special character in the text, make sure to use double quotes.
 
 #### People
 
 When adding a new person, make sure to use their LinkedIn profile as the URL and download their LinkedIn profile picture so we can host it locally.
 
-> Organizing Team
+##### Team
+
+> `content/english/team/frances-coronel.md`
 
 ```markdown
 ---
@@ -212,7 +231,9 @@ role: Open Source Lead, Slack Admin
 ---
 ```
 
-> Patreon Supporters
+##### Patreon Supporters
+
+> `content/english/donate/patreon-supporters/liliana-a-monge.md`
 
 ```markdown
 ---
@@ -224,27 +245,25 @@ tier: "Core - $25 or more per month"
 ---
 ```
 
-> Tier Options
+> Tier Options for Patreon
 
-```txt
-Friend - $1 or more per month
-Supporter - $5 or more per month
-Advocate - $10 or more per month
-Core - $25 or more per month
-Patron - $50 or more per month
-Champion - $100 or more per month
-```
+- Friend - \$1 or more per month
+- Supporter - \$5 or more per month
+- Advocate - \$10 or more per month
+- Core - \$25 or more per month
+- Patron - \$50 or more per month
+- Champion - \$100 or more per month
 
 #### Companies
 
 When adding a new company, make sure to link their careers site and download an appropriate logo image so we can host it locally.
 
-Example:
+> `content/english/support-us/supporters/braintree.md`
 
 ```markdown
 ---
-title: Braintree
-description: All-in-one solution to accept, process, and split payments in your mobile app or online
+title: "Braintree"
+description: "All-in-one solution to accept, process, and split payments in your mobile app or online"
 image: "/assets/img/sponsors/braintree.png"
 link: https://www.braintreepayments.com/careers
 ---
@@ -252,9 +271,9 @@ link: https://www.braintreepayments.com/careers
 
 #### Blog Posts
 
-Make sure to always turn comments on and add or reference a person as the author. If there is a special character in the blog title, make sure to use double quotes.
+Make sure to always turn comments on and add or reference a person as the author.
 
-Example:
+> `content/english/blog/2016-07-19-community-building.md`
 
 ```markdown
 ---
@@ -266,11 +285,22 @@ people:
 ---
 ```
 
+#### Resources
+
+You can add a new resource to a bunch of different categories like career, nonprofits, healthcare, immigration, etc.
+
+> `content/english/resources/nonprofits/slack-for-non-profits.md`
+
+```markdown
+---
+title: "Slack for Nonprofits"
+image: "/assets/img/resources/nonprofits/slack.png"
+description: "The Slack for Nonprofits program offers eligible organizations a free or discounted upgrade of one workspace to a paid plan."
+link: https://get.slack.help/hc/en-us/articles/204368833-Slack-for-Nonprofits
+---
+```
+
 ### Translations
-
-Content is in the progress of being translated to Español.
-
-#### Configuration
 
 The language dropdown is located at `layouts/partials/footer/language-dropdown.html` which is referenced at `layouts/partials/footer/who-we-are.html`. It is currently disabled until parent pages are translated.
 
@@ -280,94 +310,107 @@ Translated strings can be located at `i18n/en.toml` and `i18n/es.toml`
 
 #### How to translate content
 
-##### 1. Replace individual strings from the HTML templates in the `layouts` folder.
+##### Option 1. Replace individual strings from the HTML templates in the `layouts` folder.
 
 Here's an example of translating one string from the `who-we-are.html` layout template.
 
-> The syntax for translated strings in the HTML is `{{ i18n "translation_id" }}`.
+The syntax for translated strings in the HTML is `{{ i18n "translation_id" }}`.
+
+> `layouts/partials/base/footer/who-we-are.html`, L7
 
 ```html
-<!-- who-we-are.html -->
-<p>{{ i18n "join_us" }}</p>
+<p>{{ i18n "who_we_are_nonprofit" }}</p>
 ```
 
-> The translation IDs must be the same in both `en.toml` and `es.toml`.
+The translation IDs must be the same in both `en.toml` and `es.toml`.
+
+> `site/i18n/es.toml`
 
 ```toml
-# site/i18n/en.toml
-[join_us]
-other = "Join us and share your experience with Techqueria."
+# layouts/partials/base/footer/who-we-are.html
+
+[who_we_are_nonprofit]
+other = "Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx professionals in the tech industry."
 ```
+
+> `site/i18n/es.toml`
 
 ```toml
-# site/i18n/es.toml
-[join_us]
-other = "Únete a nosotros y comparte tu experiencia con Techqueria."
+# layouts/partials/base/footer/who-we-are.html
+
+[who_we_are_nonprofit]
+other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
 ```
 
-##### 2. Create a separate Markdown file with the language code extension
+##### Option 2. Create a separate Markdown file with the language code extension
 
 Here's an example of translating the "Brand" page in Markdown.
 
-So for Markdown pages to be translated in Spanish, add an identical file with `.es.md` at the end.
+So for Markdown pages to be translated in Spanish, add an identical file within the `content/espanol` directory.
 
-> `content/about/brand.md`
+‼️ For pages like this, **do not copy over the urls or aliases** as this will break the page and redirect users to the Spanish version always even if they don't want it.
+
+> `content/english/about/brand.md`
 
 ```markdown
 title: Brand 🎨
 description: Download our assets and discover our style guide.
 ```
 
-> `content/about/brand.es.md`
+> `content/espanol/about/brand.es.md`
 
 ```markdown
 title: Marca 🎨
 description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 ```
 
-‼️ For pages like this, **do not copy over the urls or aliases** as this will break the page and redirect users to the Spanish version always even if they don't want it.
-
 ### Directory Structure
 
-```text
+```txt
 ├── .github
+|  ├──  ISSUE_TEMPLATE             // folder with issue template files
 |  ├──  CODE_OF_CONDUCT.md         // code of conduct
 |  ├──  CODEOWNERS                 // automatic reviewers for certain files and directories
-|  ├──  CONTRIBUTING.md            // how to contribute
+|  ├──  config.yml                 // configuration for various 3rd party GitHub bots
+|  ├──  invite-contributors.yml    // configuration for invite contributors bot
+|  ├──  CONTRIBUTING.md            // how to contribute - what you are reading
 |  ├──  ISSUE_TEMPLATE.md          // template for new issues
 |  ├──  PULL_REQUEST_TEMPLATE.md   // template for new pull requests
-|  └──  stale.yml                  // configuration for Stale bot
+|  ├──  stale.yml                  // configuration for Stale bot
+|  └──  topissuebot.yml            // configuration for Top Issue bot
 ├── .vscode
-|  └──  settings.json       // VS Code workspace settings
-├── dist                    // (ignored) static files generated and served through Netlify using npm start or npm build
-├── archetypes              // default post formats
-├── content                 // content goes here (Markdown files with posts and pages)
-├── data                    // languages configuration
-├── i18n                    // translations for strings in HTML layouts
-├── layouts                 // HTML Liquid templates for pages
-├── static                  // files that go into root of dist directory
-├── config.toml             // configuration file (Hugo)
-├── assets                  // folder of assets handled by Gulp/Webpack
-|  ├── img                  // images are optimized through Gulp
-|  ├── js                   // compressed and transpiled to a single JS file
-|  └── sass                 // compressed and compiled to a single CSS file
-├── _redirects              // redirect configuration for Netlify
-├── .babelrc                // configuration for Babel
-├── .editorconfig           // configuration for editors
-├── .eslintrc               // configuration for ESLint
-├── .gitignore              // ignored files and folders
-├── .hound.yml              // configuration for Hound (GitHub integration)
-├── .nvmrc                  // configuration for NVM
-├── .prettierrc             // configuration for Prettier formatter
-├── CNAME                   // domain name
-├── gulpfile.babel.js       // configuring Gulp build process for assets
-├── LICENSE                 // repo license
-├── netlify.toml            // configuration for Netlify deployment
-├── package.json            // managing NPM packages
-├── README.md               // overview
-├── renovate.json           // configuration for Renovate bot
-├── webpack.dev.js          // Webpack build configuration for local development
-└── webpack.prod.js         // Webpack build configuration for production
+|  └──  settings.json              // VS Code workspace settings
+├── CNAME                          // configuring domain
+├── LICENSE                        // repo license
+├── README.md                      // overview of project
+├── assets                         // folder of assets handled by Gulp/Webpack
+|  ├── img                         // images are optimized through Gulp
+|  ├── js                          // compressed and transpiled to a single JS file
+|  └── sass                        // compressed and compiled to a single CSS file
+├── config.toml                    // configuration file (Hugo)
+├── content                        // content goes here (Markdown files with posts and pages)
+|  ├── english                     // content in English
+|  └── espanol                     // mostly same content from English folder translated to Spanish
+├── data
+|  └── i18n
+|     └── languages.toml           // configuring internationalization settings
+├── drafts                         // files not ready for prime time
+├── gulpfile.babel.js              // configuration for Gulp
+├── i18n                           // where translations of strings live
+|  ├── en.toml                     // strings translated in English
+|  └── es.toml                     // strings trnaslated in Español
+├── layouts                        // HTML Liquid templates for pages
+├── netlify.toml                   // configuration for Netlify deployment
+├── package-lock.json              // don't delete or modify this
+├── package.json                   // managing NPM packages
+├── renovate.json                  // configuration for Renovate bot
+├── static                         // files that go into root of dist directory
+|  ├── _redirects                  // handle redirected URLs
+|  ├── browserconfig.xml           // configuration for Windows tiles
+|  ├── favicon.ico                 // main favicon image
+|  └── manifest.json               // configuration for Progressive Web App
+├── webpack.dev.js                 // Webpack build configuration for local development
+└── webpack.prod.js                // Webpack build configuration for production
 ```
 
 ### Available Commands
@@ -548,13 +591,13 @@ If you have any questions, comments, concerns or general feedback, we're happy t
 
 Please make a comment mentioning `@techqueria/admins` in your issue or PR and one of us will get back to you ASAP.
 
-### Gitter
-
-If you are not part of our Slack community and want to use something besides GitHub, we also have [a Gitter lobby](https://gitter.im/techqueria/Lobby).
-
 ### Slack
 
 If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#website` channel for discussion and a `#website-gh` for GitHub notifications.
+
+### Gitter
+
+If you are not part of our Slack community and want to use something besides GitHub, we also have [a Gitter lobby](https://gitter.im/techqueria/Lobby).
 
 ### Email
 

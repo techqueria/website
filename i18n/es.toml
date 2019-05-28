@@ -1,4 +1,5 @@
-# Espanol
+# Español
+
 [techqueria_is]
 other = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes de Latinx profesionales en la industria de la tecnología. 🌮"
 
@@ -110,7 +111,20 @@ other = "para ayudarle a encontrar lo que está buscando."
 [comment]
 other = "Comenta"
 
-# Who We Are
+# CTA - Shop
+
+[cta_shop_title]
+other = "Compra Techqueria Merch"
+
+[cta_shop_subtitle]
+other = "Ahora tenemos una tienda oficial de Spreadshirt donde vendemos todo tipo de prendas como camisas, sudaderas, tazas, sombreros, mochilas, etc."
+
+[cta_shop_button]
+other = "Visita nuestra tienda"
+
+## FOOTER ##
+
+# layouts/partials/base/footer/who-we-are.html
 
 [who_we_are_nonprofit]
 other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
