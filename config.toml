@@ -288,7 +288,7 @@ disqusShortname                      = "techqueria"
     identifier                       = "fab fa-lg fa-slack"
 [[menu.slack]]
     name                             = "Login to Slack"
-    url                              = "https://latinos.slack.com"
+    url                              = "https://techqueria.slack.com"
     identifier                       = "fas fa-lg fa-sign-in-alt"
 
 # Sitemap
@@ -536,7 +536,7 @@ disqusShortname                      = "techqueria"
 
 [[languages.es.menu.slack]]
     name                             = "Iniciar sesión en Slack"
-    url                              = "https://latinos.slack.com"
+    url                              = "https://techqueria.slack.com"
     identifier                       = "fas fa-lg fa-sign-in-alt"
 
 # Sitemap
