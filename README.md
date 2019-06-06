@@ -6,7 +6,7 @@
 
 [![Open Source Helpers](https://www.codetriage.com/techqueria/website/badges/users.svg)](https://www.codetriage.com/techqueria/website) [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
 
-[![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-latinos.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
+[![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-techqueria.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/729d8cea-4059-4116-b695-16dc88c9a76d/deploy-status)](https://app.netlify.com/sites/techqueria/deploys)
 

@@ -22,9 +22,9 @@ If you don't get an invite by then, please email us at `organizers@techqueria.or
 
 ## Already a member?
 
-If you have already received an invitation, you can log in at [latinos.slack.com](https://latinos.slack.com/).
+If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
 
-<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
 
 ## Never used Slack before?
 
@@ -130,7 +130,7 @@ When you click on the emoji icon in the conversation or to add a reaction, you c
 
 You can find images for things like arepa, empanada, baseball teams, avocado, etc.
 
-Take a look at them and feel free to [add more custom emoji](https://latinos.slack.com/customize/emoji) yourself.
+Take a look at them and feel free to [add more custom emoji](https://techqueria.slack.com/customize/emoji) yourself.
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 

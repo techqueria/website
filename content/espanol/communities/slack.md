@@ -51,9 +51,9 @@ Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo
 
 ## Ya es miembro?
 
-Si ya ha recibido una invitación, puede iniciar sesión en [latinos.slack.com](https://latinos.slack.com/).
+Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).
 
-<a href="https://latinos.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
 
 ## Nunca ha usado Slack antes?
 
@@ -159,7 +159,7 @@ Cuando hace click en el ícono de emoji en la conversación o para agregar una r
 
 Puede encontrar imágenes de cosas como arepa, empanada, equipos de baseball, avocado, etc.
 
-Dele una mirada y siéntase libre de [agregar más emojis personalizados](https://latinos.slack.com/customize/emoji) usted mismo.
+Dele una mirada y siéntase libre de [agregar más emojis personalizados](https://techqueria.slack.com/customize/emoji) usted mismo.
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 
