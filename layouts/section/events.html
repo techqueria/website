@@ -3,6 +3,8 @@
   {{ $events := .Sections | union .Pages }}
   {{ $upcomingEvents := where $events "Date" "ge" now }}
   {{ $pastEvents := where $events "Date" "lt" now }}
+  {{ $data := getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=public&group_urlname=techqueria&status=past&text_format=plain&page=20" }}
+  {{ $pastEventsMeetup := $data.results }}
   <!-- Hero -->
   {{ partial "content/hero.html" . }}
   <!-- Page -->
@@ -36,6 +38,10 @@
           Past Events</h2>
       </div>
       <div class="columns is-multiline">
+        {{ range $pastEventsMeetup}}
+            {{ $event := . }}
+            <div> name: {{$event.name }}</div>
+        {{ end}}
         {{ range $pastEvents.ByDate.Reverse }}
           {{ partial "content/child.html" . }}
         {{ end }}
