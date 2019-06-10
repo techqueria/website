@@ -9,6 +9,8 @@ aliases:
   - /support-us/
   - /become-a-sponsor/
   - /become-a-supporter/
+  - /partners/
+  - /supporters/
 categories:
   - sitemap
 ---

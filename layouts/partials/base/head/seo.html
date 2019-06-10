@@ -145,10 +145,6 @@ property="og:url" content="{{ .Permalink }}">
     <link rel="prerender" href="{{ .PrevInSection.Permalink }}">
   {{ end }}
 {{ end }}
-<!-- RSS -->
-{{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
-{{ end }}
 <!-- Alternative Output -->
 {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
