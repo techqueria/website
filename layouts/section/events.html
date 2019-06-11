@@ -3,10 +3,8 @@
   {{ $events := .Sections | union .Pages }}
   {{ $upcomingEvents := where $events "Date" "ge" now }}
   {{ $pastEvents := where $events "Date" "lt" now }}
-  {{ $dataPast := getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=past&text_format=plain&page=20&desc=true" }}
-  {{ $pastEventsMeetup := $dataPast.results }}
-  {{ $dataUpcoming := getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=upcoming&text_format=plain&page=20&desc=true" }}
-  {{ $upcomingEventsMeetup := $dataUpcoming.results }}
+  {{ $pastEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=past&text_format=plain&page=20&desc=true").results }}
+  {{ $upcomingEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=upcoming&text_format=plain&page=20&desc=true").results }}
   <!-- Hero -->
   {{ partial "content/hero.html" . }}
   <!-- Page -->
