@@ -1,0 +1,36 @@
+<div class="column is-one-third-desktop is-half-tablet">
+  <a {{ if .event_url }}href="{{ .event_url }}" rel="noopener" target="_blank"{{ end}}>
+    <div class="card card-equal-height">
+      {{ if .photo_url }}
+        <!-- Image -->
+        <div class="card-image">
+          <figure class="image">
+            <img src="{{ .photo_url }}" data-src="{{ .photo_url }}" alt="{{ .name }}" class="lozad card-image--figure">
+          </figure>
+        </div>
+      {{ end }}
+      <!-- Title -->
+      <header class="card-header">
+        <h3 class="card-header-title">
+          {{ .name }}
+        </h3>
+      </header>
+      <!-- Content -->
+      <div class="card-content">
+        <div
+          class="content">
+          <!-- Description -->
+          <p>
+            {{ if .description }}
+              {{ .description | truncate 150 | safeHTML }}
+            {{ end }}
+          </p>
+          <!-- Date -->
+          {{ if .created }}
+            <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ div .created 1000| int | dateFormat "Monday, Jan 2, 2006" }} </p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
