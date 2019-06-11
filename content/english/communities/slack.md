@@ -14,7 +14,7 @@ To get an invite to our Slack Workspace with 3,000+ (as of March 2019) Latinx in
 
 <a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
 
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below. You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/latinos).
+As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below. You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
 
 You should get an invite within 2 weeks.
 
