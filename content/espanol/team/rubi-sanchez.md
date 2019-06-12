@@ -5,7 +5,7 @@ description: Product Manager at AdRoll
 link: https://www.linkedin.com/in/rubisanchez
 location: Bay Area
 weight: 8
-role: Board Member, Current Organizer
+role: Board Member
 categories:
   - bay-area
   - board-member
