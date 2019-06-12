@@ -5,9 +5,9 @@ description: Freelance Product Designer
 link: https://www.linkedin.com/in/daliaicedo
 location: Bay Area
 weight: 6
-role: Board Member, Current Organizer
+role: Board Member, Past Organizer
 categories:
   - bay-area
-  - current-organizer
+  - past-organizer
   - board-member
 ---

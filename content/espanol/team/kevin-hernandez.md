@@ -5,9 +5,9 @@ description: UI Developer at WalmartLabs
 link: https://www.linkedin.com/in/kevdez
 location: Bay Area
 weight: 7
-role: Board Member, Current Organizer
+role: Board Member, Past Organizer
 categories:
   - bay-area
   - board-member
-  - current-organizer
+  - past-organizer
 ---

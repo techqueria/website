@@ -5,9 +5,10 @@ description: Fullstack Software Engineer at Way2B1
 link: https://www.linkedin.com/in/fvntr/
 location: Bay Area
 weight: 1
-role: Board Member, Current Organizer
+role: Executive Director, Board Member, Current Organizer
 categories:
   - bay-area
   - board-member
   - current-organizer
+  - executive-director
 ---

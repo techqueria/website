@@ -4,8 +4,8 @@ image: "/assets/img/people/josue-bustos.jpeg"
 description: Technical Evangelist at Samsung
 link: https://www.linkedin.com/in/josuebustos
 location: Los Angeles
-role: Current Organizer
+role: Past Organizer
 categories:
   - los-angeles
-  - current-organizer
+  - past-organizer
 ---
