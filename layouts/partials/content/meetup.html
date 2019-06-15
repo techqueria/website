@@ -1,14 +1,21 @@
 <div class="column is-one-third-desktop is-half-tablet">
   <a {{ if .event_url }}href="{{ .event_url }}" rel="noopener" target="_blank"{{ end}}>
     <div class="card card-equal-height">
-      {{ if .photo_url }}
         <!-- Image -->
         <div class="card-image">
           <figure class="image">
-            <img src="{{ .photo_url }}" data-src="{{ .photo_url }}" alt="{{ .name }}" class="lozad card-image--figure">
+              <img
+              {{ if .photo_url }}
+                {{ $highresImageUrl :=replace .photo_url "global" "highres" }}
+                src='{{ $highresImageUrl }}'
+                data-src='{{ $highresImageUrl }}'
+              {{else}}
+                src=" https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png"
+                data-src=" https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png"
+              {{end}}
+              alt="{{ .name }}" class="lozad card-image--figure">
           </figure>
         </div>
-      {{ end }}
       <!-- Title -->
       <header class="card-header">
         <h3 class="card-header-title">
