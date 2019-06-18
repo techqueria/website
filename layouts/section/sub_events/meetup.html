@@ -1,8 +1,7 @@
 {{ define "main" }}
   <!-- Variables -->
-  {{ $events := .Sections | union .Pages }}
-  {{ $upcomingEvents := where $events "Date" "ge" now }}
-  {{ $pastEvents := where $events "Date" "lt" now }}
+  {{ $pastEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=past&text_format=plain&page=20&desc=true").results }}
+  {{ $upcomingEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=upcoming&text_format=plain&page=20&desc=true").results }}
   <!-- Hero -->
   {{ partial "content/hero.html" . }}
   <!-- Page -->
@@ -14,31 +13,31 @@
       <!-- Content -->
       {{ partial "content/_index.html" . }}
       <!-- Upcoming Events -->
-      {{ if (len $upcomingEvents) "ge" 1 }}
+      {{ if (len $upcomingEventsMeetup) "ge" 1 }}
         <div class="content mt-2">
           <h2>⏳️
-            {{ len $upcomingEvents }}
+            {{ len $upcomingEventsMeetup }}
             Upcoming
-            {{ if gt (len $upcomingEvents) 1 }}Events{{ else }}Event
+            {{ if gt (len $upcomingEventsMeetup) 1 }}Events{{ else }}Event
             {{ end }}
           </h2>
         </div>
         <div class="columns is-multiline">
-          {{ range $upcomingEvents.ByDate.Reverse }}
-            {{ partial "content/child.html" . }}
+          {{ range $upcomingEventsMeetup }}
+              {{ partial "content/meetup.html" . }}
           {{ end }}
         </div>
       {{ end }}
       <!-- Past Events -->
       <div class="content mt-2">
         <h2>⌛️
-          {{ len $pastEvents }}
+          {{ len $pastEventsMeetup }}
           Past Events</h2>
       </div>
       <div class="columns is-multiline">
-        {{ range $pastEvents.ByDate.Reverse }}
-          {{ partial "content/child.html" . }}
-        {{ end }}
+        {{ range $pastEventsMeetup }}
+            {{ partial "content/meetup.html" . }}
+        {{ end}}
       </div>
       <!-- Content Footer -->
       {{ partial "content/footer/_index.html" . }}
