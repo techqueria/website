@@ -1,6 +1,7 @@
 [build]
   publish = "dist"
   command = "gulp build"
+  functions = "lambda-prod"
 
 [context.production.environment]
   HUGO_VERSION = "0.48"

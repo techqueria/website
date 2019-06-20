@@ -57,6 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# lambda prod build for netlify
+lambda-prod
+
 # macOS
 .DS_Store
 
