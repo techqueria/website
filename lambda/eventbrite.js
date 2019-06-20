@@ -21,12 +21,18 @@ export async function handler(event, context) {
     };
     return {
       statusCode: 200,
+      headers: {
+        "content-type": "application/json"
+      },
       body: JSON.stringify({...data})
     };
   } catch (err) {
     console.log(err); // output to netlify function log
     return {
       statusCode: 500,
+      headers: {
+        "content-type": "application/json"
+      },
       body: JSON.stringify({msg: err.message})
     };
   }
