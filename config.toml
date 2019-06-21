@@ -322,6 +322,9 @@ disqusShortname                      = "techqueria"
   name = "Meetup Events"
   url = "/events/meetup"
 [[menu.sitemap]]
+  name = "Eventbrite Events"
+  url = "/events/eventbrite"
+[[menu.sitemap]]
   name = "Press"
   url = "/press/"
 [[menu.sitemap]]
@@ -572,6 +575,9 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.sitemap]]
   name = "Eventos de Meetup"
   url = "/events/meetup"
+[[languages.es.menu.sitemap]]
+  name = "Eventos de Eventbrite"
+  url = "/events/eventbrite"
 [[languages.es.menu.sitemap]]
   name = "Prensa"
   url = "/about/press/"

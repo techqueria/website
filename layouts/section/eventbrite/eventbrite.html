@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <!-- Variables -->
+  {{ $eventbriteEvents := (getJSON "http://localhost:9000/eventbrite") }}
+  {{ $pastEventsEventbrite := $eventbriteEvents.completed.events }}
+  {{ $upcomingEventsEventbrite := $eventbriteEvents.live.events }}
+  <!-- Hero -->
+  {{ partial "content/hero.html" . }}
+  <!-- Page -->
+  <section class="section page">
+    <div
+      class="container">
+      <!-- Breadcrumbs -->
+      {{ partial "custom/breadcrumbs.html" . }}
+      <!-- Content -->
+      {{ partial "content/_index.html" . }}
+      <!-- Upcoming Events -->
+      {{ if (len $upcomingEventsEventbrite) "ge" 1 }}
+        <div class="content mt-2">
+          <h2>⏳️
+            {{ len $upcomingEventsEventbrite }}
+            Upcoming
+            {{ if gt (len $upcomingEventsEventbrite) 1 }}Events{{ else }}Event
+            {{ end }}
+          </h2>
+        </div>
+        <div class="columns is-multiline">
+          {{ range $upcomingEventsEventbrite }}
+              {{ partial "content/eventbrite.html" . }}
+          {{ end }}
+        </div>
+      {{ end }}
+      <!-- Past Events -->
+      <div class="content mt-2">
+        <h2>⌛️
+          {{ len $pastEventsEventbrite }}
+          Past Events</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range $pastEventsEventbrite }}
+            {{ partial "content/eventbrite.html" . }}
+        {{ end}}
+      </div>
+      <!-- Content Footer -->
+      {{ partial "content/footer/_index.html" . }}
+    </div>
+  </section>
+{{ end }}
