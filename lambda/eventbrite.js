@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 import axios from "axios";
 
 function getEventbriteEvents(status, token) {
