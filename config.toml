@@ -247,6 +247,10 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/similar-organizations/"
 [[menu.main]]
     parent                           = "Resources"
+    name                             = "Students"
+    url                              = "/resources/students/"
+[[menu.main]]
+    parent                           = "Resources"
     name                             = "Travel"
     url                              = "/resources/travel/"
 [[menu.main]]
@@ -314,6 +318,9 @@ disqusShortname                      = "techqueria"
 [[menu.sitemap]]
   name = "Events"
   url = "/events/"
+[[menu.sitemap]]
+  name = "Meetup Events"
+  url = "/events/meetup"
 [[menu.sitemap]]
   name = "Press"
   url = "/press/"
@@ -562,6 +569,9 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.sitemap]]
   name = "Eventos"
   url = "/events/"
+[[languages.es.menu.sitemap]]
+  name = "Eventos de Meetup"
+  url = "/events/meetup"
 [[languages.es.menu.sitemap]]
   name = "Prensa"
   url = "/about/press/"
