@@ -1,7 +1,4 @@
 ---
 title: Nonprofits 💛
-description: Resources related to nonprofits 
-aliases:
-  - /nonprofits
-  - /resources/nonprofits/
+description: Resources related to nonprofits
 ---
