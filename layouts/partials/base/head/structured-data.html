@@ -30,11 +30,11 @@
 {
     "@context":         "https://schema.org",
     "@type":            "WebSite",
-    "image":            "{{ .Site.Params.og_image }}",
+    "image":            {{ printf "\"%s\"" .Site.Params.og_image | safeJS }},
     "license":          "{{ .Site.Params.copyright }}",
-    "name":             "{{ .Site.Title }}",
-    "thumbnailUrl":     "{{ .Site.Params.logo }}",
-    "url":              "{{ .Site.BaseURL }}",
+    "name":             {{ printf "\"%s\"" .Site.Title | safeJS }},
+    "thumbnailUrl":     {{ printf "\"%s\"" .Site.Params.logo | safeJS }},
+    "url":              {{ printf "\"%s\"" .Permalink | safeJS }},
     {{ with $.Site.Author.name }}
      "author":           {
         "@type":        "Person",
@@ -43,11 +43,11 @@
     {{ end }}
     "mainEntityOfPage": {
         "@type":        "WebPage",
-        "@id":          "{{ .Site.BaseURL }}"
+        "@id":          {{ printf "\"%s\"" .Permalink | safeJS }}
     },
     "potentialAction":  {
         "@type":        "SearchAction",
-        "target":       "{{ .Site.Params.search_url }}",
+        "target":       {{ printf "\"%s\"" .Site.Params.search_url | safeJS }},
         "query-input":  "required name=search_term_string"
     },
     "sameAs":           [
@@ -59,9 +59,9 @@
     ]
 }
 </script>
-  <!-- Blog Posting -->
+<!-- Blog Posting -->
 {{- else if .IsPage -}}
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context":          "http://schema.org",
     "@type":             "BlogPosting",
@@ -77,32 +77,32 @@
     "articleSection":    "{{ .Section }}",
     "copyrightYear":     "{{ .Date.Format "2006" }}",
     "genre":             "{{ .Type }}",
-    "headline":          "{{ $pageTitle }}",
+    "headline":          {{ printf "\"%s\"" $pageTitle | safeJS }},
     "inLanguage":        "en-US",
     "license":           "{{ .Site.Params.copyright }}",
-    "name":              "{{ $pageTitle }}",
-    "url":               "{{ .Permalink }}",
+    "name":              {{ printf "\"%s\"" $pageTitle | safeJS }},
+    "url":               {{ printf "\"%s\"" .Permalink | safeJS }},
     "wordcount":         {{ .WordCount }},
-    "description":       "{{ $pageDescription }}",
+    "description":       {{ printf "\"%s\"" $pageDescription | safeJS }},
     "mainEntityOfPage":  {
         "@type":         "WebPage",
-        "@id":           "{{ .Permalink }}"
+        "@id":           {{ printf "\"%s\"" .Permalink | safeJS }}
     },
     "image":             [
-        "{{ $pageImage }}"
+      {{ printf "\"%s\"" $pageImage | safeJS }}
     ],
     "publisher":         {
         "@type":         "Organization",
-        "name":          "{{ .Site.Title }}",
+        "name":          {{ printf "\"%s\"" .Site.Title | safeJS }},
         "logo":          {
           "@type":       "ImageObject",
-          "url":         "{{ .Site.Params.logo }}"
+          "url":         {{ printf "\"%s\"" .Site.Params.logo | safeJS }}
         }
     },
     {{ if or (.Params.categories) (.Params.tags) -}}
     "keywords":          [
-      {{ if .Params.categories }}{{ range .Params.categories }}"{{ . }}",{{ end }}{{ end }}
-      {{ if .Params.tags }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}
+      {{- if .Params.categories -}}{{ range .Params.categories }}"{{ . }}",{{- end -}}{{- end -}}
+      {{- if .Params.tags -}}{{ range .Params.tags }}"{{ . }}",{{- end -}}{{ end -}}
       "blog post"
     ],
     {{- end }}
@@ -116,28 +116,23 @@
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 {{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
 {{ range $index, $element := split $url "/" }}
-  {{ $.Scratch.Add "path" $element }}
-  {{ $.Scratch.Add "path" "/" }}
-  {{ if ne $element "" }}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
-  {{ end }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
 {{ end }}
 <script type="application/ld+json">
-  {
-    "@context":        "https://schema.org",
-    "@type":           "BreadcrumbList",
-    "itemListElement": [
-  {{ range $.Scratch.Get "breadcrumb" }}
-    {{ if ne .position 1 }},
-    {{ end }}{
-            "@type":     "ListItem",
-            "position":
-    {{ .position }},
-            "item":      {
-              "@id":     "{{ .Permalink }}",
-              "name":    "{{ .name }}"
-            }
+{
+  "@context":        "https://schema.org",
+  "@type":           "BreadcrumbList",
+  "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+        "@type":     "ListItem",
+        "position":  {{ .position }},
+        "item":      {
+          "@id":     {{ printf "\"%s\"" .url | safeJS }},
+          "name":    "{{ .name }}"
         }
-  {{ end }}]
-  }
+    }{{ end }}]
+}
 </script>
