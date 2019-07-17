@@ -186,6 +186,10 @@ disqusShortname                      = "techqueria"
     url                              = "https://opencollective.com/techqueria/"
 [[menu.main]]
     parent                           = "Donate"
+    name                             = "Donate when you shop on Amazon"
+    url                              = "https://smile.amazon.com/ch/83-2656715"
+[[menu.main]]
+    parent                           = "Donate"
     name                             = "Contribute on Patreon"
     url                              = "https://www.patreon.com/techqueria/"
 [[menu.main]]
