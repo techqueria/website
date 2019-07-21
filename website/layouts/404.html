@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="hero is-danger is-bold is-large">
+  <div class="hero-body">
+    <div class="container has-text-centered content">
+      <h1 class="title mb-1">
+        🚫 404
+      </h1>
+      <h2 class="subtitle">
+        {{ i18n "not_found" }}
+      </h2>
+      <h2 class="subtitle">
+        {{ i18n "go_back" }}
+        {{ range .Site.Menus.homepage }}
+        <a class="hero-link" href="{{ .URL | relLangURL }}"> {{ i18n "back_home" }}</a>
+        {{ end }}
+        {{ i18n "or" }}
+        <a class="hero-link" href="/contact/">{{ i18n "contact_us" }}</a> {{ i18n "to_find_what" }}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}

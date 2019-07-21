@@ -1,0 +1,17 @@
+<div class="has-text-centered mb-1">
+  <p><a href="https://www.netlify.com">
+      <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" />
+    </a>
+  </p>
+</div>
+<div class="content has-text-centered">
+  <p>
+    &copy;
+    <a class="link--techqueria" href="/">Techqueria</a>
+    {{ with .Site.Params.year }}
+    {{ . }}
+    {{ end }}
+    {{ i18n "copyright_to" }}
+    {{ now.Year }}
+  </p>
+</div>

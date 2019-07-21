@@ -1,0 +1,7 @@
+.section {
+  padding: 4rem 2rem;
+
+  @media screen and (max-width: $tablet) {
+    padding: 1.5rem;
+  }
+}

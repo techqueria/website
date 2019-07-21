@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .has-text-weight-bold;
+  font-family: $font-family-headers;
+}
+
+button,
+input,
+label,
+select,
+span,
+textarea {
+  font-family: $font-family !important;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit !important;
+}
+
+form {
+  label,
+  textarea,
+  input,
+  span,
+  button,
+  pre code {
+    font-family: $font-family !important;
+
+    @media screen and (min-width: $mobile) {
+      font-size: initial !important;
+    }
+  }
+}

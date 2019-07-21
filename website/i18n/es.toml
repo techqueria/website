@@ -1,0 +1,135 @@
+# Español
+
+[techqueria_is]
+other = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes de Latinx profesionales en la industria de la tecnología. 🌮"
+
+[who_we_are]
+other = "Quiénes somos"
+
+[join_us]
+other = "Únete a nosotros y comparte tu experiencia con Techqueria."
+
+[calling_all]
+other = "¡Llamando a todo Latinx en tecnología!"
+
+[join_us_slack]
+other = "Únete a nosotros en Slack!"
+
+[join_us_slack_description]
+other = "Nuestro espacio de trabajo de Slack provee una mejor forma de mantenerse en contacto con otros miembros de Techqueria."
+
+[join_us_slack_button]
+other = "Solicite una invitación!"
+
+[become_sponsor]
+other = "Conviértase en un Patrocinador!"
+
+[become_sponsor_description]
+other = "Siempre estamos buscando nuevos socios y patrocinadores para ayudar a avanzar nuestra misión."
+
+[become_sponsor_button]
+other = "Contáctenos!"
+
+[subscribe_newsletter]
+other = "Suscríbase a nuestra newsletter!"
+
+[subscribe_newsletter_description]
+other = "Recibe nuestras últimas noticias por correo electrónico."
+
+[subscribe_newsletter_button]
+other = "Suscríbase"
+
+[interested_sponsor]
+other = "Interesado en ser un patrocinador?"
+
+[you_can]
+other = "Puede"
+
+[interested_contact_us]
+other = "contactarnos"
+
+[and_we_can]
+other = "y podemos conversar sobre las múltiples maneras en las que podría apoyar a nuestra creciente comunidad de Latinx en tecnología."
+
+[there_is_also]
+other = "También existe la opción de convertirse en un patrocinador activo a través de Patreon o Open Collective."
+
+[subscribe]
+other = "Suscríbase"
+
+[get_updates]
+other = "Reciba actualizaciones sobre Techqueria enviadas directamente a su bandeja de entrada al poner su correo electrónico aquí!"
+
+[feel_free_to]
+other = "Siéntase libre de"
+
+[view_previous]
+other = "ver nuestras campañas de email pasadas"
+
+[get_better_idea]
+other = "para tener una mejor idea de lo que enviamos."
+
+[contribute]
+other = "Contribuya"
+
+[if_youd_like]
+other = "Si le gustaría mejorar esta página o nota algún error, siéntase libre de"
+
+[open_issue]
+other = "abrir un issue en Github"
+
+[any_help]
+other = "Cualquier ayuda se apreciará enormemente."
+
+[powered_by]
+other = "Impulsado por Latinx desde el"
+
+[sitemap]
+other = "Mapa del sitio"
+
+[communities]
+other = "Comunidades"
+
+[not_found]
+other = "Oops, parece que esta página no existe! ☠️"
+
+[go_back]
+other = "Intente regresar al"
+
+[back_home]
+other = "inicio"
+
+[or]
+other = "o"
+
+[contact_us]
+other = "contáctenos"
+
+[to_find_what]
+other = "para ayudarle a encontrar lo que está buscando."
+
+[comment]
+other = "Comenta"
+
+# CTA - Shop
+
+[cta_shop_title]
+other = "Compra Techqueria Merch"
+
+[cta_shop_subtitle]
+other = "Ahora tenemos una tienda oficial de Spreadshirt donde vendemos todo tipo de prendas como camisas, sudaderas, tazas, sombreros, mochilas, etc."
+
+[cta_shop_button]
+other = "Visita nuestra tienda"
+
+## FOOTER ##
+
+# layouts/partials/base/footer/who-we-are.html
+
+[who_we_are_nonprofit]
+other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
+
+# Copyright
+
+[copyright_to]
+other = "a"

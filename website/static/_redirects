@@ -1,0 +1,13 @@
+# Redirect domain aliases to primary domain
+https://beta.techqueria.org/* https://techqueria.org/:splat 301!
+
+# Redirect blog
+http://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
+https://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://techqueria.netlify.com/* https://techqueria.org/:splat 301!
+
+# Redirect random deploy preview
+https://deploy-preview-55--techqueria.netlify.com/* https://techqueria.org/:splat 301!
+https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:splat 301!

@@ -1,0 +1,80 @@
+.navbar {
+  &.has-shadow {
+    @extend %material-shadow;
+  }
+
+  .navbar-burger {
+    height: inherit;
+    width: 3em;
+  }
+
+  .navbar-burger span {
+    height: 2px;
+    width: 20px;
+  }
+
+  .navbar-item {
+    img {
+      max-height: 3em;
+    }
+
+    &.has-dropdown {
+      padding: 0;
+    }
+  }
+
+  .navbar-item,
+  .navbar-link {
+    font-weight: $weight-medium;
+    padding: 0.5rem 1.5rem;
+
+    @media screen and (max-width: $mobile-s) {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+
+  .navbar-item--social {
+    padding: 1rem 2rem;
+  }
+
+  .navbar-link {
+    padding-right: 2.5em;
+  }
+
+  .navbar-dropdown {
+    .navbar-divider {
+      margin: 0;
+    }
+
+    .navbar-item,
+    .navbar-link {
+      @extend .has-text-weight-normal;
+    }
+  }
+
+  @media screen and (max-width: $laptop) {
+
+    .navbar-link::after,
+    .navbar-dropdown {
+      display: none;
+    }
+  }
+
+  .navbar-logo {
+    @media screen and (max-width: $tablet) {
+      padding-right: 0;
+    }
+  }
+
+  .slack-buttons {
+    @media screen and (min-width: $laptop) {
+      margin-left: 2em;
+    }
+  }
+
+  .show-on-larger-size {
+    @media only screen and (max-width: 1439px) and (min-width: 1088px) {
+      display: flex !important
+    }
+  }
+}

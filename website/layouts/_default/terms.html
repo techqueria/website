@@ -1,0 +1,20 @@
+{{ define "main" }}
+<!-- Image -->
+{{ partial "content/hero.html" . }}
+<!-- Content -->
+<section class="section">
+  <div class="container">
+    <ol>
+      {{ $data := .Data }} {{ range $key, $value := .Data.Terms.ByCount }}
+      <li>
+        <p>
+          <a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a> -
+          <b>{{ $value.Count }}</b>
+        </p>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+<!-- End Main -->
+{{ end }}

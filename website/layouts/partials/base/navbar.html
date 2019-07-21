@@ -1,0 +1,114 @@
+{{ $currentPage := . }}
+
+<nav aria-label="main navigation" class="navbar has-shadow is-spaced" role="navigation">
+  <div
+    class="container is-fluid">
+    <!-- Brand -->
+    <div
+      class="navbar-brand">
+      <!-- Logo -->
+      {{ range .Site.Menus.homepage }}
+        <a class="navbar-item navbar-logo" href="{{ .URL | relLangURL }}">
+          <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Name }}">
+        </a>
+      {{ end }}
+      <!-- Left Icons -->
+      <!-- Hidden on Desktop, Mobile Only -->
+      <div class="navbar-item is-hidden-desktop is-hidden-fullhd show-on-larger-size">
+        <div class="buttons">
+          {{ range .Site.Menus.social }}
+            <a class="button is-white" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+              {{ if .Identifier }}
+                <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+              {{ end }}
+            </a>
+          {{ end }}
+          <div class="is-hidden-mobile slack-buttons">
+            {{ range .Site.Menus.slack }}
+              <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+                <span class="icon">
+                  {{ if .Identifier }}
+                    <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+                  {{ end }}
+                </span>
+                <span>
+                  {{ .Name }}
+                </span>
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <!-- Hamburger Menu -->
+      <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <!-- Main Menu -->
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-start">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+                {{ if .Identifier }}
+                  <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+                {{ end }}
+                {{- .Name -}}
+              </a>
+              <div class="navbar-dropdown is-size-7">
+                {{ range .Children }}
+                  <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+                    {{ if .Identifier }}
+                      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+                    {{ end }}
+                    {{ .Name }}
+                  </a>
+                {{ end }}
+              </div>
+            </div>
+          {{ else }}
+            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+              {{- if .Identifier -}}
+                <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+              {{- end -}}
+              {{ .Name }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div
+        class="navbar-end">
+        <!-- Social -->
+        {{ range .Site.Menus.social }}
+          <a class="navbar-item navbar-item--social is-hidden-touch" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+            {{ if .Identifier }}
+              <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+            {{ end }}
+          </a>
+        {{ end }}
+        <!-- Slack -->
+        <div class="navbar-item is-hidden-laptop-xx-large">
+          <div class="field is-grouped">
+            {{ range .Site.Menus.slack }}
+              <p class="control">
+                <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+                  <span class="icon">
+                    {{ if .Identifier }}
+                      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+                    {{ end }}
+                  </span>
+                  <span>
+                    {{ .Name }}
+                  </span>
+                </a>
+              </p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

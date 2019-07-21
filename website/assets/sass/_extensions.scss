@@ -1,0 +1,18 @@
+%material-shadow {
+  box-shadow: 0 0 20px $material-shadow;
+}
+
+%image-shadow {
+  box-shadow: 0 0 20px $image-shadow;
+}
+
+%overflow-text {
+  @extend .has-text-centered;
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: pre-wrap;
+}
