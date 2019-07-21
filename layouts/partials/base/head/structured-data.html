@@ -1,14 +1,40 @@
+<!-- Structured Data -->
+<!-- Set Title Variable -->
+{{ $pageTitle := .Title }}
+{{ if .IsHome }}
+  {{ $pageTitle = (print .Site.Title " | " .Title) }}
+{{ else }}
+  {{ $pageTitle = (print .Title " | " .Site.Title) }}
+{{ end }}
+<!-- Set Description Variable -->
+{{ $pageDescription := .Description | truncate 150 }}
+{{ if .Description }}
+  {{ $pageDescription = .Description | truncate 150 }}
+{{ else if .IsPage }}
+  {{ $pageDescription = .Summary | truncate 150 }}
+{{ else }}
+  {{ $pageDescription = .Site.Params.description | truncate 150 }}
+{{ end }}
+<!-- Set Image Variable -->
+{{ $pageImage := .Params.image }}
+{{ if hasPrefix .Params.image "/assets" }}
+  {{ $pageImage = .Params.image | absURL }}
+{{ else if .Params.image }}
+  {{ $pageImage = .Params.image }}
+{{ else }}
+  {{ $pageImage = .Site.Params.og_image }}
+{{ end }}
 <!-- Homepage -->
 {{ if .IsHome -}}
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context":         "https://schema.org",
     "@type":            "WebSite",
-    "image":            "{{ .Site.Params.og_image }}",
+    "image":            {{ printf "\"%s\"" .Site.Params.og_image | safeJS }},
     "license":          "{{ .Site.Params.copyright }}",
-    "name":             "{{ .Site.Title }}",
-    "thumbnailUrl":     "{{ .Site.Params.logo }}",
-    "url":              "{{ .Site.BaseURL }}",
+    "name":             {{ printf "\"%s\"" .Site.Title | safeJS }},
+    "thumbnailUrl":     {{ printf "\"%s\"" .Site.Params.logo | safeJS }},
+    "url":              {{ printf "\"%s\"" .Permalink | safeJS }},
     {{ with $.Site.Author.name }}
      "author":           {
         "@type":        "Person",
@@ -17,25 +43,25 @@
     {{ end }}
     "mainEntityOfPage": {
         "@type":        "WebPage",
-        "@id":          "{{ .Site.BaseURL }}"
+        "@id":          {{ printf "\"%s\"" .Permalink | safeJS }}
     },
     "potentialAction":  {
         "@type":        "SearchAction",
-        "target":       "{{ .Site.Params.search_url }}",
+        "target":       {{ printf "\"%s\"" .Site.Params.search_url | safeJS }},
         "query-input":  "required name=search_term_string"
     },
     "sameAs":           [
         {{ with .Site.Social.facebook }}"https://www.facebook.com/{{ . }}",{{ end }}
-        {{ with .Site.Social.instagram }}"https://instagram.com/{{ . }}",{{ end }}
+        {{ with .Site.Social.instagram }}"https://www.instagram.com/{{ . }}",{{ end }}
         {{ with .Site.Social.linkedin}}"https://www.linkedin.com/{{ . }}",{{ end }}
-        {{ with .Site.Social.twitter }}"https://twitter.com/{{ . }}",{{ end }}
-        {{ with .Site.Social.youtube }}"https://youtube.com/{{ . }}"{{ end }}
+        {{ with .Site.Social.twitter }}"https://www.twitter.com/{{ . }}",{{ end }}
+        {{ with .Site.Social.youtube }}"https://www.youtube.com/{{ . }}"{{ end }}
     ]
 }
 </script>
-  <!-- Blog Posting -->
+<!-- Blog Posting -->
 {{- else if .IsPage -}}
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context":          "http://schema.org",
     "@type":             "BlogPosting",
@@ -51,40 +77,37 @@
     "articleSection":    "{{ .Section }}",
     "copyrightYear":     "{{ .Date.Format "2006" }}",
     "genre":             "{{ .Type }}",
-    "headline":          "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}",
+    "headline":          {{ printf "\"%s\"" $pageTitle | safeJS }},
     "inLanguage":        "en-US",
     "license":           "{{ .Site.Params.copyright }}",
-    "name":              "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}",
-    "url":               "{{ .Permalink }}",
+    "name":              {{ printf "\"%s\"" $pageTitle | safeJS }},
+    "url":               {{ printf "\"%s\"" .Permalink | safeJS }},
     "wordcount":         {{ .WordCount }},
-    "description":       "{{ if .Description }}{{ .Description | truncate 150 }}{{ else if .IsPage }}{{ .Summary | truncate 150 }}{{ else }}{{ .Site.Params.Description | truncate 150 }}{{ end }}",
+    "description":       {{ printf "\"%s\"" $pageDescription | safeJS }},
     "mainEntityOfPage":  {
         "@type":         "WebPage",
-        "@id":           "{{ .Permalink }}"
+        "@id":           {{ printf "\"%s\"" .Permalink | safeJS }}
     },
     "image":             [
-        "{{ if hasPrefix .Params.image "/assets" }}{{ .Params.image | absURL }}{{ else if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.og_image }}{{ end }}"
+      {{ printf "\"%s\"" $pageImage | safeJS }}
     ],
     "publisher":         {
         "@type":         "Organization",
-        "name":          "{{ .Site.Title }}",
+        "name":          {{ printf "\"%s\"" .Site.Title | safeJS }},
         "logo":          {
           "@type":       "ImageObject",
-          "url":         "{{ .Site.BaseURL }}{{ .Site.Params.logo }}"
+          "url":         {{ printf "\"%s\"" .Site.Params.logo | safeJS }}
         }
     },
     {{ if or (.Params.categories) (.Params.tags) -}}
     "keywords":          [
-      {{ if .Params.categories }}{{ delimit .Params.categories " , " }}{{ end }}
-      {{ if .Params.tags }}{{ delimit .Params.tags " , " }}{{ end }}
+      {{- if .Params.categories -}}{{ range .Params.categories }}"{{ . }}",{{- end -}}{{- end -}}
+      {{- if .Params.tags -}}{{ range .Params.tags }}"{{ . }}",{{- end -}}{{ end -}}
       "blog post"
     ],
     {{- end }}
-    {{ if not .PublishDate.IsZero -}}
-    "datePublished":     "{{ .PublishDate.Format "2006-01-02" | safeHTML }}",
-    {{- else if not .Date.IsZero -}}
-    "datePublished":     "{{ .Date.Format "2006-01-02" | safeHTML }}",
-    {{- end }}
+    "datePublished":     "{{ .Date.Format "2006-01-02" }}",
+    "dateModified" :     "{{ .Lastmod.Format "2006-01-02" }}"
 }
 </script>
 {{- end }}
@@ -93,11 +116,11 @@
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 {{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
 {{ range $index, $element := split $url "/" }}
-  {{ $.Scratch.Add "path" $element }}
-  {{ $.Scratch.Add "path" "/" }}
-  {{ if ne $element "" }}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
-  {{ end }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
 {{ end }}
 <script type="application/ld+json">
 {
@@ -107,7 +130,7 @@
         "@type":     "ListItem",
         "position":  {{ .position }},
         "item":      {
-          "@id":     "{{ .url }}",
+          "@id":     {{ printf "\"%s\"" .url | safeJS }},
           "name":    "{{ .name }}"
         }
     }{{ end }}]

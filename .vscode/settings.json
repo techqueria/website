@@ -1,14 +1,21 @@
 {
+  "cSpell.enabled": false,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "eslint.autoFixOnSave": true,
   "files.trimTrailingWhitespace": true,
-  "markdown.extension.preview.autoShowPreviewToSide": false,
   "markdown.preview.fontFamily": "BlinkMacSystemFont,-apple-system,Roboto,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif",
   "markdownlint.run": "onSave",
   "prettier.eslintIntegration": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.statusBar.feedback.visible": false,
+  "files.associations": {
+    "*.html": "liquid"
+  }
 }

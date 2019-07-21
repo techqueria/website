@@ -1,3 +1,4 @@
+# Core
 baseURL                              = "https://techqueria.org/"
 buildFuture                          = true
 copyright                            = "This work is licensed under MIT."
@@ -6,11 +7,26 @@ enableRobotsTXT                      = true
 footnoteReturnLinkContents           = "↩"
 metaDataFormat                       = "yaml"
 title                                = "Techqueria"
+publishDir                           = "dist"
 
 # Language
 languageCode                         = "en-US"
-defaultContentLanguage               = "en"
+DefaultContentLanguage               = "en"
 enableMissingTranslationPlaceholders = true
+
+# English then Español
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/english"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    contentDir = "content/espanol"
+    weight = 2
+    [languages.es.params]
+      description                    = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
+      og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
 preserveTaxonomyNames                = false
@@ -24,11 +40,12 @@ pygmentsStyle                        = "manni"
 googleAnalytics                      = "UA-88917358-1"
 disqusShortname                      = "techqueria"
 
-# RSS
+# Output Formats
 [outputs]
     home                             = ["HTML", "AMP", "RSS"]
     page                             = ["HTML", "AMP"]
 
+# RSS
 [outputFormats]
     [outputFormats.RSS]
         mediatype                    = "application/rss"
@@ -36,13 +53,14 @@ disqusShortname                      = "techqueria"
 
 # SEO
 [params]
-    description                      = "Techqueria is one of the largest communities for Latinx professionals in the tech industry. 🌮"
-    copyright                        = "Techqueria.org"
+    description                      = "Techqueria is a nonprofit representing the largest community for Latinx in Tech."
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
     locale                           = "en_US"
     default_content_language         = "en"
+    google_site_verification         = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
+    # pinterest_domain_verification    =
 
 # Social Links
 [social]
@@ -60,43 +78,19 @@ disqusShortname                      = "techqueria"
   testimonials                       = "/testimonials/:year/:month/:day/:title/"
   press                              = "/press/:year/:month/:day/:title/"
 
+# Author
 [author]
     name                             = "Techqueria"
     copyright                        = "©️ Techqueria.org"
 
-[[menu.social]]
-    name                             = "LinkedIn"
-    url                              = "https://www.linkedin.com/company/techqueria/"
-    identifier                       = "fab fa-lg fa-linkedin"
-
-[[menu.social]]
-    name                             = "Twitter"
-    url                              = "https://twitter.com/Techqueria"
-    identifier                       = "fab fa-lg fa-twitter"
+# Menu
 
 # Homepage
-# 1. About
-# 2. Blog
-# 3. Code of Conduct
-# 4. Communities
-# 5. Contact
-# 6. Events
-# 7. People
-# 8. Press
-# 9. Resources
-# 10. Sponsors
-# 11. Stock Photos
-# 12. Supporters
-# 13. Testimonials
+[[menu.homepage]]
+    name                             = "Latinx in Tech"
+    url                              = "/"
 
-# Menu
-# 1. About
-# 2. Communities
-# 3. Contact
-# 4. Events
-# 5. Resources
-# 6. Sponsors
-
+# About
 [[menu.main]]
     name                             = "About"
     url                              = "/about/"
@@ -107,27 +101,29 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Brand"
-    url                              = "/about/brand/"
+    url                              = "/brand/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Code of Conduct"
-    url                              = "/code-of-conduct/"
+    name                             = "Contact"
+    url                              = "/contact/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "People"
-    url                              = "/people/"
+    name                             = "Events"
+    url                              = "/events/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Press️"
     url                              = "/press/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Stock Photos"
-    url                              = "/photos/"
+    name                             = "Team"
+    url                              = "/team/"
 [[menu.main]]
     parent                           = "About"
-    name                             = "Testimonials"
-    url                              = "/testimonials/"
+    name                             = "Shop"
+    url                              = "/shop/"
+
+# Communities
 [[menu.main]]
     name                             = "Communities"
     url                              = "/communities/"
@@ -169,37 +165,35 @@ disqusShortname                      = "techqueria"
     url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
 [[menu.main]]
     parent                           = "Communities"
-    name                             = "Open Collective"
-    url                              = "https://opencollective.com/techqueria/"
-[[menu.main]]
-    parent                           = "Communities"
-    name                             = "Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
-[[menu.main]]
-    parent                           = "Communities"
     name                             = "Slack Workspace"
     url                              = "/communities/slack/"
+[[menu.main]]
+    parent                           = "Communities"
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
 [[menu.main]]
     parent                           = "Communities"
     name                             = "YouTube Channel"
     url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
+# Donate
 [[menu.main]]
-    name                             = "Contact"
-    url                              = "/contact/"
+    name                             = "Donate"
+    url                              = "/donate/"
+[[menu.main]]
+    parent                           = "Donate"
+    name                             = "Contribute on Open Collective"
+    url                              = "https://opencollective.com/techqueria/"
+[[menu.main]]
+    parent                           = "Donate"
+    name                             = "Contribute on Patreon"
+    url                              = "https://www.patreon.com/techqueria/"
+[[menu.main]]
+    parent                           = "Donate"
+    name                             = "Our Patreon Supporters"
+    url                              = "/donate/patreon-supporters/"
 
-[[menu.main]]
-    name                             = "Events"
-    url                              = "/events/"
-
-[[menu.main]]
-    name                             = "Sponsors"
-    url                              = "/sponsors/"
-[[menu.main]]
-    parent                           = "Sponsors"
-    name                             = "Patreon Supporters"
-    url                              = "/sponsors/patreon-supporters/"
-
+# Resources
 [[menu.main]]
     name                             = "Resources"
     url                              = "/resources/"
@@ -207,6 +201,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Resources"
     name                             = "Career Growth"
     url                              = "/resources/career/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Conferences"
+    url                              = "/resources/conferences/"
 [[menu.main]]
     parent                           = "Resources"
     name                             = "Design"
@@ -233,6 +231,10 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/legal/"
 [[menu.main]]
     parent                           = "Resources"
+    name                             = "Nonprofits"
+    url                              = "/resources/nonprofits/"
+[[menu.main]]
+    parent                           = "Resources"
     name                             = "Open Source"
     url                              = "/resources/open-source/"
 [[menu.main]]
@@ -241,30 +243,108 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/podcasts/"
 [[menu.main]]
     parent                           = "Resources"
-    name                             = "Nonprofits"
-    url                              = "/resources/nonprofits/"
-[[menu.main]]
-    parent                           = "Resources"
-    name                             = "Conferences"
-    url                              = "/resources/conferences/"
-[[menu.main]]
-    parent                           = "Resources"
     name                             = "Similar Organizations"
     url                              = "/resources/similar-organizations/"
-#
-# Supporting Multiple Languages
-#
-[languages]
-[languages.en]
-  weight                             = 1
-  languageName                       = "English"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Students"
+    url                              = "/resources/students/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Travel"
+    url                              = "/resources/travel/"
+[[menu.main]]
+    parent                           = "Resources"
+    name                             = "Writing"
+    url                              = "/resources/writing/"
 
-[languages.es]
-  weight                             = 2
-  languageName                       = "Español"
-  [languages.es.params]
-    description                      = "Somos una comunidad de profesionales de Latinx en la industria de la tecnología. 🌮️ Este espacio pretende ser inclusivo, por lo que invitamos a Latinx desde las regiones del Caribe, Haití y Brasil, así como a aquellos que se identifican como Afro-Latinx o LGBTQ. El término Latinx se usa en lugar de Latino porque es un término neutral e inclusivo."
+# Support Us
+[[menu.main]]
+    name                             = "Support Us"
+    url                              = "/support-us/"
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Become a Volunteer"
+    url                              = "/volunteer/"
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Donate Space"
+    url                              = "/donate-space/"
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Our Supporters"
+    url                              = "/supporters/"
 
+# Social Menu
+[[menu.social]]
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+[[menu.social]]
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
+
+# Slack Menu
+[[menu.slack]]
+    name                             = "Join our Slack"
+    url                              = "https://goo.gl/forms/VRARl4qkkLj3BJLl1"
+    identifier                       = "fab fa-lg fa-slack"
+[[menu.slack]]
+    name                             = "Login to Slack"
+    url                              = "https://techqueria.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"
+
+# Sitemap
+# Should always be 9 items
+[[menu.sitemap]]
+  name = "About"
+  url = "/about/"
+[[menu.sitemap]]
+  name = "Blog"
+  url = "/blog/"
+[[menu.sitemap]]
+  name = "Code of Conduct"
+  url = "/code-of-conduct/"
+[[menu.sitemap]]
+  name = "Communities"
+  url = "/communities/"
+[[menu.sitemap]]
+  name = "Contact"
+  url = "/contact/"
+[[menu.sitemap]]
+  name = "Donate"
+  url = "/donate/"
+[[menu.sitemap]]
+  name = "Events"
+  url = "/events/"
+[[menu.sitemap]]
+  name = "Meetup Events"
+  url = "/events/meetup"
+[[menu.sitemap]]
+  name = "Press"
+  url = "/press/"
+[[menu.sitemap]]
+  name = "Resources"
+  url = "/resources/"
+[[menu.sitemap]]
+  name = "Shop"
+  url = "/shop/"
+[[menu.sitemap]]
+  name = "Support Us"
+  url = "/support-us/"
+[[menu.sitemap]]
+  name = "Team"
+  url = "/team/"
+
+# Menu - Español
+
+# Homepage
+[[languages.es.menu.homepage]]
+    name                             = "Latinx en Tecnología"
+    url                              = "/"
+
+# About
 [[languages.es.menu.main]]
     name                             = "Sobre nosotros"
     url                              = "/about/"
@@ -278,40 +358,37 @@ disqusShortname                      = "techqueria"
     url                              = "/about/brand/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Código de Conducta"
-    url                              = "/code-of-conduct/"
+    name                             = "Contacto"
+    url                              = "/about/contact/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Gente"
-    url                              = "/people/"
+    name                             = "Eventos"
+    url                              = "/events/"
+[[languages.es.menu.main]]
+    parent                           = "Sobre nosotros"
+    name                             = "Equipo"
+    url                              = "/team/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
     name                             = "Prensa"
-    url                              = "/press/"
+    url                              = "/about/press/"
 [[languages.es.menu.main]]
     parent                           = "Sobre nosotros"
-    name                             = "Fotografías de Archivo"
-    url                              = "/stock-photos/"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Testimonios"
-    url                              = "/testimonials/"
+    name                             = "Tienda"
+    url                              = "/about/shop/"
 
+# Communities
 [[languages.es.menu.main]]
     name                             = "Comunidades"
     url                              = "/communities/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Sede - Área de la Bahía"
-    url                              = "/communities/bay-area/"
+    name                             = "Capítulos de la Ciudad"
+    url                              = "/communities/chapters/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Sede - Los Ángeles"
-    url                              = "/communities/los-angeles/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Sede - Nueva York"
-    url                              = "/communities/new-york-city/"
+    name                             = "Eventbrite"
+    url                              = "https://techqueria.eventbrite.com"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
     name                             = "Grupo de Facebook"
@@ -330,33 +407,47 @@ disqusShortname                      = "techqueria"
     url                              = "https://www.linkedin.com/groups/13500636"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
+    name                             = "Página de LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
     name                             = "Grupo de Meetup"
     url                              = "https://www.meetup.com/techqueria/"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Newsletter"
+    name                             = "Boletín electrónico"
     url                              = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
-    name                             = "Slack Workspace"
+    name                             = "Espacio de trabajo en Slack"
     url                              = "/communities/slack/"
+[[languages.es.menu.main]]
+    parent                           = "Comunidades"
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
     name                             = "Canal de YouTube"
     url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
+# Donate
 [[languages.es.menu.main]]
-    name                             = "Contacto"
-    url                              = "/contact/"
-
+    name                             = "Donar"
+    url                              = "/donate/"
 [[languages.es.menu.main]]
-    name                             = "Eventos"
-    url                              = "/events/"
-
+    parent                           = "Donar"
+    name                             = "Contribuir en Open Collective"
+    url                              = "https://opencollective.com/techqueria/"
 [[languages.es.menu.main]]
-    name                             = "Patrocinadores"
-    url                              = "/sponsors/"
+    parent                           = "Donar"
+    name                             = "Contribuir en Patreon"
+    url                              = "https://www.patreon.com/techqueria/"
+[[languages.es.menu.main]]
+    parent                           = "Donar"
+    name                             = "Nuestros Partidarios de Patreon"
+    url                              = "/donate/patreon-supporters/"
 
+# Resources
 [[languages.es.menu.main]]
     name                             = "Recursos"
     url                              = "/resources/"
@@ -364,6 +455,10 @@ disqusShortname                      = "techqueria"
     parent                           = "Recursos"
     name                             = "Desarrollo Profesional"
     url                              = "/resources/career/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Conferencias"
+    url                              = "/resources/conferences/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Diseño"
@@ -378,6 +473,10 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/health/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
+    name                             = "Alojamiento"
+    url                              = "/resources/housing/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
     name                             = "Inmigración"
     url                              = "/resources/immigration/"
 [[languages.es.menu.main]]
@@ -386,9 +485,105 @@ disqusShortname                      = "techqueria"
     url                              = "/resources/legal/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
-    name                             = "Open Source"
+    name                             = "Sin fines de lucro"
+    url                              = "/resources/nonprofits/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Código abierto"
     url                              = "/resources/open-source/"
 [[languages.es.menu.main]]
     parent                           = "Recursos"
     name                             = "Podcasts"
     url                              = "/resources/podcasts/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Organizaciones similares"
+    url                              = "/resources/similar-organizations/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Viaje"
+    url                              = "/resources/travel/"
+[[languages.es.menu.main]]
+    parent                           = "Recursos"
+    name                             = "Escritura"
+    url                              = "/resources/writing/"
+
+[[languages.es.menu.main]]
+    name                             = "Apoyanos"
+    url                              = "/support-us/"
+[[languages.es.menu.main]]
+    parent                           = "Apoyanos"
+    name                             = "Hazte Voluntario"
+    url                              = "/support-us/volunteer/"
+[[languages.es.menu.main]]
+    parent                           = "Apoyanos"
+    name                             = "Donar Espacio"
+    url                              = "/support-us/donate-space/"
+[[languages.es.menu.main]]
+    parent                           = "Apoyanos"
+    name                             = "Nuestros Partidarios"
+    url                              = "/support-us/supporters/"
+
+[[languages.es.menu.social]]
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+
+[[languages.es.menu.social]]
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
+
+# Slack Menu
+
+[[languages.es.menu.slack]]
+    name                             = "Únete a nuestro Slack"
+    url                              = "https://goo.gl/forms/VRARl4qkkLj3BJLl1"
+    identifier                       = "fab fa-lg fa-slack"
+
+[[languages.es.menu.slack]]
+    name                             = "Iniciar sesión en Slack"
+    url                              = "https://techqueria.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"
+
+# Sitemap
+
+[[languages.es.menu.sitemap]]
+  name = "Sobre nosotros"
+  url = "/about/"
+[[languages.es.menu.sitemap]]
+  name = "Blog"
+  url = "/blog/"
+[[languages.es.menu.sitemap]]
+  name = "Código de Conducta"
+  url = "/about/code-of-conduct/"
+[[languages.es.menu.sitemap]]
+  name = "Comunidades"
+  url = "/communities/"
+[[languages.es.menu.sitemap]]
+  name = "Contacto"
+  url = "/about/contact/"
+[[languages.es.menu.sitemap]]
+  name = "Donar"
+  url = "/donate/"
+[[languages.es.menu.sitemap]]
+  name = "Eventos"
+  url = "/events/"
+[[languages.es.menu.sitemap]]
+  name = "Eventos de Meetup"
+  url = "/events/meetup"
+[[languages.es.menu.sitemap]]
+  name = "Prensa"
+  url = "/about/press/"
+[[languages.es.menu.sitemap]]
+  name = "Recursos"
+  url = "/resources/"
+[[languages.es.menu.sitemap]]
+  name = "Tienda"
+  url = "/about/shop/"
+[[languages.es.menu.sitemap]]
+  name = "Apoyanos"
+  url = "/support-us/"
+[[languages.es.menu.sitemap]]
+  name = "Equipo"
+  url = "/team/"

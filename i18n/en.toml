@@ -1,6 +1,6 @@
 # English
 [techqueria_is]
-other = "We're one of the largest communities for Latinx professionals in the tech industry. 🌮"
+other = "Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮"
 
 [who_we_are]
 other = "Who We Are"
@@ -21,19 +21,13 @@ other = "Our Slack workspace provides a more engaged way to stay in touch with f
 other = "Request an invite"
 
 [become_sponsor]
-other = "Become a Sponsor"
+other = "Support Us"
 
-[become_sponsor_description1]
-other = "We're always looking for new"
-
-[become_sponsor_description2]
-other = "partners and sponsors"
-
-[become_sponsor_description3]
-other = "to help move our mission forward."
+[become_sponsor_description]
+other = "We're always looking for new partners, sponsors, volunteers and donors to help move our mission forward."
 
 [become_sponsor_button]
-other = "Contact us"
+other = "Learn more"
 
 [subscribe_newsletter]
 other = "Subscribe to our newsletter"
@@ -48,16 +42,16 @@ other = "Subscribe"
 other = "Interested in becoming a sponsor?"
 
 [you_can]
-other = "You can"
+other = "Feel free to"
 
 [interested_contact_us]
 other = "contact us"
 
 [and_we_can]
-other = "and we can talk about the different ways you can support our growing community of Latinx in Tech."
+other = "and we can talk more about how you can support our growing community of Latinx in Tech."
 
 [there_is_also]
-other = "There's also the option of by becoming an ongoing patron via Patreon or Open Collective."
+other = "You can also become an on-going patron or make a one-time donation."
 
 [subscribe]
 other = "Subscribe"
@@ -115,3 +109,24 @@ other = "to find what you're looking for."
 
 [comment]
 other = "Comment"
+
+# CTA - Shop
+
+[cta_shop_title]
+other = "Buy Techqueria Merch"
+
+[cta_shop_subtitle]
+other = "We now have an offical Spreadshirt store where we sell all kinds of swag like shirts, hoodies, mugs, hats, backpacks, etc."
+
+[cta_shop_button]
+other = "Visit our store"
+
+# layouts/partials/base/footer/who-we-are.html
+
+[who_we_are_nonprofit]
+other = "Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx professionals in the tech industry."
+
+# Copyright
+
+[copyright_to]
+other = "to"

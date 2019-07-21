@@ -6,7 +6,7 @@
 
 [![Open Source Helpers](https://www.codetriage.com/techqueria/website/badges/users.svg)](https://www.codetriage.com/techqueria/website) [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
 
-[![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-latinos.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
+[![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-techqueria.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/729d8cea-4059-4116-b695-16dc88c9a76d/deploy-status)](https://app.netlify.com/sites/techqueria/deploys)
 
@@ -14,7 +14,7 @@
 
 [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
-[Techqueria](http://techqueria.org/) is a nonprofit representing one of the largest communities for Latinx professionals in the tech industry. 🌮
+[Techqueria](http://techqueria.org/) is a nonprofit representing the largest community for Latinx in Tech. 🌮
 
 This repo is where we host our open-source website and soon to be member hub.
 
@@ -22,9 +22,9 @@ This repo is where we host our open-source website and soon to be member hub.
 
 > To get started...
 
-1.  🍴 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository
-2.  🔨 View our [contributing guidelines](.github/CONTRIBUTING.md)
-3.  🎉 [Open a new pull request](https://github.com/techqueria/website/compare) and get it approved!
+1. 🍴 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository
+2. 🔨 View our [contributing guidelines](.github/CONTRIBUTING.md)
+3. 🎉 [Open a new pull request](https://github.com/techqueria/website/compare) and get it approved!
 
 You can even [report a bug or request a feature](https://github.com/techqueria/website/issues/new/choose) - any little bit of help counts! 😊
 
@@ -62,12 +62,18 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Enrique Novoa](https://github.com/enriquenov)
 - [Konrad Gladala](https://github.com/KonradGladala)
 - [Terrence Eisenhower](https://github.com/teisenhower)
+- [Bethany Meier](https://github.com/whimsicurl-creations)
 - [Juan Soto](http://www.jstechstack.com/)
+- [Ania Nakayama](https://github.com/Ania-chan)
+- [Omar De Los Santos](https://github.com/omarnyte)
+- [Nathan Toms](https://github.com/nathantomsfairsailcom)
+- [Nicolas Botello](https://github.com/bote795)
+- [Yerania Hernandez](https://github.com/hyerania)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
-<a href="https://opencollective.com/techqueria#backers" target="_blank"><img src="https://opencollective.com/techqueria/backers.svg?width=890"></a>
+<a href="https://opencollective.com/techqueria#backers" target="_blank" rel="noopener"><img alt="Open Collective - Backers" src="https://opencollective.com/techqueria/backers.svg?width=890"></a>
 
 ### **Support this project by becoming a sponsor.** Your logo will show up here with a link to your website. ([Become a sponsor](https://opencollective.com/techqueria#sponsor))
 
-<a href="https://opencollective.com/techqueria#sponsor" target="_blank"><img src="https://opencollective.com/techqueria/sponsors.svg?width=890"></a>
+<a href="https://opencollective.com/techqueria#sponsor" target="_blank" rel="noopener"><img alt="Open Collective - Sponsors" src="https://opencollective.com/techqueria/sponsors.svg?width=890"></a>
