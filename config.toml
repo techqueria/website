@@ -279,7 +279,7 @@ disqusShortname                      = "techqueria"
 [[menu.social]]
     name                             = "LinkedIn"
     url                              = "https://www.linkedin.com/company/techqueria/"
-    identifier                       = "fab fa-lg fa-linkedin"
+    identifier                       = "fab fa-lg fa-linkedin-in"
 [[menu.social]]
     name                             = "Twitter"
     url                              = "https://twitter.com/Techqueria"
