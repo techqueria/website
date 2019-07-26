@@ -28,21 +28,21 @@ aliases:
 
 ### Slogans
 
-"We're the largest community for Latinx in Tech."
+We're the largest community for Latinx in Tech.
 
-"Techqueria is a nonprofit representing the largest community for Latinx in Tech."
+Techqueria is a nonprofit serving the largest community for Latinx in Tech.
 
-""Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx in Tech."
+Techqueria is a 501(c)(3) nonprofit serving the largest community for Latinx in Tech.
 
-"Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx professionals in the tech industry."
+Techqueria is a 501(c)(3) nonprofit serving the largest community for Latinx professionals in the tech industry.
 
 ### Meta Description
 
-Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮
+Techqueria is a nonprofit serving the largest community for Latinx in Tech. 🌮
 
 ### Standard Description
 
-Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮
+Techqueria is a nonprofit serving the largest community for Latinx in Tech. 🌮
 
 We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source.
 
@@ -52,7 +52,7 @@ https://techqueria.org
 
 ### Long Description
 
-Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮
+Techqueria is a nonprofit serving the largest community for Latinx in Tech. 🌮
 
 We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source. We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 

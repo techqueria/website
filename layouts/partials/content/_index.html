@@ -1,18 +1,17 @@
 <!-- Content -->
 {{ if or (.Content) (.Params.image) }}
-  <div
-    class="content">
-    <!-- Hero Image -->
-    {{ if and (.Params.image) (not .Params.hideImage) }}
-      <div class="has-text-centered mb-1">
-        <img class="image hero lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
-      </div>
-    {{ end }}
-    <!-- Content -->
-    {{ if .Content }}
-      <div class="mt-2 mb-2">
-        {{ .Content }}
-      </div>
-    {{ end }}
+<div class="content">
+  <!-- Hero Image -->
+  {{ if and (.Params.image) (not .Params.hideImage) }}
+  <div class="has-text-centered mb-1">
+    <img class="image hero lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
   </div>
+  {{ end }}
+  <!-- Content -->
+  {{ if .Content }}
+  <div class="mt-2 mb-2">
+    {{ partial "content/content.html" . }}
+  </div>
+  {{ end }}
+</div>
 {{ end }}

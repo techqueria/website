@@ -1,0 +1,14 @@
+.anchor-link {
+  font-size: 75%;
+  visibility: hidden;
+  color: $border;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+}

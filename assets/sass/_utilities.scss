@@ -52,6 +52,10 @@
   }
 }
 
+.u-box-shadow--none {
+  box-shadow: none !important;
+}
+
 .u-background--default {
   background-color: $techqueria;
 }

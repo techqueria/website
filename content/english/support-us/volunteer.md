@@ -21,7 +21,7 @@ Fill out the form below and we'll reach out via Slack with more details on you c
   <div class="field">
     <label class="label">Name*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your name" required>
+      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name" required>
       <span class="icon is-left">
         ✒️
       </span>
@@ -37,21 +37,41 @@ Fill out the form below and we'll reach out via Slack with more details on you c
     </div>
   </div>
   <div class="field">
-    <label class="label">LinkedIn Profile URL*</label>
+    <label class="label">Email (the one you used to sign up for our Slack)*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="LinkedIn Profile URL" autocomplete="on" type="url" name="linkedin" placeholder="https://www.linkedin.com/in/" required>
+      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
-        💼
+        ✉️
       </span>
     </div>
   </div>
   <div class="field">
     <label class="label">What chapter are you interested in volunteering for?*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Location" autocomplete="on" type="text" name="location" placeholder="San Francisco, CA" required>
-      <span class="icon is-left">
-        📍
-      </span>
+    <div class="control">
+      <label class="radio">
+        <input type="radio" name="interested-location" value="San Franciso, CA">
+        San Franciso, CA
+      </label>
+      <label class="radio">
+        <input type="radio" name="interested-location" value="Los Angeles, CA">
+        Los Angeles, CA
+      </label>
+      <label class="radio">
+        <input type="radio" name="interested-location" value="New York City, NY">
+        New York City, NY
+      </label>
+      <label class="radio">
+        <input type="radio" name="interested-location" value="Austin, TX">
+        Austin, TX
+      </label>
+      <label class="radio">
+        <input type="radio" name="interested-location" value="Chicago, IL">
+        Chicago, IL
+      </label>
+      <label class="radio">
+        <input type="radio" name="interested-location" value="Any chapter!">
+        Any chapter!
+      </label>
     </div>
   </div>
   <div class="field">

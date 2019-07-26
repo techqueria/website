@@ -7,3 +7,8 @@
 {{ partial "content/footer/subscribe.html" . }}
 <!-- Contribute -->
 {{ partial "content/footer/contribute.html" . }}
+<!-- Authors -->
+{{ if .Params.authors }}
+<h2>About the {{ cond (eq (len .Params.authors) 1) "author" "authors" }}</h2>
+    {{ .Render "author-figure" }}
+{{ end }}

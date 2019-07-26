@@ -280,7 +280,7 @@ Make sure to always turn comments on and add or reference a person as the author
 title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
 comments: true
 date: 2016-07-19
-people:
+authors:
   - CJ Joulain
 ---
 ```

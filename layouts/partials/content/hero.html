@@ -19,7 +19,9 @@
       <!-- More Info -->
       {{ partial "content/info.html" . }}
       <!-- Author -->
-      {{ partial "custom/person.html" . }}
+      {{ if .Params.authors }}
+      {{ .Render "author-link" }}
+      {{ end }}
       <!-- Links -->
       {{ partial "content/links.html" . }}
     </div>
