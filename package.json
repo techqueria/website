@@ -45,7 +45,7 @@
     "lozad": "1.9.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "3.0.0",
-    "webpack": "4.36.1",
+    "webpack": "4.38.0",
     "workbox-webpack-plugin": "4.3.1",
     "snyk": "^1.192.3"
   },
