@@ -1,7 +1,6 @@
 ---
 title: Team
 description: "Techqueria is an all-volunteer organization that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors."
-layout: "team"
 sortByLocation: true
 aliases:
   - /team/

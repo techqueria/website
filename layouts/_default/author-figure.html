@@ -1,6 +1,3 @@
 {{- range .Params.authors }}
-  {{ $authorPath := printf "authors/%s" (urlize .) }}
-  {{- with $.Site.GetPage "taxonomyTerm" $authorPath }}
-    {{ partial "author-figure" . }}
-  {{ end }}
+  {{ . }}
 {{ end }}

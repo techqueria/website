@@ -32,9 +32,9 @@ enableMissingTranslationPlaceholders = true
 preserveTaxonomyNames                = false
 
 [taxonomies]
-  author = "authors"
-  tag = "tags"
-  category = "categories"
+  author                             = "team"
+  tag                                = "tags"
+  category                           = "categories"
 
 # Code
 pygmentsCodefences                   = true

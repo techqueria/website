@@ -18,10 +18,6 @@
       </p>
       <!-- More Info -->
       {{ partial "content/info.html" . }}
-      <!-- Author -->
-      {{ if .Params.authors }}
-      {{ .Render "author-link" }}
-      {{ end }}
       <!-- Links -->
       {{ partial "content/links.html" . }}
     </div>
