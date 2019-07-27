@@ -1,6 +1,12 @@
 {{ define "main" }}
   <!-- Variables -->
-  {{ $eventbriteEvents := (getJSON "http://localhost:9000/eventbrite") }}
+  {{ $url := ""}}
+  {{ if .Site.Params.isRelease }}
+    {{ $url =  "/.netlify/functions/"}}
+  {{else}}
+    {{ $url = "http://localhost:9000/eventbrite" }}
+  {{end}}
+  {{ $eventbriteEvents := (getJSON $url) }}
   {{ $pastEventsEventbrite := $eventbriteEvents.completed.events }}
   {{ $upcomingEventsEventbrite := $eventbriteEvents.live.events }}
   <!-- Hero -->
