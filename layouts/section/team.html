@@ -1,6 +1,24 @@
 {{ define "main" }}
 <!-- Pages -->
 {{ $pages := (.Sections | union .Pages) }}
+<!-- Team Members -->
+<!-- Optimize this lol -->
+{{ $abi_munoz := $.Site.GetPage "/team/abi-munoz" }}
+{{ $andrea_cardona := $.Site.GetPage "/team/andrea-cardona" }}
+{{ $cj_joulain := $.Site.GetPage "/team/cj-joulain" }}
+{{ $dalia_icedo := $.Site.GetPage "/team/dalia-icedo" }}
+{{ $david_silva := $.Site.GetPage "/team/david-silva" }}
+{{ $esteban_uribe := $.Site.GetPage "/team/esteban-uribe" }}
+{{ $felipe_ventura := $.Site.GetPage "/team/felipe-ventura" }}
+{{ $frances_coronel := $.Site.GetPage "/team/frances-coronel" }}
+{{ $francisco_gutierrez := $.Site.GetPage "/team/francisco-gutierrez" }}
+{{ $hector_carmona := $.Site.GetPage "/team/hector-carmona" }}
+{{ $josue_bustos := $.Site.GetPage "/team/josue-bustos" }}
+{{ $kevin_hernandez := $.Site.GetPage "/team/kevin-hernandez" }}
+{{ $kimberly_munoz := $.Site.GetPage "/team/kimberly-munoz" }}
+{{ $maritza_alas := $.Site.GetPage "/team/maritza-alas" }}
+{{ $rubi_sanchez := $.Site.GetPage "/team/rubi-sanchez" }}
+{{ $shashi_jain := $.Site.GetPage "/team/shashi-jain" }}
 <!-- Hero -->
 {{ partial "content/hero.html" . }}
 <!-- Page -->
@@ -10,13 +28,39 @@
     {{ partial "custom/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
-    <!-- Children -->
+    <!-- Executive Team -->
+    <div class="content">
+      <h2>Executive Team</h2>
+    </div>
     <div class="columns is-multiline">
-      {{ range $pages }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-      <!-- Content Footer -->
+      {{ partial "content/child.html" $felipe_ventura }}
+      {{ partial "content/child.html" $frances_coronel }}
+    </div>
+    <!-- Board of Directors -->
+    <div class="content">
+      <h2>Board of Directors</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" $frances_coronel }}
+    </div>
+    <!-- Active Volunteers -->
+    <div class="content">
+      <h2>Active Volunteers</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" $frances_coronel }}
+    </div>
+    <!-- Past Team Members -->
+    <div class="content">
+      <h2>Past Team Members</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" $abi_munoz }}
+    </div>
+    <!-- Content Footer -->
+    <div class="content">
       {{ partial "content/footer/_index.html" . }}
     </div>
+  </div>
 </section>
 {{ end }}

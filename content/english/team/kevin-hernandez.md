@@ -1,11 +1,8 @@
 ---
 title: Kevin Hernandez
-image: "/assets/img/people/kevin-hernandez.jpeg"
+image: "/assets/img/team/kevin-hernandez.jpeg"
 description: UI Developer at WalmartLabs
-link: https://www.linkedin.com/in/kevdez
-location: Bay Area
-weight: 7
-role: Past Board Member, Past Organizer
+linkedin: kevdez
 categories:
   - bay-area
   - past-board-member

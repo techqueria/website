@@ -1,8 +1,8 @@
 ---
 title: Hector Carmona
-image: "/assets/img/people/hector-carmona.jpeg"
+image: "/assets/img/team/hector-carmona.jpeg"
 description: Software Engineer at Google
-link: https://www.linkedin.com/in/hectoroddincarmona/
+linkedin: hectoroddincarmona/
 location: Los Angeles
 role: Past Organizer
 categories:

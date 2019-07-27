@@ -2,6 +2,7 @@
 title: "Techqueria LA: Civic Technology"
 date: 2017-05-19
 comments: true
+image: "/assets/img/logos/banner-logo-only.png"
 authors:
   - Abi Muñoz
 ---

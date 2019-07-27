@@ -34,6 +34,10 @@
   padding: 1em !important;
 }
 
+.pt-0 {
+  padding-top: 0 !important;
+}
+
 .image-shadow {
   @extend %image-shadow;
 }

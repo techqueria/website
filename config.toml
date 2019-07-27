@@ -32,7 +32,6 @@ enableMissingTranslationPlaceholders = true
 preserveTaxonomyNames                = false
 
 [taxonomies]
-  author                             = "team"
   tag                                = "tags"
   category                           = "categories"
 

@@ -1,11 +1,10 @@
 ---
 title: Frances Coronel
-image: "/assets/img/people/frances-coronel.jpg"
-description: Software Engineer at Slack
-link: https://www.linkedin.com/in/fvcproductions
-location: Bay Area
-weight: 4
-role: Board Member, Current Organizer, Open Source Lead
+image: "/assets/img/team/frances-coronel.jpg"
+description: CTO & Board Member
+linkedin: fvcproductions
+twitter: fvcproductions
+github: fvcproductions
 categories:
   - bay-area
   - board-member

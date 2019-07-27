@@ -1,17 +1,27 @@
-<!-- Content -->
-{{ if or (.Content) (.Params.image) }}
+<!-- Image -->
+{{ if and (.Params.image) (not .Params.hideImage) }}
 <div class="content">
-  <!-- Hero Image -->
-  {{ if and (.Params.image) (not .Params.hideImage) }}
   <div class="has-text-centered mb-1">
-    <img class="image hero lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
+    <img class="image lozad" src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}">
   </div>
-  {{ end }}
+</div>
+{{ end }}
+<!-- Content -->
+{{ if .Content }}
+<div class="content">
   <!-- Content -->
-  {{ if .Content }}
+  {{ if or (.Content) }}
   <div class="mt-2 mb-2">
+    <!-- Content with anchor links -->
     {{ partial "content/content.html" . }}
   </div>
   {{ end }}
 </div>
+{{ end }}
+<!-- Author Articles -->
+{{ if .Params.linkedin }}
+<div class="content mt-2">
+  <h2>Articles Written</h2>
+</div>
+{{ partial "content/author-articles.html" . }}
 {{ end }}

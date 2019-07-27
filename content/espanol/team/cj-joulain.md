@@ -1,8 +1,8 @@
 ---
 title: CJ Joulain
-image: "/assets/img/people/cj-joulain.jpg"
+image: "/assets/img/team/cj-joulain.jpg"
 description: Technical Support Engineer at npm, Inc.
-link: https://www.linkedin.com/in/cjoulain
+linkedin: cjoulain
 location: Bay Area
 role: Past Organizer
 categories:

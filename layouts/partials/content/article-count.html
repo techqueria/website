@@ -1,0 +1,13 @@
+<!-- Author Specific -->
+{{ if .Params.linkedin }}
+  {{ $counter := 0 }}
+  {{ $file := .Title }}
+  {{ range $.Site.Pages }}
+    {{ if in .Params.authors $file }}
+        {{ $counter = add $counter 1 }}
+    {{ end }}
+  {{ end }}
+  {{ if ge $counter 1 }}
+    <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ $counter }} {{ cond (eq $counter 1) "article" "articles" }} written</p>
+  {{ end }}
+{{ end }}

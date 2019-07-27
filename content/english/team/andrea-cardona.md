@@ -1,8 +1,8 @@
 ---
 title: Andrea Cardona
-image: "/assets/img/people/andrea-cardona.jpeg"
+image: "/assets/img/team/andrea-cardona.jpeg"
 description: Software Designer at IBM
-link: https://www.linkedin.com/in/andrea-cardona-b647594b/
+linkedin: andrea-cardona-b647594b/
 location: Austin
 role: Past Organizer
 categories:

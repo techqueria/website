@@ -224,8 +224,8 @@ When adding a new person, make sure to use their LinkedIn profile as the URL and
 ---
 title: Frances Coronel
 description: Software Engineer at Slack
-image: "/assets/img/people/frances-coronel.jpg"
-link: https://www.linkedin.com/in/fvcproductions
+image: "/assets/img/team/frances-coronel.jpg"
+linkedin: fvcproductions
 location: Bay Area
 role: Open Source Lead, Slack Admin
 ---
@@ -239,8 +239,8 @@ role: Open Source Lead, Slack Admin
 ---
 title: Liliana A Monge
 description: Co-Founder & CEO
-image: "/assets/img/people/liliana-a-monge.jpg"
-link: https://www.linkedin.com/in/lilianamonge
+image: "/assets/img/team/liliana-a-monge.jpg"
+linkedin: lilianamonge
 tier: "Core - $25 or more per month"
 ---
 ```

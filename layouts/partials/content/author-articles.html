@@ -1,0 +1,19 @@
+<!-- Author Specific -->
+{{ if .Params.linkedin }}
+{{ $hasAuthors := false }}
+{{ $file := .Title }}
+{{ range $.Site.Pages }}
+{{ if in .Params.authors $file }}
+{{ $hasAuthors = true }}
+{{ end }}
+{{ end }}
+{{ if $hasAuthors }}
+<div class="columns is-multiline">
+  {{ range $.Site.Pages }}
+  {{ if in .Params.authors $file }}
+  {{ partial "content/child.html" . }}
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}
