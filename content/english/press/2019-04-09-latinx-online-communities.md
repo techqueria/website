@@ -5,6 +5,8 @@ description: "Making friends can be hard. Making friends while being Latinx with
 publication: "Latinx.com"
 image: "/assets/img/press/2019-04-09-latinx-com.jpg"
 link: https://latinx.com/discover/4-latinx-online-communities-you-need-to-know-about/
+featuring:
+  - David Silva
 ---
 
 Making friends can be hard. Making friends while being Latinx with interests in tech, travel, and cultural pride can be even harder. Then, try making friends as a millennial with a job in a new city, an overloaded schedule, and you’re probably asking for the impossible. However, thanks to social media, it’s become easier to connect with other people of similar interests. Being the resourceful techie millennial that I am, and exhausted from having my circles tokenize me, I turned to the internet to be able to find my people.

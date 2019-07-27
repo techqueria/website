@@ -5,6 +5,8 @@ description: "Techqueria, an organization for Latinos in tech, was founded in Be
 publication: "El Tecolote"
 image: "/assets/img/press/2019-07-18-el-tecolote.jpg"
 link: http://eltecolote.org/content/en/features/techqueria-building-a-community-for-latinos-in-tech-industry/
+featuring:
+  - Felipe Ventura
 ---
 
 Techqueria, an organization for Latinos in tech, was founded in Berkeley back in November 2015 with the purpose of serving those who were studying or pursuing a career in tech.

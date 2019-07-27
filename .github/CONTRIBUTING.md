@@ -2,57 +2,57 @@
 
 <!-- TOC -->
 
-- [1. Setting Up](#1-Setting-Up)
-  - [Ways to Contribute](#Ways-to-Contribute)
-    - [Benefits of Contributing](#Benefits-of-Contributing)
-      - [GitHub Profile](#GitHub-Profile)
-      - [LinkedIn](#LinkedIn)
-      - [Credibility](#Credibility)
-  - [Fork the repo](#Fork-the-repo)
-  - [Installation](#Installation)
-- [2. Local Development](#2-Local-Development)
-  - [Live Server](#Live-Server)
-  - [Branding](#Branding)
-  - [Service Workers](#Service-Workers)
-  - [Tools](#Tools)
-  - [Platforms](#Platforms)
-  - [Languages](#Languages)
-  - [Coding Guidelines](#Coding-Guidelines)
-    - [File Size](#File-Size)
-  - [Adding Images](#Adding-Images)
-  - [Content Updates](#Content-Updates)
-    - [People](#People)
-      - [Team](#Team)
-      - [Patreon Supporters](#Patreon-Supporters)
-    - [Companies](#Companies)
-    - [Blog Posts](#Blog-Posts)
-    - [Resources](#Resources)
-  - [Translations](#Translations)
-    - [How to translate content](#How-to-translate-content)
-      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#Option-1-Replace-individual-strings-from-the-HTML-templates-in-the-layouts-folder)
-      - [Option 2. Create a separate Markdown file with the language code extension](#Option-2-Create-a-separate-Markdown-file-with-the-language-code-extension)
-  - [Directory Structure](#Directory-Structure)
-  - [Available Commands](#Available-Commands)
-  - [Audits](#Audits)
-  - [Deployment](#Deployment)
-- [3. Opening a Pull Request](#3-Opening-a-Pull-Request)
-  - [A Good PR](#A-Good-PR)
-  - [Checks](#Checks)
-  - [GitHub Integrations](#GitHub-Integrations)
-  - [GitHub Bots](#GitHub-Bots)
-    - [Adding a contributor](#Adding-a-contributor)
-    - [Remind yourself to tackle an issue](#Remind-yourself-to-tackle-an-issue)
-  - [Issue Tracker](#Issue-Tracker)
-  - [Stale Pull Requests](#Stale-Pull-Requests)
-- [Troubleshooting](#Troubleshooting)
-  - [Error: Cannot find module](#Error-Cannot-find-module)
-  - [Not seeing changes live](#Not-seeing-changes-live)
-  - [Recently Merged Changes](#Recently-Merged-Changes)
-- [Questions?](#Questions)
-  - [GitHub](#GitHub)
-  - [Slack](#Slack)
-  - [Gitter](#Gitter)
-  - [Email](#Email)
+- [1. Setting Up](#1-setting-up)
+  - [Ways to Contribute](#ways-to-contribute)
+    - [Benefits of Contributing](#benefits-of-contributing)
+      - [GitHub Profile](#github-profile)
+      - [LinkedIn](#linkedin)
+      - [Credibility](#credibility)
+  - [Fork the repo](#fork-the-repo)
+  - [Installation](#installation)
+- [2. Local Development](#2-local-development)
+  - [Live Server](#live-server)
+  - [Branding](#branding)
+  - [Service Workers](#service-workers)
+  - [Tools](#tools)
+  - [Platforms](#platforms)
+  - [Languages](#languages)
+  - [Coding Guidelines](#coding-guidelines)
+    - [File Size](#file-size)
+  - [Adding Images](#adding-images)
+  - [Content Updates](#content-updates)
+    - [People](#people)
+      - [Team](#team)
+      - [Patreon Supporters](#patreon-supporters)
+    - [Companies](#companies)
+    - [Blog Posts](#blog-posts)
+    - [Resources](#resources)
+  - [Translations](#translations)
+    - [How to translate content](#how-to-translate-content)
+      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#option-1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
+      - [Option 2. Create a separate Markdown file with the language code extension](#option-2-create-a-separate-markdown-file-with-the-language-code-extension)
+  - [Directory Structure](#directory-structure)
+  - [Available Commands](#available-commands)
+  - [Audits](#audits)
+  - [Deployment](#deployment)
+- [3. Opening a Pull Request](#3-opening-a-pull-request)
+  - [A Good PR](#a-good-pr)
+  - [Checks](#checks)
+  - [GitHub Integrations](#github-integrations)
+  - [GitHub Bots](#github-bots)
+    - [Adding a contributor](#adding-a-contributor)
+    - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
+  - [Issue Tracker](#issue-tracker)
+  - [Stale Pull Requests](#stale-pull-requests)
+- [Troubleshooting](#troubleshooting)
+  - [Error: Cannot find module](#error-cannot-find-module)
+  - [Not seeing changes live](#not-seeing-changes-live)
+  - [Recently Merged Changes](#recently-merged-changes)
+- [Questions?](#questions)
+  - [GitHub](#github)
+  - [Slack](#slack)
+  - [Gitter](#gitter)
+  - [Email](#email)
 
 <!-- /TOC -->
 
@@ -226,8 +226,19 @@ title: Frances Coronel
 description: Software Engineer at Slack
 image: "/assets/img/team/frances-coronel.jpg"
 linkedin: fvcproductions
-location: Bay Area
-role: Open Source Lead, Slack Admin
+locations:
+  - austin
+  - bay-area
+  - los-angeles
+  - nyc
+roles:
+  - board-member
+  - ceo
+  - co-founder
+  - cto
+  - current-organizer
+  - past-board-member
+  - past-organizer
 ---
 ```
 

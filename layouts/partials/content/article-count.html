@@ -1,13 +1,26 @@
-<!-- Author Specific -->
-{{ if .Params.linkedin }}
-  {{ $counter := 0 }}
-  {{ $file := .Title }}
-  {{ range $.Site.Pages }}
-    {{ if in .Params.authors $file }}
-        {{ $counter = add $counter 1 }}
-    {{ end }}
-  {{ end }}
-  {{ if ge $counter 1 }}
-    <p class="has-text-weight-light mt-sm has-text-dark is-size-7">{{ $counter }} {{ cond (eq $counter 1) "article" "articles" }} written</p>
-  {{ end }}
+<!-- Articles Written -->
+{{ $articlesWritten := 0 }}
+{{ $file := .Title }}
+{{ range $.Site.Pages }}
+{{ if in .Params.authors $file }}
+{{ $articlesWritten = add $articlesWritten 1 }}
+{{ end }}
+{{ end }}
+<!-- Articles Featured In -->
+{{ $articlesFeaturedIn := 0 }}
+{{ $file := .Title }}
+{{ range $.Site.Pages }}
+{{ if in .Params.featuring $file }}
+{{ $articlesFeaturedIn = add $articlesFeaturedIn 1 }}
+{{ end }}
+{{ end }}
+<!-- Paragraph -->
+{{ if or (ge $articlesWritten 1) (ge $articlesFeaturedIn 1) }}
+<p class="has-text-weight-light mt-sm has-text-dark is-size-7">
+  <span class="mr-sm">📰</span>
+  <!-- Articles Written -->
+  {{ if ge $articlesWritten 1 }}{{ $articlesWritten }} {{ cond (eq $articlesWritten 1) "article" "articles" }} written{{ end }}
+  <!-- Articles Featured In -->
+  {{ if ge $articlesFeaturedIn 1 }}{{ if ge $articlesWritten 1 }} ∙ {{ end }}featured in {{ $articlesFeaturedIn }} {{ cond (eq $articlesFeaturedIn 1) "article" "articles" }}{{ end }}
+</p>
 {{ end }}

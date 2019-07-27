@@ -5,6 +5,8 @@ description: "Techqueria was awarded Sentry’s first-ever Open Source Grant of 
 publication: "Sentry.io"
 image: "/assets/img/press/2019-03-22-sentry-open-source-grant.jpg"
 link: https://blog.sentry.io/2019/03/22/congratulations-sentry-open-source-grant-recipient
+featuring:
+  - Frances Coronel
 ---
 
 On January 29th, we [announced Sentry’s Open Source Grant](https://blog.sentry.io/2019/01/29/apply-sentry-open-source-grant), and, quite frankly, we were pleasantly surprised by the applications we received. Thank you to everyone who applied — we sincerely appreciate the time and effort spent detailing your open source hopes and dreams. The passion demonstrated in these applications is what keeps the open source community innovative and, well, open.

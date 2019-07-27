@@ -2,7 +2,6 @@
 title: "Become a Volunteer"
 description: "If you are interested in supporting Techqueria as an individual, one great way to help out is by volunteering your time."
 image: "/assets/img/banners/become-a-volunteer.jpg"
-url: /volunteer/
 aliases:
   - /volunteer/
   - /become-a-volunteer/

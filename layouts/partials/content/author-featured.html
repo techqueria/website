@@ -1,19 +1,19 @@
 <!-- Author Specific -->
-{{ $hasAuthors := false }}
+{{ $isFeatured := false }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
-{{ if in .Params.authors $file }}
-{{ $hasAuthors = true }}
+{{ if in .Params.featuring $file }}
+{{ $isFeatured = true }}
 {{ end }}
 {{ end }}
-<!-- Articles by author -->
-{{ if $hasAuthors }}
+<!-- Articles featuring author -->
+{{ if $isFeatured }}
 <div class="content mt-2">
-  <h2>Articles Written</h2>
+  <h2>Articles Featured In</h2>
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}
-  {{ if in .Params.authors $file }}
+  {{ if in .Params.featuring $file }}
   {{ partial "content/child.html" . }}
   {{ end }}
   {{ end }}

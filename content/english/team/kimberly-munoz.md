@@ -1,11 +1,10 @@
 ---
 title: Kimberly Muñoz
 image: "/assets/img/team/kimberly-munoz.jpg"
-description: Front End Developer at Slack
+description: "Front End Developer, Slack"
 linkedin: kimberlymunoz
-location: Bay Area
-role: Past Organizer
-categories:
+locations:
   - bay-area
+roles:
   - past-organizer
 ---

@@ -2,7 +2,6 @@
 title: Contact
 description: Get in touch with a Techqueria team member via email, Slack or social media.
 noTimeEstimate: true
-url: /contact/
 aliases:
   - /contact/
   - /about/contact/

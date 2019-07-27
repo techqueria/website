@@ -1,9 +1,10 @@
 ---
 title: Abi Muñoz
 image: "/assets/img/team/abi-munoz.jpeg"
-description: Graduate Student at ITP NYU Tisch
+description: "Gradute Student, NYU Tisch ITP"
 linkedin: abimunoz
-categories:
+locations:
   - nyc
+roles:
   - past-organizer
 ---

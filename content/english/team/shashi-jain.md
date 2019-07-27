@@ -1,10 +1,11 @@
 ---
 title: Shashi Jain
 image: "/assets/img/team/shashi-jain.jpeg"
-description: Software Engineer
+description: "Software Engineer, Diamond Web Services"
 linkedin: quahada
-categories:
+locations:
   - bay-area
+roles:
   - board-member
   - current-organizer
   - co-founder

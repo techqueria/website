@@ -5,6 +5,7 @@
 <!-- Optimize this lol -->
 {{ $abi_munoz := $.Site.GetPage "/team/abi-munoz" }}
 {{ $andrea_cardona := $.Site.GetPage "/team/andrea-cardona" }}
+{{ $andrea_flores := $.Site.GetPage "/team/andrea-flores" }}
 {{ $cj_joulain := $.Site.GetPage "/team/cj-joulain" }}
 {{ $dalia_icedo := $.Site.GetPage "/team/dalia-icedo" }}
 {{ $david_silva := $.Site.GetPage "/team/david-silva" }}
@@ -19,6 +20,7 @@
 {{ $maritza_alas := $.Site.GetPage "/team/maritza-alas" }}
 {{ $rubi_sanchez := $.Site.GetPage "/team/rubi-sanchez" }}
 {{ $shashi_jain := $.Site.GetPage "/team/shashi-jain" }}
+{{ $pia_zaragoza := $.Site.GetPage "/team/pia-zaragoza" }}
 <!-- Hero -->
 {{ partial "content/hero.html" . }}
 <!-- Page -->
@@ -29,7 +31,7 @@
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Executive Team -->
-    <div class="content">
+    <div class="content mt-2">
       <h2>Executive Team</h2>
     </div>
     <div class="columns is-multiline">
@@ -37,25 +39,39 @@
       {{ partial "content/child.html" $frances_coronel }}
     </div>
     <!-- Board of Directors -->
-    <div class="content">
+    <div class="content mt-2">
       <h2>Board of Directors</h2>
     </div>
     <div class="columns is-multiline">
+      {{ partial "content/child.html" $shashi_jain }}
+      {{ partial "content/child.html" $andrea_flores }}
+      {{ partial "content/child.html" $david_silva }}
+      {{ partial "content/child.html" $esteban_uribe }}
+      {{ partial "content/child.html" $felipe_ventura }}
       {{ partial "content/child.html" $frances_coronel }}
     </div>
     <!-- Active Volunteers -->
-    <div class="content">
-      <h2>Active Volunteers</h2>
+    <div class="content mt-2">
+      <h2>Active Team Members</h2>
     </div>
     <div class="columns is-multiline">
-      {{ partial "content/child.html" $frances_coronel }}
+      {{ partial "content/child.html" $andrea_cardona }}
+      {{ partial "content/child.html" $maritza_alas }}
+      {{ partial "content/child.html" $pia_zaragoza }}
     </div>
     <!-- Past Team Members -->
-    <div class="content">
+    <div class="content mt-2">
       <h2>Past Team Members</h2>
     </div>
     <div class="columns is-multiline">
       {{ partial "content/child.html" $abi_munoz }}
+      {{ partial "content/child.html" $cj_joulain }}
+      {{ partial "content/child.html" $dalia_icedo }}
+      {{ partial "content/child.html" $francisco_gutierrez }}
+      {{ partial "content/child.html" $hector_carmona }}
+      {{ partial "content/child.html" $josue_bustos }}
+      {{ partial "content/child.html" $kevin_hernandez }}
+      {{ partial "content/child.html" $rubi_sanchez }}
     </div>
     <!-- Content Footer -->
     <div class="content">

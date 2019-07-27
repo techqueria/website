@@ -1,14 +1,12 @@
 ---
 title: Felipe Ventura
 image: "/assets/img/team/phillip-ventura.jpeg"
-description: CEO
+description: "Software Engineer, Way2B1"
 linkedin: fvntr
-location: Bay Area
-categories:
+locations:
   - bay-area
+roles:
   - board-member
   - current-organizer
-  - executive-director
+  - ceo
 ---
-
-Fullstack Software Engineer at Way2B1

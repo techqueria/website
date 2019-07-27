@@ -2,7 +2,6 @@
 title: "Donate Space"
 description: "Donating space for Techqueria events provides a great opportunity for our members to get a peek of your company environment while also supporting the growth and advancement of our members."
 image: "/assets/img/banners/donate-space.jpg"
-url: /donate-space/
 aliases:
   - /donate-space/
   - /support-us/donate-space/

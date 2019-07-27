@@ -1,7 +1,6 @@
 ---
 title: Support Us
 description: Help us grow one of the largest Latinx in Tech communities by becoming a sponsor, partner or volunteer.
-url: /support-us/
 aliases:
   - /sponsor-us/
   - /sponsors/

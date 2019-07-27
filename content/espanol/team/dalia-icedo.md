@@ -3,8 +3,9 @@ title: Dalia Icedo
 image: "/assets/img/team/dalia-icedo.jpeg"
 description: Freelance Product Designer
 linkedin: daliaicedo
-categories:
+locations:
   - bay-area
+roles:
   - past-organizer
-  - board-member
+  - past-board-member
 ---

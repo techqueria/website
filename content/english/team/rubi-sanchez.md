@@ -1,10 +1,11 @@
 ---
 title: Rubi Sanchez
 image: "/assets/img/team/rubi-sanchez.jpeg"
-description: Product Manager at AdRoll
+description: "Product Manager, AdRoll"
 linkedin: rubisanchez
-categories:
+locations:
   - bay-area
+roles:
   - past-board-member
-  - current-organizer
+  - past-organizer
 ---

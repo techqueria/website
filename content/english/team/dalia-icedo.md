@@ -1,10 +1,11 @@
 ---
 title: Dalia Icedo
 image: "/assets/img/team/dalia-icedo.jpeg"
-description: Freelance Product Designer
+description: "Freelance Product Designer, pxlwtch.com"
 linkedin: daliaicedo
-categories:
+locations:
   - bay-area
+roles:
   - past-organizer
-  - board-member
+  - past-board-member
 ---
