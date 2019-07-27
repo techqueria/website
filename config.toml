@@ -57,7 +57,7 @@ disqusShortname                      = "techqueria"
 
 # SEO
 [params]
-    description                      = "Techqueria is a nonprofit representing the largest community for Latinx in Tech."
+    description                      = "Techqueria is a nonprofit serving the largest community for Latinx in Tech."
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
@@ -105,11 +105,11 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Brand"
-    url                              = "/brand/"
+    url                              = "/about/brand/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Contact"
-    url                              = "/contact/"
+    url                              = "/about/contact/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Events"
@@ -125,7 +125,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Shop"
-    url                              = "/shop/"
+    url                              = "/about/shop/"
 
 # Communities
 [[menu.main]]

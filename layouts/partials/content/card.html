@@ -11,9 +11,7 @@
     <!-- Title -->
     <header class="card-header">
       <h3 class="card-header-title">
-        {{ if .Params.partnerEvent }}Partner Event:
-        {{ end }}
-        {{ .Title }}
+        {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}{{ if .Params.flag }} {{ .Params.flag }}{{ end }}
       </h3>
     </header>
     <!-- Content -->

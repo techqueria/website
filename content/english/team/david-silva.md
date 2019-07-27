@@ -4,6 +4,7 @@ description: "Senior Developer, Slingshot Health"
 github: dvidsilva
 image: "/assets/img/team/david-silva.jpg"
 linkedin: dvidsilva
+flag: 🇨🇴
 locations:
   - nyc
 roles:

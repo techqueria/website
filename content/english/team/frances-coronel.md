@@ -5,6 +5,7 @@ description: "Software Engineer, Slack"
 linkedin: fvcproductions
 twitter: fvcproductions
 github: fvcproductions
+flag: 🇵🇪
 locations:
   - bay-area
 roles:

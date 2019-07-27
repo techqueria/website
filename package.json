@@ -1,7 +1,7 @@
 {
   "name": "techqueria",
   "version": "1.0.0",
-  "description": "Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮",
+  "description": "Techqueria is a nonprofit serving the largest community for Latinx in Tech. 🌮",
   "repository": "techqueria/website",
   "main": "app.js",
   "scripts": {

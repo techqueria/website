@@ -1,7 +1,7 @@
 ---
 title: Josue Bustos
 image: "/assets/img/team/josue-bustos.jpeg"
-description: Technical Evangelist at Samsung
+description: "Technical Evangelist, Samsung"
 linkedin: josuebustos
 locations:
   - los-angeles

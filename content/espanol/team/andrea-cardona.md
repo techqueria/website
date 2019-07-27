@@ -1,7 +1,7 @@
 ---
 title: Andrea Cardona
 image: "/assets/img/team/andrea-cardona.jpeg"
-description: Software Designer at IBM
+description: "Software Designer, IBM"
 linkedin: andrea-cardona-b647594b
 locations:
   - austin

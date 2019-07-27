@@ -88,4 +88,8 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   </div>
 </form>
 
----
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/techqueria/hello?hide_event_type_details=1', text: 'Schedule time with me', color: '#00a2ff', textColor: '#ffffff', branding: true });</script>
+<!-- Calendly badge widget end -->
