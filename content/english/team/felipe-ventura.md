@@ -10,5 +10,5 @@ roles:
   - board-member
   - current-organizer
   - ceo
-  - core-supporter
+  - patreon-core
 ---

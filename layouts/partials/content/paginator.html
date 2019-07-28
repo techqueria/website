@@ -1,0 +1,21 @@
+<!-- Based on Hugo's internal pagination template -->
+{{- $pag := $.Paginator }} {{- if gt $pag.TotalPages 1 }}
+<nav class="pagination is-centered" aria-label="pagination">
+  <!-- Previous -->
+  <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" class="pagination-previous" aria-label="Previous page" {{ if not $pag.HasPrev }} disabled aria-hidden="true" {{ end }}>Previous Page</a>
+  <!-- Next -->
+  <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" class="pagination-next" aria-label="Next page" {{ if not $pag.HasNext }} disabled aria-hidden="true" {{ end }}>Next Page</a>
+  <!-- Pagination List -->
+  <ul class="pagination-list">
+    {{- $.Scratch.Set "__paginator.ellipsed" false }} {{- range $pag.Pagers }} {{- $right := sub .TotalPages .PageNumber }} {{- $showNumber := or (le .PageNumber 3) (eq $right 0) }} {{- $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2))) }} {{- if $showNumber }} {{ $.Scratch.Set "__paginator.ellipsed" false }} {{ $.Scratch.Set "__paginator.shouldEllipse" false }} {{- else }} {{ $.Scratch.Set "__paginator.shouldEllipse" (not ($.Scratch.Get "__paginator.ellipsed") ) }} {{ $.Scratch.Set "__paginator.ellipsed" true }} {{ end }} {{- if $showNumber }}
+    <li>
+      <a href="{{ .URL }}" aria-label="Go to page {{ .PageNumber }}" class="pagination-link {{ if eq . $pag }}is-current{{ end }}">{{ .PageNumber }}</a>
+    </li>
+    {{ else if ($.Scratch.Get "__paginator.shouldEllipse") }}
+    <li>
+      <span class="pagination-ellipsis" aria-hidden="true">&hellip;</span>
+    </li>
+    {{ end }} {{ end }}
+  </ul>
+</nav>
+{{ end }}

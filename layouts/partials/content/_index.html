@@ -7,18 +7,26 @@
 </div>
 {{ end }}
 <!-- Content -->
-{{ if .Content }}
+{{ if or (.Content) (.Params.roles) (.Params.link) }}
 <div class="content">
   <!-- Content -->
-  {{ if or (.Content) }}
   <div class="mt-2 mb-2">
+    <!-- Event or team member info -->
+    {{ partial "content/info.html" . }}
     <!-- Content with anchor links -->
     {{ partial "content/content.html" . }}
+    <!-- Learn more link -->
+    {{ partial "content/learn-more-link.html" . }}
   </div>
-  {{ end }}
 </div>
 {{ end }}
-<!-- Author Specific -->
-{{ partial "content/info-team-member.html" . }}
-{{ partial "content/author-articles.html" . }}
-{{ partial "content/author-featured.html" . }}
+<!-- Author - articles written -->
+{{ partial "content/authors/author-articles-written.html" . }}
+<!-- Author - articles featured in -->
+{{ partial "content/authors/author-featured.html" . }}
+<!-- Event - press articles -->
+{{ partial "content/authors/author-press-articles.html" . }}
+<!-- Event - organizers -->
+{{ partial "content/authors/author-organizers.html" . }}
+<!-- Event - companies -->
+{{ partial "content/authors/author-companies.html" . }}

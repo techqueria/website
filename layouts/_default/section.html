@@ -5,11 +5,15 @@
 <div class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
-    {{ partial "custom/breadcrumbs.html" . }}
+    {{ partial "content/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     <!-- Children -->
     {{ partial "content/children.html" . }}
+    <!-- Pagination -->
+    <div class="mt-2">
+      {{ partial "content/paginator.html" . }}
+    </div>
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}
   </div>

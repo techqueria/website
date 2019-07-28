@@ -1,0 +1,13 @@
+<script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" crossorigin="anonymous"></script>
+<script>
+  Sentry.init({
+    dsn: 'https://d4aeaabdae3546698a67ef730e6fbae7@sentry.io/1448036',
+    beforeSend(event, hint) {
+      // Check if it is an exception, and if so, show the report dialog
+      if (event.exception) {
+        Sentry.showReportDialog({ eventId: event.event_id });
+      }
+      return event;
+    }
+  });
+</script>

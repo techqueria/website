@@ -1,15 +1,17 @@
 <!-- Author Specific -->
-{{ $hasAuthors := false }}
+{{ $articlesWritten := false }}
+{{ $articlesWrittenNumber := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
 {{ if in .Params.authors $file }}
-{{ $hasAuthors = true }}
+{{ $articlesWritten = true }}
+{{ $articlesWrittenNumber = add $articlesWrittenNumber 1 }}
 {{ end }}
 {{ end }}
 <!-- Articles by author -->
-{{ if $hasAuthors }}
+{{ if $articlesWritten }}
 <div class="content mt-2">
-  <h2>Articles Written</h2>
+  <h2>{{ $articlesWrittenNumber }} {{ cond (eq $articlesWrittenNumber 1) "article" "articles" }} written</h2>
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}

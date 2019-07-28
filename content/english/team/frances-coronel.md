@@ -12,5 +12,5 @@ roles:
   - board-member
   - current-organizer
   - cto
-  - friend-tier
+  - patreon-friend
 ---

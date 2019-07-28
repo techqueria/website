@@ -34,7 +34,7 @@
 <!-- External Link -->
 {{ if .Params.link }}
 <a class="mt-1 button is-link" href="{{ .Params.link }}" target="_blank" rel="noopener">
-  {{ if in .Params.link "meetup.com" }}Register for the Meetup ➡{{ else if in .Params.link "eventbrite.com" }}Register on Eventbrite ➡{{ else }}Learn more ➡
+  {{ if in .Params.link "meetup.com" }}Register for the Meetup ↗️{{ else if in .Params.link "eventbrite.com" }}Register on Eventbrite ↗️{{ else }}Learn more ↗️
   {{ end }}
 </a>
 {{ end }}

@@ -5,6 +5,8 @@ description: Join us for a panel discussion with Latinx from different backgroun
 date: 2018-04-05
 link: https://www.eventbrite.com/e/navigating-the-tech-workplace-as-latinx-tickets-44317705450#
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42798837%2F249256871414%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=ff9169ffdf4010f84dd3aebbb638e6a7
+companies:
+  - "Spotify"
 ---
 
 Join us for a panel discussion with Latinx from different backgrounds sharing their experiences dealing with biases, salary negotiations and promoting diversity at work. Our speakers include a designer, a founder, a VC and an engineer whose career experiences can provide valuable advice for up and coming Latinx professionals. Each person's unique circumstance will help shed light on workplace issues we commonly face and how to tackle them effectively.

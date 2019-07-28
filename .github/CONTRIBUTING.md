@@ -95,7 +95,7 @@ Showcase your contributions through LinkedIn with Techqueria's company profile: 
 Just make sure to use the description below and you can briefly describe what you did as well.
 
 ```txt
-Techqueria is a 501c3 nonprofit representing the largest community for Latinx in Tech.
+Techqueria is a 501c3 nonprofit serving the largest community for Latinx in Tech.
 
 - Contributed to their open source website through translations and bug fixes
 ```
@@ -196,7 +196,7 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 
 #### File Size
 
-For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "custom/breadcrumbs.html" . }}`.
+For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "content/breadcrumbs.html" . }}`.
 
 If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 

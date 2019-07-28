@@ -1,47 +1,59 @@
 {{ define "main" }}
-  <!-- Variables -->
-  {{ $events := .Sections | union .Pages }}
-  {{ $upcomingEvents := where $events "Date" "ge" now }}
-  {{ $pastEvents := where $events "Date" "lt" now }}
-  <!-- Hero -->
-  {{ partial "content/hero.html" . }}
-  <!-- Page -->
-  <section class="section page">
-    <div
-      class="container">
-      <!-- Breadcrumbs -->
-      {{ partial "custom/breadcrumbs.html" . }}
-      <!-- Content -->
-      {{ partial "content/_index.html" . }}
-      <!-- Upcoming Events -->
-      {{ if (len $upcomingEvents) "ge" 1 }}
-        <div class="content mt-2">
-          <h2>⏳️
-            {{ len $upcomingEvents }}
-            Upcoming
-            {{ if gt (len $upcomingEvents) 1 }}Events{{ else }}Event
-            {{ end }}
-          </h2>
-        </div>
-        <div class="columns is-multiline">
-          {{ range $upcomingEvents.ByDate.Reverse }}
-            {{ partial "content/child.html" . }}
-          {{ end }}
-        </div>
-      {{ end }}
-      <!-- Past Events -->
-      <div class="content mt-2">
-        <h2>⌛️
-          {{ len $pastEvents }}
-          Past Events</h2>
-      </div>
-      <div class="columns is-multiline">
-        {{ range $pastEvents.ByDate.Reverse }}
-          {{ partial "content/child.html" . }}
-        {{ end }}
-      </div>
-      <!-- Content Footer -->
-      {{ partial "content/footer/_index.html" . }}
+<!-- Variables -->
+{{ $paginator := .Paginator.Pages }}
+{{ $pages := .Sections | union .Pages }}
+<!-- Upcoming Events-->
+{{ $upcomingEvents := where $paginator "Date" "ge" now }}
+{{ $upcomingEventsAllNumber := 0 }}
+{{ $upcomingEventsAll := where $pages "Date" "ge" now }}
+{{ range $upcomingEventsAll }}
+{{ $upcomingEventsAllNumber = add $upcomingEventsAllNumber 1 }}
+{{ end }}
+<!-- Past Events -->
+{{ $pastEvents := where $paginator "Date" "lt" now }}
+{{ $pastEventsAllNumber := 0 }}
+{{ $pastEventsAll := where $pages "Date" "lt" now }}
+{{ range $pastEventsAll }}
+{{ $pastEventsAllNumber = add $pastEventsAllNumber 1 }}
+{{ end }}
+<!-- Hero -->
+{{ partial "content/hero.html" . }}
+<!-- Page -->
+<section class="section page">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{ partial "content/breadcrumbs.html" . }}
+    <!-- Content -->
+    {{ partial "content/_index.html" . }}
+    <!-- Upcoming Events -->
+    {{ if ge $upcomingEventsAllNumber 1 }}
+    <div class="content mt-2">
+      <h2>⏳️ {{ $upcomingEventsAllNumber }} upcoming {{ cond (eq $upcomingEventsAllNumber 1) "event" "events" }}</h2>
     </div>
-  </section>
+    <div class="columns is-multiline">
+      {{ range $upcomingEvents.ByDate.Reverse }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="content mt-2">
+      <p><strong>No upcoming events right now - check back again later!</strong></p>
+    </div>
+    {{ end }}
+    <!-- Past Events -->
+    <div class="content mt-2">
+      <h2>⌛ {{ $pastEventsAllNumber }} past events</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range $pastEvents.ByDate.Reverse }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <div class="mt-2">
+      {{ partial "content/paginator.html" . }}
+    </div>
+    <!-- Content Footer -->
+    {{ partial "content/footer/_index.html" . }}
+  </div>
+</section>
 {{ end }}

@@ -1,15 +1,17 @@
 <!-- Author Specific -->
-{{ $isFeatured := false }}
+{{ $featuredInArticles := false }}
+{{ $featuredInArticlesNumber := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
 {{ if in .Params.featuring $file }}
-{{ $isFeatured = true }}
+{{ $featuredInArticles = true }}
+{{ $featuredInArticlesNumber = add $featuredInArticlesNumber 1 }}
 {{ end }}
 {{ end }}
 <!-- Articles featuring author -->
-{{ if $isFeatured }}
+{{ if $featuredInArticles }}
 <div class="content mt-2">
-  <h2>Articles Featured In</h2>
+  <h2>Featured in {{ $featuredInArticlesNumber }} {{ cond (eq $featuredInArticlesNumber 1) "article" "articles" }}</h2>
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}

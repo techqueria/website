@@ -1,7 +1,7 @@
 ---
 title: Meetup
 description: Find information about our meetup upcoming events with other Latinx in Tech.
-layout: "sub_events/meetup"
+layout: "meetup"
 sortLatestFirst: true
 aliases:
   - /events/meetup
