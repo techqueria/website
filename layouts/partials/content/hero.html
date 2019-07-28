@@ -4,11 +4,13 @@
       <!-- Title -->
       <h1 class="title">
         {{ if .Params.partnerEvent }}Partner Event: {{ end }}
+        {{ .Title }}
       </h1>
       <!-- Description -->
       <p class="subtitle">
         {{ if .Description }}
         {{ $description := (.Description | safeHTML) }}
+        {{ $description }}
         {{ else }}
         {{ .Summary | truncate 150 | safeHTML }}
         {{ end }}
