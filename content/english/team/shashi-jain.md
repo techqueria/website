@@ -1,14 +1,14 @@
 ---
 title: Shashi Jain
-image: "/assets/img/people/shashi-jain.jpeg"
-description: Software Engineer
-link: https://www.linkedin.com/in/quahada
-location: Bay Area
-weight: 3
-role: Co-founder, Board Member, Current Organizer
-categories:
+image: "/assets/img/team/shashi-jain.jpeg"
+description: "Software Engineer, Diamond Web Services"
+linkedin: quahada
+flag: 🇭🇳
+locations:
   - bay-area
+roles:
   - board-member
   - current-organizer
   - co-founder
+  - chair-person
 ---

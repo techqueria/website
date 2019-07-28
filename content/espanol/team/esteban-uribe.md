@@ -1,13 +1,12 @@
 ---
 title: Esteban Uribe
-image: "/assets/img/people/esteban-uribe.jpeg"
-description: iOS Engineer at Tinder
-link: https://www.linkedin.com/in/estebanuribe/
-location: Los Angeles
-weight: 5
-role: Board Member, Current Organizer
-categories:
+image: "/assets/img/team/esteban-uribe.jpeg"
+description: "iOS Engineer, Tinder"
+linkedin: estebanuribe
+flag: 🇲🇽
+locations:
   - los-angeles
+roles:
   - current-organizer
   - board-member
 ---

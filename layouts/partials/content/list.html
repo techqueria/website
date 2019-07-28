@@ -1,0 +1,22 @@
+<!-- Line Separator - Year -->
+<!-- Check for No Date -->
+{{ if not (eq .Key "0001") }}
+<h2>{{ .Key }}</h2>
+{{ else }}
+<!-- Year -->
+<h2>No Date</h2>
+{{ end }}
+<!-- Table -->
+<table class="table">
+  <tbody>
+    {{ range .Pages }}
+    <tr>
+      <td style="width:20%;">{{ dateFormat "Jan 2" .Date }}</td>
+      <td>
+        <a href="{{ .RelPermalink }}" rel="noopener">{{ .Title }}</a>
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+<!-- End - Range - Year -->

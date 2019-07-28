@@ -1,8 +1,8 @@
 ---
 title: Donate
 description: "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
-url: /donate/
 aliases:
+  - /donate/
   - /donations/
   - /give-money/
 categories:

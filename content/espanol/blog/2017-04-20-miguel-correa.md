@@ -4,7 +4,7 @@ description: "Front-End Engineer at HelloFresh"
 date: 2017-04-20
 comments: true
 image: https://avatars2.githubusercontent.com/u/11799597?s=460&v=4
-link: https://www.linkedin.com/in/mc1221/
+linkedin: mc1221/
 categories:
   - testimonial
 ---

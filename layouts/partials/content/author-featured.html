@@ -1,0 +1,21 @@
+<!-- Author Specific -->
+{{ $isFeatured := false }}
+{{ $file := .Title }}
+{{ range $.Site.Pages }}
+{{ if in .Params.featuring $file }}
+{{ $isFeatured = true }}
+{{ end }}
+{{ end }}
+<!-- Articles featuring author -->
+{{ if $isFeatured }}
+<div class="content mt-2">
+  <h2>Articles Featured In</h2>
+</div>
+<div class="columns is-multiline">
+  {{ range $.Site.Pages }}
+  {{ if in .Params.featuring $file }}
+  {{ partial "content/child.html" . }}
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}

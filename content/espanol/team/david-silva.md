@@ -1,14 +1,16 @@
 ---
 title: David Silva
-image: "/assets/img/people/david-silva.jpeg"
-description: Senior Developer at Slingshot Health
-link: https://linkedin.com/in/dvidsilva
-location: New York City
-weight: 2
-role: Co-founder, Board Member, Current Organizer
-categories:
+description: "Senior Developer, Slingshot Health"
+github: dvidsilva
+image: "/assets/img/team/david-silva.jpg"
+linkedin: dvidsilva
+flag: 🇨🇴
+locations:
   - nyc
+roles:
   - board-member
   - co-founder
   - current-organizer
 ---
+
+David Silva is the co-founder of Techqueria and a senior development at Slingshot Health.

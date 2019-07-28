@@ -1,11 +1,10 @@
 ---
 title: Maritza Alas
-image: "/assets/img/people/maritza-alas.jpeg"
-description: Software Engineer at Age of Learning
-link: https://www.linkedin.com/in/maritza-alas/
-location: Los Angeles
-role: Current Organizer
-categories:
+image: "/assets/img/team/maritza-alas.jpeg"
+description: "Software Engineer, Age of Learning"
+linkedin: maritza-alas
+locations:
   - los-angeles
+roles:
   - current-organizer
 ---

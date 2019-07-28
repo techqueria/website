@@ -1,4 +1,4 @@
-<a {{ if .Params.link }}href="{{ .Params.link }}" rel="noopener" target="_blank"{{ else }}href="{{ .RelPermalink }}"{{ end}}>
+<a href="{{ .RelPermalink }}">
   <div class="card card-equal-height">
     {{ if .Params.image }}
       <!-- Image -->
@@ -11,9 +11,7 @@
     <!-- Title -->
     <header class="card-header">
       <h3 class="card-header-title">
-        {{ if .Params.partnerEvent }}Partner Event:
-        {{ end }}
-        {{ .Title }}
+        {{ if .Params.partnerEvent }}Partner Event: {{ end }}{{ .Title }}{{ if .Params.flag }} {{ .Params.flag }}{{ end }}
       </h3>
     </header>
     <!-- Content -->
@@ -30,6 +28,7 @@
         </p>
         <!-- More Info -->
         {{ partial "content/info.html" . }}
+        {{ partial "content/info-team-member.html" . }}
       </div>
     </div>
   </div>

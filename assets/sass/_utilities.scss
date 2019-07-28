@@ -34,6 +34,10 @@
   padding: 1em !important;
 }
 
+.pt-0 {
+  padding-top: 0 !important;
+}
+
 .image-shadow {
   @extend %image-shadow;
 }
@@ -50,6 +54,10 @@
   &::after {
     content: "" !important;
   }
+}
+
+.u-box-shadow--none {
+  box-shadow: none !important;
 }
 
 .u-background--default {

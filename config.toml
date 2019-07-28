@@ -31,6 +31,10 @@ enableMissingTranslationPlaceholders = true
 # Categories
 preserveTaxonomyNames                = false
 
+[taxonomies]
+  tag                                = "tags"
+  category                           = "categories"
+
 # Code
 pygmentsCodefences                   = true
 pygmentsCodefencesGuessSyntax        = true
@@ -53,7 +57,7 @@ disqusShortname                      = "techqueria"
 
 # SEO
 [params]
-    description                      = "Techqueria is a nonprofit representing the largest community for Latinx in Tech."
+    description                      = "Techqueria is a nonprofit that serves the largest community of Latinx in Tech."
     year                             = 2015
     og_image                         = "https://i.imgur.com/O2YyA3E.png"
     logo                             = "https://i.imgur.com/iJpGY6L.png"
@@ -101,11 +105,11 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Brand"
-    url                              = "/brand/"
+    url                              = "/about/brand/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Contact"
-    url                              = "/contact/"
+    url                              = "/about/contact/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Events"
@@ -121,7 +125,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Shop"
-    url                              = "/shop/"
+    url                              = "/about/shop/"
 
 # Communities
 [[menu.main]]
@@ -182,16 +186,16 @@ disqusShortname                      = "techqueria"
     url                              = "/donate/"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Contribute on Open Collective"
-    url                              = "https://opencollective.com/techqueria/"
+    name                             = "Contribute through Open Collective"
+    url                              = "https://opencollective.com/techqueria"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Contribute on Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
+    name                             = "Contribute through Patreon"
+    url                              = "https://www.patreon.com/techqueria"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Our Patreon Supporters"
-    url                              = "/donate/patreon-supporters/"
+    name                             = "Contribute through Amazon Smile"
+    url                              = "https://smile.amazon.com/ch/83-2656715"
 
 # Resources
 [[menu.main]]
@@ -265,15 +269,15 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Become a Volunteer"
-    url                              = "/volunteer/"
+    url                              = "/support-us/volunteer/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Donate Space"
-    url                              = "/donate-space/"
+    url                              = "/support-us/donate-space/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Our Supporters"
-    url                              = "/supporters/"
+    url                              = "/support-us/supporters/"
 
 # Social Menu
 [[menu.social]]
@@ -318,9 +322,6 @@ disqusShortname                      = "techqueria"
 [[menu.sitemap]]
   name = "Events"
   url = "/events/"
-[[menu.sitemap]]
-  name = "Meetup Events"
-  url = "/events/meetup"
 [[menu.sitemap]]
   name = "Press"
   url = "/press/"
@@ -441,11 +442,11 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Donar"
     name                             = "Contribuir en Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
+    url                              = "https://www.patreon.com/techqueria"
 [[languages.es.menu.main]]
     parent                           = "Donar"
-    name                             = "Nuestros Partidarios de Patreon"
-    url                              = "/donate/patreon-supporters/"
+    name                             = "Contribuir en Amazon Smile"
+    url                              = "https://smile.amazon.com/ch/83-2656715/"
 
 # Resources
 [[languages.es.menu.main]]
@@ -569,9 +570,6 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.sitemap]]
   name = "Eventos"
   url = "/events/"
-[[languages.es.menu.sitemap]]
-  name = "Eventos de Meetup"
-  url = "/events/meetup"
 [[languages.es.menu.sitemap]]
   name = "Prensa"
   url = "/about/press/"

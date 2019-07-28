@@ -2,40 +2,40 @@
 title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
-image: "/assets/img/slack/slack-banner.jpeg"
+image: "/assets/img/companies/slack.jpeg"
 ---
 
 # Normas de la comunidad de Slack
 
-- [Únete!](#%C3%BAnete)
+- [Únete!](#%c3%9anete)
 - [Ya es miembro?](#ya-es-miembro)
 - [Nunca ha usado Slack antes?](#nunca-ha-usado-slack-antes)
-- [Código de Conducta](#c%C3%B3digo-de-conducta)
-- [Buenas Prácticas](#buenas-pr%C3%A1cticas)
+- [Código de Conducta](#c%c3%b3digo-de-conducta)
+- [Buenas Prácticas](#buenas-pr%c3%a1cticas)
   - [Utilice threads](#utilice-threads)
-  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%C3%B3n-de-channels)
+  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%c3%b3n-de-channels)
   - [Menciones](#menciones)
   - [HeyTaco!](#heytaco)
-    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%C3%ADa)
-    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%C3%A9s-del-nombre-de-usuario)
+    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%c3%ada)
+    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%c3%a9s-del-nombre-de-usuario)
     - [3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel](#3-puede-darle-tacos-a-cualquier-integrante-del-grupo-siempre-y-cuando-el-bot-haya-sido-invitado-al-channel)
-    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%C3%B3n-para-ver-qui%C3%A9n-est%C3%A1-recibiendo-m%C3%A1s-tacos)
+    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%c3%b3n-para-ver-qui%c3%a9n-est%c3%a1-recibiendo-m%c3%a1s-tacos)
     - [5. Necesita ayuda?](#5-necesita-ayuda)
-- [Personalización](#personalizaci%C3%B3n)
-  - [Temática de la Barra Lateral](#tem%C3%A1tica-de-la-barra-lateral)
-  - [Personalización de Estado](#personalizaci%C3%B3n-de-estado)
+- [Personalización](#personalizaci%c3%b3n)
+  - [Temática de la Barra Lateral](#tem%c3%a1tica-de-la-barra-lateral)
+  - [Personalización de Estado](#personalizaci%c3%b3n-de-estado)
   - [Emojis](#emojis)
 - [Channels](#channels)
   - [Channels Predeterminados](#channels-predeterminados)
-  - [Channels Públicos](#channels-p%C3%BAblicos)
-  - [Channels por Ubicación](#channels-por-ubicaci%C3%B3n)
+  - [Channels Públicos](#channels-p%c3%bablicos)
+  - [Channels por Ubicación](#channels-por-ubicaci%c3%b3n)
   - [Channels Privados](#channels-privados)
   - [Meta](#meta)
   - [Solicite un Channel](#solicite-un-channel)
-- [Introducción a Slack](#introducci%C3%B3n-a-slack)
-  - [Demostración de Slack](#demostraci%C3%B3n-de-slack)
+- [Introducción a Slack](#introducci%c3%b3n-a-slack)
+  - [Demostración de Slack](#demostraci%c3%b3n-de-slack)
   - [Slack Foundry](#slack-foundry)
-  - [Guía de Inicio](#gu%C3%ADa-de-inicio)
+  - [Guía de Inicio](#gu%c3%ada-de-inicio)
 
 ## Únete!
 
@@ -75,7 +75,7 @@ Puede contactar a un administrador usando el comando `/admin` en Slack seguido d
 
 ### Utilice threads
 
-Esta conversación en el channel de `#website` pudo haber sido 28 mensajes por separado! 🤯
+Esta conversación en el channel de `#meta` pudo haber sido 28 mensajes por separado! 🤯
 
 En cambio, con threads - se convirtió en una discusión más rica y centrada. 😌
 
@@ -86,7 +86,7 @@ En cambio, con threads - se convirtió en una discusión más rica y centrada. �
 - Ubicaciones
   - `#locals-`
 - Website
-  - `#website-`
+  - `#meta-`
 - Equipos
   - `#team-`
 - Proyectos
@@ -231,14 +231,14 @@ Si desea participar en conversaciones sobre el futuro de la comunidad, planifica
     - https://twitter.com/Techqueria
     - https://twitter.com/TechqueriaNYC
     - https://twitter.com/TechqueriaLA
-- `#website`
+- `#meta`
   - Discutir y contribuir a la website de Techqueria https://techqueria.org
-- `#website-github`
+- `#meta-website-alerts`
   - Feed automatizado de la actividad del repositorio https://github.com/techqueria/website
 
 ### Solicite un Channel
 
-¿No encuentra el channel que quiere? No se preocupe, vaya a `#request-a-channel` para solicitar la creación, el archivo o la eliminicación de un channel.
+¿No encuentra el channel que quiere? No se preocupe, vaya a `#meta-request-channel` para solicitar la creación, el archivo o la eliminicación de un channel.
 
 ## Introducción a Slack
 

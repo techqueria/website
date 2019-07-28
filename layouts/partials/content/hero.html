@@ -11,15 +11,13 @@
       <!-- Description -->
       <p class="subtitle">
         {{ if .Description }}
-          {{ .Description | truncate 150 | safeHTML }}
+          {{ .Description | safeHTML }}
         {{ else }}
           {{ .Summary | truncate 150 | safeHTML }}
         {{ end }}
       </p>
       <!-- More Info -->
       {{ partial "content/info.html" . }}
-      <!-- Author -->
-      {{ partial "custom/person.html" . }}
       <!-- Links -->
       {{ partial "content/links.html" . }}
     </div>
