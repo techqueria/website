@@ -1,5 +1,5 @@
 ---
-title: "devLatino Issue #5"
+title: "devLatino Issue 5"
 date: 2016-12-28
 description: "Developing Cloud Technologies that Interact with Hardware | Techqueria - Latinxs in Tech - Bay Area (San Francisco, CA) | Meetup"
 publication: "devLatino"
