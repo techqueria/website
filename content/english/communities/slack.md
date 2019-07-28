@@ -310,6 +310,21 @@ If you can't meet in person, we recommend using one of the following for video c
 
 Not finding a channel you want? No worries, head on over to `#meta-request-channel` to request the creation, archival or deletion of a channel.
 
+### Planning a local event?
+
+Let us know in `#meta` and we can showcase it on Meetup.com!
+
+Fill out the template below when requesting an event to be added.
+
+```txt
+*Name* Picnic Meetup
+*Date* 07/15/2019
+*Location* XYZ Restaurant - Apple Street - Oakland, CA
+*Details* We'll be by the XYZ sign - bring some food!
+*Image* https://pixabay.com/image.png or upload it
+*Meetup Member Profile URL* https://meetup.com/techqueria/members/123
+```
+
 ## Onboarding 🌺
 
 We use Aloha & Donut for onboarding.
