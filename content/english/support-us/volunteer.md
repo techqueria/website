@@ -188,7 +188,7 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
 
 ### Community Lead - Slack
 
-- **#request-a-channel**
+- **#meta-request-channel**
   - please review pinned posts before creating a channel
   - make sure members follow guidelines before deciding whether or not to create a new channel
   - we don&#39;t want to have too many channels where there is very little activity

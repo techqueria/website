@@ -3,7 +3,7 @@ title: Slack Workspace
 description: Learn about our Community Guidelines and request an invitation to our Slack community.
 identifier: fab fa-slack
 toc: true
-image: "/assets/img/slack/slack-banner.jpeg"
+image: "/assets/img/companies/slack.jpeg"
 aliases:
   - /slack/
   - /communities/slack/
@@ -15,11 +15,13 @@ To get an invite to our Slack Workspace with 3,500+ (as of June 2019) Latinx in 
 
 <a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
 
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below. You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
+As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
+
+You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
 
 You should get an invite within 2 weeks.
 
-If you don't get an invite by then, please email us at `organizers@techqueria.org`.
+If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
 ### Already a member?
 
@@ -66,7 +68,7 @@ We understand allyship is difficult (for everyone!), and we appreciate all the w
 
 ### Use threads
 
-This convo in the `#website` channel could have been 28 separate messages! 🤯
+This convo in the `#meta` channel could have been 28 separate messages! 🤯
 
 Instead, with threads - it turned into a more rich and focused discussion. 😌
 
@@ -77,6 +79,22 @@ Instead, with threads - it turned into a more rich and focused discussion. 😌
 A lot of useful info is pinned to channels.
 
 Make sure to check those out when joining a new channel. 📌
+
+### Custom Slackbot Messages
+
+If you use any of the trigger phrases, Slackbot will respond with a helpful message.
+
+`please use threads`
+
+Threads let you respond directly to a message in a channel, keeping the replies, images, and other files neatly organized in a single conversation. Threaded replies stay connected to the original message, and only those who have contributed to or are following the thread will be notified of new messages. :please-use-threads-next-time:
+
+`code of conduct`
+
+All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or send an email to `organizers@techqueria.org`. :techqueria-new: https://techqueria.org/code-of-conduct/
+
+`profile picture`, `profile photo`
+
+Your profile photo helps us know who you are in Slack. And if your photo is clear, it'll be easier for someone to pick you out in a crowd or at a Techqueria event. :blob-says-hi:
 
 ### Useful Reacjis
 
@@ -294,18 +312,25 @@ Not finding a channel you want? No worries, head on over to `#meta-request-chann
 
 ## Onboarding 🌺
 
-We use Aloha for onboarding.
+We use Aloha & Donut for onboarding.
+
+This way, folks get ramped up on Slack pretty quickly and the community is a whole lot more engaged and effective.
+
+If you have feedback on onboarding, let us know in the `#meta` channel.
 
 ### 0 minutes
 
-🌮 _Welcome to Techqueria_ 🌮
+```txt
+🌮 *Welcome to Techqueria* 🌮
 
 We're a community of Latinx professionals in the tech industry and we're so excited for you to be joining us!
 
 https://techqueria.org/
+```
 
 ### 1 minute
 
+```txt
 As part of onboarding, we'd love it if you uploaded a photo of yourself 🖼️ and completely filled out your profile on Slack. 📝
 
 > You can include useful information in your profile like what your current role is, where you are based, your personal website, LinkedIn, Twitter or GitHub. 🧠
@@ -315,21 +340,201 @@ As part of onboarding, we'd love it if you uploaded a photo of yourself 🖼️ 
 _Uploading a photo_ https://get.slack.help/hc/en-us/articles/115005506003
 
 _Filling out your profile_ https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
+```
 
-#### 2 minutes
+### 2 minutes
 
+```txt
 Now that you're situated, go ahead and introduce yourself in the #introductions channel so we can all _get to know who you are_! 🎉
 
 If you're an ally, please introduce yourself using the #allies channel. 😊
 
 > Below is a very brief template to help you get started 📝
 
-```txt
 Hola Techqueria! I'm _ and I'm currently working as a _ for _.
 
 I'm originally from _ and I am currently living in _.
 
 Happy to be here!
+```
+
+### 5 minutes
+
+```txt
+All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
+
+_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, send us an email using `organizers@techqueria.org` or even tweet us `@Techqueria` - we are here to help! 🌮
+
+https://techqueria.org/code-of-conduct/
+```
+
+### 10 minutes
+
+```txt
+You can learn how to get the most out of the Techqueria Slack Workspace through our _Slack Community Guidelines_ :slack:
+
+_Topics covered include_
+• the different types of channels you can join
+• best practices when using Slack
+• setting up a Techqueria themed sidebar
+• using our kudos app called HeyTaco
+• using and adding custom emoji
+• helpful resources if you're new to Slack
+• y mucho más
+
+https://techqueria.org/communities/slack/
+```
+
+### 20 minutes
+
+```txt
+Now that you've been using Slack for a little bit, *here are our top three recommendations*  :slack:
+
+1. Fill out your profile completely so it's easier to distinguish you in a channel
+
+https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
+
+2. Use threads for deeper discussions around specific topics or posts without clogging the rest of the channel 💬
+
+https://get.slack.help/hc/en-us/articles/115000769927-Message-and-file-threads
+
+3. When joining new channels, make sure to check the pinned items for useful information and tidbits 📌
+
+https://get.slack.help/hc/en-us/articles/205239997-Pin-messages-and-files
+```
+
+### 30 minutes
+
+```txt
+_Here at Techqueria, we use tacos to lift each other up_ 💛
+
+So whenever you'd like to add a little happiness to someone's day, just give them a taco and include a nice message, like this:
+
+`@username your positive attitude was a real help today! :taco:`
+
+> How HeyTaco works: https://www.heytaco.chat/how
+
+1. Every person in our Slack can give up to 5 tacos per day 5️⃣
+2. To give someone a taco, just add a taco emoji after their username 🌮
+3. You can give tacos to anyone on your team as long as the bot has invited to the channel and if the bot isn't in the channel yet, you can use `/invite @heytaco` to invite it 🤖
+4. There is a leaderboard (login with your Slack account) to see who is getting the most tacos at https://www.heytaco.chat/leaderboard 🏆
+5. If you need help, you can just DM @heytaco the word `help` and it will assist you :hey-taco:
+```
+
+### 40 minutes
+
+```txt
+:blob-peek-a-boo:
+
+_Make sure you uploaded a profile picture and filled out your profile_ 🖼️
+
+Your profile photo helps us know who you are in Slack. If your photo is clear, it'll be easier for someone to pick you out in a crowd at a Techqueria event!
+
+It's okay if you don't want to upload a photo of your face for privacy reasons. Just uploading any photo that defines you and differentiates you from others will really help - it can even be a sunflower. :sunflower:
+
+https://get.slack.help/hc/en-us/articles/115005506003-Upload-a-profile-photo
+
+https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
+```
+
+### 50 minutes
+
+```txt
+_Handy Slack Reacjis (aka Emoji Reactions) & What They Mean_ :slack:
+
+:thread: Please use threads next time
+
+:frame_with_picture: Please upload a profile picture
+
+:chill-out-with-the-posts: You should probably stop posting the same message so many times
+
+:switch-to-a-different-channel: You are probably posting to the wrong channel
+
+:eyes: I'm looking into this
+
+:white_check_mark: This issue was resolved
+
+:taco: You're awesome - have a taco
+
+_Joined any new channels yet? Did you not find the one you wanted?_ :slack:
+
+If you'd like to request a channel that doesn't already exist, check out #meta-request-channel ➕
+```
+
+### 1 hour
+
+```txt
+Alrighty, this will be the last onboarding message from us today as we do our best to cut down on interruptions 🌺
+
+_If you're interested, you can find more information about Techqueria on our website or through social media!_
+
+:globe_with_meridians: https://techqueria.org
+
+:twitter: https://twitter.com/techqueria
+
+:facebook: https://facebook.com/techqueria
+
+:linkedin: https://linkedin.com/company/techqueria
+
+:github: https://github.com/techqueria
+
+:patreon: https://www.patreon.com/techqueria
+```
+
+### 1 month
+
+```txt
+Congrats on your 1 month anniversary with the Techqueria community 🌮
+
+You guac our world! 🥑
+```
+
+### 3 months
+
+```txt
+Happy 3 month anniversary with Techqueria 🌮
+
+Orange you amazing?! 🍊
+```
+
+### 6 months
+
+```txt
+Congrats on your 6 month anniversary with the Techqueria community 🌮
+
+You're one in a melon! 🍈
+```
+
+### 1 year
+
+```txt
+Happy 1 year anniversary with Techqueria 🌮
+
+Looks like we make a great pear! 🍐
+```
+
+### 2 years
+
+```txt
+Congrats on your 2 year anniversary with the Techqueria community 🌮
+
+You're more than we avo hoped for! 🥑
+```
+
+### 3 years
+
+```txt
+Happy 3 year anniversary with Techqueria 🌮
+
+We're getting bananas for you! 🍌
+```
+
+### 4 years
+
+```txt
+Congrats on your 4 year anniversary with the Techqueria community 🌮
+
+This is just berry amazing! 🍓
 ```
 
 ## New to Slack? 🌱
@@ -354,19 +559,29 @@ Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/36000
 
 ## Questions, comments, or concerns? ℹ️
 
-If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, you can join these channels.
+If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, please join our `#meta` channel.
+
+Other related meta channels include:
 
 - `#meta`
   - Give feedback, ask questions, bring up concerns, etc
+- `#meta-donate-space`
+  - Form submissions from donate space page
+- `#meta-profile-pic`
+  - Messages reacted with :frame_with_picture:
+- `#meta-request-channel`
+  - Request a new channel
+- `#meta-volunteers`
+  - Form submissions from volunteer page
+- `#meta-website`
+  - Discussing & contributing to Techqueria website https://techqueria.org
+- `#meta-website-alerts`
+  - Automated activity feed from all our website integrations
 - `#twitter`
   - Automated feed of Twitter account activity
     - https://twitter.com/Techqueria
     - https://twitter.com/TechqueriaNYC
     - https://twitter.com/TechqueriaLA
-- `#meta-website`
-  - Discussing & contributing to Techqueria website https://techqueria.org
-- `#meta-website-alerts`
-  - Automated activity feed from all our website integrations
 
 ### Can I DM leads?
 

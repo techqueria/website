@@ -18,4 +18,4 @@ Techqueria is an all-volunteer organization that is made possible thanks to the 
 We also get a lot of help from the open source community - you can <a href="https://github.com/techqueria/website/graphs/contributors" rel="noopener" target="_blank">view our website contributors</a>
 on our website's GitHub repo.
 
-> Want to get involved? You can sign up to [become a volunteer](/volunteer)!
+> Want to get involved? You can sign up to [become a volunteer](/support-us/volunteer)!

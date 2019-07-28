@@ -1,6 +1,6 @@
 ---
 title: "Slack #jobs Channel"
-image: "/assets/img/slack/slack-banner.jpeg"
+image: "/assets/img/companies/slack.jpeg"
 description: Within the Techqueria community, we provide different resources to help our members advance their careers, whether it is to find a new job, negotiate, practice for interviews or find new employees.
 ---
 

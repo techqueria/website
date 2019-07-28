@@ -604,7 +604,7 @@ Please make a comment mentioning `@techqueria/admins` in your issue or PR and on
 
 ### Slack
 
-If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#website` channel for discussion and a `#website-gh` for GitHub notifications.
+If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
 
 ### Gitter
 
