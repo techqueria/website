@@ -341,7 +341,7 @@ The translation IDs must be the same in both `en.toml` and `es.toml`.
 # layouts/partials/base/footer/who-we-are.html
 
 [who_we_are_nonprofit]
-other = "Techqueria is a 501(c)(3) nonprofit serving the largest community for Latinx professionals in the tech industry."
+other = "Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry."
 ```
 
 > `site/i18n/es.toml`

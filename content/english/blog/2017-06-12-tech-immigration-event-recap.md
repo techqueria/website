@@ -2,7 +2,6 @@
 title: "Techqueria SF: Tech + Immigration, Event recap"
 date: 2017-06-12
 comments: true
-image: "/assets/img/logos/banner-logo-only.png"
 authors:
   - Francisco Gutierrez
 ---

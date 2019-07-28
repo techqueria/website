@@ -23,18 +23,9 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
   <div class="field">
     <label class="label">Name*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name" required>
+      <input class="input" aria-label="Name" autocomplete="name" type="text" name="name" placeholder="Your full name" required>
       <span class="icon is-left">
         ✒️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="noopener">Display Name</a>*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Slack Handle" autocomplete="on" type="text" name="slack" placeholder="@" required>
-      <span class="icon is-left">
-        💬
       </span>
     </div>
   </div>
@@ -42,9 +33,18 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
     <label class="label">Email*</label>
     <p class="help">Enter the email you used to sign up for our Slack.</p>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
+      <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
         ✉️
+      </span>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="noopener">Display Name</a>*</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Slack Handle" autocomplete="off" type="text" name="slack" placeholder="@" required>
+      <span class="icon is-left">
+        💬
       </span>
     </div>
   </div>

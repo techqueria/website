@@ -73,6 +73,15 @@ a,
   }
 }
 
+button,
+input,
+label,
+pre code,
+span,
+textarea {
+  font-size: inherit !important;
+}
+
 ol li img {
   margin: 2rem;
 }
