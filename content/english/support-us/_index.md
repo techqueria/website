@@ -18,7 +18,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
 
 > If you're interested in becoming an official sponsor or partner, please fill out the form below and we'll get back to you ASAP.
 
-<form name="Become a Supporter" method="POST" data-netlify="true">
+<form name="Become a Supporter" method="POST" data-netlify="true" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Supporter">
   <div class="field">
     <label class="label">Organization*</label>
@@ -59,7 +59,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div class="field">
     <label class="label">What does your maximum budget look like for sponsorship?</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Maximum Budget" type="number" name="max_budget" min="100" step="100" placeholder="">
+      <input class="input" aria-label="What does your maximum budget look like for sponsorship?" type="number" name="max_budget" min="100" step="100" placeholder="">
       <span class="icon is-left">
         💲
       </span>
@@ -68,7 +68,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div class="field">
     <label class="label">How did you hear about Techqueria?</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Referral" autocomplete="on" type="text" name="referral" placeholder="Twitter">
+      <input class="input" aria-label="How did you hear about Techqueria?" autocomplete="on" type="text" name="referral" placeholder="Twitter">
       <span class="icon is-left">
         🔍️
       </span>
@@ -77,7 +77,7 @@ Help us grow one of the largest Latinx in Tech communities by becoming a sponsor
   <div class="field">
     <label class="label">Anything else you'd like to add?</label>
     <div class="control">
-      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="3" name="message" id="message" placeholder=""></textarea>
+      <textarea class="textarea" aria-label="Anything else you'd like to add?" spellcheck="true" rows="3" name="message" id="message" placeholder=""></textarea>
     </div>
   </div>
   <div data-netlify-recaptcha="true"></div>

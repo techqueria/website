@@ -186,16 +186,16 @@ disqusShortname                      = "techqueria"
     url                              = "/donate/"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Contribute on Open Collective"
-    url                              = "https://opencollective.com/techqueria/"
+    name                             = "Contribute through Open Collective"
+    url                              = "https://opencollective.com/techqueria"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Contribute on Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
+    name                             = "Contribute through Patreon"
+    url                              = "https://www.patreon.com/techqueria"
 [[menu.main]]
     parent                           = "Donate"
-    name                             = "Our Patreon Supporters"
-    url                              = "/donate/patreon-supporters/"
+    name                             = "Contribute through Amazon Smile"
+    url                              = "https://smile.amazon.com/ch/83-2656715"
 
 # Resources
 [[menu.main]]
@@ -269,15 +269,15 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Become a Volunteer"
-    url                              = "/volunteer/"
+    url                              = "/support-us/volunteer/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Donate Space"
-    url                              = "/donate-space/"
+    url                              = "/support-us/donate-space/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Our Supporters"
-    url                              = "/supporters/"
+    url                              = "/support-us/supporters/"
 
 # Social Menu
 [[menu.social]]
@@ -442,11 +442,11 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Donar"
     name                             = "Contribuir en Patreon"
-    url                              = "https://www.patreon.com/techqueria/"
+    url                              = "https://www.patreon.com/techqueria"
 [[languages.es.menu.main]]
     parent                           = "Donar"
-    name                             = "Nuestros Partidarios de Patreon"
-    url                              = "/donate/patreon-supporters/"
+    name                             = "Contribuir en Amazon Smile"
+    url                              = "https://smile.amazon.com/ch/83-2656715/"
 
 # Resources
 [[languages.es.menu.main]]

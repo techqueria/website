@@ -45,6 +45,15 @@ Use the command `/admin` in [our Slack workspace](/slack/).
     </div>
   </div>
   <div class="field">
+    <label class="label">Organization*</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Organization" autocomplete="on" type="text" name="organization" placeholder="Your organization" required>
+      <span class="icon is-left">
+        🏢
+      </span>
+    </div>
+  </div>
+  <div class="field">
     <label class="label">Message</label>
     <div class="control">
       <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea>

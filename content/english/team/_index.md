@@ -7,6 +7,8 @@ aliases:
   - /team/
   - /organizers/
   - /people/
+  - /donate/patreon-supporters/
+  - /patreon-supporters/
 categories:
   - sitemap
 ---

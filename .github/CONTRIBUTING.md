@@ -275,7 +275,7 @@ When adding a new company, make sure to link their careers site and download an 
 ---
 title: "Braintree"
 description: "All-in-one solution to accept, process, and split payments in your mobile app or online"
-image: "/assets/img/sponsors/braintree.png"
+image: "/assets/img/companies/braintree.png"
 link: https://www.braintreepayments.com/careers
 ---
 ```

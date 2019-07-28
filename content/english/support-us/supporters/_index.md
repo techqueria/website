@@ -8,6 +8,9 @@ aliases:
   - /our-supporters/
   - /past-sponsors/
   - /past-supporters/
+  - /sponsors/supporters/
+  - /support-us/our-supporters/
+  - /support-us/supporters/
   - /supporters/
 ---
 

@@ -10,4 +10,5 @@ roles:
   - board-member
   - current-organizer
   - ceo
+  - core-supporter
 ---

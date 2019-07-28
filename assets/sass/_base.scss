@@ -57,4 +57,12 @@ form {
   textarea {
     font-size: inherit !important;
   }
+
+  &.form--centered {
+    margin: 0 auto;
+  }
+
+  .field {
+    margin-top: 1em;
+  }
 }
