@@ -1,4 +1,7 @@
 {{- range $index, $element := .Params.authors }}
 {{ if gt $index 0 }} & {{ end }}
-<a href="/team/{{ urlize . }}">{{ . }}</a>
+<p class="has-text-weight-light mt-sm is-size-7">
+  <span class="mr-sm">🖋</span>
+  Written by <a href="/team/{{ urlize . }}">{{ . }}</a>
+</p>
 {{ end }}

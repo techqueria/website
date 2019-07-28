@@ -24,7 +24,7 @@
         {{ if .Site.Taxonomies.categories.sitemap }}
           {{ range first 3 $pages }}
             <div class="column is-one-third-desktop is-full-touch">
-              {{ partial "content/card.html" . }}
+              {{ partial "content/card/card.html" . }}
             </div>
           {{ end }}
         {{ end }}
@@ -40,7 +40,7 @@
         {{ if .Site.Taxonomies.categories.sitemap }}
           {{ range first 3 (after 3 $pages) }}
             <div class="column is-one-third-desktop is-full-touch">
-              {{ partial "content/card.html" . }}
+              {{ partial "content/card/card.html" . }}
             </div>
           {{ end }}
         {{ end }}
@@ -56,7 +56,7 @@
         {{ if .Site.Taxonomies.categories.sitemap }}
           {{ range first 3 (after 6 $pages) }}
             <div class="column is-one-third-desktop is-full-touch">
-              {{ partial "content/card.html" . }}
+              {{ partial "content/card/card.html" . }}
             </div>
           {{ end }}
         {{ end }}
@@ -72,7 +72,7 @@
         {{ if .Site.Taxonomies.categories.sitemap }}
           {{ range first 3 (after 9 $pages) }}
             <div class="column is-one-third-desktop is-full-touch">
-              {{ partial "content/card.html" . }}
+              {{ partial "content/card/card.html" . }}
             </div>
           {{ end }}
         {{ end }}

@@ -3,8 +3,7 @@
     <div class="container">
       <!-- Title -->
       <h1 class="title">
-        {{ if .Params.partnerEvent }}Partner Event: {{ end }}
-        {{ .Title }}
+        {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
       </h1>
       <!-- Description -->
       <p class="subtitle">
@@ -16,7 +15,7 @@
         {{ end }}
       </p>
       <!-- Links -->
-      {{ partial "content/links.html" . }}
+      {{ partial "content/hero/hero-links.html" . }}
     </div>
   </div>
 </section>

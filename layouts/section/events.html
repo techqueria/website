@@ -1,23 +1,22 @@
 {{ define "main" }}
 <!-- Variables -->
-{{ $paginator := .Paginator.Pages }}
 {{ $pages := .Sections | union .Pages }}
 <!-- Upcoming Events-->
-{{ $upcomingEvents := where $paginator "Date" "ge" now }}
+{{ $upcomingEvents := where $pages "Date" "ge" now }}
 {{ $upcomingEventsAllNumber := 0 }}
 {{ $upcomingEventsAll := where $pages "Date" "ge" now }}
 {{ range $upcomingEventsAll }}
 {{ $upcomingEventsAllNumber = add $upcomingEventsAllNumber 1 }}
 {{ end }}
 <!-- Past Events -->
-{{ $pastEvents := where $paginator "Date" "lt" now }}
+{{ $pastEvents := where $pages "Date" "lt" now }}
 {{ $pastEventsAllNumber := 0 }}
 {{ $pastEventsAll := where $pages "Date" "lt" now }}
 {{ range $pastEventsAll }}
 {{ $pastEventsAllNumber = add $pastEventsAllNumber 1 }}
 {{ end }}
 <!-- Hero -->
-{{ partial "content/hero.html" . }}
+{{ partial "content/hero/hero.html" . }}
 <!-- Page -->
 <section class="section page">
   <div class="container">
@@ -31,7 +30,7 @@
       <h2>⏳️ {{ $upcomingEventsAllNumber }} upcoming {{ cond (eq $upcomingEventsAllNumber 1) "event" "events" }}</h2>
     </div>
     <div class="columns is-multiline">
-      {{ range $upcomingEvents.ByDate.Reverse }}
+      {{ range $upcomingEvents.ByDate }}
       {{ partial "content/child.html" . }}
       {{ end }}
     </div>
@@ -48,9 +47,6 @@
       {{ range $pastEvents.ByDate.Reverse }}
       {{ partial "content/child.html" . }}
       {{ end }}
-    </div>
-    <div class="mt-2">
-      {{ partial "content/paginator.html" . }}
     </div>
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}

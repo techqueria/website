@@ -3,7 +3,7 @@
   {{ $pastEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=past&text_format=plain&page=20&desc=true").results }}
   {{ $upcomingEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=upcoming&text_format=plain&page=20&desc=true").results }}
   <!-- Hero -->
-  {{ partial "content/hero.html" . }}
+  {{ partial "content/hero/hero.html" . }}
   <!-- Page -->
   <section class="section page">
     <div

@@ -32,6 +32,7 @@
   {{ if in .Params.locations "bay-area" }}Bay Area{{ end }}
   {{ if in .Params.locations "los-angeles" }}Los Angeles{{ end }}
   {{ if in .Params.locations "nyc" }}New York City{{ end }}
+  {{ if in .Params.locations "chicago" }}Chicago{{ end }}
 </p>
 {{ end }}
 <!-- Location -->
@@ -97,7 +98,7 @@
 {{ if ge $articlesFeaturedIn 1 }}
 <p class="has-text-weight-light mt-sm has-text-dark is-size-7">
   <span class="mr-sm">📰</span>
-  Featured in {{ $articlesFeaturedIn }} {{ cond (eq $articlesFeaturedIn 1) "article" "articles" }}
+  featured in {{ $articlesFeaturedIn }} {{ cond (eq $articlesFeaturedIn 1) "article" "articles" }}
 </p>
 {{ end }}
 <!-- Events author helped organize -->
@@ -112,7 +113,7 @@
 {{ if ge $eventsOrganized 1 }}
 <p class="has-text-weight-light mt-sm has-text-dark is-size-7">
   <span class="mr-sm">🗓</span>
-  Helped with {{ $eventsOrganized }} {{ cond (eq $eventsOrganized 1) "event" "events" }}
+  helped with {{ $eventsOrganized }} {{ cond (eq $eventsOrganized 1) "event" "events" }}
 </p>
 {{ end }}
 

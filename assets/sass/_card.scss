@@ -31,4 +31,18 @@
       margin-top: auto;
     }
   }
+
+  a.card-reset {
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  .card-content {
+    a {
+      text-decoration: none;
+    }
+  }
 }

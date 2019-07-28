@@ -1,12 +1,13 @@
 ---
 title: "Latinx Community Meet And Greet With Techqueria Latinas In Tech Nyc"
-location: New York, NY
-partnerEvent: true
 description: Techqueria and Latinas in Tech would like invite you to an evening of new friends, drinks, and food.
 date: 2018-08-16
 link: https://donyc.com/events/2018/8/16/latinx-community-meet-and-greet-with-techqueria-latinas-in-tech-nyc
+image: "/assets/img/events/2018-08-16.jpg"
+locations:
+  - "nyc"
 companies:
-  - "MailChimp"
+  - "Mailchimp"
 ---
 
 Techqueria and Latinas in Tech would like invite you to an evening of new friends, drinks, and food.

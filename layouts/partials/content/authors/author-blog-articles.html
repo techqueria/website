@@ -6,8 +6,9 @@
   <h2><span class="mr-sm">📝</span>{{ $blogArticlesNumber}} blog {{ cond (eq $blogArticlesNumber 1) "article" "articles" }} about this event</h2>
 </div>
 <div class="columns is-multiline">
+    {{ $blogPages := where $.Site.Pages "Section" "blog"}}
     {{ range $key, $value := .Params.blogArticles }}
-      {{ range $.Site.Pages }}
+      {{ range $blogPages }}
         {{ if eq .Title $value }}
           {{ partial "content/child.html" . }}
         {{ end }}

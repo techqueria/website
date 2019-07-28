@@ -1,9 +1,11 @@
 ---
 title: Latinx in eCommerce @ Walmart Labs
-location: San Francisco, CA
 description: Come network, engage with recruiters, and hear diverse professionals in eCommerce showcase their work at Walmart Labs Sunnyvale!
 date: 2018-04-24
+image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43029630%2F212374299091%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=2fa135cbb044375c6c70b3ea30ba598a
 link: https://www.eventbrite.com/e/latinx-in-ecommerce-walmart-labs-tickets-44786460509#
+locations:
+  - "bay-area"
 companies:
   - "Walmart Labs"
 ---

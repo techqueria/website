@@ -12,11 +12,13 @@
   <!-- Content -->
   <div class="mt-2 mb-2">
     <!-- Event or team member info -->
-    {{ partial "content/info.html" . }}
+    {{ partial "content/card/card-info.html" . }}
     <!-- Content with anchor links -->
     {{ partial "content/content.html" . }}
     <!-- Learn more link -->
-    {{ partial "content/learn-more-link.html" . }}
+    {{ if .Params.link }}
+      <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
+    {{ end }}
   </div>
 </div>
 {{ end }}
