@@ -78,11 +78,13 @@
     }
   }
 
-  .navbar-link:not(.is-arrowless):after, .select:not(.is-multiple):not(.is-loading):after {
+  .navbar-link:not(.is-arrowless):after,
+  .select:not(.is-multiple):not(.is-loading):after {
     border-radius: 0;
   }
 
-  .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
+  .navbar.is-spaced .navbar-dropdown,
+  .navbar-dropdown.is-boxed {
     transition: none;
     transform: none;
   }

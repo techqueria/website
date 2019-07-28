@@ -1,9 +1,9 @@
 .anchor-link {
-  font-size: 75%;
-  visibility: hidden;
-  color: $border;
   border-bottom: none !important;
+  color: $border;
+  font-size: 75%;
   text-decoration: none !important;
+  visibility: hidden;
 }
 
 h1:hover a,
