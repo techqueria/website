@@ -10,7 +10,7 @@
   </div>
   <div class="dropdown-menu" id="language-dropdown-menu" role="menu">
     <div class="dropdown-content">
-      {{ range .Translations }}
+      {{ range $.Site.Home.AllTranslations }}
       <a href="{{ .RelPermalink }}" class="dropdown-item">{{ .Language.LanguageName }}</a>
       {{ end }}
     </div>

@@ -1,47 +1,12 @@
 <!-- Twemoji -->
-<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.0"></script>
+<script src="https://twemoji.maxcdn.com/2/twemoji.min.js?11.0"></script>
 <!-- Custom JS -->
 <script src="/assets/js/app.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88917358-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', 'UA-88917358-1');
-
-</script>
+{{ partial "base/scripts/gtm" . }}
 <!-- Service Worker -->
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(registration => {
-        console.info('The service worker was registered! 🎉', registration);
-      }).catch(registrationError => {
-        console.error('The service worker registration failed. 😭️', registrationError);
-      });
-    });
-  }
-
-</script>
+{{ partial "base/scripts/service-worker" . }}
 <!-- HubSpot -->
-<!-- Start of HubSpot Embed Code -->
-<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5696300.js"></script> -->
-<!-- End of HubSpot Embed Code -->
 <!-- Sentry -->
-<script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" crossorigin="anonymous"></script>
-<script>
-  Sentry.init({
-    dsn: 'https://d4aeaabdae3546698a67ef730e6fbae7@sentry.io/1448036',
-    beforeSend(event, hint) {
-      // Check if it is an exception, and if so, show the report dialog
-      if (event.exception) {
-        Sentry.showReportDialog({ eventId: event.event_id });
-      }
-      return event;
-    }
-  });
-</script>
+{{ partial "base/scripts/sentry" . }}
+<!-- Phrase App -->

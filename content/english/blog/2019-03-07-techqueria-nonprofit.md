@@ -4,6 +4,8 @@ date: 2019-03-07
 description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 comments: true
 image: "/assets/img/blog/2019-03-07-nonprofit.png"
+authors:
+  - "Shashi Jain"
 ---
 
 We have a big announcement for you all today - Techqueria is now officially a 501c3 nonprofit! 🎉

@@ -7,18 +7,27 @@
 </div>
 {{ end }}
 <!-- Content -->
-{{ if .Content }}
 <div class="content">
-  <!-- Content -->
-  {{ if or (.Content) }}
   <div class="mt-2 mb-2">
-    <!-- Content with anchor links -->
-    {{ partial "content/content.html" . }}
+    <!-- Article info -->
+    {{ partial "content/card/card-info.html" . }}
   </div>
+  <!-- Content with anchor links -->
+  {{ partial "content/content.html" . }}
+  <!-- Learn more link -->
+  {{ if .Params.link }}
+  <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
   {{ end }}
 </div>
-{{ end }}
-<!-- Author Specific -->
-{{ partial "content/info-team-member.html" . }}
-{{ partial "content/author-articles.html" . }}
-{{ partial "content/author-featured.html" . }}
+<!-- Author - articles written -->
+{{ partial "content/authors/author-articles-written.html" . }}
+<!-- Author - articles featured in -->
+{{ partial "content/authors/author-featured.html" . }}
+<!-- Event - press articles -->
+{{ partial "content/authors/author-press-articles.html" . }}
+<!-- Event - blog articles -->
+{{ partial "content/authors/author-blog-articles.html" . }}
+<!-- Event - organizers -->
+{{ partial "content/authors/author-organizers.html" . }}
+<!-- Event - companies -->
+{{ partial "content/authors/author-companies.html" . }}

@@ -9,4 +9,5 @@ locations:
 roles:
   - current-organizer
   - board-member
+  - patreon-advocate
 ---

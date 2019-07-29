@@ -1,0 +1,19 @@
+<!-- Card has links -->
+{{ if or (.Params.photos) (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.authors) (.Params.link) }}
+<div class="card card-equal-height">
+  <!-- Content -->
+  <a class="card-reset" href="{{ .RelPermalink }}">
+    {{ partial "content/card/card-content.html" . }}
+  </a>
+  <!-- Links -->
+  {{ partial "content/card/card-links.html" . }}
+</div>
+<!-- Card does not have links -->
+{{ else }}
+<a href="{{ .RelPermalink }}">
+  <div class="card card-equal-height">
+    <!-- Content -->
+    {{ partial "content/card/card-content.html" . }}
+  </div>
+</a>
+{{ end }}

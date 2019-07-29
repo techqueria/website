@@ -1,7 +1,7 @@
 ---
 title: Promotores de Patreon
 description: Queremos dar reconomiento a nuestros promotores de Patreon por su apoyo económico.
-image: "/assets/img/patreon-supporters/patreon-supporters.jpg"
+image: "/assets/img/team/patreon-supporters.jpg"
 ---
 
 Muchísimas gracias a todos nuestros partidarios.

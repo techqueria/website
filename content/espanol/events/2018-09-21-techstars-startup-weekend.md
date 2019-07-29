@@ -1,7 +1,6 @@
 ---
 title: "Techstars Startup Weekend NYC | Latinx in Tech"
 date: 2018-09-21
-partnerEvent: true
 description: Join us for the 2nd annual Techstars Startup Weekend Latinx in Tech NYC!
 image: "/assets/img/events/2018-09-23.jpg"
 link: https://www.eventbrite.com/e/techstars-startup-weekend-nyc-latinx-in-tech-tickets-48652017494?discount=website#

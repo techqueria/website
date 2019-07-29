@@ -4,10 +4,13 @@ buildFuture                          = true
 copyright                            = "This work is licensed under MIT."
 enableEmoji                          = true
 enableRobotsTXT                      = true
+enableInlineShortcodes               = true
 footnoteReturnLinkContents           = "↩"
 metaDataFormat                       = "yaml"
 title                                = "Techqueria"
 publishDir                           = "dist"
+Paginate                             = 12
+PaginatePath                         = ""
 
 # Language
 languageCode                         = "en-US"
@@ -64,7 +67,8 @@ disqusShortname                      = "techqueria"
     locale                           = "en_US"
     default_content_language         = "en"
     google_site_verification         = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
-    # pinterest_domain_verification    =
+    phraseAppEnabled                 = true
+    phraseapp_key                    = "{{__phrase_%s__}}"
 
 # Social Links
 [social]
@@ -79,8 +83,8 @@ disqusShortname                      = "techqueria"
 # Permalinks
 [permalinks]
   blog                               = "/blog/:year/:month/:day/:title/"
-  testimonials                       = "/testimonials/:year/:month/:day/:title/"
   press                              = "/press/:year/:month/:day/:title/"
+  events                             = "/events/:year/:month/:day/:title/"
 
 # Author
 [author]

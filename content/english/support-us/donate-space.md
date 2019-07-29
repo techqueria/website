@@ -87,9 +87,9 @@ As a host, you commit to providing the following:
     </div>
   </div>
   <div class="field">
-    <label class="label">How did you first hear about Techqueria?</label>
+    <label class="label">How did you first hear about Techqueria?*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter">
+      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
       <span class="icon is-left">
         🔍️
       </span>

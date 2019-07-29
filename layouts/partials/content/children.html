@@ -1,24 +1,28 @@
 <!-- Children Pages -->
 <div class="columns is-multiline">
+  <!-- Defining Pages -->
+  {{ $paginator := .Paginator.Pages }}
+  <!-- Union -->
+  {{ $pages := $paginator | union (.Sections) }}
   <!-- Looping -->
   <!-- Sorting Option: Latest Posts First -->
   {{ if .Params.sortLatestFirst }}
-  {{ range (.Sections | union .Pages).ByDate.Reverse }}
+  {{ range $pages.ByDate.Reverse }}
   {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Sorting Option: Oldest Posts First -->
   {{ else if .Params.sortOldestFirst }}
-  {{ range (.Sections | union .Pages).ByDate }}
+  {{ range $pages.ByDate }}
   {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Sort By Location -->
   {{ else if .Params.sortByLocation }}
-  {{ range sort (.Sections | union .Pages) "Params.location" }}
+  {{ range sort $pages "Params.location" }}
   {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Default sorting option is By Title -->
   {{ else }}
-  {{ range (.Sections | union .Pages).ByTitle }}
+  {{ range $pages.ByTitle }}
   {{ partial "content/child.html" . }}
   {{ end }}
   {{ end }}

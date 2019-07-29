@@ -2,6 +2,7 @@
 title: "Help shape the future Techqueria"
 date: 2017-06-23
 comments: true
+image: "/assets/img/blog/2017-06-23.jpg"
 authors:
   - David Silva
 ---

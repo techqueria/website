@@ -106,6 +106,13 @@ gulp.task("clean", () => {
   return del(["dist"]);
 });
 
+// DEV & PROD: Move PDF
+gulp.task("pdf", () => {
+  return gulp
+    .src("./assets/pdf/**/*")
+    .pipe(gulp.dest("./dist/assets/pdf"));
+});
+
 // DEV & PROD: Server with browsersync
 const runServer = (options) => {
   browserSync.init({
@@ -128,9 +135,10 @@ const buildSite = (done, options, environment) => {
   }).on("close", (code) => {
     if (code === 0) {
       browserSync.reload();
+      browserSync.notify("Your changes were applied :)");
       done();
     } else {
-      browserSync.notify("Hugo build failed :(");
+      browserSync.notify("The Hugo build failed :(");
       done("Hugo build failed");
     }
   });
@@ -145,16 +153,16 @@ gulp.task("hugo-dev", (done) => buildSite(done, [], "dev"));
 
 gulp.task("hugo-preview", (done) => buildSite(done, hugoArgsPreview, "dev"));
 
-gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", (done) => {
+gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", "pdf", (done) => {
   runServer("hugo-dev");
   done();
 }));
 
-gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", (done) => {
+gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", "pdf", (done) => {
   runServer("hugo-preview");
   done();
 }));
-gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js"));
+gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js", "pdf"));
 
 // PRODUCTION
 gulp.task("hugo", (done) => buildSite(done, [], "prod"));

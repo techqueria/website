@@ -14,7 +14,7 @@
 
 [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
-[Techqueria](http://techqueria.org/) is a nonprofit representing the largest community for Latinx in Tech. 🌮
+[Techqueria](http://techqueria.org/) is a nonprofit serving the largest community for Latinx in Tech. 🌮
 
 This repo is where we host our open-source website and soon to be member hub.
 

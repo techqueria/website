@@ -53,6 +53,15 @@ Filling out the form below sends an email to [organizers@techqueria.org](mailto:
     </div>
   </div>
   <div class="field">
+    <label class="label">How did you first hear about Techqueria?*</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
+      <span class="icon is-left">
+        🔍️
+      </span>
+    </div>
+  </div>
+  <div class="field">
     <label class="label">Message</label>
     <div class="control">
       <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea>

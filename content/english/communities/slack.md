@@ -3,7 +3,7 @@ title: Slack Workspace
 description: Learn about our Community Guidelines and request an invitation to our Slack community.
 identifier: fab fa-slack
 toc: true
-image: "/assets/img/companies/slack.jpeg"
+image: "/assets/img/companies/slack.png"
 aliases:
   - /slack/
   - /communities/slack/

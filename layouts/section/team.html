@@ -1,83 +1,84 @@
 {{ define "main" }}
 <!-- Pages -->
 {{ $pages := (.Sections | union .Pages) }}
-<!-- Team Members -->
-<!-- Optimize this lol -->
-{{ $abi_munoz := $.Site.GetPage "/team/abi-munoz" }}
-{{ $andrea_cardona := $.Site.GetPage "/team/andrea-cardona" }}
-{{ $andrea_flores := $.Site.GetPage "/team/andrea-flores" }}
-{{ $angel_alvarado := $.Site.GetPage "/team/angel-alvarado" }}
-{{ $cj_joulain := $.Site.GetPage "/team/cj-joulain" }}
-{{ $dalia_icedo := $.Site.GetPage "/team/dalia-icedo" }}
-{{ $david_silva := $.Site.GetPage "/team/david-silva" }}
-{{ $dulce_villarreal := $.Site.GetPage "/team/dulce-villarreal" }}
-{{ $esteban_uribe := $.Site.GetPage "/team/esteban-uribe" }}
-{{ $felipe_ventura := $.Site.GetPage "/team/felipe-ventura" }}
-{{ $frances_coronel := $.Site.GetPage "/team/frances-coronel" }}
-{{ $francisco_gutierrez := $.Site.GetPage "/team/francisco-gutierrez" }}
-{{ $hector_carmona := $.Site.GetPage "/team/hector-carmona" }}
-{{ $josue_bustos := $.Site.GetPage "/team/josue-bustos" }}
-{{ $kevin_hernandez := $.Site.GetPage "/team/kevin-hernandez" }}
-{{ $kimberly_munoz := $.Site.GetPage "/team/kimberly-munoz" }}
-{{ $maritza_alas := $.Site.GetPage "/team/maritza-alas" }}
-{{ $pia_zaragoza := $.Site.GetPage "/team/pia-zaragoza" }}
-{{ $rubi_sanchez := $.Site.GetPage "/team/rubi-sanchez" }}
-{{ $shashi_jain := $.Site.GetPage "/team/shashi-jain" }}
-{{ $vanessa_jimenez := $.Site.GetPage "/team/vanessa-jimenez" }}
 <!-- Hero -->
-{{ partial "content/hero.html" . }}
+{{ partial "content/hero/hero.html" . }}
 <!-- Page -->
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
-    {{ partial "custom/breadcrumbs.html" . }}
+    {{ partial "content/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
+    <!-- TODO: Optimize to be more efficient -->
     <!-- Executive Team -->
     <div class="content mt-2">
       <h2>Executive Team</h2>
     </div>
     <div class="columns is-multiline">
-      {{ partial "content/child.html" $felipe_ventura }}
-      {{ partial "content/child.html" $frances_coronel }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
     </div>
     <!-- Board of Directors -->
     <div class="content mt-2">
       <h2>Board of Directors</h2>
     </div>
     <div class="columns is-multiline">
-      {{ partial "content/child.html" $shashi_jain }}
-      {{ partial "content/child.html" $andrea_flores }}
-      {{ partial "content/child.html" $david_silva }}
-      {{ partial "content/child.html" $esteban_uribe }}
-      {{ partial "content/child.html" $felipe_ventura }}
-      {{ partial "content/child.html" $frances_coronel }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/shashi-jain") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/andrea-flores") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/david-silva") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/esteban-uribe") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
     </div>
     <!-- Active Volunteers -->
     <div class="content mt-2">
       <h2>Active Team Members</h2>
     </div>
     <div class="columns is-multiline">
-      {{ partial "content/child.html" $andrea_cardona }}
-      {{ partial "content/child.html" $angel_alvarado }}
-      {{ partial "content/child.html" $dulce_villarreal }}
-      {{ partial "content/child.html" $maritza_alas }}
-      {{ partial "content/child.html" $pia_zaragoza }}
-      {{ partial "content/child.html" $vanessa_jimenez }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/andrea-cardona") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/angel-alvarado") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/dulce-villarreal") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/maritza-alas") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/pia-zaragoza") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/vanessa-jimenez") }}
+    </div>
+    <!-- Active Patreon Supporters -->
+    <div class="content mt-2">
+      <h2>Active Patreon Supporters</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/esteban-uribe") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/giovanni-bryden") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/javier-lopez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/krystal-flores") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/liliana-a-monge") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/tonatiuh-ramos") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/xande-macedo") }}
     </div>
     <!-- Past Team Members -->
     <div class="content mt-2">
       <h2>Past Team Members</h2>
     </div>
     <div class="columns is-multiline">
-      {{ partial "content/child.html" $abi_munoz }}
-      {{ partial "content/child.html" $cj_joulain }}
-      {{ partial "content/child.html" $dalia_icedo }}
-      {{ partial "content/child.html" $francisco_gutierrez }}
-      {{ partial "content/child.html" $hector_carmona }}
-      {{ partial "content/child.html" $josue_bustos }}
-      {{ partial "content/child.html" $kevin_hernandez }}
-      {{ partial "content/child.html" $rubi_sanchez }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/abi-munoz") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/cj-joulain") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/dalia-icedo") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/francisco-gutierrez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/hector-carmona") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/josue-bustos") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/kevin-hernandez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/kimberly-munoz") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/rubi-sanchez") }}
+    </div>
+    <!-- Past Patreon Supporters -->
+    <div class="content mt-2">
+      <h2>Past Patreon Supporters</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/henri-idrovo") }}
     </div>
     <!-- Content Footer -->
     <div class="content">

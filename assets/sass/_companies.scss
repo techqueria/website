@@ -1,0 +1,36 @@
+.c-companies {
+  column-count: 3;
+  line-height: 0;
+
+  .card-image {
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  img {
+    @extend %image-shadow;
+    border-radius: 1rem;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  a {
+    &:hover {
+      img {
+        @extend %darker-shadow;
+      }
+    }
+  }
+
+  @media (max-width: $laptop) {
+    column-count: 3;
+  }
+
+  @media (max-width: $tablet) {
+    column-count: 2;
+  }
+
+  @media (max-width: $mobile) {
+    column-count: 1;
+  }
+}

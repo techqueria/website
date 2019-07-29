@@ -1,9 +1,15 @@
 ---
 title: How to Vocalize Your Achievements
-location: San Francisco, CA
 description: "Join fellow Techqueria ladies and other underrepresented women in tech for a free #IAmRemarkable workshop led by the amazing Career Success Coach Maria Eleanora."
 date: 2018-03-27
-link: https://www.eventbrite.com/e/how-to-vocalize-your-achievements-a-free-workshop-for-underrepresented-women-in-tech-tickets-44244068199#
+link: http://tech.adroll.com/events/2018-03-27-17-30-techqueria-workshop/
+image: "/assets/img/events/2018-03-27/2018-03-27-1.jpeg"
+locations:
+  - "bay-area"
+companies:
+  - "AdRoll"
 ---
 
-http://tech.adroll.com/events/2018-03-27-17-30-techqueria-workshop/
+![Picture 1](/assets/img/events/2018-03-27/2018-03-27-2.jpeg)
+
+![Picture 2](/assets/img/events/2018-03-27/2018-03-27-3.jpeg)

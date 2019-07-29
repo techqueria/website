@@ -3,5 +3,5 @@ title: Instagram
 description: Photos galore.
 identifier: fab fa-instagram
 link: https://instagram.com/techqueriaorg
-image: "/assets/img/companies/instagram.jpg"
+image: "/assets/img/companies/instagram.png"
 ---

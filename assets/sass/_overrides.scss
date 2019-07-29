@@ -86,3 +86,8 @@ ol li img {
   margin: 2rem;
 }
 
+.navbar.is-spaced .navbar-dropdown,
+.navbar-dropdown.is-boxed {
+  transform: none;
+  transition: none;
+}
