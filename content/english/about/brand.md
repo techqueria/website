@@ -148,7 +148,7 @@ $techqueria-brown-dark: #46352f;
 
 [Rubik font](https://fonts.google.com/specimen/Rubik) is used for the website.
 
-Our logos use [Source San Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Rubik](https://fonts.google.com/specimen/Rubik) with a plan in progress to use Rubik for all our logos in the future.
+TODO: Our logos use [Source San Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Rubik](https://fonts.google.com/specimen/Rubik) with a plan in progress to use Rubik for all our logos in the future.
 
 ## Photography
 

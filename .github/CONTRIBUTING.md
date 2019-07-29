@@ -17,16 +17,15 @@
   - [Tools](#tools)
   - [Platforms](#platforms)
   - [Languages](#languages)
-  - [Coding Guidelines](#coding-guidelines)
-    - [File Size](#file-size)
-  - [Adding Images](#adding-images)
-  - [Content Updates](#content-updates)
-    - [People](#people)
-      - [Team](#team)
-      - [Patreon Supporters](#patreon-supporters)
-    - [Companies](#companies)
-    - [Blog Posts](#blog-posts)
-    - [Resources](#resources)
+  - [File Size](#file-size)
+  - [Special Characters](#special-characters)
+  - [Images](#images)
+  - [Team Members](#team-members)
+  - [Events](#events)
+  - [Companies](#companies)
+  - [Adding blog posts](#adding-blog-posts)
+  - [Adding press articles](#adding-press-articles)
+  - [Resources](#resources)
   - [Translations](#translations)
     - [How to translate content](#how-to-translate-content)
       - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#option-1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
@@ -192,15 +191,19 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 - TOML
 - JSON
 
-### Coding Guidelines
-
-#### File Size
+### File Size
 
 For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "content/breadcrumbs.html" . }}`.
 
 If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 
-### Adding Images
+### Special Characters
+
+If there is a special character in the text, make sure to use double quotes.
+
+However, "#" is not allowed in titles under any circumstances. 🤷🏽‍♂️
+
+### Images
 
 All images should be added to `assets/img` within the relevant folder.
 
@@ -208,105 +211,150 @@ If there is not a relevant directory, please create one.
 
 We do have automated image optimization but feel free to compress the image locally as well.
 
-### Content Updates
+While it is easier to just link images, we highly recommend downloading images and adding them locally.
 
-If there is a special character in the text, make sure to use double quotes.
+For optimal display, we recommend making images 1000px wide and 500px high.
 
-#### People
+### Team Members
 
-When adding a new person, make sure to use their LinkedIn profile as the URL and download their LinkedIn profile picture so we can host it locally.
+When adding a new person, make sure to use their LinkedIn profile as the URL and find a high-res photo of them so we can host it locally.
 
-##### Team
-
-> `content/english/team/frances-coronel.md`
+> Example: `content/english/team/frances-coronel.md`
 
 ```markdown
 ---
 title: Frances Coronel
-description: Software Engineer at Slack
 image: "/assets/img/team/frances-coronel.jpg"
+description: "Software Engineer, Slack"
 linkedin: fvcproductions
+twitter: fvcproductions
+github: fvcproductions
+flag: 🇵🇪
 locations:
-  - austin
   - bay-area
-  - los-angeles
-  - nyc
 roles:
   - board-member
-  - ceo
-  - co-founder
-  - cto
   - current-organizer
-  - past-board-member
-  - past-organizer
+  - cto
+  - patreon-friend
 ---
 ```
 
-##### Patreon Supporters
+Note that you only need usernames for LinkedIn, Twitter & GitHub profiles.
 
-> `content/english/donate/patreon-supporters/liliana-a-monge.md`
+The flag identifies the heritage of the member and is optional.
+
+Location can be `bay-area`, `nyc`, `los-angeles`, `austin` and `chicago`.
+
+TODO: The roles and location will eventually be moved to `categories` in the future but currently they help showcase the different roles of the team members without having to manually repeat any strings.
+
+### Events
+
+Techqueria has hosted quite a lot of events!
+
+Once we finalize the date for an event, that's a good time to add it in.
+
+> Example: `content/english/events/2019-06-19-lyft.md`
+
+Please format file name as `year-month-day-event-name.md`.
 
 ```markdown
 ---
-title: Liliana A Monge
-description: Co-Founder & CEO
-image: "/assets/img/team/liliana-a-monge.jpg"
-linkedin: lilianamonge
-tier: "Core - $25 or more per month"
+title: "Techqueria @ Lyft"
+description: Join us for an evening with Lyft and Techqueria! We'll be talking about skills to advance into senior & leadership roles.
+date: 2019-06-19
+link: https://lyftxtechqueria.splashthat.com/
+image: "/assets/img/events/2019-06-19-lyft.jpg"
+photos: https://photos.app.goo.gl/5Ye8FhbV1B1SrxFH6
+locations:
+  - "bay-area"
+aliases:
+  - /events/2019/06/19/techqueria-lyft/
+companies:
+  - "Lyft"
+organizers:
+  - "Felipe Ventura"
+  - "Frances Coronel"
+  - "Dulce Villarreal"
+  - "Jonathan De la Paz"
+pressArticles:
+  - "Techqueria: Building a community for Latinos in tech industry"
 ---
 ```
 
-> Tier Options for Patreon
+The important keys to note here are `companies`, `organizers` and `pressArticles`.
 
-- Friend - \$1 or more per month
-- Supporter - \$5 or more per month
-- Advocate - \$10 or more per month
-- Core - \$25 or more per month
-- Patron - \$50 or more per month
-- Champion - \$100 or more per month
+Each coincides with the title of another Markdown file representing said entity.
 
-#### Companies
+This makes it easy to relate an organizer with an event, a company with an event, an event with a press article and so on.
+
+### Companies
 
 When adding a new company, make sure to link their careers site and download an appropriate logo image so we can host it locally.
 
-> `content/english/support-us/supporters/braintree.md`
+The image for companies MUST be 1000px wide and 500 px high in order to display correctly.
+
+> Example: `content/english/support-us/supporters/braintree.md`
 
 ```markdown
 ---
-title: "Braintree"
-description: "All-in-one solution to accept, process, and split payments in your mobile app or online"
-image: "/assets/img/companies/braintree.png"
-link: https://www.braintreepayments.com/careers
+title: Slack
+description: Slack is where work happens.
+image: "/assets/img/companies/slack.png"
+link: https://slack.com/careers
 ---
 ```
 
-#### Blog Posts
+### Adding blog posts
 
-Make sure to always turn comments on and add or reference a person as the author.
+Make sure to always turn comments on and add or reference a person from the `/team` page as the author so they can get proper credit.
 
-> `content/english/blog/2016-07-19-community-building.md`
+> Example: `content/english/blog/2016-07-19-community-building.md`
 
 ```markdown
 ---
-title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
+title: "Techqueria is now officially a 501c3 nonprofit!"
+date: 2019-03-07
+description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 comments: true
-date: 2016-07-19
+image: "/assets/img/blog/2019-03-07-nonprofit.png"
 authors:
-  - CJ Joulain
+  - "Shashi Jain"
 ---
 ```
 
-#### Resources
+### Adding press articles
+
+> Example: `content/english/press/2019-07-18-el-tecolote.md`
+
+```txt
+---
+title: "Techqueria: Building a community for Latinos in tech industry"
+date: 2019-07-18
+description: "Techqueria, an organization for Latinos in tech, was founded in Berkeley back in November 2015 with the purpose of serving those who were studying or pursuing a career in tech."
+publication: "El Tecolote"
+image: "/assets/img/press/2019-07-18-el-tecolote.jpg"
+link: http://eltecolote.org/content/en/features/techqueria-building-a-community-for-latinos-in-tech-industry/
+featuring:
+  - Felipe Ventura
+---
+```
+
+You can add which team members are featured in the press article.
+
+TODO: In the future, we would like to set up the publications so we can display them in a cool way like with the companies.
+
+### Resources
 
 You can add a new resource to a bunch of different categories like career, nonprofits, healthcare, immigration, etc.
 
-> `content/english/resources/nonprofits/slack-for-non-profits.md`
+> Example: `content/english/resources/nonprofits/slack-for-non-profits.md`
 
 ```markdown
 ---
-title: "Slack for Nonprofits"
-image: "/assets/img/resources/nonprofits/slack.png"
-description: "The Slack for Nonprofits program offers eligible organizations a free or discounted upgrade of one workspace to a paid plan."
+title: Slack for Nonprofits
+image: "/assets/img/resources/slack.png"
+description: The Slack for Nonprofits program offers eligible organizations a free or discounted upgrade of one workspace to a paid plan.
 link: https://get.slack.help/hc/en-us/articles/204368833-Slack-for-Nonprofits
 ---
 ```
