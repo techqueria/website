@@ -126,6 +126,15 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
     </div>
   </div>
   <div class="field">
+    <label class="label">How did you first hear about Techqueria?*</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
+      <span class="icon is-left">
+        🔍️
+      </span>
+    </div>
+  </div>
+  <div class="field">
     <label class="label">What chapter are you interested in volunteering for?*</label>
     <div class="control">
       <label class="radio">
