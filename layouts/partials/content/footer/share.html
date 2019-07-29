@@ -1,4 +1,3 @@
-<hr>
 <!-- Set Title Variable -->
 {{ $pageTitle := .Title }}
 {{ if .IsHome }}
@@ -7,7 +6,7 @@
 {{ $pageTitle = (print .Title " | " .Site.Title) }}
 {{ end }}
 <!-- Share -->
-<div class="content">
+<div class="content mt-2">
   <h2>Share this page 🌐</h2>
 </div>
 <div class="buttons">
@@ -37,6 +36,6 @@
     <span class="icon is-medium">
       <i class="fas fa-envelope"></i>
     </span>
-    <span>Email this</span>
+    <span>Email</span>
   </a>
 </div>

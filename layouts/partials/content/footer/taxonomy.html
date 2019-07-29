@@ -1,6 +1,8 @@
 {{ if or (.Params.categories) (.Params.tags) }}
-<hr>
-<div class="tags">
+<div class="content mt-2">
+  <h2>Categories & Tags 📂</h2>
+</div>
+<div class="tags are-medium">
   <!-- Categories -->
   {{ range $category := .Params.categories }}
   <a class="tag is-link" href="/categories/{{ $category | urlize }}/" title="{{ $category }}">{{ $category }}</a>

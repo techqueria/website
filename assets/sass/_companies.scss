@@ -1,0 +1,46 @@
+.c-companies {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  column-count: 3;
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 1rem;
+    @extend %image-shadow;
+  }
+
+  a {
+    &:hover {
+      img {
+        @extend %darker-shadow;
+      }
+    }
+  }
+
+  @media (max-width: $laptop) {
+    .c-companies {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .c-companies {
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .c-companies {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1;
+    }
+  }
+}

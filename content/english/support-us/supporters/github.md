@@ -2,5 +2,13 @@
 title: GitHub
 description: Building the tools that make collaborating and writing software easier for everyone
 link: https://github.com/about/careers
-image: https://cdn-images-1.medium.com/max/2000/1*CmjmgiI3Sr6oByNZ81pkhQ.jpeg
+image: "/assets/img/companies/github.png"
+aliases:
+  - /support-us/supporters/github-universe/
 ---
+
+With GitHub Universe one month away we are excited to announce our 2017 Community Partners!
+
+https://githubuniverse.com/2017/after-party/
+
+https://githubuniverse.com/2017/viewing-parties/

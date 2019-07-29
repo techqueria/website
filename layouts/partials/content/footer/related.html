@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ if ge $related 3 }}
-<hr>
-<div class="content">
+
+<div class="content mt-2">
   <h2>Related Posts 💭</h2>
   <div class="columns is-multiline">
     {{ range $related }}

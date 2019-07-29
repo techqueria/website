@@ -7,11 +7,11 @@
 </div>
 {{ end }}
 <!-- Content -->
-{{ if or (.Content) (.Params.roles) (.Params.link) }}
 <div class="content">
-  <!-- Content -->
-  <!-- Event or team member info -->
-  {{ partial "content/card/card-info.html" . }}
+  <div class="mt-2 mb-2">
+    <!-- Article info -->
+    {{ partial "content/card/card-info.html" . }}
+  </div>
   <!-- Content with anchor links -->
   {{ partial "content/content.html" . }}
   <!-- Learn more link -->
@@ -19,7 +19,6 @@
   <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
   {{ end }}
 </div>
-{{ end }}
 <!-- Author - articles written -->
 {{ partial "content/authors/author-articles-written.html" . }}
 <!-- Author - articles featured in -->

@@ -2,7 +2,7 @@
 title: "Tech Jobs Tour"
 description: "This tour will bring together diverse and non-traditional talent with companies who need their skills the most."
 link: https://techjobstour.com/tour-cities/chicago2018/
-image: https://techjobstour.com/wp-content/uploads/2017/05/sfphoto.png
+image: "/assets/img/companies/tech-jobs-tour.png"
 ---
 
 This tour will bring together diverse and non-traditional talent with companies who need their skills the most.
