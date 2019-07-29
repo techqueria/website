@@ -32,7 +32,7 @@
     }
   }
 
-  a.card-reset {
+  .card-reset {
     color: inherit;
 
     &:hover {
@@ -40,9 +40,7 @@
     }
   }
 
-  .card-content {
-    a {
-      text-decoration: none;
-    }
+  .card-content a {
+    text-decoration: none;
   }
 }
