@@ -10,16 +10,14 @@
 {{ if or (.Content) (.Params.roles) (.Params.link) }}
 <div class="content">
   <!-- Content -->
-  <div class="mt-2 mb-2">
-    <!-- Event or team member info -->
-    {{ partial "content/card/card-info.html" . }}
-    <!-- Content with anchor links -->
-    {{ partial "content/content.html" . }}
-    <!-- Learn more link -->
-    {{ if .Params.link }}
-      <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
-    {{ end }}
-  </div>
+  <!-- Event or team member info -->
+  {{ partial "content/card/card-info.html" . }}
+  <!-- Content with anchor links -->
+  {{ partial "content/content.html" . }}
+  <!-- Learn more link -->
+  {{ if .Params.link }}
+  <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
+  {{ end }}
 </div>
 {{ end }}
 <!-- Author - articles written -->

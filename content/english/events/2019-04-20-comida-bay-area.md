@@ -1,5 +1,5 @@
 ---
-title: "Comida Bay Area #2"
+title: "Comida Bay Area 2"
 link: https://www.meetup.com/techqueria/events/260376440/
 date: 2019-04-20
 description: "Techqueria's #comida-bay-area group is meeting up this Saturday! Join us to mingle with a friendly group of Latinx in Tech and enjoy some delicious food too."
