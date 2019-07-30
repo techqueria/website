@@ -5,7 +5,7 @@ description: "Software Engineer, Way2B1"
 linkedin: fvntr
 twitter: fvntr
 github: fvntr
-flag: 🇩🇴
+flag: 🇩🇴🇨🇴
 locations:
   - bay-area
 roles:

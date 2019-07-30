@@ -4,4 +4,8 @@
   @media screen and (max-width: $tablet) {
     padding: 1.5rem;
   }
+
+  &.page {
+    padding-top: 2rem;
+  }
 }
