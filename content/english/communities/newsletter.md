@@ -13,7 +13,6 @@ aliases:
 <div id="mc_embed_signup">
   <form action="https://techqueria.us16.list-manage.com/subscribe/post?u=b0e4bfe18a46d5bef899fb312&amp;id=0e1710b6ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-      <h2>Subscribe to our mailing list</h2>
       <div class="field">
         <label class="label" for="mce-EMAIL">Email
         </label>

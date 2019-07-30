@@ -72,6 +72,7 @@
 {{- end }}
 {{- end }}
 <!-- Articles author wrote -->
+<!--
 {{ $articlesWritten := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
@@ -79,14 +80,15 @@
 {{ $articlesWritten = add $articlesWritten 1 }}
 {{ end }}
 {{ end }}
-<!-- Paragraph - Articles author wrote -->
 {{ if ge $articlesWritten 1 }}
 <p class="has-text-weight-light mt-sm has-text-dark is-size-7">
   <span class="mr-sm">📝</span>
   {{ $articlesWritten }} {{ cond (eq $articlesWritten 1) "article" "articles" }} written
 </p>
 {{ end }}
+-->
 <!-- Articles author was featured in -->
+<!--
 {{ $articlesFeaturedIn := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
@@ -94,14 +96,15 @@
 {{ $articlesFeaturedIn = add $articlesFeaturedIn 1 }}
 {{ end }}
 {{ end }}
-<!-- Paragraph - Articles author was featured in -->
 {{ if ge $articlesFeaturedIn 1 }}
 <p class="has-text-weight-light mt-sm has-text-dark is-size-7">
   <span class="mr-sm">📰</span>
   featured in {{ $articlesFeaturedIn }} {{ cond (eq $articlesFeaturedIn 1) "article" "articles" }}
 </p>
 {{ end }}
+-->
 <!-- Events author helped organize -->
+<!--
 {{ $eventsOrganized := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
@@ -109,8 +112,6 @@
 {{ $eventsOrganized = add $eventsOrganized 1 }}
 {{ end }}
 {{ end }}
-<!-- Paragraph - Events author helped organize -->
-<!--
 {{ if ge $eventsOrganized 1 }}
   <p class="has-text-weight-light mt-sm has-text-dark is-size-7">
   <span class="mr-sm">🗓</span>

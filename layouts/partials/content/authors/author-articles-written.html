@@ -11,7 +11,7 @@
 <!-- Articles by author -->
 {{ if $articlesWritten }}
 <div class="content mt-2">
-  <h2>{{ $articlesWrittenNumber }} {{ cond (eq $articlesWrittenNumber 1) "article" "articles" }} written</h2>
+  <h2><span class="mr-sm">📝</span>{{ $articlesWrittenNumber }} {{ cond (eq $articlesWrittenNumber 1) "article" "articles" }} written</h2>
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}
