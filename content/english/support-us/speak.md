@@ -62,7 +62,7 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
   <div class="field">
     <label class="label">Personal Website</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Personal Website" autocomplete="off" type="text" name="ebsite" placeholder="https://techqueria.org">
+      <input class="input" aria-label="Personal Website" autocomplete="off" type="text" name="website" placeholder="https://techqueria.org">
       <span class="icon is-left">
         🌐
       </span>
