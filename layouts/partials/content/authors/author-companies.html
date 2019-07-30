@@ -24,7 +24,7 @@
 {{ if .Params.companies }}
 {{ $eventCompanyNumber := len .Params.companies }}
 <div class="content mt-2">
-  <h2><span class="mr-sm">🏢</span>{{ $eventCompanyNumber}} {{ cond (eq $eventCompanyNumber 1) "company" "companies" }} involved</h2>
+  <h2><span class="mr-sm">✨</span>{{ $eventCompanyNumber}} {{ cond (eq $eventCompanyNumber 1) "company" "companies" }} involved</h2>
 </div>
 <section class="c-companies">
   {{ $companyPages := where $.Site.Pages "Section" "support-us"}}

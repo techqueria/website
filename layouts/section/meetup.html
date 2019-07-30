@@ -15,12 +15,7 @@
       <!-- Upcoming Events -->
       {{ if (len $upcomingEventsMeetup) "ge" 1 }}
         <div class="content mt-2">
-          <h2>⏳️
-            {{ len $upcomingEventsMeetup }}
-            Upcoming
-            {{ if gt (len $upcomingEventsMeetup) 1 }}Events{{ else }}Event
-            {{ end }}
-          </h2>
+          <h2><span class="mr-sm">⏳️</span>{{ len $upcomingEventsMeetup }} Upcoming {{ if gt (len $upcomingEventsMeetup) 1 }}Events{{ else }}Event{{ end }}</h2>
         </div>
         <div class="columns is-multiline">
           {{ range $upcomingEventsMeetup }}
@@ -30,9 +25,7 @@
       {{ end }}
       <!-- Past Events -->
       <div class="content mt-2">
-        <h2>⌛️
-          {{ len $pastEventsMeetup }}
-          Past Events</h2>
+        <h2><span class="mr-sm">⌛️</span>{{ len $pastEventsMeetup }} Past Events</h2>
       </div>
       <div class="columns is-multiline">
         {{ range $pastEventsMeetup }}

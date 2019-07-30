@@ -272,6 +272,10 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/"
 [[menu.main]]
     parent                           = "Support Us"
+    name                             = "Become a Speaker"
+    url                              = "/support-us/speak/"
+[[menu.main]]
+    parent                           = "Support Us"
     name                             = "Become a Volunteer"
     url                              = "/support-us/volunteer/"
 [[menu.main]]
@@ -281,7 +285,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Our Supporters"
-    url                              = "/support-us/supporters/"
+    url                              = "/supporters/"
 
 # Social Menu
 [[menu.social]]
@@ -527,7 +531,7 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Apoyanos"
     name                             = "Nuestros Partidarios"
-    url                              = "/support-us/supporters/"
+    url                              = "/supporters/"
 
 [[languages.es.menu.social]]
     name                             = "LinkedIn"

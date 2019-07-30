@@ -96,7 +96,7 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
 > Before filling out the form below, please [make sure you have already joined our Slack community](/communities/slack/) as we will be reaching out through there.
 
 <form name="Volunteer" method="POST" data-netlify="true" class="form--centered">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Volunteer">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
   <div class="field">
     <label class="label">Name*</label>
     <div class="control has-icons-left">
@@ -108,7 +108,6 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
   </div>
   <div class="field">
     <label class="label">Email*</label>
-    <p class="help">Enter the email you used to sign up for our Slack.</p>
     <div class="control has-icons-left">
       <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
