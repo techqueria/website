@@ -27,6 +27,10 @@
   a {
     text-decoration: underline;
 
+    &.button {
+      text-decoration: none;
+    }
+
     img {
       @extend %image-shadow;
       display: inline-block;

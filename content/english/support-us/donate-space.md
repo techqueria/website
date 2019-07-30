@@ -100,17 +100,17 @@ As a host, you commit to providing the following:
     <p class="help">You can request an invite at <a href="https://techqueria.org/communities/slack">https://techqueria.org/communities/slack</a></p>
     <div class="control">
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack-workspace" value="Yes">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Yes">
         Yes
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack-workspace" value="No">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="No">
         No
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack-workspace" value="Request an invite">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Requested an invite">
         Requested an invite
       </label>
     </div>

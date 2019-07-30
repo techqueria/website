@@ -96,7 +96,7 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
 > Before filling out the form below, please [make sure you have already joined our Slack community](/communities/slack/) as we will be reaching out through there.
 
 <form name="Volunteer" method="POST" data-netlify="true" class="form--centered">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Volunteer">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
   <div class="field">
     <label class="label">Name*</label>
     <div class="control has-icons-left">
@@ -108,7 +108,6 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
   </div>
   <div class="field">
     <label class="label">Email*</label>
-    <p class="help">Enter the email you used to sign up for our Slack.</p>
     <div class="control has-icons-left">
       <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
       <span class="icon is-left">
@@ -117,21 +116,23 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
     </div>
   </div>
   <div class="field">
-    <label class="label">Slack <a href="https://get.slack.help/hc/en-us/articles/216360827-Change-your-display-name" target="_blank" rel="noopener">Display Name</a>*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Slack Handle" autocomplete="off" type="text" name="slack" placeholder="@" required>
-      <span class="icon is-left">
-        💬
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">How did you first hear about Techqueria?*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
-      <span class="icon is-left">
-        🔍️
-      </span>
+    <label class="label">Are you already a member of our Slack community?*</label>
+    <p class="help">You can request an invite at <a href="https://techqueria.org/communities/slack">https://techqueria.org/communities/slack</a></p>
+    <div class="control">
+      <label class="radio">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Yes">
+        Yes
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="No">
+        No
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Requested an invite">
+        Requested an invite
+      </label>
     </div>
   </div>
   <div class="field">
@@ -226,6 +227,15 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
         <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Other">
         Other
       </label>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">How did you first hear about Techqueria?*</label>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
+      <span class="icon is-left">
+        🔍️
+      </span>
     </div>
   </div>
   <div data-netlify-recaptcha="true"></div>

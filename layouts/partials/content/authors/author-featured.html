@@ -11,7 +11,7 @@
 <!-- Articles featuring author -->
 {{ if $featuredInArticles }}
 <div class="content mt-2">
-  <h2>Featured in {{ $featuredInArticlesNumber }} {{ cond (eq $featuredInArticlesNumber 1) "article" "articles" }}</h2>
+  <h2><span class="mr-sm">🔍️</span>featured in {{ $featuredInArticlesNumber }} {{ cond (eq $featuredInArticlesNumber 1) "article" "articles" }}</h2>
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}
