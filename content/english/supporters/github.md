@@ -2,7 +2,7 @@
 title: GitHub
 description: Building the tools that make collaborating and writing software easier for everyone
 link: https://github.com/about/careers
-image: "/assets/img/companies/github.png"
+image: "/assets/img/supporters/github.png"
 aliases:
   - /support-us/supporters/github-universe/
 ---

@@ -35,7 +35,7 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
   <div class="field">
     <label class="label">Name*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="name" type="text" name="name" placeholder="Your full name" required>
+      <input class="input" aria-label="Name" autocomplete="name" type="text" name="Name" placeholder="Your full name" required>
       <span class="icon is-left">
         ✒️
       </span>
@@ -44,43 +44,34 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
   <div class="field">
     <label class="label">Email*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
+      <input class="input" aria-label="Email" autocomplete="email" type="email" name="Email" placeholder="Your email" required>
       <span class="icon is-left">
         ✉️
       </span>
     </div>
-  </div>
-  <div class="field">
-    <label class="label">LinkedIn*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="LinkedIn" autocomplete="off" type="text" name="linkedin" placeholder="https://linkedin.com/in/" required>
-      <span class="icon is-left">
-        💼
-      </span>
-    </div>
-  </div>
+  </div>{{< fields/linkedin >}}
   <div class="field">
     <label class="label">Personal Website</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Personal Website" autocomplete="off" type="text" name="website" placeholder="https://techqueria.org">
+      <input class="input" aria-label="Personal Website" autocomplete="off" type="url" name="Personal Website" placeholder="https://techqueria.org" minlength="14">
       <span class="icon is-left">
         🌐
       </span>
     </div>
   </div>
   <div class="field">
-    <label class="label">Twitter</label>
+    <label class="label">Twitter Profile</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Twitter" autocomplete="off" type="text" name="twitter" placeholder="@techqueria">
+      <input class="input" aria-label="Twitter" autocomplete="off" type="url" name="Twitter Profile" placeholder="https://twitter.com/techqueria" minlength="11">
       <span class="icon is-left">
         🐦
       </span>
     </div>
   </div>
   <div class="field">
-    <label class="label">Instagram</label>
+    <label class="label">Instagram Profile</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="Instagram" autocomplete="off" type="text" name="instagram" placeholder="@techqueriaorg">
+      <input class="input" aria-label="Instagram" autocomplete="off" type="url" name="Instagram Profile" placeholder="https://instagram.com/techqueriaorg" minlength="13">
       <span class="icon is-left">
         📷
       </span>
@@ -90,12 +81,12 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
     <label class="label">Do you identify as a Latinx professional in the tech industry?*</label>
     <div class="control">
       <label class="radio">
-        <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?" name="latinx_in_tech" value="Yes" required>
+        <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?" name="Do you identify as a Latinx professional in the tech industry?" value="Yes" required>
         Yes
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?" name="latinx_in_tech" value="No" required>
+        <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?" name="Do you identify as a Latinx professional in the tech industry?" value="No" required>
         No
       </label>
     </div>
@@ -105,17 +96,17 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
     <p class="help">You can request an invite at <a href="https://techqueria.org/communities/slack">https://techqueria.org/communities/slack</a></p>
     <div class="control">
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Yes" required>
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="Are you already a member of our Slack community?" value="Yes" required>
         Yes
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="No" required>
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="Are you already a member of our Slack community?" value="No" required>
         No
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Requested an invite" required>
+        <input type="radio" aria-label="Are you already a member of our Slack community?" name="Are you already a member of our Slack community?" value="Requested an invite" required>
         Requested an invite
       </label>
     </div>
@@ -124,13 +115,23 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
     <label class="label">Can you elaborate on any past speaking experience that you may have?</label>
     <p class="help">We welcome speakers with all levels of experience! It is not a requirement to be an experienced speaker for our events. Ultimately, we are just looking for passionate people willing to speak in front of large audiences.</p>
     <div class="control">
-      <textarea class="textarea" aria-label="Can you elaborate on any past speaking experience that you may have?" spellcheck="true" rows="5" name="message" id="message" placeholder=""></textarea>
+      <textarea class="textarea" aria-label="Can you elaborate on any past speaking experience that you may have?" spellcheck="true" rows="5" name="Can you elaborate on any past speaking experience that you may have?" placeholder=""></textarea>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Where are you based?*</label>
+    <p class="help">This is so we can reach out with the appropriate opportunity based on the event location.</p>
+    <div class="control has-icons-left">
+      <input class="input" aria-label="Where are you based?" autocomplete="off" type="text" name="Where are you based?" placeholder="San Francisco, CA" required>
+      <span class="icon is-left">
+        📍
+      </span>
     </div>
   </div>
   <div class="field">
     <label class="label">How did you first hear about Techqueria?*</label>
     <div class="control has-icons-left">
-      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
+      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="How did you first hear about Techqueria?" placeholder="Twitter" required>
       <span class="icon is-left">
         🔍️
       </span>

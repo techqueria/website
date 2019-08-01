@@ -1,6 +1,6 @@
 ---
 title: Rocketspace
-image: "/assets/img/resources/rocket.jpg"
+image: "/assets/img/resources/entrepreneurship/rocket.jpg"
 description: They provide connections with industry mentors, corporate collaborators, and investment opportunities
 categories:
   - Co-working Space

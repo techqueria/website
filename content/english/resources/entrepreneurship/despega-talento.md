@@ -1,6 +1,6 @@
 ---
 title: Despega Talento
-image: "/assets/img/resources/despega.png"
+image: "/assets/img/resources/entrepreneurship/despega.png"
 description: Soft-landing program in Bay Area and Miami that includes connections with mentors, business partners and investors.
 categories:
   - Soft-landing Services

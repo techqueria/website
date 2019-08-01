@@ -3,7 +3,7 @@ title: Slack Workspace
 description: Learn about our Community Guidelines and request an invitation to our Slack community.
 identifier: fab fa-slack
 toc: true
-image: "/assets/img/companies/slack.png"
+image: "/assets/img/supporters/slack.png"
 aliases:
   - /slack/
   - /communities/slack/
@@ -13,7 +13,7 @@ aliases:
 
 To get an invite to our Slack Workspace with 3,500+ (as of June 2019) Latinx in Tech, please [request an invite](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
 
-<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
+<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
@@ -27,7 +27,7 @@ If you don't get an invite by then, please email us at [organizers@techqueria.or
 
 If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
 
-<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/communities/slack/login-to-slack.png"></a>
 
 ### Never used Slack before?
 
@@ -136,7 +136,7 @@ You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, ap
    5️⃣ 🌮
 2. To give someone a taco, add a taco emoji after their username
    Like this: `@username your positive attitude was a real help today! :taco:`
-   ![HeyTaco! Examples](/assets/img/slack/hey-taco-examples.png)
+   ![HeyTaco! Examples](/assets/img/communities/slack/hey-taco-examples.png)
 3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
    You can invite the bot to channels using `/invite @heytaco`
 4. There is a leaderboard to see who is getting the most tacos
@@ -160,13 +160,13 @@ Copy and paste these values to your settings [Sidebar Theme](https://get.slack.h
 
 Something fun we do in Techqueria's Slack is [setting a custom status](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) with a flag representing our Latinx heritage/background.
 
-![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
+![Custom Status Edit](/assets/img/communities/slack/custom-status-edit.png)
 
-![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-hover.png)
 
 If you want to put multiple flags, you can do that too!
 
-![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-multiple-flags.png)
 
 ### Emojis
 
@@ -176,7 +176,7 @@ You can find images for things like arepa, empanada, baseball teams, avocado, et
 
 Take a look at them and feel free to [add more custom emoji](https://techqueria.slack.com/customize/emoji) yourself.
 
-![Custom Emoji](/assets/img/slack/custom-emoji.jpg)
+![Custom Emoji](/assets/img/communities/slack/custom-emoji.jpg)
 
 ## Channels 💬
 
@@ -246,7 +246,7 @@ We have a few private channels for conversations that you don't want everyone to
 
 To see a list of available channels, run the command `/list-private`, and click on the join button to request an invitation.
 
-![Private List](/assets/img/slack/private-list.png)
+![Private List](/assets/img/communities/slack/private-list.png)
 
 ### Cafecito Channels
 
@@ -618,4 +618,4 @@ Unprofessional behavior is **not** acceptable so if you feel that someone is bre
 
 You can contact an admin by using the command `/admin` in Slack followed by your message or you can reach out to us in `#meta`.
 
-![Admin](/assets/img/slack/admin.png)
+![Admin](/assets/img/communities/slack/admin.png)

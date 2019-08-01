@@ -17,9 +17,9 @@ Our active membership in our Slack community has ballooned since the beginning o
 
 Stats were taken from July 27, 2019.
 
-![2019-07-27-slack-public-channels](/assets/img/impact-report/2019-07-27-slack-public-channels.jpg)
+![2019-07-27-slack-public-channels](/assets/img/about/impact-report/2019-07-27-slack-public-channels.jpg)
 
-![2019-07-27-slack-active-members](/assets/img/impact-report/2019-07-27-slack-active-members.jpg)
+![2019-07-27-slack-active-members](/assets/img/about/impact-report/2019-07-27-slack-active-members.jpg)
 
 ## OKRs
 

@@ -148,20 +148,20 @@ You can view all our design assets using [this Figma link](https://www.figma.com
 
 ### Transparent
 
-<a href="/assets/img/logos/logo-square.png" download><img src="/assets/img/logos/logo-square.png" alt="Logo - Square" width="250"></a>
-<a href="/assets/img/logos/logo-rectangle.png" download><img src="/assets/img/logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
+<a href="/assets/img/_logos/logo-square.png" download><img src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
+<a href="/assets/img/_logos/logo-rectangle.png" download><img src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
 
 ### Background
 
-<a href="/assets/img/logos/logo-square-color.png" download><img src="/assets/img/logos/logo-square-color.png" alt="Logo - Square - Color" width="250"></a>
-<a href="/assets/img/logos/logo-square-no-text.png" download><img src="/assets/img/logos/logo-square-no-text.png" alt="Logo - Square - No Text" width="250"></a>
+<a href="/assets/img/_logos/logo-square-color.png" download><img src="/assets/img/_logos/logo-square-color.png" alt="Logo - Square - Color" width="250"></a>
+<a href="/assets/img/_logos/logo-square-no-text.png" download><img src="/assets/img/_logos/logo-square-no-text.png" alt="Logo - Square - No Text" width="250"></a>
 
 ## Banners
 
 ### Default
 
-<a href="/assets/img/logos/banner.png" download><img src="/assets/img/logos/banner.png" alt="Banner"></a>
+<a href="/assets/img/_logos/banner.png" download><img src="/assets/img/_logos/banner.png" alt="Banner"></a>
 
 ### Logo Only
 
-<a href="/assets/img/logos/banner-logo-only.png" download><img src="/assets/img/logos/banner-logo-only.png" alt="Banner - Logo Only"></a>
+<a href="/assets/img/_logos/banner-logo-only.png" download><img src="/assets/img/_logos/banner-logo-only.png" alt="Banner - Logo Only"></a>
