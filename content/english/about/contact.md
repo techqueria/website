@@ -19,60 +19,20 @@ categories:
 
 Reach out in the `#meta` channel or use the `/admin` command in [our Slack workspace](/communities/slack/).
 
+For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
+
 ## Fill out the contact form
 
 Filling out the form below sends an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
-<form name="Contact" method="POST" data-netlify="true">
+<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
-  <div class="field">
-    <label class="label">Name</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="name" type="text" name="name" placeholder="Your full name" required>
-      <span class="icon is-left">
-        ✒️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Email</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
-      <span class="icon is-left">
-        ✉️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Organization*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Organization" autocomplete="organization" type="text" name="organization" placeholder="Your organization" required>
-      <span class="icon is-left">
-        🏢
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">How did you first hear about Techqueria?*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
-      <span class="icon is-left">
-        🔍️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Message</label>
-    <div class="control">
-      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea>
-    </div>
-  </div>
-  <div data-netlify-recaptcha="true"></div>
-  <div class="field mt-sm">
-    <div class="control">
-      <button type="submit" class="button is-primary">Send message</button>
-    </div>
-  </div>
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/organization >}}
+  {{< fields/referral >}}
+  {{< fields/message title="Message" >}}
+  {{< fields/submit >}}
 </form>
 
 ## Interested in partnering with us?

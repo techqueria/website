@@ -1,0 +1,4 @@
+<div class="field">
+  <label class="label">{{ if .Get "title" }}{{ if isset .Params "title" }}{{ .Get "title" }}{{ end }}{{ else }}Anything else you'd like to add?{{ end }}</label>
+  <div class="control"><textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea></div>
+</div>
