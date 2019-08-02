@@ -1,7 +1,7 @@
 <!-- Line Separator - Year -->
 <!-- Check for No Date -->
 {{ if not (eq .Key "0001") }}
-<h2>{{ .Key }}</h2>
+<h2>{{ .Key | humanize }}</h2>
 {{ else }}
 <!-- Year -->
 <h2>No Date</h2>

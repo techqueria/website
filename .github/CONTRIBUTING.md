@@ -193,7 +193,7 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 
 ### File Size
 
-For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "content/breadcrumbs.html" . }}`.
+For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "content/custom/breadcrumbs.html" . }}`.
 
 If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 
@@ -300,7 +300,7 @@ The image for companies MUST be 1000px wide and 500 px high in order to display 
 ---
 title: Slack
 description: Slack is where work happens.
-image: "/assets/img/companies/slack.png"
+image: "/assets/img/supporters/slack.png"
 link: https://slack.com/careers
 ---
 ```

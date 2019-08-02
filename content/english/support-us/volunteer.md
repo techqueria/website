@@ -1,7 +1,7 @@
 ---
 title: "Become a Volunteer"
 description: "If you are interested in supporting Techqueria as an individual, one great way to help out is by volunteering your time."
-image: "/assets/img/banners/become-a-volunteer.jpg"
+image: "/assets/img/support-us/become-a-volunteer.jpg"
 toc: true
 aliases:
   - /volunteer/
@@ -94,154 +94,16 @@ If you are interested in supporting Techqueria as an individual, one great way t
 Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
 
 > Before filling out the form below, please [make sure you have already joined our Slack community](/communities/slack/) as we will be reaching out through there.
+>
+> We aim to onboard new volunteers every 2 weeks.
 
-<form name="Volunteer" method="POST" data-netlify="true" class="form--centered">
+<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
-  <div class="field">
-    <label class="label">Name*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="name" type="text" name="name" placeholder="Your full name" required>
-      <span class="icon is-left">
-        ✒️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Email*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
-      <span class="icon is-left">
-        ✉️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Are you already a member of our Slack community?*</label>
-    <p class="help">You can request an invite at <a href="https://techqueria.org/communities/slack">https://techqueria.org/communities/slack</a></p>
-    <div class="control">
-      <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Yes">
-        Yes
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="No">
-        No
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Are you already a member of our Slack community?" name="slack_workspace" value="Requested an invite">
-        Requested an invite
-      </label>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">What chapter are you interested in volunteering for?*</label>
-    <div class="control">
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="San Franciso, CA">
-        San Franciso, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="Los Angeles, CA">
-        Los Angeles, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="New York City, NY">
-        New York City, NY
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="Austin, TX">
-        Austin, TX
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="Chicago, IL">
-        Chicago, IL
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What chapter are you interested in volunteering for?" name="interested-location" value="Any chapter!">
-        Any chapter!
-      </label>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">What role would you like to volunteer in?*</label>
-    <p class="help">Please see more details below for what these roles entail. We recommend starting out small and then if you'd like to take on additional tasks, you can always let us know!</p>
-    <div class="control">
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Event Lead">
-        Event Lead
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Partnership Lead">
-        Partnership Lead
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Volunteers Lead">
-        Volunteers Lead
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Marketing Lead - MailChimp">
-        Marketing Lead - MailChimp
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Marketing Lead - PR/Comms">
-        Marketing Lead - PR/Comms
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Community Lead - Slack">
-        Community Lead - Slack
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Community Lead - Facebook Group">
-        Community Lead - Facebook Group
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Community Moderator - Slack">
-        Community Moderator - Slack
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Social Media Lead - Twitter">
-        Social Media Lead - Twitter
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Social Media Lead - Instagram">
-        Social Media Lead - Instagram
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="What role would you like to volunteer in?" name="interested-volunteering-role" value="Other">
-        Other
-      </label>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">How did you first hear about Techqueria?*</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="How did you first hear about Techqueria?" autocomplete="off" type="text" name="referral" placeholder="Twitter" required>
-      <span class="icon is-left">
-        🔍️
-      </span>
-    </div>
-  </div>
-  <div data-netlify-recaptcha="true"></div>
-  <div class="field mt-sm">
-    <div class="control">
-      <button type="submit" class="button is-primary">Submit</button>
-    </div>
-  </div>
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/slack-member >}}
+  {{< fields/volunteer >}}
+  {{< fields/message >}}
+  {{< fields/referral >}}
+  {{< fields/submit >}}
 </form>

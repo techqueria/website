@@ -46,6 +46,10 @@
   @extend %material-shadow;
 }
 
+.bg-image {
+  @extend %bg-image;
+}
+
 .image-external-plain {
   img {
     box-shadow: none !important;
@@ -82,4 +86,8 @@
   @media screen and (min-width:$laptop-xx-large) {
     display: block;
   }
+}
+
+.author-image {
+  border-radius: $radius;
 }

@@ -4,7 +4,7 @@ location: San Francisco, CA
 description: "This Sunday BBQ at McLaren Park in SF filled with fun, food, and música Latinx!"
 date: 2017-07-30
 link: https://www.meetup.com/techqueria/events/241966588/
-image: "/assets/img/chapters/community-bay-area-photo.jpeg"
+image: "/assets/img/communities/chapteres/community-bay-area-photo.jpeg"
 photos: https://photos.app.goo.gl/T6DQhyTJW6PaaVqQ7
 ---
 

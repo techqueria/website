@@ -22,7 +22,7 @@
 <section class="section page">
   <div class="container">
     <!-- Breadcrumbs -->
-    {{ partial "content/breadcrumbs.html" . }}
+    {{ partial "content/custom/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
     {{ $paginator }}
@@ -51,7 +51,7 @@
       {{ end }}
     </div>
     <div class="mt-2">
-      {{ partial "content/paginator.html" . }}
+      {{ partial "content/custom/paginator.html" . }}
     </div>
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}

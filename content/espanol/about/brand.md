@@ -1,7 +1,7 @@
 ---
 title: Marca 🎨
 description: Descarga nuestros recursos y descubre nuestra guía de estilo.
-image: "/assets/img/logos/banner-logo-only.png"
+image: "/assets/img/_logos/banner-logo-only.png"
 ---
 
 - [Visión general](#visi%C3%B3n-general)
@@ -23,16 +23,16 @@ Nuestros logotipos utilizan [Source San Pro](https://fonts.google.com/specimen/S
 
 ### Logo - Rectángulo
 
-![Logo - Rectángulo](/assets/img/logos/logo-rectangle.png)
+![Logo - Rectángulo](/assets/img/_logos/logo-rectangle.png)
 
 ### Logo - Cuadrado
 
-![Logo - Cuadrado](/assets/img/logos/logo-square.png)
+![Logo - Cuadrado](/assets/img/_logos/logo-square.png)
 
 ### Logo - Cuadrado - Color
 
-![Logo - Cuadrado - Color](/assets/img/logos/logo-square-color.png)
+![Logo - Cuadrado - Color](/assets/img/_logos/logo-square-color.png)
 
 ### Logo - Cuadrado - No Text
 
-![Logo - Cuadrado - No Text](/assets/img/logos/logo-square-no-text.png)
+![Logo - Cuadrado - No Text](/assets/img/_logos/logo-square-no-text.png)

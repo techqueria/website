@@ -1,6 +1,6 @@
 ---
 title: ShopLatinx
-image: "/assets/img/resources/shoplatinx.png"
+image: "/assets/img/resources/entrepreneurship/shoplatinx.png"
 description: Online directory of Latinx-owned businesses and editorial content fostering Latinx entrepreneurship.
 categories:
   - Entrepreneurship

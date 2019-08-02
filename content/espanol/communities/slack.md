@@ -2,7 +2,7 @@
 title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
-image: "/assets/img/companies/slack.png"
+image: "/assets/img/supporters/slack.png"
 ---
 
 # Normas de la comunidad de Slack
@@ -41,7 +41,7 @@ image: "/assets/img/companies/slack.png"
 
 Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
 
-<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
+<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestros otros grupos de la comunidad](/communities/) y los detalles que hemos proporcionado sobre nuestro espacio de Slack a continuación.
 
@@ -53,7 +53,7 @@ Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo
 
 Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).
 
-<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/communities/slack/login-to-slack.png"></a>
 
 ## Nunca ha usado Slack antes?
 
@@ -69,7 +69,7 @@ El comportamiento no-profesional **no** es aceptable, por eso si usted siente qu
 
 Puede contactar a un administrador usando el comando `/admin` en Slack seguido de su mensaje.
 
-![Admin](/assets/img/slack/admin.png)
+![Admin](/assets/img/communities/slack/admin.png)
 
 ## Buenas Prácticas
 
@@ -115,7 +115,7 @@ Puede usar `@heytaco` para darle a alguien un 🌮 cuando quiera mostrar admirac
 
 De esta manera: `@username tu actitud positiva el día de hoy fue de gran ayuda! :taco:`
 
-![HeyTaco! Ejemplos](/assets/img/slack/hey-taco-examples.png)
+![HeyTaco! Ejemplos](/assets/img/communities/slack/hey-taco-examples.png)
 
 #### 3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel
 
@@ -145,13 +145,13 @@ Copie y pegue estos valores en la sección de configuración [Sidebar Theme](htt
 
 Algo divertido que hacemos en el espacio de Slack de Techqueria es [configurar el estado](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) con una bandera representando nuestra herencia/historia Latinx.
 
-![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
+![Custom Status Edit](/assets/img/communities/slack/custom-status-edit.png)
 
-![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-hover.png)
 
 Si quiere poner varias banderas, también puede hacerlo!
 
-![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-multiple-flags.png)
 
 ### Emojis
 
@@ -218,7 +218,7 @@ Tenemos algunos channels privados para conversaciones que no quiere que todos ve
 
 Para ver el listado de estos channels, escriba el comando `/list-private`, y and click on the join button to request an invitation.
 
-![Private List](/assets/img/slack/private-list.png)
+![Private List](/assets/img/communities/slack/private-list.png)
 
 ### Meta
 

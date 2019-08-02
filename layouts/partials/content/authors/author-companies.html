@@ -27,7 +27,7 @@
   <h2><span class="mr-sm">✨</span>{{ $eventCompanyNumber}} {{ cond (eq $eventCompanyNumber 1) "company" "companies" }} involved</h2>
 </div>
 <section class="c-companies">
-  {{ $companyPages := where $.Site.Pages "Section" "support-us"}}
+  {{ $companyPages := where $.Site.Pages "Section" "supporters"}}
   {{ range $key, $value := .Params.companies }}
     {{ range $companyPages }}
       {{ if eq .Title $value }}

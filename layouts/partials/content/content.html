@@ -1,6 +1,6 @@
 {{ if .Content }}
   <!-- TOC -->
-  {{ partial "content/toc.html" . }}
+  {{ partial "content/custom/toc.html" . }}
   <!-- Content -->
   <!-- Turns into anchors into links -->
   {{ .Content | replaceRE "(<h[1-4] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="anchor-link" ariaLabel="Anchor" rel="noopener"> 🔗&#xFE0E;</a> ${3}` | safeHTML }}

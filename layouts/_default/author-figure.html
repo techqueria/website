@@ -4,9 +4,7 @@
 {{ with $authorPage }}
 <article class="media">
     <figure class="media-left">
-      <p class="image is-128x128">
-        <img class="image is-128x128 is-rounded" src="{{ .Params.image }}" alt="{{ .Title }}">
-      </p>
+      <a href="{{ $path }}"><div class="image is-128x128 author-image bg-image" style="background-image:url({{ .Params.image }});"></div></a>
     </figure>
     <div class="media-content pt-0">
       <div class="content">

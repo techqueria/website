@@ -1,7 +1,7 @@
 ---
 title: Nuestros partidarios
 description: Patrocinadores, socios o colaboradores que nos han ayudado a mantener una de las comunidades más grandes de Latinx in Tech.
-image: "/assets/img/banners/our-supporters.jpg"
+image: "/assets/img/supporters/_index.jpg"
 ---
 
 Las siguientes compañías o individuos nos han ayudado con una o mas de las siguientes:
