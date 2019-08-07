@@ -30,7 +30,7 @@ Filling out the form below sends an email to [organizers@techqueria.org](mailto:
   {{< fields/name >}}
   {{< fields/email >}}
   {{< fields/organization >}}
-  {{< fields/message title="Message" required="true" >}}
+  {{< fields/message title="Message" required="true" help="Please provide any useful context so we can reply accordingly." name="message" >}}
   {{< fields/referral >}}
   {{< fields/submit >}}
 </form>

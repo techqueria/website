@@ -31,8 +31,8 @@ As a host, you commit to providing the following:
   {{< fields/email >}}
   {{< fields/organization >}}
   {{< fields/linkedin >}}
-  {{< fields/donate-space >}}
-  {{< fields/slack-member >}}
+  {{< fields/donate_space >}}
+  {{< fields/slack_member >}}
   {{< fields/message >}}
   {{< fields/referral >}}
   {{< fields/submit >}}

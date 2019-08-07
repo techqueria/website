@@ -1,4 +1,7 @@
 {{ $label := "" }}
+{{ $name := "message" }}
+<!-- Title -->
+<!-- Default title: Anything else you'd like to add? -->
 {{ if .Get "title" }}
   {{ if isset .Params "title" }}
     {{ $label = .Get "title" }}
@@ -6,7 +9,12 @@
 {{ else }}
   {{ $label = "Anything else you'd like to add?" }}
 {{ end }}
+<!-- Name -->
+{{ if .Get "name" }}
+  {{ $name = .Get "name" }}
+{{ end }}
 <div class="field">
   <label class="label">{{ $label }}{{ if .Get "required"}}*{{ end }}</label>
-  <div class="control"><textarea class="textarea" aria-label="{{ $label }}" spellcheck="true" rows="5" name="{{ $label }}" id="message" placeholder="" {{ if .Get "required"}}required{{ end }}></textarea></div>
+  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
+  <div class="control"><textarea class="textarea" aria-label="{{ $label }}" spellcheck="true" rows="5" name="{{$name}}" id="message" placeholder="" {{ if .Get "required"}}required{{ end }}></textarea></div>
 </div>
