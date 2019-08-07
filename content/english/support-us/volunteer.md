@@ -101,6 +101,7 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
   {{< fields/name >}}
   {{< fields/email >}}
+  {{< fields/location >}}
   {{< fields/slack_member >}}
   {{< fields/volunteer >}}
   {{< fields/message >}}

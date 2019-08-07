@@ -57,3 +57,7 @@ form {
     margin-top: 1em;
   }
 }
+
+input[type="checkbox"], input[type="radio"] {
+  height: 20px;
+}

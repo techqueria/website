@@ -10,4 +10,30 @@
       color: $techqueria-white;
     }
   }
+
+  &__social-icons {
+    a {
+      color: $techqueria-white;
+
+      &:hover {
+        color: $techqueria-blue;
+
+        .fab {
+          color: $techqueria-white;
+        }
+      }
+    }
+  }
+}
+
+.netlify-badge {
+  width: auto;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 1rem;
+
+  svg {
+    height: 58px;
+  }
 }

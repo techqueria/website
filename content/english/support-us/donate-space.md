@@ -30,8 +30,10 @@ As a host, you commit to providing the following:
   {{< fields/name >}}
   {{< fields/email >}}
   {{< fields/organization >}}
+  {{< fields/title >}}
   {{< fields/linkedin >}}
   {{< fields/donate_space >}}
+  {{< fields/location >}}
   {{< fields/slack_member >}}
   {{< fields/message >}}
   {{< fields/referral >}}
