@@ -12,6 +12,23 @@ aliases:
 
 If you are interested in supporting Techqueria as an individual, one great way to help out is by volunteering your time.
 
+## Sign up to volunteer
+
+Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
+
+<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/linkedin >}}
+  {{< fields/location >}}
+  {{< fields/slack_member >}}
+  {{< fields/volunteer >}}
+  {{< fields/message >}}
+  {{< fields/referral >}}
+  {{< fields/submit >}}
+</form>
+
 ## Volunteering Opportunities
 
 ### Event Lead
@@ -88,23 +105,3 @@ If you are interested in supporting Techqueria as an individual, one great way t
 - post relevant content through Instagram
 - like/repost relevant content
 - answer DMs
-
-## Sign up to volunteer
-
-Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
-
-> Before filling out the form below, please [make sure you have already joined our Slack community](/communities/slack/) as we will be reaching out through there.
->
-> We aim to onboard new volunteers every 2 weeks.
-
-<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
-  {{< fields/name >}}
-  {{< fields/email >}}
-  {{< fields/location >}}
-  {{< fields/slack_member >}}
-  {{< fields/volunteer >}}
-  {{< fields/message >}}
-  {{< fields/referral >}}
-  {{< fields/submit >}}
-</form>
