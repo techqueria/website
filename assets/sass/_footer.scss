@@ -21,7 +21,7 @@
       margin: 1rem;
 
       &:hover {
-        color: $techqueria-blue;
+        color: $techqueria-black;
 
         .fab {
           color: $techqueria-white;
@@ -31,12 +31,21 @@
   }
 
   .netlify-badge {
+    svg path {
+      fill: $techqueria-white;
+    }
+
+    svg rect {
+      fill: $techqueria-black;
+    }
+
     a:hover {
       svg path {
-        fill: $techqueria-white;
+        fill: $techqueria-black;
       }
+
       svg rect {
-        fill: $techqueria-blue;
+        fill: $techqueria-white;
       }
     }
   }
