@@ -74,7 +74,8 @@ disqusShortname                      = "techqueria"
 [social]
     email                            = "organizers@techqueria.org"
     facebook                         = "techqueria"
-    instagram                        = "techqueriala"
+    github                           = "techqueria"
+    instagram                        = "techqueriaorg"
     linkedin                         = "company/techqueria"
     meetup                           = "techqueria"
     twitter                          = "Techqueria"
@@ -287,6 +288,12 @@ disqusShortname                      = "techqueria"
     name                             = "Our Supporters"
     url                              = "/supporters/"
 
+# TODO: Add gated content navbar links
+# Gated Content
+# Jobs
+# Casa (Member Portal)
+# Login/Sign Up
+
 # Social Menu
 [[menu.social]]
     name                             = "LinkedIn"
@@ -308,40 +315,52 @@ disqusShortname                      = "techqueria"
     identifier                       = "fas fa-lg fa-sign-in-alt"
 
 # Sitemap
-# Should always be 9 items
+# Should always be multiple of three - see layouts/index.html
+# 1
 [[menu.sitemap]]
   name = "About"
   url = "/about/"
+# 2
 [[menu.sitemap]]
   name = "Blog"
   url = "/blog/"
+# 3
 [[menu.sitemap]]
   name = "Code of Conduct"
   url = "/code-of-conduct/"
+# 4
 [[menu.sitemap]]
   name = "Communities"
   url = "/communities/"
+# 5
 [[menu.sitemap]]
   name = "Contact"
   url = "/contact/"
+# 6
 [[menu.sitemap]]
   name = "Donate"
   url = "/donate/"
+# 7
 [[menu.sitemap]]
   name = "Events"
   url = "/events/"
+# 8
 [[menu.sitemap]]
   name = "Press"
   url = "/press/"
+# 9
 [[menu.sitemap]]
   name = "Resources"
   url = "/resources/"
+# 10
 [[menu.sitemap]]
   name = "Shop"
   url = "/shop/"
+# 11
 [[menu.sitemap]]
   name = "Support Us"
   url = "/support-us/"
+# 12
 [[menu.sitemap]]
   name = "Team"
   url = "/team/"
