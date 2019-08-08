@@ -84,3 +84,9 @@
     border-radius: 0;
   }
 }
+
+.navbar.is-spaced .navbar-dropdown,
+.navbar-dropdown.is-boxed {
+  transform: none;
+  transition: none;
+}

@@ -3,6 +3,8 @@ title: "Thanks for your submission!"
 description: "We'll get back to you ASAP. 🕒"
 ---
 
-In the meantime, enjoy these cute tacitos.
+<div class="has-text-centered">
+  <p>In the meantime, enjoy these cute tacitos.</p>
+</div>
 
 ![Taco](https://media.giphy.com/media/pYCdxGyLFSwgw/source.gif)

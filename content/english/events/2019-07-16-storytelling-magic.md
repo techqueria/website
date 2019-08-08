@@ -3,6 +3,7 @@ title: "Storytelling Magic and Branding Gravitas"
 date: 2019-07-16
 link: https://storytellingmagicandbrandinggr.splashthat.com/
 image: https://pbs.twimg.com/media/D_oc_0NXYAIccRB?format=jpg&name=4096x4096
+photos: https://geoffleung.com/events/alas2019/
 locations:
   - "nyc"
 companies:
@@ -18,9 +19,6 @@ Keeping a sharp online presence is key in the workforce - An online profile adds
 Join Yai Vargas, Founder & CEO of The Latinista aka the LinkedIn Ninja to learn:
 
 - The formula for the perfect elevator pitch in person and online
-
 - The basics of successful profiles on various platforms
-
 - How to engage with others intentionally
-
 - Learn how to reciprocate online by discovering and sharing your value

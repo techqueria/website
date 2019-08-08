@@ -10,4 +10,49 @@
       color: $techqueria-white;
     }
   }
+
+  &__social-icons {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+    a {
+      color: $techqueria-white;
+      margin: 1rem;
+
+      &:hover {
+        color: $techqueria-black;
+
+        .fab {
+          color: $techqueria-white;
+        }
+      }
+    }
+  }
+
+  .netlify-badge {
+    a {
+      svg {
+        path {
+          fill: $techqueria-white;
+        }
+
+        rect {
+          fill: $techqueria-black;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: $techqueria-black;
+          }
+
+          rect {
+            fill: $techqueria-white;
+          }
+        }
+      }
+    }
+  }
 }

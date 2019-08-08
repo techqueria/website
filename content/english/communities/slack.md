@@ -15,8 +15,6 @@ To get an invite to our Slack Workspace with 3,500+ (as of June 2019) Latinx in 
 
 <a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHxMgRifkgekshIjNVvV5Ky4jlYIIbIhLwe1Z83ZF67is-Q/viewform?embedded=true" width="640" height="3277" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
 You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
@@ -596,9 +594,6 @@ Other related meta channels include:
   - Automated activity feed from all our website integrations
 - `#twitter`
   - Automated feed of Twitter account activity
-    - https://twitter.com/Techqueria
-    - https://twitter.com/TechqueriaNYC
-    - https://twitter.com/TechqueriaLA
 
 ### Can I DM leads?
 
