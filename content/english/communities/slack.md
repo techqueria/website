@@ -594,9 +594,6 @@ Other related meta channels include:
   - Automated activity feed from all our website integrations
 - `#twitter`
   - Automated feed of Twitter account activity
-    - https://twitter.com/Techqueria
-    - https://twitter.com/TechqueriaNYC
-    - https://twitter.com/TechqueriaLA
 
 ### Can I DM leads?
 
