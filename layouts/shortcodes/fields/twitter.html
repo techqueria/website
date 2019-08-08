@@ -1,10 +1,18 @@
-  <div class="field">
-    <label class="label">Twitter Profile</label>
-    <p class="help">Please enter a valid Twitter profile URL in the format of https://twitter.com/xyz</p>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Twitter" autocomplete="off" type="url" name="twitter_profile" placeholder="https://twitter.com/techqueria" minlength="11" pattern="http(s)?:\/\/(.*\.)?twitter\.com\/[A-z0-9_]+\/?">
-      <span class="icon is-left">
-        🐦
-      </span>
-    </div>
+<!-- Twitter -->
+<!-- Pattern tested using https://regexr.com/-->
+<!-- https://twitter.com/fvcproductions -->
+<!-- https://www.twitter.com/fvcproductions -->
+<!-- https://www.twitter.com/fvcproductions/ -->
+<!-- twitter.com/fvcproductions -->
+<!-- twitter.com/fvcproductions/ -->
+<div class="field">
+  <label class="label">Twitter Profile</label>
+  <p class="help">Please enter a valid Twitter profile URL in the format of https://twitter.com/xyz</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Twitter" autocomplete="off" type="url" name="twitter_profile"
+      placeholder="https://twitter.com/techqueria" minlength="11" pattern="^(?:http(s)?:\/\/)?([\w]+\.)?twitter\.com\/[A-z0-9_-]+\/?">
+    <span class="icon is-left">
+      🐦
+    </span>
   </div>
+</div>

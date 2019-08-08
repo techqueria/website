@@ -1,11 +1,16 @@
+<!-- Instagram -->
+<!-- Pattern tested using https://regexr.com/-->
+<!-- https://instagram.com/fvcproductions -->
+<!-- https://www.instagram.com/fvcproductions -->
+<!-- https://www.instagram.com/fvcproductions/ -->
+<!-- instagram.com/fvcproductions -->
+<!-- instagram.com/fvcproductions/ -->
 <div class="field">
   <label class="label">Instagram Profile</label>
   <p class="help">Please enter a valid Instagram profile URL formatted as https://instagram.com/xyz</p>
   <div class="control has-icons-left">
     <input class="input" aria-label="Instagram" autocomplete="off" type="url" name="instagram_profile"
-      placeholder="https://instagram.com/xyz"
-      pattern="https?:\/\/(www\.)?instagram\.com\/([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)"
-      minlength="13">
+      placeholder="https://instagram.com/xyz" pattern="^(?:http(s)?:\/\/)?([\w]+\.)?instagram\.com\/[A-z0-9_-]+\/?" minlength="13">
     <span class="icon is-left">
       📷
     </span>

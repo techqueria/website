@@ -43,6 +43,7 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
   {{< fields/linkedin >}}
   {{< fields/twitter >}}
   {{< fields/instagram >}}
+  {{< fields/website >}}
   {{< fields/headshot_photo >}}
   {{< fields/location >}}
   {{< fields/slack_member >}}
