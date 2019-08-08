@@ -13,8 +13,8 @@
 
   &__social-icons {
     display: flex;
-    justify-content: center;
     flex-flow: wrap;
+    justify-content: center;
 
     a {
       color: $techqueria-white;
@@ -31,21 +31,27 @@
   }
 
   .netlify-badge {
-    svg path {
-      fill: $techqueria-white;
-    }
+    a {
+      svg {
+        path {
+          fill: $techqueria-white;
+        }
 
-    svg rect {
-      fill: $techqueria-black;
-    }
-
-    a:hover {
-      svg path {
-        fill: $techqueria-black;
+        rect {
+          fill: $techqueria-black;
+        }
       }
 
-      svg rect {
-        fill: $techqueria-white;
+      &:hover {
+        svg {
+          path {
+            fill: $techqueria-black;
+          }
+
+          rect {
+            fill: $techqueria-white;
+          }
+        }
       }
     }
   }
