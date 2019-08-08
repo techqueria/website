@@ -12,8 +12,13 @@
   }
 
   &__social-icons {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
     a {
       color: $techqueria-white;
+      margin: 1rem;
 
       &:hover {
         color: $techqueria-blue;
@@ -24,16 +29,15 @@
       }
     }
   }
-}
 
-.netlify-badge {
-  display: inline-block;
-  margin: 0 1rem;
-  position: relative;
-  vertical-align: middle;
-  width: auto;
-
-  svg {
-    height: 58px;
+  .netlify-badge {
+    a:hover {
+      svg path {
+        fill: $techqueria-white;
+      }
+      svg rect {
+        fill: $techqueria-blue;
+      }
+    }
   }
 }
