@@ -22,10 +22,7 @@
             {{ end }}
           </h2>
         </div>
-        <div class="columns is-multiline">
-          {{ range $upcomingEventsMeetup }}
-              {{ partial "content/meetup.html" . }}
-          {{ end }}
+        <div class="columns is-multiline" id="upcoming-events">
         </div>
       {{ end }}
       <!-- Past Events -->
@@ -43,4 +40,6 @@
       {{ partial "content/footer/_index.html" . }}
     </div>
   </section>
+  <!-- Custom JS -->
+<script src="/assets/js/react.js"></script>
 {{ end }}
