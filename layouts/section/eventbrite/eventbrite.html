@@ -1,14 +1,4 @@
 {{ define "main" }}
-  <!-- Variables -->
-  {{ $url := ""}}
-  {{ if .Site.Params.isRelease }}
-    {{ $url =  "/.netlify/functions/"}}
-  {{else}}
-    {{ $url = "http://localhost:9000/eventbrite" }}
-  {{end}}
-  {{ $eventbriteEvents := (getJSON $url) }}
-  {{ $pastEventsEventbrite := $eventbriteEvents.completed.events }}
-  {{ $upcomingEventsEventbrite := $eventbriteEvents.live.events }}
   <!-- Hero -->
   {{ partial "content/hero.html" . }}
   <!-- Page -->
@@ -20,34 +10,15 @@
       <!-- Content -->
       {{ partial "content/_index.html" . }}
       <!-- Upcoming Events -->
-      {{ if (len $upcomingEventsEventbrite) "ge" 1 }}
-        <div class="content mt-2">
-          <h2>⏳️
-            {{ len $upcomingEventsEventbrite }}
-            Upcoming
-            {{ if gt (len $upcomingEventsEventbrite) 1 }}Events{{ else }}Event
-            {{ end }}
-          </h2>
-        </div>
-        <div class="columns is-multiline">
-          {{ range $upcomingEventsEventbrite }}
-              {{ partial "content/eventbrite.html" . }}
-          {{ end }}
-        </div>
-      {{ end }}
-      <!-- Past Events -->
-      <div class="content mt-2">
-        <h2>⌛️
-          {{ len $pastEventsEventbrite }}
-          Past Events</h2>
+      <div id="upcoming-events">
       </div>
-      <div class="columns is-multiline">
-        {{ range $pastEventsEventbrite }}
-            {{ partial "content/eventbrite.html" . }}
-        {{ end}}
+      <!-- Past Events -->
+      <div id="past-events">
       </div>
       <!-- Content Footer -->
       {{ partial "content/footer/_index.html" . }}
     </div>
   </section>
+  <!-- Custom JS -->
+<script src="/assets/js/eventbriteeact.js"></script>
 {{ end }}
