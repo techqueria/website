@@ -12,22 +12,49 @@ class Eventbrite extends React.Component {
   }
   render() {
     const {events} = this.state;
+    let header;
+    const status = this.props.status || "live";
+    if (status === "live") {
+      const eventText = events.length > 1 ? "events" : "event";
+      header = (<h2>⏳ { events.length } upcoming {eventText}</h2>);
+    } else {
+      header = (<h2>⌛️{events.length} Past Events</h2>);
+    }
+
+    const body = (
+      <section>
+        <div className="content mt-2">
+          {header}
+        </div>
+        <div className="columns is-multiline">
+          {
+            events.map((event, index) => (
+              <Eventcard
+                photo_url={event.photo_url}
+                name={event.name}
+                event_url={event.event_url}
+                description={event.description}
+                created={event.created}
+                key={index}
+              ></Eventcard>
+            ))
+          }
+        </div>
+      </section>
+    );
     return (
-      events.map((event, index) => (
-        <Eventcard
-          photo_url={event.photo_url}
-          name={event.name}
-          event_url={event.event}
-          description={event.description}
-          created
-          key={index}
-        ></Eventcard>
-      ))
+      <div>
+        {
+          events.length >= 1 && body
+        }
+      </div>
     );
   }
   getEvents() {
+    // status: live/completed
+    const status = this.props.status || "live";
     const url =
-      "https://www.eventbriteapi.com/v3/organizers/13735914017/events/?order_by=start_desc&status=completed&token=7IZ4CUPAJFMM2ZZSC75E";
+      `https://www.eventbriteapi.com/v3/organizers/13735914017/events/?order_by=start_desc&status=${status}&token=7IZ4CUPAJFMM2ZZSC75E`;
     const request = new Request(url);
     return fetch(request)
       .then((response) => {
@@ -44,17 +71,12 @@ class Eventbrite extends React.Component {
   async componentDidMount() {
     const data = await this.getEvents();
     const events = data.events.map((event) => {
-      // if (event.photo_url) {
-      //   event.photo_url = photo_url.replace("global", "highres");
-      // } else {
-      //   event.photo_url = "https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png";
-      // }
       let image;
       if (event.logo && event.logo.original) {
         image = event.logo.original.url;
       }
       else {
-        image = "https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png";
+        image = "/assets/img/banners/eventbrite.png";
       }
       return {
         name: event.name.text,
@@ -69,5 +91,6 @@ class Eventbrite extends React.Component {
     });
   }
 }
+//TODO: add a prop to pass live/completed for past or future events
 
 export default Eventbrite;

@@ -1,7 +1,4 @@
 {{ define "main" }}
-  <!-- Variables -->
-  {{ $pastEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=past&text_format=plain&page=20&desc=true").results }}
-  {{ $upcomingEventsMeetup := (getJSON "https://api.meetup.com/2/events?&sign=true&photo-host=secure&group_urlname=techqueria&status=upcoming&text_format=plain&page=20&desc=true").results }}
   <!-- Hero -->
   {{ partial "content/hero.html" . }}
   <!-- Page -->
@@ -13,33 +10,15 @@
       <!-- Content -->
       {{ partial "content/_index.html" . }}
       <!-- Upcoming Events -->
-      {{ if (len $upcomingEventsMeetup) "ge" 1 }}
-        <div class="content mt-2">
-          <h2>⏳️
-            {{ len $upcomingEventsMeetup }}
-            Upcoming
-            {{ if gt (len $upcomingEventsMeetup) 1 }}Events{{ else }}Event
-            {{ end }}
-          </h2>
-        </div>
-        <div class="columns is-multiline" id="upcoming-events">
-        </div>
-      {{ end }}
-      <!-- Past Events -->
-      <div class="content mt-2">
-        <h2>⌛️
-          {{ len $pastEventsMeetup }}
-          Past Events</h2>
+      <div id="upcoming-events">
       </div>
-      <div class="columns is-multiline">
-        {{ range $pastEventsMeetup }}
-            {{ partial "content/meetup.html" . }}
-        {{ end}}
+      <!-- Past Events -->
+      <div id="past-events">
       </div>
       <!-- Content Footer -->
       {{ partial "content/footer/_index.html" . }}
     </div>
   </section>
   <!-- Custom JS -->
-<script src="/assets/js/react.js"></script>
+<script src="/assets/js/eventbriteeact.js"></script>
 {{ end }}

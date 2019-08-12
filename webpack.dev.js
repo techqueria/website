@@ -42,7 +42,7 @@ module.exports = {
   context: path.join(__dirname, "assets"),
   entry: {
     app: ["./js/app"],
-    react: ["whatwg-fetch", "./js/react-index"]
+    eventbriteeact: ["whatwg-fetch", "./js/eventbrite-index"]
   },
   output: {
     path: path.join(__dirname, "dist/assets/js"),
