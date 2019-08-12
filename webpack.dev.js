@@ -13,7 +13,7 @@ module.exports = {
       loader: "url-loader"
     },
     {
-      test: /\.js?$/,
+      test: /\.(js|jsx)?$/,
       loader: "babel-loader",
       exclude: /node_modules/,
       query: {
@@ -37,14 +37,12 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.ModuleConcatenationPlugin(),
-    new webpack.ProvidePlugin({
-      fetch: "imports-loader?this=>global!exports?global.fetch!whatwg-fetch"
-    }),
     new webpack.optimize.AggressiveMergingPlugin()
   ],
   context: path.join(__dirname, "assets"),
   entry: {
-    app: ["./js/app"]
+    app: ["./js/app"],
+    eventbriteeact: ["whatwg-fetch", "./js/eventbrite-index"]
   },
   output: {
     path: path.join(__dirname, "dist/assets/js"),

@@ -7,8 +7,6 @@ image: "/assets/img/photos/2018-09-23.jpg"
 link: https://www.eventbrite.com/e/techstars-startup-weekend-nyc-latinx-in-tech-tickets-48652017494?discount=website#
 location: New York, NY
 photos: https://photos.app.goo.gl/QooxpXvb9s3f2t6V9
-aliases:
-  - /2018/09/23/startup-weekend-nyc/
 ---
 
 Join us for the 2nd annual Techstars Startup Weekend Latinx in Tech NYC!
