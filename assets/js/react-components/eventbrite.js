@@ -40,7 +40,7 @@ class Eventbrite extends React.Component {
   }
   getEvents() {
     const url =
-      "http://localhost:9000/eventbrite";
+      "/.netlify/functions/eventbrite";
     const request = new Request(url);
     return fetch(request)
       .then((response) => {
