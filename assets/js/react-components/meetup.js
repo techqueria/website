@@ -22,7 +22,7 @@ class Eventbrite extends React.Component {
   }
   getEvents() {
     const url =
-      "/.netlify/functions//meetup";
+      "/.netlify/functions/meetup";
     const request = new Request(url);
     return fetch(request)
       .then((response) => {
