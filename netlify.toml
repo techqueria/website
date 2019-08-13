@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "gulp build"
+  command = "npm run build"
   functions = "lambda-prod"
 
 [context.production.environment]
