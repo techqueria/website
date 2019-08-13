@@ -20,6 +20,24 @@ class Eventbrite extends React.Component {
       </div>
     );
   }
+  dayOfWeekAsInteger(day) {
+    return ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][day];
+  }
+
+  formatDate(date) {
+    var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
+
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+
+    return `${this.dayOfWeekAsInteger(date.getDay())} - ${monthNames[monthIndex]} ${day}, ${year}`;
+  }
   getEvents() {
     const url =
       "http://localhost:9000/eventbrite";
@@ -50,7 +68,7 @@ class Eventbrite extends React.Component {
         photo_url: image,
         event_url: event.url,
         description: event.description.text,
-        created: event.start.utc
+        created: this.formatDate(new Date(event.start.utc))
       };
     });
     return events;

@@ -1,32 +1,28 @@
 import React from "react";
 
-import Eventcard from "./event-card";
+import Events from "./events";
 
-class Meetup extends React.Component {
+class Eventbrite extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      events: []
+      liveEvents: [],
+      completedEvents: []
     };
   }
   render() {
-    const {events} = this.state;
+    const {liveEvents, completedEvents} = this.state;
     return (
-      events.map((event) => (
-        <Eventcard
-          photo_url={event.photo_url}
-          name={event.name}
-          event_url={event.event}
-          description={event.description}
-          created
-        ></Eventcard>
-      ))
+      <div>
+        <Events status="live" events={liveEvents}></Events>
+        <Events status="completed" events={completedEvents}></Events>
+      </div>
     );
   }
   getEvents() {
     const url =
-      "https://api.meetup.com/techqueria/events?&sign=true&photo-host=secure&status=past&text_format=plain&page=20&desc=true";
+      "http://localhost:9000/meetup";
     const request = new Request(url);
     return fetch(request)
       .then((response) => {
@@ -40,20 +36,60 @@ class Meetup extends React.Component {
         console.error(error);
       });
   }
-  async componentDidMount() {
-    const data = await this.getEvents();
-    const events = data.events.map((event) => {
-      if (event.photo_url) {
-        event.photo_url = photo_url.replace("global", "highres");
-      } else {
-        event.photo_url = "https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png";
+
+  dayOfWeekAsInteger(day) {
+    return ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][day];
+  }
+
+  formatDate(date) {
+    var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
+
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+
+    return `${this.dayOfWeekAsInteger(date.getDay())} - ${monthNames[monthIndex]} ${day}, ${year}`;
+  }
+  transform(data) {
+    const events = data.map((event) => {
+      let image;
+      if (event.featured_photo && event.featured_photo.highres_link) {
+        image = event.featured_photo.highres_link;
       }
-      return event;
+      else {
+        image = "https://cdn.logojoy.com/wp-content/uploads/2017/07/Meetup_logo.png";
+      }
+      return {
+        name: event.name,
+        photo_url: image,
+        event_url: event.link,
+        description: event.plain_text_description,
+        created: this.formatDate(new Date(event.time))
+      };
     });
-    this.setState({
-      events: events
-    });
+    return events;
+  }
+  async componentDidMount() {
+    try {
+      const data = await this.getEvents();
+      const events = {
+        live: this.transform(data.live),
+        completed: this.transform(data.completed)
+      };
+      this.setState({
+        liveEvents: events.live,
+        completedEvents: events.completed
+      });
+    }
+    catch (e) {
+      console.warn("there is an error processing request", e);
+    }
   }
 }
 
-export default Meetup;
+export default Eventbrite;
