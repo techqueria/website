@@ -91,5 +91,8 @@
     "process": true,
     "ENV": true,
     "module": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
