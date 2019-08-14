@@ -1,6 +1,6 @@
 ---
 title: "Event with CBS Interactive"
-description: "WIP"
+description: "TBA"
 date: 2019-10-10
 image: "/assets/img/supporters/cbs-interactive.png"
 locations:
@@ -8,5 +8,3 @@ locations:
 companies:
   - "CBS Interactive"
 ---
-
-TBD

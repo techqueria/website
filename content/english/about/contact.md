@@ -2,6 +2,8 @@
 title: Contact
 description: Get in touch with a Techqueria team member via email, Slack or social media.
 noTimeEstimate: true
+image: "/assets/img/about/contact/_index.jpg"
+hideImage: true
 toc: true
 aliases:
   - /contact/

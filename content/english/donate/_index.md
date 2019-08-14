@@ -1,6 +1,8 @@
 ---
 title: Donate
 description: "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
+image: "/assets/img/donate/_index.jpeg"
+hideImage: true
 aliases:
   - /donate/
   - /donations/

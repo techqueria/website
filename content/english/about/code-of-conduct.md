@@ -1,7 +1,9 @@
 ---
 title: Code of Conduct
 description: All participants of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.
+image: "/assets/img/about/code-of-conduct/_index.jpg"
 noTimeEstimate: true
+hideImage: true
 aliases:
   - /code-of-conduct/
   - /about/code-of-conduct/
@@ -18,17 +20,18 @@ We believe in respect, compassion, understanding, and inclusion and expect all c
 
 We have no tolerance for any form of harassment; we expect everyone to act professionally and to follow the social norms of the community.
 
-- [The Pledge](#the-pledge)
-- [The Standards](#the-standards)
-  - [Examples of behaviour that contributes to creating a positive environment include:](#examples-of-behaviour-that-contributes-to-creating-a-positive-environment-include)
-  - [Examples of unacceptable behaviour by participants include:](#examples-of-unacceptable-behaviour-by-participants-include)
-  - [Alcohol](#alcohol)
-- [Reporting Violations](#reporting-violations)
-  - [Twitter](#twitter)
-  - [Email](#email)
-  - [Slack](#slack)
-- [Enforcement](#enforcement)
-- [Attribution](#attribution)
+- [Code of Conduct](#code-of-conduct)
+  - [The Pledge](#the-pledge)
+  - [The Standards](#the-standards)
+    - [Examples of behaviour that contributes to creating a positive environment include:](#examples-of-behaviour-that-contributes-to-creating-a-positive-environment-include)
+    - [Examples of unacceptable behaviour by participants include:](#examples-of-unacceptable-behaviour-by-participants-include)
+    - [Alcohol](#alcohol)
+  - [Reporting Violations](#reporting-violations)
+    - [Twitter](#twitter)
+    - [Email](#email)
+    - [Slack](#slack)
+  - [Enforcement](#enforcement)
+  - [Attribution](#attribution)
 
 ## The Pledge
 
