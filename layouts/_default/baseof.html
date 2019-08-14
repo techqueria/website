@@ -11,8 +11,11 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
   {{ partial "base/navbar.html" . }}
-  <!-- Main Block -->
-  {{ block "main" . }} {{ end }}
+  <!-- Main Content -->
+  <div role="main">
+    <!-- Main Block -->
+    {{ block "main" . }}{{ end }}
+  </div>
   <!-- Footer -->
   {{ partial "base/footer/_index.html" . }}
   <!-- Scripts -->

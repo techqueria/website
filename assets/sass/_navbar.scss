@@ -42,6 +42,8 @@
   }
 
   .navbar-dropdown {
+    padding: 0;
+
     .navbar-divider {
       margin: 0;
     }
@@ -53,7 +55,6 @@
   }
 
   @media screen and (max-width: $laptop) {
-
     .navbar-link::after,
     .navbar-dropdown {
       display: none;
@@ -77,4 +78,15 @@
       display: flex !important
     }
   }
+
+  .navbar-link:not(.is-arrowless):after,
+  .select:not(.is-multiple):not(.is-loading):after {
+    border-radius: 0;
+  }
+}
+
+.navbar.is-spaced .navbar-dropdown,
+.navbar-dropdown.is-boxed {
+  transform: none;
+  transition: none;
 }

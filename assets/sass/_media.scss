@@ -1,0 +1,15 @@
+.media {
+  align-items: center;
+
+  .level-item {
+    text-decoration: none !important;
+  }
+
+  .level.is-mobile .level-item:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .icon {
+    display: block;
+  }
+}

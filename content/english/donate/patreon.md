@@ -1,47 +1,15 @@
 ---
-title: Contribute on Patreon
+title: Contribute through Patreon
 description: Become a Patron to support Techqueria's efforts to create the largest community of Latinx professionals in tech.
 identifier: fab fa-patreon
 link: https://www.patreon.com/techqueria
-image: "/assets/img/banners/patreon.jpg"
+image: "/assets/img/supporters/patreon.png"
 aliases:
   - /patreon/
 ---
 
-Phillip Ventura
-\$25
-Core
+We want to recognize our Patreon supporters for their financial support.
 
-Liliana A Monge
-\$25
-Core
+A huge thank you to all our supporters.
 
-Krystal Flores
-\$25
-Core
-
-Xande Macedo
-\$5
-Supporter
-
-Tonatiuh Ramos
-\$5
-Supporter
-
-Henri Idrovo
-\$5
-Supporter
-
-Frances Coronel
-\$1
-Friend
-
-Javier Lopez
-\$1
-Friend
-
-Supporter - $5 or more per month
-Advocate - $10 or more per month
-Core - $25 or more per month
-Patron - $50 or more per month
-Champion - \$100 or more per month
+Check out our <a href="https://www.patreon.com/techqueria" rel="noopener" target="_blank">Patreon</a> if you'd like support our growing community of Latinx in Tech.

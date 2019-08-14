@@ -1,8 +1,9 @@
 ---
 title: "Focus on inclusion, diversity will follow"
 date: 2016-10-29
+image: "/assets/img/blog/2016-10-29.jpg"
 comments: true
-people:
+authors:
   - David Silva
 ---
 

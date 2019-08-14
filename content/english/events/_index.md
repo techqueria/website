@@ -3,12 +3,10 @@ title: Events
 description: Find information about our upcoming events with other Latinx in Tech.
 layout: "events"
 sortLatestFirst: true
-url: /events/
 aliases:
   - /about/photos/
   - /eventbrite/
   - /events/
-  - /meetups/
   - /photos/
   - /stock-photos/
 categories:

@@ -1,8 +1,8 @@
 ---
 title: Donate
 description: "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
-url: /donate/
 aliases:
+  - /donate/
   - /donations/
   - /give-money/
 categories:
@@ -11,7 +11,7 @@ categories:
 
 <div class="columns">
   <div class="column is-half">
-    <p><img src="/assets/img/banners/donate.jpg" alt="Donate to Techqueria"></p>
+    <p><img src="/assets/img/donate/donate.jpg" alt="Donate to Techqueria"></p>
     <p>Techqueria is a tax-exempt public charity under Section 501c3 of the Internal Revenue Code.</p>
     <p>Contributions to Techqueria are tax-deductible to the extent provided by law.</p>
     <p>EIN 83-2656715</p>

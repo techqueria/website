@@ -1,35 +1,37 @@
-<!-- Start - Main -->
 {{ define "main" }}
-  <!-- Start - By Year -->
-  {{ range .Data.Pages.GroupByDate "2006" }}
-    <h1>{{ .Key }}</h1>
-    <!-- Start - Pages for Each Year -->
-    {{ range .Pages }}
-      <hr/>
-      <h2>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
-      <p>
-        {{ dateFormat "Monday - January 2, 2006" .Date }}
-      </p>
-      <div>
-        {{ if .Description }}
-          {{ .Description }}
-        {{ else }}
-          {{ .Summary }}
-        {{ end }}
-      </div>
-      <div>
-        {{ .Summary }}
-        <p class="align-right">
-          <a href="{{ .RelPermalink }}">
-            <nobr>More →</nobr>
-          </a>
-        </p>
-      </div>
-    {{ end }}
-    <!-- End - Pages for Each Year -->
-  {{ end }}
-  <!-- End - By Year -->
+<!-- Pages -->
+{{ $listPages := .Data.Pages }}
+<!-- Hero -->
+{{ partial "content/hero/hero.html" . }}
+<!-- Page -->
+<div class="section page">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{ partial "content/custom/breadcrumbs.html" . }}
+    <!-- List Content -->
+    <!-- Content -->
+    <div class="content table-border-none">
+      <blockquote>{{ len $listPages }} {{ if gt (len $listPages) 1 }}pages{{ else }}page{{ end }}</blockquote>
+      <!-- Range -->
+      {{ range $listPages.GroupByDate "2006" }}{{ partial "content/list.html" . }}{{ end }}
+      <br>
+      <!-- End Message -->
+      {{ if gt (len $listPages) 1 }}
+      <br>
+      <!-- End Message -->
+      <h4 class="has-text-weight-light">
+        ¡Eso es todo! 🎉
+      </h4>
+      {{ end }}
+      <!-- Categories Links -->
+      <!-- See all categories -->
+      <h5 class="has-text-weight-light">
+        See all
+        <a href="/categories/">categories</a> or <a href="/tags/">tags</a>.
+      </h5>
+    </div>
+    <!-- Content Footer -->
+    {{ partial "content/footer/_index.html" . }}
+  </div>
+</div>
 {{ end }}
-<!-- End - Main -->

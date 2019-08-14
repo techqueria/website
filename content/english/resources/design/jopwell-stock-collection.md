@@ -3,6 +3,9 @@ title: "Jopwell Latinx Photo Collection Vol. I"
 image: https://images.ctfassets.net/e5mq1t8pfsum/2Qt6TtjMcGoGKrWzAQcORP/0018e28e284417f808e6801d428f73ff/Jopwell_Latinx_Shoot_April_2019_Yarminiah_Rosa1.jpg?w=720&fm=jpg&fl=progressive
 description: "Jopwell Latinx Photo Collection Vol. I is a brand new collection featuring Latinx millennials in the workplace."
 link: https://www.jopwell.com/thewell/posts/jopwell-launches-latinx-stock-photo-collection
+aliases:
+  - /blog/2019/06/14/jopwell-launches-latinx-stock-photo-collection-techqueria-cofounder-featured/
+  - /blog/2019/06/14/jopwell-launches-latinx-stock-photo-collection/
 ---
 
 Last year, we embarked on a new initiative to increase representation in imagery through the development of The Jopwell Collection – original, free-to-download stock photography featuring diverse professionals in a wide array of work environments.

@@ -4,9 +4,11 @@ description: "Software Engineer at Slack"
 date: 2018-04-22
 comments: true
 image: https://i.imgur.com/NWXkplC.jpg
-link: https://linkedin.com/in/fvcproductions
+linkedin: fvcproductions
 categories:
   - testimonial
+authors:
+  - Frances Coronel
 ---
 
 Techqueria helped me get in touch with four different Latinxs in tech who all offered me tips on how to prepare for my interviews as I searched for my next role.

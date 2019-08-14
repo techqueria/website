@@ -1,0 +1,89 @@
+{{ define "main" }}
+<!-- Pages -->
+{{ $pages := (.Sections | union .Pages) }}
+<!-- Hero -->
+{{ partial "content/hero/hero.html" . }}
+<!-- Page -->
+<section class="section page">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{ partial "content/custom/breadcrumbs.html" . }}
+    <!-- Content -->
+    {{ partial "content/_index.html" . }}
+    <!-- TODO: Optimize to be more efficient -->
+    <!-- Executive Team -->
+    <div class="content mt-2">
+      <h2>Executive Team</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
+    </div>
+    <!-- Board of Directors -->
+    <div class="content mt-2">
+      <h2>Board of Directors</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/shashi-jain") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/andrea-flores") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/david-silva") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/esteban-uribe") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
+    </div>
+    <!-- Active Volunteers -->
+    <div class="content mt-2">
+      <h2>Active Team Members</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/andrea-cardona") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/angel-alvarado") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/dulce-villarreal") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/maritza-alas") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/pia-zaragoza") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/vanessa-jimenez") }}
+    </div>
+    <!-- Active Patreon Supporters -->
+    <div class="content mt-2">
+      <h2>Active Patreon Supporters</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/esteban-uribe") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/felipe-ventura") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/frances-coronel") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/giovanni-bryden") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/javier-lopez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/krystal-flores") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/liliana-a-monge") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/tonatiuh-ramos") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/xande-macedo") }}
+    </div>
+    <!-- Past Team Members -->
+    <div class="content mt-2">
+      <h2>Past Team Members</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/abi-munoz") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/cj-joulain") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/dalia-icedo") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/francisco-gutierrez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/hector-carmona") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/josue-bustos") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/kevin-hernandez") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/kimberly-munoz") }}
+      {{ partial "content/child.html" ($.Site.GetPage "/team/rubi-sanchez") }}
+    </div>
+    <!-- Past Patreon Supporters -->
+    <div class="content mt-2">
+      <h2>Past Patreon Supporters</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ partial "content/child.html" ($.Site.GetPage "/team/henri-idrovo") }}
+    </div>
+    <!-- Content Footer -->
+    <div class="content">
+      {{ partial "content/footer/_index.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

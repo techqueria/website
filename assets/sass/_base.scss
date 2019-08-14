@@ -49,12 +49,16 @@ iframe {
 form {
   max-width: $tablet;
 
-  button,
-  input,
-  label,
-  pre code,
-  span,
-  textarea {
-    font-size: inherit !important;
+  &.form--centered {
+    margin: 0 auto;
   }
+
+  .field {
+    margin-top: 1em;
+  }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  height: 20px;
 }

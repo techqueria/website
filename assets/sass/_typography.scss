@@ -24,17 +24,15 @@ textarea {
   font-family: inherit !important;
 }
 
-form {
-  label,
-  textarea,
-  input,
-  span,
-  button,
-  pre code {
-    font-family: $font-family !important;
+label,
+textarea,
+input,
+span,
+button,
+pre code {
+  font-family: $font-family !important;
 
-    @media screen and (min-width: $mobile) {
-      font-size: initial !important;
-    }
+  @media screen and (min-width: $mobile) {
+    font-size: initial !important;
   }
 }

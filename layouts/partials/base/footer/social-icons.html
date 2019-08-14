@@ -1,0 +1,56 @@
+<div class="footer__social-icons has-text-centered mt-2">
+  <!-- Twitter -->
+  {{ if .Site.Social.twitter }}
+  <a target="_blank" rel="noopener" href="https://twitter.com/{{ .Site.Social.twitter }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- LinkedIn -->
+  {{ if .Site.Social.linkedin }}
+  <a target="_blank" rel="noopener" href="https://linkedin.com/{{ .Site.Social.linkedin }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- Instagram -->
+  {{ if .Site.Social.instagram }}
+  <a target="_blank" rel="noopener" href="https://instagram.com/{{ .Site.Social.instagram }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- Facebook -->
+  {{ if .Site.Social.facebook }}
+  <a target="_blank" rel="noopener" href="https://facebook.com/{{ .Site.Social.facebook }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- GitHub -->
+  {{ if .Site.Social.github }}
+  <a target="_blank" rel="noopener" href="https://github.com/{{ .Site.Social.github }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- Meetup -->
+  {{ if .Site.Social.meetup }}
+  <a target="_blank" rel="noopener" href="https://meetup.com/{{ .Site.Social.meetup }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+</div>

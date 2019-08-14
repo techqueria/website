@@ -2,14 +2,14 @@
 
 <nav aria-label="main navigation" class="navbar has-shadow is-spaced" role="navigation">
   <div
-    class="container is-fluid">
+    class="container">
     <!-- Brand -->
     <div
       class="navbar-brand">
       <!-- Logo -->
       {{ range .Site.Menus.homepage }}
         <a class="navbar-item navbar-logo" href="{{ .URL | relLangURL }}">
-          <img src="/assets/img/logos/logo-square.png" height="128" alt="{{ .Name }}">
+          <img src="/assets/img/_logos/logo-square.png" height="128" alt="{{ .Name }}">
         </a>
       {{ end }}
       <!-- Left Icons -->
@@ -90,7 +90,7 @@
           </a>
         {{ end }}
         <!-- Slack -->
-        <div class="navbar-item is-hidden-laptop-xx-large">
+        <div class="navbar-item is-hidden-laptop-xx-large is-hidden-fullhd">
           <div class="field is-grouped">
             {{ range .Site.Menus.slack }}
               <p class="control">

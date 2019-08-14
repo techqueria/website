@@ -2,57 +2,56 @@
 
 <!-- TOC -->
 
-- [1. Setting Up](#1-Setting-Up)
-  - [Ways to Contribute](#Ways-to-Contribute)
-    - [Benefits of Contributing](#Benefits-of-Contributing)
-      - [GitHub Profile](#GitHub-Profile)
-      - [LinkedIn](#LinkedIn)
-      - [Credibility](#Credibility)
-  - [Fork the repo](#Fork-the-repo)
-  - [Installation](#Installation)
-- [2. Local Development](#2-Local-Development)
-  - [Live Server](#Live-Server)
-  - [Branding](#Branding)
-  - [Service Workers](#Service-Workers)
-  - [Tools](#Tools)
-  - [Platforms](#Platforms)
-  - [Languages](#Languages)
-  - [Coding Guidelines](#Coding-Guidelines)
-    - [File Size](#File-Size)
-  - [Adding Images](#Adding-Images)
-  - [Content Updates](#Content-Updates)
-    - [People](#People)
-      - [Team](#Team)
-      - [Patreon Supporters](#Patreon-Supporters)
-    - [Companies](#Companies)
-    - [Blog Posts](#Blog-Posts)
-    - [Resources](#Resources)
-  - [Translations](#Translations)
-    - [How to translate content](#How-to-translate-content)
-      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#Option-1-Replace-individual-strings-from-the-HTML-templates-in-the-layouts-folder)
-      - [Option 2. Create a separate Markdown file with the language code extension](#Option-2-Create-a-separate-Markdown-file-with-the-language-code-extension)
-  - [Directory Structure](#Directory-Structure)
-  - [Available Commands](#Available-Commands)
-  - [Audits](#Audits)
-  - [Deployment](#Deployment)
-- [3. Opening a Pull Request](#3-Opening-a-Pull-Request)
-  - [A Good PR](#A-Good-PR)
-  - [Checks](#Checks)
-  - [GitHub Integrations](#GitHub-Integrations)
-  - [GitHub Bots](#GitHub-Bots)
-    - [Adding a contributor](#Adding-a-contributor)
-    - [Remind yourself to tackle an issue](#Remind-yourself-to-tackle-an-issue)
-  - [Issue Tracker](#Issue-Tracker)
-  - [Stale Pull Requests](#Stale-Pull-Requests)
-- [Troubleshooting](#Troubleshooting)
-  - [Error: Cannot find module](#Error-Cannot-find-module)
-  - [Not seeing changes live](#Not-seeing-changes-live)
-  - [Recently Merged Changes](#Recently-Merged-Changes)
-- [Questions?](#Questions)
-  - [GitHub](#GitHub)
-  - [Slack](#Slack)
-  - [Gitter](#Gitter)
-  - [Email](#Email)
+- [1. Setting Up](#1-setting-up)
+  - [Ways to Contribute](#ways-to-contribute)
+    - [Benefits of Contributing](#benefits-of-contributing)
+      - [GitHub Profile](#github-profile)
+      - [LinkedIn](#linkedin)
+      - [Credibility](#credibility)
+  - [Fork the repo](#fork-the-repo)
+  - [Installation](#installation)
+- [2. Local Development](#2-local-development)
+  - [Live Server](#live-server)
+  - [Branding](#branding)
+  - [Service Workers](#service-workers)
+  - [Tools](#tools)
+  - [Platforms](#platforms)
+  - [Languages](#languages)
+  - [File Size](#file-size)
+  - [Special Characters](#special-characters)
+  - [Images](#images)
+  - [Team Members](#team-members)
+  - [Events](#events)
+  - [Companies](#companies)
+  - [Adding blog posts](#adding-blog-posts)
+  - [Adding press articles](#adding-press-articles)
+  - [Resources](#resources)
+  - [Translations](#translations)
+    - [How to translate content](#how-to-translate-content)
+      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#option-1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
+      - [Option 2. Create a separate Markdown file with the language code extension](#option-2-create-a-separate-markdown-file-with-the-language-code-extension)
+  - [Directory Structure](#directory-structure)
+  - [Available Commands](#available-commands)
+  - [Audits](#audits)
+  - [Deployment](#deployment)
+- [3. Opening a Pull Request](#3-opening-a-pull-request)
+  - [A Good PR](#a-good-pr)
+  - [Checks](#checks)
+  - [GitHub Integrations](#github-integrations)
+  - [GitHub Bots](#github-bots)
+    - [Adding a contributor](#adding-a-contributor)
+    - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
+  - [Issue Tracker](#issue-tracker)
+  - [Stale Pull Requests](#stale-pull-requests)
+- [Troubleshooting](#troubleshooting)
+  - [Error: Cannot find module](#error-cannot-find-module)
+  - [Not seeing changes live](#not-seeing-changes-live)
+  - [Recently Merged Changes](#recently-merged-changes)
+- [Questions?](#questions)
+  - [GitHub](#github)
+  - [Slack](#slack)
+  - [Gitter](#gitter)
+  - [Email](#email)
 
 <!-- /TOC -->
 
@@ -95,7 +94,7 @@ Showcase your contributions through LinkedIn with Techqueria's company profile: 
 Just make sure to use the description below and you can briefly describe what you did as well.
 
 ```txt
-Techqueria is a 501c3 nonprofit representing the largest community for Latinx in Tech.
+Techqueria is a 501c3 nonprofit serving the largest community for Latinx in Tech.
 
 - Contributed to their open source website through translations and bug fixes
 ```
@@ -192,15 +191,19 @@ A [service worker](https://developers.google.com/web/fundamentals/primers/servic
 - TOML
 - JSON
 
-### Coding Guidelines
+### File Size
 
-#### File Size
-
-For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "custom/breadcrumbs.html" . }}`.
+For files longer than 200 lines, we recommend breaking it out into multiple files by referencing partials like this: `{{ partial "content/custom/breadcrumbs.html" . }}`.
 
 If you see existing files longer than 200 lines (excluding Markdown files), feel free to break them down further.
 
-### Adding Images
+### Special Characters
+
+If there is a special character in the text, make sure to use double quotes.
+
+However, "#" is not allowed in titles under any circumstances. 🤷🏽‍♂️
+
+### Images
 
 All images should be added to `assets/img` within the relevant folder.
 
@@ -208,94 +211,150 @@ If there is not a relevant directory, please create one.
 
 We do have automated image optimization but feel free to compress the image locally as well.
 
-### Content Updates
+While it is easier to just link images, we highly recommend downloading images and adding them locally.
 
-If there is a special character in the text, make sure to use double quotes.
+For optimal display, we recommend making images 1000px wide and 500px high.
 
-#### People
+### Team Members
 
-When adding a new person, make sure to use their LinkedIn profile as the URL and download their LinkedIn profile picture so we can host it locally.
+When adding a new person, make sure to use their LinkedIn profile as the URL and find a high-res photo of them so we can host it locally.
 
-##### Team
-
-> `content/english/team/frances-coronel.md`
+> Example: `content/english/team/frances-coronel.md`
 
 ```markdown
 ---
 title: Frances Coronel
-description: Software Engineer at Slack
-image: "/assets/img/people/frances-coronel.jpg"
-link: https://www.linkedin.com/in/fvcproductions
-location: Bay Area
-role: Open Source Lead, Slack Admin
+image: "/assets/img/team/frances-coronel.jpg"
+description: "Software Engineer, Slack"
+linkedin: fvcproductions
+twitter: fvcproductions
+github: fvcproductions
+flag: 🇵🇪
+locations:
+  - bay-area
+roles:
+  - board-member
+  - current-organizer
+  - cto
+  - patreon-friend
 ---
 ```
 
-##### Patreon Supporters
+Note that you only need usernames for LinkedIn, Twitter & GitHub profiles.
 
-> `content/english/donate/patreon-supporters/liliana-a-monge.md`
+The flag identifies the heritage of the member and is optional.
+
+Location can be `bay-area`, `nyc`, `los-angeles`, `austin` and `chicago`.
+
+TODO: The roles and location will eventually be moved to `categories` in the future but currently they help showcase the different roles of the team members without having to manually repeat any strings.
+
+### Events
+
+Techqueria has hosted quite a lot of events!
+
+Once we finalize the date for an event, that's a good time to add it in.
+
+> Example: `content/english/events/2019-06-19-lyft.md`
+
+Please format file name as `year-month-day-event-name.md`.
 
 ```markdown
 ---
-title: Liliana A Monge
-description: Co-Founder & CEO
-image: "/assets/img/people/liliana-a-monge.jpg"
-link: https://www.linkedin.com/in/lilianamonge
-tier: "Core - $25 or more per month"
+title: "Techqueria @ Lyft"
+description: Join us for an evening with Lyft and Techqueria! We'll be talking about skills to advance into senior & leadership roles.
+date: 2019-06-19
+link: https://lyftxtechqueria.splashthat.com/
+image: "/assets/img/events/2019-06-19-lyft.jpg"
+photos: https://photos.app.goo.gl/5Ye8FhbV1B1SrxFH6
+locations:
+  - "bay-area"
+aliases:
+  - /events/2019/06/19/techqueria-lyft/
+companies:
+  - "Lyft"
+organizers:
+  - "Felipe Ventura"
+  - "Frances Coronel"
+  - "Dulce Villarreal"
+  - "Jonathan De la Paz"
+pressArticles:
+  - "Techqueria: Building a community for Latinos in tech industry"
 ---
 ```
 
-> Tier Options for Patreon
+The important keys to note here are `companies`, `organizers` and `pressArticles`.
 
-- Friend - \$1 or more per month
-- Supporter - \$5 or more per month
-- Advocate - \$10 or more per month
-- Core - \$25 or more per month
-- Patron - \$50 or more per month
-- Champion - \$100 or more per month
+Each coincides with the title of another Markdown file representing said entity.
 
-#### Companies
+This makes it easy to relate an organizer with an event, a company with an event, an event with a press article and so on.
+
+### Companies
 
 When adding a new company, make sure to link their careers site and download an appropriate logo image so we can host it locally.
 
-> `content/english/support-us/supporters/braintree.md`
+The image for companies MUST be 1000px wide and 500 px high in order to display correctly.
+
+> Example: `content/english/support-us/supporters/braintree.md`
 
 ```markdown
 ---
-title: "Braintree"
-description: "All-in-one solution to accept, process, and split payments in your mobile app or online"
-image: "/assets/img/sponsors/braintree.png"
-link: https://www.braintreepayments.com/careers
+title: Slack
+description: Slack is where work happens.
+image: "/assets/img/supporters/slack.png"
+link: https://slack.com/careers
 ---
 ```
 
-#### Blog Posts
+### Adding blog posts
 
-Make sure to always turn comments on and add or reference a person as the author.
+Make sure to always turn comments on and add or reference a person from the `/team` page as the author so they can get proper credit.
 
-> `content/english/blog/2016-07-19-community-building.md`
+> Example: `content/english/blog/2016-07-19-community-building.md`
 
 ```markdown
 ---
-title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
+title: "Techqueria is now officially a 501c3 nonprofit!"
+date: 2019-03-07
+description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 comments: true
-date: 2016-07-19
-people:
-  - CJ Joulain
+image: "/assets/img/blog/2019-03-07-nonprofit.png"
+authors:
+  - "Shashi Jain"
 ---
 ```
 
-#### Resources
+### Adding press articles
+
+> Example: `content/english/press/2019-07-18-el-tecolote.md`
+
+```txt
+---
+title: "Techqueria: Building a community for Latinos in tech industry"
+date: 2019-07-18
+description: "Techqueria, an organization for Latinos in tech, was founded in Berkeley back in November 2015 with the purpose of serving those who were studying or pursuing a career in tech."
+publication: "El Tecolote"
+image: "/assets/img/press/2019-07-18-el-tecolote.jpg"
+link: http://eltecolote.org/content/en/features/techqueria-building-a-community-for-latinos-in-tech-industry/
+featuring:
+  - Felipe Ventura
+---
+```
+
+You can add which team members are featured in the press article.
+
+TODO: In the future, we would like to set up the publications so we can display them in a cool way like with the companies.
+
+### Resources
 
 You can add a new resource to a bunch of different categories like career, nonprofits, healthcare, immigration, etc.
 
-> `content/english/resources/nonprofits/slack-for-non-profits.md`
+> Example: `content/english/resources/nonprofits/slack-for-non-profits.md`
 
 ```markdown
 ---
-title: "Slack for Nonprofits"
-image: "/assets/img/resources/nonprofits/slack.png"
-description: "The Slack for Nonprofits program offers eligible organizations a free or discounted upgrade of one workspace to a paid plan."
+title: Slack for Nonprofits
+image: "/assets/img/resources/slack.png"
+description: The Slack for Nonprofits program offers eligible organizations a free or discounted upgrade of one workspace to a paid plan.
 link: https://get.slack.help/hc/en-us/articles/204368833-Slack-for-Nonprofits
 ---
 ```
@@ -330,7 +389,7 @@ The translation IDs must be the same in both `en.toml` and `es.toml`.
 # layouts/partials/base/footer/who-we-are.html
 
 [who_we_are_nonprofit]
-other = "Techqueria is a 501(c)(3) nonprofit representing the largest community for Latinx professionals in the tech industry."
+other = "Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry."
 ```
 
 > `site/i18n/es.toml`
@@ -593,7 +652,7 @@ Please make a comment mentioning `@techqueria/admins` in your issue or PR and on
 
 ### Slack
 
-If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#website` channel for discussion and a `#website-gh` for GitHub notifications.
+If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
 
 ### Gitter
 

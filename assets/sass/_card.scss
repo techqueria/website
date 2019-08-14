@@ -31,4 +31,16 @@
       margin-top: auto;
     }
   }
+
+  .card-reset {
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  .card-content a {
+    text-decoration: none;
+  }
 }

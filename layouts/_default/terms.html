@@ -1,10 +1,15 @@
 {{ define "main" }}
-<!-- Image -->
-{{ partial "content/hero.html" . }}
-<!-- Content -->
-<section class="section">
+<!-- Hero -->
+{{ partial "content/hero/hero.html" . }}
+<!-- Page -->
+<div class="section page">
   <div class="container">
-    <ol>
+    <!-- Breadcrumbs -->
+    {{ partial "content/custom/breadcrumbs.html" . }}
+    <!-- List Content -->
+    <!-- Content -->
+    <div class="content">
+      <ol>
       {{ $data := .Data }} {{ range $key, $value := .Data.Terms.ByCount }}
       <li>
         <p>
@@ -14,7 +19,9 @@
       </li>
       {{ end }}
     </ol>
+    </div>
+    <!-- Content Footer -->
+    {{ partial "content/footer/_index.html" . }}
   </div>
-</section>
-<!-- End Main -->
+</div>
 {{ end }}

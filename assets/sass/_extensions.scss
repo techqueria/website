@@ -1,3 +1,7 @@
+%darker-shadow {
+  box-shadow: 0 0 20px $darker-shadow;
+}
+
 %material-shadow {
   box-shadow: 0 0 20px $material-shadow;
 }
@@ -15,4 +19,10 @@
   text-overflow: ellipsis;
   text-transform: none;
   white-space: pre-wrap;
+}
+
+%bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

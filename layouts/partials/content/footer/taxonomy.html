@@ -1,13 +1,15 @@
 {{ if or (.Params.categories) (.Params.tags) }}
-  <div
-    class="tags">
-    <!-- Categories -->
-    {{ range $category := .Params.categories }}
-      <a class="tag is-link" href="/categories/{{ $category | urlize }}/" title="{{ $category }}">{{ $category }}</a>
-    {{ end }}
-    <!-- Tags -->
-    {{ range $tag := .Params.tags }}
-      <a class="tag is-link" href="/tags/{{ $tag | urlize }}/" title="{{ $tag }}">{{ $tag }}</a>
-    {{ end }}
-  </div>
+<div class="content mt-2">
+  <h2><span class="mr-sm">📂</span>Categories & Tags</h2>
+</div>
+<div class="tags are-medium">
+  <!-- Categories -->
+  {{ range $category := .Params.categories }}
+  <a class="tag is-link" href="/categories/{{ $category | urlize }}/" title="{{ $category }}">{{ $category }}</a>
+  {{ end }}
+  <!-- Tags -->
+  {{ range $tag := .Params.tags }}
+  <a class="tag is-link" href="/tags/{{ $tag | urlize }}/" title="{{ $tag }}">{{ $tag }}</a>
+  {{ end }}
+</div>
 {{ end }}

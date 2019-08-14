@@ -1,0 +1,7 @@
+<!-- Authors -->
+{{ if .Params.authors }}
+<div class="content mt-2">
+  <h2><span class="mr-sm">📝</span>About the {{ cond (eq (len .Params.authors) 1) "author" "authors" }}</h2>
+  {{ .Render "author-figure" }}
+</div>
+{{ end }}

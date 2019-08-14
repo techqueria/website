@@ -1,0 +1,21 @@
+<section class="hero is-medium is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Title -->
+      <h1 class="title">
+        {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
+      </h1>
+      <!-- Description -->
+      <p class="subtitle">
+        {{ if .Description }}
+        {{ $description := (.Description | safeHTML) }}
+        {{ $description }}
+        {{ else }}
+        {{ .Summary | truncate 150 | safeHTML }}
+        {{ end }}
+      </p>
+      <!-- Links -->
+      {{ partial "content/hero/hero-links.html" . }}
+    </div>
+  </div>
+</section>

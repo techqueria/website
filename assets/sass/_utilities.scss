@@ -34,12 +34,20 @@
   padding: 1em !important;
 }
 
+.pt-0 {
+  padding-top: 0 !important;
+}
+
 .image-shadow {
   @extend %image-shadow;
 }
 
 .material-shadow {
   @extend %material-shadow;
+}
+
+.bg-image {
+  @extend %bg-image;
 }
 
 .image-external-plain {
@@ -50,6 +58,10 @@
   &::after {
     content: "" !important;
   }
+}
+
+.u-box-shadow--none {
+  box-shadow: none !important;
 }
 
 .u-background--default {
@@ -74,4 +86,8 @@
   @media screen and (min-width:$laptop-xx-large) {
     display: block;
   }
+}
+
+.author-image {
+  border-radius: $radius;
 }

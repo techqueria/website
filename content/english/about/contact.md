@@ -2,7 +2,7 @@
 title: Contact
 description: Get in touch with a Techqueria team member via email, Slack or social media.
 noTimeEstimate: true
-url: /contact/
+toc: true
 aliases:
   - /contact/
   - /about/contact/
@@ -11,84 +11,59 @@ categories:
   - sitemap
 ---
 
-## Ways To Contact Us
-
-### Email
+## Send us an email
 
 [organizers@techqueria.org](mailto:organizers@techqueria.org)
 
-### Slack
+## Reach out in Slack
 
-Use the command `/admin` in [our Slack workspace](/slack/).
+Reach out in the `#meta` channel or use the `/admin` command in [our Slack workspace](/communities/slack/).
 
-### Contact Form
+For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
 
-> Filling out the form below sends an email to `organizers@techqueria.org`.
+## Fill out the contact form
 
-<form name="Contact" method="POST" data-netlify="true">
+Filling out the form below sends an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
+
+<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
-  <div class="field">
-    <label class="label">Name</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Name" autocomplete="on" type="text" name="name" placeholder="Your full name" required>
-      <span class="icon is-left">
-        ✒️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Email</label>
-    <div class="control has-icons-left">
-      <input class="input" aria-label="Email" autocomplete="on" type="email" name="email" placeholder="Your email" required>
-      <span class="icon is-left">
-        ✉️
-      </span>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Message</label>
-    <div class="control">
-      <textarea class="textarea" aria-label="Message" spellcheck="true" rows="5" name="message" id="message" placeholder="Your message" required></textarea>
-    </div>
-  </div>
-  <div data-netlify-recaptcha="true"></div>
-  <div class="field mt-sm">
-    <div class="control">
-      <button type="submit" class="button is-primary">Send message</button>
-    </div>
-  </div>
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/organization >}}
+  {{< fields/title >}}
+  {{< fields/message title="Message" required="true" help="Please provide any useful context so we can reply accordingly." name="message" >}}
+  {{< fields/referral >}}
+  {{< fields/submit >}}
 </form>
 
----
+## Interested in partnering with us?
 
-## Partnering
+We're always looking for [partners and sponsors](/support-us/) to help move our mission forward!
 
-We're always looking for [partners and sponsors](/support-us/) to help move our mission forward! We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
+We can help promote your event to a Latinx audience, find volunteers for different activities, or design programs together that can benefit the community.
 
 We are looking for speakers, locations for our events, those who can sponsors programs for our members, food, services, merchandise and we're open to other partnering ideas.
 
 In return, we can provide a spotlight for your organization in our events and networks.
 
-You can email us at [organizers@techqueria.org](mailto:organizers@techqueria.org), or use the contact form above to get in touch with us.
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<p>You're also welcome to <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/techqueria/hello'});return false;">set up a partnership call with us using Calendly</a>.</p>
 
-## Meet Us In Person
+## Want to meet in person?
 
 We usually host an event per month, so you are also welcome to connect with us at our various panels and talks in-person.
 
-See our [Communities](/communities/) page for links to our social media groups and to keep informed on what we're doing.
+You can check out our different [communities](/communities/) for links to our social media groups and to keep informed on what we're doing.
 
 We also like to help other groups with their events and ideas.
 
-Connect and share what you're working on with us!
-
-## Feedback
+## Do you have feedback?
 
 We're always listening to your feedback and ready to help in any way we can.
 
-Use the command `/admin` in the Slack workspace to get in touch with us the quicker, or send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
+Reach out to us in Slack through the `#meta` channel or use the `/admin` command to get in touch with us the quicker
+
+You can also send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
 If you need an invitation to Slack, request it on [our Slack welcome page](/communities/slack/).
-
-<!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5696300.js"></script>
-<!-- End of HubSpot Embed Code -->

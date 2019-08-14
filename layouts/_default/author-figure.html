@@ -1,0 +1,42 @@
+{{- range .Params.authors }}
+{{ $path := printf "/team/%s" (urlize .) }}
+{{ $authorPage := $.Site.GetPage $path }}
+{{ with $authorPage }}
+<article class="media">
+    <figure class="media-left">
+      <a href="{{ $path }}"><div class="image is-128x128 author-image bg-image" style="background-image:url({{ .Params.image }});"></div></a>
+    </figure>
+    <div class="media-content pt-0">
+      <div class="content">
+        <p>
+          <strong><a href="{{ $path }}">{{ .Title }}</a></strong>
+          <br>
+          {{ .Description }}
+        </p>
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <!-- Twitter -->
+          {{ if .Params.twitter }}
+          <a class="level-item" href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">
+            <span class="icon is-small"><i class="fab fa-twitter fa-lg"></i></span>
+          </a>
+          {{ end }}
+          <!-- LinkedIn -->
+          {{ if .Params.linkedin }}
+          <a class="level-item" href="https://linkedin.com/in/{{ .Params.linkedin }}" target="_blank" rel="noopener">
+            <span class="icon is-small"><i class="fab fa-linkedin fa-lg"></i></span>
+          </a>
+          {{ end }}
+          <!-- GitHub -->
+          {{ if .Params.github }}
+          <a class="level-item" href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">
+            <span class="icon is-small"><i class="fab fa-github fa-lg"></i></span>
+          </a>
+          {{ end }}
+        </div>
+      </nav>
+    </div>
+  </article>
+{{ end }}
+{{ end }}

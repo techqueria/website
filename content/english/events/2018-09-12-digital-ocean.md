@@ -3,9 +3,12 @@ title: Digital Ocean Hispanic Heritage Month Celebration
 date: 2018-09-12
 description: Join us at DigitalOcean for an evening of sharing and networking to celebrate Hispanic Heritage month.
 link: https://www.eventbrite.com/e/panel-pathways-to-tech-hispanic-heritage-month-celebration-at-digitalocean-tickets-49340119626#
-image: "/assets/img/photos/2018-09-12.jpg"
+image: "/assets/img/events/2018-09-12.jpg"
 photos: https://photos.app.goo.gl/Rv4E4H7RRkYbAQJz7
-location: New York, NY
+locations:
+  - nyc
+companies:
+  - "DigitalOcean"
 ---
 
 Join us at DigitalOcean for an evening of sharing and networking to celebrate Hispanic Heritage month.

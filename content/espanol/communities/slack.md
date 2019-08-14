@@ -2,46 +2,46 @@
 title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
-image: "/assets/img/slack/slack-banner.jpeg"
+image: "/assets/img/supporters/slack.png"
 ---
 
 # Normas de la comunidad de Slack
 
-- [Únete!](#%C3%BAnete)
+- [Únete!](#%c3%9anete)
 - [Ya es miembro?](#ya-es-miembro)
 - [Nunca ha usado Slack antes?](#nunca-ha-usado-slack-antes)
-- [Código de Conducta](#c%C3%B3digo-de-conducta)
-- [Buenas Prácticas](#buenas-pr%C3%A1cticas)
+- [Código de Conducta](#c%c3%b3digo-de-conducta)
+- [Buenas Prácticas](#buenas-pr%c3%a1cticas)
   - [Utilice threads](#utilice-threads)
-  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%C3%B3n-de-channels)
+  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%c3%b3n-de-channels)
   - [Menciones](#menciones)
   - [HeyTaco!](#heytaco)
-    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%C3%ADa)
-    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%C3%A9s-del-nombre-de-usuario)
+    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%c3%ada)
+    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%c3%a9s-del-nombre-de-usuario)
     - [3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel](#3-puede-darle-tacos-a-cualquier-integrante-del-grupo-siempre-y-cuando-el-bot-haya-sido-invitado-al-channel)
-    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%C3%B3n-para-ver-qui%C3%A9n-est%C3%A1-recibiendo-m%C3%A1s-tacos)
+    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%c3%b3n-para-ver-qui%c3%a9n-est%c3%a1-recibiendo-m%c3%a1s-tacos)
     - [5. Necesita ayuda?](#5-necesita-ayuda)
-- [Personalización](#personalizaci%C3%B3n)
-  - [Temática de la Barra Lateral](#tem%C3%A1tica-de-la-barra-lateral)
-  - [Personalización de Estado](#personalizaci%C3%B3n-de-estado)
+- [Personalización](#personalizaci%c3%b3n)
+  - [Temática de la Barra Lateral](#tem%c3%a1tica-de-la-barra-lateral)
+  - [Personalización de Estado](#personalizaci%c3%b3n-de-estado)
   - [Emojis](#emojis)
 - [Channels](#channels)
   - [Channels Predeterminados](#channels-predeterminados)
-  - [Channels Públicos](#channels-p%C3%BAblicos)
-  - [Channels por Ubicación](#channels-por-ubicaci%C3%B3n)
+  - [Channels Públicos](#channels-p%c3%bablicos)
+  - [Channels por Ubicación](#channels-por-ubicaci%c3%b3n)
   - [Channels Privados](#channels-privados)
   - [Meta](#meta)
   - [Solicite un Channel](#solicite-un-channel)
-- [Introducción a Slack](#introducci%C3%B3n-a-slack)
-  - [Demostración de Slack](#demostraci%C3%B3n-de-slack)
+- [Introducción a Slack](#introducci%c3%b3n-a-slack)
+  - [Demostración de Slack](#demostraci%c3%b3n-de-slack)
   - [Slack Foundry](#slack-foundry)
-  - [Guía de Inicio](#gu%C3%ADa-de-inicio)
+  - [Guía de Inicio](#gu%c3%ada-de-inicio)
 
 ## Únete!
 
 Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
 
-<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/slack/request-an-invite.png"></a>
+<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestros otros grupos de la comunidad](/communities/) y los detalles que hemos proporcionado sobre nuestro espacio de Slack a continuación.
 
@@ -53,7 +53,7 @@ Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo
 
 Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).
 
-<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/slack/login-to-slack.png"></a>
+<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/communities/slack/login-to-slack.png"></a>
 
 ## Nunca ha usado Slack antes?
 
@@ -69,13 +69,13 @@ El comportamiento no-profesional **no** es aceptable, por eso si usted siente qu
 
 Puede contactar a un administrador usando el comando `/admin` en Slack seguido de su mensaje.
 
-![Admin](/assets/img/slack/admin.png)
+![Admin](/assets/img/communities/slack/admin.png)
 
 ## Buenas Prácticas
 
 ### Utilice threads
 
-Esta conversación en el channel de `#website` pudo haber sido 28 mensajes por separado! 🤯
+Esta conversación en el channel de `#meta` pudo haber sido 28 mensajes por separado! 🤯
 
 En cambio, con threads - se convirtió en una discusión más rica y centrada. 😌
 
@@ -86,7 +86,7 @@ En cambio, con threads - se convirtió en una discusión más rica y centrada. �
 - Ubicaciones
   - `#locals-`
 - Website
-  - `#website-`
+  - `#meta-`
 - Equipos
   - `#team-`
 - Proyectos
@@ -115,7 +115,7 @@ Puede usar `@heytaco` para darle a alguien un 🌮 cuando quiera mostrar admirac
 
 De esta manera: `@username tu actitud positiva el día de hoy fue de gran ayuda! :taco:`
 
-![HeyTaco! Ejemplos](/assets/img/slack/hey-taco-examples.png)
+![HeyTaco! Ejemplos](/assets/img/communities/slack/hey-taco-examples.png)
 
 #### 3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel
 
@@ -145,13 +145,13 @@ Copie y pegue estos valores en la sección de configuración [Sidebar Theme](htt
 
 Algo divertido que hacemos en el espacio de Slack de Techqueria es [configurar el estado](https://get.slack.help/hc/en-us/articles/201864558-Set-your-Slack-status-and-availability) con una bandera representando nuestra herencia/historia Latinx.
 
-![Custom Status Edit](/assets/img/slack/custom-status-edit.png)
+![Custom Status Edit](/assets/img/communities/slack/custom-status-edit.png)
 
-![Custom Status Hover](/assets/img/slack/custom-status-hover.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-hover.png)
 
 Si quiere poner varias banderas, también puede hacerlo!
 
-![Custom Status Hover](/assets/img/slack/custom-status-multiple-flags.png)
+![Custom Status Hover](/assets/img/communities/slack/custom-status-multiple-flags.png)
 
 ### Emojis
 
@@ -218,7 +218,7 @@ Tenemos algunos channels privados para conversaciones que no quiere que todos ve
 
 Para ver el listado de estos channels, escriba el comando `/list-private`, y and click on the join button to request an invitation.
 
-![Private List](/assets/img/slack/private-list.png)
+![Private List](/assets/img/communities/slack/private-list.png)
 
 ### Meta
 
@@ -231,14 +231,14 @@ Si desea participar en conversaciones sobre el futuro de la comunidad, planifica
     - https://twitter.com/Techqueria
     - https://twitter.com/TechqueriaNYC
     - https://twitter.com/TechqueriaLA
-- `#website`
+- `#meta`
   - Discutir y contribuir a la website de Techqueria https://techqueria.org
-- `#website-github`
+- `#meta-website-alerts`
   - Feed automatizado de la actividad del repositorio https://github.com/techqueria/website
 
 ### Solicite un Channel
 
-¿No encuentra el channel que quiere? No se preocupe, vaya a `#request-a-channel` para solicitar la creación, el archivo o la eliminicación de un channel.
+¿No encuentra el channel que quiere? No se preocupe, vaya a `#meta-request-channel` para solicitar la creación, el archivo o la eliminicación de un channel.
 
 ## Introducción a Slack
 

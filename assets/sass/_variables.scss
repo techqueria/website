@@ -34,6 +34,9 @@ $github: #333;
 $facebook: #4267b2;
 $twitter: #55acee;
 $linkedin: #0077b5;
+$instagram: #e30037;
+$eventbrite: #ff8000;
+$meetup: #e0393e;
 // Typography
 $font-size: 25px;
 $font-size-mobile: 15px;
@@ -81,3 +84,7 @@ $laptop-large: 1440px;
 $laptop-xx-large: 1920px;
 // Navbar
 $navbar-breakpoint: $laptop-large !default;
+// Radius
+$radius-small: 4px;
+$radius: 4px;
+$radius-large: 4px;

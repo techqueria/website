@@ -1,7 +1,7 @@
 {
   "name": "techqueria",
   "version": "1.0.0",
-  "description": "Techqueria is a nonprofit representing the largest community for Latinx in Tech. 🌮",
+  "description": "Techqueria is a nonprofit that serves the largest community of Latinx in Tech. 🌮",
   "repository": "techqueria/website",
   "main": "app.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "gulp-postcss": "8.0.0",
     "gulp-sass": "4.0.2",
     "gulp-sourcemaps": "2.6.5",
-    "hugo-bin": "0.43.6",
+    "hugo-bin": "0.44.3",
     "lozad": "1.9.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "3.0.0",
