@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from "react";
 
 import Eventcard from "./event-card";
@@ -7,6 +9,7 @@ class Events extends React.Component {
     super(props);
   }
   getHeader(status, events) {
+    let header;
     if (status === "live") {
       const eventText = events.length > 1 ? "events" : "event";
       header = (<h2>⏳ { events.length } upcoming {eventText}</h2>);
