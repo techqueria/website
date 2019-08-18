@@ -3,19 +3,24 @@ import React from "react";
 function truncate(passedString) {
   return passedString.substring(0, 150);
 }
+function imageHeader(photo_url, name) {
+  return (
+    <div className="card-image">
+      <figure className="image">
+        <img
+          src={photo_url}
+          data-src={photo_url}
+          alt={name} className="lozad card-image--figure"/>
+      </figure>
+    </div>
+  );
+}
 export default function Eventcard({photo_url, name, event_url, description, created}) {
   return (
     <div className="column is-one-third-desktop is-half-tablet">
       <a href={event_url} rel="noopener" target="_blank">
         <div className="card card-equal-height">
-          <div className="card-image">
-            <figure className="image">
-              <img
-                src={photo_url}
-                data-src={photo_url}
-                alt={name} className="lozad card-image--figure"/>
-            </figure>
-          </div>
+          {imageHeader(photo_url, name)}
           <header className="card-header">
             <h3 className="card-header-title">
               {name}
