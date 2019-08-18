@@ -20,7 +20,7 @@ class Eventbrite extends React.Component {
         image = event.logo.original.url;
       }
       else {
-        image = "/assets/img/banners/eventbrite.png";
+        image = "/assets/img/supporters/eventbrite.png";
       }
       return {
         name: event.name.text,

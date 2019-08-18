@@ -25,13 +25,9 @@ export default function Eventcard({photo_url, name, event_url, description, crea
             <div
               className="content">
               <p>
-                {description &&
-                  truncate(description)
-                }
+                {description && truncate(description)}
               </p>
-              {created &&
-                <p className="has-text-weight-light mt-sm has-text-dark is-size-7">{created} </p>
-              }
+              { created && <p className="has-text-weight-light mt-sm has-text-dar k is-size-7">{created} </p> }
             </div>
           </div>
         </div>

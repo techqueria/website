@@ -6,17 +6,16 @@ class Events extends React.Component {
   constructor(props) {
     super(props);
   }
-  render() {
-    const events = this.props.events || [];
-    let header;
-    const status = this.props.status || "live";
+  getHeader(status, events) {
     if (status === "live") {
       const eventText = events.length > 1 ? "events" : "event";
       header = (<h2>⏳ { events.length } upcoming {eventText}</h2>);
     } else {
       header = (<h2>⌛️{events.length} Past Events</h2>);
     }
-
+    return header;
+  }
+  getBody(header, events) {
     const body = (
       <section>
         <div className="content mt-2">
@@ -38,11 +37,16 @@ class Events extends React.Component {
         </div>
       </section>
     );
+    return body;
+  }
+  render() {
+    const events = this.props.events || [];
+    const status = this.props.status || "live";
+    const header = this.getHeader(status, events);
+    const body = this.getBody(header, events);
     return (
       <div>
-        {
-          events.length >= 1 && body
-        }
+        { events.length >= 1 && body }
       </div>
     );
   }
