@@ -1,4 +1,5 @@
-.fa-github-alt, .fa-github {
+.fa-github-alt,
+.fa-github {
   color: $github;
 }
 
@@ -15,7 +16,11 @@
 }
 
 .fa-instagram {
-  color: $instagram;
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .fa-eventbrite {
@@ -24,6 +29,19 @@
 
 .fa-meetup {
   color: $meetup;
+}
+
+.fa-youtube {
+  color: $youtube;
+}
+
+.fa-rss,
+.fa-rss-square {
+  color: $rss;
+}
+
+.fa-envelope {
+  color: $newsletter;
 }
 
 .footer-icons {

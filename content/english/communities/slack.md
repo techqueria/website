@@ -35,7 +35,7 @@ If you have already received an invitation, you can log in at [techqueria.slack.
 
 ### Never used Slack before?
 
-If you are new to Slack, please check out our [**Intro to Slack**](#intro-to-slack) section first.
+If you are new to Slack, please check out our [**New to Slack**](#new-to-slack) section first.
 
 ## Allies 💛
 
@@ -69,6 +69,16 @@ And so, while this structure is new for us as the community matures, we are firm
 We understand allyship is difficult (for everyone!), and we appreciate all the work you are putting in.
 
 ## Best Practices 🧠
+
+### Creating casual hangouts
+
+Using Polly and Eventbot, you can make it easy to coordinate casual hangouts in different channels.
+
+We recommend first using Polly or Doodle to coordiante a time
+
+![Polly Poll](/assets/img/communities/slack/polly-poll.png)
+
+![Eventbot](/assets/img/communities/slack/eventbot-calendar.png)
 
 ### Use threads
 
@@ -491,13 +501,19 @@ _If you're interested, you can find more information about Techqueria on our web
 
 :twitter: https://twitter.com/techqueria
 
+:instagram: https://instagram.com/techqueriaorg
+
 :facebook: https://facebook.com/techqueria
 
 :linkedin: https://linkedin.com/company/techqueria
 
 :github: https://github.com/techqueria
 
-:patreon: https://www.patreon.com/techqueria
+:patreon: https://patreon.com/techqueria
+
+:meetup: https://www.meetup.com/techqueria
+
+:envelope: https://bit.ly/techqueria-newsletter
 ```
 
 ### 1 month

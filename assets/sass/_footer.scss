@@ -23,9 +23,17 @@
       &:hover {
         color: $techqueria-black;
 
-        .fab {
+        .fab,
+        .fa-rss,
+        .fa-envelope {
           color: $techqueria-white;
         }
+      }
+    }
+
+    @media screen and (max-width: $mobile) {
+      .fa-lg {
+        font-size: 2em;
       }
     }
   }
