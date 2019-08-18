@@ -37,6 +37,5 @@ export default function Eventcard({photo_url, name, event_url, description, crea
           </div>
         </div>
       </a>
-    </div>
-  );
+    </div>);
 }
