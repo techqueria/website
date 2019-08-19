@@ -74,11 +74,13 @@ We understand allyship is difficult (for everyone!), and we appreciate all the w
 
 ### Creating casual hangouts
 
-Using Polly and Eventbot, you can make it easy to coordinate casual hangouts in different channels.
+Using [Polly](https://www.polly.ai/) and [Eventbot](https://geteventbot.com/), you can make it easy to coordinate casual hangouts in different channels.
 
-We recommend first using Polly or Doodle to coordiante a time
+We recommend first using Polly or [Doodle](https://doodle.com/content/doodle-bot) to decide on a time that will work for most people.
 
 ![Polly Poll](/assets/img/communities/slack/polly-poll.png)
+
+Then use Eventbot to create an event so that folks can RSVP and can also get reminded when the event starts through Slack.
 
 ![Eventbot](/assets/img/communities/slack/eventbot-calendar.png)
 
