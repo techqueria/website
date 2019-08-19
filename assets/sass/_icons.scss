@@ -1,3 +1,8 @@
+$instagram-color-1: #fdf497;
+$instagram-color-2: #fd5949;
+$instagram-color-3: #d6249f;
+$instagram-color-4: #285aeb;
+
 .fa-github-alt,
 .fa-github {
   color: $github;
@@ -16,11 +21,9 @@
 }
 
 .fa-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background-clip: text;
-  -webkit-background-clip: text;
+  background: radial-gradient(circle at 30% 107%, $instagram-color-1 0%, $instagram-color-1 5%, $instagram-color-2 45%, $instagram-color-3 60%, $instagram-color-4 90%);
+  color: transparent;
 }
 
 .fa-eventbrite {

@@ -55,6 +55,7 @@
   }
 
   @media screen and (max-width: $laptop) {
+
     .navbar-link::after,
     .navbar-dropdown {
       display: none;
@@ -74,10 +75,10 @@
   }
 
   .hide-on-desktop-and-larger {
-     display: flex !important;
+    display: flex !important;
 
     @media only screen and (min-width: 1439px) {
-      display: none !important
+      display: none !important;
     }
   }
 
