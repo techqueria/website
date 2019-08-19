@@ -4,6 +4,7 @@ date: 2017-09-23
 description: "Dozens of Dreamers Came Together Over 36 Hours to Build Tools and Apps to Empower, Encourage Immigrants and Americans Impacted by the U.S.’ Broken Immigration System"
 publication: "FWD.us"
 link: https://www.fwd.us/news/daca-recipients-allies-band-together-los-angeles-countrys-first-ever-immigrant-youth-led-hackathon/
+image: "/assets/img/press/2017-09-23-daca-recipients.jpg"
 ---
 
 Dozens of Dreamers Came Together Over 36 Hours to Build Tools and Apps to Empower, Encourage Immigrants and Americans Impacted by the U.S.’ Broken Immigration System

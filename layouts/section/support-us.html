@@ -10,20 +10,19 @@
     {{ partial "content/_index.html" . }}
     <!-- Children -->
     {{ partial "content/children.html" . }}
-    <!-- Past Supporters -->
+    <!-- Supporters -->
     {{ $companies := 0 }}
     {{ $pages := where $.Site.RegularPages "Section" "supporters" }}
     {{ range $pages }}
-      {{ $companies = add $companies 1 }}
+    {{ $companies = add $companies 1 }}
     {{ end }}
-    <hr>
     <div class="content has-text-centered mt-2">
-    <h2><span class="mr-sm">✨</span>{{ $companies }} Past Supporters</h2>
+      <h2><span class="mr-sm">✨</span>{{ $companies }} Supporters</h2>
     </div>
     <!-- Companies -->
     <section class="c-companies">
       {{ range $pages }}
-        {{ partial "content/card/company.html" . }}
+      {{ partial "content/card/company.html" . }}
       {{ end }}
     </section>
     <!-- Content Footer -->

@@ -53,4 +53,34 @@
     </div>
   </a>
   {{ end }}
+  <!-- YouTube -->
+  {{ if .Site.Social.youtube }}
+  <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/{{ .Site.Social.youtube }}">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
+  {{ end }}
+  <!-- Newsletter -->
+  <!-- <a target="_blank" rel="noopener" href="https://bit.ly/techqueria-newsletter">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-mailchimp fa-stack-1x fa-inverse"></i>
+    </div>
+  </a> -->
+  <!-- Slack -->
+  <a rel="noopener" href="/communities/slack" class="fa-slack-logo-link">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-slack fa-stack-1x fa-inverse"><img src="/assets/img/_svg/slack.svg" class="fa-slack-logo"></i>
+    </div>
+  </a>
+  <!-- RSS -->
+  <a target="_blank" rel="noopener" href="/feed.xml">
+    <div class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rss-square fa-stack-1x fa-inverse"></i>
+    </div>
+  </a>
 </div>

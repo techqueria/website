@@ -2,11 +2,15 @@
 title: Slack Workspace
 description: Learn about our Community Guidelines and request an invitation to our Slack community.
 identifier: fab fa-slack
+image: "/assets/img/communities/slack/_index.jpg"
+noTimeEstimate: true
+hideImage: true
 toc: true
-image: "/assets/img/supporters/slack.png"
 aliases:
   - /slack/
   - /communities/slack/
+categories:
+  - sitemap
 ---
 
 ## Join us! 🌮
@@ -23,6 +27,8 @@ You should get an invite within 2 weeks.
 
 If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4NzDDy5u5QTy3hG0YNkH30Ra9Vi7ld5d3fG1zfMPy4eHxmw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0" style="width:700px !important;">Loading…</iframe>
+
 ### Already a member?
 
 If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
@@ -31,7 +37,7 @@ If you have already received an invitation, you can log in at [techqueria.slack.
 
 ### Never used Slack before?
 
-If you are new to Slack, please check out our [**Intro to Slack**](#intro-to-slack) section first.
+If you are new to Slack, please check out our [**New to Slack**](#new-to-slack) section first.
 
 ## Allies 💛
 
@@ -65,6 +71,18 @@ And so, while this structure is new for us as the community matures, we are firm
 We understand allyship is difficult (for everyone!), and we appreciate all the work you are putting in.
 
 ## Best Practices 🧠
+
+### Creating casual hangouts
+
+Using [Polly](https://www.polly.ai/) and [Eventbot](https://geteventbot.com/), you can make it easy to coordinate casual hangouts in different channels.
+
+We recommend first using Polly or [Doodle](https://doodle.com/content/doodle-bot) to decide on a time that will work for most people.
+
+![Polly Poll](/assets/img/communities/slack/polly-poll.png)
+
+Then use Eventbot to create an event so that folks can RSVP and can also get reminded when the event starts through Slack.
+
+![Eventbot](/assets/img/communities/slack/eventbot-calendar.png)
 
 ### Use threads
 
@@ -487,13 +505,19 @@ _If you're interested, you can find more information about Techqueria on our web
 
 :twitter: https://twitter.com/techqueria
 
+:instagram: https://instagram.com/techqueriaorg
+
 :facebook: https://facebook.com/techqueria
 
 :linkedin: https://linkedin.com/company/techqueria
 
 :github: https://github.com/techqueria
 
-:patreon: https://www.patreon.com/techqueria
+:patreon: https://patreon.com/techqueria
+
+:meetup: https://www.meetup.com/techqueria
+
+:envelope: https://bit.ly/techqueria-newsletter
 ```
 
 ### 1 month

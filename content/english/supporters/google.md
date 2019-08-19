@@ -4,3 +4,5 @@ description: Assist in searching the world's information, including webpages, im
 link: https://careers.google.com
 image: "/assets/img/supporters/google.png"
 ---
+
+TODO: Add related event/sponsorship details

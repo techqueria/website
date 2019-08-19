@@ -1,6 +1,8 @@
 ---
 title: "Shop"
 description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
+image: "/assets/img/about/shop/_index.jpg"
+hideImage: true
 aliases:
   - /shop/
   - /store/
@@ -25,6 +27,8 @@ categories:
 <script type="text/javascript"
         src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js">
 </script>
+
+<noscript>Please enable JavaScript to view the shop.</noscript>
 
 <style>
 body {

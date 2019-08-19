@@ -2,8 +2,9 @@
 title: "Twitter Threads with Techqueria"
 description: "Join us for a night of networking and inspiring stories told by Latinx in Tech hosted by Twitter."
 date: 2019-08-14
-image: "/assets/img/events/2019-08-14-twitter.png"
+image: "/assets/img/events/2019-08-14.jpg"
 link: https://twitterthreadswithtechqueria.splashthat.com/
+photos: https://photos.app.goo.gl/274h4VdGnDK8Wwh67
 organizers:
   - "Felipe Ventura"
   - "Frances Coronel"
@@ -26,6 +27,22 @@ companies:
   - "Twitter"
 ---
 
+![Twitter Threads](/assets/img/events/2019-08-14-twitter.png)
+
+Techqueria had an event in partnership with Twitter Alas to talk about what it's like being Latinx in Tech.
+
+We also raised ~\$2,500 at the event in support of El Paso.
+
+Follow us @Techqueria and @TwitterAlas and check out the conversations using the hashtag #LatinxTechTwitter.
+
+Splashthat (https://twitterthreadswithtechqueria.splashthat.com)
+
+Video by Pablo Carabajal (https://linkedin.com/in/phcarbajal)
+
+DI audio courtesy of West Wave Media (https://westwavemedia.com)
+
+---
+
 Clear your calendar!
 
 We're having an open-mic night in partnership with Techqueria to talk about what it's like being Latinx in Tech.
@@ -34,7 +51,7 @@ We'll keep the conversation on Twitter going as we live-tweet questions and get 
 
 Join us in person for good food, community, and conversation!
 
-Follow us @TwitterAlas and join the global conversation using the hashtag #LatinxTechTwitter.
+Follow us @TwitterAlas and join the global conversation using the hashtag `#LatinxTechTwitter`.
 
 ---
 

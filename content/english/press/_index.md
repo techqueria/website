@@ -5,8 +5,6 @@ sortLatestFirst: true
 aliases:
   - /about/press/
   - /press/
-categories:
-  - sitemap
 ---
 
 ## Press Mentions

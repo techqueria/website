@@ -1,6 +1,8 @@
 ---
 title: Donate
 description: "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
+image: "/assets/img/donate/_index.jpeg"
+hideImage: true
 aliases:
   - /donate/
   - /donations/
@@ -17,7 +19,9 @@ categories:
     <p>EIN 83-2656715</p>
   </div>
   <div class="column is-half">
-    <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
+    <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+    <noscript>Please enable JavaScript to enable Donorbox.</noscript>
+    <iframe
       src="https://donorbox.org/embed/techqueria?amount=25&hide_donation_meter=true" width="100%"
       style="max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"
       allowpaymentrequest></iframe>

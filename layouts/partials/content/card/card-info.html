@@ -1,21 +1,23 @@
 <!-- Roles -->
 {{ if .Params.roles }}
-  {{ if in .Params.roles "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}
-  {{ if in .Params.roles "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
-  {{ if in .Params.roles "cto" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director, Technology{{ end }}
   {{ if in .Params.roles "board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Member{{ end }}
+  {{ if in .Params.roles "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
   {{ if in .Params.roles "chair-person" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Chair{{ end }}
-  {{ if in .Params.roles "ux-consultant" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📝</span>UX Consultant{{ end }}
+  {{ if in .Params.roles "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}
+  {{ if in .Params.roles "cto" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director, Technology{{ end }}
   {{ if in .Params.roles "current-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Organizer{{ end }}
+  {{ if in .Params.roles "current-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Volunteer{{ end }}
   {{ if in .Params.roles "past-board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Board Member{{ end }}
   {{ if in .Params.roles "past-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Organizer{{ end }}
-  {{ if in .Params.roles "patreon-friend" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Friend Tier - $1 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Supporter Tier - $5 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-advocate" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Advocate Tier - $10 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-core" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Core Tier - $25 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-patron" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Patron Tier - $50 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-champion" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Champion Tier - $100 or more per month{{ end }}
   {{ if in .Params.roles "past-patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Past Patreon Supporter{{ end }}
+  {{ if in .Params.roles "past-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Volunteer{{ end }}
+  {{ if in .Params.roles "patreon-advocate" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Advocate Tier - $10 or more per month{{ end }}
+  {{ if in .Params.roles "patreon-champion" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Champion Tier - $100 or more per month{{ end }}
+  {{ if in .Params.roles "patreon-core" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Core Tier - $25 or more per month{{ end }}
+  {{ if in .Params.roles "patreon-friend" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Friend Tier - $1 or more per month{{ end }}
+  {{ if in .Params.roles "patreon-patron" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Patron Tier - $50 or more per month{{ end }}
+  {{ if in .Params.roles "patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Supporter Tier - $5 or more per month{{ end }}
+  {{ if in .Params.roles "ux-consultant" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📝</span>UX Consultant{{ end }}
 {{ end }}
 <!-- Date -->
 {{ if not .PublishDate.IsZero }}

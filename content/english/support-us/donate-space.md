@@ -25,17 +25,4 @@ As a host, you commit to providing the following:
 >
 > In the meantime, feel free to [request an invite to our Slack community](/slack).
 
-<form name="Donate Space" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
-  {{< fields/name >}}
-  {{< fields/email >}}
-  {{< fields/organization >}}
-  {{< fields/title >}}
-  {{< fields/linkedin >}}
-  {{< fields/donate_space >}}
-  {{< fields/location >}}
-  {{< fields/slack_member >}}
-  {{< fields/message >}}
-  {{< fields/referral >}}
-  {{< fields/submit >}}
-</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTcE8jExp3r-dy2m6ox1DScUgwhm8xCv_pMzLLQ5KWCLg5cA/viewform?embedded=true" width="640" height="2150" frameborder="0" marginheight="0" marginwidth="0" style="height:2150px !important;">Loading…</iframe>

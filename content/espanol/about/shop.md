@@ -22,6 +22,8 @@ categories:
         src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js">
 </script>
 
+<noscript>Please enable JavaScript to view the shop.</noscript>
+
 <style>
 body {
   font-family: "Rubik", BlinkMacSystemFont, -apple-system, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
