@@ -12,23 +12,6 @@ aliases:
 
 If you are interested in supporting Techqueria as an individual, one great way to help out is by volunteering your time.
 
-## Sign up to volunteer
-
-Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
-
-<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
-  {{< fields/name >}}
-  {{< fields/email >}}
-  {{< fields/linkedin >}}
-  {{< fields/location >}}
-  {{< fields/slack_member >}}
-  {{< fields/volunteer >}}
-  {{< fields/message >}}
-  {{< fields/referral >}}
-  {{< fields/submit >}}
-</form>
-
 ## Volunteering Opportunities
 
 ### Event Lead
@@ -105,3 +88,9 @@ Fill out the form below and we'll reach out via Slack with onboarding instructio
 - post relevant content through Instagram
 - like/repost relevant content
 - answer DMs
+
+## Sign up to volunteer
+
+Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHjG9xvJsiEfaoOz-5Ry6LaZoR89xhi4-Tmggtk1NkH1-qRQ/viewform?embedded=true" width="640" height="2179" frameborder="0" marginheight="0" marginwidth="0" style="height:2179px !important;">Loading…</iframe>

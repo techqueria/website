@@ -27,6 +27,8 @@ You should get an invite within 2 weeks.
 
 If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4NzDDy5u5QTy3hG0YNkH30Ra9Vi7ld5d3fG1zfMPy4eHxmw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0" style="width:700px !important;">Loading…</iframe>
+
 ### Already a member?
 
 If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).

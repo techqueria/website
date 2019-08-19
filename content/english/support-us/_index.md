@@ -191,6 +191,6 @@ These are topics that have been covered or discussed at Techqueria events so far
 <div class="calendly-inline-widget" data-url="https://calendly.com/techqueria/hello?hide_event_type_details=1" style="min-width:320px;height:640px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <!-- Other Ways to Support Us-->
-<div class="content has-text-centered mt-2">
+<div class="content mt-2">
   <h2><span class="mr-sm">🥰</span>Other Ways to Support Us</h2>
 </div>
