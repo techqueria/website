@@ -15,9 +15,17 @@ categories:
 
 ## Overview
 
-Techqueria is a 501c3, tax exempt nonprofit that empowers Latinx professionals in the tech industry by building networking, career advancement, and open source opportunities. We provide resources and support to help our community reach their career goals and thrive in the tech industry.
+Techqueria is a 501c3, tax exempt nonprofit that empowers Latinx professionals in the tech industry by building networking and career advancement opportunities.
 
-Techqueria is focused on augmenting impact that Latinx professionals are making in the tech industry. We are building a network that shares technical knowledge, mentorship, career opportunities, events, and speaking engagements on a national level. Our event topics range from the technical aspects of our profession to navi- gating and addressing challenges in our workplaces. We work with individuals and employee resource groups to comprehensively affect change in the tech industry.
+We provide resources and support to help our community reach their career goals and thrive in the tech industry.
+
+Techqueria is focused on augmenting impact that Latinx professionals are making in the tech industry.
+
+We are building a network that shares technical knowledge, mentorship, career opportunities, events, and speaking engagements on a national level.
+
+Our event topics range from the technical aspects of our profession to navigating and addressing challenges in our workplaces.
+
+We work with individuals and employee resource groups to comprehensively affect change in the tech industry.
 
 - founded in 2015
 - we have organized panels, trainings or workshops for 3,500+ participants so far as of June 2019

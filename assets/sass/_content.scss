@@ -69,7 +69,8 @@
       display: inline-block;
     }
 
-    p, a & {
+    p,
+    a & {
       text-align: center;
     }
   }
@@ -80,5 +81,10 @@
     &:not(:last-child) {
       margin: 0;
     }
+  }
+
+  table {
+    width: 100%;
+    overflow-x: auto;
   }
 }
