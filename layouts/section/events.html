@@ -26,13 +26,14 @@
     {{ partial "content/_index.html" . }}
     <!-- Community Calendar -->
     <div class="content mt-2">
-      <h2><span class="mr-sm">💛</span>Community Calendar</h2>
-      <p>Anyone is welcome to submit events but please keep in mind that given Techqueria's mission, we require all
-        events submitted are highlighting Latinx in Tech.</p>
+      <h2><span class="mr-sm">🗓</span>Community Calendar</h2>
+      <p>Anyone is welcome to submit events but please keep in mind that given Techqueria's mission, we require that any event submitted is relevant to Latinx in Tech.</p>
       <p>You can also subscribe to this calendar to keep track of relevant events for Latinx in Tech across the US.</p>
     </div>
     <div data-tockify-component="calendar" data-tockify-calendar="techqueria"></div>
     <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+    <noscript>Please enable JavaScript to enable the community calendar.</noscript>
+    <hr>
     <!-- Upcoming Events -->
     {{ if ge $upcomingEventsAllNumber 1 }}
     <div class="content mt-2">

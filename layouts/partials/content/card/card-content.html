@@ -9,7 +9,7 @@
 <!-- Title -->
 <header class="card-header">
   <h3 class="card-header-title">
-    {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
+    {{ if .IsPage }}{{ if .Date.Local.After now }}[UPCOMING] {{ end }}{{ end }}{{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
   </h3>
 </header>
 <!-- Content -->

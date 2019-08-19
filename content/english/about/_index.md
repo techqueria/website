@@ -30,3 +30,7 @@ If you are interested in starting up a new chapter, reach out to us [in the #met
 Also as of August 2019, we have ~4,000 members in our Slack community and ~5,000 subscribed to our newsletter.
 
 Across all our different social media platforms, we have ~10,000 member/follower reach.
+
+## Credits
+
+Most photos on the site were taken by [Pablo Carbajal](https://www.linkedin.com/in/phcarbajal/).

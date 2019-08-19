@@ -39,5 +39,14 @@
       </a>
     </p>
     {{ end }}
+    <!-- Photos -->
+    {{ if .Params.video }}
+    <p class="has-text-weight-light mt-sm is-size-7">
+      <span class="mr-sm">🎥</span>
+      <a href="{{ .Params.video }}" target="_blank" rel="noopener">
+        Video
+      </a>
+    </p>
+    {{ end }}
   </div>
 </div>

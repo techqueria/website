@@ -118,7 +118,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "About"
     name                             = "Events"
-    url                              = "/events/"
+  url                              = "/events/"
 [[menu.main]]
     parent                           = "About"
     name                             = "Press️"
@@ -296,13 +296,15 @@ disqusShortname                      = "techqueria"
 
 # Social Menu
 [[menu.social]]
-    name                             = "LinkedIn"
-    url                              = "https://www.linkedin.com/company/techqueria/"
-    identifier                       = "fab fa-lg fa-linkedin"
-[[menu.social]]
     name                             = "Twitter"
     url                              = "https://twitter.com/Techqueria"
     identifier                       = "fab fa-lg fa-twitter"
+    weight                           = 1
+[[menu.social]]
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+    weight                           = 2
 
 # Slack Menu
 [[menu.slack]]

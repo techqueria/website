@@ -8,22 +8,36 @@
     {{ partial "content/custom/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
+    <!-- Calendly -->
+    <div class="content mt-2">
+      <h2><span class="mr-sm">📞</span>Book a Partnership Call</h2>
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+      <noscript>Please enable JavaScript to enable the Calendly widget.</noscript>
+      <p>If you're interested in becoming an official sponsor or partner, you can <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/techqueria/hello'});return false;">set up a partnership call with us</a> using <a href="https://calendly.com/techqueria" target="_blank" rel="noopener">calendly.com/techqueria</a> where you can select the time most convenient for you — no back and forth emails!</p>
+    </div>
+    <!-- Calendly Widget -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/techqueria/hello?hide_event_type_details=1" style="min-width:320px;height:640px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <!-- Other Ways to Support Us-->
+    <div class="content mt-2">
+      <h2><span class="mr-sm">🥰</span>Other Ways to Support Us</h2>
+    </div>
     <!-- Children -->
     {{ partial "content/children.html" . }}
-    <!-- Past Supporters -->
+    <!-- Supporters -->
     {{ $companies := 0 }}
     {{ $pages := where $.Site.RegularPages "Section" "supporters" }}
     {{ range $pages }}
-      {{ $companies = add $companies 1 }}
+    {{ $companies = add $companies 1 }}
     {{ end }}
-    <hr>
     <div class="content has-text-centered mt-2">
-    <h2><span class="mr-sm">✨</span>{{ $companies }} Past Supporters</h2>
+      <h2><span class="mr-sm">✨</span>{{ $companies }} Supporters</h2>
     </div>
     <!-- Companies -->
     <section class="c-companies">
       {{ range $pages }}
-        {{ partial "content/card/company.html" . }}
+      {{ partial "content/card/company.html" . }}
       {{ end }}
     </section>
     <!-- Content Footer -->

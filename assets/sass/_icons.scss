@@ -40,10 +40,29 @@
   color: $rss;
 }
 
+.fa-mailchimp {
+  color: $mailchimp;
+}
+
 .fa-envelope {
   color: $newsletter;
 }
 
 .footer-icons {
   color: $techqueria-white;
+}
+
+.fa-slack-logo-link {
+  &:hover {
+    .fa-slack-logo {
+      display: none;
+    }
+  }
+
+  .fa-slack-logo {
+    left: 25px;
+    position: absolute;
+    top: 0.5em;
+    width: 1em;
+  }
 }

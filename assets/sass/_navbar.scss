@@ -73,8 +73,18 @@
     }
   }
 
-  .show-on-larger-size {
-    @media only screen and (max-width: 1439px) and (min-width: 1088px) {
+  .hide-on-desktop-and-larger {
+     display: flex !important;
+
+    @media only screen and (min-width: 1439px) {
+      display: none !important
+    }
+  }
+
+  .show-on-fullhd-and-larger {
+    display: none !important;
+
+    @media only screen and (min-width: 2100px) {
       display: flex !important
     }
   }
@@ -89,4 +99,8 @@
 .navbar-dropdown.is-boxed {
   transform: none;
   transition: none;
+}
+
+.navbar-menu {
+  box-shadow: none;
 }

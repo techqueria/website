@@ -7,5 +7,5 @@ flag: 🇲🇽
 locations:
   - bay-area
 roles:
-  - current-organizer
+  - current-volunteer
 ---

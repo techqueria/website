@@ -1,10 +1,4 @@
 <div class="buttons">
-  <!-- Photos -->
-  {{ if .Params.photos }}
-  <a class="mt-1 button is-link is-inverted is-large" href="{{ .Params.photos }}" target="_blank" rel="noopener">
-    Photos 📸
-  </a>
-  {{ end }}
   <!-- Twitter Profile -->
   {{ if .Params.twitter }}
   <a class="mt-1 button is-white is-large" href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">
@@ -35,8 +29,20 @@
   <!-- External Link -->
   {{ if .Params.link }}
   <a class="mt-1 button is-link is-large" href="{{ .Params.link }}" target="_blank" rel="noopener">
-    {{ if in .Params.link "meetup.com" }}Meetup ↗️{{ else if in .Params.link "eventbrite.com" }}Eventbrite ↗️{{ else }}Learn more ↗️
+    {{ if in .Params.link "meetup.com" }}Meetup ↗️{{ else if in .Params.link "eventbrite.com" }}Eventbrite ↗️{{ else if in .Params.link "splashthat.com"}}Splashthat ↗️{{ else }}Learn more ↗️
     {{ end }}
+  </a>
+  {{ end }}
+  <!-- Photos -->
+  {{ if .Params.photos }}
+  <a class="mt-1 button is-link is-inverted is-large" href="{{ .Params.photos }}" target="_blank" rel="noopener">
+    Photos 📸
+  </a>
+  {{ end }}
+  <!-- Videos -->
+  {{ if .Params.video }}
+  <a class="mt-1 button is-link is-inverted is-large" href="{{ .Params.video }}" target="_blank" rel="noopener">
+    Video 🎥
   </a>
   {{ end }}
 </div>

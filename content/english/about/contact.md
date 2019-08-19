@@ -50,6 +50,8 @@ In return, we can provide a spotlight for your organization in our events and ne
 
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<noscript>Please enable JavaScript to enable the link to our Calendly.</noscript>
+
 <p>You're also welcome to <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/techqueria/hello'});return false;">set up a partnership call with us using Calendly</a>.</p>
 
 ## Want to meet in person?
