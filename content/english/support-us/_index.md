@@ -3,6 +3,8 @@ title: Support Us
 description: Help us grow the largest Latinx in Tech communities by becoming a sponsor, speaker or volunteer.
 image: "/assets/img/support-us/_index.jpg"
 hideImage: true
+noTimeEstimate: true
+toc: true
 aliases:
   - /become-a-sponsor/
   - /become-a-supporter/
