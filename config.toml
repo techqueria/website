@@ -212,6 +212,10 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/speak/"
 [[menu.main]]
     parent                           = "Events"
+    name                             = "Community Calendar"
+    url                              = "/events/#community-calendar"
+[[menu.main]]
+    parent                           = "Events"
     name                             = "Donate Space"
     url                              = "/support-us/donate-space/"
 
