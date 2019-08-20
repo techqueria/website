@@ -1,7 +1,7 @@
 body {
   @extend .has-text-weight-normal;
-  font-family: $font-size-mobile;
-  font-size: $font-size;
+  font-family: $font-family;
+  font-size: $font-size-mobile;
   word-wrap: break-word;
 
   @media screen and (min-width: $mobile) {

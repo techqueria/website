@@ -24,9 +24,13 @@
   font-size: inherit;
 }
 
+.title {
+  font-weight: 700;
+}
+
 .subtitle {
+  font-weight: 600;
   font-size: inherit;
-  font-weight: $weight-medium !important;
 }
 
 .is-active {

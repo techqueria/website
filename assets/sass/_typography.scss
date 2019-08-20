@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-  @extend .has-text-weight-bold;
+  font-weight: 700;
   font-family: $font-family-headers;
 }
 

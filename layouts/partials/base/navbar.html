@@ -79,7 +79,7 @@
       {{ end }}
       {{ end }}
       {{ range .Site.Menus.social.ByWeight }}
-      <a class="navbar-item is-hidden-touch" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+      <a class="navbar-item is-hidden-laptop-large" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
         {{ if .Identifier }}
         <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
         {{ end }}
