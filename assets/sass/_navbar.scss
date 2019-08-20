@@ -3,7 +3,6 @@
   >.container {
     align-content: center;
     justify-content: center;
-    justify-items: center;
   }
 
   .navbar-brand {
@@ -11,8 +10,8 @@
   }
 
   .navbar-menu {
-    flex-grow: unset;
     box-shadow: none;
+    flex-grow: unset;
   }
 
   .navbar-burger {
