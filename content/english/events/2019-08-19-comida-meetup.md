@@ -1,6 +1,6 @@
 ---
 title: "Techqueria Dominicanxs Brunch"
-description: "Join us for a night of networking and inspiring stories told by Latinx in Tech hosted by Twitter."
+description: "Dominicanxs East Bay brunch hosted at Alamar"
 date: 2019-08-19
 image: "/assets/img/events/2019-08-19.jpg"
 link: https://www.eventbrite.com/e/techqueria-dominicanxs-brunch-tickets-10502297655
