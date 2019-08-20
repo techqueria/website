@@ -1,6 +1,6 @@
 ---
 title: "Understanding Encryption & Cybersecurity Practices"
-date: 2015-03-23
+date: 2017-03-23
 link: https://www.meetup.com/techqueria/events/237736844/
 locations:
   - bay-area
