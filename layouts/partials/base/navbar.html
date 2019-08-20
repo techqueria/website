@@ -23,7 +23,7 @@
           </a>
           {{ end }}
           <!-- Slack -->
-          <div class="is-hidden-mobile slack-buttons">
+          <div class="slack-buttons__navbar-start">
             {{ range .Site.Menus.slack }}
             <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
               <span class="icon">
@@ -48,62 +48,60 @@
     </div>
     <!-- Main Menu -->
     <div id="navMenu" class="navbar-menu">
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+      {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+          {{ if .Identifier }}
+          <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+          {{ end }}
+          {{- .Name -}}
+        </a>
+        <!-- Children -->
+        <div class="navbar-dropdown is-size-7">
+          {{ range .Children }}
+          <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
             {{ if .Identifier }}
             <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
             {{ end }}
-            {{- .Name -}}
+            {{ .Name }}
           </a>
-          <!-- Children -->
-          <div class="navbar-dropdown is-size-7">
-            {{ range .Children }}
-            <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
-              {{ if .Identifier }}
-              <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-              {{ end }}
-              {{ .Name }}
-            </a>
-            {{ end }}
-          </div>
-        </div>
-        {{ else }}
-        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
-          {{- if .Identifier -}}
-          <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-          {{- end -}}
-          {{ .Name }}
-        </a>
-        {{ end }}
-        {{ end }}
-        {{ range .Site.Menus.social.ByWeight }}
-        <a class="navbar-item is-hidden-touch" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
-          {{ if .Identifier }}
-          <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
           {{ end }}
-        </a>
+        </div>
+      </div>
+      {{ else }}
+      <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+        {{- if .Identifier -}}
+        <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+        {{- end -}}
+        {{ .Name }}
+      </a>
+      {{ end }}
+      {{ end }}
+      {{ range .Site.Menus.social.ByWeight }}
+      <a class="navbar-item is-hidden-laptop-large" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+        {{ if .Identifier }}
+        <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
         {{ end }}
+      </a>
+      {{ end }}
       <div class="navbar-end">
         <!-- Slack -->
-        <div class="navbar-item slack-buttons-navbar-end">
-          <div class="field is-grouped">
-            {{ range .Site.Menus.slack }}
-            <p class="control">
-              <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
-                <span class="icon">
-                  {{ if .Identifier }}
-                  <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-                  {{ end }}
-                </span>
-                <span>
-                  {{ .Name }}
-                </span>
-              </a>
-            </p>
-            {{ end }}
-          </div>
+        <div class="slack-buttons__navbar-end">
+          {{ range .Site.Menus.slack }}
+          <div class="navbar-item">
+            <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+              <span class="icon">
+                {{ if .Identifier }}
+                <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+                {{ end }}
+              </span>
+              <span>
+                {{ .Name }}
+              </span>
+            </a>
+            </div>
+          {{ end }}
         </div>
       </div>
     </div>

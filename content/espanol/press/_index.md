@@ -2,8 +2,7 @@
 title: Prensa
 description: Estas son algunas de las publicaciones y menciones en la prensa sobre Techqueria y sus miembros.
 sortLatestFirst: true
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Menciones en la prensa

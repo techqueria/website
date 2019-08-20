@@ -1,6 +1,6 @@
 .c-companies {
-  column-count: 3;
   line-height: 0;
+  column-count: 1;
 
   .card-image {
     display: inline-block;
@@ -22,15 +22,11 @@
     }
   }
 
-  @media (max-width: $laptop) {
-    column-count: 3;
-  }
-
-  @media (max-width: $tablet) {
+  @media (min-width: $tablet) {
     column-count: 2;
   }
 
-  @media (max-width: $mobile) {
-    column-count: 1;
+  @media (min-width: $laptop) {
+    column-count: 3;
   }
 }

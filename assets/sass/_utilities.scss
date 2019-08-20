@@ -80,6 +80,14 @@
   }
 }
 
+.is-hidden-laptop-large {
+  display: none;
+
+  @media screen and (min-width:$laptop-large) {
+    display: flex;
+  }
+}
+
 .is-hidden-laptop-xx-large {
   display: none;
 

@@ -7,8 +7,7 @@ aliases:
   - /donate/
   - /donations/
   - /give-money/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 <div class="columns">

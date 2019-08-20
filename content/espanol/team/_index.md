@@ -3,8 +3,7 @@ title: Equipo
 description: "Techqueria es una organización de voluntarios que ha sido posible gracias al trabajo de varios organizadores, mentores, patrocinadores y asesores."
 layout: "people"
 sortByLocation: true
-categories:
-  - sitemap
+sitemap: true
 ---
 
 Techqueria es una organización de voluntarios que ha sido posible gracias al trabajo de varios organizadores, mentores, patrocinadores y asesores.

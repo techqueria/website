@@ -1,7 +1,11 @@
 # Español
+[homepage_techqueria_title]
+other = "¡Bienvenidos!"
 
-[techqueria_is]
-other = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes de Latinx profesionales en la industria de la tecnología. 🌮"
+[homepage_techqueria_subtitle_part_1]
+other = "Techqueria es una organización sin fines de lucro que sirve"
+[homepage_techqueria_subtitle_part_2]
+other = "a la comunidad más grande de Latinx en tecnología. 🌮"
 
 [who_we_are]
 other = "Quiénes somos"
@@ -19,10 +23,10 @@ other = "Únete a nosotros en Slack!"
 other = "Nuestro espacio de trabajo de Slack provee una mejor forma de mantenerse en contacto con otros miembros de Techqueria."
 
 [join_us_slack_button]
-other = "Solicite una invitación!"
+other = "Solicite una invitación"
 
 [become_sponsor]
-other = "Conviértase en un Patrocinador!"
+other = "Conviértase en un Patrocinador"
 
 [become_sponsor_description]
 other = "Siempre estamos buscando nuevos socios y patrocinadores para ayudar a avanzar nuestra misión."
@@ -31,7 +35,7 @@ other = "Siempre estamos buscando nuevos socios y patrocinadores para ayudar a a
 other = "Contáctenos!"
 
 [subscribe_newsletter]
-other = "Suscríbase a nuestra newsletter!"
+other = "Suscríbase a nuestra newsletter"
 
 [subscribe_newsletter_description]
 other = "Recibe nuestras últimas noticias por correo electrónico."
@@ -133,3 +137,10 @@ other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que repr
 
 [copyright_to]
 other = "a"
+
+# cta.donate.html
+[cta_donate_title]
+other = "Done"
+
+[cta_donate_description]
+other = "Done a Techqueria y apoye nuestros esfuerzos para elevar Latinx en tecnología."

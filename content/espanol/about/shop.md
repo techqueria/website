@@ -1,8 +1,7 @@
 ---
 title: "Tienda"
 description: "¡Compre todo tipo de botines geniales en la tienda oficial de camisetas de Techqueria!"
-categories:
-  - sitemap
+sitemap: true
 ---
 
 <div id="myShop">

@@ -6,6 +6,5 @@ hideImage: true
 aliases:
   - /resource/
   - /resources/
-categories:
-  - sitemap
+sitemap: true
 ---

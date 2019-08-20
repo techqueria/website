@@ -5,8 +5,7 @@ image: "/assets/img/communities/_index.jpg"
 hideImage: true
 aliases:
   - /communities/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Networking

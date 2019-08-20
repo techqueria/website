@@ -1,6 +1,11 @@
 # English
-[techqueria_is]
-other = "Techqueria is a nonprofit that serves the largest community of Latinx in Tech. 🌮"
+[homepage_techqueria_title]
+other = "¡Bienvenidos!"
+
+[homepage_techqueria_subtitle_part_1]
+other = "Techqueria is a nonprofit that serves"
+[homepage_techqueria_subtitle_part_2]
+other = "the largest community of Latinx in Tech. 🌮"
 
 [who_we_are]
 other = "Who We Are"
@@ -130,3 +135,10 @@ other = "Techqueria is a 501(c)(3) nonprofit that serves the largest community o
 
 [copyright_to]
 other = "to"
+
+# cta.donate.html
+[cta_donate_title]
+other = "Donate"
+
+[cta_donate_description]
+other = "Donate to Techqueria and support our efforts to elevate Latinx in Tech."

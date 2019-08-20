@@ -1,8 +1,7 @@
 ---
 title: Donar
 description: "Haga una donación a Techqueria y apoye nuestros esfuerzos para elevar Latinx en Tech."
-categories:
-  - sitemap
+sitemap: true
 ---
 
 <div class="columns">

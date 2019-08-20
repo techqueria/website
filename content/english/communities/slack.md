@@ -9,8 +9,7 @@ toc: true
 aliases:
   - /slack/
   - /communities/slack/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Join us! 🌮
