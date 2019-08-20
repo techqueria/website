@@ -12,9 +12,9 @@
     {{ partial "content/custom/breadcrumbs.html" . }}
     <!-- Content -->
     {{ partial "content/_index.html" . }}
-        <!-- Community Calendar -->
+    <!-- Community Calendar -->
     <div class="content mt-2">
-      <h2><span class="mr-sm">🗓</span>Community Calendar</h2>
+      <h2 id="community-calendar"><span class="mr-sm">🗓</span>Community Calendar</h2>
       <p>Anyone is welcome to submit events but please keep in mind that given Techqueria's mission, we require that any event submitted is relevant to Latinx in Tech.</p>
       <p>You can also subscribe to this calendar to keep track of relevant events for Latinx in Tech across the US.</p>
     </div>
@@ -24,7 +24,7 @@
     <hr>
     <!-- Past Events -->
     <div class="content mt-2">
-      <h2><span class="mr-sm">⌛</span>{{ $pagesNumbers }} Techqueria Events</h2>
+      <h2 id="techqueria-events"><span class="mr-sm">⌛</span>{{ $pagesNumbers }} Techqueria Events</h2>
     </div>
     <div class="columns is-multiline">
       {{ range $paginator.ByDate.Reverse }}

@@ -11,4 +11,7 @@ organizers:
 ---
 
 Hola mi gente!
-Just a reminder that we have the East Bay #dominicanxs Brunch Sunday at 11:30am at alaMar in Oakland! 22 folks have RSVP’d, so I emailed the restaurant to set expectations. I’ll be there a little early when they open at 11am to reserve some tables for us - you’re welcome to come early too and keep me company. See ya’ll on Sunday!
+
+Just a reminder that we have the East Bay #dominicanxs Brunch Sunday at 11:30am at alaMar in Oakland! 22 folks have RSVP’d, so I emailed the restaurant to set expectations. I’ll be there a little early when they open at 11am to reserve some tables for us - you’re welcome to come early too and keep me company.
+
+See ya’ll on Sunday!
