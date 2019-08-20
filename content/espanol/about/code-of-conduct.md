@@ -2,8 +2,7 @@
 title: Código de Conducta
 description: Techqueria cree en el respeto, la compasión, la comprensión y la inclusión y espera que todos los miembros de la comunidad actúen de acuerdo con estos valores.
 noTimeEstimate: true
-categories:
-  - sitemap
+sitemap: true
 ---
 
 # Código de Conducta

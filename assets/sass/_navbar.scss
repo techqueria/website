@@ -5,10 +5,6 @@
     justify-content: center;
   }
 
-  .navbar-brand {
-    padding: 0.5rem;
-  }
-
   .navbar-menu {
     box-shadow: none;
     flex-grow: unset;
@@ -100,16 +96,26 @@
   .hide-on-desktop-and-larger {
     display: flex !important;
 
-    @media only screen and (min-width: 1439px) {
+    @media only screen and (min-width: $laptop-large) {
       display: none !important;
     }
   }
 
-  .slack-buttons-navbar-end {
-    display: none !important;
+  .slack-buttons {
+    &__navbar-start {
+      display: none !important;
 
-    @media only screen and (max-width: 758px) {
-      display: flex !important
+      @media only screen and (min-width: $tablet) {
+        display: flex !important
+      }
+    }
+
+    &__navbar-end {
+      display: block !important;
+
+      @media only screen and (min-width: $mobile) {
+        display: none !important
+      }
     }
   }
 }

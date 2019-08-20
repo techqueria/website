@@ -11,8 +11,7 @@ aliases:
   - /events/
   - /photos/
   - /stock-photos/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 Find more of our events on [Eventbrite](https://techqueria.eventbrite.com) or [Meetup](https://meetup.com/techqueria).

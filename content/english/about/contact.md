@@ -9,8 +9,7 @@ aliases:
   - /contact/
   - /about/contact/
   - /message-us/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Send us an email

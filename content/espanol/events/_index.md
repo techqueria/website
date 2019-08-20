@@ -2,8 +2,7 @@
 title: Eventos
 description: Encuentre información sobre nuestros próximos eventos con otros Latinx en tecnología.
 sortLatestFirst: true
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Agregue Eventos

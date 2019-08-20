@@ -4,11 +4,10 @@ description: "Techqueria is a nonprofit that serves the largest community of Lat
 image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
 hideImage: true
+sitemap: true
 aliases:
   - /about/
   - /about-techqueria/
-categories:
-  - sitemap
 ---
 
 {{< about >}}

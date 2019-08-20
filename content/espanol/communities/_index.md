@@ -1,8 +1,7 @@
 ---
 title: Comunidades
 description: Oportunidades para establecer contactos y conectarse con otros Latinx en tecnología.
-categories:
-  - sitemap
+sitemap: true
 ---
 
 ## Redes

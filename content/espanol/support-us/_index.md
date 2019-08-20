@@ -1,8 +1,7 @@
 ---
 title: Patrocinadores
 description: Patrocinadores y socios que ayudan a proveer una comunidad inclusiva.
-categories:
-  - sitemap
+sitemap: true
 ---
 
 Ayúdenos a crecer una de las comunidades Latinx en Tech más grandes haciéndose un patrocinador, socio, o voluntario.

@@ -11,8 +11,7 @@ aliases:
   - /sponsor-us/
   - /sponsor/
   - /support-us/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 {{< about >}}

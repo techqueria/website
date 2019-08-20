@@ -10,8 +10,7 @@ aliases:
   - /people/
   - /donate/patreon-supporters/
   - /patreon-supporters/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 Techqueria is a 501c3 nonprofit that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors.

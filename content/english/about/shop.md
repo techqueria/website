@@ -7,8 +7,7 @@ aliases:
   - /shop/
   - /store/
   - /about/shop/
-categories:
-  - sitemap
+sitemap: true
 ---
 
 <div id="myShop">

@@ -10,6 +10,5 @@ aliases:
   - /testimonial/
   - /la-techqueria/
   - /posts/
-categories:
-  - sitemap
+sitemap: true
 ---
