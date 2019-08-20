@@ -106,7 +106,7 @@
       display: none !important;
 
       @media only screen and (min-width: $tablet) {
-        display: flex !important
+        display: flex !important;
       }
     }
 
@@ -114,7 +114,7 @@
       display: block !important;
 
       @media only screen and (min-width: $mobile) {
-        display: none !important
+        display: none !important;
       }
     }
   }
