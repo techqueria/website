@@ -1,6 +1,6 @@
 ---
 title: "Latinxs in FinTech at Braintree"
-date: 2015-06-21
+date: 2017-06-21
 link: https://www.meetup.com/techqueria/events/239392017/
 locations:
   - bay-area

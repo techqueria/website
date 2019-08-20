@@ -2,7 +2,7 @@
 title: "Storytelling Magic and Branding Gravitas"
 date: 2019-07-16
 link: https://storytellingmagicandbrandinggr.splashthat.com/
-image: https://pbs.twimg.com/media/D_oc_0NXYAIccRB?format=jpg&name=4096x4096
+image: "/assets/img/events/2019-07-16.jpg"
 photos: https://geoffleung.com/events/alas2019/
 locations:
   - "nyc"
