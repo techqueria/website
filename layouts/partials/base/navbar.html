@@ -1,6 +1,6 @@
 {{ $currentPage := . }}
 
-<nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <!-- Brand -->
     <div class="navbar-brand">
@@ -48,7 +48,6 @@
     </div>
     <!-- Main Menu -->
     <div id="navMenu" class="navbar-menu">
-      <div class="navbar-start">
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <div class="navbar-item has-dropdown is-hoverable">
@@ -79,18 +78,16 @@
         </a>
         {{ end }}
         {{ end }}
-      </div>
-      <div class="navbar-end">
-        <!-- Social -->
         {{ range .Site.Menus.social.ByWeight }}
-        <a class="navbar-item navbar-item--social is-hidden-mobile" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+        <a class="navbar-item is-hidden-touch" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
           {{ if .Identifier }}
           <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
           {{ end }}
         </a>
         {{ end }}
+      <div class="navbar-end">
         <!-- Slack -->
-        <div class="navbar-item show-on-fullhd-and-larger">
+        <div class="navbar-item slack-buttons-navbar-end">
           <div class="field is-grouped">
             {{ range .Site.Menus.slack }}
             <p class="control">

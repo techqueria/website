@@ -1,16 +1,28 @@
 .navbar {
-  &.has-shadow {
-    @extend %material-shadow;
+
+  >.container {
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .navbar-brand {
+    padding: 0.5rem;
+  }
+
+  .navbar-menu {
+    flex-grow: unset;
+    box-shadow: none;
   }
 
   .navbar-burger {
     height: inherit;
     width: 3em;
-  }
 
-  .navbar-burger span {
-    height: 2px;
-    width: 20px;
+    span {
+      height: 2px;
+      width: 20px;
+    }
   }
 
   .navbar-item {
@@ -37,10 +49,6 @@
     padding: 1rem 2rem;
   }
 
-  .navbar-link {
-    padding-right: 2.5em;
-  }
-
   .navbar-dropdown {
     padding: 0;
 
@@ -54,23 +62,39 @@
     }
   }
 
+  .navbar-link:not(.is-arrowless):after,
+  .select:not(.is-multiple):not(.is-loading):after {
+    border-radius: 0;
+    content: none;
+  }
+
+  .navbar.is-spaced .navbar-dropdown,
+  .navbar-dropdown.is-boxed {
+    transform: none;
+    transition: none;
+  }
+
+  &.has-shadow {
+    @extend %material-shadow;
+  }
+
+  @media screen and (max-width: $tablet) {
+    .navbar-logo {
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (min-width: $laptop) {
+    .slack-buttons {
+      margin-left: 2em;
+    }
+  }
+
   @media screen and (max-width: $laptop) {
 
     .navbar-link::after,
     .navbar-dropdown {
       display: none;
-    }
-  }
-
-  .navbar-logo {
-    @media screen and (max-width: $tablet) {
-      padding-right: 0;
-    }
-  }
-
-  .slack-buttons {
-    @media screen and (min-width: $laptop) {
-      margin-left: 2em;
     }
   }
 
@@ -82,26 +106,11 @@
     }
   }
 
-  .show-on-fullhd-and-larger {
+  .slack-buttons-navbar-end {
     display: none !important;
 
-    @media only screen and (min-width: 2100px) {
+    @media only screen and (max-width: 758px) {
       display: flex !important
     }
   }
-
-  .navbar-link:not(.is-arrowless):after,
-  .select:not(.is-multiple):not(.is-loading):after {
-    border-radius: 0;
-  }
-}
-
-.navbar.is-spaced .navbar-dropdown,
-.navbar-dropdown.is-boxed {
-  transform: none;
-  transition: none;
-}
-
-.navbar-menu {
-  box-shadow: none;
 }

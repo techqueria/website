@@ -202,6 +202,19 @@ disqusShortname                      = "techqueria"
     name                             = "Contribute through Amazon Smile"
     url                              = "https://smile.amazon.com/ch/83-2656715"
 
+# Events
+[[menu.main]]
+    name                             = "Events"
+    url                              = "/events/"
+[[menu.main]]
+    parent                           = "Events"
+    name                             = "Become a Speaker"
+    url                              = "/support-us/speak/"
+[[menu.main]]
+    parent                           = "Events"
+    name                             = "Donate Space"
+    url                              = "/support-us/donate-space/"
+
 # Resources
 [[menu.main]]
     name                             = "Resources"
@@ -273,16 +286,8 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/"
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a Speaker"
-    url                              = "/support-us/speak/"
-[[menu.main]]
-    parent                           = "Support Us"
     name                             = "Become a Volunteer"
     url                              = "/support-us/volunteer/"
-[[menu.main]]
-    parent                           = "Support Us"
-    name                             = "Donate Space"
-    url                              = "/support-us/donate-space/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Our Supporters"
