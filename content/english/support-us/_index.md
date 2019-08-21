@@ -18,22 +18,46 @@ sitemap: true
 
 ## Sponsorship Packages
 
-Last updated August 2019
+|                       | Diamond<br>(50K) | Titanium<br>(30K) | Platinum<br>(20K) | Gold<br>(10K) | Silver<br>(6K) | Bronze<br>(2K) | Iron<br>(1K) |
+| --------------------- | :--------------: | :---------------: | :---------------: | :-----------: | :------------: | :------------: | :----------: |
+| **Number of Events**  |        4         |         3         |         2         |       1       |       1        |  1<br>Webinar  | 1<br>Comida  |
+| **Per Month**         |
+| Job postings          |        5         |         4         |         3         |       2       |                |                |              |
+| Social media posts    |        4         |         3         |         2         |       1       |                |                |              |
+| **Visibility**        |
+| Sponsor booth         |        ✅        |                   |                   |               |                |                |              |
+| Logo in slides        |        ✅        |                   |                   |               |                |                |
+| Logo in emails        |        ✅        |        ✅         |                   |               |                |                |              |
+| Logo on Meetup page   |        ✅        |        ✅         |        ✅         |               |                |                |              |
+| Logo on website       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| **Per Event**         |
+| Blog post             |        ✅        |        ✅         |        ✅         |      ✅       |                |                |              |
+| Video recording       |        ✅        |        ✅         |        ✅         |      ✅       |                |       ✅       |              |
+| Photographer          |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
+| **Support**           |
+| Private Slack channel |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
 
-|                             | Diamond (50K) | Platinum (30K) | Gold (20K) | Silver (10K) | Bronze (5K) | Iron (1K) |
-| --------------------------- | ------------- | -------------- | ---------- | ------------ | ----------- | --------- |
-| Events hosted per year      | 4             | 3              | 2          | 1            | 1 Webinar   | 1 Comida  |
-| Sponsor talk                | 10 min        | 10 min         | 5 min      | 5 min        | 5 min       | 5 min     |
-| Social media posts per year | 48            | 36             | 24         | 12           |             |           |
-| Job postings per year       | 48            | 36             | 24         | 12           |             |           |
-| Logo in slides              | ✅            |                |            |              |             |           |
-| Logo in emails              | ✅            | ✅             |            |              |             |           |
-| Logo on Meetup page         | ✅            | ✅             | ✅         |              |             |           |
-| Blog post per event         | ✅            | ✅             | ✅         | ✅           |             |           |
-| Photographer per event      | ✅            | ✅             | ✅         | ✅           |             |           |
-| Video recording per event   | ✅            | ✅             | ✅         | ✅           | ✅          |           |
-| Logo on website             | ✅            | ✅             | ✅         | ✅           | ✅          | ✅        |
-| Private Slack channel       | ✅            | ✅             | ✅         | ✅           | ✅          | ✅        |
+### More Details
+
+Sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start.
+
+We are also open to custom packages but these are our base tiers.
+
+#### Sponsor booth
+
+We will invite our Diamond sponsors to have a booth at certain Techqueria events separate from the ones hosted with the sponsor.
+
+#### Logo in slides
+
+The sponsor logo is showcased on slides in the beginning of all Techqueria events for one year.
+
+#### Job postings
+
+The monthly job postings are shared through the monthly email newsletter.
+
+#### Social media posts
+
+The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
 
 ### Book a Partnership Call
 
@@ -66,8 +90,12 @@ Last updated August 2019
 #### For each event, the sponsor commits to providing
 
 - A/V for slides/speakers
-- catering (food and drinks)
+  - at minimum this usually translates to the ability for a speaker to have a hand held mic and display slides
 - event space
+  - our events usually have 100 to 300 people but we can work with all sizes
+- catering (food and drinks)
+  - unless the sponsor would like to pay extra in which case Techqueria can take care of catering as well
+  - we also require some kind of ID check so drinks are not served to those who are underage
 - name tags
 - security
 
@@ -75,14 +103,7 @@ Last updated August 2019
 
 - at least one activity for attendees to engage in before or after the event (photo booth, crafting activity, etc)
 - dedicated bar
-
-#### To note
-
-- for the Diamond Tier, sponsor logo is showcased on slides in the beginning of all Techqueria events for one year
-- sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start
-- the monthly job postings are shared through the monthly email newsletter
-- the monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Instagram
-- we are also open to custom sponsorship packages
+- an intro/pitch talk by the sponsor that is up to 10 minutes
 
 ### Event Types
 
