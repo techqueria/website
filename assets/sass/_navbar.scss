@@ -54,6 +54,10 @@
     .navbar-item,
     .navbar-link {
       @extend .has-text-weight-normal;
+
+      &:hover {
+        border-radius: $radius;
+      }
     }
   }
 

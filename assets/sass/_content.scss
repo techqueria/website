@@ -87,5 +87,13 @@
     display: block;
     overflow-x: auto;
     width: 100%;
+
+    @media screen and (min-width: $laptop-large) {
+      display: table;
+    }
+
+    tbody tr:not(.is-selected):hover {
+      background-color: $table-background-color;
+    }
   }
 }
