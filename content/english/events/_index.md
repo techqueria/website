@@ -30,6 +30,4 @@ Anyone is welcome to submit events to our community calendar as long as they are
 
 Upon submitting an event, our leads will be notified and we can approve your event.
 
-Keep track of upcoming events or get involved as a local volunteer by [subscribing to our Google Calendar](https://calendar.google.com/calendar/b/3/r?cid=techqueria.org_e28qdet6neoq7tntr46e4s0mis@group.calendar.google.com&cid=techqueria.org_ighqmtqsscumdhdtm4n1nqpucc@group.calendar.google.com) which includes Techqueria events and our Community Calendar events. We also post all new Techqueria events [in the #meta channel via Slack](/communities/slack/).
-
 It should be noted that Techqueria is not affiliated with, nor sponsor of, any events listed on our community calendar unless specifically noted.
