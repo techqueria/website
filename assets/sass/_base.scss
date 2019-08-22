@@ -62,3 +62,8 @@ input[type="checkbox"],
 input[type="radio"] {
   height: 20px;
 }
+
+.button.is-primary:focus:not(:active),
+.button.is-primary.is-focused:not(:active) {
+  @extend %material-shadow;
+}

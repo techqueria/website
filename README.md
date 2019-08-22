@@ -8,11 +8,11 @@
 
 [![Join our Slack Workspace](https://img.shields.io/badge/Slack%20Workspace-techqueria.slack.com-blue.svg?logo=slack&longCache=true&style=flat)](https://techqueria.org/slack) [![Chat with us on Gitter](https://img.shields.io/gitter/room/techqueria/Lobby.svg)](https://gitter.im/techqueria/Lobby)
 
+[![Donate](https://opencollective.com/techqueria/tiers/donate/badge.svg?label=Donate&color=brightgreen)](https://opencollective.com/techqueria) [![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/729d8cea-4059-4116-b695-16dc88c9a76d/deploy-status)](https://app.netlify.com/sites/techqueria/deploys)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
-
-[![Become a Patron!](https://img.shields.io/badge/Patreon-Become%20a%20Patron!-orange.svg)](https://www.patreon.com/techqueria)
 
 [Techqueria](http://techqueria.org/) is a nonprofit serving the largest community for Latinx in Tech. 🌮
 
