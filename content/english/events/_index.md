@@ -24,7 +24,7 @@ Photos are licensed under a [CC BY-NC-ND 4.0](https://creativecommons.org/licens
 
 <h2 id="community-calendar"><span class="mr-sm">🗓</span>Community Calendar</h2>
 
-Stay up to date with events for Latinx in Tech through Techqueria's Community Calendar.
+Stay up to date with upcoming events for Latinx in Tech through Techqueria's Community Calendar.
 
 Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech.
 
