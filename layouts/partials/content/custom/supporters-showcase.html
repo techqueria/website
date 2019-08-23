@@ -1,0 +1,13 @@
+{{ $companies := 0 }}
+{{ $pages := where $.Site.RegularPages "Section" "supporters" }}
+{{ range $pages }}
+{{ $companies = add $companies 1 }}
+{{ end }}
+<div class="content mt-2 u-text--centered">
+  <h2><span class="mr-sm">✨</span>{{ $companies }} Supporters</h2>
+</div>
+<section class="c-companies">
+  {{ range $pages }}
+  {{ partial "content/card/company.html" . }}
+  {{ end }}
+</section>

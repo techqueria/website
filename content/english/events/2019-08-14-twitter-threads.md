@@ -5,6 +5,7 @@ date: 2019-08-14
 image: "/assets/img/events/2019-08-14.jpg"
 link: https://twitterthreadswithtechqueria.splashthat.com/
 photos: https://photos.app.goo.gl/274h4VdGnDK8Wwh67
+video: https://www.youtube.com/playlist?list=PLCWzrxvpdkgiiWrY29sld35Nnf-i52JZm
 organizers:
   - "Felipe Ventura"
   - "Frances Coronel"

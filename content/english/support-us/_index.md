@@ -5,6 +5,7 @@ image: "/assets/img/support-us/_index.jpg"
 hideImage: true
 noTimeEstimate: true
 toc: true
+layout: "page-support-us"
 aliases:
   - /become-a-sponsor/
   - /become-a-supporter/
@@ -18,24 +19,25 @@ sitemap: true
 
 ## Sponsorship Packages
 
-|                       | Diamond<br>(50K) | Titanium<br>(30K) | Platinum<br>(20K) | Gold<br>(10K) | Silver<br>(6K) | Bronze<br>(2K) | Iron<br>(1K) |
-| --------------------- | :--------------: | :---------------: | :---------------: | :-----------: | :------------: | :------------: | :----------: |
-| **Number of Events**  |        4         |         3         |         2         |       1       |       1        |  1<br>Webinar  | 1<br>Comida  |
-| **Per Month**         |
-| Job postings          |        5         |         4         |         3         |       2       |                |                |              |
-| Social media posts    |        4         |         3         |         2         |       1       |                |                |              |
-| **Visibility**        |
-| Sponsor booth         |        ✅        |                   |                   |               |                |                |              |
-| Logo in slides        |        ✅        |                   |                   |               |                |                |
-| Logo in emails        |        ✅        |        ✅         |                   |               |                |                |              |
-| Logo on Meetup page   |        ✅        |        ✅         |        ✅         |               |                |                |              |
-| Logo on website       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
-| **Per Event**         |
-| Blog post             |        ✅        |        ✅         |        ✅         |      ✅       |                |                |              |
-| Video recording       |        ✅        |        ✅         |        ✅         |      ✅       |                |       ✅       |              |
-| Photographer          |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
-| **Support**           |
-| Private Slack channel |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+|                             | Diamond<br>(50K) | Titanium<br>(30K) | Platinum<br>(20K) | Gold<br>(10K) | Silver<br>(6K) | Bronze<br>(2K) | Iron<br>(1K) |
+| --------------------------- | :--------------: | :---------------: | :---------------: | :-----------: | :------------: | :------------: | :----------: |
+| **Number of Events**        |        4         |         3         |         2         |       1       |       1        |  1<br>Webinar  | 1<br>Comida  |
+| **Per Month**               |
+| Job postings                |        5         |         4         |         3         |       2       |                |                |              |
+| Social media posts          |        4         |         3         |         2         |       1       |                |                |              |
+| **Visibility**              |
+| Sponsor booth               |        ✅        |                   |                   |               |                |                |              |
+| Logo in slides              |        ✅        |                   |                   |               |                |                |
+| Logo in emails              |        ✅        |        ✅         |                   |               |                |                |              |
+| Logo on Meetup page         |        ✅        |        ✅         |        ✅         |               |                |                |              |
+| Logo on website             |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| Event on community calendar |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| **Per Event**               |
+| Blog post                   |        ✅        |        ✅         |        ✅         |      ✅       |                |                |              |
+| Video recording             |        ✅        |        ✅         |        ✅         |      ✅       |                |       ✅       |              |
+| Photographer                |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
+| **Support**                 |
+| Private Slack channel       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
 
 ### More Details
 
@@ -59,10 +61,14 @@ The monthly job postings are shared through the monthly email newsletter.
 
 The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
 
+### Community Partnerships
+
+We also support community partnerships with other nonprofit orgs or events that are working towards similar goals.
+
 ### Book a Partnership Call
 
 <!-- Calendly -->
-<div class="content mt-2">
+<div class="content">
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
   <noscript>Please enable JavaScript to enable the Calendly widget.</noscript>

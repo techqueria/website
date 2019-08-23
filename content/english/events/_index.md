@@ -3,7 +3,7 @@ title: Events
 description: Find information about our upcoming events with other Latinx in Tech.
 hideImage: true
 image: "/assets/img/events/_index.jpg"
-layout: "events-paginator"
+layout: "page-events"
 sortLatestFirst: true
 aliases:
   - /about/photos/
@@ -18,7 +18,7 @@ Find more of our events on [Eventbrite](https://techqueria.eventbrite.com) or [M
 
 Watch videos from previous events on our [YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
 
-Read event recaps and other posts from our community [on our blog](/blog/).
+Read event recaps and other posts from our community [on our news section, La Techqueria](/news/).
 
 Photos are licensed under a [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
@@ -29,5 +29,7 @@ Stay up to date with upcoming events for Latinx in Tech through Techqueria's Com
 Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech.
 
 Upon submitting an event, our leads will be notified and we can approve your event.
+
+You can also subscribe to the calendar using the link below but if you don't use Google Calendar, you can always add the calendar via URL using `webcal://tockify.com/api/feeds/ics/techqueria` or you can invidually add events to your calendar using the save icon in the event details.
 
 It should be noted that Techqueria is not affiliated with, nor sponsor of, any events listed on our community calendar unless specifically noted.

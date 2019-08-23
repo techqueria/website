@@ -1,16 +1,16 @@
 {{ $currentPage := . }}
-
+{{ $sitemapRegularPages := where $.Site.Pages ".Params.sitemap" "!=" nil }}
+{{ $sitemapSections := where $.Site.Sections ".Params.sitemap" "!=" nil }}
+{{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
+{{ $sitemapPages := $sitemapAllPages.ByTitle }}
 <div class="column is-3">
   <p class="mb-1 is-size-5">
     <b>{{ i18n "sitemap" }}</b>
   </p>
-  {{ range .Site.Menus.sitemap }}
+  {{ range $sitemapPages }}
   <p>
-    <a class="link--techqueria{{ if (eq $currentPage.URL .URL) }} has-text-white{{ end }}" href="{{ .URL | relLangURL }}">
-      {{- if .Identifier -}}
-      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-      {{- end -}}
-      {{ .Name }}
+    <a class="link--techqueria{{ if (eq $currentPage.URL .Permalink) }} has-text-white{{ end }}" href="{{ .RelPermalink }}">
+      {{ .Title }}
     </a>
   </p>
   {{ end }}
