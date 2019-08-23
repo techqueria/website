@@ -15,8 +15,8 @@
   </div>
 </section>
 <!-- Pages -->
-{{ $sitemapRegularPages := where .Pages ".Params.sitemap" "!=" nil }}
-{{ $sitemapSections := where .Sections ".Params.sitemap" "!=" nil }}
+{{ $sitemapRegularPages := where $.Pages ".Params.sitemap" "!=" nil }}
+{{ $sitemapSections := where $.Sections ".Params.sitemap" "!=" nil }}
 {{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
 {{ $sitemapPages := $sitemapAllPages.ByTitle }}
 <!-- Please note this page will need to be updated depending on number of pages -->

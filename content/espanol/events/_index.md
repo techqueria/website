@@ -3,6 +3,7 @@ title: Eventos
 description: Encuentre información sobre nuestros próximos eventos con otros Latinx en tecnología.
 sortLatestFirst: true
 sitemap: true
+image: "/assets/img/events/_index.jpg"
 ---
 
 ## Agregue Eventos

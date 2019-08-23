@@ -3,9 +3,10 @@ title: Código de Conducta
 description: Techqueria cree en el respeto, la compasión, la comprensión y la inclusión y espera que todos los miembros de la comunidad actúen de acuerdo con estos valores.
 noTimeEstimate: true
 sitemap: true
+image: "/assets/img/about/code-of-conduct/_index.jpg"
 ---
 
-# Código de Conducta
+## Código de Conducta
 
 Se espera que todos los miembros de Techqueria cumplan con nuestro Código de Conducta, tanto en línea como en los eventos en persona que se realizan por y/o están asociados con Techqueria.
 
@@ -13,8 +14,9 @@ Creemos en el respeto, la compasión, la comprensión y la inclusión, y esperam
 
 No tenemos tolerancia para ninguna forma de acoso; esperamos que todos actúen profesionalmente y sigan las normas sociales de la comunidad.
 
+- [Código de Conducta](#c%c3%b3digo-de-conducta)
 - [El Compromiso](#el-compromiso)
-- [Los Estándares](#los-est%C3%A1ndares)
+- [Los Estándares](#los-est%c3%a1ndares)
   - [Ejemplos de comportamiento que contribuyen a crear un espacio positivo incluyen:](#ejemplos-de-comportamiento-que-contribuyen-a-crear-un-espacio-positivo-incluyen)
   - [Ejemplos de comportamiento inacceptable por parte de participantes incluyen](#ejemplos-de-comportamiento-inacceptable-por-parte-de-participantes-incluyen)
   - [Alcohol](#alcohol)
@@ -22,8 +24,8 @@ No tenemos tolerancia para ninguna forma de acoso; esperamos que todos actúen p
   - [Twitter](#twitter)
   - [Email](#email)
   - [Slack](#slack)
-- [Medidas de Aplicación](#medidas-de-aplicaci%C3%B3n)
-- [Atribución](#atribuci%C3%B3n)
+- [Medidas de Aplicación](#medidas-de-aplicaci%c3%b3n)
+- [Atribución](#atribuci%c3%b3n)
 
 ## El Compromiso
 

@@ -2,6 +2,7 @@
 title: "Hagase Voluntario"
 description: "Si está interesado en apoyar a Techueria usted mismo, ofreciendo su tiempo como voluntario es una manera fantástica de ayudar."
 image: "/assets/img/support-us/become-a-volunteer.jpg"
+sitemap: true
 ---
 
 Si está interesado en apoyar a Techueria usted mismo, ofreciendo su tiempo como voluntario es una manera fantástica de ayudar.

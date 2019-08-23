@@ -3,6 +3,7 @@ title: "Sobre nosotros"
 noTimeEstimate: true
 description: "Techqueria es una comunidad de Latinxs en la industria de la tecnología que se estableció por primera vez en 2015."
 sitemap: true
+image: "/assets/img/_logos/banner-logo-only.png"
 ---
 
 ## Quienes somos

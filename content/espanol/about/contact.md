@@ -3,6 +3,7 @@ title: Contacto
 description: ¡Ponte en contacto con Latinx en Tech!
 noTimeEstimate: true
 sitemap: true
+image: "/assets/img/about/contact/_index.jpg"
 ---
 
 ## Formas de contactarnos

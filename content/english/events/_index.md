@@ -1,6 +1,6 @@
 ---
 title: Events
-description: Find information about our upcoming events with other Latinx in Tech.
+description: Find information about our upcoming events with other Latinx in Tech and subscribe to our community calendar.
 hideImage: true
 image: "/assets/img/events/_index.jpg"
 layout: "page-events"
