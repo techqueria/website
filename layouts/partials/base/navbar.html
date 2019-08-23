@@ -1,108 +1,106 @@
 {{ $currentPage := . }}
 
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <!-- Brand -->
-    <div class="navbar-brand">
-      <!-- Logo -->
-      {{ range .Site.Menus.homepage }}
-      <a class="navbar-item navbar-logo" href="{{ .URL | relLangURL }}">
-        <img src="/assets/img/_logos/logo-square.png" height="128" alt="{{ .Name }}">
-      </a>
-      {{ end }}
-      <!-- Left Icons -->
-      <!-- Hidden on Desktop and Larger -->
-      <div class="navbar-item hide-on-desktop-and-larger">
-        <div class="buttons">
-          <!-- Social -->
-          {{ range .Site.Menus.social }}
-          <a class="button is-white" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
-            {{ if .Identifier }}
-            <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-            {{ end }}
+  <!-- Brand -->
+  <div class="navbar-brand">
+    <!-- Logo -->
+    {{ range .Site.Menus.homepage }}
+    <a class="navbar-item navbar-logo" href="{{ .URL | relLangURL }}">
+      <img src="/assets/img/_logos/logo-square.png" height="128" alt="{{ .Name }}">
+    </a>
+    {{ end }}
+    <!-- Left Icons -->
+    <!-- Hidden on Desktop and Larger -->
+    <div class="navbar-item hide-on-desktop-and-larger">
+      <div class="buttons">
+        <!-- Social -->
+        {{ range .Site.Menus.social }}
+        <a class="button is-white" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+          {{ if .Identifier }}
+          <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+          {{ end }}
+        </a>
+        {{ end }}
+        <!-- Slack -->
+        <div class="slack-buttons__navbar-start">
+          {{ range .Site.Menus.slack }}
+          <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+            <span class="icon">
+              {{ if .Identifier }}
+              <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+              {{ end }}
+            </span>
+            <span>
+              {{ .Name }}
+            </span>
           </a>
           {{ end }}
-          <!-- Slack -->
-          <div class="slack-buttons__navbar-start">
-            {{ range .Site.Menus.slack }}
-            <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
-              <span class="icon">
-                {{ if .Identifier }}
-                <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-                {{ end }}
-              </span>
-              <span>
-                {{ .Name }}
-              </span>
-            </a>
-            {{ end }}
-          </div>
         </div>
       </div>
-      <!-- Hamburger Menu -->
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
     </div>
-    <!-- Main Menu -->
-    <div id="navMenu" class="navbar-menu">
-      {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+    <!-- Hamburger Menu -->
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <!-- Main Menu -->
+  <div id="navMenu" class="navbar-menu">
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+        {{ if .Identifier }}
+        <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+        {{ end }}
+        {{- .Name -}}
+      </a>
+      <!-- Children -->
+      <div class="navbar-dropdown is-size-7">
+        {{ range .Children }}
+        <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
           {{ if .Identifier }}
           <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
           {{ end }}
-          {{- .Name -}}
+          {{ .Name }}
         </a>
-        <!-- Children -->
-        <div class="navbar-dropdown is-size-7">
-          {{ range .Children }}
-          <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
-            {{ if .Identifier }}
-            <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-            {{ end }}
-            {{ .Name }}
-          </a>
-          {{ end }}
-        </div>
-      </div>
-      {{ else }}
-      <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
-        {{- if .Identifier -}}
-        <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
-        {{- end -}}
-        {{ .Name }}
-      </a>
-      {{ end }}
-      {{ end }}
-      {{ range .Site.Menus.social.ByWeight }}
-      <a class="navbar-item is-hidden-laptop-large" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
-        {{ if .Identifier }}
-        <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
         {{ end }}
-      </a>
+      </div>
+    </div>
+    {{ else }}
+    <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
+      {{- if .Identifier -}}
+      <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>
+      {{- end -}}
+      {{ .Name }}
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ range .Site.Menus.social.ByWeight }}
+    <a class="navbar-item is-hidden-laptop-large" href="{{ .URL | relLangURL }}" target="_blank" rel="noopener">
+      {{ if .Identifier }}
+      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
       {{ end }}
-      <div class="navbar-end">
-        <!-- Slack -->
-        <div class="slack-buttons__navbar-end">
-          {{ range .Site.Menus.slack }}
-          <div class="navbar-item">
-            <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
-              <span class="icon">
-                {{ if .Identifier }}
-                <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-                {{ end }}
-              </span>
-              <span>
-                {{ .Name }}
-              </span>
-            </a>
-            </div>
-          {{ end }}
+    </a>
+    {{ end }}
+    <div class="navbar-end">
+      <!-- Slack -->
+      <div class="slack-buttons__navbar-end">
+        {{ range .Site.Menus.slack }}
+        <div class="navbar-item">
+          <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
+            <span class="icon">
+              {{ if .Identifier }}
+              <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
+              {{ end }}
+            </span>
+            <span>
+              {{ .Name }}
+            </span>
+          </a>
         </div>
+        {{ end }}
       </div>
     </div>
   </div>

@@ -1,10 +1,22 @@
 .c-companies {
   line-height: 0;
-  column-count: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
 
-  .card-image {
-    display: inline-block;
-    padding: 1rem;
+  a {
+    padding: 0.5rem;
+    align-self: center;
+    justify-self: center;
+
+    &:hover {
+      img {
+        @extend %darker-shadow;
+      }
+    }
   }
 
   img {
@@ -14,19 +26,56 @@
     width: 100% !important;
   }
 
-  a {
-    &:hover {
-      img {
-        @extend %darker-shadow;
+  .card-image {
+    max-width: 100%;
+  }
+}
+
+@supports (display: grid) {
+  .c-companies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    @media screen and (min-width: $laptop) {
+      &__diamond-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+      }
+
+      &__titanium-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+      }
+
+      &__platinum-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+      }
+
+      &__gold-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      }
+
+      &__silver-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      }
+
+      &__bronze-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+      }
+
+      &__iron-sponsors {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      }
+
+      &__community-partners {
+        grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+      }
+
+      &__software-supporters {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+
+      &__past-supporters {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
     }
-  }
-
-  @media (min-width: $tablet) {
-    column-count: 2;
-  }
-
-  @media (min-width: $laptop) {
-    column-count: 3;
   }
 }

@@ -65,18 +65,7 @@ The monthly social media posts are shared on Techqueria's Twitter, Facebook Page
 
 We also support community partnerships with other nonprofit orgs or events that are working towards similar goals.
 
-### Book a Partnership Call
-
-<!-- Calendly -->
-<div class="content">
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-  <noscript>Please enable JavaScript to enable the Calendly widget.</noscript>
-  <p>If you're interested in becoming an official sponsor, you can <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/techqueria/hello'});return false;">set up a partnership call with us</a> using <a href="https://calendly.com/techqueria" target="_blank" rel="noopener">calendly.com/techqueria</a> where you can select the time most convenient for you — no back and forth emails!</p>
-</div>
-<!-- Calendly Widget -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/techqueria/hello?hide_event_type_details=1" style="min-width:320px;height:640px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+{{< partnership-call >}}
 
 ## Events
 

@@ -17,9 +17,3 @@ aliases:
   - /support-us/supporters/
   - /supporters/
 ---
-
-The following companies or individuals have helped with one or more of the following
-
-- donated resources to our community
-- hosted our events (in the past or present)
-- partnered up with us on events

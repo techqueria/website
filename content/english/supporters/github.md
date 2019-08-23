@@ -5,6 +5,8 @@ link: https://github.com/about/careers
 image: "/assets/img/supporters/github.png"
 aliases:
   - /support-us/supporters/github-universe/
+categories:
+  - past-supporter
 ---
 
 With GitHub Universe one month away we are excited to announce our 2017 Community Partners!

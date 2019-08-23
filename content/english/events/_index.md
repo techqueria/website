@@ -22,7 +22,7 @@ Read event recaps and other posts from our community [on our news section, La Te
 
 Photos are licensed under a [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
-<h2 id="community-calendar"><span class="mr-sm">🗓</span>Community Calendar</h2>
+<h2 id="community-calendar" class="mt-1"><span class="mr-sm">🗓</span>Community Calendar</h2>
 
 Stay up to date with upcoming events for Latinx in Tech through Techqueria's Community Calendar.
 
