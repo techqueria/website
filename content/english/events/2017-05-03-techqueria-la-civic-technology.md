@@ -7,6 +7,6 @@ locations:
   - los-angeles
 companies:
   - "Teens Exploring Technology"
-blogArticles:
+articles:
   - "Techqueria LA: Civic Technology"
 ---

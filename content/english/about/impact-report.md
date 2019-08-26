@@ -2,6 +2,7 @@
 title: Impact Report 2019
 description: This is a work in progress! Expect the full report to be ready by ~January 2020.
 toc: true
+noTimeEstimate: true
 aliases:
   - /impact-report/
   - /impact/

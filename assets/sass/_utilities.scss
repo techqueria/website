@@ -1,3 +1,5 @@
+// Margin
+
 .mt-sm {
   margin-top: 0.5em !important;
 }
@@ -10,8 +12,16 @@
   margin-top: 2em !important;
 }
 
+.mt-4 {
+  margin-top: 4em !important;
+}
+
 .mr-sm {
   margin-right: 0.5em !important;
+}
+
+.ml-sm {
+  margin-left: 0.5em !important;
 }
 
 .ml-2 {
@@ -30,6 +40,12 @@
   margin-bottom: 2em !important;
 }
 
+.mb-6 {
+  margin-bottom: 6em !important;
+}
+
+// Padding
+
 .pd-1 {
   padding: 1em !important;
 }
@@ -37,6 +53,14 @@
 .pt-0 {
   padding-top: 0 !important;
 }
+
+// Box Shadow
+
+.u-box-shadow--none {
+  box-shadow: none !important;
+}
+
+// Extensions
 
 .image-shadow {
   @extend %image-shadow;
@@ -50,27 +74,21 @@
   @extend %bg-image;
 }
 
-.image-external-plain {
-  img {
-    box-shadow: none !important;
-  }
 
-  &::after {
-    content: "" !important;
-  }
+// Text Alignment
+
+.u-text--centered {
+  text-align: center;
 }
 
-.u-box-shadow--none {
-  box-shadow: none !important;
-}
+
+// Background Color
 
 .u-background--default {
   background-color: $techqueria;
 }
 
-.u-text--centered {
-  text-align: center;
-}
+// Color
 
 .u-link--dark-background {
   color: $link !important;
@@ -79,6 +97,8 @@
     color: $techqueria-white !important;
   }
 }
+
+// Display
 
 .is-hidden-laptop-large {
   display: none;
@@ -96,14 +116,33 @@
   }
 }
 
-.author-image {
-  border-radius: $radius;
-}
+// Flex
 
 .u-align-item--centered {
   align-items: center !important;
 }
 
+.u-display--flex {
+  display: flex !important;
+}
+
 .u-justify-content--centered {
   justify-content: center !important;
+}
+
+
+// One offs
+
+.image-external-plain {
+  img {
+    box-shadow: none !important;
+  }
+
+  &::after {
+    content: "" !important;
+  }
+}
+
+.author-image {
+  border-radius: $radius;
 }

@@ -2,7 +2,9 @@
 title: Espacio de Slack
 description: Obtenga información sobre las normas de nuestra comunidad y solicite una invitación a nuestro espacio de Slack.
 identifier: fab fa-slack
-image: "/assets/img/supporters/slack.png"
+image: "/assets/img/communities/slack/_index.jpg"
+noTimeEstimate: true
+sitemap: true
 ---
 
 # Normas de la comunidad de Slack

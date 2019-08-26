@@ -2,6 +2,7 @@
 title: Brand
 description: Download our assets and discover our style guide. 🎨
 image: "/assets/img/_logos/banner-logo-only.png"
+noTimeEstimate: true
 aliases:
   - /branding/
   - /brand/

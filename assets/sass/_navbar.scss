@@ -1,9 +1,7 @@
 .navbar {
 
-  >.container {
-    align-content: center;
-    justify-content: center;
-  }
+  align-content: center;
+  justify-content: center;
 
   .navbar-menu {
     box-shadow: none;
@@ -42,6 +40,20 @@
 
   .navbar-item--social {
     padding: 1rem 2rem;
+  }
+
+  .navbar-item:focus-within,
+  .navbar-item:focus,
+  .navbar-item:hover,
+  .navbar-item.has-dropdown:focus .navbar-link,
+  .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar-item.has-dropdown.is-active .navbar-link,
+  .navbar-item.is-active,
+  .navbar-link:focus-within,
+  .navbar-link:focus,
+  .navbar-link:hover,
+  .navbar-link.is-active {
+    background-color: $navbar-item-background-color;
   }
 
   .navbar-dropdown {

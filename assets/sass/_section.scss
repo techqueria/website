@@ -8,4 +8,10 @@
   &.page {
     padding-top: 2rem;
   }
+
+  &.page__team {
+    .card .card-image--figure {
+      height: 15em;
+    }
+  }
 }

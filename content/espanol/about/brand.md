@@ -4,9 +4,9 @@ description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 image: "/assets/img/_logos/banner-logo-only.png"
 ---
 
-- [Visión general](#visi%C3%B3n-general)
+- [Visión general](#visi%c3%b3n-general)
 - [Logos](#logos)
-  - [Logo - Rectángulo](#logo---rect%C3%A1ngulo)
+  - [Logo - Rectángulo](#logo---rect%c3%a1ngulo)
   - [Logo - Cuadrado](#logo---cuadrado)
   - [Logo - Cuadrado - Color](#logo---cuadrado---color)
   - [Logo - Cuadrado - No Text](#logo---cuadrado---no-text)

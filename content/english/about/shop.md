@@ -3,6 +3,7 @@ title: "Shop"
 description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
 image: "/assets/img/about/shop/_index.jpg"
 hideImage: true
+noTimeEstimate: true
 aliases:
   - /shop/
   - /store/

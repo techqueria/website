@@ -23,8 +23,9 @@
   - [Team Members](#team-members)
   - [Events](#events)
   - [Companies](#companies)
-  - [Adding blog posts](#adding-blog-posts)
-  - [Adding press articles](#adding-press-articles)
+  - [Adding news updates](#adding-news-updates)
+    - [Blog updates](#blog-updates)
+    - [Press articles](#press-articles)
   - [Resources](#resources)
   - [Translations](#translations)
     - [How to translate content](#how-to-translate-content)
@@ -277,12 +278,12 @@ organizers:
   - "Frances Coronel"
   - "Dulce Villarreal"
   - "Jonathan De la Paz"
-pressArticles:
+articles:
   - "Techqueria: Building a community for Latinos in tech industry"
 ---
 ```
 
-The important keys to note here are `companies`, `organizers` and `pressArticles`.
+The important keys to note here are `companies`, `organizers` and `articles`.
 
 Each coincides with the title of another Markdown file representing said entity.
 
@@ -305,11 +306,13 @@ link: https://slack.com/careers
 ---
 ```
 
-### Adding blog posts
+### Adding news updates
+
+#### Blog updates
 
 Make sure to always turn comments on and add or reference a person from the `/team` page as the author so they can get proper credit.
 
-> Example: `content/english/blog/2016-07-19-community-building.md`
+> Example: `content/english/news/2016-07-19-community-building.md`
 
 ```markdown
 ---
@@ -317,15 +320,15 @@ title: "Techqueria is now officially a 501c3 nonprofit!"
 date: 2019-03-07
 description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 comments: true
-image: "/assets/img/blog/2019-03-07-nonprofit.png"
+image: "/assets/img/news/2019-03-07-nonprofit.png"
 authors:
   - "Shashi Jain"
 ---
 ```
 
-### Adding press articles
+#### Press articles
 
-> Example: `content/english/press/2019-07-18-el-tecolote.md`
+> Example: `content/english/news/2019-07-18-el-tecolote.md`
 
 ```txt
 ---
@@ -333,7 +336,7 @@ title: "Techqueria: Building a community for Latinos in tech industry"
 date: 2019-07-18
 description: "Techqueria, an organization for Latinos in tech, was founded in Berkeley back in November 2015 with the purpose of serving those who were studying or pursuing a career in tech."
 publication: "El Tecolote"
-image: "/assets/img/press/2019-07-18-el-tecolote.jpg"
+image: "/assets/img/news/2019-07-18-el-tecolote.jpg"
 link: http://eltecolote.org/content/en/features/techqueria-building-a-community-for-latinos-in-tech-industry/
 featuring:
   - Felipe Ventura

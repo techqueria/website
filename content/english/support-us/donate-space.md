@@ -13,15 +13,9 @@ Donating space for Techqueria events provides a great opportunity for our member
 
 The number of attendees varies - from 20 to 200+ with most events happening on evenings during the week from 6 to 9 pm.
 
-As a host, you commit to providing the following:
-
-- catering & space up for our attendees
-- a company representative to initially welcome the group and introduce the company (ideally, they identify as Latinx)
-- (optional) [a shared channel](https://get.slack.help/hc/en-us/articles/115004151203-Create-shared-channels-on-a-workspace-beta-) between Techqueria's Slack Workspace and your company's Slack Workspace
-
 > If you're interested in donating space, please fill out the form below.
 >
-> We'll get back to you if we have a need for your space which may not be immediately.
+> We'll get back to you if we have a need for your space which may not be immediately since we prioritize [backing sponsors](/support-us/#sponsorship-packages).
 >
 > In the meantime, feel free to [request an invite to our Slack community](/slack).
 

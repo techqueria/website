@@ -22,6 +22,8 @@
 
 .breadcrumb {
   font-size: inherit;
+  overflow: hidden;
+  white-space: normal;
 }
 
 .title {
@@ -93,4 +95,21 @@ ol li img {
 
 .calendly-inline-widget {
   min-width: unset !important;
+}
+
+.page--single {
+  margin: 0 auto;
+  max-width: $laptop;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+
+  @media screen and (min-width: $laptop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.twitter-tweet {
+  margin: 0 auto;
 }
