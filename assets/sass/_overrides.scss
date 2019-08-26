@@ -97,12 +97,12 @@ ol li img {
   min-width: unset !important;
 }
 
-.page__single {
-  max-width: $laptop;
+.page--single {
   margin: 0 auto;
-  position: relative;
+  max-width: $laptop;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  position: relative;
 
   @media screen and (min-width: $laptop) {
     padding-left: 0;

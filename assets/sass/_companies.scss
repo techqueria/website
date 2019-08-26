@@ -1,16 +1,16 @@
 .c-companies {
-  line-height: 0;
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
   justify-content: space-evenly;
+  justify-items: center;
+  line-height: 0;
 
   a {
-    padding: 0.5rem;
     align-self: center;
     justify-self: center;
+    padding: 0.5rem;
 
     &:hover {
       img {
