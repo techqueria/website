@@ -89,7 +89,6 @@ We also support community partnerships with other nonprofit orgs or events that 
 - event space
   - our events usually have 100 to 300 people but we can work with all sizes
 - catering (food and drinks)
-  - unless the sponsor would like to pay extra in which case Techqueria can take care of catering as well
   - we also require some kind of ID check so drinks are not served to those who are underage
 - name tags
 - security

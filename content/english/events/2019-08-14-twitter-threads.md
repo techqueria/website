@@ -26,6 +26,8 @@ locations:
   - "bay-area"
 companies:
   - "Twitter"
+articles:
+  - "Twitter Threads with Techqueria - Event Recap"
 ---
 
 ![Twitter Threads](/assets/img/events/2019-08-14-twitter.png)

@@ -278,12 +278,12 @@ organizers:
   - "Frances Coronel"
   - "Dulce Villarreal"
   - "Jonathan De la Paz"
-pressArticles:
+articles:
   - "Techqueria: Building a community for Latinos in tech industry"
 ---
 ```
 
-The important keys to note here are `companies`, `organizers` and `pressArticles`.
+The important keys to note here are `companies`, `organizers` and `articles`.
 
 Each coincides with the title of another Markdown file representing said entity.
 
