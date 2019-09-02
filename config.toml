@@ -51,6 +51,7 @@ disqusShortname = "techqueria"
 [outputs]
     home = ["HTML", "AMP", "RSS"]
     page = ["HTML", "AMP"]
+    section = ["HTML", "RSS"]
 
 # RSS
 [outputFormats]

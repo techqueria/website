@@ -129,20 +129,3 @@
 .u-justify-content--centered {
   justify-content: center !important;
 }
-
-
-// One offs
-
-.image-external-plain {
-  img {
-    box-shadow: none !important;
-  }
-
-  &::after {
-    content: "" !important;
-  }
-}
-
-.author-image {
-  border-radius: $radius;
-}

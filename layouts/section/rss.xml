@@ -17,8 +17,7 @@
     {{ with .OutputFormats.Get "RSS" }}
       {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ $updates := where .Data.Pages "Section" "news" }}
-    {{ range first 50 ($updates.ByDate.Reverse) }}{{ if .Date.Before now }}
+    {{ range first 50 .Pages.ByDate.Reverse }}{{ if .Date.Before now }}
       <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
