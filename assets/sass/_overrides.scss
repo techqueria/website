@@ -92,6 +92,25 @@ ol li img {
   margin: 2rem;
 }
 
+// One offs
+
+.image-external-plain {
+  img {
+    box-shadow: none !important;
+  }
+}
+
+a.image-external-plain:after {
+  content: "" !important;
+}
+
+.author-image {
+  border-radius: $radius;
+}
+
+.twitter-tweet {
+  margin: 0 auto;
+}
 
 .calendly-inline-widget {
   min-width: unset !important;
@@ -108,8 +127,4 @@ ol li img {
     padding-left: 0;
     padding-right: 0;
   }
-}
-
-.twitter-tweet {
-  margin: 0 auto;
 }
