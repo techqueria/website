@@ -34,4 +34,4 @@ We can also potentially provide a speaker honorarium and Techqueria swag from th
 >
 > Otherwise, we can always consider you for future events!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT-NC2U1CF7nYRB0mXn0i5K5NB-cEivZbmVtPGBss1nkxGw/viewform?embedded=true" width="640" height="2679" frameborder="0" marginheight="0" marginwidth="0" style="height:2679px !important;">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT-NC2U1CF7nYRB0mXn0i5K5NB-cEivZbmVtPGBss1nkxGw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:2650px !important;">Loading…</iframe>

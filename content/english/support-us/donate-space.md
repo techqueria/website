@@ -19,4 +19,4 @@ The number of attendees varies - from 20 to 200+ with most events happening on e
 >
 > In the meantime, feel free to [request an invite to our Slack community](/slack).
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTcE8jExp3r-dy2m6ox1DScUgwhm8xCv_pMzLLQ5KWCLg5cA/viewform?embedded=true" width="640" height="2150" frameborder="0" marginheight="0" marginwidth="0" style="height:2150px !important;">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTcE8jExp3r-dy2m6ox1DScUgwhm8xCv_pMzLLQ5KWCLg5cA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:2000px !important;">Loading…</iframe>
