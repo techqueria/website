@@ -94,4 +94,4 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 Fill out the form below and we'll reach out via Slack with onboarding instructions and more details on you can help support our mission.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHjG9xvJsiEfaoOz-5Ry6LaZoR89xhi4-Tmggtk1NkH1-qRQ/viewform?embedded=true" width="640" height="2179" frameborder="0" marginheight="0" marginwidth="0" style="height:2179px !important;">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHjG9xvJsiEfaoOz-5Ry6LaZoR89xhi4-Tmggtk1NkH1-qRQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:2100px !important;">Loading…</iframe>

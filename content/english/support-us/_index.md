@@ -66,8 +66,6 @@ The monthly social media posts are shared on Techqueria's Twitter, Facebook Page
 
 We also support community partnerships with other nonprofit orgs or events that are working towards similar goals.
 
-## Book a Call
-
 {{< partnership-call >}}
 
 ## Events

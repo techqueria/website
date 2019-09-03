@@ -5,45 +5,14 @@ identifier: fab fa-slack
 image: "/assets/img/communities/slack/_index.jpg"
 noTimeEstimate: true
 sitemap: true
+toc: true
 ---
-
-# Normas de la comunidad de Slack
-
-- [Únete!](#%c3%9anete)
-- [Ya es miembro?](#ya-es-miembro)
-- [Nunca ha usado Slack antes?](#nunca-ha-usado-slack-antes)
-- [Código de Conducta](#c%c3%b3digo-de-conducta)
-- [Buenas Prácticas](#buenas-pr%c3%a1cticas)
-  - [Utilice threads](#utilice-threads)
-  - [Convenciones de denominación de Channels](#convenciones-de-denominaci%c3%b3n-de-channels)
-  - [Menciones](#menciones)
-  - [HeyTaco!](#heytaco)
-    - [1. Cada persona en nuestro espacio de Slack puede repartir hasta 5 tacos al día](#1-cada-persona-en-nuestro-espacio-de-slack-puede-repartir-hasta-5-tacos-al-d%c3%ada)
-    - [2. Para darle un taco a alguien, agregue el taco emoji después del nombre de usuario](#2-para-darle-un-taco-a-alguien-agregue-el-taco-emoji-despu%c3%a9s-del-nombre-de-usuario)
-    - [3. Puede darle tacos a cualquier integrante del grupo siempre y cuando el bot haya sido invitado al channel](#3-puede-darle-tacos-a-cualquier-integrante-del-grupo-siempre-y-cuando-el-bot-haya-sido-invitado-al-channel)
-    - [4. Hay una tabla de clasificación para ver quién está recibiendo más tacos](#4-hay-una-tabla-de-clasificaci%c3%b3n-para-ver-qui%c3%a9n-est%c3%a1-recibiendo-m%c3%a1s-tacos)
-    - [5. Necesita ayuda?](#5-necesita-ayuda)
-- [Personalización](#personalizaci%c3%b3n)
-  - [Temática de la Barra Lateral](#tem%c3%a1tica-de-la-barra-lateral)
-  - [Personalización de Estado](#personalizaci%c3%b3n-de-estado)
-  - [Emojis](#emojis)
-- [Channels](#channels)
-  - [Channels Predeterminados](#channels-predeterminados)
-  - [Channels Públicos](#channels-p%c3%bablicos)
-  - [Channels por Ubicación](#channels-por-ubicaci%c3%b3n)
-  - [Channels Privados](#channels-privados)
-  - [Meta](#meta)
-  - [Solicite un Channel](#solicite-un-channel)
-- [Introducción a Slack](#introducci%c3%b3n-a-slack)
-  - [Demostración de Slack](#demostraci%c3%b3n-de-slack)
-  - [Slack Foundry](#slack-foundry)
-  - [Guía de Inicio](#gu%c3%ada-de-inicio)
 
 ## Únete!
 
-Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
+Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://forms.gle/6ePmS1LsnzRj3HvX9).
 
-<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
+<a href="https://forms.gle/6ePmS1LsnzRj3HvX9" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestros otros grupos de la comunidad](/communities/) y los detalles que hemos proporcionado sobre nuestro espacio de Slack a continuación.
 

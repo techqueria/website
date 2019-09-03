@@ -259,7 +259,7 @@ disqusShortname = "techqueria"
 # Slack Menu
 [[menu.slack]]
     name       = "Join our Slack"
-    url        = "https://goo.gl/forms/VRARl4qkkLj3BJLl1"
+    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
     identifier = "fab fa-lg fa-slack"
 [[menu.slack]]
     name       = "Login to Slack"
@@ -403,7 +403,7 @@ disqusShortname = "techqueria"
 
 [[languages.es.menu.slack]]
     name       = "Únete a nuestro Slack"
-    url        = "https://goo.gl/forms/VRARl4qkkLj3BJLl1"
+    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
     identifier = "fab fa-lg fa-slack"
 
 [[languages.es.menu.slack]]
