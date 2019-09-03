@@ -14,9 +14,7 @@ sitemap: true
 
 ## Join us! 🌮
 
-To get an invite to our Slack Workspace with 3,500+ (as of June 2019) Latinx in Tech, please [request an invite](https://goo.gl/forms/VRARl4qkkLj3BJLl1).
-
-<a href="https://goo.gl/forms/VRARl4qkkLj3BJLl1" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
+If you'd like to join our Slack Workspace, please [request an invite](https://forms.gle/6ePmS1LsnzRj3HvX9).
 
 As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
 
@@ -25,6 +23,8 @@ You can also get a taste of our Slack workspace by checking out our [Slofile pro
 You should get an invite within 2 weeks.
 
 If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
+
+<a href="https://forms.gle/6ePmS1LsnzRj3HvX9" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 ### Already a member?
 
