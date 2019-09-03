@@ -12,6 +12,7 @@ aliases:
   - /sponsor-us/
   - /sponsor/
   - /support-us/
+  - /partner/
 sitemap: true
 ---
 
@@ -61,9 +62,11 @@ The monthly job postings are shared through the monthly email newsletter.
 
 The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
 
-### Community Partnerships
+## Community Partnerships
 
 We also support community partnerships with other nonprofit orgs or events that are working towards similar goals.
+
+## Book a Call
 
 {{< partnership-call >}}
 
