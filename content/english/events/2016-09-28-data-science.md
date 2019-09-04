@@ -3,7 +3,7 @@ title: "Data Science: From Machine Learning to Algorithm Accountability"
 date: 2016-09-28
 link: https://www.meetup.com/techqueria/events/233644464/
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "Lumosity"
 ---

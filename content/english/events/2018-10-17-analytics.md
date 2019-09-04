@@ -7,7 +7,7 @@ image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F51002464%2F1
 companies:
   - "Mixpanel"
 locations:
-  - "bay-area"
+  - "san-francisco"
 ---
 
 We're excited to partner up with Mezcla, the Latinx employee resource group at Mixpanel, to bring together experienced panelists from all parts of the analytics industry. Together we will have a discussion about what it is like to develop products in analytics and the power it has to affect and change our communities.

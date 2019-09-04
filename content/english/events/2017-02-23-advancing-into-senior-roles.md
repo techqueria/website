@@ -6,7 +6,7 @@ photos: https://photos.app.goo.gl/4kNk2mMCwMfssbpw8
 video: https://www.youtube.com/watch?v=GQsZs7cV-UU
 image: "/assets/img/events/2017-02-23.jpg"
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "Udacity"
 ---

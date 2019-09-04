@@ -4,7 +4,7 @@ image: "/assets/img/team/kevin-hernandez.jpeg"
 description: "UI Developer, WalmartLabs"
 linkedin: kevdez
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - past-board-member
   - past-organizer

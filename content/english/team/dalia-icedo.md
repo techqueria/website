@@ -4,7 +4,7 @@ image: "/assets/img/team/dalia-icedo.jpeg"
 description: "Freelance Product Designer, pxlwtch.com"
 linkedin: daliaicedo
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - past-organizer
   - past-board-member

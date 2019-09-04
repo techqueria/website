@@ -3,7 +3,7 @@ title: "Understanding Encryption & Cybersecurity Practices"
 date: 2017-03-23
 link: https://www.meetup.com/techqueria/events/237736844/
 locations:
-  - bay-area
+  - san-francisco
 ---
 
 For our March event, we will focus on ways all communities can protect themselves from online surveillance. This will be an event dedicated towards skill-sharing as cybersecurity is one field where there is not enough distribution of knowledge, even amongst tech-savvy groups. Our events are free and open to the public, including allies. Food and soft drinks will be provided at this event.

@@ -232,7 +232,7 @@ twitter: fvcproductions
 github: fvcproductions
 flag: 🇵🇪
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - board-member
   - current-organizer
@@ -245,7 +245,7 @@ Note that you only need usernames for LinkedIn, Twitter & GitHub profiles.
 
 The flag identifies the heritage of the member and is optional.
 
-Location can be `bay-area`, `nyc`, `los-angeles`, `austin` and `chicago`.
+Location can be `san-francisco`, `nyc`, `los-angeles`, `austin` and `chicago`.
 
 TODO: The roles and location will eventually be moved to `categories` in the future but currently they help showcase the different roles of the team members without having to manually repeat any strings.
 
@@ -268,7 +268,7 @@ link: https://lyftxtechqueria.splashthat.com/
 image: "/assets/img/events/2019-06-19-lyft.jpg"
 photos: https://photos.app.goo.gl/5Ye8FhbV1B1SrxFH6
 locations:
-  - "bay-area"
+  - "san-francisco"
 aliases:
   - /events/2019/06/19/techqueria-lyft/
 companies:

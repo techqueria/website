@@ -5,7 +5,7 @@ date: 2018-05-17
 link: https://latinxtechforgood.splashthat.com/
 image: "/assets/img/events/2018-05-17.jpg"
 locations:
-  - "bay-area"
+  - "san-francisco"
 companies:
   - "Twilio"
 ---

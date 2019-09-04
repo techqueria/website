@@ -9,4 +9,5 @@ aliases:
   - /new-york-city/
   - /communities/new-york-city/
   - /nyc-events/
+  - /communities/nyc/
 ---

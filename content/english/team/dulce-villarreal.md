@@ -5,7 +5,7 @@ description: "Blockchain Engineer, Insight Data Science"
 linkedin: dulcevillarreal
 flag: 🇲🇽
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - current-organizer
 ---
