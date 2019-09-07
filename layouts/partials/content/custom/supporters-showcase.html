@@ -6,7 +6,7 @@
 {{ end }}
 <!-- Showcase -->
 <div class="content u-text--centered">
-  <h2><span class="mr-sm">✨</span> Partnerships and Sponsors <span class="ml-sm">✨</span></h2>
+  <h2><span class="mr-sm">✨</span>Partners & Sponsors — 2019<span class="ml-sm">✨</span></h2>
 </div>
 <!-- Diamond Sponsors -->
 {{ if (index .Site.Taxonomies.categories "sponsor-diamond") "!=" nil }}
@@ -121,6 +121,7 @@
 <div class="content mt-4">
   <h3 id="past-supporters"><span class="mr-sm">🕒</span>Past Supporters & Partners</h3>
   <p>Organizations that have supported us or partnered with us in the past.</p>
+  <p>We've had {{ $companies }} different organizations support us in some capacity since 2015.</p>
 </div>
 <section class="c-companies c-companies__past-supporters">
   {{ range (index .Site.Taxonomies.categories "past-supporter") }}

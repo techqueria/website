@@ -109,6 +109,10 @@ disqusShortname = "techqueria"
     url    = "/about/brand/"
 [[menu.main]]
     parent = "About"
+    name   = "Code of Conduct"
+    url    = "/about/code-of-conduct"
+[[menu.main]]
+    parent = "About"
     name   = "Contact"
     url    = "/about/contact/"
 [[menu.main]]
@@ -200,10 +204,6 @@ disqusShortname = "techqueria"
     url  = "/events/"
 [[menu.main]]
     parent = "Events"
-    name   = "Become a Speaker"
-    url    = "/support-us/speak/"
-[[menu.main]]
-    parent = "Events"
     name   = "Community Calendar"
     url    = "/events/#community-calendar"
 [[menu.main]]
@@ -225,6 +225,10 @@ disqusShortname = "techqueria"
 [[menu.main]]
     name = "Support Us"
     url  = "/support-us/"
+[[menu.main]]
+    parent = "Support Us"
+    name   = "Become a Speaker"
+    url    = "/support-us/speak"
 [[menu.main]]
     parent = "Support Us"
     name   = "Become a Sponsor"

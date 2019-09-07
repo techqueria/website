@@ -12,10 +12,6 @@ aliases:
 sitemap: true
 ---
 
-## Send us an email
-
-[organizers@techqueria.org](mailto:organizers@techqueria.org)
-
 ## Reach out in Slack
 
 Reach out in the `#meta` channel or use the `/admin` command in [our Slack workspace](/communities/slack/).
@@ -67,6 +63,6 @@ We're always listening to your feedback and ready to help in any way we can.
 
 Reach out to us in Slack through the `#meta` channel or use the `/admin` command to get in touch with us the quicker
 
-You can also send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
+You can also contact us using the form above.
 
 If you need an invitation to Slack, request it on [our Slack welcome page](/communities/slack/).
