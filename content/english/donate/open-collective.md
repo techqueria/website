@@ -18,7 +18,7 @@ image: "/assets/img/supporters/open-collective.png"
 
 ### Further Questions
 
-Contact organizers@techqueria.org for further questions on reimbursement.
+Contact us using [https://techqueria.org/contact](https://techqueria.org/contact) for further questions on reimbursement.
 
 ## Need more help?
 

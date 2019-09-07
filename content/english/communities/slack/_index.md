@@ -6,25 +6,17 @@ image: "/assets/img/communities/slack/_index.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true
+sitemap: true
 aliases:
   - /slack/
   - /communities/slack/
-sitemap: true
 ---
 
 ## Join us! 🌮
 
-If you'd like to join our Slack Workspace, please [request an invite](https://forms.gle/6ePmS1LsnzRj3HvX9).
+If you'd like to join our Slack Workspace, please [request an invite](/communities/slack/join/).
 
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
-
-You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
-
-You should get an invite within 2 weeks.
-
-If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
-
-<a href="https://forms.gle/6ePmS1LsnzRj3HvX9" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
+<a href="/communities/slack/join/" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 ### Already a member?
 
