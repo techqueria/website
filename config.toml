@@ -189,10 +189,6 @@ disqusShortname = "techqueria"
     parent = "Donate"
     name   = "Contribute through Patreon"
     url    = "https://www.patreon.com/techqueria"
-[[menu.main]]
-    parent = "Donate"
-    name   = "Contribute through Amazon Smile"
-    url    = "https://smile.amazon.com/ch/83-2656715"
 
 # Events
 [[menu.main]]
@@ -363,10 +359,6 @@ disqusShortname = "techqueria"
     parent = "Donar"
     name   = "Contribuir en Patreon"
     url    = "https://www.patreon.com/techqueria"
-[[languages.es.menu.main]]
-    parent = "Donar"
-    name   = "Contribuir en Amazon Smile"
-    url    = "https://smile.amazon.com/ch/83-2656715/"
 
 # Resources
 [[languages.es.menu.main]]
