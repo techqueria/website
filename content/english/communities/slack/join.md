@@ -1,7 +1,6 @@
 ---
-title: "Slack Workspace - Join"
+title: "Join our Slack"
 description: Learn about our Community Guidelines and request an invitation to our Slack community.
-identifier: fab fa-slack
 image: "/assets/img/communities/slack/_index.jpg"
 noTimeEstimate: true
 hideImage: true
@@ -22,13 +21,17 @@ Make sure to check for typos in your email as this is usually the main reason so
 
 ## Aftermath
 
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
-
-You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
-
 Anyone who signs up will also be subscribed to our mailing list which you can opt out of at any time.
 
-You should get an invite within 2 weeks. If you don't get an invite by then, please [contact us](/contact).
+You should get an invite within 2 weeks.
+
+If you don't get an invite by then, please [contact us](/contact).
+
+## Best Practices
+
+As you are waiting for your Slack invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
+
+You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
 
 ## Request an Invite
 
@@ -46,7 +49,6 @@ You should get an invite within 2 weeks. If you don't get an invite by then, ple
   {{< fields/latinx_in_tech >}}
   {{< fields/message title="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." name="why_techqueria" >}}
   {{< fields/referral >}}
-  {{< fields/submit label="Request invite" >}}
+  {{< fields/submit label="Request an invite" >}}
 </form>
-
 <br>
