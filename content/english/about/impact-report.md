@@ -1,6 +1,7 @@
 ---
 title: Impact Report 2019
 description: This is a work in progress! Expect the full report to be ready by ~January 2020.
+image: "/assets/img/about/impact-report/_index.jpg"
 toc: true
 noTimeEstimate: true
 aliases:
