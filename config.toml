@@ -117,10 +117,6 @@ disqusShortname = "techqueria"
     url    = "/about/contact/"
 [[menu.main]]
     parent = "About"
-    name   = "Events"
-    url    = "/events/"
-[[menu.main]]
-    parent = "About"
     name   = "Team"
     url    = "/team/"
 [[menu.main]]
@@ -206,6 +202,10 @@ disqusShortname = "techqueria"
     parent = "Events"
     name   = "Past Techqueria Events"
     url    = "/events/#techqueria-events"
+[[menu.main]]
+    parent = "Events"
+    name   = "Submit Event Feedback"
+    url    = "/about/event-feedback/"
 
 # Resources
 [[menu.main]]

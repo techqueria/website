@@ -19,8 +19,6 @@ We'll get back to you if we have a need for your space which may not be immediat
 
 In the meantime, feel free to [request an invite to our Slack community](/slack).
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTcE8jExp3r-dy2m6ox1DScUgwhm8xCv_pMzLLQ5KWCLg5cA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:2000px !important;">Loading…</iframe>
-
 <form name="Donate Space" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
   {{< fields/name >}}
