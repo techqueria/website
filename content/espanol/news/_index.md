@@ -45,5 +45,3 @@ aliases:
   - /es/press/2016/12/13/digital-diversity-network-highlights-techs-top-40-under-40/
   - /es/press/2016/12/08/diverse-tech-professionals-converge-at-salesforce-for-second-annual-40-under-40-tech-diversity-silicon-valley-reception-and-awards-ceremony/
 ---
-
-> Para consultas relacionadas a prensa, mande un correo electrónico a [organizers@techqueria.org](mailto:organizers@techqueria.org).

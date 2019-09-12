@@ -3,24 +3,47 @@
   <label class="label">How did you first hear about Techqueria?*</label>
   <div class="control has-icons-left">
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?"
-        name="referral" value="Yes" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Yes" required>
       Word of Mouth
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?"
-        name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
       Social Media
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?"
-        name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      Google Search
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      Employee Resource Group
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      In-Person Event
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      Podcast
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" id="referral_other_radio_button" name="referral" value="No" required>
       Other
     </label>
     <br>
-    <input class="input" aria-label="Other selected" autocomplete="off" type="text" name="headshot_photo"
-      placeholder="">
+  </div>
+  <div class="control">
+    <input class="input" aria-label="Other selected" autocomplete="off" type="text" id="referral_other_input" name="referral_other_input" placeholder="If you selected other, enter it here">
   </div>
 </div>
+<script>
+document.getElementById("referral_other_radio_button").addEventListener('change', function(){
+    document.getElementById("referral_other_input").required = this.checked ;
+})
+</script>

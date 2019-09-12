@@ -6,11 +6,19 @@
   }
 
   .title {
-    font-size: 3em;
+    font-size: 2.5em;
+
+    @media screen and (min-width: $laptop) {
+      font-size: 3em;
+    }
   }
 
   .subtitle {
-    font-size: 2em;
+    font-size: 1.5em;
+
+    @media screen and (min-width: $laptop) {
+      font-size: 2em;
+    }
   }
 
   &.is-homepage {

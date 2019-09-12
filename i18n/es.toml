@@ -142,5 +142,9 @@ other = "a"
 [cta_donate_title]
 other = "Done"
 
+# cta.donate.html
+[cta_donate_button]
+other = "Done a Techqueria"
+
 [cta_donate_description]
 other = "Done a Techqueria y apoye nuestros esfuerzos para elevar Latinx en tecnología."

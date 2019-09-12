@@ -22,7 +22,6 @@ No tenemos tolerancia para ninguna forma de acoso; esperamos que todos actúen p
   - [Alcohol](#alcohol)
 - [Denunciar Violaciones](#denunciar-violaciones)
   - [Twitter](#twitter)
-  - [Email](#email)
   - [Slack](#slack)
 - [Medidas de Aplicación](#medidas-de-aplicaci%c3%b3n)
 - [Atribución](#atribuci%c3%b3n)
@@ -80,10 +79,6 @@ En el desafortunado caso de que vea a alguien violando el Código de Conducta, p
 ### Twitter
 
 DM [@Techqueria](https://twitter.com/Techqueria) en Twitter
-
-### Email
-
-Envíenos un correo electrónico a [organizers@techqueria.org](mailto:organizers@techqueria.org)
 
 ### Slack
 

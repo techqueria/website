@@ -8,7 +8,7 @@ image: "/assets/img/events/_index.jpg"
 
 ## Agregue Eventos
 
-Si le gustaría agregar un evento, puede mandar un correo electrónico con los detalles a [organizers@techqueria.org](mailto:organizers@techqueria.org) o [un mensaje a un administrador en Slack](/communities/slack/).
+Si le gustaría agregar un evento, puede mandar un correo electrónico con los detalles a [un mensaje a un administrador en Slack](/communities/slack/).
 
 Si usted es un(a) programador(a), siéntase libre de [abrir un pull request](https://github.com/techqueria/website/compare) y agregue el evento usted mismo!
 

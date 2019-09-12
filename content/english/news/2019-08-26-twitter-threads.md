@@ -94,7 +94,7 @@ For the event, we encouraged people to use the hashtag `#LatinxTechTwitter` on s
 
 ### Trending on Twitter
 
-In fact, we got so much traction Wednesday night with that hashtag that we ended up trending on Twitter for San Francisco. Ellen Pao tweeted about it. There were photos, videos and GIFs galore. According to Twitter analytics, Techqueria reached X impressions and gained X followers that night.
+In fact, we got so much traction Wednesday night with that hashtag that we ended up trending on Twitter for San Francisco. Ellen Pao tweeted about it. There were photos, videos and GIFs galore.
 
 {{< tweet "1161856284854870017" >}}
 

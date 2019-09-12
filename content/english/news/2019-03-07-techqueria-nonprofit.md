@@ -24,4 +24,4 @@ Over the next generation, we believe Latinx talent and leadership will help rede
 
 We will be sending out an email with more detailed organizational changes shortly.
 
-If you have any questions, comments or concerns, please reach out to us on the #meta channel or you can send an email to organizers@techqueria.org.
+If you have any questions, comments or concerns, please reach out to us on the #meta channel or you can contact us.

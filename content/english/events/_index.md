@@ -32,6 +32,8 @@ It should be noted that Techqueria is not affiliated with, nor sponsor of, any e
 
 Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech.
 
+Make sure to include a photo, title, description, address and please use "RSVP" or "Get Tickets" as the button text.
+
 Upon submitting an event, our leads will be notified and we can approve your event.
 
 ### Subscribing to the calendar

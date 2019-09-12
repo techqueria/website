@@ -204,8 +204,8 @@ disqusShortname = "techqueria"
     url    = "/events/#community-calendar"
 [[menu.main]]
     parent = "Events"
-    name   = "Donate Space"
-    url    = "/support-us/donate-space/"
+    name   = "Past Techqueria Events"
+    url    = "/events/#techqueria-events"
 
 # Resources
 [[menu.main]]
@@ -221,6 +221,7 @@ disqusShortname = "techqueria"
 [[menu.main]]
     name = "Support Us"
     url  = "/support-us/"
+
 [[menu.main]]
     parent = "Support Us"
     name   = "Become a Speaker"
@@ -235,14 +236,12 @@ disqusShortname = "techqueria"
     url    = "/support-us/volunteer/"
 [[menu.main]]
     parent = "Support Us"
+    name   = "Donate Space"
+    url    = "/support-us/donate-space/"
+[[menu.main]]
+    parent = "Support Us"
     name   = "Our Supporters"
     url    = "/supporters/"
-
-# TODO: Add gated content navbar links
-# Gated Content
-# Jobs
-# Casa (Member Portal)
-# Login/Sign Up
 
 # Social Menu
 [[menu.social]]
@@ -259,7 +258,7 @@ disqusShortname = "techqueria"
 # Slack Menu
 [[menu.slack]]
     name       = "Join our Slack"
-    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
+    url        = "/communities/slack/join/"
     identifier = "fab fa-lg fa-slack"
 [[menu.slack]]
     name       = "Login to Slack"

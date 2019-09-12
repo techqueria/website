@@ -43,4 +43,4 @@ Natalie ha invitado al evento a su hermana Andrea Contreras, de 20 años. Desea 
 
 Una de las cosas que comentaron las hermanas, fue la discriminación que existe hacia el grupo de mujeres que se dedican a la tecnología. Natalie comenta que no ha experimentado este tipo de caso pero sabe de otras mujeres que sí, de ahí la importancia de esta comunidad Techquería ya que todos y todas son bienvenidos sin importar su procedencia.
 
-Por su parte, Ventura comenta que el objetivo es seguir creciendo como comunidad y continuar con el intercambio de conocimientos con otros grupos. Esta comunidad abre sus puertas a voluntarios, patrocinadores, oradores para sus eventos, y todo aquel que desee colaborar o aportar para el crecimiento del grupo. Puede hacerlo a través del correo electrónico, organizers@techqueria.org o vía Facebook.
+Por su parte, Ventura comenta que el objetivo es seguir creciendo como comunidad y continuar con el intercambio de conocimientos con otros grupos. Esta comunidad abre sus puertas a voluntarios, patrocinadores, oradores para sus eventos, y todo aquel que desee colaborar o aportar para el crecimiento del grupo. Puede hacerlo vía Facebook.

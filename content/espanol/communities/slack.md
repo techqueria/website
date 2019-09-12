@@ -18,8 +18,6 @@ Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestro
 
 Debería recibir una invitación dentro de las próximas dos semanas.
 
-Si no le ha llegado la invitación hasta entonces, por favor envíenos un correo electrónico a `organizers@techqueria.org`.
-
 ## Ya es miembro?
 
 Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).

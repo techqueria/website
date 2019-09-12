@@ -18,7 +18,13 @@ sitemap: true
 
 {{< about >}}
 
-## Sponsorship Packages
+## Become a Sponsor
+
+Sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start.
+
+We are also open to custom packages but these are our base tiers.
+
+### Sponsorship Packages
 
 |                             | Diamond<br>(50K) | Titanium<br>(30K) | Platinum<br>(20K) | Gold<br>(10K) | Silver<br>(6K) | Bronze<br>(2K) | Iron<br>(1K) |
 | --------------------------- | :--------------: | :---------------: | :---------------: | :-----------: | :------------: | :------------: | :----------: |
@@ -39,12 +45,6 @@ sitemap: true
 | Photographer                |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
 | **Support**                 |
 | Private Slack channel       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
-
-### More Details
-
-Sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start.
-
-We are also open to custom packages but these are our base tiers.
 
 #### Sponsor booth
 

@@ -97,11 +97,25 @@ Threads let you respond directly to a message in a channel, keeping the replies,
 
 `code of conduct`
 
-All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or send an email to `organizers@techqueria.org`. :techqueria-new: https://techqueria.org/code-of-conduct/
+All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or contact us through our website. :taco:
 
-`profile picture`, `profile photo`
+https://techqueria.org/code-of-conduct/
+
+`profile picture`, `profile photo`, `fill out your profile`, `profile pic`
 
 Your profile photo helps us know who you are in Slack. And if your photo is clear, it'll be easier for someone to pick you out in a crowd or at a Techqueria event. :blob-says-hi:
+
+`techqueria logo`
+
+Please see our brand guidelines for Techqueria on our website. :taco: https://techqueria.org/about/brand/
+
+`add event to community calendar`
+
+:google-calendar: You can check out our community calendar and add your own event using https://techqueria.org/events/#community-calendar
+
+`want to contribute to open source`, `get involved in open source`
+
+Check out Techqueria's website on GitHub! :github: https://github.com/techqueria/website
 
 ### Useful Reacjis
 
@@ -385,9 +399,13 @@ Happy to be here!
 ```txt
 All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
 
-_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, send us an email using `organizers@techqueria.org` or even tweet us `@Techqueria` - we are here to help! 🌮
+_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, contact us through our website or even DM us `@Techqueria` - we are here to help! 🌮
+
+https://techqueria.org/contact/
 
 https://techqueria.org/code-of-conduct/
+
+https://twitter.com/Techqueria
 ```
 
 ### 10 minutes
