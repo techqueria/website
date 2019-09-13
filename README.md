@@ -72,6 +72,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Pablo Carbajal](https://www.futuristics.net/)
 - [Esteban Uribe](https://www.github.com/estebanuribe)
 - [Daniel Andrade](https://github.com/daniel9a)
+- [Edgar Lopez](https://www.github.com/edgineer)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
