@@ -1,11 +1,63 @@
 <div class="field">
   <label class="label">Where are you based?*</label>
-  <p class="help">This is so we can reach out with the appropriate opportunity based on the event location.</p>
+  <p class="help">This is so we can reach out with relevant info and opportunities based on your location.</p>
+  <div class="control">
+    <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="San Francisco, CA" required>
+      San Francisco, CA
+    </label>
+    <br>
+        <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="New York, NY" required>
+      New York, NY
+    </label>
+    <br>
+     <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Los Angeles, CA" required>
+      Los Angeles, CA
+    </label>
+    <br>
+     <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Austin, TX" required>
+      Austin, TX
+    </label>
+    <br>
+         <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Chicago, IL" required>
+      Chicago, IL
+    </label>
+    <br>
+     <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Portland, OR" required>
+      Portland, OR
+    </label>
+    <br>
+         <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Seattle, WA" required>
+      Seattle, WA
+    </label>
+    <br>
+     <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Miami, FL" required>
+      Miami, FL
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="San Jose, CA" required>
+      San Jose, CA
+    </label>
+    <br>
+  </div>
   <div class="control has-icons-left">
-    <input class="input" aria-label="Where are you based?" autocomplete="address-level2" type="text" name="location"
-      placeholder="San Francisco, CA" required>
+    <input class="input" aria-label="Where are you based?" autocomplete="address-level2" type="text" name="location" placeholder="If you selected other, please enter it here" required>
     <span class="icon is-left">
       📍
     </span>
   </div>
 </div>
+<script>
+  document.getElementById("location_other_radio_button").addEventListener('change', function () {
+    document.getElementById("location_other_input").required = this.checked;
+  })
+
+</script>

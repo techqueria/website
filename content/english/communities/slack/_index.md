@@ -1,8 +1,8 @@
 ---
 title: Slack Workspace
-description: Learn about our Community Guidelines and request an invitation to our Slack community.
+description: "Where Techqueria members and leads collaborate with partners, allies and each other."
 identifier: fab fa-slack
-image: "/assets/img/communities/slack/_index.jpg"
+image: "/assets/img/supporters/slack.png"
 noTimeEstimate: true
 hideImage: true
 sitemap: true
@@ -11,13 +11,13 @@ aliases:
   - /communities/slack/
 ---
 
-## Join us! 🌮
+## Request an Invite 🌮
 
 If you'd like to join our Slack Workspace, please [request an invite](/communities/slack/join/).
 
 <a href="/communities/slack/join/" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
-### Already a member?
+### Already a member? ➡️
 
 If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
 

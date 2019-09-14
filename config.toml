@@ -183,11 +183,11 @@ disqusShortname = "techqueria"
     url  = "/donate/"
 [[menu.main]]
     parent = "Donate"
-    name   = "Contribute through Open Collective"
+    name   = "Donate via Open Collective"
     url    = "https://opencollective.com/techqueria"
 [[menu.main]]
     parent = "Donate"
-    name   = "Contribute through Patreon"
+    name   = "Donate via Patreon"
     url    = "https://www.patreon.com/techqueria"
 
 # Events

@@ -11,6 +11,6 @@ locations:
 roles:
   - board-member
   - current-organizer
-  - ceo
+  - co-director
   - patreon-core
 ---

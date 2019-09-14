@@ -1,6 +1,7 @@
 <!-- Roles -->
 {{ if .Params.roles }}
   {{ if in .Params.roles "board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Member{{ end }}
+  {{ if in .Params.roles "co-director" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-Director{{ end }}
   {{ if in .Params.roles "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
   {{ if in .Params.roles "chair-person" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Chair{{ end }}
   {{ if in .Params.roles "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}

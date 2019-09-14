@@ -1,12 +1,13 @@
 ---
-title: "Join our Slack"
-description: Learn about our Community Guidelines and request an invitation to our Slack community.
-image: "/assets/img/communities/slack/_index.jpg"
+title: "Request an Invite"
+description: "Request an invitation to Techqueria's Slack community. 🌮"
+image: "/assets/img/communities/slack/join-to-slack.jpg"
 noTimeEstimate: true
 hideImage: true
 aliases:
   - /slack/join/
   - /join-slack/
+  - /communities/slack/join-slack/
 ---
 
 ## Allies

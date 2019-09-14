@@ -81,6 +81,14 @@
   text-align: center;
 }
 
+.u-text--left-mobile-only {
+  text-align: left;
+
+  @media screen and (min-width: $laptop) {
+    text-align: center;
+  }
+}
+
 
 // Background Color
 

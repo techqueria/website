@@ -18,7 +18,7 @@
     {{ $pastEvents := where $allEvents "Date" "le" now }}
     {{ $recentEvents := $pastEvents | first 3 }}
     <div class="content mt-4 u-text--centered">
-      <h2><span class="mr-sm">🕒</span>3 Most Recent Events</h2>
+      <h2><span class="mr-sm">🕒</span>Most Recent Events</h2>
     </div>
     <div class="columns is-multiline mt-1">
       {{ range $recentEvents.ByDate.Reverse }}
