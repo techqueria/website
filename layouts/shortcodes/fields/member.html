@@ -9,40 +9,23 @@
     </span>
   </div>
 </div>
-<!-- Organization -->
 <div class="field">
-  <label class="label">Where do you currently work or study?*</label>
-  <p class="help">We prefer that you are either studying, interested in or currently working in tech.</p>
-  <div class="control has-icons-left">
-    <input class="input" aria-label="Organization" autocomplete="organization" type="text" name="organization"
-      placeholder="Your organization" required>
-    <span class="icon is-left">
-      🏢
-    </span>
-  </div>
-</div>
-<div class="field">
-  <label class="label">Current Profession Category*</label>
-  <p class="help">This can be the profession category you are currently in or want to be in.</p>
+  <label class="label">Which best describes your role?*</label>
+  <p class="help">This is so we can break down our members by category.</p>
   <div class="control has-icons-left">
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Engineering" required>
-     Engineering
+     Engineer
     </label>
     <br>
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Product Management" required>
-      Product Management
+      Product Manager
     </label>
     <br>
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Design" required>
-      Design
-    </label>
-    <br>
-    <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Design" required>
-      Design
+      Designer
     </label>
     <br>
     <label class="radio">
@@ -62,12 +45,17 @@
     <br>
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
-      Management
+      Entreprenuer
     </label>
     <br>
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
-      Recruiting
+      HR
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
+      Customer Support
     </label>
     <br>
     <label class="radio">
@@ -89,13 +77,23 @@ document.getElementById("job_category_other_radio_button").addEventListener('cha
 })
 </script>
 <div class="field">
-  <label class="label">Years of Experience</label>
-  <p class="help">Years of experience in your current role.</p>
+  <label class="label">How many years of experience do you have in your current role?</label>
   <div class="control has-icons-left">
     <input class="input" aria-label="Years of Experience" autocomplete="off" type="number"
       name="years_of_experience" placeholder="4" min="0" max="50">
     <span class="icon is-left">
       🕒
+    </span>
+  </div>
+</div>
+<div class="field">
+  <label class="label">Where do you currently work or study?*</label>
+  <p class="help">We prefer that you are either studying, interested in or currently working in tech.</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Organization" autocomplete="organization" type="text" name="organization"
+      placeholder="Your organization" required>
+    <span class="icon is-left">
+      🏢
     </span>
   </div>
 </div>

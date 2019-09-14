@@ -46,7 +46,7 @@ You can also view the latest metrics about our Slack community [using Slofile](h
   {{< fields/instagram >}}
   {{< fields/website >}}
   {{< fields/location >}}
-  {{< fields/latinx_in_tech >}}
+  {{< fields/latinx_in_tech help="You will get an invite either way." >}}
   {{< fields/message title="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." name="why_techqueria" required="true" >}}
   {{< fields/referral >}}
   {{< fields/submit label="Request an invite" >}}
