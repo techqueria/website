@@ -7,7 +7,7 @@
       San Francisco, CA
     </label>
     <br>
-        <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="New York, NY" required>
       New York, NY
     </label>
@@ -22,7 +22,7 @@
       Austin, TX
     </label>
     <br>
-         <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Chicago, IL" required>
       Chicago, IL
     </label>
@@ -32,7 +32,7 @@
       Portland, OR
     </label>
     <br>
-         <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Seattle, WA" required>
       Seattle, WA
     </label>
@@ -47,9 +47,14 @@
       San Jose, CA
     </label>
     <br>
+    <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="San Jose, CA" id="location_other_radio_button" required>
+      Other
+    </label>
+    <br>
   </div>
   <div class="control has-icons-left">
-    <input class="input" aria-label="Where are you based?" autocomplete="address-level2" type="text" name="location" placeholder="If you selected other, please enter it here" required>
+    <input class="input" aria-label="Where are you based?" autocomplete="off" type="text" name="location" id="location_other_input" placeholder="If you selected other, please enter it here">
     <span class="icon is-left">
       📍
     </span>

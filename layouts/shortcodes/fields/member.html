@@ -1,0 +1,101 @@
+<div class="field">
+  <label class="label">What is your current role?*</label>
+  <p class="help">e.g. Developer, designer, manager, executive, marketing, student, etc.</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Job Title" autocomplete="organization-title" type="text" name="job_title"
+      placeholder="Your job title" required>
+    <span class="icon is-left">
+      🔨
+    </span>
+  </div>
+</div>
+<!-- Organization -->
+<div class="field">
+  <label class="label">Where do you currently work or study?*</label>
+  <p class="help">We prefer that you are either studying, interested in or currently working in tech.</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Organization" autocomplete="organization" type="text" name="organization"
+      placeholder="Your organization" required>
+    <span class="icon is-left">
+      🏢
+    </span>
+  </div>
+</div>
+<div class="field">
+  <label class="label">Current Profession Category*</label>
+  <p class="help">This can be the profession category you are currently in or want to be in.</p>
+  <div class="control has-icons-left">
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Engineering" required>
+     Engineering
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Product Management" required>
+      Product Management
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Design" required>
+      Design
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Design" required>
+      Design
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Operations" required>
+      Operations
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Sales" required>
+      Sales
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
+      Marketing
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
+      Management
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Marketing" required>
+      Recruiting
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="How did you first hear about Techqueria?" id="job_category_other_radio_button" name="job_category" value="No" required>
+      Other
+    </label>
+    <br>
+  </div>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Other selected" autocomplete="off" type="text" id="job_category_other_input" name="job_category_other_input" placeholder="If you selected other, enter it here">
+    <span class="icon is-left">
+      📝
+    </span>
+  </div>
+</div>
+<script>
+document.getElementById("job_category_other_radio_button").addEventListener('change', function(){
+    document.getElementById("job_category_other_input").required = this.checked ;
+})
+</script>
+<div class="field">
+  <label class="label">Years of Experience</label>
+  <p class="help">Years of experience in your current role.</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Years of Experience" autocomplete="off" type="number"
+      name="years_of_experience" placeholder="4" min="0" max="50">
+    <span class="icon is-left">
+      🕒
+    </span>
+  </div>
+</div>
