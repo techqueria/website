@@ -10,6 +10,17 @@
   </div>
 </div>
 <div class="field">
+  <label class="label">How many years of experience do you have in your current role?</label>
+  <p class="help">This is so we can break down our members by years of experience.</p>
+  <div class="control has-icons-left">
+    <input class="input" aria-label="Years of Experience" autocomplete="off" type="number"
+      name="years_of_experience" placeholder="4" min="0" max="50">
+    <span class="icon is-left">
+      🕒
+    </span>
+  </div>
+</div>
+<div class="field">
   <label class="label">Which best describes your role?*</label>
   <p class="help">This is so we can break down our members by category.</p>
   <div class="control has-icons-left">
@@ -76,16 +87,6 @@ document.getElementById("job_category_other_radio_button").addEventListener('cha
     document.getElementById("job_category_other_input").required = this.checked ;
 })
 </script>
-<div class="field">
-  <label class="label">How many years of experience do you have in your current role?</label>
-  <div class="control has-icons-left">
-    <input class="input" aria-label="Years of Experience" autocomplete="off" type="number"
-      name="years_of_experience" placeholder="4" min="0" max="50">
-    <span class="icon is-left">
-      🕒
-    </span>
-  </div>
-</div>
 <div class="field">
   <label class="label">Where do you currently work or study?*</label>
   <p class="help">We prefer that you are either studying, interested in or currently working in tech.</p>
