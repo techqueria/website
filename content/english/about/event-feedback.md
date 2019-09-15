@@ -22,39 +22,14 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
 
 ## Submit event feedback
 
-<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
+<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Event Feedback">
   <div class="field">
     <label class="label">Event Name* 🗓️</label>
     <div class="control">
       <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/16/19 — Adobe — San Francisco, CA" required>
-        10/16/19 — Adobe — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/10/19 — CBS Interactive — San Francisco, CA" required>
-        10/10/19 — CBS Interactive — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/02/19 — Climate Corporation — San Francisco, CA" required>
-        10/02/19 — Climate Corporation — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/26/19 — Splunk — San Francisco, CA" required>
-        9/26/19 — Splunk — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/19/19 — Abstract — San Francisco, CA" required>
-        9/19/19 — Abstract — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/12/19 — AppDynamics — San Francisco, CA" required>
-        9/12/19 — AppDynamics — San Francisco, CA
+        <input type="radio" aria-label="Event Name" name="event_name" value="8/08/19 — IBM — Austin, TX" required>
+        8/08/19 — IBM — Austin, TX
       </label>
       <br>
       <label class="radio">
@@ -63,8 +38,33 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
       </label>
       <br>
       <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="8/08/19 — IBM — Austin, TX" required>
-        8/08/19 — IBM — Austin, TX
+        <input type="radio" aria-label="Event Name" name="event_name" value="9/12/19 — AppDynamics — San Francisco, CA" required>
+        9/12/19 — AppDynamics — San Francisco, CA
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Event Name" name="event_name" value="9/19/19 — Abstract — San Francisco, CA" required>
+        9/19/19 — Abstract — San Francisco, CA
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Event Name" name="event_name" value="9/26/19 — Splunk — San Francisco, CA" required>
+        9/26/19 — Splunk — San Francisco, CA
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Event Name" name="event_name" value="10/02/19 — Climate Corporation — San Francisco, CA" required>
+        10/02/19 — Climate Corporation — San Francisco, CA
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Event Name" name="event_name" value="10/10/19 — CBS Interactive — San Francisco, CA" required>
+        10/10/19 — CBS Interactive — San Francisco, CA
+      </label>
+      <br>
+      <label class="radio">
+        <input type="radio" aria-label="Event Name" name="event_name" value="10/16/19 — Adobe — San Francisco, CA" required>
+        10/16/19 — Adobe — San Francisco, CA
       </label>
     </div>
   </div>

@@ -28,7 +28,7 @@ For technical support questions related to Slack, please contact [Slack support]
 
 Filling out the form below sends an email to our executive team.
 
-<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
+<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
   {{< fields/name >}}
   {{< fields/email >}}
