@@ -18,7 +18,13 @@ sitemap: true
 
 {{< about >}}
 
-## Sponsorship Packages
+## Become a Sponsor
+
+Sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start.
+
+We are also open to custom packages but these are our base tiers.
+
+### Sponsorship Packages
 
 |                             | Diamond<br>(50K) | Titanium<br>(30K) | Platinum<br>(20K) | Gold<br>(10K) | Silver<br>(6K) | Bronze<br>(2K) | Iron<br>(1K) |
 | --------------------------- | :--------------: | :---------------: | :---------------: | :-----------: | :------------: | :------------: | :----------: |
@@ -40,33 +46,21 @@ sitemap: true
 | **Support**                 |
 | Private Slack channel       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
 
-### More Details
-
-Sponsorship packages last one year and sponsors must sign a contract and provide payment before commitments start.
-
-We are also open to custom packages but these are our base tiers.
-
-#### Sponsor booth
+### Sponsor booth
 
 We will invite our Diamond sponsors to have a booth at certain Techqueria events separate from the ones hosted with the sponsor.
 
-#### Logo in slides
+### Logo in slides
 
 The sponsor logo is showcased on slides in the beginning of all Techqueria events for one year.
 
-#### Job postings
+### Job postings
 
 The monthly job postings are shared through the monthly email newsletter.
 
-#### Social media posts
+### Social media posts
 
 The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
-
-## Community Partnerships
-
-We also support community partnerships with other nonprofit orgs or events that are working towards similar goals.
-
-{{< partnership-call >}}
 
 ## Events
 
@@ -151,3 +145,19 @@ These are topics that have been covered or discussed at Techqueria events so far
 - tech & immigration
 - tech for good
 - unconventional paths into tech
+
+## Community Partnerships
+
+We also support community partnerships with other nonprofit orgs or conferences that are working towards similar goals.
+
+### Nonprofits
+
+Techqueria can provide financial sponsorship, more visibility or mentors to nonprofits in exchange for access to their network and the opportunity to showcase Techqueria as a valuable resource.
+
+### Conferences
+
+Techqueria can provide visibility to your conference through social media posts, our email newsletter and by showcasing our logo on our website.
+
+In exchange, your conference can provide our members free or discounted tickets and/or a chance to speak at your conference.
+
+{{< partnership-call >}}

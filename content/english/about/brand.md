@@ -3,26 +3,12 @@ title: Brand
 description: Download our assets and discover our style guide. 🎨
 image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
+toc: true
 aliases:
   - /branding/
   - /brand/
   - /about/brand/
 ---
-
-- [Overview](#overview)
-  - [Slogans](#slogans)
-  - [Meta Description](#meta-description)
-  - [Standard Description](#standard-description)
-  - [Long Description](#long-description)
-- [Colors](#colors)
-- [Typography](#typography)
-- [Photography](#photography)
-- [Logos](#logos)
-  - [Transparent](#transparent)
-  - [Background](#background)
-- [Banners](#banners)
-  - [Default](#default)
-  - [Logo Only](#logo-only)
 
 ## Overview
 

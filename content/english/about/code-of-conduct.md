@@ -72,9 +72,9 @@ In the unfortunate case that you see someone violating the code of conduct, here
 
 DM [@Techqueria](https://twitter.com/Techqueria) on Twitter
 
-### Email
+### Contact Us
 
-Email us at [organizers@techqueria.org](mailto:organizers@techqueria.org)
+You can contact us using [https://techqueria.org/contact](https://techqueria.org/contact)
 
 ### Slack
 

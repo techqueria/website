@@ -2,6 +2,7 @@
 title: "Become a Speaker"
 description: "If you are interested in supporting Techqueria as an individual, one great way to help out is by becoming a speaker."
 image: "/assets/img/support-us/become-a-speaker.jpg"
+noTimeEstimate: true
 aliases:
   - /speak/
   - /become-a-speaker/
@@ -16,22 +17,36 @@ If you are interested in supporting Techqueria as an individual, one great way t
 - improve your brand as we will be marketing your profile on our different social media platforms
 - improve your public speaking skills with practice in front of large audiences (we typically get around ~250 people at our larger events)
 - make new connections by letting the audience ask you questions after the talk
+- receive swag or money for your efforts and time as a small token of our appreciation
 
-We can also potentially provide a speaker honorarium and Techqueria swag from the [store](/shop/) depending on our event sponsors.
+We do provide speakers a 50 dollar reimbursement through [Open Collective](/donate/open-collective) for certain events.
 
 ## As a speaker you commit to...
 
-- preparing in advance
-- arriving on time
-- syncing with the event coordinators before your talk
 - joining the appropriate event channel on Techqueria's [Slack](/slack) and responding when needed
+- preparing in advance
+- syncing with the event coordinators before your talk
+- arriving to the event on time
 
-## Fill out the form below and we'll reach out ASAP.
+## Interested in being a speaker?
 
-> Before filling out the form below, please [make sure you have already joined our Slack community](/communities/slack/) as we will be reaching out through there.
->
-> If it is a good fit, we'll reach out and send you more details before inviting you to the relevant event channel within Slack.
->
-> Otherwise, we can always consider you for future events!
+If we have a need for speakers and you seem like a good fit for the event discussion, we'll reach out and send you more details!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT-NC2U1CF7nYRB0mXn0i5K5NB-cEivZbmVtPGBss1nkxGw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="height:2650px !important;">Loading…</iframe>
+<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Speaker">
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/organization >}}
+  {{< fields/title >}}
+  {{< fields/linkedin >}}
+  {{< fields/twitter >}}
+  {{< fields/instagram >}}
+  {{< fields/website >}}
+  {{< fields/headshot_photo >}}
+  {{< fields/location >}}
+  {{< fields/slack_member >}}
+  {{< fields/latinx_in_tech help="We prioritize speakers who identify as Latinx in Tech." >}}
+  {{< fields/message label="Can you elaborate on any past speaking experience that you may have?" help="We welcome speakers with all levels of experience! It is not a requirement to be an experienced speaker for our events. Ultimately, we are just looking for passionate people willing to speak in front of large audiences." name="past_speaking_experience" >}}
+  {{< fields/referral >}}
+  {{< fields/submit label="Submit info" >}}
+</form>

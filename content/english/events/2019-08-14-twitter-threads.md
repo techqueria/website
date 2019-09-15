@@ -23,7 +23,7 @@ speakers:
   - "Melisa Im"
   - "Tonatiuh Ramos"
 locations:
-  - "bay-area"
+  - "san-francisco"
 companies:
   - "Twitter"
 articles:

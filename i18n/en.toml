@@ -44,7 +44,7 @@ other = "Get the latest updates by email."
 other = "Subscribe"
 
 [interested_sponsor]
-other = "Interested in becoming a sponsor?"
+other = "Partner with Us"
 
 [you_can]
 other = "Feel free to"
@@ -139,6 +139,10 @@ other = "to"
 # cta.donate.html
 [cta_donate_title]
 other = "Donate"
+
+# cta.donate.html
+[cta_donate_button]
+other = "Donate to Techqueria"
 
 [cta_donate_description]
 other = "Donate to Techqueria and support our efforts to elevate Latinx in Tech."

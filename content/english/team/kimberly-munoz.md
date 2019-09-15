@@ -4,7 +4,7 @@ image: "/assets/img/team/kimberly-munoz.jpg"
 description: "Front End Developer, Slack"
 linkedin: kimberlymunoz
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - past-organizer
 ---

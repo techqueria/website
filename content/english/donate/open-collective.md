@@ -1,9 +1,12 @@
 ---
-title: Contribute through Open Collective
+title: Donate to Techqueria via Open Collective
 description: Become a contributor, backer or sponsor to support Techqueria's efforts to create the largest community of Latinx professionals in tech.
 identifier: fas fa-circle-notch
 link: https://opencollective.com/techqueria
 image: "/assets/img/supporters/open-collective.png"
+aliases:
+  - /open-collective/
+  - /donate/open-collective/
 ---
 
 ## Submitting Expenses
@@ -18,7 +21,7 @@ image: "/assets/img/supporters/open-collective.png"
 
 ### Further Questions
 
-Contact organizers@techqueria.org for further questions on reimbursement.
+Contact us using [https://techqueria.org/contact](https://techqueria.org/contact) for further questions on reimbursement.
 
 ## Need more help?
 

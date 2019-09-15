@@ -4,7 +4,7 @@ image: "/assets/img/team/rubi-sanchez.jpeg"
 description: "Product Manager, AdRoll"
 linkedin: rubisanchez
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - past-board-member
   - past-organizer

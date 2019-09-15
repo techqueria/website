@@ -1,5 +1,6 @@
 <div class="field">
   <label class="label">Do you identify as a Latinx professional in the tech industry?*</label>
+  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
   <div class="control">
     <label class="radio">
       <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?"

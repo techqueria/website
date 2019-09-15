@@ -5,7 +5,7 @@ description: "Senior Software Engineer, OneDegree"
 linkedin: "angel-alvarado-robledo"
 flag: 🇲🇽
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - current-volunteer
 ---

@@ -1,3 +1,7 @@
+.main {
+  margin-top: 4rem;
+}
+
 body {
   @extend .has-text-weight-normal;
   font-family: $font-family;
@@ -47,7 +51,7 @@ iframe {
 }
 
 form {
-  max-width: $tablet;
+  max-width: 600px;
 
   &.form--centered {
     margin: 0 auto;

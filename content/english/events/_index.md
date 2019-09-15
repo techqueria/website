@@ -26,8 +26,20 @@ Photos are licensed under a [CC BY-NC-ND 4.0](https://creativecommons.org/licens
 
 Stay up to date with upcoming events for Latinx in Tech through Techqueria's Community Calendar.
 
-Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech. Upon submitting an event, our leads will be notified and we can approve your event.
-
-You can also subscribe to the calendar using the link below. If you don’t use Google Calendar, you can always add the calendar via URL using `webcal://tockify.com/api/feeds/ics/techqueria`. If you don't want to subscribe to all events, you can individually add events to your calendar using the save icon in the event details.
-
 It should be noted that Techqueria is not affiliated with, nor sponsor of, any events listed on our community calendar unless specifically noted.
+
+### Submitting events
+
+Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech.
+
+Make sure to include a photo, title, description, address and please use "RSVP" or "Get Tickets" as the button text.
+
+Upon submitting an event, our leads will be notified and we can approve your event.
+
+### Subscribing to the calendar
+
+You can also subscribe to the calendar using the link below.
+
+If you don’t use Google Calendar, you can always add the calendar via URL using **webcal://tockify.com/api/feeds/ics/techqueria**
+
+If you don't want to subscribe to all events, you can individually add events to your calendar using the save icon in the event details.

@@ -1,40 +1,14 @@
 ---
-title: Slack Workspace
-description: Learn about our Community Guidelines and request an invitation to our Slack community.
-identifier: fab fa-slack
-image: "/assets/img/communities/slack/_index.jpg"
+title: "Community Guidelines"
+description: "Learn about our allyship in Slack, best practices, recommendations and customization options. 📝"
+image: "/assets/img/communities/slack/community-guidelines.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true
 aliases:
-  - /slack/
-  - /communities/slack/
-sitemap: true
+  - /communities/slack/community-guidelines/
+  - /slack-community-guidelines/
 ---
-
-## Join us! 🌮
-
-If you'd like to join our Slack Workspace, please [request an invite](https://forms.gle/6ePmS1LsnzRj3HvX9).
-
-As you are waiting for your Slack invite, feel free to check out [our different Community groups](/communities/) and the details we've provided about our Slack group below.
-
-You can also get a taste of our Slack workspace by checking out our [Slofile profile](https://slofile.com/slack/techqueria).
-
-You should get an invite within 2 weeks.
-
-If you don't get an invite by then, please email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
-
-<a href="https://forms.gle/6ePmS1LsnzRj3HvX9" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
-
-### Already a member?
-
-If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
-
-<a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/communities/slack/login-to-slack.png"></a>
-
-### Never used Slack before?
-
-If you are new to Slack, please check out our [**New to Slack**](#new-to-slack) section first.
 
 ## Allies 💛
 
@@ -49,7 +23,7 @@ However, it is not a requirement to identify as Latinx to be in this community w
 
 The purpose of the `#allies` channel is for allies to share resources, events, etc with our community and to ask us any questions on how to partner up together or become a better ally. 🧠
 
-If you have any questions, comments or concerns, let us know in #allies or #meta and a lead will get back to you.
+If you have any questions, comments or concerns, let us know in `#allies` or `#meta` and a lead will get back to you.
 
 With your support, Techqueria can become a stronger & more valuable community for Latinx in Tech. 💛
 
@@ -105,11 +79,25 @@ Threads let you respond directly to a message in a channel, keeping the replies,
 
 `code of conduct`
 
-All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or send an email to `organizers@techqueria.org`. :techqueria-new: https://techqueria.org/code-of-conduct/
+All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or contact us through our website. :taco:
 
-`profile picture`, `profile photo`
+https://techqueria.org/code-of-conduct/
+
+`profile picture`, `profile photo`, `fill out your profile`, `profile pic`
 
 Your profile photo helps us know who you are in Slack. And if your photo is clear, it'll be easier for someone to pick you out in a crowd or at a Techqueria event. :blob-says-hi:
+
+`techqueria logo`
+
+Please see our brand guidelines for Techqueria on our website. :taco: https://techqueria.org/about/brand/
+
+`add event to community calendar`
+
+:google-calendar: You can check out our community calendar and add your own event using https://techqueria.org/events/#community-calendar
+
+`want to contribute to open source`, `get involved in open source`
+
+Check out Techqueria's website on GitHub! :github: https://github.com/techqueria/website
 
 ### Useful Reacjis
 
@@ -340,6 +328,30 @@ Fill out the template below when requesting an event to be added.
 *Meetup Member Profile URL* https://meetup.com/techqueria/members/123
 ```
 
+## Code of Conduct 🌻
+
+You can find our code of conduct at [https://techqueria.org/code-of-conduct](/code-of-conduct/).
+
+In short, this is a professional community so be respectful of everyone and their identity.
+
+Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to contact an admin and we will sort it out.
+
+### Can I DM leads?
+
+If you DM a lead, we may not be able to get to you in a very timely manner due to our limited bandwidth.
+
+We love getting DMs from our members but we feel we're doing a disservice if it takes us more than a week to get back to you with your questions, feedback, concerns, etc.
+
+Ergo, for any questions related to Slack, the website, volunteering, partnerships or really anything related to Techqueria — we ask that you please post in `#meta` to get a faster response.
+
+For sensitive convos, please use the `/admin` command.
+
+### Contacting Admins
+
+You can contact an admin by using the command `/admin` in Slack followed by your message or you can reach out to us in `#meta`.
+
+![Admin](/assets/img/communities/slack/admin.png)
+
 ## Onboarding 🌺
 
 We use Aloha & Donut for onboarding.
@@ -393,9 +405,13 @@ Happy to be here!
 ```txt
 All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
 
-_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, send us an email using `organizers@techqueria.org` or even tweet us `@Techqueria` - we are here to help! 🌮
+_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, contact us through our website or even DM us `@Techqueria` - we are here to help! 🌮
+
+https://techqueria.org/contact/
 
 https://techqueria.org/code-of-conduct/
+
+https://twitter.com/Techqueria
 ```
 
 ### 10 minutes
@@ -573,26 +589,6 @@ Congrats on your 4 year anniversary with the Techqueria community 🌮
 This is just berry amazing! 🍓
 ```
 
-## New to Slack? 🌱
-
-### Slack Demo
-
-Here's [a demo](https://slackdemo.com) of how Slack works!
-
-![Slack Demo](https://i.imgur.com/o2ZWFGt.jpg)
-
-### Slack Foundry
-
-[Slack Foundry](https://slackfoundry.builtbyslack.com/) is a training app for Slack that you can access (you guessed it!) in Slack.
-
-![Slack Foundry](https://i.imgur.com/RxwMHdC.jpg)
-
-### Getting Started Guide
-
-Slack's [Getting Started Guide](https://get.slack.help/hc/en-us/categories/360000049043-Getting-Started) covers the basics and is the official documentation provided by Slack.
-
-![Getting Started Guide](https://i.imgur.com/pVQbhkX.jpg)
-
 ## Questions, comments, or concerns? ℹ️
 
 If you'd like to participate in the conversation about the future of the community, event planning, suggest speakers and be more involved, please join our `#meta` channel.
@@ -601,39 +597,13 @@ Other related meta channels include:
 
 - `#meta`
   - Give feedback, ask questions, bring up concerns, etc
-- `#meta-donate-space`
-  - Form submissions from donate space page
 - `#meta-profile-pic`
   - Messages reacted with :frame_with_picture:
 - `#meta-request-channel`
   - Request a new channel
-- `#meta-volunteers`
-  - Form submissions from volunteer page
 - `#meta-website`
   - Discussing & contributing to Techqueria website https://techqueria.org
 - `#meta-website-alerts`
   - Automated activity feed from all our website integrations
 - `#twitter`
   - Automated feed of Twitter account activity
-
-### Can I DM leads?
-
-If you DM a lead, we may not be able to get to you in a very timely manner due to our limited bandwidth.
-
-We love getting DMs from our members but we feel we're doing a disservice if it takes us more than a week to get back to you with your questions, feedback, concerns, etc.
-
-Ergo, for any questions related to Slack, the website, volunteering, partnerships or really anything related to Techqueria — we ask that you please post in `#meta` to get a faster response.
-
-For sensitive convos, please use the `/admin` command.
-
-## Code of Conduct 🌻
-
-You can find our code of conduct at [https://techqueria.org/code-of-conduct](/code-of-conduct/).
-
-In short, this is a professional community so be respectful of everyone and their identity.
-
-Unprofessional behavior is **not** acceptable so if you feel that someone is breaking the code of conduct, make sure to contact an admin and we will sort it out.
-
-You can contact an admin by using the command `/admin` in Slack followed by your message or you can reach out to us in `#meta`.
-
-![Admin](/assets/img/communities/slack/admin.png)

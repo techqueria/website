@@ -5,7 +5,7 @@ link: https://www.meetup.com/techqueria/events/235254289/
 photos: https://photos.app.goo.gl/mN1CTZsiHoVsJvWQ8
 image: "/assets/img/events/2016-11-15.jpg"
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "Hackbright Academy"
 ---

@@ -7,10 +7,10 @@ twitter: fvcproductions
 github: fvcproductions
 flag: 🇵🇪
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - board-member
   - current-organizer
-  - cto
+  - co-director
   - patreon-friend
 ---

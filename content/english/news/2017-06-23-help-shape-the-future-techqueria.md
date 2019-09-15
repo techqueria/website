@@ -19,7 +19,7 @@ As a first step we’re assembling a diverse board of advisors to ensure inclusi
 
 Help us shape the future of the community by sharing your feedback with us, let us know what you like, what can we improve, programs you’d like to see and ideas for the future.
 
-You can send anonymous feedback using this form [https://techqueria.typeform.com/to/KOkFS3](https://techqueria.typeform.com/to/KOkFS3), or send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org), DM us on slack or request some time to meet for office hours in the East Bay or NYC.
+You can send anonymous feedback by DMing us on slack or you can request some time to meet for office hours in the East Bay or NYC.
 
 We’d also love to see more of you involved with the organization!
 

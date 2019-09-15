@@ -12,9 +12,11 @@ aliases:
 sitemap: true
 ---
 
-## Send us an email
+## Email
 
-[organizers@techqueria.org](mailto:organizers@techqueria.org)
+This email is accessible by Techqueria's [executive team and board members](/team/).
+
+`organizers@techqueria.org`
 
 ## Reach out in Slack
 
@@ -24,15 +26,15 @@ For technical support questions related to Slack, please contact [Slack support]
 
 ## Fill out the contact form
 
-Filling out the form below sends an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
+Filling out the form below sends an email to our executive team.
 
-<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
+<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
   {{< fields/name >}}
   {{< fields/email >}}
   {{< fields/organization >}}
   {{< fields/title >}}
-  {{< fields/message title="Message" required="true" help="Please provide any useful context so we can reply accordingly." name="message" >}}
+  {{< fields/message required="true" help="Please provide any useful context so we can reply accordingly." >}}
   {{< fields/referral >}}
   {{< fields/submit >}}
 </form>
@@ -65,8 +67,8 @@ We also like to help other groups with their events and ideas.
 
 We're always listening to your feedback and ready to help in any way we can.
 
-Reach out to us in Slack through the `#meta` channel or use the `/admin` command to get in touch with us the quicker
+Reach out to us in Slack through the `#meta` channel to get in touch with us and provide feedback.
 
-You can also send us an email to [organizers@techqueria.org](mailto:organizers@techqueria.org).
+You can also contact us using the form above.
 
 If you need an invitation to Slack, request it on [our Slack welcome page](/communities/slack/).

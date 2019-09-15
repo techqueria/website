@@ -49,4 +49,4 @@ Natalie invited her sister Andrea Contreras, 20, to the event. She hopes to find
 
 One of the topics the sisters spoke about was the discrimination that exists towards women in tech. Though Natalie says she has not experienced discrimination, she knows other women who have. That is why Techqueria is important, because everyone is welcome wherever they come from.
 
-Ventura says that the goal is to continue growing as a community and collaborating with other similar groups. This community is open to receiving volunteers, sponsors, speakers for their events, and anyone who wishes to collaborate or contribute to the growth of the group. You can contact them via email at organizers@techqueria.org, or on Facebook.
+Ventura says that the goal is to continue growing as a community and collaborating with other similar groups. This community is open to receiving volunteers, sponsors, speakers for their events, and anyone who wishes to collaborate or contribute to the growth of the group.

@@ -6,7 +6,7 @@
 {{ end }}
 <!-- Showcase -->
 <div class="content u-text--centered">
-  <h2><span class="mr-sm">✨</span> Partnerships and Sponsors <span class="ml-sm">✨</span></h2>
+  <h2><span class="mr-sm">✨</span>2019 Partners & Sponsors<span class="ml-sm">✨</span></h2>
 </div>
 <!-- Diamond Sponsors -->
 {{ if (index .Site.Taxonomies.categories "sponsor-diamond") "!=" nil }}
@@ -74,7 +74,7 @@
   <h3 id="bronze-sponsors"><span class="mr-sm">🏺</span>Bronze Sponsors</h3>
   <p>Organizations that have committed $2,000+.</p>
 </div>
-<section class="c-companies c-companies__software-suporters">
+<section class="c-companies c-companies__bronze-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-bronze") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -95,7 +95,7 @@
 <!-- Community Partners -->
 {{ if (index .Site.Taxonomies.categories "community-partner") "!=" nil }}
 <div class="content mt-4">
-  <h3 id="community-partners"><span class="mr-sm">💛</span>Community Partners</h3>
+  <h3 id="community-partners"><span class="mr-sm">💙</span>Community Partners</h3>
   <p>Organizations we partner with that also support Latinx in Tech.</p>
 </div>
 <section class="c-companies c-companies__community-partners">
@@ -119,8 +119,9 @@
 <!-- Past Supporters -->
 {{ if (index .Site.Taxonomies.categories "past-supporter") "!=" nil }}
 <div class="content mt-4">
-  <h3 id="past-supporters"><span class="mr-sm">🕒</span>Past Supporters & Partners</h3>
+  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters & Partners</h3>
   <p>Organizations that have supported us or partnered with us in the past.</p>
+  <p>We've had {{ $companies }} different organizations support us in some capacity since 2015.</p>
 </div>
 <section class="c-companies c-companies__past-supporters">
   {{ range (index .Site.Taxonomies.categories "past-supporter") }}
@@ -128,3 +129,16 @@
   {{ end }}
 </section>
 {{ end }}
+<!-- Active Patreon Supporters -->
+<div class="content mt-4">
+  <h2 id="patreon-supporters"><span class="mr-sm">🎗️</span>Active Patreon Supporters</h2>
+  <p>Patreon supporters who pledge $25 or more each month</p>
+</div>
+<div class="columns is-multiline page__team">
+  {{ if (.Site.GetPage "/team/charlie-rivas") }}{{ partial "content/child.html" (.Site.GetPage "/team/charlie-rivas") }}{{ end }}
+  {{ if (.Site.GetPage "/team/felipe-ventura") }}{{ partial "content/child.html" (.Site.GetPage "/team/felipe-ventura") }}{{ end }}
+  {{ if (.Site.GetPage "/team/giovanni-bryden") }}{{ partial "content/child.html" (.Site.GetPage "/team/giovanni-bryden") }}{{ end }}
+  {{ if (.Site.GetPage "/team/krystal-flores") }}{{ partial "content/child.html" (.Site.GetPage "/team/krystal-flores") }}{{ end }}
+  {{ if (.Site.GetPage "/team/liliana-a-monge") }}{{ partial "content/child.html" (.Site.GetPage "/team/liliana-a-monge") }}{{ end }}
+  {{ if (.Site.GetPage "/team/michael-urbina") }}{{ partial "content/child.html" (.Site.GetPage "/team/michael-urbina") }}{{ end }}
+</div>

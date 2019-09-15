@@ -3,7 +3,7 @@ title: "HealthTech"
 date: 2017-10-25
 link: https://www.meetup.com/techqueria/events/243860079/
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "CareMessage"
 ---

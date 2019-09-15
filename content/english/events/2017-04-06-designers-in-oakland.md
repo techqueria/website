@@ -7,7 +7,7 @@ image: https://i.imgur.com/UHZUWS7.jpg
 photos: https://photos.app.goo.gl/h3jtdoXhfqqSmk8q9
 video: https://www.youtube.com/watch?v=oRvby76zq4Y&feature=youtu.be
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "Kapor Center"
 ---

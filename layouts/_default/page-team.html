@@ -31,8 +31,7 @@
     </div>
     <!-- Active Volunteers -->
     <div class="content mt-2">
-      <h2>Active Team Members</h2>
-      <p>Only showing those who have been involved with at least two events.</p>
+      <h2>Current Team Members</h2>
     </div>
     <div class="columns is-multiline">
       {{ if (.Site.GetPage "/team/andrea-cardona") }}{{ partial "content/child.html" (.Site.GetPage "/team/andrea-cardona") }}{{ end }}
@@ -44,17 +43,6 @@
       {{ if (.Site.GetPage "/team/pablo-carbajal") }}{{ partial "content/child.html" (.Site.GetPage "/team/pablo-carbajal") }}{{ end }}
       {{ if (.Site.GetPage "/team/pia-zaragoza") }}{{ partial "content/child.html" (.Site.GetPage "/team/pia-zaragoza") }}{{ end }}
       {{ if (.Site.GetPage "/team/vanessa-jimenez") }}{{ partial "content/child.html" (.Site.GetPage "/team/vanessa-jimenez") }}{{ end }}
-    </div>
-    <!-- Active Patreon Supporters -->
-    <div class="content mt-2">
-      <h2>Active Patreon Supporters</h2>
-      <p>Only showing those who pledge $25 or more each month</p>
-    </div>
-    <div class="columns is-multiline">
-      {{ if (.Site.GetPage "/team/felipe-ventura") }}{{ partial "content/child.html" (.Site.GetPage "/team/felipe-ventura") }}{{ end }}
-      {{ if (.Site.GetPage "/team/giovanni-bryden") }}{{ partial "content/child.html" (.Site.GetPage "/team/giovanni-bryden") }}{{ end }}
-      {{ if (.Site.GetPage "/team/krystal-flores") }}{{ partial "content/child.html" (.Site.GetPage "/team/krystal-flores") }}{{ end }}
-      {{ if (.Site.GetPage "/team/liliana-a-monge") }}{{ partial "content/child.html" (.Site.GetPage "/team/liliana-a-monge") }}{{ end }}
     </div>
     <!-- Past Team Members -->
     <div class="content mt-2">

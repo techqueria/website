@@ -34,48 +34,52 @@
 @supports (display: grid) {
   .c-companies {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-content: center;
 
-    @media screen and (min-width: $laptop) {
-      &__diamond-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
-      }
+    @media screen and (min-width: $tablet) {
+      grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    }
+  }
 
-      &__titanium-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
-      }
+  @media screen and (min-width: $laptop) {
+    .c-companies__diamond-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(1000px, max-content));
+    }
 
-      &__platinum-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-      }
+    .c-companies__titanium-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(800px, max-content));
+    }
 
-      &__gold-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-      }
+    .c-companies__platinum-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(600px, max-content));
+    }
 
-      &__silver-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      }
+    .c-companies__gold-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+    }
 
-      &__bronze-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-      }
+    .c-companies__silver-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    }
 
-      &__iron-sponsors {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      }
+    .c-companies__bronze-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    }
 
-      &__community-partners {
-        grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-      }
+    .c-companies__iron-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    }
 
-      &__software-supporters {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      }
+    .c-companies__community-partners {
+      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    }
 
-      &__past-supporters {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      }
+    .c-companies__software-suporters {
+      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    }
+
+    .c-companies__past-supporters {
+      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     }
   }
 }

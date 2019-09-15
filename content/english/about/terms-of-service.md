@@ -1,6 +1,7 @@
 ---
 title: "Terms of Service"
 description: "By accessing this website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws."
+image: "/assets/img/about/terms-of-service/_index.jpg"
 noTimeEstimate: true
 aliases:
   - /tos/

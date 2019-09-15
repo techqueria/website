@@ -4,7 +4,7 @@ date: 2016-12-14
 link: https://www.meetup.com/techqueria/events/235604788/
 photos: https://photos.app.goo.gl/mN1CTZsiHoVsJvWQ8
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "Stripe"
 ---
@@ -17,7 +17,7 @@ For this event, we plan to have break into groups to plan for skill-sharing and 
 
 Please fill out this form (https://docs.google.com/forms/d/1sodh8_s2r0P8GY9hbMMkJW9sYA5VdxVQfi53QlgC62Y/edit) so we have a sense of what topics to focus on.
 
-If you have any questions, feel free to respond here or reach out to organizers@techqueria.org.
+If you have any questions, feel free to respond here or contact us.
 
 We look forward to seeing you on December 14th. If you can, spread notice of this event far and wide to your networks and allies.
 

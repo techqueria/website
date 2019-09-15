@@ -8,10 +8,6 @@ image: "/assets/img/about/contact/_index.jpg"
 
 ## Formas de contactarnos
 
-### Email
-
-[organizers@techqueria.org](mailto:organizers@techqueria.org)
-
 ### Slack
 
 Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
@@ -24,7 +20,7 @@ Estamos buscando oradores, lugares para nuestros eventos, aquellos que puedan pa
 
 A cambio, podemos proporcionar un foco para su organización en nuestros eventos y redes.
 
-Puede enviarnos un correo electrónico a [organizers@techqueria.org](mailto:organizers@techqueria.org), o usar la función de contacto en [nuestro Grupo Meetup](https://www.meetup.com/techqueria/).
+Puedes usar la función de contacto en [nuestro Grupo Meetup](https://www.meetup.com/techqueria/).
 
 ## Conócenos en persona
 
@@ -40,6 +36,6 @@ También nos gusta ayudar a otros grupos con sus eventos e ideas.
 
 Siempre escuchamos sus comentarios y estamos listos para ayudar de cualquier manera que podamos.
 
-Use el comando `/admin` en el espacio de trabajo de Slack para comunicarse con nosotros más rápido, o envíenos un correo electrónico a [organizers@techqueria.org](mailto:organizers@techqueria.org).
+Use el comando `/admin` en el espacio de trabajo de Slack para comunicarse con nosotros más rápido.
 
 Si necesita una invitación a Slack, solicítela en [nuestra página de bienvenida de Slack](/slack/).

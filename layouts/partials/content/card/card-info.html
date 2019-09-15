@@ -1,6 +1,7 @@
 <!-- Roles -->
 {{ if .Params.roles }}
   {{ if in .Params.roles "board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Member{{ end }}
+  {{ if in .Params.roles "co-director" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-Director{{ end }}
   {{ if in .Params.roles "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
   {{ if in .Params.roles "chair-person" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Chair{{ end }}
   {{ if in .Params.roles "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}
@@ -30,11 +31,11 @@
 {{ if .Params.locations }}
 <p class="has-text-weight-light mt-sm is-size-7">
   <span class="mr-sm">📍</span>
-  {{ if in .Params.locations "austin" }}Austin{{ end }}
-  {{ if in .Params.locations "bay-area" }}Bay Area{{ end }}
-  {{ if in .Params.locations "los-angeles" }}Los Angeles{{ end }}
-  {{ if in .Params.locations "nyc" }}New York City{{ end }}
-  {{ if in .Params.locations "chicago" }}Chicago{{ end }}
+  {{ if in .Params.locations "austin" }}Austin, TX{{ end }}
+  {{ if in .Params.locations "san-francisco" }}San Francisco, CA{{ end }}
+  {{ if in .Params.locations "los-angeles" }}Los Angeles, CA{{ end }}
+  {{ if in .Params.locations "nyc" }}New York, NY{{ end }}
+  {{ if in .Params.locations "chicago" }}Chicago, IL{{ end }}
 </p>
 {{ end }}
 <!-- Location -->

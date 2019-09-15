@@ -7,7 +7,7 @@ twitter: quahada
 github: quahada
 flag: 🇭🇳
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - board-member
   - current-organizer

@@ -1,7 +1,15 @@
 <!-- Submit -->
+{{ $label := "" }}
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
+{{ end }}
+{{ else }}
+{{ $label = "Send message" }}
+{{ end }}
 <div data-netlify-recaptcha="true"></div>
 <div class="field mt-sm">
   <div class="control">
-    <button type="submit" class="button is-primary">Send message</button>
+    <button type="submit" class="button is-primary is-medium">{{ $label }}</button>
   </div>
 </div>

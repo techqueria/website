@@ -109,12 +109,12 @@ disqusShortname = "techqueria"
     url    = "/about/brand/"
 [[menu.main]]
     parent = "About"
-    name   = "Contact"
-    url    = "/about/contact/"
+    name   = "Code of Conduct"
+    url    = "/about/code-of-conduct"
 [[menu.main]]
     parent = "About"
-    name   = "Events"
-    url    = "/events/"
+    name   = "Contact"
+    url    = "/about/contact/"
 [[menu.main]]
     parent = "About"
     name   = "Team"
@@ -183,11 +183,11 @@ disqusShortname = "techqueria"
     url  = "/donate/"
 [[menu.main]]
     parent = "Donate"
-    name   = "Contribute through Open Collective"
+    name   = "Donate via Open Collective"
     url    = "https://opencollective.com/techqueria"
 [[menu.main]]
     parent = "Donate"
-    name   = "Contribute through Patreon"
+    name   = "Donate via Patreon"
     url    = "https://www.patreon.com/techqueria"
 
 # Events
@@ -196,16 +196,16 @@ disqusShortname = "techqueria"
     url  = "/events/"
 [[menu.main]]
     parent = "Events"
-    name   = "Become a Speaker"
-    url    = "/support-us/speak/"
-[[menu.main]]
-    parent = "Events"
     name   = "Community Calendar"
     url    = "/events/#community-calendar"
 [[menu.main]]
     parent = "Events"
-    name   = "Donate Space"
-    url    = "/support-us/donate-space/"
+    name   = "Past Techqueria Events"
+    url    = "/events/#techqueria-events"
+[[menu.main]]
+    parent = "Events"
+    name   = "Submit Event Feedback"
+    url    = "/about/event-feedback/"
 
 # Resources
 [[menu.main]]
@@ -221,6 +221,11 @@ disqusShortname = "techqueria"
 [[menu.main]]
     name = "Support Us"
     url  = "/support-us/"
+
+[[menu.main]]
+    parent = "Support Us"
+    name   = "Become a Speaker"
+    url    = "/support-us/speak"
 [[menu.main]]
     parent = "Support Us"
     name   = "Become a Sponsor"
@@ -231,14 +236,12 @@ disqusShortname = "techqueria"
     url    = "/support-us/volunteer/"
 [[menu.main]]
     parent = "Support Us"
+    name   = "Donate Space"
+    url    = "/support-us/donate-space/"
+[[menu.main]]
+    parent = "Support Us"
     name   = "Our Supporters"
     url    = "/supporters/"
-
-# TODO: Add gated content navbar links
-# Gated Content
-# Jobs
-# Casa (Member Portal)
-# Login/Sign Up
 
 # Social Menu
 [[menu.social]]
@@ -255,7 +258,7 @@ disqusShortname = "techqueria"
 # Slack Menu
 [[menu.slack]]
     name       = "Join our Slack"
-    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
+    url        = "/communities/slack/join/"
     identifier = "fab fa-lg fa-slack"
 [[menu.slack]]
     name       = "Login to Slack"

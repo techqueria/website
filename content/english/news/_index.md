@@ -17,4 +17,4 @@ aliases:
 sitemap: true
 ---
 
-> For press inquiries, email us at [organizers@techqueria.org](mailto:organizers@techqueria.org).
+> For press inquiries, please [contact us](/contact/).

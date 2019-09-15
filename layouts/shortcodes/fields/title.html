@@ -1,9 +1,16 @@
-<!-- Organization -->
+{{ $label := "Your current role" }}
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
+{{ end }}
+{{ end }}
 <div class="field">
-  <label class="label">Job Title*</label>
+  <label class="label">{{ $label }}*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
   <div class="control has-icons-left">
-    <input class="input" aria-label="Job Title" autocomplete="organization-title" type="text" name="job_title"
-      placeholder="Your job title" required>
+    <input class="input" aria-label="Current Role" autocomplete="organization-title" type="text" name="current_role" placeholder="Your current role" required>
     <span class="icon is-left">
       🔨
     </span>

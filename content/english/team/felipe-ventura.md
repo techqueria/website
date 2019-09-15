@@ -7,10 +7,10 @@ twitter: fvntr
 github: fvntr
 flag: 🇩🇴🇨🇴
 locations:
-  - bay-area
+  - san-francisco
 roles:
   - board-member
   - current-organizer
-  - ceo
+  - co-director
   - patreon-core
 ---

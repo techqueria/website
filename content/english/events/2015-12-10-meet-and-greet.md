@@ -3,7 +3,7 @@ title: "Meet & Greet"
 date: 2015-12-10
 link: https://www.meetup.com/techqueria/events/226913818/
 locations:
-  - bay-area
+  - san-francisco
 companies:
   - "NextSpace Berkeley"
 ---

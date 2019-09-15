@@ -1,8 +1,17 @@
 <!-- Organization -->
+{{ $label := "Your organization" }}
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
+{{ end }}
+{{ end }}
 <div class="field">
-  <label class="label">Organization*</label>
+  <label class="label">{{ $label }}*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
   <div class="control has-icons-left">
-    <input class="input" aria-label="Organization" autocomplete="organization" type="text" name="organization"
+    <input class="input" aria-label="Your organization" autocomplete="organization" type="text" name="organization"
       placeholder="Your organization" required>
     <span class="icon is-left">
       🏢

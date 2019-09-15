@@ -29,5 +29,3 @@ Más adelante, comenzamos a organizar eventos en empresas de toda el Área de la
 LA fue el primer lugar donde realizamos eventos fuera del Área de la Bahía gracias a la ayuda de Esteban Uribe y Héctor Carmona.
 
 A medida que nuestra comunidad avanza, formamos nuevas sedes y nos apoyamos mutuamente en el desarrollo de un hogar para Latinxs en tecnología. ¡Damos la bienvenida a todos los que comparten nuestra misión!
-
-> Si está interesado en comenzar una sede, comuníquese con [organizers@techqueria.org](mailto:organizers@techqueria.org) o comuníquese con nosotros [a través de Slack](/es/communities/slack/).
