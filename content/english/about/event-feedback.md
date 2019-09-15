@@ -22,7 +22,7 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
 
 ## Submit event feedback
 
-<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
+<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Event Feedback">
   <div class="field">
     <label class="label">Event Name* 🗓️</label>
@@ -97,9 +97,9 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
       </label>
     </div>
   </div>
-  {{< fields/message title="What went well? 🌻" name="event_what_went_well" >}}
-  {{< fields/message title="What were your key takeaways from this event? 🧠" name="event_key_takeaways" >}}
-  {{< fields/message title="What could have gone better? 🌵" name="event_key_takeaways" >}}
-  {{< fields/message title="Any last comments? 💬" name="event_key_takeaways" >}}
+  {{< fields/message label="What went well? 🌻" name="event_what_went_well" >}}
+  {{< fields/message label="What were your key takeaways from this event? 🧠" name="event_key_takeaways" >}}
+  {{< fields/message label="What could have gone better? 🌵" name="event_key_takeaways" >}}
+  {{< fields/message label="Any last comments? 💬" name="event_key_takeaways" >}}
   {{< fields/submit label="Submit feedback" >}}
 </form>

@@ -1,5 +1,11 @@
+{{ $label := "Your job title" }}
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
+{{ end }}
+{{ end }}
 <div class="field">
-  <label class="label">Your current role*</label>
+  <label class="label">{{ $label }}*</label>
   {{ if .Get "help" }}
   <p class="help">{{ .Get "help" }}</p>
   {{ end }}

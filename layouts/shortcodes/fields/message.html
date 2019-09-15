@@ -1,13 +1,10 @@
-{{ $label := "Your message" }}
+{{ $label := "Anything else you'd like to add?" }}
 {{ $name := "message" }}
 <!-- Title -->
-<!-- Default title: Anything else you'd like to add? -->
-{{ if .Get "title" }}
-{{ if isset .Params "title" }}
-{{ $label = .Get "title" }}
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
 {{ end }}
-{{ else }}
-{{ $label = "Anything else you'd like to add?" }}
 {{ end }}
 <!-- Name -->
 {{ if .Get "name" }}

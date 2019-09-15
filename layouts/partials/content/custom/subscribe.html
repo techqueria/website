@@ -1,0 +1,31 @@
+<form name="Subscribe" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/email/" style="max-width: 800px;">
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field mt-0">
+        <p class="control is-expanded has-icons-left">
+          <input class="input" aria-label="Name" autocomplete="name" type="text" name="name" placeholder="Your full name" minlength="7" data-value-invalid="Please enter your full name" data-value-missing="Don't forget to enter your name" required>
+          <span class="icon is-small is-left">
+            ✒️
+          </span>
+        </p>
+      </div>
+      <div class="field mt-0">
+        <p class="control is-expanded has-icons-left">
+          <input class="input" aria-label="Your email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
+          <span class="icon is-small is-left">
+            ✉️
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Submit -->
+  <div class="field">
+    <div class="control is-expanded has-icons-left has-icons-right">
+      <button type="submit" class="button is-primary is-medium">Subscribe</button>
+    </div>
+  </div>
+  <div class="field mt-sm">
+    <div data-netlify-recaptcha="true"></div>
+  </div>
+</form>

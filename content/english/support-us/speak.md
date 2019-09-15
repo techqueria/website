@@ -32,7 +32,7 @@ We do provide speakers a 50 dollar reimbursement through [Open Collective](/dona
 
 If we have a need for speakers and you seem like a good fit for the event discussion, we'll reach out and send you more details!
 
-<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="form--centered" action="/success/">
+<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Speaker">
   {{< fields/name >}}
   {{< fields/email >}}
@@ -46,7 +46,7 @@ If we have a need for speakers and you seem like a good fit for the event discus
   {{< fields/location >}}
   {{< fields/slack_member >}}
   {{< fields/latinx_in_tech help="We prioritize speakers who identify as Latinx in Tech." >}}
-  {{< fields/message title="Can you elaborate on any past speaking experience that you may have?" help="We welcome speakers with all levels of experience! It is not a requirement to be an experienced speaker for our events. Ultimately, we are just looking for passionate people willing to speak in front of large audiences." name="past_speaking_experience" >}}
+  {{< fields/message label="Can you elaborate on any past speaking experience that you may have?" help="We welcome speakers with all levels of experience! It is not a requirement to be an experienced speaker for our events. Ultimately, we are just looking for passionate people willing to speak in front of large audiences." name="past_speaking_experience" >}}
   {{< fields/referral >}}
-  {{< fields/submit >}}
+  {{< fields/submit label="Submit info" >}}
 </form>
