@@ -1,6 +1,9 @@
 <!-- Email -->
 <div class="field">
   <label class="label">Your email*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
   <div class="control has-icons-left">
     <input class="input" aria-label="Your email" autocomplete="email" type="email" name="email" placeholder="Your email" required>
     <span class="icon is-left">

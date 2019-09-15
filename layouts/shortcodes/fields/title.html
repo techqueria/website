@@ -1,10 +1,10 @@
-<!-- Organization -->
 <div class="field">
-  <label class="label">Current Role*</label>
-  <p class="help">e.g. Developer, designer, manager, executive, marketing, student, etc.</p>
+  <label class="label">Your current role*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
   <div class="control has-icons-left">
-    <input class="input" aria-label="Job Title" autocomplete="organization-title" type="text" name="job_title"
-      placeholder="Your job title" required>
+    <input class="input" aria-label="Current Role" autocomplete="organization-title" type="text" name="current_role" placeholder="Your current role" required>
     <span class="icon is-left">
       🔨
     </span>
