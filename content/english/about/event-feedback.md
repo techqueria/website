@@ -99,7 +99,7 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
   </div>
   {{< fields/message label="What went well? 🌻" name="event_what_went_well" >}}
   {{< fields/message label="What were your key takeaways from this event? 🧠" name="event_key_takeaways" >}}
-  {{< fields/message label="What could have gone better? 🌵" name="event_key_takeaways" >}}
-  {{< fields/message label="Any last comments? 💬" name="event_key_takeaways" >}}
+  {{< fields/message label="What could have gone better? 🌵" name="event_gone_better" >}}
+  {{< fields/message label="Any last comments? 💬" name="event_last_comments" >}}
   {{< fields/submit label="Submit feedback" >}}
 </form>
