@@ -4,5 +4,5 @@ description: "Email marketing, ads, landing pages, and CRM tools to grow your bu
 link: https://mailchimp.com/
 image: "/assets/img/supporters/mailchimp.png"
 categories:
-  - software-supporter
+  - past-supporter
 ---
