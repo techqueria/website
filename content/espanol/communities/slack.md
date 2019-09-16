@@ -8,16 +8,6 @@ sitemap: true
 toc: true
 ---
 
-## Únete!
-
-Para ser invitado a nuestro espacio de Slack con más de 3,000 (a partir de marzo del 2019) Latinx en tecnología, por favor [llene este formulario de Google](https://forms.gle/6ePmS1LsnzRj3HvX9).
-
-<a href="https://forms.gle/6ePmS1LsnzRj3HvX9" target="_blank" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
-
-Mientras espera por su invitación de Slack, siéntase libre de visitar [nuestros otros grupos de la comunidad](/communities/) y los detalles que hemos proporcionado sobre nuestro espacio de Slack a continuación.
-
-Debería recibir una invitación dentro de las próximas dos semanas.
-
 ## Ya es miembro?
 
 Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).
