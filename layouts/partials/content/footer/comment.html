@@ -1,4 +1,4 @@
-{{ if .Params.comments }}
+{{ if or (eq .Section "news") (eq .Section "resources") (eq .Section "events") }}
 <div class="content mt-2">
   <h2><span class="mr-sm">💬</span>{{ i18n "comment" }}</h2>
   <div id="disqus_thread"></div>

@@ -46,14 +46,11 @@ other = "Subscribe"
 [interested_sponsor]
 other = "Partner with Us"
 
-[you_can]
-other = "Feel free to"
+[interested_sponsor_paragraph]
+other = "Feel free to book a partnership call and we can talk more about the different ways you can support the largest community of Latinx in Tech."
 
-[interested_contact_us]
-other = "book a partnership call"
-
-[and_we_can]
-other = "and we can talk more about the different ways you can support the largest community of Latinx in Tech."
+[interested_sponsor_button]
+other = "Book a partnership call"
 
 [there_is_also]
 other = "You can also become an on-going patron or make a one-time donation."
@@ -62,7 +59,7 @@ other = "You can also become an on-going patron or make a one-time donation."
 other = "Subscribe"
 
 [get_updates]
-other = "Get new updates about Techqueria sent to your inbox by entering your email below!"
+other = "Get the latest Techqueria updates sent to your inbox every month by subscribing to our newsletter."
 
 [feel_free_to]
 other = "Feel free to"
