@@ -8,6 +8,10 @@ sitemap: true
 toc: true
 ---
 
+## Join Slack
+
+Fill out the form on https://techqueria.org/communities/slack/join (English responses please)
+
 ## Ya es miembro?
 
 Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.com](https://techqueria.slack.com/).

@@ -163,7 +163,7 @@ disqusShortname = "techqueria"
 [[menu.main]]
     parent = "Communities"
     name   = "Newsletter"
-    url    = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+    url    = "/communities/newsletter/"
 [[menu.main]]
     parent = "Communities"
     name   = "Slack Workspace"
@@ -336,7 +336,7 @@ disqusShortname = "techqueria"
 [[languages.es.menu.main]]
     parent = "Comunidades"
     name   = "Boletín electrónico"
-    url    = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+    url    = "/communities/newsletter/"
 [[languages.es.menu.main]]
     parent = "Comunidades"
     name   = "Espacio de trabajo en Slack"
@@ -398,7 +398,7 @@ disqusShortname = "techqueria"
 
 [[languages.es.menu.slack]]
     name       = "Únete a nuestro Slack"
-    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
+    url        = "/communities/slack/"
     identifier = "fab fa-lg fa-slack"
 
 [[languages.es.menu.slack]]
