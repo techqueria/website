@@ -3,37 +3,37 @@
   <label class="label">How did you first hear about Techqueria?*</label>
   <div class="control has-icons-left">
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Yes" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Word of Mouth" required>
       Word of Mouth
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Social Media" required>
       Social Media
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Google Search" required>
       Google Search
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Employee Resource Group" required>
       Employee Resource Group
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="In-Person Event" required>
       In-Person Event
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Podcast" required>
       Podcast
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" id="referral_other_radio_button" name="referral" value="No" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" id="referral_other_radio_button" name="referral" value="Other" required>
       Other
     </label>
     <br>
@@ -46,7 +46,7 @@
   </div>
 </div>
 <script>
-document.getElementById("referral_other_radio_button").addEventListener('change', function(){
-    document.getElementById("referral_other_input").required = this.checked ;
+document.getElementById("referral_other_radio_button").addEventListener("change", () => {
+    document.getElementById("referral_other_input").required = this.checked;
 })
 </script>

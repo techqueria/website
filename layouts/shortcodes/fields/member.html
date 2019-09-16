@@ -73,12 +73,6 @@
     </span>
   </div>
 </div>
-<script>
-  document.getElementById("job_category_other_radio_button").addEventListener('change', function () {
-    document.getElementById("job_category_other_input").required = this.checked;
-  })
-
-</script>
 <div class="field">
   <label class="label">Your age?*</label>
   <div class="control has-icons-left">
@@ -119,3 +113,8 @@
     <br>
   </div>
 </div>
+<script>
+document.getElementById("job_category_other_radio_button").addEventListener("change", () => {
+  document.getElementById("job_category_other_input").required = this.checked;
+})
+</script>
