@@ -58,14 +58,14 @@
     }
 
     &.is-outlined {
-      color: $techqueria-black;
       border-color: $techqueria-black;
+      color: $techqueria-black;
 
       &:hover,
       &:focus {
         background-color: $techqueria-black;
-        color: $techqueria-white;
         border-color: $techqueria-black;
+        color: $techqueria-white;
 
         i {
           color: $techqueria-white;
