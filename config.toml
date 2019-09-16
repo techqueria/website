@@ -398,7 +398,7 @@ disqusShortname = "techqueria"
 
 [[languages.es.menu.slack]]
     name       = "Únete a nuestro Slack"
-    url        = "https://forms.gle/6ePmS1LsnzRj3HvX9"
+    url        = "/communities/slack/"
     identifier = "fab fa-lg fa-slack"
 
 [[languages.es.menu.slack]]
