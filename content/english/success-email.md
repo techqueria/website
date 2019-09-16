@@ -1,6 +1,7 @@
 ---
 title: "Thanks for subscribing!"
 description: "We'll make sure to keep you updated with the latest and greatest every month. 🕒"
+url: /success/email/
 ---
 
 <div class="mb-1">

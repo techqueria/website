@@ -1,6 +1,7 @@
 ---
 title: "Thanks for requesting an invite to our Slack!"
 description: "You should get an invite within 2 weeks. 🕒"
+url: /success/slack/
 ---
 
 <div class="mb-1">

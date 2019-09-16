@@ -34,7 +34,7 @@ Filling out the form below sends an email to our executive team.
   {{< fields/email >}}
   {{< fields/organization >}}
   {{< fields/title >}}
-  {{< fields/message required="true" help="Please provide any useful context so we can reply accordingly." >}}
+  {{< fields/message required="true" help="Please provide any useful context so we can reply accordingly." label="Your message" >}}
   {{< fields/referral >}}
   {{< fields/submit >}}
 </form>
