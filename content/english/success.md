@@ -1,6 +1,7 @@
 ---
 title: "Thanks for your submission!"
 description: "We'll get back to you ASAP. 🕒"
+url: /success/
 ---
 
 <div class="has-text-centered mb-1">

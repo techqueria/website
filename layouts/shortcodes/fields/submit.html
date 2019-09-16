@@ -7,9 +7,10 @@
 {{ else }}
 {{ $label = "Send message" }}
 {{ end }}
-<div data-netlify-recaptcha="true"></div>
+<!-- Submit -->
 <div class="field mt-sm">
-  <div class="control">
+  <div data-netlify-recaptcha="true"></div>
+  <div class="control is-expanded has-icons-left has-icons-right mt-sm">
     <button type="submit" class="button is-primary is-medium">{{ $label }}</button>
   </div>
 </div>
