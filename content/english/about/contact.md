@@ -14,9 +14,9 @@ sitemap: true
 
 ## Email
 
-This email is accessible by Techqueria's [executive team and board members](/team/).
-
 `organizers@techqueria.org`
+
+This email is accessible by Techqueria's [executive team and board members](/team/).
 
 ## Reach out in Slack
 

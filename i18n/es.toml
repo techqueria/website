@@ -46,14 +46,11 @@ other = "Suscríbase"
 [interested_sponsor]
 other = "Interesado en ser un patrocinador?"
 
-[you_can]
-other = "Puede"
+[interested_sponsor_paragraph]
+other = "Puedes contactarnos y podemos conversar sobre las múltiples maneras en las que podría apoyar a nuestra creciente comunidad de Latinx en tecnología."
 
-[interested_contact_us]
-other = "contactarnos"
-
-[and_we_can]
-other = "y podemos conversar sobre las múltiples maneras en las que podría apoyar a nuestra creciente comunidad de Latinx en tecnología."
+[interested_sponsor_button]
+other = "Contáctenos"
 
 [there_is_also]
 other = "También existe la opción de convertirse en un patrocinador activo a través de Patreon o Open Collective."

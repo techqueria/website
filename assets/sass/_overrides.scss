@@ -56,6 +56,22 @@
       color: $techqueria-black;
       text-decoration: none;
     }
+
+    &.is-outlined {
+      color: $techqueria-black;
+      border-color: $techqueria-black;
+
+      &:hover,
+      &:focus {
+        background-color: $techqueria-black;
+        color: $techqueria-white;
+        border-color: $techqueria-black;
+
+        i {
+          color: $techqueria-white;
+        }
+      }
+    }
   }
 }
 
