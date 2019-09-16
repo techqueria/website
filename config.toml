@@ -163,7 +163,7 @@ disqusShortname = "techqueria"
 [[menu.main]]
     parent = "Communities"
     name   = "Newsletter"
-    url    = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+    url    = "/communities/newsletter/"
 [[menu.main]]
     parent = "Communities"
     name   = "Slack Workspace"
@@ -336,7 +336,7 @@ disqusShortname = "techqueria"
 [[languages.es.menu.main]]
     parent = "Comunidades"
     name   = "Boletín electrónico"
-    url    = "https://mailchi.mp/c12256627e10/techqueria-newsletter"
+    url    = "/communities/newsletter/"
 [[languages.es.menu.main]]
     parent = "Comunidades"
     name   = "Espacio de trabajo en Slack"
