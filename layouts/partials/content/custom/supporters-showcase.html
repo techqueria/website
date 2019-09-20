@@ -135,6 +135,7 @@
   <p>Patreon supporters who pledge $25 or more each month</p>
 </div>
 <div class="columns is-multiline page__team">
+  {{ if (.Site.GetPage "/team/mica-alaniz") }}{{ partial "content/child.html" (.Site.GetPage "/team/mica-alaniz") }}{{ end }}
   {{ if (.Site.GetPage "/team/charlie-rivas") }}{{ partial "content/child.html" (.Site.GetPage "/team/charlie-rivas") }}{{ end }}
   {{ if (.Site.GetPage "/team/felipe-ventura") }}{{ partial "content/child.html" (.Site.GetPage "/team/felipe-ventura") }}{{ end }}
   {{ if (.Site.GetPage "/team/giovanni-bryden") }}{{ partial "content/child.html" (.Site.GetPage "/team/giovanni-bryden") }}{{ end }}
