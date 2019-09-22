@@ -344,8 +344,7 @@ Your Slack account may have been deactivated because of one of the following rea
   - if someone reported you or we have noticed a violation, we will first deactivate your account and then contact you via email
   - if it is an extreme violation (like hate speech), we may deactivate your account and not provide the courtesy of following up
   - if there was a misunderstanding, we can reactivate your account but we're usually pretty strict on violations
-- you have not posted any messages within the last 6 months AND have not uploaded a profile picture
-  - both conditions have to apply
+- you have not posted any messages within the last 6 months AND have not uploaded a profile picture OR you have not posted any messages within the last 12 months
   - this is to ensure our bot integrations pair up active members and our Slack provides more value to our active members
   - please feel free to reach out if you'd like to join the Slack again and we'll happily activate again for you
 - you requested it yourself
