@@ -35,6 +35,7 @@ If you do not identify as Latinx, you will still receive an invitation as a mult
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Join Slack">
   {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
   {{< fields/email help="When signing up, please use a personal email address to avoid being locked out if you lose access to your work or school email. Make sure to check for typos in your email as this is usually the main reason someone doesn't receive an invite." >}}
+  {{ fields/pronouns }}
   {{< fields/title label="What is your current role?" help="e.g. Software Engineer, Recruiter, Product Designer, Student, etc." >}}
   {{< fields/organization label="Where do you currently work or study?" >}}
   {{< fields/member >}}
