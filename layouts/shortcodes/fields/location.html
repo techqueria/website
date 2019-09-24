@@ -12,12 +12,12 @@
       New York, NY
     </label>
     <br>
-     <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Los Angeles, CA" required>
       Los Angeles, CA
     </label>
     <br>
-     <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Austin, TX" required>
       Austin, TX
     </label>
@@ -27,7 +27,12 @@
       Chicago, IL
     </label>
     <br>
-     <label class="radio">
+    <label class="radio">
+      <input type="radio" aria-label="Where are you based?" name="location" value="Atlanta, GA" required>
+      Atlanta, GA
+    </label>
+    <br>
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Portland, OR" required>
       Portland, OR
     </label>
@@ -37,7 +42,7 @@
       Seattle, WA
     </label>
     <br>
-     <label class="radio">
+    <label class="radio">
       <input type="radio" aria-label="Where are you based?" name="location" value="Miami, FL" required>
       Miami, FL
     </label>
@@ -69,4 +74,5 @@
   document.getElementById("location_other_radio_button").addEventListener("change", () => {
     document.getElementById("location_other_input").required = this.checked;
   })
+
 </script>
