@@ -1,17 +1,14 @@
 <div class="field">
-  <label class="label">Do you identify as a Latinx professional in the tech industry?*</label>
-  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
+  <label class="label">Do you identify as a Latinx / a person of Latin American descent?*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>{{ end }}
   <div class="control">
     <label class="radio">
-      <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?"
-        name="identify_as_latinx_in_tech" value="Yes" required>
-      Yes
+      <input type="radio" aria-label="Do you identify as a Latinx?" name="identify_as_latinx_in_tech" value="Yes" required> Yes
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="Do you identify as a Latinx professional in the tech industry?"
-        name="identify_as_latinx_in_tech" value="No" required>
-      No
+      <input type="radio" aria-label="Do you identify as a Latinx?" name="identify_as_latinx_in_tech" value="No" required> No
     </label>
   </div>
 </div>
