@@ -40,7 +40,8 @@ If you do not identify as Latinx, you will still receive an invitation as a mult
   {{< fields/member >}}
   {{< fields/linkedin >}}
   {{< fields/location >}}
-  {{< fields/latinx_in_tech help="You will get an invite either way." >}}
+  {{< fields/latinx help="You will get an invite either way." >}}
+   {{< fields/tech help="You will get an invite either way." >}}
   {{< fields/message label="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." name="why_techqueria" required="true" >}}
   {{< fields/referral >}}
   {{< fields/submit label="Request an invite" >}}
