@@ -45,7 +45,7 @@ If we have a need for speakers and you seem like a good fit for the event discus
   {{< fields/headshot_photo >}}
   {{< fields/location >}}
   {{< fields/slack_member >}}
-  {{< fields/latinx_in_tech help="We prioritize speakers who identify as Latinx in Tech." >}}
+  {{< fields/latinx help="We prioritize speakers who identify as Latinx in Tech." >}}
   {{< fields/message label="Can you elaborate on any past speaking experience that you may have?" help="We welcome speakers with all levels of experience! It is not a requirement to be an experienced speaker for our events. Ultimately, we are just looking for passionate people willing to speak in front of large audiences." name="past_speaking_experience" >}}
   {{< fields/referral >}}
   {{< fields/submit label="Submit info" >}}
