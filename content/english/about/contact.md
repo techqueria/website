@@ -39,6 +39,12 @@ Filling out the form below sends an email to our executive team.
   {{< fields/submit >}}
 </form>
 
+## Posting Jobs
+
+We are working on creating a dedicated job board that is accessible behind via Slack sign in.
+
+In the meantime, feel free to join our Slack and share job postings in the `#jobs` channel.
+
 ## Interested in partnering with us?
 
 We're always looking for [partners and sponsors](/support-us/) to help move our mission forward!
