@@ -1,0 +1,16 @@
+<div class="field">
+  <label class="label">Are you currently a professional in the tech industry or interested in becoming one?*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>{{ end }}
+  <div class="control">
+    <label class="radio">
+      <input type="radio" aria-label="Are you currently a professional in the tech industry or interested in becoming one?" name="identify_as_in_tech"
+        value="Yes" required> Yes
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="Are you currently a professional in the tech industry or interested in becoming one?" name="identify_as_in_tech"
+        value="No" required> No
+    </label>
+  </div>
+</div>
