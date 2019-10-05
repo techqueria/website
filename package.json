@@ -47,7 +47,7 @@
     "postcss-csso": "3.0.0",
     "webpack": "4.41.0",
     "workbox-webpack-plugin": "4.3.1",
-    "snyk": "^1.192.3"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
