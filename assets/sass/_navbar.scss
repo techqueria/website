@@ -135,12 +135,13 @@
     }
   }
 
-  #navMenu{
-    width: 20%;
-    position: fixed;
-    opacity: .9;
-    min-width: 15em;
+  .navbar-menu {
     min-height: 100%;
+    min-width: 15em;
+    opacity: 0.9;
+    position: fixed;
+    width: 20%;
+
   }
 
 }
