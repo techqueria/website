@@ -6,6 +6,11 @@
   .navbar-menu {
     box-shadow: none;
     flex-grow: unset;
+    min-height: 100%;
+    min-width: 15em;
+    opacity: 0.9;
+    position: fixed;
+    width: 20%;
   }
 
   .navbar-burger {
@@ -134,15 +139,5 @@
       }
     }
   }
-
-  .navbar-menu {
-    min-height: 100%;
-    min-width: 15em;
-    opacity: 0.9;
-    position: fixed;
-    width: 20%;
-
-  }
-
 }
 
