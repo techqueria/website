@@ -1,23 +1,34 @@
 ---
-title: "Request an Invite"
-description: "Request an invitation to Techqueria's Slack community. 🌮"
+title: "Join Us"
+description: "Sign up and become a member of Techqueria's community."
 image: "/assets/img/communities/slack/join-to-slack.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true
+sitemap: true
+url: /join/
 aliases:
-  - /slack/join/
-  - /join-slack/
+  - /become-a-member/
   - /communities/slack/join-slack/
+  - /email-newsletter/
+  - /join-slack/
+  - /join/
+  - /newsletter/
+  - /slack/join/
+  - /subscribe/
 ---
+
+## Member Benefits
+
+- Access to our online Slack community where you can network with thousands of other Latinx in Tech
+- Subscription to our monthly email newsletter with org updates, events, event discounts, job postings and more
+- (Future) Access to our member only portal with a dedicated job board & career resources
 
 ## Aftermath
 
 Anyone who signs up will also be subscribed to our mailing list which you can opt out of at any time.
 
-You should get an invite within 2 weeks.
-
-If you don't get an invite by then, please [contact us](/contact).
+If you don't get an invite within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
 
 ## Best Practices
 
@@ -27,9 +38,7 @@ You can also view the latest metrics about our Slack community [using Slofile](h
 
 ## Allies
 
-If you do not identify as Latinx, you will still receive an invitation as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.
-
-## Request an Invite
+If you do not identify as Latinx, you will still receive an invitation as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.## Apply to become a member
 
 <form name="Join Slack" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/slack/" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Join Slack">

@@ -10,7 +10,7 @@ locations:
   - san-francisco
 roles:
   - board-member
-  - current-organizer
   - co-founder
   - chair-person
+  - past-organizer
 ---

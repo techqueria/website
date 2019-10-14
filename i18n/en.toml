@@ -17,12 +17,21 @@ other = "Join us and share your experience with Techqueria."
 other = "Calling all Latinx in Tech!"
 
 [join_us_slack]
-other = "Join us in Slack!"
+other = "Join us in Slack"
 
 [join_us_slack_description]
 other = "Our Slack workspace provides a more engaged way to stay in touch with fellow Techqueria members."
 
 [join_us_slack_button]
+other = "Request an invite"
+
+[become_member]
+other = "Become a Member"
+
+[become_member_description]
+other = "Connect with thousands of other Latinx in Tech by becoming a member of Techqueria."
+
+[become_member_button]
 other = "Request an invite"
 
 [become_sponsor]

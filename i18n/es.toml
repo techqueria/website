@@ -25,6 +25,16 @@ other = "Nuestro espacio de trabajo de Slack provee una mejor forma de manteners
 [join_us_slack_button]
 other = "Solicite una invitación"
 
+# Become a Member
+[become_member]
+other = "Become a Member"
+
+[become_member_description]
+other = "Connect with thousands of other Latinx in Tech by becoming a member of Techqueria."
+
+[become_member_button]
+other = "Apply to become a member"
+
 [become_sponsor]
 other = "Conviértase en un Patrocinador"
 

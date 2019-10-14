@@ -6,5 +6,5 @@ linkedin: cristobalreitze
 locations:
   - san-francisco
 roles:
-  - current-volunteer
+  - past-volunteer
 ---

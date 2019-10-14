@@ -8,6 +8,7 @@ toc: true
 aliases:
   - /communities/slack/new-to-slack/
   - /new-to-slack/
+  - /slack/new-to-slack/
 ---
 
 ## Slack Demo

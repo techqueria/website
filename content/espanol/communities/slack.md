@@ -4,7 +4,6 @@ description: Obtenga información sobre las normas de nuestra comunidad y solici
 identifier: fab fa-slack
 image: "/assets/img/communities/slack/_index.jpg"
 noTimeEstimate: true
-sitemap: true
 toc: true
 ---
 

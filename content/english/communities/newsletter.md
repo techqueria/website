@@ -10,13 +10,4 @@ aliases:
   - /newsletter/
 ---
 
-<form name="Subscribe" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/email" class="form--centered">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Subscriber">
-  {{< fields/name >}}
-  {{< fields/email >}}
-  {{< fields/organization >}}
-  {{< fields/title >}}
-  {{< fields/location >}}
-  {{< fields/referral >}}
-  {{< fields/submit label="Subscribe" >}}
-</form>
+You are subscribed to Techqueria's newsletter when you [become a member](/join/).
