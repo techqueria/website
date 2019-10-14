@@ -7,6 +7,5 @@ flag: 🇲🇽
 locations:
   - san-francisco
 roles:
-  - current-organizer
   - chapter-lead
 ---

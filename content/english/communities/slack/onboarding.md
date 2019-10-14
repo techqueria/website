@@ -1,11 +1,15 @@
 ---
 title: "Onboarding Messages"
-description: "Find all our onboarding messages here."
-image: "/assets/img/communities/slack/community-guidelines.jpg"
+description: "Find all our onboarding messages here. 🌺"
+image: "/assets/img/communities/slack/onboarding.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true
+aliases:
+  - /slack/onboarding/
+  - /communities/slack/onboarding/
 ---
+
 ## Onboarding 🌺
 
 We use Aloha & Donut for onboarding.

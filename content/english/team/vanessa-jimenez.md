@@ -6,5 +6,5 @@ linkedin: vanessajimenez27
 locations:
   - nyc
 roles:
-  - current-organizer
+  - chapter-lead
 ---

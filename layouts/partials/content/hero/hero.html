@@ -1,10 +1,11 @@
-<section class="hero is-medium is-danger is-bold">
+<section class="hero is-danger is-bold is-fancy">
   <div class="hero-body">
     <div class="container{{ if .IsPage }} page--single{{ end }}">
       <!-- Title -->
       <h1 class="title">
         {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
       </h1>
+      <br>
       <!-- Description -->
       <p class="subtitle">
         {{ if .Description }}

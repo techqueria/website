@@ -10,7 +10,6 @@ locations:
   - san-francisco
 roles:
   - board-member
-  - current-organizer
   - co-director
   - patreon-friend
 ---

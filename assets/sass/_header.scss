@@ -1,66 +1,71 @@
 .hero {
-
-  .title,
-  .subtitle {
-    color: $techqueria-white;
-  }
-
-  .title {
-    font-size: 2.5em;
-
-    @media screen and (min-width: $laptop) {
-      font-size: 3em;
-    }
-  }
-
-  .subtitle {
-    font-size: 1.5em;
-
-    @media screen and (min-width: $laptop) {
-      font-size: 2em;
-    }
-  }
-
-  &.is-homepage {
+    .title,
     .subtitle {
-      color: $techqueria-white;
+        color: $techqueria-white;
+    }
+
+    .title {
+        font-size: 2.5em;
+
+        @media screen and (min-width: $laptop) {
+            font-size: 3em;
+        }
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+
+        @media screen and (min-width: $laptop) {
+            font-size: 2em;
+        }
+    }
+
+    &.is-homepage {
+        .background-image {
+            box-shadow: inset 0 0 0 2000px $material-shadow;
+        }
+
+        @media screen and (min-width: $tablet) {
+            .hero-body {
+                padding-bottom: 5rem;
+                padding-top: 35rem;
+            }
+        }
+    }
+
+    &.is-bold {
+        text-shadow: none;
+    }
+
+    &.is-primary.is-bold {
+        background-image: linear-gradient(45deg, $techqueria-blue-light 0%, lighten($techqueria-blue-light, 25%) 99%, lighten($techqueria-blue-light, 25%) 100%);
+    }
+
+    &.is-danger.is-bold {
+        background-image: linear-gradient(141deg, $techqueria-red, $techqueria 60%, lighten($techqueria-red, 15%));
+
+        .subtitle {
+            color: $techqueria-black;
+        }
+    }
+
+    &.is-fancy {
+        .title {
+            @extend %fancy-title;
+        }
+
+        .subtitle {
+            @extend %fancy-subtitle;
+        }
     }
 
     .background-image {
-      box-shadow: inset 0 0 0 2000px $material-shadow;
+        @extend %bg-image;
+
+        background-attachment: scroll;
+
+        &.overlay {
+            box-shadow: inset 0 0 0 1000px $image-shadow;
+        }
     }
-
-    @media screen and (min-width: $tablet) {
-      .hero-body {
-        padding-bottom: 5rem;
-        padding-top: 35rem;
-      }
-    }
-  }
-
-  &.is-bold {
-    text-shadow: none;
-  }
-
-  &.is-primary.is-bold {
-    background-image: linear-gradient(45deg, $techqueria-blue-light 0%, lighten($techqueria-blue-light, 25%) 99%, lighten($techqueria-blue-light, 25%) 100%);
-  }
-
-  &.is-danger.is-bold {
-    background-image: linear-gradient(141deg, $techqueria-red, $techqueria 60%, lighten($techqueria-red, 15%));
-
-    .subtitle {
-      color: $techqueria-black;
-    }
-  }
-
-  .background-image {
-    @extend %bg-image;
-    background-attachment: scroll;
-    text-shadow: 0 2px 3px $darker-shadow;
-
-    &.overlay {
-      box-shadow: inset 0 0 0 1000px $image-shadow;
-    }
-  }
 }

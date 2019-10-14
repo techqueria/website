@@ -1,6 +1,6 @@
 ---
 title: Team
-description: "Techqueria is a 501c3 nonprofit that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors."
+description: "Techqueria is possible thanks to the work of lots of organizers, mentors, sponsors and advisors. 🎈"
 layout: "page-team"
 image: "/assets/img/team/_index.jpg"
 hideImage: true

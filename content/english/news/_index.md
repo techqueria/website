@@ -1,6 +1,6 @@
 ---
 title: News
-description: "La Techqueria. Where we share stories related to the Techqueria community."
+description: "La Techqueria. Where we share stories related to the Techqueria community. 📰"
 sortLatestFirst: true
 image: "/assets/img/news/_index.jpg"
 hideImage: true

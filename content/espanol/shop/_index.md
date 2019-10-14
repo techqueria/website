@@ -1,18 +1,12 @@
 ---
-title: "Shop"
-description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
-image: "/assets/img/about/shop/_index.jpg"
-hideImage: true
-noTimeEstimate: true
-aliases:
-  - /shop/
-  - /store/
-  - /about/shop/
+title: "Tienda"
+description: "¡Compre todo tipo de botines geniales en la tienda oficial de camisetas de Techqueria!"
 sitemap: true
+image: "/assets/img/shop/_index.png"
 ---
 
 <div id="myShop">
-    <a href="https://shop.spreadshirt.com/techqueria">techqueria</a>
+    <a href="https://shop.spreadshirt.com/techqueria">Techqueria Tienda</a>
 </div>
 
 <script>

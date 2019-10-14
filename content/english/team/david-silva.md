@@ -11,7 +11,7 @@ locations:
 roles:
   - board-member
   - co-founder
-  - current-organizer
+  - chapter-lead
 ---
 
 David Silva is the co-founder of Techqueria and a senior development at Slingshot Health.

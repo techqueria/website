@@ -6,7 +6,7 @@ linkedin: estebanuribe
 locations:
   - los-angeles
 roles:
-  - current-organizer
+  - chapter-lead
   - board-member
   - patreon-advocate
 ---

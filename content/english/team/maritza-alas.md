@@ -6,5 +6,5 @@ linkedin: maritza-alas
 locations:
   - los-angeles
 roles:
-  - current-organizer
+  - chapter-lead
 ---

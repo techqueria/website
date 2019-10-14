@@ -7,6 +7,6 @@ flag: 🇲🇽
 locations:
   - austin
 roles:
-  - current-organizer
+  - chapter-lead
   - board-member
 ---

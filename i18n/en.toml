@@ -26,13 +26,13 @@ other = "Our Slack workspace provides a more engaged way to stay in touch with f
 other = "Request an invite"
 
 [become_member]
-other = "Become a Member"
+other = "Join Us"
 
 [become_member_description]
-other = "Connect with thousands of other Latinx in Tech by becoming a member of Techqueria."
+other = "Connect with thousands of other Latinx in Tech"
 
 [become_member_button]
-other = "Request an invite"
+other = "Become a member"
 
 [become_sponsor]
 other = "Support Us"
@@ -151,4 +151,4 @@ other = "Donate"
 other = "Donate to Techqueria"
 
 [cta_donate_description]
-other = "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
+other = "Help us in our efforts to elevate Latinx in Tech"

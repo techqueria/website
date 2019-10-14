@@ -239,7 +239,6 @@ locations:
   - san-francisco
 roles:
   - board-member
-  - current-organizer
   - cto
   - patreon-friend
 ---

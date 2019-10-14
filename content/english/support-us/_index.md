@@ -1,6 +1,6 @@
 ---
 title: Support Us
-description: Help us grow the largest Latinx in Tech communities by becoming a sponsor, speaker or volunteer.
+description: "Help us grow the largest Latinx in Tech communities by becoming a sponsor, speaker or volunteer. 🥰"
 image: "/assets/img/support-us/_index.jpg"
 hideImage: true
 noTimeEstimate: true
@@ -15,8 +15,6 @@ aliases:
   - /partner/
 sitemap: true
 ---
-
-{{< about >}}
 
 ## Become a Sponsor
 
@@ -33,21 +31,21 @@ We are also open to custom packages but these are our base tiers.
 | Job postings                |        5         |         4         |         3         |       2       |                |                |              |
 | Social media posts          |        4         |         3         |         2         |       1       |                |                |              |
 | **Visibility**              |
-| Sponsor booth               |        ✅        |                   |                   |               |                |                |              |
-| Logo in slides              |        ✅        |                   |                   |               |                |                |
-| Logo in emails              |        ✅        |        ✅         |                   |               |                |                |              |
-| Logo on Meetup page         |        ✅        |        ✅         |        ✅         |               |                |                |              |
-| Logo on website             |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
-| Event on community calendar |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| Sponsor booth               |        ✅         |                   |                   |               |                |                |              |
+| Logo in slides              |        ✅         |                   |                   |               |                |                |
+| Logo in emails              |        ✅         |         ✅         |                   |               |                |                |              |
+| Logo on Meetup page         |        ✅         |         ✅         |         ✅         |               |                |                |              |
+| Logo on website             |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |       ✅        |      ✅       |
+| Event on community calendar |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |       ✅        |      ✅       |
 | **Per Event**               |
-| Blog post                   |        ✅        |        ✅         |        ✅         |      ✅       |                |                |              |
-| Video recording             |        ✅        |        ✅         |        ✅         |      ✅       |                |       ✅       |              |
-| Photographer                |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
-| Splashthat event page       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
-| Sourcing speakers           |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |                |              |
-| Marketing                   |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| Blog post                   |        ✅         |         ✅         |         ✅         |       ✅       |                |                |              |
+| Video recording             |        ✅         |         ✅         |         ✅         |       ✅       |                |       ✅        |              |
+| Photographer                |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
+| Splashthat event page       |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
+| Sourcing speakers           |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
+| Marketing                   |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |       ✅        |      ✅       |
 | **Support**                 |
-| Private Slack channel       |        ✅        |        ✅         |        ✅         |      ✅       |       ✅       |       ✅       |      ✅      |
+| Private Slack channel       |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |       ✅        |      ✅       |
 
 ### Sponsor booth
 

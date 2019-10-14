@@ -34,10 +34,6 @@ We build Latinx-centered spaces that revolve around career advice, technical tal
 
 We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
 
-### Long Description
-
-{{< about >}}
-
 ## Colors
 
 There are 8 main colors in usage.
@@ -136,13 +132,28 @@ You can view all our design assets using [this Figma link](https://www.figma.com
 
 ### Transparent
 
-<a href="/assets/img/_logos/logo-square.png" download><img src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
-<a href="/assets/img/_logos/logo-rectangle.png" download><img src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
+<a href="/assets/img/_logos/logo-square.png" download><img class="u-box-shadow--none" src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
+<br>
+<a href="/assets/img/_logos/logo-rectangle.png" download><img class="u-box-shadow--none" src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
 
 ### Background
 
 <a href="/assets/img/_logos/logo-square-color.png" download><img src="/assets/img/_logos/logo-square-color.png" alt="Logo - Square - Color" width="250"></a>
 <a href="/assets/img/_logos/logo-square-no-text.png" download><img src="/assets/img/_logos/logo-square-no-text.png" alt="Logo - Square - No Text" width="250"></a>
+
+### Text Only
+
+These logos are meant for use cases where a simple text logo is needed. These logos also uses the Rubik font which will be used in upcoming iterations of other logos as well.
+
+<div class="box u-box-shadow--none" style="background-color:#fabf67">
+  <a href="/assets/img/_logos/text-black.png" download><img class="u-box-shadow--none" src="/assets/img/_logos/text-black.png" alt="Text - Black" width="400"></a>
+</div>
+<div class="box u-box-shadow--none" style="background-color:white">
+  <a href="/assets/img/_logos/text-brown.png" download><img class="u-box-shadow--none" src="/assets/img/_logos/text-brown.png" alt="Text - Brown" width="400"></a>
+</div>
+<div class="box u-box-shadow--none" style="background-color:black">
+  <a href="/assets/img/_logos/text-white.png" download><img class="u-box-shadow--none" src="/assets/img/_logos/text-white.png" alt="Text - White" width="400"></a>
+</div>
 
 ## Banners
 
