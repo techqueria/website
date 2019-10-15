@@ -46,6 +46,7 @@ Más organismo pueden ser encontrados en este proyecto [código de conducta](.gi
 #### Colaborador
 
 - [David Silva](https://github.com/dvidsilva)
+- [Supriyo Sarkar](https://github.com/SupriyoSarkar)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
 - [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)

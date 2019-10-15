@@ -46,6 +46,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 #### Contributors
 
 - [David Silva](https://github.com/dvidsilva)
+- [Supriyo Sarkar](https://github.com/SupriyoSarkar)
 - [Americo Zuzunaga](https://github.com/azuzunaga)
 - [Darryl Balderas](https://github.com/darrylbalderas)
 - [João Luiz de Andrade](https://github.com/joaoluizn)
