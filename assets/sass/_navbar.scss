@@ -1,141 +1,143 @@
 .navbar {
+    align-content: center;
+    justify-content: center;
 
-  align-content: center;
-  justify-content: center;
+    .navbar-menu {
+        box-shadow: none;
+        flex-grow: unset;
 
-  .navbar-menu {
-    box-shadow: none;
-    flex-grow: unset;
-
-    @media only screen and (min-width: $tablet) and (max-width: $laptop) {
-      font-size: $size-7;
-    }
-  }
-
-  .navbar-burger {
-    height: inherit;
-    width: 3em;
-
-    span {
-      height: 2px;
-      width: 20px;
-    }
-  }
-
-  .navbar-item {
-    img {
-      max-height: 3em;
+        @media only screen and (min-width: $tablet) and (max-width: $laptop) {
+            font-size: $size-7;
+        }
     }
 
-    &.has-dropdown {
-      padding: 0;
+    .navbar-burger {
+        height: inherit;
+        width: 3em;
+
+        span {
+            height: 2px;
+            width: 20px;
+        }
     }
-  }
 
-  .navbar-item,
-  .navbar-link {
-    font-weight: $weight-medium;
-    padding: 0.5rem 1.5rem;
+    .navbar-item {
+        img {
+            max-height: 3em;
+        }
 
-    @media screen and (max-width: $mobile-s) {
-      padding: 0.5rem 0.75rem;
-    }
-  }
+        &.has-dropdown {
+            padding: 0;
+        }
 
-  .navbar-item--social {
-    padding: 1rem 2rem;
-  }
-
-  .navbar-item:focus-within,
-  .navbar-item:focus,
-  .navbar-item:hover,
-  .navbar-item.has-dropdown:focus .navbar-link,
-  .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar-item.has-dropdown.is-active .navbar-link,
-  .navbar-item.is-active,
-  .navbar-link:focus-within,
-  .navbar-link:focus,
-  .navbar-link:hover,
-  .navbar-link.is-active {
-    background-color: $navbar-item-background-color;
-  }
-
-  .navbar-dropdown {
-    padding: 0;
-
-    .navbar-divider {
-      margin: 0;
+        &:hover {
+            background-color: white !important;
+        }
     }
 
     .navbar-item,
     .navbar-link {
-      @extend .has-text-weight-normal;
+        font-weight: $weight-medium;
+        padding: 0.5rem 1.5rem;
 
-      &:hover {
-        border-radius: $radius;
-      }
+        @media screen and (max-width: $mobile-s) {
+            padding: 0.5rem 0.75rem;
+        }
     }
-  }
 
-  .navbar-link:not(.is-arrowless):after,
-  .select:not(.is-multiple):not(.is-loading):after {
-    border-radius: 0;
-    content: none;
-  }
-
-  .navbar.is-spaced .navbar-dropdown,
-  .navbar-dropdown.is-boxed {
-    transform: none;
-    transition: none;
-  }
-
-  &.has-shadow {
-    @extend %material-shadow;
-  }
-
-  @media screen and (max-width: $tablet) {
-    .navbar-logo {
-      padding-right: 0;
+    .navbar-item--social {
+        padding: 1rem 2rem;
     }
-  }
 
-  @media screen and (min-width: $laptop) {
-    .slack-buttons {
-      margin-left: 2em;
+    .navbar-item:focus-within,
+    .navbar-item:focus,
+    .navbar-item:hover,
+    .navbar-item.has-dropdown:focus .navbar-link,
+    .navbar-item.has-dropdown:hover .navbar-link,
+    .navbar-item.has-dropdown.is-active .navbar-link,
+    .navbar-item.is-active,
+    .navbar-link:focus-within,
+    .navbar-link:focus,
+    .navbar-link:hover,
+    .navbar-link.is-active {
+        background-color: $navbar-item-background-color;
     }
-  }
 
-  @media screen and (max-width: $laptop) {
-
-    .navbar-link::after,
     .navbar-dropdown {
-      display: none;
+        padding: 0;
+
+        .navbar-divider {
+            margin: 0;
+        }
+
+        .navbar-item,
+        .navbar-link {
+            @extend .has-text-weight-normal;
+
+            &:hover {
+                border-radius: $radius;
+            }
+        }
     }
-  }
 
-  .hide-on-desktop-and-larger {
-    display: flex !important;
-
-    @media only screen and (min-width: $laptop) {
-      display: none !important;
+    .navbar-link:not(.is-arrowless):after,
+    .select:not(.is-multiple):not(.is-loading):after {
+        border-radius: 0;
+        content: none;
     }
-  }
 
-  .slack-buttons {
-    &__navbar-start {
-      display: none !important;
+    .navbar.is-spaced .navbar-dropdown,
+    .navbar-dropdown.is-boxed {
+        transform: none;
+        transition: none;
+    }
 
-      @media only screen and (min-width: $tablet) {
+    &.has-shadow {
+        @extend %material-shadow;
+    }
+
+    @media screen and (max-width: $tablet) {
+        .navbar-logo {
+            padding-right: 0;
+        }
+    }
+
+    @media screen and (min-width: $laptop) {
+        .slack-buttons {
+            margin-left: 2em;
+        }
+    }
+
+    @media screen and (max-width: $laptop) {
+        .navbar-link::after,
+        .navbar-dropdown {
+            display: none;
+        }
+    }
+
+    .hide-on-desktop-and-larger {
         display: flex !important;
-      }
+
+        @media only screen and (min-width: $laptop) {
+            display: none !important;
+        }
     }
 
-    &__navbar-end {
-      display: block !important;
+    .slack-buttons {
+        &__navbar-start {
+            display: none !important;
 
-      @media only screen and (min-width: $mobile) {
-        display: none !important;
-      }
+            @media only screen and (min-width: $tablet) {
+                display: flex !important;
+            }
+        }
+
+        &__navbar-end {
+            display: block !important;
+
+            @media only screen and (min-width: $mobile) {
+                display: none !important;
+            }
+        }
     }
-  }
 }

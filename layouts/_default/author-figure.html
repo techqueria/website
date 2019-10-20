@@ -1,5 +1,5 @@
 {{- range .Params.authors }}
-{{ $path := printf "/team/%s" (urlize .) }}
+{{ $path := printf "/about/team/%s" (urlize .) }}
 {{ $authorPage := $.Site.GetPage $path }}
 {{ with $authorPage }}
 <article class="media">

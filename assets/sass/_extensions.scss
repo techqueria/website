@@ -29,6 +29,7 @@
 }
 
 %fancy-title {
+    transform: rotate(2deg);
     color: $techqueria-white;
     background-color: black;
     border-radius: 2rem 1rem;
@@ -37,15 +38,17 @@
     margin-top: 1rem;
     padding: 2rem;
     position: relative;
-    transform: rotate(2deg);
     z-index: 1;
+
+    @media screen and (min-width: $laptop-large) {
+        transform: none;
+    }
 }
 
 %fancy-subtitle {
     color: $techqueria-black;
     background-color: $techqueria-white;
     border-radius: 1rem 2rem;
-    font-size: $size-4;
     display: inline-block;
     left: calc(var(--rounded) * -1);
     padding: 1.5rem;
@@ -56,5 +59,9 @@
 
     @media screen and (min-width: $tablet) {
         margin-top: 0;
+    }
+
+    @media screen and (min-width: $laptop-large) {
+        transform: none;
     }
 }

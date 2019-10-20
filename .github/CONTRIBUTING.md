@@ -237,7 +237,7 @@ github: fvcproductions
 flag: 🇵🇪
 locations:
   - san-francisco
-roles:
+categories:
   - board-member
   - cto
   - patreon-friend

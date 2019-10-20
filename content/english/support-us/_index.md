@@ -41,7 +41,7 @@ We are also open to custom packages but these are our base tiers.
 | Blog post                   |        ✅         |         ✅         |         ✅         |       ✅       |                |                |              |
 | Video recording             |        ✅         |         ✅         |         ✅         |       ✅       |                |       ✅        |              |
 | Photographer                |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
-| Splashthat event page       |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
+| Event page                  |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
 | Sourcing speakers           |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |                |              |
 | Marketing                   |        ✅         |         ✅         |         ✅         |       ✅       |       ✅        |       ✅        |      ✅       |
 | **Support**                 |
