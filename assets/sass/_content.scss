@@ -1,99 +1,98 @@
 .content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	ol,
+	ul,
+	li,
+	table {
+		a[href^="https://"]:not([href*="techqueria.org"]):after {
+			content: " ↗";
+		}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul,
-  li,
-  table {
-    a[href^="https://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
+		a[href^="http://"]:not([href*="techqueria.org"]):after {
+			content: " ↗";
+		}
+	}
 
-    a[href^="http://"]:not([href*="techqueria.org"]):after {
-      content: " ↗";
-    }
-  }
+	a::after & img {
+		content: "" !important;
+	}
 
-  a::after & img {
-    content: "" !important;
-  }
+	a {
+		text-decoration: underline;
 
-  a {
-    text-decoration: underline;
+		&.button {
+			text-decoration: none;
+		}
 
-    &.button {
-      text-decoration: none;
-    }
+		img {
+			@extend %image-shadow;
+			display: inline-block;
 
-    img {
-      @extend %image-shadow;
-      display: inline-block;
+			&.emoji {
+				box-shadow: none;
+			}
+		}
 
-      &.emoji {
-        box-shadow: none;
-      }
-    }
+		&:hover {
+			color: $techqueria-black;
 
-    &:hover {
-      color: $techqueria-black;
+			img {
+				@extend %material-shadow;
+				border-bottom: 0;
 
-      img {
-        @extend %material-shadow;
-        border-bottom: 0;
+				&.emoji {
+					box-shadow: none;
+				}
+			}
+		}
+	}
 
-        &.emoji {
-          box-shadow: none;
-        }
-      }
-    }
-  }
+	img {
+		@extend %image-shadow;
+		border: 0;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		position: relative;
 
-  img {
-    @extend %image-shadow;
-    border: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    position: relative;
+		&.emoji,
+		&.no-box-shadow {
+			box-shadow: none;
+			display: inline-block;
+		}
 
-    &.emoji,
-    &.no-box-shadow {
-      box-shadow: none;
-      display: inline-block;
-    }
+		p,
+		a & {
+			text-align: center;
+		}
+	}
 
-    p,
-    a & {
-      text-align: center;
-    }
-  }
+	figure {
+		margin: 0;
 
-  figure {
-    margin: 0;
+		&:not(:last-child) {
+			margin: 0;
+		}
+	}
 
-    &:not(:last-child) {
-      margin: 0;
-    }
-  }
+	table {
+		display: block;
+		overflow-x: auto;
+		width: 100%;
 
-  table {
-    display: block;
-    overflow-x: auto;
-    width: 100%;
+		@media screen and (min-width: $laptop-large) {
+			display: table;
+		}
 
-    @media screen and (min-width: $laptop-large) {
-      display: table;
-    }
-
-    tbody tr:not(.is-selected):hover {
-      background-color: $table-background-color;
-    }
-  }
+		tbody tr:not(.is-selected):hover {
+			background-color: $table-background-color;
+		}
+	}
 }

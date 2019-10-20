@@ -24,8 +24,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 // Headings
@@ -35,13 +35,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 100%;
-  font-weight: normal;
+	font-size: 100%;
+	font-weight: normal;
 }
 
 // List
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 // Form
@@ -49,40 +49,39 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
+	margin: 0;
 }
 
 // Box sizing
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 * {
-
-  &,
-  &::before,
-  &::after {
-    box-sizing: inherit;
-  }
+	&,
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
 }
 
 audio {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 // Iframe
 iframe {
-  border: 0;
+	border: 0;
 }
 
 // Table
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 td,
 th {
-  padding: 0;
-  text-align: left;
+	padding: 0;
+	text-align: left;
 }

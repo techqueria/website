@@ -5,70 +5,84 @@ $instagram-color-4: #285aeb;
 
 .fa-github-alt,
 .fa-github {
-  color: $github;
+	color: $github;
 }
 
 .fa-facebook {
-  color: $facebook;
+	color: $facebook;
 }
 
 .fa-twitter {
-  color: $twitter;
+	color: $twitter;
 }
 
 .fa-linkedin {
-  color: $linkedin;
+	color: $linkedin;
 }
 
 .fa-instagram {
-  color: transparent;
-  background: -webkit-radial-gradient(circle at 30% 107%, $instagram-color-1 0%, $instagram-color-1 5%, $instagram-color-2 45%, $instagram-color-3 60%, $instagram-color-4 90%);
-  background: radial-gradient(circle at 30% 107%, $instagram-color-1 0%, $instagram-color-1 5%, $instagram-color-2 45%, $instagram-color-3 60%, $instagram-color-4 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
+	color: transparent;
+	background: -webkit-radial-gradient(
+		circle at 30% 107%,
+		$instagram-color-1 0%,
+		$instagram-color-1 5%,
+		$instagram-color-2 45%,
+		$instagram-color-3 60%,
+		$instagram-color-4 90%
+	);
+	background: radial-gradient(
+		circle at 30% 107%,
+		$instagram-color-1 0%,
+		$instagram-color-1 5%,
+		$instagram-color-2 45%,
+		$instagram-color-3 60%,
+		$instagram-color-4 90%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
 }
 
 .fa-eventbrite {
-  color: $eventbrite;
+	color: $eventbrite;
 }
 
 .fa-meetup {
-  color: $meetup;
+	color: $meetup;
 }
 
 .fa-youtube {
-  color: $youtube;
+	color: $youtube;
 }
 
 .fa-rss,
 .fa-rss-square {
-  color: $rss;
+	color: $rss;
 }
 
 .fa-mailchimp {
-  color: $mailchimp;
+	color: $mailchimp;
 }
 
 .fa-envelope,
 .fa-user {
-  color: $newsletter;
+	color: $newsletter;
 }
 
 .footer-icons {
-  color: $techqueria-white;
+	color: $techqueria-white;
 }
 
 .fa-slack-logo-link {
-  &:hover {
-    .fa-slack-logo {
-      display: none;
-    }
-  }
+	&:hover {
+		.fa-slack-logo {
+			display: none;
+		}
+	}
 
-  .fa-slack-logo {
-    left: 0.75em;
-    position: absolute;
-    top: 0.5em;
-    width: 1em;
-  }
+	.fa-slack-logo {
+		left: 0.75em;
+		position: absolute;
+		top: 0.5em;
+		width: 1em;
+	}
 }

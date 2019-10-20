@@ -1,23 +1,22 @@
 nav#TableOfContents {
+	// ul li ul,
+	// ul li ul li {
+	//   display: none;
+	// }
 
-  // ul li ul,
-  // ul li ul li {
-  //   display: none;
-  // }
+	ul,
+	li,
+	li li,
+	ul ul {
+		list-style: none;
+	}
 
-  ul,
-  li,
-  li li,
-  ul ul {
-    list-style: none;
-  }
+	ul {
+		margin-left: 0.5em;
+	}
 
-  ul {
-    margin-left: 0.5em;
-  }
-
-  a {
-    border: 0;
-    text-decoration: none !important;
-  }
+	a {
+		border: 0;
+		text-decoration: none !important;
+	}
 }

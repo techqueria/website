@@ -1,87 +1,98 @@
 .hero {
-    .title,
-    .subtitle {
-        color: $techqueria-white;
-    }
+	.title,
+	.subtitle {
+		color: $techqueria-white;
+	}
 
-    .title {
-        font-size: 1.5em;
+	.title {
+		font-size: 1.5em;
 
-        @media screen and (min-width: $mobile) {
-            font-size: 2em;
-        }
+		@media screen and (min-width: $mobile) {
+			font-size: 2em;
+		}
 
-        @media screen and (min-width: $tablet) {
-            font-size: 2.5em;
-        }
+		@media screen and (min-width: $tablet) {
+			font-size: 2.5em;
+		}
 
-        @media screen and (min-width: $laptop) {
-            font-size: 3em;
-        }
-    }
+		@media screen and (min-width: $laptop) {
+			font-size: 3em;
+		}
+	}
 
-    .subtitle {
-        font-size: 1em;
+	.subtitle {
+		font-size: 1em;
 
-        @media screen and (min-width: $mobile) {
-            font-size: 1.25em;
-        }
+		@media screen and (min-width: $mobile) {
+			font-size: 1.25em;
+		}
 
-        @media screen and (min-width: $tablet) {
-            font-size: 1.5em;
-        }
+		@media screen and (min-width: $tablet) {
+			font-size: 1.5em;
+		}
 
-        @media screen and (min-width: $laptop) {
-            font-size: 1.75em;
-        }
-    }
+		@media screen and (min-width: $laptop) {
+			font-size: 1.75em;
+		}
+	}
 
-    &.is-homepage {
-        .background-image {
-            box-shadow: inset 0 0 0 2000px $material-shadow;
-        }
+	.background-image {
+		@extend %bg-image;
 
-        @media screen and (min-width: $tablet) {
-            .hero-body {
-                padding-bottom: 5rem;
-                padding-top: 35rem;
-            }
-        }
-    }
+		background-attachment: scroll;
 
-    &.is-bold {
-        text-shadow: none;
-    }
+		&.overlay {
+			box-shadow: inset 0 0 0 1000px $image-shadow;
+		}
+	}
 
-    &.is-primary.is-bold {
-        background-image: linear-gradient(45deg, $techqueria-blue-light 0%, lighten($techqueria-blue-light, 25%) 99%, lighten($techqueria-blue-light, 25%) 100%);
-    }
+	&.is-bold {
+		text-shadow: none;
+	}
 
-    &.is-danger.is-bold {
-        background-image: linear-gradient(141deg, $techqueria-red, $techqueria 60%, lighten($techqueria-red, 15%));
+	&.is-primary.is-bold {
+		background-image: linear-gradient(
+			45deg,
+			$techqueria-blue-light 0%,
+			lighten($techqueria-blue-light, 25%) 99%,
+			lighten($techqueria-blue-light, 25%) 100%
+		);
+	}
 
-        .subtitle {
-            color: $techqueria-black;
-        }
-    }
+	&.is-danger.is-bold {
+		background-image: linear-gradient(141deg, $techqueria-red, $techqueria 60%, lighten($techqueria-red, 15%));
 
-    &.is-fancy {
-        .title {
-            @extend %fancy-title;
-        }
+		.subtitle {
+			color: $techqueria-black;
+		}
+	}
 
-        .subtitle {
-            @extend %fancy-subtitle;
-        }
-    }
+	&.is-fancy {
+		.title {
+			@extend %fancy-title;
+		}
 
-    .background-image {
-        @extend %bg-image;
+		.subtitle {
+			@extend %fancy-subtitle;
+		}
+	}
 
-        background-attachment: scroll;
+	&.is-homepage {
+		.background-image {
+			box-shadow: inset 0 0 0 2000px $material-shadow;
+		}
 
-        &.overlay {
-            box-shadow: inset 0 0 0 1000px $image-shadow;
-        }
-    }
+		@media screen and (min-width: $tablet) {
+			.hero-body {
+				padding-bottom: 5rem;
+				padding-top: 35rem;
+			}
+		}
+
+		.subtitle {
+			@media screen and (min-width: $tablet) {
+				margin-top: -2rem;
+			}
+		}
+	}
 }

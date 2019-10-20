@@ -1,17 +1,17 @@
 .section {
-  padding: 4rem 2rem;
+	padding: 4rem 2rem;
 
-  @media screen and (max-width: $tablet) {
-    padding: 1.5rem;
-  }
+	@media screen and (max-width: $tablet) {
+		padding: 1.5rem;
+	}
 
-  &.page {
-    padding-top: 2rem;
-  }
+	&.page {
+		padding-top: 2rem;
+	}
 }
 
 .page__team {
-  .card .card-image--figure {
-    height: 20em;
-  }
+	.card .card-image--figure {
+		height: 20em;
+	}
 }

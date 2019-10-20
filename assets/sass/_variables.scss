@@ -16,7 +16,7 @@ $techqueria-brown: #5a4640;
 // Rebel
 $techqueria-brown-dark: #46352f;
 // Apple
-$techqueria-green: #6BAF3C;
+$techqueria-green: #6baf3c;
 // White
 $techqueria-white: white;
 // Colors
@@ -47,33 +47,10 @@ $mailchimp: #241c15;
 // Typography
 $font-size: 20px;
 $font-size-mobile: 16px;
-$font-family: "Rubik",
-BlinkMacSystemFont,
--apple-system,
-"Roboto",
-"Segoe UI",
-"Oxygen",
-"Ubuntu",
-"Cantarell",
-"Fira Sans",
-"Droid Sans",
-"Helvetica Neue",
-"Helvetica",
-"Arial";
-$font-family-headers: "Rubik",
-sans-serif,
-BlinkMacSystemFont,
--apple-system,
-"Roboto",
-"Segoe UI",
-"Oxygen",
-"Ubuntu",
-"Cantarell",
-"Fira Sans",
-"Droid Sans",
-"Helvetica Neue",
-"Helvetica",
-"Arial";
+$font-family: "Rubik", BlinkMacSystemFont, -apple-system, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
+	"Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial";
+$font-family-headers: "Rubik", sans-serif, BlinkMacSystemFont, -apple-system, "Roboto", "Segoe UI", "Oxygen", "Ubuntu",
+	"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial";
 $size-1: 3em;
 $size-2: 2.5em;
 $size-3: 2em;

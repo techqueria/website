@@ -1,143 +1,141 @@
 // Margin
 
 .mt-sm {
-  margin-top: 0.5em !important;
+	margin-top: 0.5em !important;
 }
 
 .mt-0 {
-  margin-top: 0 !important;
+	margin-top: 0 !important;
 }
 
 .mt-1 {
-  margin-top: 1em !important;
+	margin-top: 1em !important;
 }
 
 .mt-2 {
-  margin-top: 2em !important;
+	margin-top: 2em !important;
 }
 
 .mt-4 {
-  margin-top: 4em !important;
+	margin-top: 4em !important;
 }
 
 .mr-sm {
-  margin-right: 0.5em !important;
+	margin-right: 0.5em !important;
 }
 
 .ml-sm {
-  margin-left: 0.5em !important;
+	margin-left: 0.5em !important;
 }
 
 .ml-2 {
-  margin-left: 2em !important;
+	margin-left: 2em !important;
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 .mb-1 {
-  margin-bottom: 1em !important;
+	margin-bottom: 1em !important;
 }
 
 .mb-2 {
-  margin-bottom: 2em !important;
+	margin-bottom: 2em !important;
 }
 
 .mb-6 {
-  margin-bottom: 6em !important;
+	margin-bottom: 6em !important;
 }
 
 // Padding
 
 .pd-1 {
-  padding: 1em !important;
+	padding: 1em !important;
 }
 
 .pt-0 {
-  padding-top: 0 !important;
+	padding-top: 0 !important;
 }
 
 // Box Shadow
 
 .u-box-shadow--none {
-  box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 // Extensions
 
 .image-shadow {
-  @extend %image-shadow;
+	@extend %image-shadow;
 }
 
 .material-shadow {
-  @extend %material-shadow;
+	@extend %material-shadow;
 }
 
 .bg-image {
-  @extend %bg-image;
+	@extend %bg-image;
 }
-
 
 // Text Alignment
 
 .u-text--centered {
-  text-align: center;
+	text-align: center;
 }
 
 .u-text--left-mobile-only {
-  text-align: left;
+	text-align: left;
 
-  @media screen and (min-width: $laptop) {
-    text-align: center;
-  }
+	@media screen and (min-width: $laptop) {
+		text-align: center;
+	}
 }
-
 
 // Background Color
 
 .u-background--default {
-  background-color: $techqueria;
+	background-color: $techqueria;
 }
 
 // Color
 
 .u-link--dark-background {
-  color: $link !important;
+	color: $link !important;
 
-  &:hover {
-    color: $techqueria-white !important;
-  }
+	&:hover {
+		color: $techqueria-white !important;
+	}
 }
 
 // Display
 
 .is-hidden-laptop-large {
-  display: none;
+	display: none;
 
-  @media screen and (min-width:$laptop-large) {
-    display: flex;
-  }
+	@media screen and (min-width: $laptop-large) {
+		display: flex;
+	}
 }
 
 .is-hidden-laptop-xx-large {
-  display: none;
+	display: none;
 
-  @media screen and (min-width:$laptop-xx-large) {
-    display: block;
-  }
+	@media screen and (min-width: $laptop-xx-large) {
+		display: block;
+	}
 }
 
 // Flex
 
 .u-align-item--centered {
-  align-items: center !important;
+	align-items: center !important;
 }
 
 .u-display--flex {
-  display: flex !important;
+	display: flex !important;
 }
 
 .u-justify-content--centered {
-  justify-content: center !important;
+	justify-content: center !important;
 }
