@@ -9,20 +9,18 @@ Al acceder al sitio web en [https://techqueria.org](https://techqueria.org), ust
 
 ### 2. Usa licencia
 
-1. Se otorga el permiso para descargar temporalmente una copia de los materiales (información o software) en el sitio web de Techqueria para visualización transitoria personal, no comercial solamente. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia usted no puede:
-
-1. modificar o copiar los materiales;
-1. usar los materiales para cualquier propósito comercial, o para cualquier exhibición pública (comercial o no comercial);
-1. intentar descompilar o aplicar ingeniería inversa a cualquier software contenido en el sitio web de Techqueria;
-1. eliminar cualquier copyright u otra notación de propiedad de los materiales; o
-1. Transfiera los materiales a otra persona o "refleje" los materiales en cualquier otro servidor.
-
-1. Esta licencia terminará automáticamente si viola cualquiera de estas restricciones y Techqueria podrá rescindirla en cualquier momento. Al finalizar su visualización de estos materiales o al finalizar esta licencia, debe destruir cualquier material descargado en su poder, ya sea en formato electrónico o impreso.
+- Se otorga el permiso para descargar temporalmente una copia de los materiales (información o software) en el sitio web de Techqueria para visualización transitoria personal, no comercial solamente. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia usted no puede:
+- modificar o copiar los materiales;
+- usar los materiales para cualquier propósito comercial, o para cualquier exhibición pública (comercial o no comercial);
+- intentar descompilar o aplicar ingeniería inversa a cualquier software contenido en el sitio web de Techqueria;
+- eliminar cualquier copyright u otra notación de propiedad de los materiales; o
+- Transfiera los materiales a otra persona o "refleje" los materiales en cualquier otro servidor.
+- Esta licencia terminará automáticamente si viola cualquiera de estas restricciones y Techqueria podrá rescindirla en cualquier momento. Al finalizar su visualización de estos materiales o al finalizar esta licencia, debe destruir cualquier material descargado en su poder, ya sea en formato electrónico o impreso.
 
 ### 3. Descargo de responsabilidad
 
-1. Los materiales en el sitio web de Techqueria se proporcionan "tal cual". Techqueria no otorga ninguna garantía, expresa o implícita, y por este medio niega y niega todas las demás garantías, incluidas, sin limitación, las garantías implícitas o las condiciones de comercialización, idoneidad para un propósito particular o la no infracción de la propiedad intelectual u otra violación de los derechos.
-2. Además, Techqueria no garantiza ni hace ninguna declaración con respecto a la precisión, los resultados probables o la confiabilidad del uso de los materiales en su sitio web o en relación con dichos materiales o en cualquier sitio vinculado a este sitio.
+- Los materiales en el sitio web de Techqueria se proporcionan "tal cual". Techqueria no otorga ninguna garantía, expresa o implícita, y por este medio niega y niega todas las demás garantías, incluidas, sin limitación, las garantías implícitas o las condiciones de comercialización, idoneidad para un propósito particular o la no infracción de la propiedad intelectual u otra violación de los derechos.
+- Además, Techqueria no garantiza ni hace ninguna declaración con respecto a la precisión, los resultados probables o la confiabilidad del uso de los materiales en su sitio web o en relación con dichos materiales o en cualquier sitio vinculado a este sitio.
 
 ### 4. Limitaciones
 

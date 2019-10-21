@@ -1,6 +1,6 @@
 ---
-title: Become a Member
-description: "Connect with thousands of other Latinx in Tech by becoming a member of Techqueria."
+title: "Hacerse Miembro"
+description: "Conéctese con miles de otros Latinx en Tech convirtiéndose en miembro de Techqueria."
 image: "/assets/img/communities/slack/_index.jpg"
 noTimeEstimate: true
 sitemap: true
