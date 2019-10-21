@@ -12,7 +12,7 @@ aliases:
 sitemap: true
 ---
 
-<div id="myShop">
+<div id="techqueria-shop">
     <a href="https://shop.spreadshirt.com/techqueria">techqueria</a>
 </div>
 
@@ -21,7 +21,7 @@ sitemap: true
         shopName: 'techqueria',
         locale: 'us_US',
         prefix: 'https://shop.spreadshirt.com',
-        baseId: 'myShop'
+        baseId: 'techqueria-shop'
     };
 </script>
 

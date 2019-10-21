@@ -29,15 +29,15 @@
 }
 
 %fancy-title {
-  transform: rotate(2deg);
-  color: $techqueria-white;
-  background-color: black;
+  background-color: $techqueria-black;
   border-radius: 2rem 1rem;
+  color: $techqueria-white;
   display: inline-block;
   left: calc(var(--rounded) * -1);
   margin-top: 1rem;
   padding: 2rem;
   position: relative;
+  transform: rotate(2deg);
   z-index: 1;
 
   @media screen and (min-width: $laptop) {
@@ -46,16 +46,16 @@
 }
 
 %fancy-subtitle {
-  color: $techqueria-black;
   background-color: $techqueria-white;
   border-radius: 1rem 2rem;
+  color: $techqueria-black;
   display: inline-block;
   left: calc(var(--rounded) * -1);
+  margin-top: -2rem;
   padding: 1.5rem;
   position: relative;
   transform: rotate(-1deg);
   z-index: 0;
-  margin-top: -2rem;
 
   @media screen and (min-width: $tablet) {
     margin-top: 0;

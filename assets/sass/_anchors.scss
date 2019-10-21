@@ -6,6 +6,15 @@
   visibility: hidden;
 }
 
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+}
+
+// ids
+
 [id]::before {
   content: '';
   display: block;
@@ -14,16 +23,9 @@
   visibility: hidden;
 }
 
-#myShop::before,
-#sprd-main::before,
 #sprd-container::before,
-#sprd-header-container::before {
+#sprd-header-container::before,
+#sprd-main::before,
+#techqueria-shop::before {
   display: none;
-}
-
-h1:hover a,
-h2:hover a,
-h3:hover a,
-h4:hover a {
-  visibility: visible;
 }

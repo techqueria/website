@@ -145,19 +145,18 @@ a.image-external-plain:after {
 }
 
 // Curator.io
-
-.crt-widget-grid:before {
-  height: 100px !important;
-}
-
-.crt-widget.crt-widget-branded .crt-logo {
-  display: none !important;
-}
-
 .crt-widget-grid {
   position: unset !important;
+
+  &::before {
+    height: 100px !important;
+  }
 }
 
 .crt-widget.crt-widget-branded {
   padding-bottom: 0 !important;
+
+  .crt-logo {
+    display: none !important;
+  }
 }
