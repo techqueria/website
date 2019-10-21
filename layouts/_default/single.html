@@ -2,7 +2,7 @@
 <!-- Hero -->
 {{ partial "content/hero/hero.html" . }}
 <!-- Content -->
-<div class="section page page--single">
+<div class="section page {{ if .Params.widePage }}{{ else }}page--single{{ end }}">
   <div class="container">
     <!-- Breadcrumbs -->
     {{ partial "content/custom/breadcrumbs.html" . }}

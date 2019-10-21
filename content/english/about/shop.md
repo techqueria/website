@@ -4,6 +4,7 @@ description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt 
 image: "/assets/img/shop/_index.png"
 hideImage: true
 noTimeEstimate: true
+widePage: true
 aliases:
   - /shop/
   - /store/

@@ -11,5 +11,4 @@ categories:
   - board-member
   - co-founder
   - chair-person
-  - past-organizer
 ---

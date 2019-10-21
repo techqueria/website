@@ -1,67 +1,67 @@
 %darker-shadow {
-	box-shadow: 0 0 20px $darker-shadow;
+  box-shadow: 0 0 20px $darker-shadow;
 }
 
 %material-shadow {
-	box-shadow: 0 0 20px $material-shadow;
+  box-shadow: 0 0 20px $material-shadow;
 }
 
 %image-shadow {
-	box-shadow: 0 0 20px $image-shadow;
+  box-shadow: 0 0 20px $image-shadow;
 }
 
 %overflow-text {
-	@extend .has-text-centered;
+  @extend .has-text-centered;
 
-	display: inline-block;
-	height: 100%;
-	overflow: hidden;
-	text-decoration: none;
-	text-overflow: ellipsis;
-	text-transform: none;
-	white-space: pre-wrap;
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: pre-wrap;
 }
 
 %bg-image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 %fancy-title {
-	transform: rotate(2deg);
-	color: $techqueria-white;
-	background-color: black;
-	border-radius: 2rem 1rem;
-	display: inline-block;
-	left: calc(var(--rounded) * -1);
-	margin-top: 1rem;
-	padding: 2rem;
-	position: relative;
-	z-index: 1;
+  transform: rotate(2deg);
+  color: $techqueria-white;
+  background-color: black;
+  border-radius: 2rem 1rem;
+  display: inline-block;
+  left: calc(var(--rounded) * -1);
+  margin-top: 1rem;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
 
-	// @media screen and (min-width: $laptop-large) {
-	//     transform: none;
-	// }
+  @media screen and (min-width: $laptop) {
+    transform: none;
+  }
 }
 
 %fancy-subtitle {
-	color: $techqueria-black;
-	background-color: $techqueria-white;
-	border-radius: 1rem 2rem;
-	display: inline-block;
-	left: calc(var(--rounded) * -1);
-	padding: 1.5rem;
-	position: relative;
-	transform: rotate(-1deg);
-	z-index: 0;
-	margin-top: -2rem;
+  color: $techqueria-black;
+  background-color: $techqueria-white;
+  border-radius: 1rem 2rem;
+  display: inline-block;
+  left: calc(var(--rounded) * -1);
+  padding: 1.5rem;
+  position: relative;
+  transform: rotate(-1deg);
+  z-index: 0;
+  margin-top: -2rem;
 
-	@media screen and (min-width: $tablet) {
-		margin-top: 0;
-	}
+  @media screen and (min-width: $tablet) {
+    margin-top: 0;
+  }
 
-	// @media screen and (min-width: $laptop-large) {
-	//     transform: none;
-	// }
+  @media screen and (min-width: $laptop) {
+    transform: none;
+  }
 }

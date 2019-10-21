@@ -155,3 +155,10 @@ other = "Done a Techqueria"
 
 [cta_donate_description]
 other = "Done a Techqueria y apoye nuestros esfuerzos para elevar Latinx en tecnología."
+
+# cta.follow.html
+[cta_follow_title]
+other = "Síguenos en las redes sociales"
+
+[cta_follow_button]
+other = "Síguenos en Twitter @Techqueria"
