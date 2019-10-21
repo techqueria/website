@@ -1,16 +1,21 @@
-<!-- Submit -->
-{{ $label := "" }}
+<!-- Label -->
+{{ $label := "Send message" }}
 {{ if .Get "label" }}
 {{ if isset .Params "label" }}
 {{ $label = .Get "label" }}
 {{ end }}
-{{ else }}
-{{ $label = "Send message" }}
+{{ end }}
+<!-- Button Class -->
+{{ $classes := "button is-primary is-medium" }}
+{{ if .Get "classes" }}
+{{ if isset .Params "classes" }}
+{{ $classes = .Get "classes" }}
+{{ end }}
 {{ end }}
 <!-- Submit -->
 <div class="field mt-sm">
   <div data-netlify-recaptcha="true"></div>
   <div class="control mt-sm">
-    <button type="submit" class="button is-primary is-medium">{{ $label }}</button>
+    <button type="submit" class="{{ $classes }}">{{ $label }}</button>
   </div>
 </div>

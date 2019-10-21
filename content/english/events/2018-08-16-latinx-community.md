@@ -6,7 +6,7 @@ link: https://donyc.com/events/2018/8/16/latinx-community-meet-and-greet-with-te
 image: "/assets/img/events/2018-08-16.jpg"
 locations:
   - "nyc"
-companies:
+organizations:
   - "Mailchimp"
 ---
 

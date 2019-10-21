@@ -22,8 +22,18 @@ $instagram-color-4: #285aeb;
 
 .fa-instagram {
   color: transparent;
-  background: -webkit-radial-gradient(circle at 30% 107%, $instagram-color-1 0%, $instagram-color-1 5%, $instagram-color-2 45%, $instagram-color-3 60%, $instagram-color-4 90%);
-  background: radial-gradient(circle at 30% 107%, $instagram-color-1 0%, $instagram-color-1 5%, $instagram-color-2 45%, $instagram-color-3 60%, $instagram-color-4 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%,
+      $instagram-color-1 0%,
+      $instagram-color-1 5%,
+      $instagram-color-2 45%,
+      $instagram-color-3 60%,
+      $instagram-color-4 90%);
+  background: radial-gradient(circle at 30% 107%,
+      $instagram-color-1 0%,
+      $instagram-color-1 5%,
+      $instagram-color-2 45%,
+      $instagram-color-3 60%,
+      $instagram-color-4 90%);
   -webkit-background-clip: text;
   background-clip: text;
 }

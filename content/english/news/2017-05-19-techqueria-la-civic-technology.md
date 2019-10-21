@@ -1,7 +1,6 @@
 ---
 title: "Techqueria LA: Civic Technology"
 date: 2017-05-19
-comments: true
 image: https://cdn-images-1.medium.com/max/800/1*NwJnxS9-NC0gzA_Gjve2EQ.jpeg
 authors:
   - "Abi Munoz"

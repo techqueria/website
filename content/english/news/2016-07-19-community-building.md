@@ -1,7 +1,6 @@
 ---
 title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
 date: 2016-07-19
-comments: true
 image: "/assets/img/news/2016-07-19.jpg"
 authors:
   - CJ Joulain

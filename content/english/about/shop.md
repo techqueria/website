@@ -1,9 +1,10 @@
 ---
 title: "Shop"
-description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
-image: "/assets/img/about/shop/_index.jpg"
+description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store! 🛒"
+image: "/assets/img/shop/_index.png"
 hideImage: true
 noTimeEstimate: true
+widePage: true
 aliases:
   - /shop/
   - /store/
@@ -11,7 +12,7 @@ aliases:
 sitemap: true
 ---
 
-<div id="myShop">
+<div id="techqueria-shop">
     <a href="https://shop.spreadshirt.com/techqueria">techqueria</a>
 </div>
 
@@ -20,7 +21,7 @@ sitemap: true
         shopName: 'techqueria',
         locale: 'us_US',
         prefix: 'https://shop.spreadshirt.com',
-        baseId: 'myShop'
+        baseId: 'techqueria-shop'
     };
 </script>
 

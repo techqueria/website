@@ -4,7 +4,7 @@ date: 2016-09-28
 link: https://www.meetup.com/techqueria/events/233644464/
 locations:
   - san-francisco
-companies:
+organizations:
   - "Lumosity"
 ---
 

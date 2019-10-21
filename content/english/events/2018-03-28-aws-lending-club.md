@@ -6,7 +6,7 @@ link: https://www.meetup.com/techqueria/events/248898748/
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42338095%2F15369463375%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2060%2C1030&s=791a4d6a9a4616338adb20237052b24a
 locations:
   - "san-francisco"
-companies:
+organizations:
   - "LendingClub"
 ---
 

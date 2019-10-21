@@ -1,12 +1,14 @@
 ---
-title: Impact Report 2019
-description: This is a work in progress! Expect the full report to be ready by ~January 2020.
+title: "Impact Report 2019 (WIP)"
+description: "This is a work in progress! Expect the full report to be ready by ~January 2020."
+hideImage: true
 image: "/assets/img/about/impact-report/_index.jpg"
-toc: true
 noTimeEstimate: true
+toc: true
 aliases:
   - /impact-report/
   - /impact/
+  - /about/impact-report/
 ---
 
 We incorporated as nonprofit in March of 2018. Since then, we've taken actionable steps to becoming the community we enivision for Latin in Tech.

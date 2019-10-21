@@ -6,7 +6,7 @@ link: https://latinxtechforgood.splashthat.com/
 image: "/assets/img/events/2018-05-17.jpg"
 locations:
   - "san-francisco"
-companies:
+organizations:
   - "Twilio"
 ---
 

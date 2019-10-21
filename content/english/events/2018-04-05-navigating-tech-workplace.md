@@ -7,7 +7,7 @@ image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42798837%2F2
 video: https://www.youtube.com/watch?v=t7lxQeaR6jI&feature=youtu.be
 locations:
   - "nyc"
-companies:
+organizations:
   - "Spotify"
 ---
 

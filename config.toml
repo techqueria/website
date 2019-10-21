@@ -115,14 +115,28 @@ disqusShortname = "techqueria"
     parent = "About"
     name   = "Contact"
     url    = "/about/contact/"
+# Resources
+[[menu.main]]
+    parent = "About"
+    name = "Resources"
+    url  = "/about/resources/"
 [[menu.main]]
     parent = "About"
     name   = "Team"
-    url    = "/team/"
+    url    = "/about/team/"
 [[menu.main]]
     parent = "About"
     name   = "Shop"
     url    = "/about/shop/"
+[[menu.main]]
+    parent = "About"
+    name   = "Wall of Love"
+    url    = "/about/wall-of-love/"
+
+# Join Us
+[[menu.main]]
+    name = "Join Us"
+    url  = "/join/"
 
 # Communities
 [[menu.main]]
@@ -207,15 +221,10 @@ disqusShortname = "techqueria"
     name   = "Submit Event Feedback"
     url    = "/about/event-feedback/"
 
-# Resources
+# News
 [[menu.main]]
     name = "News"
     url  = "/news/"
-
-# Resources
-[[menu.main]]
-    name = "Resources"
-    url  = "/resources/"
 
 # Support Us
 [[menu.main]]
@@ -256,12 +265,12 @@ disqusShortname = "techqueria"
     weight     = 2
 
 # Slack Menu
-[[menu.slack]]
-    name       = "Join our Slack"
-    url        = "/communities/slack/join/"
+[[menu.portal]]
+    name       = "Join Us"
+    url        = "/join/"
     identifier = "fab fa-lg fa-slack"
-[[menu.slack]]
-    name       = "Login to Slack"
+[[menu.portal]]
+    name       = "Login"
     url        = "https://techqueria.slack.com"
     identifier = "fas fa-lg fa-sign-in-alt"
 
@@ -291,7 +300,7 @@ disqusShortname = "techqueria"
 [[languages.es.menu.main]]
     parent = "Sobre nosotros"
     name   = "Equipo"
-    url    = "/team/"
+    url    = "/about/team/"
 [[languages.es.menu.main]]
     parent = "Sobre nosotros"
     name   = "Tienda"
@@ -396,12 +405,12 @@ disqusShortname = "techqueria"
 
 # Slack Menu
 
-[[languages.es.menu.slack]]
+[[languages.es.menu.portal]]
     name       = "Únete a nuestro Slack"
     url        = "/communities/slack/"
     identifier = "fab fa-lg fa-slack"
 
-[[languages.es.menu.slack]]
+[[languages.es.menu.portal]]
     name       = "Iniciar sesión en Slack"
     url        = "https://techqueria.slack.com"
     identifier = "fas fa-lg fa-sign-in-alt"

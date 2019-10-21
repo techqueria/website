@@ -2,7 +2,6 @@
 title: "Testimonial: Gina Giardinieri"
 description: "Sales Coordinator at Mulberry Platform"
 date: 2017-09-29
-comments: true
 image: https://i.imgur.com/oxnVaMg.jpg
 linkedin: gina-giardinieri
 categories:

@@ -12,6 +12,7 @@
 
 %overflow-text {
   @extend .has-text-centered;
+
   display: inline-block;
   height: 100%;
   overflow: hidden;
@@ -25,4 +26,42 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+%fancy-title {
+  background-color: $techqueria-black;
+  border-radius: 2rem 1rem;
+  color: $techqueria-white;
+  display: inline-block;
+  left: calc(var(--rounded) * -1);
+  margin-top: 1rem;
+  padding: 2rem;
+  position: relative;
+  transform: rotate(2deg);
+  z-index: 1;
+
+  @media screen and (min-width: $laptop) {
+    transform: none;
+  }
+}
+
+%fancy-subtitle {
+  background-color: $techqueria-white;
+  border-radius: 1rem 2rem;
+  color: $techqueria-black;
+  display: inline-block;
+  left: calc(var(--rounded) * -1);
+  margin-top: -2rem;
+  padding: 1.5rem;
+  position: relative;
+  transform: rotate(-1deg);
+  z-index: 0;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: $laptop) {
+    transform: none;
+  }
 }

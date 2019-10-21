@@ -7,6 +7,6 @@ description: Startup Weekend is your chance to learn how to take any idea from c
 image: "/assets/img/events/2017-10-01.jpg"
 locations:
   - nyc
-companies:
+organizations:
   - "Techstars"
 ---

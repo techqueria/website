@@ -3,7 +3,7 @@
 {{ $eventsInvolvedNumber := 0 }}
 {{ $file := .Title }}
 {{ range $.Site.Pages }}
-{{ if in .Params.companies $file }}
+{{ if in .Params.organizations $file }}
 {{ $eventsInvolved = true }}
 {{ $eventsInvolvedNumber = add $eventsInvolvedNumber 1 }}
 {{ end }}
@@ -14,26 +14,26 @@
 </div>
 <div class="columns is-multiline">
   {{ range $.Site.Pages }}
-  {{ if in .Params.companies $file }}
+  {{ if in .Params.organizations $file }}
   {{ partial "content/child.html" . }}
   {{ end }}
   {{ end }}
 </div>
 {{ end }}
 <!-- Event page - companies involved -->
-{{ if .Params.companies }}
-{{ $eventCompanyNumber := len .Params.companies }}
+{{ if .Params.organizations }}
+{{ $eventCompanyNumber := len .Params.organizations }}
 <div class="content mt-2">
-  <h2><span class="mr-sm">✨</span>{{ $eventCompanyNumber}} {{ cond (eq $eventCompanyNumber 1) "company" "companies" }} involved</h2>
+  <h2><span class="mr-sm">✨</span>{{ $eventCompanyNumber}} {{ cond (eq $eventCompanyNumber 1) "organization" "organizations" }} involved</h2>
 </div>
 <section class="c-companies">
   {{ $companyPages := where $.Site.Pages "Section" "supporters"}}
-  {{ range $key, $value := .Params.companies }}
-    {{ range $companyPages }}
-      {{ if eq .Title $value }}
-        {{ partial "content/card/company.html" . }}
-      {{ end }}
-    {{ end }}
+  {{ range $key, $value := .Params.organizations }}
+  {{ range $companyPages }}
+  {{ if eq .Title $value }}
+  {{ partial "content/card/company.html" . }}
+  {{ end }}
+  {{ end }}
   {{ end }}
 </section>
 {{ end }}

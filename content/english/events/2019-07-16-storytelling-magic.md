@@ -6,7 +6,7 @@ image: "/assets/img/events/2019-07-16.jpg"
 photos: https://geoffleung.com/events/alas2019/
 locations:
   - "nyc"
-companies:
+organizations:
   - "Twitter"
 ---
 

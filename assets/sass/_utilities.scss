@@ -1,7 +1,7 @@
 // Margin
 
 .mt-sm {
-  margin-top: 0.5em !important;
+  margin-top: 0.5rem !important;
 }
 
 .mt-0 {
@@ -9,27 +9,27 @@
 }
 
 .mt-1 {
-  margin-top: 1em !important;
+  margin-top: 1rem !important;
 }
 
 .mt-2 {
-  margin-top: 2em !important;
+  margin-top: 2rem !important;
 }
 
 .mt-4 {
-  margin-top: 4em !important;
+  margin-top: 4rem !important;
 }
 
 .mr-sm {
-  margin-right: 0.5em !important;
+  margin-right: 0.5rem !important;
 }
 
 .ml-sm {
-  margin-left: 0.5em !important;
+  margin-left: 0.5rem !important;
 }
 
 .ml-2 {
-  margin-left: 2em !important;
+  margin-left: 2rem !important;
 }
 
 .mb-0 {
@@ -37,21 +37,25 @@
 }
 
 .mb-1 {
-  margin-bottom: 1em !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-2 {
-  margin-bottom: 2em !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-6 {
-  margin-bottom: 6em !important;
+  margin-bottom: 6rem !important;
 }
 
 // Padding
 
 .pd-1 {
-  padding: 1em !important;
+  padding: 1rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 2rem !important;
 }
 
 .pt-0 {
@@ -78,7 +82,6 @@
   @extend %bg-image;
 }
 
-
 // Text Alignment
 
 .u-text--centered {
@@ -92,7 +95,6 @@
     text-align: center;
   }
 }
-
 
 // Background Color
 
@@ -115,7 +117,7 @@
 .is-hidden-laptop-large {
   display: none;
 
-  @media screen and (min-width:$laptop-large) {
+  @media screen and (min-width: $laptop-large) {
     display: flex;
   }
 }
@@ -123,7 +125,7 @@
 .is-hidden-laptop-xx-large {
   display: none;
 
-  @media screen and (min-width:$laptop-xx-large) {
+  @media screen and (min-width: $laptop-xx-large) {
     display: block;
   }
 }

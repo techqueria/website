@@ -6,7 +6,7 @@ image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43029630%2F2
 link: https://www.eventbrite.com/e/latinx-in-ecommerce-walmart-labs-tickets-44786460509#
 locations:
   - "san-francisco"
-companies:
+organizations:
   - "Walmart Labs"
 ---
 

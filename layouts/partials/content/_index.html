@@ -18,6 +18,9 @@
   {{ if .Params.link }}
   <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
   {{ end }}
+  {{ if .Params.photos }}
+  <p>Find photos at <a href="{{ .Params.photos }}" target="_blank" rel="noopener">{{ .Params.photos }}</a></p>
+  {{ end }}
 </div>
 <!-- Author - articles written -->
 {{ partial "content/authors/author-articles-written.html" . }}

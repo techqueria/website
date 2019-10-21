@@ -1,6 +1,6 @@
 ---
 title: Events
-description: Find information about our upcoming events with other Latinx in Tech and subscribe to our community calendar.
+description: "Find information about our upcoming events with other Latinx in Tech and subscribe to our community calendar. 🎟"
 hideImage: true
 image: "/assets/img/events/_index.jpg"
 layout: "page-events"
@@ -18,11 +18,11 @@ Find more of our events on [Eventbrite](https://techqueria.eventbrite.com) or [M
 
 Watch videos from previous events on our [YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
 
-Read event recaps and other posts from our community [on our news section, La Techqueria](/news/).
+Read event recaps and other posts from our community [in La Techqueria](/news/), where we share our latest news and updates.
 
 Photos are licensed under a [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
-<h2 id="community-calendar" class="mt-1"><span class="mr-sm">🗓</span>Community Calendar</h2>
+<h2 id="community-calendar" class="mt-2"><span class="mr-sm">🗓</span>Community Calendar</h2>
 
 Stay up to date with upcoming events for Latinx in Tech through Techqueria's Community Calendar.
 

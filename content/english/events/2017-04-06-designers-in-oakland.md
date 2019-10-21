@@ -8,7 +8,7 @@ photos: https://photos.app.goo.gl/h3jtdoXhfqqSmk8q9
 video: https://www.youtube.com/watch?v=oRvby76zq4Y&feature=youtu.be
 locations:
   - san-francisco
-companies:
+organizations:
   - "Kapor Center"
 ---
 

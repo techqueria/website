@@ -1,15 +1,15 @@
 ---
 title: Contact
-description: Get in touch with a Techqueria team member via email, Slack or social media.
-noTimeEstimate: true
-image: "/assets/img/about/contact/_index.jpg"
+description: "Get in touch with a Techqueria team member via email, Slack or social media. 📨"
 hideImage: true
+image: "/assets/img/about/contact/_index.jpg"
+noTimeEstimate: true
 toc: true
+sitemap: true
 aliases:
   - /contact/
   - /about/contact/
   - /message-us/
-sitemap: true
 ---
 
 ## Email
@@ -38,6 +38,12 @@ Filling out the form below sends an email to our executive team.
   {{< fields/referral >}}
   {{< fields/submit >}}
 </form>
+
+## Posting Jobs
+
+We are working on creating a dedicated job board that is accessible behind via Slack sign in.
+
+In the meantime, feel free to join our Slack and share job postings in the `#jobs` channel.
 
 ## Interested in partnering with us?
 

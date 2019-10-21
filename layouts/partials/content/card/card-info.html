@@ -1,41 +1,38 @@
-<!-- Roles -->
-{{ if .Params.roles }}
-  {{ if in .Params.roles "board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Member{{ end }}
-  {{ if in .Params.roles "co-director" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-Director{{ end }}
-  {{ if in .Params.roles "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
-  {{ if in .Params.roles "chair-person" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Chair{{ end }}
-  {{ if in .Params.roles "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}
-  {{ if in .Params.roles "cto" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director, Technology{{ end }}
-  {{ if in .Params.roles "current-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Organizer{{ end }}
-  {{ if in .Params.roles "current-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Volunteer{{ end }}
-  {{ if in .Params.roles "past-board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Board Member{{ end }}
-  {{ if in .Params.roles "past-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Organizer{{ end }}
-  {{ if in .Params.roles "past-patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Past Patreon Supporter{{ end }}
-  {{ if in .Params.roles "past-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Volunteer{{ end }}
-  {{ if in .Params.roles "patreon-advocate" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Advocate Tier - $10 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-champion" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Champion Tier - $100 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-core" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Core Tier - $25 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-friend" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Friend Tier - $1 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-patron" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Patron Tier - $50 or more per month{{ end }}
-  {{ if in .Params.roles "patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Supporter Tier - $5 or more per month{{ end }}
-  {{ if in .Params.roles "ux-consultant" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📝</span>UX Consultant{{ end }}
+<!-- Categories -->
+{{ if .Params.categories }}
+  <!-- Role -->
+  {{ if in .Params.categories "board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Member{{ end }}
+  {{ if in .Params.categories "ceo" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director{{ end }}
+  {{ if in .Params.categories "chair-person" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">👥</span>Board Chair{{ end }}
+  {{ if in .Params.categories "co-director" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-Director{{ end }}
+  {{ if in .Params.categories "co-founder" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Co-founder{{ end }}
+  {{ if in .Params.categories "cto" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">✨</span>Executive Director, Technology{{ end }}
+  {{ if in .Params.categories "chapter-lead" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Chapter Lead{{ end }}
+  {{ if in .Params.categories "current-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Organizer{{ end }}
+  {{ if in .Params.categories "current-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Current Volunteer{{ end }}
+  {{ if in .Params.categories "past-board-member" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Board Member{{ end }}
+  {{ if in .Params.categories "past-organizer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Organizer{{ end }}
+  {{ if in .Params.categories "past-patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Past Patreon Supporter{{ end }}
+  {{ if in .Params.categories "past-volunteer" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🌮</span>Past Volunteer{{ end }}
+  {{ if in .Params.categories "patreon-advocate" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Advocate Tier - $10 or more per month{{ end }}
+  {{ if in .Params.categories "patreon-champion" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Champion Tier - $100 or more per month{{ end }}
+  {{ if in .Params.categories "patreon-core" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Core Tier - $25 or more per month{{ end }}
+  {{ if in .Params.categories "patreon-friend" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Friend Tier - $1 or more per month{{ end }}
+  {{ if in .Params.categories "patreon-patron" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Patron Tier - $50 or more per month{{ end }}
+  {{ if in .Params.categories "patreon-supporter" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💛</span>Patreon Supporter Tier - $5 or more per month{{ end }}
+  {{ if in .Params.categories "ux-consultant" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📝</span>UX Consultant{{ end }}
+  <!-- Location -->
+  {{ if in .Params.categories "austin" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>Austin, TX</p>{{ end }}
+  {{ if in .Params.categories "san-francisco" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>San Francisco, CA</p>{{ end }}
+  {{ if in .Params.categories "los-angeles" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>Los Angeles, CA</p>{{ end }}
+  {{ if in .Params.categories "nyc" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>New York, NY</p>{{ end }}
+  {{ if in .Params.categories "chicago" }}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>Chicago, IL</p>{{ end }}
 {{ end }}
 <!-- Date -->
 {{ if not .PublishDate.IsZero }}
 <p class="has-text-weight-light mt-sm is-size-7">
   <span class="mr-sm">🗓️</span>
   {{ dateFormat "Monday - January 2, 2006" .Date }}
-</p>
-{{ end }}
-<!-- Location -->
-{{ if .Params.locations }}
-<p class="has-text-weight-light mt-sm is-size-7">
-  <span class="mr-sm">📍</span>
-  {{ if in .Params.locations "austin" }}Austin, TX{{ end }}
-  {{ if in .Params.locations "san-francisco" }}San Francisco, CA{{ end }}
-  {{ if in .Params.locations "los-angeles" }}Los Angeles, CA{{ end }}
-  {{ if in .Params.locations "nyc" }}New York, NY{{ end }}
-  {{ if in .Params.locations "chicago" }}Chicago, IL{{ end }}
 </p>
 {{ end }}
 <!-- Location -->
@@ -46,8 +43,8 @@
 </p>
 {{ end }}
 <!-- Companies -->
-{{ if .Params.companies }}
-{{ range .Params.companies }}
+{{ if .Params.organizations }}
+{{ range .Params.organizations }}
 <p class="has-text-weight-light mt-sm is-size-7">
   <span class="mr-sm">🏢</span>
   {{ . }}

@@ -65,23 +65,34 @@
     <p>Ergo, the majority of our member base identify as mid-level engineers.</p>
   </div>
   <div class="column is-half">
-    <canvas id="pie-chart" class="mt-2 mb-2"></canvas>
+    <canvas id="pie-chart"></canvas>
   </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script>
-Chart.defaults.global.defaultFontColor = "Rubik";
-new Chart(document.getElementById("pie-chart"), {
-  "type": "doughnut",
-  "data": {
-    "labels": ["Engineering", "Product/Design", "Operations/Sales", "Founders/Executives", "Recruitment/HR"],
-    "datasets": [{
-      "data": [60, 15, 15, 5, 5],
-      "backgroundColor": ["#fabf67", "#ff551f", "#3f8db9", "#5a4640", "#2f4052"]
-    }]
-  }
-});
-</script>
+  Chart.defaults.global.defaultFontColor = "Rubik";
+  new Chart(document.getElementById("pie-chart"), {
+    "type": "doughnut",
+    "data": {
+      "labels": ["Engineering", "Product/Design", "Operations/Sales", "Founders/Executives", "Recruitment/HR"],
+      "datasets": [{
+        "data": [60, 15, 15, 5, 5],
+        "backgroundColor": ["#fabf67", "#ff551f", "#3f8db9", "#5a4640", "#2f4052"]
+      }]
+    }
+  });
+  Chart.defaults.global.defaultFontColor = "Rubik";
+  new Chart(document.getElementById("pie-chart"), {
+    "type": "doughnut",
+    "data": {
+      "labels": ["Engineering", "Product/Design", "Operations/Sales", "Founders/Executives", "Recruitment/HR"],
+      "datasets": [{
+        "data": [60, 15, 15, 5, 5],
+        "backgroundColor": ["#fabf67", "#ff551f", "#3f8db9", "#5a4640", "#2f4052"]
+      }]
+    }
+  });
 
+</script>
 <noscript>Please enable JavaScript to view the chart.</noscript>

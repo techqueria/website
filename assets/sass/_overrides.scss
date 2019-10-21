@@ -31,7 +31,6 @@
 }
 
 .subtitle {
-  font-size: inherit;
   font-weight: 500;
 }
 
@@ -142,5 +141,22 @@ a.image-external-plain:after {
   @media screen and (min-width: $laptop) {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+// Curator.io
+.crt-widget-grid {
+  position: unset !important;
+
+  &::before {
+    height: 100px !important;
+  }
+}
+
+.crt-widget.crt-widget-branded {
+  padding-bottom: 0 !important;
+
+  .crt-logo {
+    display: none !important;
   }
 }

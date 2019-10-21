@@ -5,17 +5,16 @@ identifier: fab fa-slack
 image: "/assets/img/supporters/slack.png"
 noTimeEstimate: true
 hideImage: true
-sitemap: true
 aliases:
   - /slack/
   - /communities/slack/
 ---
 
-## Request an Invite 🌮
+## Become a Member 🌮
 
-If you'd like to join our Slack Workspace, please [request an invite](/communities/slack/join/).
+If you'd like to join our Slack Workspace, please [apply to become a Techqueria member](/join/).
 
-<a href="/communities/slack/join/" class="image-external-plain" rel="noopener"><img alt="Request an Invite" src="/assets/img/communities/slack/request-an-invite.png"></a>
+<a href="/join/" class="image-external-plain" rel="noopener"><img alt="Become a Member" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
 ### Already a member? ➡️
 

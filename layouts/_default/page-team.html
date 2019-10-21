@@ -14,50 +14,49 @@
       <h2>Executive Team</h2>
     </div>
     <div class="columns is-multiline">
-      {{ if (.Site.GetPage "/team/felipe-ventura") }}{{ partial "content/child.html" (.Site.GetPage "/team/felipe-ventura") }}{{ end }}
-      {{ if (.Site.GetPage "/team/frances-coronel") }}{{ partial "content/child.html" (.Site.GetPage "/team/frances-coronel") }}{{ end }}
+      {{ range (index .Site.Taxonomies.categories "co-director").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <!-- Current Leads -->
+    <div class="content mt-2">
+      <h2>Current Leads</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ $chapterLeads := (index $.Site.Taxonomies.categories "chapter-lead").Pages }}
+      {{ $partnerLeads := (index $.Site.Taxonomies.categories "partnerships-lead").Pages }}
+      {{ $slackLeads := (index $.Site.Taxonomies.categories "slack-community-lead").Pages }}
+      {{ $allLeads := $chapterLeads | union $partnerLeads | union $slackLeads }}
+
+      {{ range $allLeads.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <div class="content mt-2">
+      <h2>Current Volunteers</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "current-volunteer").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
     </div>
     <!-- Board of Directors -->
     <div class="content mt-2">
       <h2>Board of Directors</h2>
     </div>
     <div class="columns is-multiline">
-      {{ if (.Site.GetPage "/team/shashi-jain") }}{{ partial "content/child.html" (.Site.GetPage "/team/shashi-jain") }}{{ end }}
-      {{ if (.Site.GetPage "/team/andrea-flores") }}{{ partial "content/child.html" (.Site.GetPage "/team/andrea-flores") }}{{ end }}
-      {{ if (.Site.GetPage "/team/david-silva") }}{{ partial "content/child.html" (.Site.GetPage "/team/david-silva") }}{{ end }}
-      {{ if (.Site.GetPage "/team/esteban-uribe") }}{{ partial "content/child.html" (.Site.GetPage "/team/esteban-uribe") }}{{ end }}
-      {{ if (.Site.GetPage "/team/felipe-ventura") }}{{ partial "content/child.html" (.Site.GetPage "/team/felipe-ventura") }}{{ end }}
-      {{ if (.Site.GetPage "/team/frances-coronel") }}{{ partial "content/child.html" (.Site.GetPage "/team/frances-coronel") }}{{ end }}
-    </div>
-    <!-- Active Volunteers -->
-    <div class="content mt-2">
-      <h2>Current Team Members</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ if (.Site.GetPage "/team/andrea-cardona") }}{{ partial "content/child.html" (.Site.GetPage "/team/andrea-cardona") }}{{ end }}
-      {{ if (.Site.GetPage "/team/angel-alvarado") }}{{ partial "content/child.html" (.Site.GetPage "/team/angel-alvarado") }}{{ end }}
-      {{ if (.Site.GetPage "/team/cristobal-reitze") }}{{ partial "content/child.html" (.Site.GetPage "/team/cristobal-reitze") }}{{ end }}
-      {{ if (.Site.GetPage "/team/dulce-villarreal") }}{{ partial "content/child.html" (.Site.GetPage "/team/dulce-villarreal") }}{{ end }}
-      {{ if (.Site.GetPage "/team/francisco-mendoza") }}{{ partial "content/child.html" (.Site.GetPage "/team/francisco-mendoza") }}{{ end }}
-      {{ if (.Site.GetPage "/team/maritza-alas") }}{{ partial "content/child.html" (.Site.GetPage "/team/maritza-alas") }}{{ end }}
-      {{ if (.Site.GetPage "/team/pablo-carbajal") }}{{ partial "content/child.html" (.Site.GetPage "/team/pablo-carbajal") }}{{ end }}
-      {{ if (.Site.GetPage "/team/pia-zaragoza") }}{{ partial "content/child.html" (.Site.GetPage "/team/pia-zaragoza") }}{{ end }}
-      {{ if (.Site.GetPage "/team/vanessa-jimenez") }}{{ partial "content/child.html" (.Site.GetPage "/team/vanessa-jimenez") }}{{ end }}
+      {{ range (index .Site.Taxonomies.categories "board-member").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
     </div>
     <!-- Past Team Members -->
     <div class="content mt-2">
       <h2>Past Team Members</h2>
     </div>
     <div class="columns is-multiline">
-      {{ if (.Site.GetPage "/team/abi-munoz") }}{{ partial "content/child.html" (.Site.GetPage "/team/abi-munoz") }}{{ end }}
-      {{ if (.Site.GetPage "/team/cj-joulain") }}{{ partial "content/child.html" (.Site.GetPage "/team/cj-joulain") }}{{ end }}
-      {{ if (.Site.GetPage "/team/dalia-icedo") }}{{ partial "content/child.html" (.Site.GetPage "/team/dalia-icedo") }}{{ end }}
-      {{ if (.Site.GetPage "/team/francisco-gutierrez") }}{{ partial "content/child.html" (.Site.GetPage "/team/francisco-gutierrez") }}{{ end }}
-      {{ if (.Site.GetPage "/team/hector-carmona") }}{{ partial "content/child.html" (.Site.GetPage "/team/hector-carmona") }}{{ end }}
-      {{ if (.Site.GetPage "/team/josue-bustos") }}{{ partial "content/child.html" (.Site.GetPage "/team/josue-bustos") }}{{ end }}
-      {{ if (.Site.GetPage "/team/kevin-hernandez") }}{{ partial "content/child.html" (.Site.GetPage "/team/kevin-hernandez") }}{{ end }}
-      {{ if (.Site.GetPage "/team/kimberly-munoz") }}{{ partial "content/child.html" (.Site.GetPage "/team/kimberly-munoz") }}{{ end }}
-      {{ if (.Site.GetPage "/team/rubi-sanchez") }}{{ partial "content/child.html" (.Site.GetPage "/team/rubi-sanchez") }}{{ end }}
+      {{ range (index .Site.Taxonomies.categories "past-organizer").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
     </div>
     <!-- Content Footer -->
     <div class="content">

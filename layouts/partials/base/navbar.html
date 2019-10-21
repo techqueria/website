@@ -23,7 +23,7 @@
         {{ end }}
         <!-- Slack -->
         <div class="slack-buttons__navbar-start">
-          {{ range .Site.Menus.slack }}
+          {{ range .Site.Menus.portal }}
           <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
             <span class="icon">
               {{ if .Identifier }}
@@ -85,9 +85,9 @@
     </a>
     {{ end }}
     <div class="navbar-end">
-      <!-- Slack -->
+      <!-- Portal -->
       <div class="slack-buttons__navbar-end">
-        {{ range .Site.Menus.slack }}
+        {{ range .Site.Menus.portal }}
         <div class="navbar-item">
           <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
             <span class="icon">

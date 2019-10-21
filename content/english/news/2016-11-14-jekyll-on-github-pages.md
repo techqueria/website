@@ -1,7 +1,6 @@
 ---
 title: "Jekyll on github pages and service workers. Progressive web apps and offline mode for your blog"
 date: 2016-11-14
-comments: true
 description: "I attended the chrome dev summit 2016 last week, and Google has been pushing Progressive web apps pretty hard. They’re basically a new way..."
 image: "/assets/img/news/2016-11-14-hacker-noon.jpg"
 authors:

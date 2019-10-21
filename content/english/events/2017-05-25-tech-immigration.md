@@ -4,7 +4,7 @@ date: 2017-05-25
 link: https://www.meetup.com/techqueria/events/239378376/
 locations:
   - san-francisco
-companies:
+organizations:
   - "Dropbox"
 ---
 

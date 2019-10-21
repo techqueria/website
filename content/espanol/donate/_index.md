@@ -2,7 +2,7 @@
 title: Donar
 description: "Haga una donación a Techqueria y apoye nuestros esfuerzos para elevar Latinx en Tech."
 sitemap: true
-image: "/assets/img/donate/_index.jpeg"
+image: "/assets/img/donate/_index.jpg"
 ---
 
 <div class="columns">

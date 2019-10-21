@@ -5,7 +5,7 @@ link: https://www.meetup.com/techqueria/events/235604788/
 photos: https://photos.app.goo.gl/mN1CTZsiHoVsJvWQ8
 locations:
   - san-francisco
-companies:
+organizations:
   - "Stripe"
 ---
 

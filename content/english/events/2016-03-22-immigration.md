@@ -4,7 +4,7 @@ date: 2016-03-22
 link: https://www.meetup.com/techqueria/events/228831195/
 locations:
   - san-francisco
-companies:
+organizations:
   - "ECO-SYSTM"
 ---
 

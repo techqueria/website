@@ -4,7 +4,7 @@ date: 2016-05-05
 link: https://www.meetup.com/techqueria/events/230381934/
 locations:
   - san-francisco
-companies:
+organizations:
   - "Dev Bootcamp"
 ---
 

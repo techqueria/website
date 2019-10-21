@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct
-description: All participants of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.
+description: "All members of Techqueria are expected to abide by our Code of Conduct. ⚖"
 image: "/assets/img/about/code-of-conduct/_index.jpg"
 noTimeEstimate: true
 hideImage: true

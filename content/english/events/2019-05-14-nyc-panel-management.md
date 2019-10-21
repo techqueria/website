@@ -9,7 +9,7 @@ aliases:
   - /events/2019/05/14/panel-breaking-into-management-nyc/
 locations:
   - nyc
-companies:
+organizations:
   - "DigitalOcean"
 ---
 

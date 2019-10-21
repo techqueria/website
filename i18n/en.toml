@@ -17,13 +17,22 @@ other = "Join us and share your experience with Techqueria."
 other = "Calling all Latinx in Tech!"
 
 [join_us_slack]
-other = "Join us in Slack!"
+other = "Join us in Slack"
 
 [join_us_slack_description]
 other = "Our Slack workspace provides a more engaged way to stay in touch with fellow Techqueria members."
 
 [join_us_slack_button]
 other = "Request an invite"
+
+[become_member]
+other = "Join Us"
+
+[become_member_description]
+other = "Connect with thousands of other Latinx in Tech"
+
+[become_member_button]
+other = "Become a member"
 
 [become_sponsor]
 other = "Support Us"
@@ -142,4 +151,11 @@ other = "Donate"
 other = "Donate to Techqueria"
 
 [cta_donate_description]
-other = "Donate to Techqueria and support our efforts to elevate Latinx in Tech."
+other = "Help us in our efforts to elevate Latinx in Tech"
+
+# cta.follow.html
+[cta_follow_title]
+other = "Follow us on social media"
+
+[cta_follow_button]
+other = "Follow @Techqueria"

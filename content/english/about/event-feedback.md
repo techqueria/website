@@ -3,6 +3,7 @@ title: Submit Event Feedback
 description: We want to hear your feedback so we can keep improving our logistics and content.
 image: "/assets/img/about/event-feedback/_index.jpg"
 noTimeEstimate: true
+hideImage: true
 aliases:
   - /feedback/
   - /event-feedback/
@@ -24,52 +25,9 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
 
 <form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Event Feedback">
+  {{< fields/message label="What was the name of the event?" placeholder="Put event name and any other relevant details here" name="event_name" required="true" >}}
   <div class="field">
-    <label class="label">Event Name* 🗓️</label>
-    <div class="control">
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="8/08/19 — IBM — Austin, TX" required>
-        8/08/19 — IBM — Austin, TX
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="8/14/19 — Twitter — San Francisco, CA" required>
-        8/14/19 — Twitter — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/12/19 — AppDynamics — San Francisco, CA" required>
-        9/12/19 — AppDynamics — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/19/19 — Abstract — San Francisco, CA" required>
-        9/19/19 — Abstract — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="9/26/19 — Splunk — San Francisco, CA" required>
-        9/26/19 — Splunk — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/02/19 — Climate Corporation — San Francisco, CA" required>
-        10/02/19 — Climate Corporation — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/10/19 — CBS Interactive — San Francisco, CA" required>
-        10/10/19 — CBS Interactive — San Francisco, CA
-      </label>
-      <br>
-      <label class="radio">
-        <input type="radio" aria-label="Event Name" name="event_name" value="10/16/19 — Adobe — San Francisco, CA" required>
-        10/16/19 — Adobe — San Francisco, CA
-      </label>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">How satisfied were you with the event?* 🌮</label>
+    <label class="label">How satisfied were you with the event?*</label>
     <div class="control">
       <label class="radio">
         <input type="radio" aria-label="How satisfied were you with the event?" name="event_satisfaction" value="5" required>
@@ -100,6 +58,6 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
   {{< fields/message label="What went well? 🌻" name="event_what_went_well" >}}
   {{< fields/message label="What were your key takeaways from this event? 🧠" name="event_key_takeaways" >}}
   {{< fields/message label="What could have gone better? 🌵" name="event_gone_better" >}}
-  {{< fields/message label="Any last comments? 💬" name="event_last_comments" >}}
+  {{< fields/message label="Any last comments?" name="event_last_comments" >}}
   {{< fields/submit label="Submit feedback" >}}
 </form>
