@@ -4,7 +4,7 @@ date: 2015-12-10
 link: https://www.meetup.com/techqueria/events/226913818/
 locations:
   - san-francisco
-companies:
+organizations:
   - "NextSpace Berkeley"
 ---
 

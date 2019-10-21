@@ -4,7 +4,7 @@ date: 2017-10-25
 link: https://www.meetup.com/techqueria/events/243860079/
 locations:
   - san-francisco
-companies:
+organizations:
   - "CareMessage"
 ---
 

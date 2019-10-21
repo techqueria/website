@@ -3,6 +3,7 @@ title: Submit Event Feedback
 description: We want to hear your feedback so we can keep improving our logistics and content.
 image: "/assets/img/about/event-feedback/_index.jpg"
 noTimeEstimate: true
+hideImage: true
 aliases:
   - /feedback/
   - /event-feedback/

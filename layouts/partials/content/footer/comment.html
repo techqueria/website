@@ -1,3 +1,4 @@
+{{ if .IsPage }}
 {{ if or (eq .Section "news") (eq .Section "resources") (eq .Section "events") }}
 <div class="content mt-2">
   <h2><span class="mr-sm">💬</span>{{ i18n "comment" }}</h2>
@@ -10,7 +11,9 @@
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
+
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+{{ end }}
 {{ end }}

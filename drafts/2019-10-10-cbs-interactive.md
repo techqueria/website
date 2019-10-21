@@ -5,6 +5,6 @@ date: 2019-10-10
 image: "/assets/img/supporters/cbs-interactive.png"
 locations:
   - "san-francisco"
-companies:
+organizations:
   - "CBS Interactive"
 ---

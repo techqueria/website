@@ -1,6 +1,6 @@
 <section class="hero is-danger is-bold is-fancy">
   <div class="hero-body">
-    <div class="container">
+    <div class="container {{ if .Params.widePage }}{{ else if .IsPage }}page--single{{ else }}{{ end }}">
       <!-- Title -->
       <h1 class="title">
         {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}

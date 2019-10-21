@@ -4,7 +4,7 @@ date: 2017-06-21
 link: https://www.meetup.com/techqueria/events/239392017/
 locations:
   - san-francisco
-companies:
+organizations:
   - "Braintree"
 ---
 

@@ -5,7 +5,7 @@ link: https://www.meetup.com/techqueria/events/247655214/
 image: "/assets/img/events/2018-02-22.jpg"
 locations:
   - san-francisco
-companies:
+organizations:
   - "Climate Corporation"
 ---
 

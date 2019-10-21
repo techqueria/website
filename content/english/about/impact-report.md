@@ -1,9 +1,10 @@
 ---
 title: "Impact Report 2019 (WIP)"
 description: "This is a work in progress! Expect the full report to be ready by ~January 2020."
+hideImage: true
 image: "/assets/img/about/impact-report/_index.jpg"
-toc: true
 noTimeEstimate: true
+toc: true
 aliases:
   - /impact-report/
   - /impact/

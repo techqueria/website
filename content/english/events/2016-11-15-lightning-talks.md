@@ -6,7 +6,7 @@ photos: https://photos.app.goo.gl/mN1CTZsiHoVsJvWQ8
 image: "/assets/img/events/2016-11-15.jpg"
 locations:
   - san-francisco
-companies:
+organizations:
   - "Hackbright Academy"
 ---
 

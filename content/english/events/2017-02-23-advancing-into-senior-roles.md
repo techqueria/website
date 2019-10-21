@@ -7,7 +7,7 @@ video: https://www.youtube.com/watch?v=GQsZs7cV-UU
 image: "/assets/img/events/2017-02-23.jpg"
 locations:
   - san-francisco
-companies:
+organizations:
   - "Udacity"
 ---
 

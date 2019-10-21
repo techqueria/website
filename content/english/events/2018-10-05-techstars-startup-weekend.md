@@ -5,7 +5,7 @@ location: Philadelphia, PA
 date: 2018-10-05
 link: https://www.eventbrite.com/e/techstars-startup-weekend-philadelphia-latinx-in-tech-tickets-49821036060#
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49772927%2F1954445013%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=cad10c6810b7d69dee2e50f36a70ad86
-companies:
+organizations:
   - "Techstars"
 ---
 

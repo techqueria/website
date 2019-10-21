@@ -24,7 +24,7 @@ speakers:
   - "Tonatiuh Ramos"
 locations:
   - "san-francisco"
-companies:
+organizations:
   - "Twitter"
 articles:
   - "Twitter Threads with Techqueria - Event Recap"

@@ -7,7 +7,7 @@ image: "/assets/img/events/2018-09-12.jpg"
 photos: https://photos.app.goo.gl/Rv4E4H7RRkYbAQJz7
 locations:
   - nyc
-companies:
+organizations:
   - "DigitalOcean"
 ---
 

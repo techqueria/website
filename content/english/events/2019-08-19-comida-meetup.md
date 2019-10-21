@@ -6,9 +6,9 @@ image: "/assets/img/events/2019-08-19.jpg"
 link: https://www.eventbrite.com/e/techqueria-dominicanxs-brunch-tickets-10502297655
 locations:
   - "san-francisco"
-organizers:
-  - "Alberto Guzmán"
 ---
+
+> Organized by Alberto Guzmán
 
 Hola mi gente!
 

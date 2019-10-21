@@ -274,7 +274,7 @@ locations:
   - "san-francisco"
 aliases:
   - /events/2019/06/19/techqueria-lyft/
-companies:
+organizations:
   - "Lyft"
 organizers:
   - "Felipe Ventura"
@@ -296,7 +296,7 @@ This makes it easy to relate an organizer with an event, a company with an event
 
 When adding a new company, make sure to link their careers site and download an appropriate logo image so we can host it locally.
 
-The image for companies MUST be 1000px wide and 500 px high in order to display correctly.
+The image for companies **MUST be** 1000px wide and 500 px high in order to display correctly.
 
 > Example: `content/english/support-us/supporters/braintree.md`
 
@@ -322,7 +322,6 @@ Make sure to always turn comments on and add or reference a person from the `/te
 title: "Techqueria is now officially a 501c3 nonprofit!"
 date: 2019-03-07
 description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
-comments: true
 image: "/assets/img/news/2019-03-07-nonprofit.png"
 authors:
   - "Shashi Jain"
