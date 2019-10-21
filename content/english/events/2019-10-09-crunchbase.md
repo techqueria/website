@@ -8,5 +8,5 @@ link: https://techqueria-crunchbase-eng-dinner.splashthat.com/
 organizations:
   - "Crunchbase"
 locations:
-  - "San Francisco"
+  - san-francisco
 ---

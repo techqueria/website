@@ -8,7 +8,7 @@ photos: https://photos.app.goo.gl/BWHYR88sjDHEk9fV7
 organizations:
   - "AppDynamics"
 locations:
-  - "San Francisco"
+  - san-francisco
 ---
 
 ## Overview

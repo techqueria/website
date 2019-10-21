@@ -7,7 +7,7 @@ link: https://latinxinproduct.splashthat.com/
 organizations:
   - "Climate Corporation"
 locations:
-  - "San Francisco"
+  - san-francisco
 ---
 
 Join the Climate Corporation & Techqueria to celebrate Latinx Heritage Month 💃🏽
