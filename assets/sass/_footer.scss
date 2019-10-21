@@ -1,65 +1,65 @@
 .footer {
-	background-color: $techqueria-black;
-	color: $techqueria-white;
-	padding: 2em;
+  background-color: $techqueria-black;
+  color: $techqueria-white;
+  padding: 2em;
 
-	.link--techqueria {
-		color: $techqueria;
+  .link--techqueria {
+    color: $techqueria;
 
-		&:hover {
-			color: $techqueria-white;
-		}
-	}
+    &:hover {
+      color: $techqueria-white;
+    }
+  }
 
-	&__social-icons {
-		display: flex;
-		flex-flow: wrap;
-		justify-content: center;
+  &__social-icons {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
-		a {
-			color: $techqueria-white;
-			margin: 1rem;
+    a {
+      color: $techqueria-white;
+      margin: 1rem;
 
-			&:hover {
-				color: $techqueria-black;
+      &:hover {
+        color: $techqueria-black;
 
-				.fab,
-				.fa-rss {
-					color: $techqueria-white;
-				}
-			}
-		}
+        .fab,
+        .fa-rss {
+          color: $techqueria-white;
+        }
+      }
+    }
 
-		@media screen and (max-width: $mobile) {
-			.fa-lg {
-				font-size: 2em;
-			}
-		}
-	}
+    @media screen and (max-width: $mobile) {
+      .fa-lg {
+        font-size: 2em;
+      }
+    }
+  }
 
-	.netlify-badge {
-		a {
-			svg {
-				path {
-					fill: $techqueria-white;
-				}
+  .netlify-badge {
+    a {
+      svg {
+        path {
+          fill: $techqueria-white;
+        }
 
-				rect {
-					fill: $techqueria-black;
-				}
-			}
+        rect {
+          fill: $techqueria-black;
+        }
+      }
 
-			&:hover {
-				svg {
-					path {
-						fill: $techqueria-black;
-					}
+      &:hover {
+        svg {
+          path {
+            fill: $techqueria-black;
+          }
 
-					rect {
-						fill: $techqueria-white;
-					}
-				}
-			}
-		}
-	}
+          rect {
+            fill: $techqueria-white;
+          }
+        }
+      }
+    }
+  }
 }

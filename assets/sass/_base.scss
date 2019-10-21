@@ -1,74 +1,74 @@
 .main {
-	margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 body {
-	@extend .has-text-weight-normal;
-	font-family: $font-family;
-	font-size: $font-size-mobile;
-	word-wrap: break-word;
+  @extend .has-text-weight-normal;
+  font-family: $font-family;
+  font-size: $font-size-mobile;
+  word-wrap: break-word;
 
-	@media screen and (min-width: $mobile) {
-		font-size: $font-size;
-	}
+  @media screen and (min-width: $mobile) {
+    font-size: $font-size;
+  }
 }
 
 a {
-	color: $techqueria-blue;
+  color: $techqueria-blue;
 
-	&:hover {
-		color: $techqueria-red;
-	}
+  &:hover {
+    color: $techqueria-red;
+  }
 
-	&.navbar-item.is-hidden-mobile.icon {
-		&:hover {
-			background-color: $techqueria-white;
-		}
-	}
+  &.navbar-item.is-hidden-mobile.icon {
+    &:hover {
+      background-color: $techqueria-white;
+    }
+  }
 
-	&.hero-link {
-		text-decoration: underline;
+  &.hero-link {
+    text-decoration: underline;
 
-		&:hover {
-			color: $techqueria-white !important;
-		}
-	}
+    &:hover {
+      color: $techqueria-white !important;
+    }
+  }
 }
 
 hr {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-	@extend %overflow-text;
+  @extend %overflow-text;
 }
 
 iframe {
-	width: 100%;
+  width: 100%;
 }
 
 form {
-	max-width: 600px;
+  max-width: 600px;
 
-	&.form--centered {
-		margin: 0 auto;
-	}
+  &.form--centered {
+    margin: 0 auto;
+  }
 
-	.field {
-		margin-top: 1em;
-	}
+  .field {
+    margin-top: 1em;
+  }
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-	height: 20px;
-	vertical-align: middle;
+  height: 20px;
+  vertical-align: middle;
 }
 
 .button.is-primary:focus:not(:active),
 .button.is-primary.is-focused:not(:active) {
-	@extend %material-shadow;
+  @extend %material-shadow;
 }

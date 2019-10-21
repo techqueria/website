@@ -1,46 +1,46 @@
 .card {
-	border: 1px solid $image-shadow;
-	box-shadow: none;
+  border: 1px solid $image-shadow;
+  box-shadow: none;
 
-	&:hover {
-		@extend %material-shadow;
-	}
+  &:hover {
+    @extend %material-shadow;
+  }
 
-	.card-image--figure {
-		height: 12em;
-		object-fit: cover;
-		width: 100%;
-	}
+  .card-image--figure {
+    height: 12em;
+    object-fit: cover;
+    width: 100%;
+  }
 
-	.card-header-title,
-	.card-content {
-		padding: 1em;
-	}
+  .card-header-title,
+  .card-content {
+    padding: 1em;
+  }
 
-	.card-footer {
-		border: 0;
-		padding: 0 1em 1em;
-	}
+  .card-footer {
+    border: 0;
+    padding: 0 1em 1em;
+  }
 
-	&.card-equal-height {
-		display: flex;
-		flex-direction: column;
-		height: 100%;
+  &.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
-		.card-footer {
-			margin-top: auto;
-		}
-	}
+    .card-footer {
+      margin-top: auto;
+    }
+  }
 
-	.card-reset {
-		color: inherit;
+  .card-reset {
+    color: inherit;
 
-		&:hover {
-			color: inherit;
-		}
-	}
+    &:hover {
+      color: inherit;
+    }
+  }
 
-	.card-content a {
-		text-decoration: none;
-	}
+  .card-content a {
+    text-decoration: none;
+  }
 }
