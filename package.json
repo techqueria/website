@@ -22,7 +22,7 @@
     "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/register": "^7.0.0",
-    "autoprefixer": "9.6.1",
+    "autoprefixer": "9.6.5",
     "babel-eslint": "10.0.3",
     "babel-loader": "^8.0.5",
     "brotli-webpack-plugin": "1.1.0",
@@ -45,9 +45,9 @@
     "lozad": "1.9.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "3.0.0",
-    "webpack": "4.41.0",
+    "webpack": "4.41.2",
     "workbox-webpack-plugin": "4.3.1",
-    "snyk": "^1.192.3"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
