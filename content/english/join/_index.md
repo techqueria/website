@@ -31,7 +31,7 @@ If you don't get an invite within 2 weeks, please [contact us](/contact) and let
 
 ## Best Practices
 
-As you are waiting for your Slack invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
+As you are waiting for your invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
 
 You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
 

@@ -9,7 +9,7 @@ aliases:
 
 You've successfully completed the member sign up form for Techqueria. 📝
 
-You should get an invite to our Slack community within 1 week and have been automatically subscribed to our mailing list.
+You should get an invite to our Slack community within 1 week and have been automatically subscribed to our mailing list which you can opt of at anytime.
 
 In the meantime, enjoy these cute tacitos and please read through our [Slack Community Guidelines](/communities/slack/)
 
