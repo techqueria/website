@@ -22,7 +22,7 @@ image: "/assets/img/shop/_index.png"
         src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js">
 </script>
 
-<noscript>Please enable JavaScript to view the shop.</noscript>
+<noscript>Habilite JavaScript para ver la tienda.</noscript>
 
 <style>
 body {
