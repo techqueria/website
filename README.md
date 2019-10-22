@@ -78,6 +78,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Esteban Uribe](https://www.github.com/estebanuribe)
 - [Daniel Andrade](https://github.com/daniel9a)
 - [Edgar Lopez](https://github.com/edgineer)
+- [Scarlett Perry](https://github.com/scarlettperry)
 - [Angel Arciniega](https://github.com/angelsprojects)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
