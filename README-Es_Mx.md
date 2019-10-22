@@ -78,6 +78,7 @@ Se pueden encontrar más detalles en el [código de conducta](.github/CODE_OF_CO
 - [Esteban Uribe](https://www.github.com/estebanuribe)
 - [Daniel Andrade](https://github.com/daniel9a)
 - [Edgar Lopez](https://github.com/edgineer)
+- [Angel Arciniega](https://github.com/angelsprojects)
 
 ### Gracias a **todos nuestros partidiarios**! ([Conviértase en un partidiario](https://opencollective.com/techqueria#backer))
 
