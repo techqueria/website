@@ -4,6 +4,7 @@ description: "Join the Climate Corporation & Techqueria to celebrate Latinx Heri
 date: 2019-10-17
 image: "/assets/img/events/2019-10-17.jpeg"
 link: https://latinxinproduct.splashthat.com/
+photos: https://photos.app.goo.gl/Ju55c4vpN5SoX3yv6
 organizations:
   - "Climate Corporation"
 locations:
