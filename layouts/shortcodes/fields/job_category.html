@@ -1,15 +1,6 @@
 <div class="field">
-  <label class="label">How many years of experience do you have in your current role?</label>
-  <div class="control has-icons-left">
-    <input class="input" aria-label="Years of Experience" autocomplete="off" type="number" name="years_of_experience" placeholder="4" min="0" max="50">
-    <span class="icon is-left">
-      🕒
-    </span>
-  </div>
-</div>
-<div class="field">
   <label class="label">Which category best describes your role?*</label>
-  <div class="control has-icons-left">
+  <div class="control has-icons-left" id="job_category">
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="job_category" value="Engineering" required>
       Engineering
@@ -61,7 +52,7 @@
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" id="job_category_other_radio_button" name="job_category" value="Other" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" id="job_category_other_radio" name="job_category" value="Other" required>
       Other
     </label>
     <br>
@@ -73,41 +64,19 @@
     </span>
   </div>
 </div>
-<div class="field">
-  <label class="label">What is your age?*</label>
-  <div class="control has-icons-left">
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="13-18" required>
-      13-18
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="19-24" required>
-      19-24
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="25-34" required>
-      25-34
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="35-44" required>
-      35-44
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="45-54" required>
-      45-54
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="55-64" required>
-      55-64
-    </label>
-    <label class="radio">
-      <input type="radio" aria-label="What is your age?" name="age" value="65+" required>
-      65+
-    </label>
-  </div>
-</div>
 <script>
-document.getElementById("job_category_other_radio_button").addEventListener("change", () => {
-  document.getElementById("job_category_other_input").required = this.checked;
-})
+  const jobCategoryEl = document.getElementById("job_category");
+  const jobCategoryOtherRadioEl = document.getElementById("job_category_other_radio");
+  const jobCategoryOtherInputEl = document.getElementById("job_category_other_input");
+
+  if (jobCategoryEl) {
+    jobCategoryEl.addEventListener('change', () => {
+      if (jobCategoryOtherRadioEl.checked) {
+        jobCategoryOtherInputEl.required = true;
+      } else {
+        jobCategoryOtherInputEl.required = false;
+      }
+    });
+  }
+
 </script>

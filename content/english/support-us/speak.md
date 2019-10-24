@@ -32,7 +32,7 @@ We do provide speakers a 50 dollar reimbursement through [Open Collective](/dona
 
 If we have a need for speakers and you seem like a good fit for the event discussion, we'll reach out and send you more details!
 
-<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
+<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Speaker">
   {{< fields/name >}}
   {{< fields/email >}}

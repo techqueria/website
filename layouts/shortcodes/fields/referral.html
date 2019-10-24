@@ -1,7 +1,7 @@
 <!-- How did you first hear about Techqueria? -->
 <div class="field">
   <label class="label">How did you first hear about Techqueria?*</label>
-  <div class="control">
+  <div class="control" id="referral">
     <label class="radio">
       <input type="radio" aria-label="How did you first hear about Techqueria?" name="referral" value="Word of Mouth" required>
       Word of Mouth
@@ -33,7 +33,7 @@
     </label>
     <br>
     <label class="radio">
-      <input type="radio" aria-label="How did you first hear about Techqueria?" id="referral_other_radio_button" name="referral" value="Other" required>
+      <input type="radio" aria-label="How did you first hear about Techqueria?" id="referral_other_radio" name="referral" value="Other" required>
       Other
     </label>
     <br>
@@ -46,7 +46,18 @@
   </div>
 </div>
 <script>
-document.getElementById("referral_other_radio_button").addEventListener("change", () => {
-    document.getElementById("referral_other_input").required = this.checked;
-})
+  const referralEl = document.getElementById("referral");
+  const referralOtherRadioEl = document.getElementById("referral_other_radio");
+  const referralOtherInputEl = document.getElementById("referral_other_input");
+
+  if (referralEl) {
+    referralEl.addEventListener('change', () => {
+      if (referralOtherRadioEl.checked) {
+        referralOtherInputEl.required = true;
+      } else {
+        referralOtherInputEl.required = false;
+      }
+    });
+  }
+
 </script>

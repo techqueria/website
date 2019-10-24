@@ -23,6 +23,12 @@ h4:hover a {
   visibility: hidden;
 }
 
+.no-ids {
+  [id]::before {
+    display: none !important;
+  }
+}
+
 #sprd-container::before,
 #sprd-header-container::before,
 #sprd-main::before,

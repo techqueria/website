@@ -21,7 +21,7 @@ You can find all <a href="https://www.notion.so/techqueriaorg/Volunteering-Oppor
 
 Fill out the form below and we'll reach out with more details on you can help support our mission.
 
-<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
+<form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
   {{< fields/name >}}
   {{< fields/email >}}
