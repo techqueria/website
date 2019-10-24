@@ -21,7 +21,7 @@ aliases:
   - /es/blog/2016/07/19/community-building-and-mentorship-notes-on-techquerias-latest-event/
   - /es/press/2019/04/09/4-latinx-online-communities-you-need-to-know-about/
   - /es/press/2019/03/22/congratulations-to-sentrys-open-source-grant-recipient/
-  - /es/press/2019/01/15/post-bootcamp-software-engineering-job-types-and-how-to-hopefully-get-one./
+  - /es/press/2019/01/15/post-bootcamp-software-engineering-job-types-and-how-to-hopefully-get-one/
   - /es/press/2018/12/23/is-coinbase-the-enemy-of-bitcoin/
   - /es/press/2018/12/22/12-days-of-coinbase-enraged-bitcoiners-mastering-monero-dominates-amazon-while-new-tether-fud-flares-up/
   - /es/press/2018/10/03/alley-conversations-authenticity-in-the-workplace-as-a-latinx-professional/

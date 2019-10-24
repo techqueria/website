@@ -4,8 +4,10 @@ description: "We'll get back to you within the next 2 weeks. 🕒"
 url: /success/
 ---
 
-<div class="has-text-centered mb-1">
-  <p>In the meantime, enjoy these cute tacitos or consider <a href="/join/" rel="noopener">becoming a member</a>.</p>
-</div>
+We have successfully received your form submission! 📝
+
+In the meantime, enjoy these cute tacitos or consider [becoming a member of Techqueria](/join/).
+
+<div class="mb-1"></div>
 
 ![Taco](https://media.giphy.com/media/pYCdxGyLFSwgw/source.gif)
