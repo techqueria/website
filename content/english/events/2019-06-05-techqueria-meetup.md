@@ -1,6 +1,7 @@
 ---
 title: "Techqueria Meet-Up!"
 date: 2019-06-05
+image: "/assets/img/events/2019-06-05.png"
 link: https://www.eventbrite.com/e/techqueria-meet-up-tickets-62657254535
 locations:
   - austin
