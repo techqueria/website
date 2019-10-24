@@ -1,0 +1,51 @@
+<div class="field">
+  <label class="label">What are you hoping to gain from joining Techqueria?</label>
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="A community">
+      A community
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="Access to networking events">
+      Access to networking events
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="A mentor or mentee">
+      A mentor or mentee
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="Career advice">
+      Career advice
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="Job opportunities">
+      Job opportunities
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="A partnership with Techqueria">
+      A partnership with Techqueria
+    </label>
+    <br>
+    <label class="checkbox">
+      <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="Other" id="looking_for_other_checkbox">
+      Other
+    </label>
+    <div class="control has-icons-left mt-sm">
+      <input class="input" aria-label="Other selected" autocomplete="off" type="text" id="looking_for_other_input" name="looking_for_other_input" placeholder="If you selected other, enter it here">
+      <span class="icon is-left">
+        ➕
+      </span>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("looking_for_other_checkbox").addEventListener("change", () => {
+    document.getElementById("looking_for_other_input").required = this.checked;
+  })
+
+</script>
