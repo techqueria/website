@@ -23,7 +23,7 @@ Your answers will be anonymous but you're welcome to [contact us](/contact/) if 
 
 ## Submit event feedback
 
-<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
+<form name="Event Feedback" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Event Feedback">
   {{< fields/message label="What was the name of the event?" placeholder="Put event name and any other relevant details here" name="event_name" required="true" >}}
   <div class="field">

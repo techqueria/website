@@ -1,6 +1,6 @@
 <div class="field">
   <label class="label">What are you hoping to gain from joining Techqueria?</label>
-  <div class="control">
+  <div class="control" id="looking_for">
     <label class="checkbox">
       <input type="checkbox" aria-label="What are you hoping to gain from joining Techqueria?" name="looking_for" value="A community">
       A community
@@ -44,8 +44,18 @@
   </div>
 </div>
 <script>
-  document.getElementById("looking_for_other_checkbox").addEventListener("change", () => {
-    document.getElementById("looking_for_other_input").required = this.checked;
-  })
+  const lookingForEl = document.getElementById("looking_for");
+  const lookingForOtherCheckboxEl = document.getElementById("looking_for_other_checkbox");
+  const lookingForOtherInputEl = document.getElementById("looking_for_other_input");
+
+  if (lookingForEl) {
+    lookingForEl.addEventListener('change', () => {
+      if (lookingForOtherCheckboxEl.checked) {
+        lookingForOtherInputEl.required = true;
+      } else {
+        lookingForOtherInputEl.required = false;
+      }
+    });
+  }
 
 </script>

@@ -20,7 +20,7 @@ We'll get back to you if we have a need for your space which may not be immediat
 
 In the meantime, feel free to [request an invite to our Slack community](/slack).
 
-<form name="Donate Space" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered">
+<form name="Donate Space" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
   {{< fields/name >}}
   {{< fields/email >}}
