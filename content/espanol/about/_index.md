@@ -19,13 +19,3 @@ Promovemos la colaboración entre nuestros miembros y nuestro objetivo es crear 
 ## Lo que hacemos
 
 Construimos espacios centrados en Latinx que giran en torno a consejos profesionales, charlas técnicas, tutorías, trabajos abiertos, próximos eventos / conferencias, oportunidades para hablar, ¡e incluso dónde obtener una excelente comida!
-
-## Nuestra historia
-
-David Silva y Shashi Jain organizaron los primeros eventos en el NextSpace en Berkeley, CA.
-
-Más adelante, comenzamos a organizar eventos en empresas de toda el Área de la Bahía y así nuestra comunidad creció gracias al trabajo de Kimberly Muñoz y CJ Joulain.
-
-LA fue el primer lugar donde realizamos eventos fuera del Área de la Bahía gracias a la ayuda de Esteban Uribe y Héctor Carmona.
-
-A medida que nuestra comunidad avanza, formamos nuevas sedes y nos apoyamos mutuamente en el desarrollo de un hogar para Latinxs en tecnología. ¡Damos la bienvenida a todos los que comparten nuestra misión!

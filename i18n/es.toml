@@ -162,3 +162,39 @@ other = "Síguenos en las redes sociales"
 
 [cta_follow_button]
 other = "Síguenos en Twitter @Techqueria"
+
+# about.html
+
+[footer_about]
+other = "Sobre Techqueria"
+
+[footer_about_one]
+other = "Techqueria es una organización sin fines de lucro 501c3 que brinda a los profesionales de Latinx los recursos y el apoyo que necesitan para prosperar y convertirse en líderes en la industria tecnológica."
+
+[footer_about_two]
+other = "Con ese fin, trabajamos tanto con empresas tecnológicas como con grupos de recursos para empleados (ERG) para construir espacios centrados en Latinx que giran en torno a asesoramiento profesional, charlas técnicas, tutoría, trabajos abiertos, eventos de networking, oportunidades de oratoria y código abierto para afectar de manera integral el cambio en la industria tecnológica."
+
+[footer_about_three]
+other = "Viniendo de todos los ámbitos de la vida, creemos que la diversidad de nuestra comunidad es el activo más confiable que tenemos. Nuestro espacio tiene como objetivo ser inclusivo, por lo que invitamos a Latinx de las regiones del Caribe, Haití y Brasil, así como a aquellos que se identifican como Afro-Latinx, Asian-Latinx o LGBTQIA. El término Latinx se usa en lugar de Latino o Latina porque es un término inclusivo y de género neutral."
+
+# donate.html
+
+[footer_donate]
+other = "Dona a Techqueria"
+
+# share.html
+
+[share_this_page]
+other = "Comparte esta página"
+
+[share_on_twitter]
+other = "Comparte en Twitter"
+
+[share_on_facebook]
+other = "Comparte en Facebook"
+
+[share_on_linkedin]
+other = "Comparte en LinkedIn"
+
+[email_this]
+other = "Envíe esto por correo electrónico"

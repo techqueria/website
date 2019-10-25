@@ -82,8 +82,6 @@ DM [@Techqueria](https://twitter.com/Techqueria) en Twitter
 
 ### Slack
 
-Dentro del grupo de Slack, puede usar el comando `/admin` para contactar a un administrador
-
 Para obtener más información sobre cómo aprovechar al máximo nuestro espacio de trabajo de Slack, [consulte nuestra página de bienvenida de Slack](/es/communities/slack/).
 
 ## Medidas de Aplicación

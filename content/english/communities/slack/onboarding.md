@@ -63,7 +63,7 @@ Happy to be here!
 ```txt
 All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
 
-_If you have any questions, comments or concerns at all_, you can reach out using the `/admin` command, message us in #meta, contact us through our website or even DM us `@Techqueria` - we are here to help! 🌮
+_If you have any questions, comments or concerns at all_, you can reach out to us via #meta, contact us through our website or even DM us `@Techqueria` - we are here to help! 🌮
 
 https://techqueria.org/contact/
 
