@@ -28,15 +28,16 @@ Techqueria is a national 501c3 nonprofit that serves the largest community of La
 
 ### People - Who are your members?
 
-We serve Latinx professionals in the tech industry.
+Latinx professionals in the tech industry
 
 ### Purpose - Why does the community exist?
 
-So there are more Latinx leaders in tech which leads to more diversity in tech at highest levels which leads to a better world.
+To create more Latinx leaders in the tech industry which in turn will lead to a more diverse balance of power in the largest wealth generating field in the world
 
 ### Place - Where do members gather?
 
-Through all our online platforms and through in-person events in our chapters across the US
+- in all our online communities
+- in-person events in our chapters across the US
 
 ### Participation - What do members do?
 
@@ -48,7 +49,7 @@ Other things members do...
 
 - ask for advice/share advice
 - build a new Techqueria chapter
-- collaborating with other ERGs
+- collaborate with other ERGs
 - create lifelong partnerships and relationships
 - find a mentor who is also Latinx
 - get a new job
@@ -58,7 +59,7 @@ Other things members do...
 - hire Latinx in Tech
 - learn more about certain topics (product manageement, social entrepeanurship, front end, etc)
 - sponsor Techqueria
-- staying in the toop about tech in LATAM
+- stay in the toop about tech in LATAM
 - support other Latinx in Tech
 - transition to tech from another field
 - vent about workplace challenges
@@ -66,29 +67,35 @@ Other things members do...
 
 ### Policy - What are the values, guidelines and rules?
 
-We have a dedicated [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events.
+- [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events
 
 ### Promotion - How is this community discovered?
 
-- Word of mouth
-- In-person events
-- Online (we are #1 on Google for "latinx in tech" or "latinx tech")
+- in-person events
+- online (we are #1 on Google for "latinx in tech" or "latinx tech")
+- word of mouth
 
 ### Performance - How is success measured?
 
-- Online engagement (e.g. member growth, social media followers)
-- Offline engagmeent (e.g. number of Latinx professionals who attend our events)
-- Qualitative feedback (e.g. feedback from members via surveys)
+- offline engagmeent (e.g. number of Latinx professionals who attend our events)
+- online engagement (e.g. member growth, social media followers)
+- qualitative feedback (e.g. feedback from members via surveys)
 
 ## Chapters
 
-As of August 2019, we have 5 official chapters across the USA.
+We have 5 official chapters across the USA.
 
-1.  San Francisco, CA
-2.  Los Angeles, CA
-3.  New York, NY
-4.  Austin, TX
-5.  Chicago, IL
+1. San Francisco, CA
+2. Los Angeles, CA
+3. New York, NY
+4. Austin, TX
+5. Chicago, IL
+
+We are going to be 3 more chapters by January 2020.
+
+1. Denver, CO
+2. Atlanta, GA
+3. Portland, OR
 
 If you are interested in starting up a new chapter, reach out to us [in the #meta channel via Slack](/communities/slack/).
 
@@ -152,7 +159,7 @@ Ergo, the majority of our member base identify as mid-level engineers.
 
 ### August 19, 2019
 
-We have ~15,000+ member reach.
+We reach a 15,000+ member reach.
 
 - 5,000+ subscribers — MailChimp
 - 4,000+ members — Slack
