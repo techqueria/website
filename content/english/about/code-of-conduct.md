@@ -78,7 +78,7 @@ You can contact us using [https://techqueria.org/contact](https://techqueria.org
 
 ### Slack
 
-Within the Slack group, you can use the `/admin` command to reach out to an admin
+Within the Slack group, you can reach out to us via the `#meta` channel.
 
 For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/communities/slack/).
 

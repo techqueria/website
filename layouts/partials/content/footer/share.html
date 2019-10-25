@@ -7,7 +7,7 @@
 {{ end }}
 <!-- Share -->
 <div class="content mt-2">
-  <h2><span class="mr-sm">🌐</span>Share this page</h2>
+  <h2><span class="mr-sm">🌐</span>{{ i18n "share_this_page" }}</h2>
 </div>
 <div class="buttons">
   <!-- Twitter -->
@@ -15,27 +15,27 @@
     <span class="icon is-medium">
       <i class="fab fa-twitter"></i>
     </span>
-    <span>Share on Twitter</span>
+    <span>{{ i18n "share_on_twitter" }}</span>
   </a>
   <!-- Facebook -->
   <a class="button is-medium is-outlined is-primary" aria-label="Share on Facebook" class="fab fa-facebook" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" rel="noopener" target="_blank" title="Share on Facebook">
     <span class="icon is-medium">
       <i class="fab fa-facebook"></i>
     </span>
-    <span>Share on Facebook</span>
+    <span>{{ i18n "share_on_facebook" }}</span>
   </a>
   <!-- LinkedIn -->
   <a class="button is-medium is-outlined is-primary" aria-label="Share on LinkedIn" class="fab fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink | safeURL }}&title={{ $pageTitle }}&summary={{ .Summary }}&source={{ .Site.Title }}" rel="noopener" target="_blank" title="Share on LinkedIn">
     <span class="icon is-medium">
       <i class="fab fa-linkedin"></i>
     </span>
-    <span>Share on LinkedIn</span>
+    <span>{{ i18n "share_on_linkedin" }}</span>
   </a>
   <!-- Email -->
   <a class="button is-medium is-outlined is-primary" aria-label="Email this article" class="fa-email" href="mailto:?subject={{ .Site.Title }}&body={{ .Permalink | safeURL }}" rel="noopener" target="_blank" title="Email this article">
     <span class="icon is-medium">
       <i class="fas fa-envelope"></i>
     </span>
-    <span>Email</span>
+    <span>{{ i18n "email_this" }}</span>
   </a>
 </div>

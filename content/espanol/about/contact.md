@@ -8,10 +8,6 @@ image: "/assets/img/about/contact/_index.jpg"
 
 ## Formas de contactarnos
 
-### Slack
-
-Use el comando `/admin` en [nuestro espacio de trabajo Slack](/communities/slack/).
-
 ## Asociarse
 
 Siempre estamos buscando [socios y patrocinadores](/sponsors/) para ayudar a que nuestra misión avance. Podemos ayudar a promocionar su evento a una audiencia de Latinx, encontrar voluntarios para diferentes actividades o diseñar programas juntos que puedan beneficiar a la comunidad.
@@ -35,7 +31,5 @@ También nos gusta ayudar a otros grupos con sus eventos e ideas.
 ## Realimentación
 
 Siempre escuchamos sus comentarios y estamos listos para ayudar de cualquier manera que podamos.
-
-Use el comando `/admin` en el espacio de trabajo de Slack para comunicarse con nosotros más rápido.
 
 Si necesita una invitación a Slack, solicítela en [nuestra página de bienvenida de Slack](/slack/).

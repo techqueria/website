@@ -80,7 +80,7 @@ Threads let you respond directly to a message in a channel, keeping the replies,
 
 `code of conduct`
 
-All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out using the `/admin` command or contact us through our website. :taco:
+All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out to us via #meta or contact us through our website. :taco:
 
 https://techqueria.org/code-of-conduct/
 
@@ -282,7 +282,7 @@ If you can't meet in person, we recommend using one of the following for video c
 #### Leaving Cafecito Channels
 
 1. Leave any of the `#cafecito-` channels you might have joined since this is where Buñuelo pairs you up with someone else from that channel
-2. For any pairing you got in, there will be two meetup reminders messaged to you. Even if you leave the channel, you'll still get them so just expect those but if Buñuelo keeps persisting after that, contact an admin using `/admin`
+2. For any pairing you got in, there will be two meetup reminders messaged to you. Even if you leave the channel, you'll still get them so just expect those but if Buñuelo keeps persisting after that, reach out to us via `#meta`
 3. Okay, good to go - no more messages from Buñuelo!
 
 ### Countries
@@ -359,13 +359,9 @@ We love getting DMs from our members but we feel we're doing a disservice if it 
 
 Ergo, for any questions related to Slack, the website, volunteering, partnerships or really anything related to Techqueria — we ask that you please post in `#meta` to get a faster response.
 
-For sensitive convos, please use the `/admin` command.
-
 ### Contacting Admins
 
-You can contact an admin by using the command `/admin` in Slack followed by your message or you can reach out to us in `#meta`.
-
-![Admin](/assets/img/communities/slack/admin.png)
+You can contact an admin via the `#meta` channel.
 
 ## Questions, comments, or concerns? ℹ️
 

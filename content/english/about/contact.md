@@ -20,7 +20,9 @@ This email is accessible by Techqueria's [executive team and board members](/tea
 
 ## Reach out in Slack
 
-Reach out in the `#meta` channel or use the `/admin` command in [our Slack workspace](/communities/slack/).
+Within the Slack group, you can reach out to us via the `#meta` channel.
+
+For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/communities/slack/).
 
 For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
 

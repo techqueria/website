@@ -1,5 +1,5 @@
 ---
-title: "Terms of Service"
+title: "Términos de Servicio"
 description: "Al acceder a este sitio web, usted acepta estar sujeto a estos términos de servicio, a todas las leyes y regulaciones aplicables, y acepta que usted es responsable de cumplir con todas las leyes locales aplicables."
 ---
 

@@ -29,10 +29,6 @@ En resumen, esta es una comunidad profesional, así que por favor tenga respeto 
 
 El comportamiento no-profesional **no** es aceptable, por eso si usted siente que alguien está transgrediendo el Código de Conducta, póngase en contacto con un administrador y nosotros lo resolveremos.
 
-Puede contactar a un administrador usando el comando `/admin` en Slack seguido de su mensaje.
-
-![Admin](/assets/img/communities/slack/admin.png)
-
 ## Buenas Prácticas
 
 ### Utilice threads
