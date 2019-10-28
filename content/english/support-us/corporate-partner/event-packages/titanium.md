@@ -1,7 +1,7 @@
 ---
 title: "Titanium Event Package"
-description: "$30,000"
-price: 30000
+price: "$30,000"
+priceNumber: 30000
 ---
 
 More details coming

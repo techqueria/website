@@ -22,7 +22,7 @@
   {{ end }}
   <!-- Sort By Description -->
   {{ else if .Params.sortByPrice }}
-  {{ range sort $pages "Params.price" }}
+  {{ range sort $pages "Params.priceNumber" }}
   {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Default sorting option is By Title -->

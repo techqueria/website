@@ -35,6 +35,13 @@
   {{ dateFormat "Monday - January 2, 2006" .Date }}
 </p>
 {{ end }}
+<!-- Price -->
+{{ with .Params.price }}
+<p class="has-text-weight-light mt-sm is-size-7">
+  <span class="mr-sm">💵</span>
+  {{ . }}
+</p>
+{{ end }}
 <!-- Location -->
 {{ with .Params.location }}
 <p class="has-text-weight-light mt-sm is-size-7">
