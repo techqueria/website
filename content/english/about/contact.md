@@ -7,9 +7,9 @@ noTimeEstimate: true
 toc: true
 sitemap: true
 aliases:
-  - /contact/
-  - /about/contact/
-  - /message-us/
+- /contact/
+- /about/contact/
+- /message-us/
 ---
 
 ## Email
@@ -30,12 +30,18 @@ For technical support questions related to Slack, please contact [Slack support]
 
 Filling out the form below sends an email to our executive team.
 
-<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
+<form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--max-width-unset form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
-  {{< fields/name >}}
-  {{< fields/email >}}
-  {{< fields/organization >}}
-  {{< fields/title >}}
+  <div class="columns mb-0">
+    <div class="column pb-0">
+      {{< fields/name >}}
+      {{< fields/organization >}}
+    </div>
+    <div class="column pb-0">
+      {{< fields/email >}}
+      {{< fields/title >}}
+    </div>
+  </div>
   {{< fields/message required="true" help="Please provide any useful context so we can reply accordingly." label="Your message" >}}
   {{< fields/referral >}}
   {{< fields/submit >}}
@@ -57,11 +63,7 @@ We are looking for speakers, locations for our events, those who can sponsors pr
 
 In return, we can provide a spotlight for your organization in our events and networks.
 
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<noscript>Please enable JavaScript to enable the link to our Calendly.</noscript>
-
-<p>You're also welcome to <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/techqueria/hello'});return false;">set up a partnership call with us using Calendly</a>.</p>
+You're also welcome to [set up a partnership call with us using Calendly](https://calendly.com/techqueria/hello).</p>
 
 ## Want to meet in person?
 

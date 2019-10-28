@@ -45,19 +45,3 @@
     </span>
   </div>
 </div>
-<script>
-  const referralEl = document.getElementById("referral");
-  const referralOtherRadioEl = document.getElementById("referral_other_radio");
-  const referralOtherInputEl = document.getElementById("referral_other_input");
-
-  if (referralEl) {
-    referralEl.addEventListener('change', () => {
-      if (referralOtherRadioEl.checked) {
-        referralOtherInputEl.required = true;
-      } else {
-        referralOtherInputEl.required = false;
-      }
-    });
-  }
-
-</script>

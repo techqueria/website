@@ -53,6 +53,10 @@ iframe {
 form {
   max-width: 600px;
 
+  &.form--max-width-unset {
+    max-width: unset;
+  }
+
   &.form--centered {
     margin: 0 auto;
   }
