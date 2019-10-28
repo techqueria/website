@@ -1,8 +1,10 @@
 ---
 title: "Silver Event Package"
-description: "$6,000"
-price: 6000
+description: "$5,000"
+price: 5000
 ---
+
+More details coming
 
 ## Benefits
 

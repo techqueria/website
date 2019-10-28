@@ -4,4 +4,4 @@ description: "$20,000"
 price: 20000
 ---
 
-## Benefits
+More details coming

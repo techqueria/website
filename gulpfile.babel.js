@@ -153,16 +153,17 @@ gulp.task("hugo-dev", (done) => buildSite(done, [], "dev"));
 
 gulp.task("hugo-preview", (done) => buildSite(done, hugoArgsPreview, "dev"));
 
-gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", "pdf", (done) => {
+gulp.task("server", gulp.series("hugo-dev", "sass", "img", "js", (done) => {
   runServer("hugo-dev");
   done();
 }));
 
-gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", "pdf", (done) => {
+gulp.task("server-preview", gulp.series("hugo-preview", "sass", "img", "js", (done) => {
   runServer("hugo-preview");
   done();
 }));
-gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js", "pdf"));
+
+gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js"));
 
 // PRODUCTION
 gulp.task("hugo", (done) => buildSite(done, [], "prod"));

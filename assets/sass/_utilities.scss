@@ -148,3 +148,9 @@
 .u-justify-content--centered {
   justify-content: center !important;
 }
+
+// Width
+
+.u-max-width--mobile {
+  max-width: $mobile;
+}

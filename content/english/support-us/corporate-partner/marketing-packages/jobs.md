@@ -3,6 +3,8 @@ title: Job Opportunities
 description: Market your job opportunities to thousands of Latinx in Tech.
 ---
 
+More details coming
+
 ## 1 Month
 
 $250

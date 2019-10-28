@@ -1,0 +1,33 @@
+.quote {
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  position: relative;
+
+  blockquote {
+    background-color: $techqueria-white !important;
+    position: relative;
+    z-index: 20;
+  }
+
+  blockquote:before {
+    content: '❝';
+    font-size: 4rem;
+    height: 2rem;
+    left: -1rem;
+    position: absolute;
+    top: -3rem;
+    width: 2rem;
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+
+    &:before {
+      content: "\2014 \0020";
+      width: 5px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: Frances Coronel
-image: "/assets/img/team/frances-coronel.jpg"
-description: "Software Engineer, Slack"
+image: "/assets/img/team/frances-coronel-alt-2.jpg"
+description: "Co-Director, Techqueria"
 linkedin: fvcproductions
 twitter: fvcproductions
 github: fvcproductions

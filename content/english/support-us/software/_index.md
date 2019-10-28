@@ -1,3 +1,0 @@
----
-title: "Sponsor our software"
----

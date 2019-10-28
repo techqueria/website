@@ -2,13 +2,16 @@
 title: "Latinx in Product"
 description: "Join the Climate Corporation & Techqueria to celebrate Latinx Heritage Month "
 date: 2019-10-17
-image: "/assets/img/events/2019-10-17.jpeg"
+image: "/assets/img/events/2019-10-17-2.jpg"
 link: https://latinxinproduct.splashthat.com/
+photos: https://photos.app.goo.gl/Ju55c4vpN5SoX3yv6
 organizations:
   - "Climate Corporation"
 locations:
   - san-francisco
 ---
+
+![Banner](/assets/img/events/2019-10-17.jpeg)
 
 Join the Climate Corporation & Techqueria to celebrate Latinx Heritage Month 💃🏽
 

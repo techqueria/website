@@ -8,23 +8,23 @@ sortByPrice: true
 toc: true
 ---
 
-### Sponsor booth
+## Sponsor booth
 
 We will invite our Diamond sponsors to have a booth at certain Techqueria events separate from the ones hosted with the sponsor.
 
-### Logo in slides
+## Logo in slides
 
 The sponsor logo is showcased on slides in the beginning of all Techqueria events for one year.
 
-### Job postings
+## Job postings
 
 The monthly job postings are shared through the monthly email newsletter.
 
-### Social media posts
+## Social media posts
 
 The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
 
-### Marketing
+## Marketing
 
 - social media
 - newsletter
