@@ -30,11 +30,15 @@ const getTextValuesForMultipleCheckboxes = (checkboxEls, elementID) => {
 
 const validateOtherTextInput = (element, elementRadio, elementOtherInput) => {
   if (element) {
+    elementOtherInput.disabled = true;
+
     element.addEventListener('change', () => {
       if (elementRadio.checked) {
         elementOtherInput.required = true;
+        elementOtherInput.disabled = false;
       } else {
         elementOtherInput.required = false;
+        elementOtherInput.disabled = true;
       }
     });
   }
