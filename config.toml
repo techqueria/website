@@ -176,8 +176,8 @@ disqusShortname = "techqueria"
     url    = "https://www.meetup.com/techqueria/"
 [[menu.main]]
     parent = "Communities"
-    name   = "Newsletter"
-    url    = "/communities/newsletter/"
+    name   = "Pinterest"
+    url    = "https://pinterest.com/techqueria"
 [[menu.main]]
     parent = "Communities"
     name   = "Slack Workspace"
@@ -197,6 +197,10 @@ disqusShortname = "techqueria"
     url  = "/donate/"
 [[menu.main]]
     parent = "Donate"
+    name   = "Donate Space"
+    url    = "/donate/donate-space/"
+[[menu.main]]
+    parent = "Donate"
     name   = "Donate via Open Collective"
     url    = "https://opencollective.com/techqueria"
 [[menu.main]]
@@ -211,7 +215,7 @@ disqusShortname = "techqueria"
 [[menu.main]]
     parent = "Events"
     name   = "Community Calendar"
-    url    = "/events/#community-calendar"
+    url    = "/events/#upcoming-events"
 [[menu.main]]
     parent = "Events"
     name   = "Past Techqueria Events"
@@ -233,20 +237,24 @@ disqusShortname = "techqueria"
 
 [[menu.main]]
     parent = "Support Us"
-    name   = "Become a Speaker"
-    url    = "/support-us/speak"
+    name   = "Become a Community Partner"
+    url    = "/support-us/community-partner/"
 [[menu.main]]
     parent = "Support Us"
-    name   = "Become a Sponsor"
-    url    = "/support-us/#sponsorship-packages"
+    name   = "Become a Corporate Partner"
+    url    = "/support-us/corporate-partner/"
+[[menu.main]]
+    parent = "Support Us"
+    name   = "Become a Speaker"
+    url    = "/support-us/speak/"
+[[menu.main]]
+    parent = "Support Us"
+    name   = "Become a Software Sponsor"
+    url    = "/support-us/software-sponsor/"
 [[menu.main]]
     parent = "Support Us"
     name   = "Become a Volunteer"
     url    = "/support-us/volunteer/"
-[[menu.main]]
-    parent = "Support Us"
-    name   = "Donate Space"
-    url    = "/support-us/donate-space/"
 [[menu.main]]
     parent = "Support Us"
     name   = "Our Supporters"

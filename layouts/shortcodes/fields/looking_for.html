@@ -36,6 +36,7 @@
       Other
     </label>
     <div class="control has-icons-left mt-sm">
+      <input type="hidden" name="looking_for_text_value" id="looking_for_text_value" value="" />
       <input class="input" aria-label="Other selected" autocomplete="off" type="text" id="looking_for_other_input" name="looking_for_other_input" placeholder="If you selected other, enter it here">
       <span class="icon is-left">
         ➕
@@ -43,19 +44,3 @@
     </div>
   </div>
 </div>
-<script>
-  const lookingForEl = document.getElementById("looking_for");
-  const lookingForOtherCheckboxEl = document.getElementById("looking_for_other_checkbox");
-  const lookingForOtherInputEl = document.getElementById("looking_for_other_input");
-
-  if (lookingForEl) {
-    lookingForEl.addEventListener('change', () => {
-      if (lookingForOtherCheckboxEl.checked) {
-        lookingForOtherInputEl.required = true;
-      } else {
-        lookingForOtherInputEl.required = false;
-      }
-    });
-  }
-
-</script>

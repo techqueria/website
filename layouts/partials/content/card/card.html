@@ -2,7 +2,7 @@
 {{ if or (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.authors) (.Params.link) (.Params.photo) (.Params.video) }}
 <div class="card card-equal-height">
   <!-- Content -->
-  <a class="card-reset" href="{{ .RelPermalink }}">
+  <a class="card-reset" rel="noopener" href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
     {{ partial "content/card/card-content.html" . }}
   </a>
   <!-- Links -->
@@ -10,7 +10,7 @@
 </div>
 <!-- Card does not have links -->
 {{ else }}
-<a href="{{ .RelPermalink }}">
+<a rel="noopener" href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
   <div class="card card-equal-height">
     <!-- Content -->
     {{ partial "content/card/card-content.html" . }}

@@ -20,6 +20,11 @@
   {{ range sort $pages "Params.location" }}
   {{ partial "content/child.html" . }}
   {{ end }}
+  <!-- Sort By Description -->
+  {{ else if .Params.sortByPrice }}
+  {{ range sort $pages "Params.priceNumber" }}
+  {{ partial "content/child.html" . }}
+  {{ end }}
   <!-- Default sorting option is By Title -->
   {{ else }}
   {{ range $pages.ByTitle }}

@@ -64,19 +64,3 @@
     </span>
   </div>
 </div>
-<script>
-  const jobCategoryEl = document.getElementById("job_category");
-  const jobCategoryOtherRadioEl = document.getElementById("job_category_other_radio");
-  const jobCategoryOtherInputEl = document.getElementById("job_category_other_input");
-
-  if (jobCategoryEl) {
-    jobCategoryEl.addEventListener('change', () => {
-      if (jobCategoryOtherRadioEl.checked) {
-        jobCategoryOtherInputEl.required = true;
-      } else {
-        jobCategoryOtherInputEl.required = false;
-      }
-    });
-  }
-
-</script>

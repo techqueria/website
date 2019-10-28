@@ -91,7 +91,7 @@ We have 5 official chapters across the USA.
 4. Austin, TX
 5. Chicago, IL
 
-We are going to be 3 more chapters by January 2020.
+We are going to be launching 3 more chapters by January 2020.
 
 1. Denver, CO
 2. Atlanta, GA
@@ -107,15 +107,8 @@ The average amount of experience for our members based on that survey is 5 years
 
 Ergo, the majority of our member base identify as mid-level engineers.
 
-<div class="columns u-align-item--centered">
-  <div class="column is-half">
-    <p>Data is from a sample of 2,250 responses from Linkedin and intake surveys (2018).</p>
-    <p>The average amount of experience for our members based on that survey is 5 years.</p>
-    <p>Ergo, the majority of our member base identify as mid-level engineers.</p>
-  </div>
-  <div class="column is-half">
-    <canvas id="pie-chart"></canvas>
-  </div>
+<div class="u-align-item--centered u-max-width--mobile">
+  <canvas id="pie-chart"></canvas>
 </div>
 
 ## Timeline

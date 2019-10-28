@@ -58,6 +58,11 @@
   padding-bottom: 2rem !important;
 }
 
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -142,4 +147,10 @@
 
 .u-justify-content--centered {
   justify-content: center !important;
+}
+
+// Width
+
+.u-max-width--mobile {
+  max-width: $mobile;
 }

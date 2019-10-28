@@ -1,6 +1,6 @@
 ---
 title: Donate
-description: "Support our efforts to elevate Latinx in Tech. 💙"
+description: "Support our efforts to elevate Latinx in Tech. 🎗"
 image: "/assets/img/donate/_index.jpg"
 hideImage: true
 aliases:
