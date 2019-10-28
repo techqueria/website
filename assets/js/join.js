@@ -42,7 +42,7 @@ const validateOtherTextInput = (element, elementRadio, elementOtherInput) => {
       }
     });
   }
-}
+};
 
 // Form Fields
 window.addEventListener('DOMContentLoaded', () => {
