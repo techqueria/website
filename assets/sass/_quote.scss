@@ -10,8 +10,8 @@
     z-index: 20;
   }
 
-  blockquote:before {
-    content: '❝';
+  blockquote::before {
+    content: "❝";
     font-size: 4rem;
     height: 2rem;
     left: -1rem;
@@ -25,7 +25,7 @@
     font-weight: 500;
     position: relative;
 
-    &:before {
+    &::before {
       content: "\2014 \0020";
       width: 5px;
     }
