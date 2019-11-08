@@ -17,6 +17,7 @@ aliases:
   - /subscribe/
   - /refer/
   - /referral/
+  - communities/slack/join/
 ---
 
 ## Member Benefits
