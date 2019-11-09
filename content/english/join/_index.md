@@ -9,6 +9,7 @@ sitemap: true
 url: /join/
 aliases:
   - /become-a-member/
+  - /communities/slack/join/
   - /communities/slack/join-slack/
   - /email-newsletter/
   - /join-slack/
