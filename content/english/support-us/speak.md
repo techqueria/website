@@ -19,7 +19,7 @@ If you are interested in supporting Techqueria as an individual, one great way t
 - make new connections by letting the audience ask you questions after the talk
 - receive swag or money for your efforts and time as a small token of our appreciation
 
-We do provide speakers a 50 dollar reimbursement through [Open Collective](/donate/open-collective) for certain events.
+We provide speakers a $50 reimbursement through our [Open Collective](https://opencollective.com/techqueria) for certain events. Please ask the event lead for confirmation.
 
 ## As a speaker you commit to...
 

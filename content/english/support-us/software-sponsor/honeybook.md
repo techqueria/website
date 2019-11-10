@@ -1,10 +1,9 @@
 ---
 title: "Honeybook"
-description: "$200 per year"
+description: "Techqueria uses Honeybook to manage the lifecycle of our partners."
 link: http://share.honeybook.com/frances68394
 image: "/assets/img/support-us/software-sponsor/honeybook.png"
 price: "$200 per year"
-priceNumber: 200
 sponsorAvailable: true
 ---
 

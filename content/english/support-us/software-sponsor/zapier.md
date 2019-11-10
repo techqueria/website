@@ -1,9 +1,8 @@
 ---
 title: "Zapier"
-description: "$600 per year"
+description: "Techqueria uses Zapier to easily automate workflows between hundreds of different applications."
 image: "/assets/img/support-us/software-sponsor/zapier.png"
 price: "$600 per year"
-priceNumber: "600"
 sponsorAvailable: true
 ---
 

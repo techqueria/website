@@ -32,6 +32,12 @@
 {{- if not .PublishDate.IsZero -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ dateFormat "Monday - January 2, 2006" .Date -}}</p>
 {{- end -}}
+<!-- Sponsor Available -->
+{{- if (eq .Params.sponsorAvailable true) -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Sponsorship available</p>
+{{ else if (eq .Params.sponsorAvailable false) }}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Sponsorship not available</p>
+{{- end -}}
 <!-- Price -->
 {{ with .Params.price -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💵</span>{{ . }}</p>
@@ -45,12 +51,6 @@
 {{ range .Params.organizations -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🏢</span>{{ . }}</p>
 {{- end -}}
-{{- end -}}
-<!-- Sponsor Available -->
-{{- if (eq .Params.sponsorAvailable true) -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Sponsorship available</p>
-{{ else if (eq .Params.sponsorAvailable false) }}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Sponsorship not available</p>
 {{- end -}}
 <!-- Publication -->
 {{ with .Params.publication -}}

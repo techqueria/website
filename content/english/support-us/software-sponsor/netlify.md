@@ -1,10 +1,9 @@
 ---
 title: "Netlify"
-description: "$150 per year"
+description: "Techqueria uses Netlify for hosting and deployment of this website."
 link: https://netlify.com
 image: "/assets/img/support-us/software-sponsor/netlify.jpg"
 price: "$150 per year"
-priceNumber: 150
 sponsorAvailable: true
 ---
 
