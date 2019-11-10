@@ -1,6 +1,7 @@
 ---
 title: Custom Packages
 description: "Create a custom package using our pricing calculator. 📐"
+image: "/assets/img/support-us/custom-packages.jpg"
 ---
 
 <div class="uCalc_238347"></div>

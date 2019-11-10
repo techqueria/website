@@ -6,5 +6,3 @@ image: "/assets/img/supporters/huge.png"
 categories:
   - past-supporter
 ---
-
-<!-- TODO: Add related event/sponsorship details -->

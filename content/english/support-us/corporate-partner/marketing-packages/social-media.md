@@ -1,9 +1,10 @@
 ---
 title: Social Media Visibility
 description: Reach thousands of Latinx in Tech through Techqueria's social media platforms.
+image: "/assets/img/support-us/marketing-packages/social-media.jpg"
 ---
 
-More details coming
+If you're interested in social media visibility packages, please [book a partnership call](https://calendly.com/techqueria) so we can share more details.
 
 ## 1 Month
 

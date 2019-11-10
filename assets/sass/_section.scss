@@ -1,22 +1,22 @@
 .section {
-  padding: 4rem 2rem;
+  padding: 4em 2em;
 
   @media screen and (max-width: $tablet) {
-    padding: 1.5rem;
+    padding: 1.5em;
   }
 
   &.page {
-    padding-top: 2rem;
+    padding-top: 2em;
   }
 
   &.homepage {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 2em;
+    padding-top: 2em;
   }
 }
 
 .page__team {
   .card .card-image--figure {
-    height: 20em;
+    height: 250px;
   }
 }

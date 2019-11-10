@@ -235,12 +235,11 @@ linkedin: fvcproductions
 twitter: fvcproductions
 github: fvcproductions
 flag: 🇵🇪
-locations:
-  - san-francisco
 categories:
   - board-member
   - cto
   - patreon-friend
+  - san-francisco
 ---
 ```
 
@@ -249,8 +248,6 @@ Note that you only need usernames for LinkedIn, Twitter & GitHub profiles.
 The flag identifies the heritage of the member and is optional.
 
 Location can be `san-francisco`, `nyc`, `los-angeles`, `austin` and `chicago`.
-
-TODO: The roles and location will eventually be moved to `categories` in the future but currently they help showcase the different roles of the team members without having to manually repeat any strings.
 
 ### Events
 

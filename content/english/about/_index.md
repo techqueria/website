@@ -12,6 +12,10 @@ aliases:
   - /about-techqueria/
 ---
 
+## Overview
+
+{{< about >}}
+
 ## Mission Statement
 
 To provide Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
@@ -107,7 +111,7 @@ The average amount of experience for our members based on that survey is 5 years
 
 Ergo, the majority of our member base identify as mid-level engineers.
 
-<div class="u-align-item--centered u-max-width--mobile">
+<div class="has-text-centered u-align-item--centered u-max-width--tablet m-auto mt-2 mb-2">
   <canvas id="pie-chart"></canvas>
 </div>
 

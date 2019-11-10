@@ -1,7 +1,7 @@
 .quote {
   justify-content: center;
-  margin: 2rem 0;
-  padding: 1rem;
+  margin: 2em 0;
+  padding: 1em;
   position: relative;
 
   blockquote {
@@ -12,12 +12,12 @@
 
   blockquote::before {
     content: "❝";
-    font-size: 4rem;
-    height: 2rem;
-    left: -1rem;
+    font-size: $size-1;
+    height: 3em;
+    left: -.65em;
     position: absolute;
-    top: -3rem;
-    width: 2rem;
+    top: -.8em;
+    width: 3em;
   }
 
   cite {
