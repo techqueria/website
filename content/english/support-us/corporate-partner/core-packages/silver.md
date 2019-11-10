@@ -5,6 +5,7 @@ image: "/assets/img/support-us/corporate-partner/core-packages/silver-package.pn
 pricing: true
 toc: true
 weight: 5
+noTimeEstimate: true
 aliases:
   - /support-us/corporate-partner/core-packages/silver/
 ---
