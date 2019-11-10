@@ -5,6 +5,7 @@ image: /assets/img/support-us/corporate-partner/core-packages/diamond-package.pn
 pricing: true
 toc: true
 weight: 1
+noTimeEstimate: true
 aliases:
 - /support-us/corporate-partner/core-packages/diamond/
 ---

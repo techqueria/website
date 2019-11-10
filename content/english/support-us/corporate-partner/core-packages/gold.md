@@ -5,6 +5,7 @@ image: "/assets/img/support-us/corporate-partner/core-packages/gold-package.png"
 pricing: true
 toc: true
 weight: 4
+noTimeEstimate: true
 aliases:
   - /support-us/corporate-partner/core-packages/gold/
 ---

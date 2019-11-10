@@ -5,6 +5,7 @@ image: "/assets/img/support-us/corporate-partner/core-packages/platinum-package.
 pricing: true
 toc: true
 weight: 3
+noTimeEstimate: true
 aliases:
   - /support-us/corporate-partner/core-packages/platinum/
 ---
