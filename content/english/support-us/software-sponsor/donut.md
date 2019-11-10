@@ -1,9 +1,9 @@
 ---
 title: Donut
 description: "Techqueria uses Donut for #cafecito channels in Slack and with a sponsor, we can use Donut to facilitate thousands of connections between Latinx professionals in the tech industry."
+image: "/assets/img/support-us/software-sponsor/donut.jpg"
 link: https://donut.com?source=techqueria
-image: "/assets/img/support-us/software-sponsors/donut.jpg"
-price: "$5,000"
+price: "$5,000 per year"
 priceNumber: 5000
 sponsorAvailable: true
 ---

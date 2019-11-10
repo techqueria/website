@@ -2,7 +2,7 @@
 title: "Making the Leap into Tech: The Unconventional Path"
 date: 2016-05-05
 link: https://www.meetup.com/techqueria/events/230381934/
-locations:
+categories:
   - san-francisco
 organizations:
   - "Dev Bootcamp"

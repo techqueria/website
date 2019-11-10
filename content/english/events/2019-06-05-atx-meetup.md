@@ -4,7 +4,7 @@ description: "Looking to meet more Latinx's in Tech? Come grab a drink and conne
 date: 2019-06-05
 link: https://www.eventbrite.com/e/techqueria-meet-up-tickets-62657254535/
 image: "/assets/img/events/2019-06-05.jpeg"
-locations:
+categories:
   - austin
 organizers:
   - "Darlene Santoyo"

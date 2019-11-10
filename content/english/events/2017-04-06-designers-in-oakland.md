@@ -6,7 +6,7 @@ link: https://www.meetup.com/techqueria/events/237768494/
 image: https://i.imgur.com/UHZUWS7.jpg
 photos: https://photos.app.goo.gl/h3jtdoXhfqqSmk8q9
 video: https://www.youtube.com/watch?v=oRvby76zq4Y&feature=youtu.be
-locations:
+categories:
   - san-francisco
 organizations:
   - "Kapor Center"

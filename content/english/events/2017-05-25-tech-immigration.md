@@ -2,7 +2,7 @@
 title: "Tech + Immigration Talks at Dropbox"
 date: 2017-05-25
 link: https://www.meetup.com/techqueria/events/239378376/
-locations:
+categories:
   - san-francisco
 organizations:
   - "Dropbox"

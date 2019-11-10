@@ -1,7 +1,7 @@
 ---
 title: "Donar espacio"
 description: "Donar espacio para eventos de Techqueria proporciona una oportunidad fantástica para que nuestrso miembros puedan aprender sobre el ambiente de su compañía mientras que también apoya el crecimiento y ascenso de nuestros miembros."
-image: "/assets/img/support-us/donate-space.jpg"
+image: "/assets/img/donate/donate-space.jpg"
 ---
 
 Eventos de Techqueria típicamente toman lugar en compañías distintas a través de EEUU.

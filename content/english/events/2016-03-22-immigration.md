@@ -2,7 +2,7 @@
 title: "Immigration with Gabriel Markoff"
 date: 2016-03-22
 link: https://www.meetup.com/techqueria/events/228831195/
-locations:
+categories:
   - san-francisco
 organizations:
   - "ECO-SYSTM"

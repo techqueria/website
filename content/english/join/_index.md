@@ -48,14 +48,14 @@ If you do not identify as Latinx, you will still receive an invitation as a mult
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Member">
   {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
   {{< fields/email help="When signing up, please use a personal email address to avoid being locked out if you lose access to your work or school email. Make sure to check for typos in your email as this is usually the main reason someone doesn't receive an invite." >}}
-  {{< fields/pronouns >}}
-  {{< fields/title label="What is your current role?" help="e.g. Software Engineer, Recruiter, Product Designer, Student, etc." >}}
+  {{< fields/location >}}
   {{< fields/organization label="Where do you currently work or study?" >}}
+  {{< fields/title label="What is your current role?" help="e.g. Software Engineer, Recruiter, Product Designer, Student, etc." >}}
   {{< fields/job_category >}}
   {{< fields/yoe >}}
-  {{< fields/linkedin >}}
+  {{< fields/pronouns >}}
   {{< fields/age >}}
-  {{< fields/location >}}
+  {{< fields/linkedin >}}
   {{< fields/latinx help="You will get an invite either way but our community primarily serves Latinx in Tech." >}}
   {{< fields/tech >}}
   {{< fields/message label="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." placeholder="Add your blurb here" name="why_techqueria" required="true" >}}

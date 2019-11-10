@@ -1,5 +1,6 @@
 ---
 title: "Become a Software Sponsor"
-description: "At a lower pricing tier than events, software sponsorship provides a more accessible way to showcase your support. More details to come."
-image: "/assets/img/support-us/software-sponsors/_index.jpg"
+description: "At a lower pricing tier than event packages, software sponsorships provide a more accessible way to showcase your support."
+image: "/assets/img/support-us/software-sponsor/_index.jpg"
+hideImage: true
 ---

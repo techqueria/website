@@ -3,7 +3,7 @@ title: "Latinx Designers and Allies"
 date: 2018-02-22
 link: https://www.meetup.com/techqueria/events/247655214/
 image: "/assets/img/events/2018-02-22.jpg"
-locations:
+categories:
   - san-francisco
 organizations:
   - "Climate Corporation"

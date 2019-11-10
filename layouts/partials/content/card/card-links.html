@@ -8,7 +8,7 @@
     <!-- GitHub -->
     {{- if .Params.github -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">GitHub Profile</a></p>{{- end -}}
     <!-- Author Links -->
-    {{- .Render "author-link" -}}
+    {{- .Render "custom/author-link" -}}
     <!-- External Link -->
     {{- if .Params.link -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">{{ if or (in .Params.link "meetup.com") (in .Params.link "eventbrite.com") (in .Params.link "splashthat.com") }}🎟{{ else }}🌐{{ end }}</span><a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ if in .Params.link "meetup.com" }}Meetup{{ else if in .Params.link "eventbrite.com" }}Eventbrite{{ else if in .Params.link "splashthat.com" }}Splashthat{{ else }}Learn more{{ end }}</a></p>{{- end -}}
     <!-- Photos -->

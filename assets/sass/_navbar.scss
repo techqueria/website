@@ -36,15 +36,7 @@
   .navbar-item,
   .navbar-link {
     font-weight: $weight-medium;
-    padding: 0.5em 1.5em;
-
-    @media screen and (max-width: $mobile-s) {
-      padding: 0.5em 0.75em;
-    }
-  }
-
-  .navbar-item--social {
-    padding: 1em 2em;
+    padding: 10px 20px;
   }
 
   .navbar-item:focus-within,
@@ -71,6 +63,7 @@
     .navbar-item,
     .navbar-link {
       @extend .has-text-weight-normal;
+      font-size: $size-8;
 
       &:hover {
         border-radius: $radius;

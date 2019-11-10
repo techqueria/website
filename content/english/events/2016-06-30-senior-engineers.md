@@ -2,7 +2,7 @@
 title: "Fireside Chat: Senior Engineers"
 date: 2016-06-30
 link: https://www.meetup.com/techqueria/events/231776275/
-locations:
+categories:
   - san-francisco
 organizations:
   - "Dev Bootcamp"
