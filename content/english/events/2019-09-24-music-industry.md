@@ -4,7 +4,7 @@ date: 2019-09-24
 description: "Celebrate Hispanic Heritage Month with Techqueria, Jopwell and Splice; get some empanadas, drinks and enjoy the music!"
 image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F71940651%2F249256871414%2F1%2Foriginal.20190907-190746?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=290b4989beb5f386bbdd53d6f720b92b"
 link: "https://www.eventbrite.com/e/panel-being-latinx-in-the-music-industry-tickets-71922808055"
-locations:
+categories:
   - nyc
 organizations:
   - "Jopwell"

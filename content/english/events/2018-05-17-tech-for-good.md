@@ -4,7 +4,7 @@ description: "Techqueria & Latinx@Twilio invites you to join the conversation of
 date: 2018-05-17
 link: https://latinxtechforgood.splashthat.com/
 image: "/assets/img/events/2018-05-17.jpg"
-locations:
+categories:
   - "san-francisco"
 organizations:
   - "Twilio"

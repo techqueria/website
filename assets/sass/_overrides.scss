@@ -3,11 +3,6 @@
 }
 
 .button,
-.dropdown-item {
-  font-size: inherit;
-}
-
-.button,
 .file-cta,
 .file-name,
 .input,
@@ -21,7 +16,6 @@
 }
 
 .breadcrumb {
-  font-size: inherit;
   overflow: hidden;
   white-space: normal;
 }
@@ -74,6 +68,10 @@
   }
 }
 
+.container {
+  max-width: 1100px;
+}
+
 .container.is-fluid {
   margin: 0;
 }
@@ -94,6 +92,8 @@ a,
   }
 }
 
+.control,
+.input,
 button,
 input,
 label,
@@ -104,7 +104,7 @@ textarea {
 }
 
 ol li img {
-  margin: 2rem;
+  margin: 2em;
 }
 
 // One offs
@@ -134,8 +134,8 @@ a.image-external-plain:after {
 .page--single {
   margin: 0 auto;
   max-width: $laptop;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   position: relative;
 
   @media screen and (min-width: $laptop) {

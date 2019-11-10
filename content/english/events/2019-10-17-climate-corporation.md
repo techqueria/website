@@ -7,7 +7,7 @@ link: https://latinxinproduct.splashthat.com/
 photos: https://photos.app.goo.gl/Ju55c4vpN5SoX3yv6
 organizations:
   - "Climate Corporation"
-locations:
+categories:
   - san-francisco
 ---
 

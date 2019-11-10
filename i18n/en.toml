@@ -195,3 +195,11 @@ other = "Share on LinkedIn"
 
 [email_this]
 other = "Email"
+
+# partnership-call.html
+
+[partnership_call_title]
+other = "Book a partnership call"
+
+[partnership_call_paragraph_js]
+other = "Enable JavaScript in order to use the Calendly widget."

@@ -4,7 +4,7 @@ description: "Cal State LA is excited to partner with Techqueria LA for a panel 
 date: 2017-09-28
 link: https://www.eventbrite.com/e/techqueria-las-september-meetup-creating-community-and-overcoming-imposter-syndrome-tickets-38025008825
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35581035%2F205844997693%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=fb7f31ce6d45a99a67b604e17d697ecf
-locations:
+categories:
   - "los-angeles"
 organizations:
   - "Cal State LA"

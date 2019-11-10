@@ -4,7 +4,7 @@ description: "Join fellow Techqueria ladies and other underrepresented women in 
 date: 2018-03-27
 link: http://tech.adroll.com/events/2018-03-27-17-30-techqueria-workshop/
 image: "/assets/img/events/2018-03-27/2018-03-27-1.jpeg"
-locations:
+categories:
   - "san-francisco"
 organizations:
   - "AdRoll"

@@ -6,5 +6,3 @@ image: "/assets/img/supporters/google.png"
 categories:
   - past-supporter
 ---
-
-<!-- TODO: Add related event/sponsorship details -->

@@ -7,7 +7,7 @@ link: https://www.eventbrite.com/e/panel-breaking-into-management-tickets-603800
 video: https://youtu.be/sYQKpHn6niA
 aliases:
   - /events/2019/05/14/panel-breaking-into-management-nyc/
-locations:
+categories:
   - nyc
 organizations:
   - "DigitalOcean"

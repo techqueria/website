@@ -6,5 +6,3 @@ image: "/assets/img/supporters/i-am-an-immigrant.png"
 categories:
   - past-supporter
 ---
-
-<!-- TODO: Add related event/sponsorship details -->

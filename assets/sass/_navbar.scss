@@ -1,6 +1,8 @@
 .navbar {
   align-content: center;
+  font-size: $size-6;
   justify-content: center;
+  min-height: 5rem;
 
   .navbar-menu {
     box-shadow: none;
@@ -12,7 +14,7 @@
   }
 
   .navbar-burger {
-    height: inherit;
+    height: 5rem;
     width: 3em;
 
     span {
@@ -29,24 +31,12 @@
     &.has-dropdown {
       padding: 0;
     }
-
-    &:hover {
-      background-color: $techqueria-white !important;
-    }
   }
 
   .navbar-item,
   .navbar-link {
     font-weight: $weight-medium;
-    padding: 0.5rem 1.5rem;
-
-    @media screen and (max-width: $mobile-s) {
-      padding: 0.5rem 0.75rem;
-    }
-  }
-
-  .navbar-item--social {
-    padding: 1rem 2rem;
+    padding: 10px 20px;
   }
 
   .navbar-item:focus-within,
@@ -73,6 +63,7 @@
     .navbar-item,
     .navbar-link {
       @extend .has-text-weight-normal;
+      font-size: $size-8;
 
       &:hover {
         border-radius: $radius;

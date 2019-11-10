@@ -5,7 +5,7 @@ date: 2018-04-05
 link: https://www.eventbrite.com/e/navigating-the-tech-workplace-as-latinx-tickets-44317705450#
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42798837%2F249256871414%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C2160%2C1080&s=ff9169ffdf4010f84dd3aebbb638e6a7
 video: https://www.youtube.com/watch?v=t7lxQeaR6jI&feature=youtu.be
-locations:
+categories:
   - "nyc"
 organizations:
   - "Spotify"

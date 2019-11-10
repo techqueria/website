@@ -15,14 +15,9 @@
   {{ range $pages.ByDate }}
   {{ partial "content/child.html" . }}
   {{ end }}
-  <!-- Sort By Location -->
-  {{ else if .Params.sortByLocation }}
-  {{ range sort $pages "Params.location" }}
-  {{ partial "content/child.html" . }}
-  {{ end }}
-  <!-- Sort By Description -->
-  {{ else if .Params.sortByPrice }}
-  {{ range sort $pages "Params.priceNumber" }}
+  <!-- Sorting Option: By Weight -->
+  {{ else if .Params.sortByWeight }}
+  {{ range $pages.ByWeight }}
   {{ partial "content/child.html" . }}
   {{ end }}
   <!-- Default sorting option is By Title -->

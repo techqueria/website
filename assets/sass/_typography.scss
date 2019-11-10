@@ -17,22 +17,6 @@ textarea {
   font-family: $font-family !important;
 }
 
-button,
-input,
-select,
-textarea {
-  font-family: inherit !important;
-}
-
-label,
-textarea,
-input,
-span,
-button,
-pre code {
-  font-family: $font-family !important;
-
-  @media screen and (min-width: $mobile) {
-    font-size: initial !important;
-  }
+.menu {
+  font-size: $size-7;
 }

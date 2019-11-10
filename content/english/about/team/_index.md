@@ -1,7 +1,7 @@
 ---
 title: Team
 description: "Techqueria is possible thanks to the work of lots of organizers, mentors, sponsors and advisors. 🎈"
-layout: "page-team"
+layout: "custom/page-team"
 image: "/assets/img/team/_index.jpg"
 hideImage: true
 aliases:

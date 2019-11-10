@@ -3,7 +3,7 @@ title: Support Us
 description: "Help us grow the largest Latinx in Tech community by becoming a partner, sponsor, speaker or volunteer. 💙"
 hideImage: true
 image: "/assets/img/support-us/_index.jpg"
-layout: "page-support-us"
+layout: "custom/page-support-us"
 noTimeEstimate: true
 sitemap: true
 aliases:
