@@ -1,6 +1,6 @@
 ---
 title: Donut
-description: "Techqueria uses Donut for #cafecito channels in Slack and with a sponsor, we can use Donut to facilitate thousands of connections between Latinx professionals in the tech industry. $5,000 per year."
+description: "Techqueria uses Donut for #cafecito channels in Slack and with a sponsor, we can use Donut to facilitate thousands of connections between Latinx professionals in the tech industry."
 image: "/assets/img/support-us/software-sponsor/donut.jpg"
 link: https://donut.com?source=techqueria
 price: "$5,000 per year"
@@ -15,10 +15,10 @@ Strengthen your team’s relationships, knowledge, and collaboration.
 
 Launch coffee, lunch, mentorship, or job shadowing programs in just seconds. Donut introduces people who don’t know each other well on teams of all sizes via direct message, and encourages them to meet or chat remotely.
 
-- Create multiple Slack pairing channels for different office locations, teams, or interests, like #sf-coffee-buddies or #pingpong-roulette.
-- Customize intro messages, frequency, or group size.
-- Get insights on your team’s connections.
-- Welcome new hires, and introduce them to onboarding buddies or other teammates.
+- Create multiple Slack pairing channels for different office locations, teams, or interests
+- Customize intro messages, frequency, or group size
+- Get insights on your team’s connections
+- Welcome new members, and introduce them to onboarding buddies or other teammates
 
 ## Sponsorship
 
@@ -28,7 +28,6 @@ Our Donut sponsor will
 
 In exchange, Techqueria will
 
-- include your company name and link as part of our onboarding process within Donut (meaning that every new member of Techqueria will learn about your org
-- )
+- include your company name and link as part of our onboarding process within Donut (meaning that every new member of Techqueria will learn about your org)
 - showcase your company under "Software Sponsors" on the Supporters page
-- provide an event package worth $1,250 to your company
+- provide marketing on social media/newsletter worth $1,250 to your company
