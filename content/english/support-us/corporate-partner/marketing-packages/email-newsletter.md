@@ -1,29 +1,30 @@
 ---
-title: Social Media Visibility
-description: Reach thousands of Latinx in Tech through Techqueria's social media platforms.
-image: "/assets/img/support-us/corporate-partner/marketing-packages/social-media.jpg"
-weight: 2
+title: Email Newsletter
+description: "Share your call to action with thousands of Latinx in Tech."
+image: "/assets/img/support-us/corporate-partner/marketing-packages/jobs.jpg"
+weight: 1
 noTimeEstimate: true
 toc: true
+aliases:
+  - /support-us/corporate-partner/marketing-packages/jobs/
 ---
 
 ## Overview
 
-Sharing your company with Techqueria's social media networks is a great way of reaching the Latinx in Tech community.
+Support our members’ growth with opportunities to level up in their career by engaging directly with thousands of Latinx in Tech.
 
-We post on the following platforms:
+As of 11/17/19, our email newsletter has 8,100+ contacts with an average open rate of ~49% and an average click through rate of ~25%.
 
-1. Twitter — https://twitter.com/techqueria
-2. Facebook Page — https://facebook.com/techqueria
-3. LinkedIn Page — https://linkedin.com/company/techqueria
-4. Instagram — https://instagram.com/techqueriaorg
-5. Pinterest — https://pinterest.com/techqueria
+### Past Newsletters
+
+- [September 2019](http://techqueria-6002647.hs-sites.com/september-2019-updates-%EF%B8%8F) (San Francisco)
+- [October 2019](https://preview.hs-sites.com/_hcms/preview/content/18737707527?portalId=6002647&_preview=true&cacheBust=0&preview_key=yNaFjYSr&from_buffer=false) (Global)
 
 ## Process
 
 1. You submit the form below with details which includes payment
 2. We reach out to confirm details
-3. We share your CTA through all 5 of our social media platforms starting the following month
+3. We share your CTA in our email newsletter starting the following month
 
 ## Call to Actions
 
@@ -46,15 +47,15 @@ Title, Company — Location
 
 ### 1 Month
 
-We charge $200 per month for a call to action shared through our social media accounts.
+We charge $250 per month for a call to action shared in our email newsletter.
 
 ### 6 Months
 
-$1,080 (10% off)
+$1,350 (10% off)
 
 ### 12 Months
 
-$1,920 (20% off)
+$2,400 (20% off)
 
 ## Disclaimers
 
@@ -62,11 +63,11 @@ We have a max of 4 call to actions from the same organization that can be shared
 
 We do not allow for refunds so please be sure of your purchase.
 
-Techqueria has a strict policy in place to not partner with companies that have an active contract with ICE.
+Techqueria has a strict policy in place to not partner with companies that work with ICE.
 
 ## Interested?
 
-If you're interested in social media marketing packages, please submit your details and make your payment via <a href="https://techqueria.typeform.com/to/GveLjJ" rel="noopener">the form</a> below.
+If you're interested in email newsletter marketing packages, please submit your details and make your payment via <a href="https://techqueria.typeform.com/to/GveLjJ" rel="noopener">the form</a> below.
 
 <div class="typeform-widget" data-url="https://techqueria.typeform.com/to/GveLjJ" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div>
 

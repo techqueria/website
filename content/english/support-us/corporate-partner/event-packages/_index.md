@@ -8,7 +8,8 @@ sortByWeight: true
 toc: true
 aliases:
   - /support-us/corporate-partner/core-packages/
-  - /support-us/corporate-partner/core-packages/
+  - /support-us/corporate-partner/event-packages/
+  - /event-packages/
 ---
 
 ## Core Sponsorship Tiers

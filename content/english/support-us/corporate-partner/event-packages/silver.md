@@ -1,29 +1,30 @@
 ---
-title: Diamond Package
-description: "$50,000 per year"
-image: /assets/img/support-us/corporate-partner/core-packages/diamond-package.png
+title: "Silver Package"
+description: "$5,000 per year"
+image: "/assets/img/support-us/corporate-partner/core-packages/silver-package.png"
 pricing: true
 toc: true
-weight: 1
+weight: 5
 noTimeEstimate: true
 aliases:
-- /support-us/corporate-partner/core-packages/diamond/
+  - /support-us/corporate-partner/core-packages/silver/
+  - /support-us/corporate-partner/event-packages/silver/
 ---
 
-_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria) so we can share more details._
+_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello) so we can share more details._
 
 This Agreement (the **"Agreement"**) is entered on **DATE** (the **"Effective Date"**), by and between **CLIENT** (the **"Partner"**) and Techqueria (the **"Planner"**), collectively "the **Parties.**
 
 ## 1. Description
 
-Partner intends to commit to the **DIAMOND TIER PACKAGE**:
+Partner intends to commit to the **SILVER TIER PACKAGE**:
 
 ### Planner Duties
 
 Partner engages Planner's services to perform the following duties over the period of one year, effective from the contract is signed:
 
 - Per Year
-  - Host **4** events with the Partner
+  - Host **1** event with the Partner
 - Per Event
   - Create an event page (hosted through Splashthat, Eventbrite, Meetup or our website)
   - Design slides showcasing speakers and Partner
@@ -36,15 +37,7 @@ Partner engages Planner's services to perform the following duties over the peri
   - Recruit volunteers to help with registration (if applicable)
   - Share the attendee list with the Partner which includes name, job function, current organization and LinkedIn URL
   - Source up to **4** speakers and 1 moderator through the Techqueria community
-  - **(Diamond & Titanium Tier)** Upload a video recording of the event onto [Planner's YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ) within 1 month after event
-  - **(Diamond & Titanium Tier)** Write 1 blog post recap of the vent within 1 month after event
-- Per Month
-  - **4** job postings shared on Planner's monthly email newsletter
-  - **4** social media posts shared on Planner's social media platforms*
-    - Included: [Twitter](https://twitter.com/techqueria), [Facebook Page](https://facebook.com/techqueria), [Facebook Group](https://facebook.com/groups/techqueria), [LinkedIn Page](https://linkedin.com/company/techqueria), [Instagram](https://instagram.com/techqueria) and [Pinterest](https://pinterest.com/techqueria)
 - Visibility
-  - **(Diamond Tier)** Logo of Partner showcased in event slides for all Techqueria events
-  - **(Diamond & Titanium Tier)** Logo of Partner showcased in all monthly email newsletters (separate from job postings)
   - Logo of Partner showcased on Planner's website on ["Supporters"](https://techqueria.org/supporters/) section
 - Support
   - A private Slack channel will be created in [Planner's Slack Workspace](https://techqueria.org/slack) to answer any questions between Partner and Planner
@@ -75,9 +68,9 @@ Partner is also encouraged to provide the following for each event but it is not
 
 The Parties agree to the following Payment and Payment Terms:
 
-Value of this package is **$55,000**.
+Value of this package is **$5,200**.
 
-Total Fee for **DIAMOND TIER** Sponsorship is **$50,000**.
+Total Fee for **SILVER TIER** Sponsorship is **$5,000**.
 
 ## 3. Cancellation.
 

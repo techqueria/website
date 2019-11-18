@@ -1,29 +1,30 @@
 ---
-title: "Gold Package"
-description: "$10,000 per year"
-image: "/assets/img/support-us/corporate-partner/core-packages/gold-package.png"
+title: "Platinum Package"
+description: "$20,000 per year"
+image: "/assets/img/support-us/corporate-partner/core-packages/platinum-package.png"
 pricing: true
 toc: true
-weight: 4
+weight: 3
 noTimeEstimate: true
 aliases:
-  - /support-us/corporate-partner/core-packages/gold/
+  - /support-us/corporate-partner/core-packages/platinum/
+  - /support-us/corporate-partner/event-packages/platinum/
 ---
 
-_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria) so we can share more details._
+_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello) so we can share more details._
 
 This Agreement (the **"Agreement"**) is entered on **DATE** (the **"Effective Date"**), by and between **CLIENT** (the **"Partner"**) and Techqueria (the **"Planner"**), collectively "the **Parties.**
 
 ## 1. Description
 
-Partner intends to commit to the **GOLD TIER PACKAGE**:
+Partner intends to commit to the **PLATINUM TIER PACKAGE**:
 
 ### Planner Duties
 
 Partner engages Planner's services to perform the following duties over the period of one year, effective from the contract is signed:
 
 - Per Year
-  - Host **1** event with the Partner
+  - Host **2** events with the Partner
 - Per Event
   - Create an event page (hosted through Splashthat, Eventbrite, Meetup or our website)
   - Design slides showcasing speakers and Partner
@@ -37,8 +38,8 @@ Partner engages Planner's services to perform the following duties over the peri
   - Share the attendee list with the Partner which includes name, job function, current organization and LinkedIn URL
   - Source up to **4** speakers and 1 moderator through the Techqueria community
 - Per Month
-  - **1** job posting shared on Planner's monthly email newsletter
-  - **1** social media post shared on Planner's social media platforms*
+  - **2** job postings shared on Planner's monthly email newsletter
+  - **2** social media posts shared on Planner's social media platforms*
     - Included: [Twitter](https://twitter.com/techqueria), [Facebook Page](https://facebook.com/techqueria), [Facebook Group](https://facebook.com/groups/techqueria), [LinkedIn Page](https://linkedin.com/company/techqueria), [Instagram](https://instagram.com/techqueria) and [Pinterest](https://pinterest.com/techqueria)
 - Visibility
   - Logo of Partner showcased on Planner's website on ["Supporters"](https://techqueria.org/supporters/) section
@@ -71,9 +72,9 @@ Partner is also encouraged to provide the following for each event but it is not
 
 The Parties agree to the following Payment and Payment Terms:
 
-Value of this package is **$10,600**.
+Value of this package is **$21,200**.
 
-Total Fee for **GOLD TIER** Sponsorship is **$10,000**.
+Total Fee for **PLATINUM TIER** Sponsorship is **$20,000**.
 
 ## 3. Cancellation.
 
