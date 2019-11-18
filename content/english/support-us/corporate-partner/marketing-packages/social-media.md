@@ -46,7 +46,7 @@ Title, Company — Location
 
 ### 1 Month
 
-We charge $200 per month for a call to action shared through our social media accounts.
+We charge $200 per month for a call to action shared through our email newsletter.
 
 ### 6 Months
 
