@@ -6,7 +6,7 @@ image: "/assets/img/support-us/corporate-partner/custom-packages.jpg"
 
 This is the calculator we use to create our core sponsorship packages.
 
-If you're interested in a custom package, please [book a partnership call](https://calendly.com/techqueria) so can we answer any questions you have and finalize a contract.
+If you're interested in a custom package, please [book a partnership call](https://calendly.com/techqueria/hello) so can we answer any questions you have and finalize a contract.
 
 <div class="uCalc_238347"></div>
 
