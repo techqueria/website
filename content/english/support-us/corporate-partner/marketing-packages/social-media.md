@@ -54,7 +54,7 @@ $1,080 (10% off)
 
 ### 12 Months
 
-$1,920 (20% off)
+$2,040 (15% off)
 
 ## Disclaimers
 
