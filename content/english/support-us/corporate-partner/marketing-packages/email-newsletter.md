@@ -13,7 +13,7 @@ aliases:
 
 Support our members’ growth with opportunities to level up in their career by engaging directly with thousands of Latinx in Tech.
 
-As of 11/12/19, our email newsletter has 8,000+ contacts with an average open rate of ~49% and an average click through rate of ~25%.
+As of 11/17/19, our email newsletter has 8,100+ contacts with an average open rate of ~49% and an average click through rate of ~25%.
 
 ### Past Newsletters
 

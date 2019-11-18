@@ -3,6 +3,8 @@ title: Social Media Visibility
 description: Reach thousands of Latinx in Tech through Techqueria's social media platforms.
 image: "/assets/img/support-us/corporate-partner/marketing-packages/social-media.jpg"
 weight: 2
+noTimeEstimate: true
+toc: true
 ---
 
 ## Overview

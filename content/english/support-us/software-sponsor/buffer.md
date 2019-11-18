@@ -4,6 +4,8 @@ description: "Techqueria uses Buffer to schedule social media posts across all t
 image: "/assets/img/support-us/software-sponsor/buffer.png"
 link: https://buffer.com?source=techqueria
 sponsorAvailable: true
+noTimeEstimate: true
+toc: true
 price: "$420 per year"
 ---
 

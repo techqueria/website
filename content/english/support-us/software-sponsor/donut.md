@@ -5,6 +5,8 @@ image: "/assets/img/support-us/software-sponsor/donut.jpg"
 link: https://donut.com?source=techqueria
 price: "$5,000 per year"
 sponsorAvailable: true
+noTimeEstimate: true
+toc: true
 ---
 
 ## About Donut

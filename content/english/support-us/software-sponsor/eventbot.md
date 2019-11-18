@@ -4,6 +4,8 @@ description: "Techqueria uses Eventbot to schedule and organize in-person meetup
 link: https://geteventbot.com?source=techqueria
 image: "/assets/img/support-us/software-sponsor/eventbot.png"
 sponsorAvailable: true
+noTimeEstimate: true
+toc: true
 price: "$534 per year"
 ---
 

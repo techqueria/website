@@ -4,6 +4,8 @@ description: "Techqueria uses Calendly to help schedule meetings with our partne
 image: "/assets/img/support-us/software-sponsor/calendly.jpg"
 link: https://calendly.com?source=techqueria
 sponsorAvailable: true
+noTimeEstimate: true
+toc: true
 price: "$72 per year"
 ---
 
