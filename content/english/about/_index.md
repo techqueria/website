@@ -28,6 +28,14 @@ To become the most powerful and robust professional network of Latinx profession
 
 Techqueria is a national 501c3 nonprofit that serves the largest community of Latinx in Tech in the US.
 
+## Values
+
+1. Community first
+2. Radical inclusion
+3. Over-communication
+4. Positive vibes
+5. Data driven
+
 ## Our 7 P's of Community
 
 ### People - Who are your members?
