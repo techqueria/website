@@ -80,6 +80,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Edgar Lopez](https://github.com/edgineer)
 - [Scarlett Perry](https://github.com/scarlettperry)
 - [Angel Arciniega](https://github.com/angelsprojects)
+- [Ernesto Martinez](https://github.com/ernieMrtnz)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
