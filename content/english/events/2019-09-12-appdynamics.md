@@ -7,7 +7,7 @@ link: https://www.eventbrite.com/e/latinx-hispanic-heritage-month-celebration-at
 photos: https://photos.app.goo.gl/BWHYR88sjDHEk9fV7
 organizations:
   - "AppDynamics"
-locations:
+categories:
   - san-francisco
 ---
 

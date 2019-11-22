@@ -6,7 +6,7 @@ link: https://www.eventbrite.com/e/latinxs-in-analytics-hosted-by-mixpanels-lati
 image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F51002464%2F15369463375%2F1%2Foriginal.jpg?w=800&auto=compress&rect=0%2C0%2C1802%2C901&s=3089428d67217cb2bd3aca23b7ce2331
 organizations:
   - "Mixpanel"
-locations:
+categories:
   - "san-francisco"
 ---
 

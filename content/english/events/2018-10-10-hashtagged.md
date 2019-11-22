@@ -4,7 +4,7 @@ description: "Join us as we host an insightful panel discussion on how the #Lati
 date: 2018-10-10
 link: https://latinx-when-identity-is-hashtagged.splashthat.com/
 image: https://amp.businessinsider.com/images/5ad8c04d38e2fc2b008b497b-2732-1366.jpg
-locations:
+categories:
   - "nyc"
 ---
 

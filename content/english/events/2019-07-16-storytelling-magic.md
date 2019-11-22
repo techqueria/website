@@ -4,7 +4,7 @@ date: 2019-07-16
 link: https://storytellingmagicandbrandinggr.splashthat.com/
 image: "/assets/img/events/2019-07-16.jpg"
 photos: https://geoffleung.com/events/alas2019/
-locations:
+categories:
   - "nyc"
 organizations:
   - "Twitter"

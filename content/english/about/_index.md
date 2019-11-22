@@ -4,13 +4,17 @@ description: "Techqueria is a nonprofit that serves the largest community of Lat
 image: "/assets/img/about/_index.png"
 noTimeEstimate: true
 hideImage: true
-layout: "page-about"
+layout: "custom/page-about"
 sitemap: true
 toc: true
 aliases:
   - /about/
   - /about-techqueria/
 ---
+
+## Overview
+
+{{< about >}}
 
 ## Mission Statement
 
@@ -23,6 +27,14 @@ To become the most powerful and robust professional network of Latinx profession
 ## Slogan
 
 Techqueria is a national 501c3 nonprofit that serves the largest community of Latinx in Tech in the US.
+
+## Values
+
+1. Community first
+2. Radical inclusion
+3. Over-communication
+4. Positive vibes
+5. Data driven
 
 ## Our 7 P's of Community
 
@@ -107,7 +119,7 @@ The average amount of experience for our members based on that survey is 5 years
 
 Ergo, the majority of our member base identify as mid-level engineers.
 
-<div class="u-align-item--centered u-max-width--mobile">
+<div class="has-text-centered u-align-item--centered u-max-width--tablet m-auto mt-2 mb-2">
   <canvas id="pie-chart"></canvas>
 </div>
 

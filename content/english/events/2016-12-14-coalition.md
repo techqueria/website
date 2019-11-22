@@ -3,7 +3,7 @@ title: "Bay Area Coalition for Inclusion"
 date: 2016-12-14
 link: https://www.meetup.com/techqueria/events/235604788/
 photos: https://photos.app.goo.gl/mN1CTZsiHoVsJvWQ8
-locations:
+categories:
   - san-francisco
 organizations:
   - "Stripe"

@@ -2,63 +2,41 @@
 title: "Event Packages"
 description: "Connect with local Latinx professionals in the tech industry by partnering on an event with Techqueria. 📍"
 hideImage: true
-image: "/assets/img/support-us/event-packages/_index.jpg"
+image: "/assets/img/support-us/corporate-partner/core-packages/_index.jpg"
 noTimeEstimate: true
-sortByPrice: true
+sortByWeight: true
 toc: true
+aliases:
+  - /support-us/corporate-partner/core-packages/
+  - /support-us/corporate-partner/event-packages/
+  - /event-packages/
 ---
 
-## Sponsor booth
+## Core Sponsorship Tiers
 
-We will invite our Diamond sponsors to have a booth at certain Techqueria events separate from the ones hosted with the sponsor.
+The primary way we partner with tech companies is through the core sponsorship packages which also include marketing add-ons depending on the tier.
 
-## Logo in slides
+We are also open to [custom packages](/support-us/corporate-partner/custom-packages/) which range from from $1,000+ to $150,000+ so there are options for companies of all sizes.
 
-The sponsor logo is showcased on slides in the beginning of all Techqueria events for one year.
-
-## Job postings
-
-The monthly job postings are shared through the monthly email newsletter.
-
-## Social media posts
-
-The monthly social media posts are shared on Techqueria's Twitter, Facebook Page, LinkedIn Page and Google Business.
-
-## Marketing
-
-- social media
-- newsletter
-- community calendar
-
-## Event Commitments
-
-### For each event, Techqueria commits to providing
-
-- a slot for up to one speaker picked by or associated with sponsor
-- an event page (hosted through Splashthat, Eventbrite, Meetup or our website)
-- attendee list with job function, LinkedIn and resume
-- enforcement of our Code of Conduct
-- marketing for the event
-- slides showcasing speakers and sponsor
-- speakers from the Techqueria community
-- volunteers to help with registration (if applicable)
-
-### For each event, the sponsor commits to providing
-
-- A/V for slides/speakers
-  - at minimum this usually translates to the ability for a speaker to have a hand held mic and display slides
-- event space
-  - our events usually have 100 to 300 people but we can work with all sizes
-- catering (food and drinks)
-  - we also require some kind of ID check so drinks are not served to those who are underage
-- name tags
-- security
-
-### Nice to haves
-
-- at least one activity for attendees to engage in before or after the event (photo booth, crafting activity, etc)
-- dedicated bar
-- an intro/pitch talk by the sponsor that is up to 10 minutes
+|                       | [Diamond](/support-us/corporate-partner/core-packages/diamond/)<br>$50,000 | [Titanium](/support-us/corporate-partner/core-packages/titanium/)<br>$35,000 | [Platinum](/support-us/corporate-partner/core-packages/platinum/)<br>$20,000 | [Gold](/support-us/corporate-partner/core-packages/gold/)<br>$10,000 | [Silver](/support-us/corporate-partner/core-packages/silver/)<br>$5,000 |
+| --------------------- | :------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| **Number of Events**  |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                    1                                    |
+| **Per Event**         |
+| Blog post             |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
+| Video recording       |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
+| Photographer          |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+| Sourcing speakers     |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+| Event page            |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+| Marketing             |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+| **Per Month**         |
+| Job postings          |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                                                         |
+| Social media posts    |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                                                         |
+| **Visibility**        |
+| Logo in slides        |                                     ✅                                      |                                                                              |                                                                              |                                                                      |                                                                         |
+| Logo in emails        |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
+| Logo on website       |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+| **Support**           |
+| Private Slack channel |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
 
 ## Event Types
 

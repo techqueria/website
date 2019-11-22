@@ -6,34 +6,34 @@
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: $size-5;
 
     @media screen and (min-width: $mobile) {
-      font-size: 2em;
+      font-size: $size-3;
     }
 
     @media screen and (min-width: $tablet) {
-      font-size: 2.5em;
+      font-size: $size-2;
     }
 
     @media screen and (min-width: $laptop) {
-      font-size: 3em;
+      font-size: $size-1;
     }
   }
 
   .subtitle {
-    font-size: 1em;
+    font-size: $size-7;
 
     @media screen and (min-width: $mobile) {
-      font-size: 1.25em;
+      font-size: $size-6;
     }
 
     @media screen and (min-width: $tablet) {
-      font-size: 1.5em;
+      font-size: $size-5;
     }
 
     @media screen and (min-width: $laptop) {
-      font-size: 1.75em;
+      font-size: $size-4;
     }
   }
 

@@ -2,7 +2,7 @@
 title: Become a Community Partner
 description: "We have active community or non-corporate partnerships with other nonprofit orgs and conferences that are working towards similar goals."
 noTimeEstimate: true
-image: "/assets/img/support-us/community-partnerships.jpg"
+image: "/assets/img/support-us/community-partner.jpg"
 ---
 
 ## Nonprofits

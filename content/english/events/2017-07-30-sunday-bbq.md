@@ -5,7 +5,7 @@ date: 2017-07-30
 link: https://www.meetup.com/techqueria/events/241966588/
 image: "/assets/img/communities/chapters/community-san-francisco-photo.jpeg"
 photos: https://photos.app.goo.gl/T6DQhyTJW6PaaVqQ7
-locations:
+categories:
   - san-francisco
 ---
 

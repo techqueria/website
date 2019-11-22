@@ -10,7 +10,7 @@
   a {
     align-self: center;
     justify-self: center;
-    padding: 0.5rem;
+    padding: 0.5em;
 
     &:hover {
       img {
@@ -21,7 +21,7 @@
 
   img {
     @extend %image-shadow;
-    border-radius: 1rem;
+    border-radius: 1em;
     height: auto !important;
     width: 100% !important;
   }

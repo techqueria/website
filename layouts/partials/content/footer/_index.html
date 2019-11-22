@@ -1,3 +1,7 @@
+<!-- Sponsor Us -->
+{{ if eq .Section "support-us" }}
+{{ partial "content/footer/sponsor.html" . }}
+{{ end }}
 <hr>
 <!-- Taxonomy -->
 {{ partial "content/footer/taxonomy.html" . }}
@@ -13,8 +17,6 @@
 {{ partial "content/footer/follow.html" . }}
 <!-- Donate -->
 {{ partial "content/footer/donate.html" . }}
-<!-- Sponsor Us -->
-<!-- {{ partial "content/footer/sponsor.html" . }} -->
 <!-- Subscribe -->
 <!-- {{ partial "content/footer/subscribe.html" . }} -->
 <!-- Related -->

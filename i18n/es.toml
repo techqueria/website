@@ -198,3 +198,11 @@ other = "Comparte en LinkedIn"
 
 [email_this]
 other = "Envíe esto por correo electrónico"
+
+# partnership-call.html
+
+[partnership_call_title]
+other = "Reserve una llamada de asociación"
+
+[partnership_call_paragraph_js]
+other = "Habilite JavaScript para habilitar el widget Calendly."

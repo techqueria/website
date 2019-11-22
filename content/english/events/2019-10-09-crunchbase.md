@@ -7,7 +7,7 @@ photos: https://photos.app.goo.gl/yF129iNfJRRPJKZz9
 link: https://techqueria-crunchbase-eng-dinner.splashthat.com/
 organizations:
   - "Crunchbase"
-locations:
+categories:
   - san-francisco
 ---
 

@@ -3,7 +3,7 @@ title: "Techqueria Meet-Up!"
 date: 2019-03-26
 image: "/assets/img/events/2019-03-26.png"
 link: https://www.eventbrite.com/e/techqueria-meet-up-tickets-59138099648
-locations:
+categories:
   - austin
 ---
 

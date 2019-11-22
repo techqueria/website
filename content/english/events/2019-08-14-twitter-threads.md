@@ -22,7 +22,7 @@ speakers:
   - "Marco Medina"
   - "Melisa Im"
   - "Tonatiuh Ramos"
-locations:
+categories:
   - "san-francisco"
 organizations:
   - "Twitter"

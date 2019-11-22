@@ -18,7 +18,7 @@
 
     a {
       color: $techqueria-white;
-      margin: 1rem;
+      margin: 1em;
 
       &:hover {
         color: $techqueria-black;
@@ -32,7 +32,7 @@
 
     @media screen and (max-width: $mobile) {
       .fa-lg {
-        font-size: 2em;
+        font-size: $size-3;
       }
     }
   }

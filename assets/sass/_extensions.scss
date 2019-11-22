@@ -30,12 +30,11 @@
 
 %fancy-title {
   background-color: $techqueria-black;
-  border-radius: 2rem 1rem;
+  border-radius: 32px 16px;
   color: $techqueria-white;
   display: inline-block;
   left: calc(var(--rounded) * -1);
-  margin-top: 1rem;
-  padding: 2rem;
+  padding: 32px;
   position: relative;
   transform: rotate(2deg);
   z-index: 1;
@@ -47,12 +46,12 @@
 
 %fancy-subtitle {
   background-color: $techqueria-white;
-  border-radius: 1rem 2rem;
+  border-radius: 16px 32px;
   color: $techqueria-black;
   display: inline-block;
   left: calc(var(--rounded) * -1);
-  margin-top: -2rem;
-  padding: 1.5rem;
+  margin-top: -2.5em;
+  padding: 32px;
   position: relative;
   transform: rotate(-1deg);
   z-index: 0;
