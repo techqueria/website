@@ -6,5 +6,5 @@ publication: "beseen.com"
 image: "/assets/img/news/2019-11-21_slack_logo.png"
 link: https://www.beseen.com/blog/talent/slack-communities-for-tech-pros/
 featuring:
-  - Techeria
+  - Techqueria
 ---
