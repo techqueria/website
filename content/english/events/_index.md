@@ -14,7 +14,7 @@ aliases:
 sitemap: true
 ---
 
-Find more of our events on [Eventbrite](https://techqueria.eventbrite.com) or [Meetup](https://meetup.com/techqueria).
+While we do our best to consolidate all the events here on our website, you can also find more of our events through our community calendar below, [Eventbrite](https://techqueria.eventbrite.com), [Meetup](https://meetup.com/techqueria) and [Facebook](https://www.facebook.com/pg/techqueria/events/).
 
 Watch videos from previous events on our [YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
 
