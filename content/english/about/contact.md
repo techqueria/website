@@ -14,7 +14,7 @@ aliases:
 
 ## Email
 
-`organizers@techqueria.org`
+`hola@techqueria.org`
 
 This email is accessible by Techqueria's [executive team and board members](/team/).
 
