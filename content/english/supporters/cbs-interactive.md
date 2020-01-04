@@ -4,5 +4,7 @@ description: CBS Interactive Inc is an American media company and is a division 
 link: https://www.cbsinteractive.com/
 image: "/assets/img/supporters/cbs-interactive.png"
 categories:
-  - sponsor-bronze
+  - past-supporter
 ---
+
+- Bronze Sponsor ($2,000+) in 2019

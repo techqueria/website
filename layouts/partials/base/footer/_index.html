@@ -3,22 +3,22 @@
     <div class="columns">
       <div class="column is-5">
         <!-- Who We Are -->
-        {{ partial "base/footer/who-we-are.html" . }}
+        {{ partialCached "base/footer/who-we-are.html" . }}
         <!-- Language Dropdown -->
-        {{ partial "base/footer/language-dropdown.html" . }}
+        {{ partialCached "base/footer/language-dropdown.html" . }}
       </div>
       <div class="column is-1 is-hidden-mobile"> </div>
       <!-- Sitemap -->
-      {{ partial "base/footer/sitemap.html" . }}
+      {{ partialCached "base/footer/sitemap.html" . }}
       <!-- Communities -->
-      {{ partial "base/footer/communities.html" . }}
+      {{ partialCached "base/footer/communities.html" . }}
     </div>
     <br>
     <!-- Copyright -->
-    {{ partial "base/footer/copyright.html" . }}
+    {{ partialCached "base/footer/copyright.html" . }}
     <!-- Social Icons -->
-    {{ partial "base/footer/social-icons.html" . }}
+    {{ partialCached "base/footer/social-icons.html" . }}
     <!-- Netlify -->
-    {{ partial "base/footer/netlify.html" . }}
+    {{ partialCached "base/footer/netlify.html" . }}
   </div>
 </footer>

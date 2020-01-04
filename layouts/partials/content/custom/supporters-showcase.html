@@ -6,7 +6,7 @@
 {{ end }}
 <!-- Showcase -->
 <div class="content u-text--centered">
-  <h2><span class="mr-sm">✨</span>2019 Partners & Sponsors<span class="ml-sm">✨</span></h2>
+  <h2><span class="mr-sm">✨</span>2020 Partners & Sponsors<span class="ml-sm">✨</span></h2>
 </div>
 <!-- Diamond Sponsors -->
 {{ if (index .Site.Taxonomies.categories "sponsor-diamond") "!=" nil }}
@@ -92,6 +92,18 @@
   {{ end }}
 </section>
 {{ end }}
+<!-- Software Sponsors -->
+{{ if (index .Site.Taxonomies.categories "software-sponsor") "!=" nil }}
+<div class="content mt-4 u-text--centered">
+  <h3 id="software-sponsors"><span class="mr-sm">💻</span>Software Sponsors<span class="ml-sm">💻</span></h3>
+  <p>Organizations that have given us discounted or free software as a nonprofit.</p>
+</div>
+<section class="c-companies c-companies__software-suporters">
+  {{ range (index .Site.Taxonomies.categories "software-sponsor") }}
+  {{ partial "content/card/company.html" . }}
+  {{ end }}
+</section>
+{{ end }}
 <!-- Community Partners -->
 {{ if (index .Site.Taxonomies.categories "community-partner") "!=" nil }}
 <div class="content mt-4 u-text--centered">
@@ -100,18 +112,6 @@
 </div>
 <section class="c-companies c-companies__community-partners">
   {{ range (index .Site.Taxonomies.categories "community-partner") }}
-  {{ partial "content/card/company.html" . }}
-  {{ end }}
-</section>
-{{ end }}
-<!-- Software Supporters -->
-{{ if (index .Site.Taxonomies.categories "software-supporter") "!=" nil }}
-<div class="content mt-4 u-text--centered">
-  <h3 id="software-supporters"><span class="mr-sm">💻</span>Software Supporters<span class="ml-sm">💻</span></h3>
-  <p>Organizations that have given us discounted or free software as a nonprofit.</p>
-</div>
-<section class="c-companies c-companies__software-suporters">
-  {{ range (index .Site.Taxonomies.categories "software-supporter") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
 </section>

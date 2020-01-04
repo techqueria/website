@@ -11,7 +11,7 @@ aliases:
   - /support-us/corporate-partner/event-packages/silver/
 ---
 
-_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello) so we can share more details._
+_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello/?source=website) so we can share more details._
 
 This Agreement (the **"Agreement"**) is entered on **DATE** (the **"Effective Date"**), by and between **CLIENT** (the **"Partner"**) and Techqueria (the **"Planner"**), collectively "the **Parties.**
 

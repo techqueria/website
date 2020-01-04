@@ -23,14 +23,15 @@ aliases:
 ## Member Benefits
 
 - Access to our online Slack community where you can network with thousands of other Latinx in Tech
-- Subscription to our monthly email newsletter with org updates, events, event discounts, job postings and more
+- Access to our dedicated events platform
+- Subscription to our monthly email newsletter with org updates, job postings and more
 - (Future) Access to our member only portal with a dedicated job board & career resources
 
 ## Aftermath
 
-Anyone who signs up will also be subscribed to our mailing list which you can opt out of at any time.
+Anyone who signs up will be automatically subscribed to our mailing list, sent an invite to our Slack community and automatically subscribed to our events platform for virtual webinars with the ability to opt in to local city chapters.
 
-If you don't get an invite within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
+If you don't get an invite to our Slack community within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
 
 ## Best Practices
 
@@ -39,6 +40,16 @@ As you are waiting for your invite, feel free to read through our [Slack Communi
 You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
 
 ## Allies
+
+We value you being a part of the Techqueria community and your interest in being an ally!
+
+To facilitate allyship, we are implementing best practices from other orgs that have been doing this type of work for a long time and adapting them to our organizational structure.
+
+This organization exists as a space **for Latinx folks** to feel included in the tech industry.
+
+Generally allyship in underrepresented communities is there to support the community, not the other way around.
+
+And so, while this structure is new for us as the community matures, we are firm in this policy of not allowing allies to get additional access to channels.
 
 If you do not identify as Latinx, you will still receive an invitation as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.
 

@@ -2,14 +2,17 @@
 title: "Buffer"
 description: "Techqueria uses Buffer to schedule social media posts across all the different networks we use."
 image: "/assets/img/support-us/software-sponsor/buffer.png"
-link: https://buffer.com?source=techqueria
-sponsorAvailable: true
+link: https://buffer.com/?source=techqueria
 noTimeEstimate: true
 toc: true
 price: "$420 per year"
+categories:
+  - software-sponsor-available
+aliases:
+  - /support-us/software-sponsor/buffer/
 ---
 
-If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello) with us.
+If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello/?source=website) with us.
 
 ## About Buffer
 

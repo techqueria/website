@@ -13,8 +13,10 @@
     </div>
     <!-- Children -->
     {{ partial "content/children.html" . }}
+    <br>
+    <br>
     <!-- Events -->
-    {{ $allEvents := where $.Site.RegularPages "Section" "events"  }}
+    <!-- {{ $allEvents := where $.Site.RegularPages "Section" "events"  }}
     {{ $pastEvents := where $allEvents "Date" "le" now }}
     {{ $recentEvents := $pastEvents | first 3 }}
     <div class="content mt-4 u-text--centered">
@@ -26,8 +28,8 @@
       {{ end }}
     </div>
     <div class="buttons mb-6 u-justify-content--centered u-text--centered">
-      <a class="button is-primary is-medium" href="/events/#techqueria-events" rel="noopener">See more events ➡️</a>
-    </div>
+      <a class="button is-primary is-medium" href="/events/#past-events" rel="noopener">See more events ➡️</a>
+    </div> -->
     <!-- Supporters - Showcase -->
     {{ partial "content/custom/supporters-showcase.html" . }}
     <!-- Content Footer -->

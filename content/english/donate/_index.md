@@ -7,6 +7,7 @@ aliases:
   - /donate/
   - /donations/
   - /give-money/
+  - /support-us/donate/
 sitemap: true
 ---
 

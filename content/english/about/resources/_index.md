@@ -6,5 +6,4 @@ hideImage: true
 aliases:
   - /resource/
   - /resources/
-sitemap: true
 ---

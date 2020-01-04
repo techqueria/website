@@ -4,5 +4,5 @@ description: "A new tool that blends your everyday work apps into one. It's the 
 link: https://notion.so
 image: "/assets/img/supporters/notion.png"
 categories:
-  - software-supporter
+  - software-sponsor
 ---

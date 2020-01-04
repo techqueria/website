@@ -58,7 +58,7 @@
       </a>
       <!-- Children -->
       <div class="navbar-dropdown is-size-7">
-        {{ range .Children }}
+        {{ range .Children.ByWeight }}
         <a class="navbar-item{{ if (eq $currentPage.URL .URL) }} is-active{{ end }}" href="{{ .URL | relLangURL }}">
           {{ if .Identifier }}
           <i class="{{ .Identifier }}" alt="{{ .Name }}"></i>

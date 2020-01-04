@@ -33,10 +33,8 @@
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ dateFormat "Monday - January 2, 2006" .Date -}}</p>
 {{- end -}}
 <!-- Sponsor Available -->
-{{- if (eq .Params.sponsorAvailable true) -}}
+{{- if in .Params.categories "software-sponsor-available" -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Sponsorship available</p>
-{{ else if (eq .Params.sponsorAvailable false) }}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Sponsorship not available</p>
 {{- end -}}
 <!-- Price -->
 {{ with .Params.price -}}

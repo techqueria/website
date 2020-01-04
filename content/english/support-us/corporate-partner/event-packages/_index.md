@@ -1,5 +1,5 @@
 ---
-title: "Event Packages"
+title: "Purchase an Event Package"
 description: "Connect with local Latinx professionals in the tech industry by partnering on an event with Techqueria. 📍"
 hideImage: true
 image: "/assets/img/support-us/corporate-partner/core-packages/_index.jpg"

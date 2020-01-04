@@ -1,5 +1,5 @@
 ---
-title: Donate to Techqueria via Patreon
+title: Become a Backer via Patreon
 description: Become a Patron to support Techqueria's efforts to create the largest community of Latinx professionals in tech.
 identifier: fab fa-patreon
 link: https://www.patreon.com/techqueria
@@ -7,6 +7,8 @@ image: "/assets/img/supporters/patreon.png"
 aliases:
   - /patreon/
   - /donate/patreon/
+  - /become-a-patron/
+  - /backer-via-patreon/
 ---
 
 We want to recognize our Patreon supporters for their financial support.
