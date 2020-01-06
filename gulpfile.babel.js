@@ -60,7 +60,7 @@ gulp.task("img-minify", () => {
 });
 
 // DEV & PROD: Compile Javascript
-gulp.task("js", done => {
+gulp.task("js", (done) => {
   const environment = process.env.NODE_ENV;
   log("ENVIRONMENT: " + environment);
   let myConfig = {};
@@ -114,7 +114,7 @@ gulp.task("pdf", () => {
 });
 
 // DEV & PROD: Server with browsersync
-const runServer = options => {
+const runServer = (options) => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -145,7 +145,7 @@ const buildSite = (done, options, environment) => {
     .spawn(hugoBin, args, {
       stdio: "inherit"
     })
-    .on("close", code => {
+    .on("close", (code) => {
       if (code === 0) {
         browserSync.reload();
         browserSync.notify("Your changes were applied :)");
@@ -163,13 +163,13 @@ const hugoArgsDefault = ["-d", "./dist", "-s", "./", "--verbose"];
 const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
 
 // DEVELOPMENT
-gulp.task("hugo-dev", done => buildSite(done, [], "dev"));
+gulp.task("hugo-dev", (done) => buildSite(done, [], "dev"));
 
-gulp.task("hugo-preview", done => buildSite(done, hugoArgsPreview, "dev"));
+gulp.task("hugo-preview", (done) => buildSite(done, hugoArgsPreview, "dev"));
 
 gulp.task(
   "server",
-  gulp.series("hugo-dev", "sass", "img", "js", done => {
+  gulp.series("hugo-dev", "sass", "img", "js", (done) => {
     runServer("hugo-dev");
     done();
   })
@@ -177,7 +177,7 @@ gulp.task(
 
 gulp.task(
   "server-preview",
-  gulp.series("hugo-preview", "sass", "img", "js", done => {
+  gulp.series("hugo-preview", "sass", "img", "js", (done) => {
     runServer("hugo-preview");
     done();
   })
@@ -186,7 +186,7 @@ gulp.task(
 gulp.task("build-dev", gulp.series("clean", "hugo-dev", "sass", "img", "js"));
 
 // PRODUCTION
-gulp.task("hugo", done => buildSite(done, [], "prod"));
+gulp.task("hugo", (done) => buildSite(done, [], "prod"));
 
 gulp.task(
   "server-prod",
@@ -196,7 +196,7 @@ gulp.task(
     "js",
     "sass-minify",
     "html-minify",
-    done => {
+    (done) => {
       runServer("hugo");
       done();
     }
