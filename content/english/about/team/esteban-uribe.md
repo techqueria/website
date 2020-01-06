@@ -5,7 +5,7 @@ description: "iOS Engineer, Tinder"
 linkedin: estebanuribe
 categories:
   - los-angeles
-  - chapter-lead
+  - chapter-director
   - board-member
   - patreon-advocate
 aliases:

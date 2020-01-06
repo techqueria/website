@@ -1,11 +1,10 @@
 ---
 title: Michael Urbina
-description: "Partnerships Lead"
+description: "Executive Recruiter at Box"
 image: "/assets/img/team/michael-urbina.jpeg"
 linkedin: michaelurbina
 flag: 🇭🇳
 categories:
   - patreon-core
-  - partnerships-lead
   - san-francisco
 ---

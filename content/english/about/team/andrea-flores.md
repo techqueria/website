@@ -5,7 +5,7 @@ description: "PhD Student, The University of Texas at Austin School of Informati
 linkedin: andreaf
 categories:
   - austin
-  - chapter-lead
+  - chapter-director
   - board-member
 aliases:
   - /about/team/andrea-flores/

@@ -5,7 +5,7 @@ description: "Software Designer, IBM"
 linkedin: andrea-cardona-b647594b
 categories:
   - austin
-  - chapter-lead
+  - chapter-director
 aliases:
   - /about/team/andrea-cardona/
   - /team/andrea-cardona/

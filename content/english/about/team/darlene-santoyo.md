@@ -5,6 +5,7 @@ description: "Talent Acquisition, Accenture"
 linkedin: dsantoyo
 categories:
   - austin
+  - chapter-director
 aliases:
   - /about/team/darlene-santoyo/
   - /team/darlene-santoyo/

@@ -5,5 +5,5 @@ description: "Software Engineer, Slingshot Health"
 linkedin: vanessajimenez27
 categories:
   - nyc
-  - chapter-lead
+  - chapter-director
 ---

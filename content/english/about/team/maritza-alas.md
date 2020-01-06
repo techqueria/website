@@ -5,7 +5,7 @@ description: "Software Engineer, Age of Learning"
 linkedin: maritza-alas
 flag: 🇸🇻
 categories:
-  - chapter-lead
+  - chapter-director
   - los-angeles
 aliases:
   - /about/team/martiza-alas/
