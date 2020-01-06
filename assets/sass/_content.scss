@@ -88,6 +88,10 @@
     overflow-x: auto;
     width: 100%;
 
+    td {
+      vertical-align: middle;
+    }
+
     @media screen and (min-width: $laptop-large) {
       display: table;
     }

@@ -71,8 +71,8 @@
 
       &:last-child {
         &:hover {
-          border-bottom-right-radius: $radius;
           border-bottom-left-radius: $radius;
+          border-bottom-right-radius: $radius;
         }
       }
     }

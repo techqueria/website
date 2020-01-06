@@ -216,19 +216,9 @@ disqusShortname = "techqueria"
     weight = 2
 [[menu.main]]
     parent = "Events"
-    name   = "City Chapters"
+    name   = "All City Chapters"
     url    = "https://events.techqueria.org/chapters/?source=website_navbar"
     weight = 3
-[[menu.main]]
-    parent = "Events"
-    name   = "Community Calendar"
-    url    = "/about/community-calendar/"
-    weight = 4
-[[menu.main]]
-    parent = "Events"
-    name   = "Submit Event Feedback"
-    url    = "/about/event-feedback/"
-    weight = 5
 
 # News
 [[menu.main]]

@@ -6,11 +6,15 @@ image: "/assets/img/events/_index.jpg"
 layout: "custom/page-events"
 sortLatestFirst: true
 aliases:
+  - /about/event-feedback/
   - /about/photos/
+  - /about/techqueria-event/feedback/
+  - /event-feedback/
   - /eventbrite/
+  - /feedback/
+  - /past-events/
   - /photos/
   - /stock-photos/
-  - /past-events/
 sitemap: true
 ---
 

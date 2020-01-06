@@ -1,0 +1,32 @@
+{{ $label := "Do you agree to abide bythe Code of Conduct?*" }}
+{{ $help := "This is required by all members." }}
+{{ $name := "yes_no_question" }}
+<!-- Label -->
+{{ if .Get "label" }}
+{{ if isset .Params "label" }}
+{{ $label = .Get "label" }}
+{{ end }}
+{{ end }}
+<!-- Helper Text -->
+{{ if .Get "help" }}
+{{ if isset .Params "help" }}
+{{ $help = .Get "help" }}
+{{ end }}
+{{ end }}
+<!-- Name -->
+{{ if .Get "name" }}
+{{ $name = .Get "name" }}
+{{ end }}
+<div class="field">
+  <label class="label">{{ $label }}{{ if .Get "required"}}*{{ end }}</label>
+  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
+  <div class="control">
+    <label class="radio">
+      <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="Yes" {{ if .Get "required"}}required{{ end }}> Yes
+    </label>
+    <br>
+    <label class="radio">
+      <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="No" {{ if .Get "required"}}required{{ end }}> No
+    </label>
+  </div>
+</div>
