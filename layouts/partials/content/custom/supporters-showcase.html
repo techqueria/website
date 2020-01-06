@@ -119,7 +119,8 @@
 <!-- Past Supporters -->
 {{ if (index .Site.Taxonomies.categories "past-supporter") "!=" nil }}
 <div class="content mt-4 u-text--centered">
-  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters & Partners<span class="ml-sm">🕒</span></h3>
+  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters & Partners<span
+      class="ml-sm">🕒</span></h3>
   <p>Organizations that have supported us or partnered with us in the past.</p>
   <p>We've had {{ $companies }} different organizations support us in some capacity since 2015.</p>
 </div>
@@ -132,10 +133,37 @@
 <!-- Active Patreon Supporters -->
 <div class="content mt-4 u-text--centered">
   <h2 id="patreon-supporters"><span class="mr-sm">🎗️</span>Active Patreon Supporters<span class="ml-sm">🎗️</span></h2>
+</div>
+<!-- Champion Level Supporters -->
+{{ if (index .Site.Taxonomies.categories "patreon-champion") "!=" nil }}
+<div class="content mt-4 u-text--centered">
+  <p>Patreon supporters who pledge $100 or more each month</p>
+</div>
+<section class="columns is-multiline page__team">
+  {{ range (index .Site.Taxonomies.categories "patreon-champion") }}
+  {{ partial "content/child.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+<!-- Patron Level Supporters -->
+{{ if (index .Site.Taxonomies.categories "patreon-patron") "!=" nil }}
+<div class="content mt-4 u-text--centered">
+  <p>Patreon supporters who pledge $50 or more each month</p>
+</div>
+<section class="columns is-multiline page__team">
+  {{ range (index .Site.Taxonomies.categories "patreon-patron") }}
+  {{ partial "content/child.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+<!-- Core Level Supporters -->
+{{ if (index .Site.Taxonomies.categories "patreon-core") "!=" nil }}
+<div class="content mt-4 u-text--centered">
   <p>Patreon supporters who pledge $25 or more each month</p>
 </div>
-<div class="columns is-multiline page__team">
+<section class="columns is-multiline page__team">
   {{ range (index .Site.Taxonomies.categories "patreon-core") }}
   {{ partial "content/child.html" . }}
   {{ end }}
-</div>
+</section>
+{{ end }}
