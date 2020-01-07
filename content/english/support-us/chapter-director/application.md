@@ -8,7 +8,7 @@ aliases:
 - /chapter-director-application/
 ---
 
-<form name="Become a Chapter Director" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/" class="form--centered mt-2 no-ids" id="form_become_a_member">
+<form name="Become a Chapter Director" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/chapter-director/" class="form--centered mt-2 no-ids" id="form_become_a_member">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Chapter Director">
   {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
   {{< fields/email help="Please use a personal email address to avoid being locked out if you lose access to your work or school email. Make sure to check for typos in your email." >}}
