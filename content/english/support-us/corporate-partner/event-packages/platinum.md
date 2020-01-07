@@ -31,7 +31,6 @@ Partner engages Planner's services to perform the following duties over the peri
   - Develop questions and/or content for event
   - Enforce [Planner's Code of Conduct](https://techqueria.org/about/code-of-conduct/)
   - Finalize event topic and/or theme
-  - Guarantee at least **80** attendees (excluding speakers and volunteers)
   - Market the event
   - Provide opportunity for a Partner representative to speak for up to 10 minutes
   - Recruit volunteers to help with registration (if applicable)
