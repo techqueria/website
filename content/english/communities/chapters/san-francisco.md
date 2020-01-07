@@ -1,7 +1,7 @@
 ---
 title: "Chapter - San Francisco"
 description: "San Francisco is the cultural, commercial, and financial center of Northern California."
-link: https://techqueria.slack.com/messages/C25P9BJHW/
+link: https://events.techqueria.org/san-francisco-bay-area/
 image: "/assets/img/communities/chapters/community-san-francisco-photo.jpeg"
 aliases:
   - /bay-area/

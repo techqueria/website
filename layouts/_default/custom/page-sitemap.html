@@ -1,0 +1,27 @@
+{{ define "main" }}
+<!-- Hero -->
+{{ partial "content/hero/hero.html" . }}
+<!-- Page -->
+<section class="section page">
+  <div class="container">
+    <!-- Breadcrumbs -->
+    {{ partial "content/custom/breadcrumbs.html" . }}
+    <!-- Content -->
+    {{ partial "content/_index.html" . }}
+    <!-- Pages -->
+    {{ $pages := where .Site.RegularPages "Type" "page" }}
+    <!-- Pages & Section Pages -->
+    {{ $pages := $pages | union (.Site.Sections) }}
+    <div class="content">
+      <p>There are {{ len $pages }} pages in total.</p>
+      <div class="columns is-multiline">
+        {{ range $pages.ByTitle }}
+        {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    <!-- Content Footer -->
+    {{ partial "content/footer/_index.html" . }}
+  </div>
+</section>
+{{ end }}

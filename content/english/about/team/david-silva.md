@@ -10,7 +10,7 @@ categories:
   - nyc
   - board-member
   - co-founder
-  - chapter-lead
+  - chapter-director
 aliases:
   - /about/team/david-silva/
   - /team/david-silva/

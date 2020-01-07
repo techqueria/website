@@ -10,7 +10,7 @@ aliases:
   - /support-us/corporate-partner/event-packages/titanium/
 ---
 
-_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello) so we can share more details._
+_Below is an exampe of a sample contract for this tier. If you're interested in this package, please [book a partnership call](https://calendly.com/techqueria/hello/?source=website) so we can share more details._
 
 This Agreement (the **"Agreement"**) is entered on **DATE** (the **"Effective Date"**), by and between **CLIENT** (the **"Partner"**) and Techqueria (the **"Planner"**), collectively "the **Parties.**
 
@@ -30,7 +30,6 @@ Partner engages Planner's services to perform the following duties over the peri
   - Develop questions and/or content for event
   - Enforce [Planner's Code of Conduct](https://techqueria.org/about/code-of-conduct/)
   - Finalize event topic and/or theme
-  - Guarantee at least **80 attendees** (excluding speakers and volunteers)
   - Market the event
   - Provide opportunity for a Partner representative to speak for up to 10 minutes
   - Recruit volunteers to help with registration (if applicable)

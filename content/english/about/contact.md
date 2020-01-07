@@ -14,7 +14,7 @@ aliases:
 
 ## Email
 
-`organizers@techqueria.org`
+`hola@techqueria.org`
 
 This email is accessible by Techqueria's [executive team and board members](/team/).
 
@@ -63,7 +63,7 @@ We are looking for speakers, locations for our events, those who can sponsors pr
 
 In return, we can provide a spotlight for your organization in our events and networks.
 
-You're also welcome to [set up a partnership call with us using Calendly](https://calendly.com/techqueria/hello).</p>
+You're also welcome to [set up a partnership call with us using Calendly](https://calendly.com/techqueria/hello/?source=website).</p>
 
 ## Want to meet in person?
 

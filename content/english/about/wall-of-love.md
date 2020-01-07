@@ -4,7 +4,6 @@ description: "Snippets of love from Techqueria members 😍"
 hideImage: true
 image: "/assets/img/wall-of-love/_index.jpg"
 noTimeEstimate: true
-sitemap: true
 widePage: true
 toc: true
 aliases:

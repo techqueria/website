@@ -6,7 +6,7 @@ linkedin: dulcevillarreal
 flag: 🇲🇽
 categories:
   - san-francisco
-  - chapter-lead
+  - chapter-director
 aliases:
   - /about/team/dulce-villarreal/
   - /team/dulce-villarreal/

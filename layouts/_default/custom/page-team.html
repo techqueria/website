@@ -17,16 +17,24 @@
       {{ partial "content/child.html" . }}
       {{ end }}
     </div>
-    <!-- Current Leads -->
+    <!-- Chapter Directors -->
     <div class="content mt-2">
-      <h2>Current Leads</h2>
+      <h2>Chapter Directors</h2>
     </div>
     <div class="columns is-multiline">
-      {{ $chapterLeads := (index $.Site.Taxonomies.categories "chapter-lead").Pages }}
+      {{ $chapterLeads := (index $.Site.Taxonomies.categories "chapter-director").Pages }}
+      {{ range $chapterLeads.ByTitle }}
+      {{ partial "content/custom/child-four-column.html" . }}
+      {{ end }}
+    </div>
+    <!-- Current Org Wide Leads -->
+    <div class="content mt-2">
+      <h2>Current Org Wide Leads</h2>
+    </div>
+    <div class="columns is-multiline">
       {{ $partnerLeads := (index $.Site.Taxonomies.categories "partnerships-lead").Pages }}
       {{ $slackLeads := (index $.Site.Taxonomies.categories "slack-community-lead").Pages }}
-      {{ $allLeads := $chapterLeads | union $partnerLeads | union $slackLeads }}
-
+      {{ $allLeads := $partnerLeads | union $slackLeads }}
       {{ range $allLeads.ByTitle }}
       {{ partial "content/child.html" . }}
       {{ end }}
@@ -54,7 +62,7 @@
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "past-organizer").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
+      {{ partial "content/custom/child-four-column.html" . }}
       {{ end }}
     </div>
     <!-- Content Footer -->

@@ -1,5 +1,5 @@
 ---
-title: "Event Packages"
+title: "Purchase an Event Package"
 description: "Connect with local Latinx professionals in the tech industry by partnering on an event with Techqueria. 📍"
 hideImage: true
 image: "/assets/img/support-us/corporate-partner/core-packages/_index.jpg"
@@ -17,6 +17,8 @@ aliases:
 The primary way we partner with tech companies is through the core sponsorship packages which also include marketing add-ons depending on the tier.
 
 We are also open to [custom packages](/support-us/corporate-partner/custom-packages/) which range from from $1,000+ to $150,000+ so there are options for companies of all sizes.
+
+<br>
 
 |                       | [Diamond](/support-us/corporate-partner/core-packages/diamond/)<br>$50,000 | [Titanium](/support-us/corporate-partner/core-packages/titanium/)<br>$35,000 | [Platinum](/support-us/corporate-partner/core-packages/platinum/)<br>$20,000 | [Gold](/support-us/corporate-partner/core-packages/gold/)<br>$10,000 | [Silver](/support-us/corporate-partner/core-packages/silver/)<br>$5,000 |
 | --------------------- | :------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------: |
@@ -37,6 +39,8 @@ We are also open to [custom packages](/support-us/corporate-partner/custom-packa
 | Logo on website       |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
 | **Support**           |
 | Private Slack channel |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
+
+<br>
 
 ## Event Types
 

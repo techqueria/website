@@ -6,15 +6,15 @@
         {{ .Title }}{{ if .Params.flag }}{{ .Params.flag }}{{ end }}
       </h1>
       <br>
+      {{ if .Description }}
       <!-- Description -->
       <p class="subtitle">
-        {{ if .Description }}
         {{ $description := (.Description | safeHTML) }}
         {{ $description }}
         {{ else }}
         {{ .Summary | truncate 150 | safeHTML }}
-        {{ end }}
       </p>
+      {{ end }}
       <!-- Links -->
       {{ partial "content/hero/hero-links.html" . }}
     </div>

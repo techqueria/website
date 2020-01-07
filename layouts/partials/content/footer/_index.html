@@ -1,8 +1,8 @@
+<hr>
 <!-- Sponsor Us -->
 {{ if eq .Section "support-us" }}
-{{ partial "content/footer/sponsor.html" . }}
+{{ partialCached "content/footer/sponsor.html" . }}
 {{ end }}
-<hr>
 <!-- Taxonomy -->
 {{ partial "content/footer/taxonomy.html" . }}
 <!-- Author -->
@@ -12,14 +12,12 @@
 <!-- Share -->
 {{ partial "content/footer/share.html" . }}
 <!-- About -->
-{{ partial "content/footer/about.html" . }}
+{{ partialCached "content/footer/about.html" . }}
 <!-- Follow Us -->
 {{ partial "content/footer/follow.html" . }}
 <!-- Donate -->
-{{ partial "content/footer/donate.html" . }}
-<!-- Subscribe -->
-<!-- {{ partial "content/footer/subscribe.html" . }} -->
+{{ partialCached "content/footer/donate.html" . }}
 <!-- Related -->
 {{ partial "content/footer/related.html" . }}
 <!-- Contribute -->
-{{ partial "content/footer/contribute.html" . }}
+{{ partialCached "content/footer/contribute.html" . }}

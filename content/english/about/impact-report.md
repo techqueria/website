@@ -1,6 +1,6 @@
 ---
 title: "Impact Report 2019 (WIP)"
-description: "This is a work in progress! Expect the full report to be ready by ~January 2020."
+description: "This is a work in progress! Expect the full report to be ready by 2020."
 hideImage: true
 image: "/assets/img/about/impact-report/_index.jpg"
 noTimeEstimate: true

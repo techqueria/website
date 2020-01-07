@@ -10,16 +10,16 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  {{ partial "base/navbar.html" . }}
+  {{ partialCached "base/navbar.html" . }}
   <!-- Main Content -->
   <div role="main" class="main">
     <!-- Main Block -->
     {{ block "main" . }}{{ end }}
   </div>
   <!-- Footer -->
-  {{ partial "base/footer/_index.html" . }}
+  {{ partialCached "base/footer/_index.html" . }}
   <!-- Scripts -->
-  {{ partial "base/scripts.html" . }}
+  {{ partialCached "base/scripts.html" . }}
 </body>
 
 </html>
