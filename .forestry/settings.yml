@@ -35,5 +35,5 @@ build:
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: gulp build-dev
+  instant_preview_command: gulp server
 version: 0.42.2
