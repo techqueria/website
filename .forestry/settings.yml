@@ -30,7 +30,7 @@ build:
   - HUGO_ENV=production
   preview_output_directory: dist
   install_dependencies_command: npm install
-  preview_docker_image: forestryio/hugo:node10
+  preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "./"
   instant_preview_command: gulp server
