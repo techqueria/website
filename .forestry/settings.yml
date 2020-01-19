@@ -31,6 +31,7 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.42.2
   preview_output_directory: dist
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
