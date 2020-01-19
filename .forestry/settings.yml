@@ -21,8 +21,8 @@ sections:
   label: English
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: assets/img
+public_path: assets/img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
