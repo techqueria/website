@@ -6,6 +6,7 @@ noTimeEstimate: true
 hideImage: true
 toc: true
 aliases:
+- "/reimbursement-guidelines/"
 - "/reimbursement-policy/"
 
 ---
