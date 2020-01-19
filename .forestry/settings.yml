@@ -9,6 +9,8 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Languages
 - type: directory
   path: content/espanol
   label: Espanol
