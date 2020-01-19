@@ -5,22 +5,20 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
+  path: content/english
+  label: English
   create: all
-  match: "*"
-- type: heading
-  label: Languages
+  match: "**/*"
 - type: directory
   path: content/espanol
   label: Espanol
   create: all
   match: "**/*"
 - type: directory
-  path: content/english
-  label: English
+  path: content
+  label: Pages
   create: all
-  match: "**/*"
+  match: "*"
 upload_dir: assets/img
 public_path: assets/img
 front_matter_path: ''
