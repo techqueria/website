@@ -12,7 +12,7 @@ aliases:
 ---
 ## Overview
 
-There are 3 main chapter tiers that come with different benefits dependent on chapter activity. The table below outlines the maximum cap for reimbursements and stipends that can be requested. Please see [Reimbursement Guidelines](/support-us/chapter-director/reimbursement-policy/) for more details.
+There are 3 main chapter tiers that come with different benefits dependent on chapter activity. The table below outlines the maximum cap for reimbursements that can be requested. Please see [Reimbursement Guidelines](/support-us/chapter-director/reimbursement-policy/) for more details.
 
 <br>
 
