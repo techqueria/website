@@ -5,6 +5,7 @@ image: "/assets/img/shop/_index.png"
 hideImage: true
 noTimeEstimate: true
 widePage: true
+url: /shop/
 aliases:
   - /shop/
   - /store/

@@ -1,7 +1,7 @@
 ---
 title: "Buffer"
 description: "Techqueria uses Buffer to schedule social media posts across all the different networks we use."
-image: "/assets/img/support-us/software-sponsor/buffer.png"
+image: "/assets/img/supporters/buffer.png"
 link: https://buffer.com/?source=techqueria
 noTimeEstimate: true
 toc: true

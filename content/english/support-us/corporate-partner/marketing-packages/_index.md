@@ -7,4 +7,6 @@ noTimeEstimate: true
 sortByWeight: true
 aliases:
   - /support-us/corporate-partner/marketing-packages/
+  - /marketing-packages/
+  - /purchase-ctas/
 ---

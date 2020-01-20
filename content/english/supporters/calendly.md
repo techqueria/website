@@ -1,7 +1,7 @@
 ---
 title: "Calendly"
 description: "Techqueria uses Calendly to help schedule meetings with our partners without back-and-forth emails."
-image: "/assets/img/support-us/software-sponsor/calendly.jpg"
+image: "/assets/img/supporters/calendly.jpg"
 link: https://calendly.com/?source=techqueria
 noTimeEstimate: true
 toc: true
