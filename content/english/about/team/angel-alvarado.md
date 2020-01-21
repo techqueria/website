@@ -6,7 +6,7 @@ linkedin: "angel-alvarado-robledo"
 flag: 🇲🇽
 categories:
   - san-francisco
-  - current-volunteer
+  - past-organizer
 aliases:
   - /about/team/angel-alvarado/
   - /team/angel-alvarado/

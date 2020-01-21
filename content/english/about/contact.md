@@ -9,6 +9,8 @@ sitemap: true
 url: /contact/
 aliases:
 - /contact/
+- /about/contact-us/
+- /contact-us/
 - /about/contact/
 - /message-us/
 ---

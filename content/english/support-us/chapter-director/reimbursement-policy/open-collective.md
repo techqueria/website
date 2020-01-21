@@ -9,6 +9,7 @@ aliases:
   - /donate/open-collective/
   - /open-collective/
   - /submit-expenses/
+  - /support-us/chapter-director/open-collective/
 ---
 
 We use Open Collective to process reimbursements for our chapters, board members and staff expenses.

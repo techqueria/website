@@ -5,10 +5,12 @@ image: "/assets/img/about/code-of-conduct/_index.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true
+url: "/code-of-conduct/"
 aliases:
   - /code-of-conduct/
   - /about/code-of-conduct/
   - /coc/
+  - /about/coc/
 sitemap: true
 ---
 

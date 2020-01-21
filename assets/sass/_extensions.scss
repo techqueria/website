@@ -51,16 +51,19 @@
   display: inline-block;
   left: calc(var(--rounded) * -1);
   margin-top: -2.5em;
-  padding: 32px;
+  padding: 50px 25px;
   position: relative;
   transform: rotate(-1deg);
   z-index: 0;
 
   @media screen and (min-width: $tablet) {
     margin-top: 0;
+    padding: 30px;
   }
 
   @media screen and (min-width: $laptop) {
     transform: none;
+    padding: 25px;
+    width: 75%;
   }
 }

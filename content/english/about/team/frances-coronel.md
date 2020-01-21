@@ -1,7 +1,7 @@
 ---
 title: Frances Coronel
 image: "/assets/img/team/frances-coronel.jpg"
-description: "Co-Director, Techqueria"
+description: "Executive Director, Techqueria"
 linkedin: fvcproductions
 twitter: fvcproductions
 github: fvcproductions
