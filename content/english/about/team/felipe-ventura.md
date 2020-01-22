@@ -1,7 +1,7 @@
 ---
 title: Felipe Ventura
 image: "/assets/img/team/felipe-ventura-alt.jpg"
-description: "Co-Director, Techqueria"
+description: "Executive Director, Techqueria"
 linkedin: fvntr
 twitter: fvntr
 github: fvntr

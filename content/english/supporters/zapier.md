@@ -1,7 +1,7 @@
 ---
 title: "Zapier"
 description: "Techqueria uses Zapier to easily automate workflows between hundreds of different applications."
-image: "/assets/img/support-us/software-sponsor/zapier.png"
+image: "/assets/img/supporters/zapier.png"
 price: "$600 per year"
 link: https://zapier.com/?source=techqueria
 noTimeEstimate: true

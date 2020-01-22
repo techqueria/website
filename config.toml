@@ -110,11 +110,11 @@ disqusShortname = "techqueria"
 [[menu.main]]
     parent = "About"
     name   = "Code of Conduct"
-    url    = "/about/code-of-conduct"
+    url    = "/code-of-conduct"
 [[menu.main]]
     parent = "About"
     name   = "Contact"
-    url    = "/about/contact/"
+    url    = "/contact/"
 # Resources
 [[menu.main]]
     parent = "About"
@@ -123,11 +123,11 @@ disqusShortname = "techqueria"
 [[menu.main]]
     parent = "About"
     name   = "Team"
-    url    = "/about/team/"
+    url    = "/team/"
 [[menu.main]]
     parent = "About"
     name   = "Shop"
-    url    = "/about/shop/"
+    url    = "/shop/"
 [[menu.main]]
     parent = "About"
     name   = "Wall of Love"
@@ -204,6 +204,7 @@ disqusShortname = "techqueria"
 [[menu.main]]
     name = "Events"
     url  = "https://events.techqueria.org/?source=website_navbar"
+    externalLink = false
 [[menu.main]]
     parent = "Events"
     name   = "Upcoming Events"

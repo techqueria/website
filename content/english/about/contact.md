@@ -6,8 +6,11 @@ image: "/assets/img/about/contact/_index.jpg"
 noTimeEstimate: true
 toc: true
 sitemap: true
+url: /contact/
 aliases:
 - /contact/
+- /about/contact-us/
+- /contact-us/
 - /about/contact/
 - /message-us/
 ---

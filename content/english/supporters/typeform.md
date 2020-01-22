@@ -2,7 +2,7 @@
 title: "Typeform"
 description: "Techqueria uses Typeform to easily collect payments for small transactions and also capture form submissions outside of the website."
 link: http://referral.typeform.com/mtfBiqW
-image: "/assets/img/support-us/software-sponsor/typeform.png"
+image: "/assets/img/supporters/typeform.png"
 price: "$252 per year"
 noTimeEstimate: true
 toc: true
