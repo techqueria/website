@@ -16,11 +16,11 @@ There are 3 main chapter tiers that come with different benefits dependent on ch
 
 <br>
 
-| Name | # of Events | Reimbursement Per Event | Misc Expenses Reimbursement |
-| :---: | :---: | :---: | :---: |
-| 🦅<br>Condor | 7+ | $250 | $500 |
-| 🐍<br>Anaconda | 4 to 6 | $200 | $250 |
-| 🦙<br>Llama | 1 to 3 | $150 | $0 |
+|      Name      | # of Events | Reimbursement Per Event | Misc Expenses Reimbursement |
+| :------------: | :---------: | :---------------------: | :-------------------------: |
+|  🦅<br>Condor  |     7+      |          $250           |            $500             |
+| 🐍<br>Anaconda |   4 to 6    |          $200           |            $250             |
+|  🦙<br>Llama   |   1 to 3    |          $150           |             $0              |
 
 <br>
 

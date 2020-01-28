@@ -41,6 +41,9 @@ You can find more details on our mission [on our about page](/about/).
   * some of our events have alcohol
 * at least 3 years of experience in the tech industry
   * so you're familiar enough with companies and have built up your own network you can tap into
+* able to organize at least 2 events per year
+  * if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
+  * we do not create new chapters in [Bevy](https://events.techqueria.org) for chapters that have had just 1 event
 * able to dedicate at least 5 hours per week
   * events take time to plan
   * how much time you dedicate will also depend on how frequently your chapter has events
