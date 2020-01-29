@@ -76,21 +76,7 @@ For example, if the SF chapter receives a $1,000 sponsorship — $500 goes to T
 
 <br>
 
-<div class="uCalc_252699"></div>
-
-<script>
-var widgetOptions252699 = {
-bg_color: "transparent"
-};
-(function () {
-var a = document.createElement("script"),
-h = "head";
-a.async = true;
-a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=252699&t=" + Math.floor(new Date() / 18e5);
-document.getElementsByTagName(h)\[0\].appendChild(a)
-})();
-
-</script>
+<div class="uCalc_252699"></div><script> var widgetOptions252699 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=252699&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
 
 <br>
 
@@ -108,7 +94,7 @@ document.getElementsByTagName(h)\[0\].appendChild(a)
 
 ### Invoices
 
-For any stipend reimbursements (like speaker fees), you must provide an invoice. 
+For any stipend reimbursements (like speaker fees), you must provide an invoice.
 
 You're welcome to use any invoice template as long as the 4 points above are verified.
 
