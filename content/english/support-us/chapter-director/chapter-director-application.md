@@ -5,7 +5,7 @@ image: "/assets/img/support-us/chapter-director/chapter-director-application.jpg
 noTimeEstimate: true
 hideImage: true
 aliases:
-- /chapter-director-application/
+  - /chapter-director-application/
 ---
 
 <form name="Become a Chapter Director" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/chapter-director/" class="form--centered mt-2 no-ids" id="form_become_a_member">

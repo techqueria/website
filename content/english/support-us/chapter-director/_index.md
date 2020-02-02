@@ -1,7 +1,6 @@
 ---
-title: Become a Chapter Director
-description: Learn what it takes to be a Chapter Director for Techqueria and apply
-  to become one.
+title: "Become a Chapter Director"
+description: "Learn what it takes to be a Chapter Director for Techqueria and apply to become one."
 image: "/assets/img/support-us/chapter-director/_index.jpg"
 noTimeEstimate: true
 hideImage: true
@@ -12,8 +11,8 @@ aliases:
 - "/new-chapter-director/"
 - "/start-a-chapter/"
 - "/support-us/chapter-director/"
-
 ---
+
 ## What does it take to run a Techqueria Chapter?
 
 > We cannot seek achievement for ourselves and forget about progress and prosperity for our community... Our ambitions must be broad enough to include the aspirations and needs of others, for their sakes and for our own.
@@ -28,47 +27,47 @@ You can find more details on our mission [on our about page](/about/).
 
 ### Techqueria Chapters are:
 
-* local city-based communities that are run by dedicated chapter directors and volunteers who want to nurture and grow the largest community of Latinx in tech in the world
-* focused on both technical and non-technical content
-* open to all and free to those who are interested in attending
+- local city-based communities that are run by dedicated chapter directors and volunteers who want to nurture and grow the largest community of Latinx in tech in the world
+- focused on both technical and non-technical content
+- open to all and free to those who are interested in attending
 
 ### Qualifications
 
-* a current member of Techqueria in good standing
-  * if you're not a member, you can request an invite [on our Join page](/join/)
-  * good standing here meaning you haven't violated our [Code of Conduct](/about/code-of-conduct/)
-* at least 21 years old
-  * some of our events have alcohol
-* at least 3 years of experience in the tech industry
-  * so you're familiar enough with companies and have built up your own network you can tap into
-* able to organize at least 2 events per year
-  * if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
-  * we do not create new chapters in [Bevy](https://events.techqueria.org) for chapters that have had just 1 event
-* able to dedicate at least 5 hours per week
-  * events take time to plan
-  * how much time you dedicate will also depend on how frequently your chapter has events
+- a current member of Techqueria in good standing
+  - if you're not a member, you can request an invite [on our Join page](/join/)
+  - good standing here meaning you haven't violated our [Code of Conduct](/about/code-of-conduct/)
+- at least 21 years old
+  - some of our events have alcohol
+- at least 3 years of experience in the tech industry
+  - so you're familiar enough with companies and have built up your own network you can tap into
+- able to organize at least 2 events per year
+  - if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
+  - we do not create new chapters in [Bevy](https://events.techqueria.org) for chapters that have had just 1 event
+- able to dedicate at least 5 hours per week
+  - events take time to plan
+  - how much time you dedicate will also depend on how frequently your chapter has events
 
 ## Responsibilities
 
-* build a group of volunteers
-* communicate with the national leadership team and ensure alignment of goals
-* develop and implement a strategic plan for chapter
-* initiate, develop and cultivate working relationships with allied organizations and other potential collaborators on behalf of the local chapter
-* oversee all chapter programs, services, and activities
-* plan events for the local Latinx in tech community to benefit and thrive from
-* prepare and manage chapter budget
-* provide internal team a weekly standup
+- build a group of volunteers
+- communicate with the national leadership team and ensure alignment of goals
+- develop and implement a strategic plan for chapter
+- initiate, develop and cultivate working relationships with allied organizations and other potential collaborators on behalf of the local chapter
+- oversee all chapter programs, services, and activities
+- plan events for the local Latinx in tech community to benefit and thrive from
+- prepare and manage chapter budget
+- provide internal team a weekly standup
 
 ### Example Tasks
 
-* contribute to chapter documentation in [Notion](https://notion.so)
-* create marketing assets in [Canva](https://canva.com)
-* create tasks in [Asana](https://asana.com) to manage local events or partnerships
-* follow Techqueria's [brand guidelines](/brand/)
-* get the help of a volunteer to take photos, upload photos to a Google Photo album and share with national org
-* host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Notion
-* use [Bevy](https://events.techqueria.org) to track RSVPs and attendance of local events
-* use Buffer to automatically schedule social media posts advertising the latest local event
+- contribute to chapter documentation in [Notion](https://notion.so)
+- create marketing assets in [Canva](https://canva.com)
+- create tasks in [Asana](https://asana.com) to manage local events or partnerships
+- follow Techqueria's [brand guidelines](/brand/)
+- get the help of a volunteer to take photos, upload photos to a Google Photo album and share with national org
+- host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Notion
+- use [Bevy](https://events.techqueria.org) to track RSVPs and attendance of local events
+- use Buffer to automatically schedule social media posts advertising the latest local event
 
 ## Benefits
 
@@ -80,24 +79,24 @@ You can find more details on our mission [on our about page](/about/).
 
 ### Impact & Visibility
 
-* You'll be helping grow the largest community of Latinx in tech
-* You can add this position to your LinkedIn profile and be recognized as a community leader
-* You will be helping facilitate events where you will be engaging and growing your local community of Latinx professionals in the tech industry
+- You'll be helping grow the largest community of Latinx in tech
+- You can add this position to your LinkedIn profile and be recognized as a community leader
+- You will be helping facilitate events where you will be engaging and growing your local community of Latinx professionals in the tech industry
 
 ### Org Support
 
-* There is a dedicated onboarding process where you will be introduced to tooling to make your life easier as a new Chapter Director for Techqueria
-* There are dedicated Slack channels where you can ask the national leadership team any questions and interact with other chapter directors
+- There is a dedicated onboarding process where you will be introduced to tooling to make your life easier as a new Chapter Director for Techqueria
+- There are dedicated Slack channels where you can ask the national leadership team any questions and interact with other chapter directors
 
 ### Financial Support
 
 We want to set up you for success so we offer financial support for creating events and increased benefits as you grow out your chapter.
 
-* Based on the number of people per event and the number of events per year, your chapter fall into a certain tier where the benefits increase as you grow your chapter
-* You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
-* See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
+- Based on the number of people per event and the number of events per year, your chapter fall into a certain tier where the benefits increase as you grow your chapter
+- You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
+- See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
 
-## Application
+## How to Apply
 
 We will review your application after you submit it [using the link below](/support-us/chapter-director/application/) and we will either approve or reject your application based on the answers you provided within 2 weeks.
 
