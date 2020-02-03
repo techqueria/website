@@ -98,7 +98,7 @@ We want to set up you for success so we offer financial support for creating eve
 
 ## How to Apply
 
-We will review your application after you submit it [using the link below](/support-us/chapter-director/application/) and we will either approve or reject your application based on the answers you provided within 2 weeks.
+We will review your application after you submit it using the link below and we will either approve or reject your application based on the answers you provided within 2 weeks.
 
 We will then set up a 30-minute call for a short interview to expand on these questions and give you the opportunity to ask us any questions.
 
