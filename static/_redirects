@@ -2,8 +2,8 @@
 https://beta.techqueria.org/* https://techqueria.org/:splat 301!
 
 # Redirect blog
-http://blog.techqueria.org/* https://techqueria.org/news/:splat 301!
-https://blog.techqueria.org/* https://techqueria.org/news/:splat 301!
+http://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
+https://blog.techqueria.org/* https://techqueria.org/blog/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://techqueria.netlify.com/* https://techqueria.org/:splat 301!
@@ -12,9 +12,5 @@ https://techqueria.netlify.com/* https://techqueria.org/:splat 301!
 https://deploy-preview-55--techqueria.netlify.com/* https://techqueria.org/:splat 301!
 https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:splat 301!
 
-# Redirect events page
-# https://techqueria.org/events/ https://events.techqueria.org
-# http://techqueria.org/events/ https://events.techqueria.org
-
-# Redirect chapters page
-https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapters
+# Resources (Espanol)
+http://techqueria.org/es/resources* https://techqueria.org/resources/:splat 301!
