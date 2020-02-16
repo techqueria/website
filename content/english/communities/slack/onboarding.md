@@ -4,21 +4,16 @@ description: "Find all our onboarding messages here. 🌺"
 image: "/assets/img/communities/slack/onboarding.jpg"
 noTimeEstimate: true
 hideImage: true
-toc: true
 aliases:
   - /slack/onboarding/
   - /communities/slack/onboarding/
 ---
 
-## Onboarding 🌺
-
-We use Aloha & Donut for onboarding.
+We use Slack Workflow Builder & Donut for onboarding.
 
 This way, folks get ramped up on Slack pretty quickly and the community is a whole lot more engaged and effective.
 
 If you have feedback on onboarding, let us know in the `#meta` channel.
-
-### 0 minutes
 
 ```txt
 🌮 *Welcome to Techqueria* 🌮
@@ -28,7 +23,7 @@ We're a community of Latinx professionals in the tech industry and we're so exci
 https://techqueria.org/
 ```
 
-### 1 minute
+---
 
 ```txt
 As part of onboarding, we'd love it if you uploaded a photo of yourself 🖼️ and completely filled out your profile on Slack. 📝
@@ -42,7 +37,7 @@ _Uploading a photo_ https://get.slack.help/hc/en-us/articles/115005506003
 _Filling out your profile_ https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
 ```
 
-### 2 minutes
+---
 
 ```txt
 Now that you're situated, go ahead and introduce yourself in the #introductions channel so we can all _get to know who you are_! 🎉
@@ -58,7 +53,7 @@ I'm originally from _ and I am currently living in _.
 Happy to be here!
 ```
 
-### 5 minutes
+---
 
 ```txt
 All participants in the Techqueria Slack are required to comply with the following code of conduct - make sure to read through it! 🌻
@@ -72,7 +67,7 @@ https://techqueria.org/code-of-conduct/
 https://twitter.com/Techqueria
 ```
 
-### 10 minutes
+---
 
 ```txt
 You can learn how to get the most out of the Techqueria Slack Workspace through our _Slack Community Guidelines_ :slack:
@@ -89,7 +84,7 @@ _Topics covered include_
 https://techqueria.org/communities/slack/
 ```
 
-### 20 minutes
+---
 
 ```txt
 Now that you've been using Slack for a little bit, *here are our top three recommendations*  :slack:
@@ -107,7 +102,7 @@ https://get.slack.help/hc/en-us/articles/115000769927-Message-and-file-threads
 https://get.slack.help/hc/en-us/articles/205239997-Pin-messages-and-files
 ```
 
-### 30 minutes
+---
 
 ```txt
 _Here at Techqueria, we use tacos to lift each other up_ 💛
@@ -125,7 +120,7 @@ So whenever you'd like to add a little happiness to someone's day, just give the
 5. If you need help, you can just DM @heytaco the word `help` and it will assist you :hey-taco:
 ```
 
-### 40 minutes
+---
 
 ```txt
 :blob-peek-a-boo:
@@ -141,7 +136,7 @@ https://get.slack.help/hc/en-us/articles/115005506003-Upload-a-profile-photo
 https://get.slack.help/hc/en-us/articles/204092246-Edit-your-profile
 ```
 
-### 50 minutes
+---
 
 ```txt
 _Handy Slack Reacjis (aka Emoji Reactions) & What They Mean_ :slack:
@@ -165,7 +160,7 @@ _Joined any new channels yet? Did you not find the one you wanted?_ :slack:
 If you'd like to request a channel that doesn't already exist, check out #meta-request-channel ➕
 ```
 
-### 1 hour
+---
 
 ```txt
 Alrighty, this will be the last onboarding message from us today as we do our best to cut down on interruptions 🌺
@@ -190,6 +185,10 @@ _If you're interested, you can find more information about Techqueria on our web
 
 :envelope: https://bit.ly/techqueria-newsletter
 ```
+
+## To Add
+
+Once we get more access to Donut, we will add these messages in as well.
 
 ### 1 month
 

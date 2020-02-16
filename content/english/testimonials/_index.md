@@ -1,5 +1,5 @@
 ---
-title: "Wall of Love"
+title: "Testimonials"
 description: "Snippets of love from Techqueria members 😍"
 hideImage: true
 image: "/assets/img/wall-of-love/_index.jpg"
@@ -7,12 +7,15 @@ noTimeEstimate: true
 widePage: true
 toc: true
 aliases:
-- /wall-of-love/
-- /about/wall-of-love/
-- /love/
+  - /about/wall-of-love/
+  - /love/
+  - /reviews/
+  - /testimonial/
+  - /testimonials/
+  - /wall-of-love/
 ---
 
-## Snippets of love
+## Testimonails
 
 <div class="quote">
   <blockquote>
@@ -55,12 +58,12 @@ aliases:
   </blockquote>
 </div>
 
-## Submit a snippet of love
+## Submit a Testimonial
 
-Do you love Techqueria as much as we do? Have a story to share? Submit your snippet of love here! 😍
+Do you love Techqueria as much as we do? Have a story to share? Submit your testimonial here! 😍
 
-<form name="Wall of Love" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--max-width-unset form--centered no-ids">
-  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Wall of Love Submission">
+<form name="Testimonial" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--max-width-unset form--centered no-ids">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Testimonial Submission">
   <div class="columns mb-0">
     <div class="column pb-0">
       {{< fields/name >}}
@@ -71,7 +74,7 @@ Do you love Techqueria as much as we do? Have a story to share? Submit your snip
       {{< fields/title >}}
     </div>
   </div>
-  {{< fields/message required="true" label="Your snippet of love or appreciation" >}}
+  {{< fields/message required="true" label="Your testimonial" >}}
   {{< fields/referral >}}
-  {{< fields/submit label="Submit snippet of love" >}}
+  {{< fields/submit label="Submit testimonial" >}}
 </form>

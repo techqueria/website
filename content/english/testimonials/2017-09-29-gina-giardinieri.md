@@ -6,6 +6,8 @@ image: https://i.imgur.com/oxnVaMg.jpg
 linkedin: gina-giardinieri
 categories:
   - testimonial
+aliases:
+  - /news/2017/09/29/gina-giardinieri/
 ---
 
 Techstars Startup Weekend was an unforgettable experience.

@@ -22,3 +22,6 @@ https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapt
 # Redirect old about locations
 https://techqueria.org/about/team/* https://techqueria.org/team/:splat 301!
 https://techqueria.org/about/resources/* https://techqueria.org/resources/:splat 301!
+
+# Redirect conference resources
+https://techqueria.org/about/resources/conferences/* https://techqueria.org/conference/:splat 301!

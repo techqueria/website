@@ -11,9 +11,39 @@ aliases:
   - /slack/community-guidelines/
 ---
 
+## Overview
+
+We are a close knit community of Latinx in Tech, elevating each other as we grow into leaders within the tech industry.
+
+Whether you're already a Latinx professional in tech or are interested in becoming one, you'll be joining a fast-growing community. We help each other out with problems/questions, share positive, support one another's concerns over compensation and workplace challenges and network through both offline and online initiatives.
+
+Within our Slack, you will find:
+
+- career advice (anonymous option provided)
+- community moderators who make sure the Code of Conduct is being enforced
+- compensation advice (anonymous option provided)
+- free conference tickets or discounts
+- job opportunities
+- local events
+- member highlights
+- mentors and mentees
+- org wide updates from Techqueria
+- platform discounts
+- resources
+- scholarship opportunities
+- specific channels that cater to you - affinities, cities, passions, hobbies, etc
+- and so much more
+
+In terms of metrics, we have (as of February 2020):
+
+- 5,000+ members
+- 1,300+ weekly active members
+- 600+ daily active members
+- 250+ allies
+
 ## Allies 💛
 
-Techqueria is committed to bringing together and elevating Latinx professionals in the tech industry through a vibrant and supportive community. :taco:
+Techqueria is committed to bringing together and elevating Latinx professionals in the tech industry through a vibrant and supportive community. 🌮
 
 However, it is not a requirement to identify as Latinx to be in this community which is why allies get access to 4 channels
 
@@ -156,9 +186,15 @@ All these customization suggestions are completely optional and solely meant to 
 
 Copy and paste these values to your settings [Sidebar Theme](https://get.slack.help/hc/en-us/articles/205166337-Customizing-your-Slack-theme) section to get Techqueria theming.
 
+![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
+
+#### Light Mode
+
 `#FFFFFF,#FFFFFF,#FBAE52,#000000,#FBAE52,#000000,#FF551F,#FF551F`
 
-![Techqueria Slack Sidebar Theme](https://i.imgur.com/tJuPKeu.jpg)
+#### Dark Mode
+
+`#1A1D21,#FABF67,#FABF67,#1A1D21,#000000,#FFFFFF,#FF551F,#FF551F`
 
 ### Custom Status
 
@@ -207,6 +243,8 @@ There are three default channels everyone automatically gets added to upon joini
   - sharing and requesting job opportunities
 - `#random`
   - conversations that don't fit in any topic channel but could be relevant for everyone
+- `#meta`
+  - provide feedback or ask questions to Techqueria
 
 ### Public Channels
 
@@ -260,13 +298,14 @@ To see a list of available channels, run the command `/list-private`, and click 
 
 There are several cafecito channels in Techqueria - all based on location. If you'd like one added, head on over to #meta-request-channel.
 
-- `#cafecito-sf`
-- `#cafecito-nyc`
-- `#cafecito-la`
-- `#cafecito-chicago`
-- `#cafecito-south-bay`
 - `#cafecito-atx`
+- `#cafecito-chicago`
 - `#cafecito-east-bay`
+- `#cafecito-la`
+- `#cafecito-nyc`
+- `#cafecito-remote`
+- `#cafecito-sf`
+- `#cafecito-south-bay`
 
 #### Setting up Cafecitos
 
@@ -316,18 +355,7 @@ Not finding a channel you want? No worries, head on over to `#meta-request-chann
 
 ### Planning a local event?
 
-Let us know in `#meta` and we can showcase it on Meetup.com!
-
-Fill out the template below when requesting an event to be added.
-
-```txt
-*Name* Picnic Meetup
-*Date* 07/15/2019
-*Location* XYZ Restaurant - Apple Street - Oakland, CA
-*Details* We'll be by the XYZ sign - bring some food!
-*Image* https://pixabay.com/image.png or upload it
-*Meetup Member Profile URL* https://meetup.com/techqueria/members/123
-```
+Let us know in `#meta-request-event` and we can showcase it on our event platform.
 
 ## Code of Conduct 🌻
 
@@ -345,9 +373,6 @@ Your Slack account may have been deactivated because of one of the following rea
   - if someone reported you or we have noticed a violation, we will first deactivate your account and then contact you via email
   - if it is an extreme violation (like hate speech), we may deactivate your account and not provide the courtesy of following up
   - if there was a misunderstanding, we can reactivate your account but we're usually pretty strict on violations
-- you have not posted any messages within the last 6 months AND have not uploaded a profile picture OR you have not posted any messages within the last 12 months
-  - this is to ensure our bot integrations pair up active members and our Slack provides more value to our active members
-  - please feel free to reach out if you'd like to join the Slack again and we'll happily activate again for you
 - you requested it yourself
   - [anyone can deactivate their account](https://get.slack.help/hc/en-us/articles/203953146-Deactivate-your-Slack-account) if they'd like but you will have to contact us after if you want reactivated
 
@@ -373,6 +398,8 @@ Other related meta channels include:
   - Give feedback, ask questions, bring up concerns, etc
 - `#meta-profile-pic`
   - Messages reacted with :frame_with_picture:
+- `#meta-request-event`
+  - Add a community event to our events platform
 - `#meta-request-channel`
   - Request a new channel
 - `#meta-website`

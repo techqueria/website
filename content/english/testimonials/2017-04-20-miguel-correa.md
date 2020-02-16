@@ -6,6 +6,8 @@ image: https://avatars2.githubusercontent.com/u/11799597?s=460&v=4
 linkedin: mc1221
 categories:
   - testimonial
+aliases:
+  - /news/2017/04/20/miguel-correa/
 ---
 
 This Slack channel is simply amazing.

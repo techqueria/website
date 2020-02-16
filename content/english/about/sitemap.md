@@ -12,4 +12,5 @@ url: /sitemap/
 aliases:
   - /directory/
   - /all-pages/
+  - /about/sitemap/
 ---

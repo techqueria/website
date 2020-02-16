@@ -8,6 +8,8 @@ categories:
   - testimonial
 authors:
   - Frances Coronel
+aliases:
+  - /news/2018/04/22/frances-coronel/
 ---
 
 Techqueria helped me get in touch with four different Latinxs in tech who all offered me tips on how to prepare for my interviews as I searched for my next role.
