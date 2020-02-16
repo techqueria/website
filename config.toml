@@ -82,7 +82,6 @@ disqusShortname                         = "techqueria"
     github                              = "techqueria"
     instagram                           = "techqueriaorg"
     linkedin                            = "company/techqueria"
-    meetup                              = "techqueria"
     twitter                             = "Techqueria"
     youtube                             = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
@@ -327,10 +326,6 @@ disqusShortname                         = "techqueria"
     url                                 = "/communities/chapters/"
 [[languages.es.menu.main]]
     parent                              = "Comunidades"
-    name                                = "Eventbrite"
-    url                                 = "https://techqueria.eventbrite.com"
-[[languages.es.menu.main]]
-    parent                              = "Comunidades"
     name                                = "Grupo de Facebook"
     url                                 = "https://www.facebook.com/groups/techqueria"
 [[languages.es.menu.main]]
@@ -349,10 +344,6 @@ disqusShortname                         = "techqueria"
     parent                              = "Comunidades"
     name                                = "Página de LinkedIn"
     url                                 = "https://www.linkedin.com/company/techqueria/"
-[[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Grupo de Meetup"
-    url                                 = "https://www.meetup.com/techqueria/"
 [[languages.es.menu.main]]
     parent                              = "Comunidades"
     name                                = "Boletín electrónico"

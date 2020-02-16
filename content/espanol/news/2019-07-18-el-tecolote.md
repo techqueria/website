@@ -5,8 +5,6 @@ description: "Techquería, una organización de latinos en tecnología, fue fund
 publication: "El Tecolote"
 image: "/assets/img/news/2019-07-18-el-tecolote.jpg"
 link: http://eltecolote.org/content/es/especiales/techqueria-construye-una-comunidad-latina-en-la-industria-de-la-tecnologia/
-aliases:
-  - /es/press/2019/07/18/techqueria-construye-una-comunidad-latina-en-la-industria-de-la-tecnología/
 ---
 
 Techquería, una organización de latinos en tecnología, fue fundada en Berkeley en noviembre de 2015, y se ha creado para aquellos que estudian o ejercen una profesión vinculada a este campo.
