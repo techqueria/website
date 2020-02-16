@@ -20,26 +20,26 @@ aliases:
   - /referral/
 ---
 
-## Who is it for?
+## Member Benefits
 
-Techqueria is the largest community of Latinx in Tech in the US.
+Techqueria is the largest community of **Latinx in Tech** in the US.
 
 We provide Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
 
-### Allies
+By becoming a member of Techqueria, you will get:
 
-To facilitate allyship, we are implementing best practices from other orgs that have been doing this type of work for a long time and adapting them to our organizational structure.
-
-This organization exists as a space **for Latinx in tech folks** to feel included. Generally allyship in underrepresented communities is there to support the community, not the other way around. We are firm in this policy of not allowing allies to get additional access to channels beyond the ones outlined below.
-
-If you do not identify as Latinx, you will still receive an invitation as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.
-
-## Member Benefits
-
-- Access to our <a href="/communities/slack/" target="_blank">online Slack community</a>where you can network with thousands of other Latinx in Tech
-- Access to our <a href="https://events.techqueria.org" target="_blank">dedicated events platform</a> where you can automatically get notified of upcoming local and partner events
+- Access to our <a href="/communities/slack/" rel="noopener" target="_blank">online Slack community</a> where you can network with thousands of other Latinx in Tech
+- Access to our <a href="https://events.techqueria.org" rel="noopener" target="_blank">dedicated events platform</a> where you can automatically get notified of upcoming local and partner events
 - Access to to our monthly email newsletter where you can get updated on national announcements, job postings and more
 - (Future) Access to our member only portal with a dedicated job board, career resources and partner discounts
+
+## Allies
+
+This organization exists as a space for Latinx in tech folks to feel included.
+
+However, if you do not identify as Latinx, you will still receive an invitation to our Slack community as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.
+
+We are firm in this policy of not allowing allies to get additional access to channels beyond the ones outlined above.
 
 ## Aftermath
 
@@ -47,13 +47,11 @@ Anyone who signs up will be automatically subscribed to our mailing list, sent a
 
 If you don't get an invite to our Slack community within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
 
-### Slack Community Guidelines
-
 As you are waiting for your invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
 
 You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
 
-## Apply to become a member
+## Apply to Become a Member
 
 <form name="Become a Member" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/" class="form--centered mt-2 no-ids" id="form_become_a_member">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Member">
