@@ -3,7 +3,6 @@ title: "Veronica Morales"
 date: 2019-10-09
 image: "/assets/img/testimonials/veronica-morales.jpeg"
 link: https://techqueria.slack.com/archives/C0KQUT1NU/p1570636245006400
-linkedin: https://www.linkedin.com/in/mc1221
 categories:
   - testimonial
 ---

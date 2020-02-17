@@ -2,8 +2,8 @@
 title: "Miguel Correa"
 date: 2017-04-20
 description: "Senior Associate Software Engineer at Workday"
-image: "/assets/img/testimonials/miguel-correa.png"
-linkedin: https://www.linkedin.com/in/mc1221
+image: "/assets/img/testimonials/miguel-correa.jpeg"
+linkedin: https://www.linkedin.com/in/mc1221/
 categories:
   - testimonial
 aliases:
