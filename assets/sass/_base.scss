@@ -62,7 +62,11 @@ form {
   }
 
   .field {
-    margin-top: 1em;
+    margin-top: 1.5em;
+
+    &:not(:last-child) {
+      margin-bottom: 1.5em;
+    }
   }
 }
 

@@ -36,67 +36,6 @@ Techqueria is a national 501c3 nonprofit that serves the largest community of La
 4. Positive Vibes
 5. Data-Driven
 
-## Our 7 P's of Community
-
-### People - Who are your members?
-
-Latinx professionals in the tech industry
-
-### Purpose - Why does the community exist?
-
-To create more Latinx leaders in the tech industry which in turn will lead to a more diverse balance of power in the largest wealth-generating field in the world
-
-### Place - Where do members gather?
-
-- in all our online communities
-- in-person events in our chapters across the US
-
-### Participation - What do members do?
-
-1. Network & collaborate with other Latinx in Tech
-2. Share resources/advice/job opportunities
-3. Engage with Techqueria by becoming a corporate or community partner
-
-Other things members do...
-
-- ask for advice/share advice
-- build a new Techqueria chapter
-- collaborate with other ERGs
-- create lifelong partnerships and relationships
-- find a mentor who is also Latinx
-- get a new job
-- grow their Latinx ERG (employee resource group)
-- grow their Latinx in Tech network
-- hear about and attend networking events
-- hire Latinx in Tech
-- learn more about certain topics (product management, social entrepreneurship, front end, etc)
-- sponsor Techqueria
-- stay in the loop about tech in LATAM
-- support other Latinx in Tech
-- transition to tech from another field
-- vent about workplace challenges
-- volunteer for Techqueria
-
-### Policy - What are the values, guidelines, and rules?
-
-- [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events
-
-### Promotion - How is this community discovered?
-
-- in-person events
-- online (we are #1 on Google for "Latinx in tech" or "Latinx tech")
-- word of mouth
-
-### Performance - How is success measured?
-
-- offline engagement (e.g. number of Latinx professionals who attend our events)
-- online engagement (e.g. member growth, social media followers)
-- qualitative feedback (e.g. feedback from members via surveys)
-
-## Chapters
-
-You can find all our chapters on our [Chapters page](https://events.techqueria.org/chapters).
-
 ## Members by Profession
 
 Data is from a sample of 2,250 responses from Linkedin and intake surveys (2018).

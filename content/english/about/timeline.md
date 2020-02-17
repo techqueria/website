@@ -2,7 +2,7 @@
 title: "Timeline"
 description: "Get an overview of Techqueria's timeline and see how far we've come since starting out in 2015."
 hideImage: true
-image: "/assets/img/about/terms-of-service.jpg"
+image: "/assets/img/about/timeline.jpg"
 noTimeEstimate: true
 aliases:
   - /timeline/

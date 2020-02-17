@@ -1,6 +1,6 @@
 ---
 title: "Careers"
-description: "Together, we're creating the strongest network of Latinx in Tech across the nation."
+description: "Together, we're creating the strongest network of Latinx in Tech professionals across the nation."
 image: "/assets/img/careers/_index.jpg"
 noTimeEstimate: true
 hideImage: true

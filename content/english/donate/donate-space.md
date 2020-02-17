@@ -8,7 +8,7 @@ aliases:
   - /support-us/donate-space/
 ---
 
-Techqueria events are usually held at different tech companies across the US.
+Techqueria events are usually held at different tech companies across our different chapters.
 
 Donating space for Techqueria events provides a great opportunity for our members to get a peek of your company environment while also supporting the growth and advancement of our members.
 
@@ -16,9 +16,7 @@ The number of attendees varies - from 20 to 200+ with most events happening on e
 
 If you're interested in donating space, please fill out the form below.
 
-We'll get back to you if we have a need for your space which may not be immediately since we prioritize [backing sponsors](/support-us/#sponsorship-packages).
-
-In the meantime, feel free to [request an invite to our Slack community](/slack).
+We'll get back to you if we have a need for your space.
 
 <form name="Donate Space" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">

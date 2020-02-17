@@ -4,6 +4,7 @@ description: "If you are interested in supporting Techqueria as an individual, o
 image: "/assets/img/support-us/volunteer.jpg"
 toc: true
 noTimeEstimate: true
+hideImage: true
 aliases:
   - /volunteer/
   - /become-a-volunteer/
@@ -15,7 +16,7 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 ## Volunteering Opportunities
 
-You can find all <a href="https://docs.google.com/document/d/1ryugVO5ecNZgf83HPULTT3Q7HUSEAWUP4BRYfORksdY/edit?usp=sharing" rel="noopener">our volunteering opportunities</a> on Notion.
+You can find all <a href="https://docs.google.com/document/d/1ryugVO5ecNZgf83HPULTT3Q7HUSEAWUP4BRYfORksdY/edit?usp=sharing" rel="noopener">our volunteering opportunities</a> on Google Docs.
 
 ## Sign up to volunteer
 
