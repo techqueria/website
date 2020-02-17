@@ -17,7 +17,6 @@ sitemap: true
     <p>Techqueria is a tax-exempt public charity under Section 501c3 of the Internal Revenue Code.</p>
     <p>Contributions to Techqueria are tax-deductible to the extent provided by law.</p>
     <p>EIN 83-2656715</p>
-    <p>Other Donate Options: <a href="https://secure.actblue.com/donate/techqueria" rel="noopener" target="_blank">ActBlue</a></p>
   </div>
   <div class="column is-half">
     <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>

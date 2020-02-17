@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct
 description: "All members of Techqueria are expected to abide by our Code of Conduct. ⚖"
-image: "/assets/img/about/code-of-conduct/_index.jpg"
+image: "/assets/img/about/code-of-conduct.jpg"
 noTimeEstimate: true
 hideImage: true
 toc: true

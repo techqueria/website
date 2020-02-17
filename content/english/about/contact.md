@@ -2,7 +2,7 @@
 title: "Contact"
 description: "Get in touch with a Techqueria team member via email, Slack or social media. 📨"
 hideImage: true
-image: "/assets/img/about/contact/_index.jpg"
+image: "/assets/img/about/contact.jpg"
 noTimeEstimate: true
 sitemap: true
 toc: true
