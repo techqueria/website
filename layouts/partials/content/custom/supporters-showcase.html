@@ -80,18 +80,6 @@
   {{ end }}
 </section>
 {{ end }}
-<!-- Iron Sponsors -->
-{{ if (index .Site.Taxonomies.categories "sponsor-iron") "!=" nil }}
-<div class="content mt-4 u-text--centered">
-  <h3 id="iron-sponsors"><span class="mr-sm">🗝</span>Iron Sponsors<span class="ml-sm">🗝</span></h3>
-  <p>Organizations that have committed $1,000+.</p>
-</div>
-<section class="c-companies c-companies--iron-sponsors">
-  {{ range (index .Site.Taxonomies.categories "sponsor-iron") }}
-  {{ partial "content/card/company.html" . }}
-  {{ end }}
-</section>
-{{ end }}
 <!-- Software Sponsors -->
 {{ if (index .Site.Taxonomies.categories "software-sponsor") "!=" nil }}
 <div class="content mt-4 u-text--centered">
