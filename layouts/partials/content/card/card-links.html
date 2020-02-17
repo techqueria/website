@@ -4,7 +4,7 @@
     <!-- Twitter -->
     {{- if .Params.twitter -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-twitter fa-fw"></i></span><a href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">Twitter Profile</a></p>{{- end -}}
     <!-- LinkedIn -->
-    {{- if .Params.linkedin -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-linkedin fa-fw"></i></span><a href="https://linkedin.com/in/{{ .Params.linkedin }}" target="_blank" rel="noopener">LinkedIn Profile</a></p>{{- end -}}
+    {{- if .Params.linkedin -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-linkedin fa-fw"></i></span><a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">LinkedIn Profile</a></p>{{- end -}}
     <!-- GitHub -->
     {{- if .Params.github -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">GitHub Profile</a></p>{{- end -}}
     <!-- Author Links -->

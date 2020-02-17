@@ -4,4 +4,7 @@ description: "Partner with Techqueria as a corporate partner through our event a
 hideImage: true
 image: "/assets/img/support-us/corporate-partner/_index.jpg"
 noTimeEstimate: true
+layout: "custom/children-first"
 ---
+
+{{< core-sponsorship-packages >}}

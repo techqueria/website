@@ -1,18 +1,18 @@
 ---
-title: Contact
+title: "Contact"
 description: "Get in touch with a Techqueria team member via email, Slack or social media. 📨"
 hideImage: true
-image: "/assets/img/about/contact/_index.jpg"
+image: "/assets/img/about/contact.jpg"
 noTimeEstimate: true
-toc: true
 sitemap: true
+toc: true
 url: /contact/
 aliases:
-- /contact/
-- /about/contact-us/
-- /contact-us/
-- /about/contact/
-- /message-us/
+  - /about/contact-us/
+  - /about/contact/
+  - /contact-us/
+  - /contact/
+  - /message-us/
 ---
 
 ## Email

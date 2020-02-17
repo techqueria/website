@@ -1,8 +1,4 @@
 nav#TableOfContents {
-  // ul li ul,
-  // ul li ul li {
-  //   display: none;
-  // }
 
   ul,
   li,
@@ -12,7 +8,12 @@ nav#TableOfContents {
   }
 
   ul {
-    margin-left: 0.5em;
+    margin-top: 0.25em;
+    border-left: 0.25px solid $toc-navbar-border-color;
+  }
+
+  li {
+    padding-left: 0.5em;
   }
 
   a {

@@ -10,8 +10,6 @@ aliases:
   - /la-techqueria/
   - /posts/
   - /press/
-  - /testimonial/
-  - /testimonials/
   - /news/
   - /updates/
 sitemap: true

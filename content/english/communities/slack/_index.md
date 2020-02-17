@@ -1,6 +1,6 @@
 ---
 title: Slack Workspace
-description: "Where Techqueria members and leads collaborate with partners, allies and each other."
+description: "Where Techqueria members and leads collaborate with partners, allies and each other. "
 identifier: fab fa-slack
 image: "/assets/img/supporters/slack.png"
 noTimeEstimate: true
@@ -16,7 +16,7 @@ If you'd like to join our Slack Workspace, please [apply to become a Techqueria 
 
 <a href="/join/" class="image-external-plain" rel="noopener"><img alt="Become a Member" src="/assets/img/communities/slack/request-an-invite.png"></a>
 
-### Already a member? ➡️
+## Already a member? ➡️
 
 If you have already received an invitation, you can log in at [techqueria.slack.com](https://techqueria.slack.com/).
 

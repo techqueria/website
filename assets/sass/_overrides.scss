@@ -39,6 +39,10 @@
     }
   }
 
+  &.is-medium {
+    font-size: 1.5em !important;
+  }
+
   &.is-primary {
     background-color: $techqueria-black;
     color: $techqueria-white;
@@ -163,4 +167,9 @@ a.image-external-plain:after {
 
 video {
   max-width: 100%;
+}
+
+.box--testimonial {
+  border: 0;
+  padding: 1.5em;
 }

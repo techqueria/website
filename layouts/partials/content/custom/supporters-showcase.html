@@ -14,7 +14,7 @@
   <h3 id="diamond-sponsors"><span class="mr-sm">💎</span>Diamond Sponsors<span class="ml-sm">💎</span></h3>
   <p>Organizations that have committed $50,000+.</p>
 </div>
-<section class="c-companies c-companies__diamond-sponsors">
+<section class="c-companies c-companies--diamond-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-diamond") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -26,7 +26,7 @@
   <h3 id="titanium-sponsors"><span class="mr-sm">⚒️</span>Titanium Sponsors<span class="ml-sm">⚒️</span></h3>
   <p>Organizations that have committed $35,000+.</p>
 </div>
-<section class="c-companies c-companies__titanium-sponsors">
+<section class="c-companies c-companies--titanium-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-titanium") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -38,7 +38,7 @@
   <h3 id="platinum-sponsors"><span class="mr-sm">💍</span>Platinum Sponsors<span class="ml-sm">💍</span></h3>
   <p>Organizations that have committed $20,000+.</p>
 </div>
-<section class="c-companies c-companies__platinum-sponsors">
+<section class="c-companies c-companies--platinum-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-platinum") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -50,7 +50,7 @@
   <h3 id="gold-sponsors"><span class="mr-sm">🔱</span>Gold Sponsors<span class="ml-sm">🔱</span></h3>
   <p>Organizations that have committed $10,000+.</p>
 </div>
-<section class="c-companies c-companies__gold-sponsors">
+<section class="c-companies c-companies--gold-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-gold") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -62,7 +62,7 @@
   <h3 id="silver-sponsors"><span class="mr-sm">🧭</span>Silver Sponsors<span class="ml-sm">🧭</span></h3>
   <p>Organizations that have committed $5,000+.</p>
 </div>
-<section class="c-companies c-companies__silver-sponsors">
+<section class="c-companies c-companies--silver-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-silver") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -74,20 +74,8 @@
   <h3 id="bronze-sponsors"><span class="mr-sm">🏺</span>Bronze Sponsors<span class="ml-sm">🏺</span></h3>
   <p>Organizations that have committed $2,000+.</p>
 </div>
-<section class="c-companies c-companies__bronze-sponsors">
+<section class="c-companies c-companies--bronze-sponsors">
   {{ range (index .Site.Taxonomies.categories "sponsor-bronze") }}
-  {{ partial "content/card/company.html" . }}
-  {{ end }}
-</section>
-{{ end }}
-<!-- Iron Sponsors -->
-{{ if (index .Site.Taxonomies.categories "sponsor-iron") "!=" nil }}
-<div class="content mt-4 u-text--centered">
-  <h3 id="iron-sponsors"><span class="mr-sm">🗝</span>Iron Sponsors<span class="ml-sm">🗝</span></h3>
-  <p>Organizations that have committed $1,000+.</p>
-</div>
-<section class="c-companies c-companies__iron-sponsors">
-  {{ range (index .Site.Taxonomies.categories "sponsor-iron") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
 </section>
@@ -96,9 +84,9 @@
 {{ if (index .Site.Taxonomies.categories "software-sponsor") "!=" nil }}
 <div class="content mt-4 u-text--centered">
   <h3 id="software-sponsors"><span class="mr-sm">💻</span>Software Sponsors<span class="ml-sm">💻</span></h3>
-  <p>Organizations that have given us discounted or free software as a nonprofit.</p>
+  <p>Organizations that have granted us access to their software as a nonprofit.</p>
 </div>
-<section class="c-companies c-companies__software-suporters">
+<section class="c-companies c-companies--software-suporters">
   {{ range (index .Site.Taxonomies.categories "software-sponsor") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -110,7 +98,7 @@
   <h3 id="community-partners"><span class="mr-sm">💙</span>Community Partners<span class="ml-sm">💙</span></h3>
   <p>Organizations we partner with that also support Latinx in Tech.</p>
 </div>
-<section class="c-companies c-companies__community-partners">
+<section class="c-companies c-companies--community-partners">
   {{ range (index .Site.Taxonomies.categories "community-partner") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -119,12 +107,12 @@
 <!-- Past Supporters -->
 {{ if (index .Site.Taxonomies.categories "past-supporter") "!=" nil }}
 <div class="content mt-4 u-text--centered">
-  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters & Partners<span
+  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters<span
       class="ml-sm">🕒</span></h3>
-  <p>Organizations that have supported us or partnered with us in the past.</p>
+  <p>Organizations that have supported us in the past.</p>
   <p>We've had {{ $companies }} different organizations support us in some capacity since 2015.</p>
 </div>
-<section class="c-companies c-companies__past-supporters">
+<section class="c-companies c-companies--past-supporters">
   {{ range (index .Site.Taxonomies.categories "past-supporter") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
@@ -139,7 +127,7 @@
 <div class="content mt-4 u-text--centered">
   <p>Patreon supporters who pledge $100 or more each month</p>
 </div>
-<section class="columns is-multiline page__team">
+<section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-champion") }}
   {{ partial "content/child.html" . }}
   {{ end }}
@@ -150,7 +138,7 @@
 <div class="content mt-4 u-text--centered">
   <p>Patreon supporters who pledge $50 or more each month</p>
 </div>
-<section class="columns is-multiline page__team">
+<section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-patron") }}
   {{ partial "content/child.html" . }}
   {{ end }}
@@ -158,10 +146,10 @@
 {{ end }}
 <!-- Core Level Supporters -->
 {{ if (index .Site.Taxonomies.categories "patreon-core") "!=" nil }}
-<div class="content mt-4 u-text--centered">
+<div class="content mt-2 u-text--centered">
   <p>Patreon supporters who pledge $25 or more each month</p>
 </div>
-<section class="columns is-multiline page__team">
+<section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-core") }}
   {{ partial "content/child.html" . }}
   {{ end }}

@@ -22,7 +22,7 @@
         </a>
         {{ end }}
         <!-- Slack -->
-        <div class="slack-buttons__navbar-start">
+        <div class="slack-buttons--navbar-start">
           {{ range .Site.Menus.portal }}
           <a class="button is-primary is-small" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">
             <span class="icon">
@@ -86,7 +86,7 @@
     {{ end }}
     <div class="navbar-end">
       <!-- Portal -->
-      <div class="slack-buttons__navbar-end">
+      <div class="slack-buttons--navbar-end">
         {{ range .Site.Menus.portal }}
         <div class="navbar-item">
           <a class="button is-primary" target="_blank" href="{{ .URL | relLangURL }}" rel="noopener">

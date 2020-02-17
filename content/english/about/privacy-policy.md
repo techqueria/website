@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "Your privacy is important to us. It is Techqueria's policy to respect your privacy regarding any information we may collect from you across our website and other sites we own and operate."
-image: "/assets/img/about/privacy-policy/_index.jpg"
+image: "/assets/img/about/privacy-policy.jpg"
 noTimeEstimate: true
 hideImage: true
 aliases:

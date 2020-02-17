@@ -37,49 +37,49 @@
     justify-content: center;
 
     @media screen and (min-width: $tablet) {
-      grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     }
   }
 
   @media screen and (min-width: $laptop) {
-    .c-companies__diamond-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(1000px, max-content));
+    .c-companies--diamond-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(1000px, 1000px));
     }
 
-    .c-companies__titanium-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(800px, max-content));
+    .c-companies--titanium-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(800px, 800px));
     }
 
-    .c-companies__platinum-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(600px, max-content));
+    .c-companies--platinum-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
     }
 
-    .c-companies__gold-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+    .c-companies--gold-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
     }
 
-    .c-companies__silver-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    .c-companies--silver-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     }
 
-    .c-companies__bronze-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    .c-companies--bronze-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
     }
 
-    .c-companies__iron-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    .c-companies--iron-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
     }
 
-    .c-companies__community-partners {
-      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    .c-companies--software-suporters {
+      grid-template-columns: repeat(auto-fit, minmax(225px, 225px));
     }
 
-    .c-companies__software-suporters {
-      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    .c-companies--community-partners {
+      grid-template-columns: repeat(auto-fit, minmax(215px, 215px));
     }
 
-    .c-companies__past-supporters {
-      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    .c-companies--past-supporters {
+      grid-template-columns: repeat(auto-fit, minmax(175px, 175px));
     }
   }
 }

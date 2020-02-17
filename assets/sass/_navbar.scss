@@ -123,7 +123,7 @@
   }
 
   .slack-buttons {
-    &__navbar-start {
+    &--navbar-start {
       display: none !important;
 
       @media only screen and (min-width: $tablet) {
@@ -131,7 +131,7 @@
       }
     }
 
-    &__navbar-end {
+    &--navbar-end {
       display: block !important;
 
       @media only screen and (min-width: $mobile) {

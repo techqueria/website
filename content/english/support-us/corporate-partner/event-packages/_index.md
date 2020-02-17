@@ -12,41 +12,19 @@ aliases:
   - /event-packages/
 ---
 
-## Core Sponsorship Tiers
-
-The primary way we partner with tech companies is through the core sponsorship packages which also include marketing add-ons depending on the tier.
-
-We are also open to [custom packages](/support-us/corporate-partner/custom-packages/) which range from from $1,000+ to $150,000+ so there are options for companies of all sizes.
-
-<br>
-
-|                       | [Diamond](/support-us/corporate-partner/core-packages/diamond/)<br>$50,000 | [Titanium](/support-us/corporate-partner/core-packages/titanium/)<br>$35,000 | [Platinum](/support-us/corporate-partner/core-packages/platinum/)<br>$20,000 | [Gold](/support-us/corporate-partner/core-packages/gold/)<br>$10,000 | [Silver](/support-us/corporate-partner/core-packages/silver/)<br>$5,000 |
-| --------------------- | :------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| **Number of Events**  |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                    1                                    |
-| **Per Event**         |
-| Blog post             |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
-| Video recording       |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
-| Photographer          |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-| Sourcing speakers     |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-| Event page            |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-| Marketing             |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-| **Per Month**         |
-| Job postings          |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                                                         |
-| Social media posts    |                                     4                                      |                                      3                                       |                                      2                                       |                                  1                                   |                                                                         |
-| **Visibility**        |
-| Logo in slides        |                                     ✅                                      |                                                                              |                                                                              |                                                                      |                                                                         |
-| Logo in emails        |                                     ✅                                      |                                      ✅                                       |                                                                              |                                                                      |                                                                         |
-| Logo on website       |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-| **Support**           |
-| Private Slack channel |                                     ✅                                      |                                      ✅                                       |                                      ✅                                       |                                  ✅                                   |                                    ✅                                    |
-
-<br>
+{{< core-sponsorship-packages >}}
 
 ## Event Types
 
-### Local
+### Networking
 
-Our workshops and meetups allow participants to discuss their work, prepare for critical milestones in their career, establish goals and accountability through peer mentorship, and explore how to navigate our workplaces as underrepresented members of the tech industry.
+Our most informal type of event are just Techqueria members gathering together to network and hang out casually. Examples include happy hours, board game nights, etc.
+
+### Panels
+
+Our panel events allow participants to discuss their work, prepare for critical milestones in their career, establish goals and accountability through peer mentorship, and explore how to navigate our workplaces as underrepresented members of the tech industry.
+
+There are usually 3 to 4 panelists with 1 moderator.
 
 ### Comida
 
@@ -56,22 +34,21 @@ Outside our regular workshops and meetups, we often meet up and network at food 
 
 Gain exposure to a wider audience beyond one night and be inclusive of remote employees or attendees outside our chapter locations. Through a webinar, we will stream your event through YouTube and extend your reach.
 
-### Private
+### ERG Leads Meetings
+
+Local Latinx ERG leads get together and share struggles and advice.
+
+### Hackathons
+
+Hackathons allow Techqueria members to collaborate intensively on projects they're passionate about.
+
+### Lightning Talks
+
+Host lightning talk events where 10+ people give 5 minute rapid style presentaitons.
+
+### Workshops
 
 Host a private workshop or community event at your company where we discuss a specific topic. Previous topics have included coaching on executive presence and public speaking, building effective employee resource groups, and navigating the workplace as an individual contributor.
-
-### Other Types of Events
-
-- 5 minute rapid style with 10+ people speaking
-- 1 hour with 1 person where they are teaching something
-- 1 hour panels/fireside chat
-  - 3 to 6 people
-  - 1 moderator
-- comida meetup
-- ERG leads
-- hackathon
-- workshops
-- plain old networking/happy hour
 
 ## Event Topics
 

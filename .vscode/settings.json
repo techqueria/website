@@ -2,8 +2,8 @@
   "files.associations": {
     "*.html": "html"
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
   "cSpell.enabled": false,
   "editor.formatOnSave": true,
@@ -19,8 +19,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "workbench.statusBar.feedback.visible": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  "workbench.statusBar.feedback.visible": false
 }

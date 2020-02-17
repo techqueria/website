@@ -82,7 +82,6 @@ disqusShortname                         = "techqueria"
     github                              = "techqueria"
     instagram                           = "techqueriaorg"
     linkedin                            = "company/techqueria"
-    meetup                              = "techqueria"
     twitter                             = "Techqueria"
     youtube                             = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
@@ -110,11 +109,11 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "About"
     name                                = "Brand"
-    url                                 = "/about/brand/"
+    url                                 = "/brand/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Code of Conduct"
-    url                                 = "/code-of-conduct"
+    url                                 = "/code-of-conduct/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Contact"
@@ -123,7 +122,7 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "About"
     name                                = "Resources"
-    url                                 = "/about/resources/"
+    url                                 = "/resources/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Team"
@@ -134,8 +133,8 @@ disqusShortname                         = "techqueria"
     url                                 = "/shop/"
 [[menu.main]]
     parent                              = "About"
-    name                                = "Wall of Love"
-    url                                 = "/about/wall-of-love/"
+    name                                = "Testimonials"
+    url                                 = "/testimonials/"
 
 # Join Us
 [[menu.main]]
@@ -311,11 +310,11 @@ disqusShortname                         = "techqueria"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Equipo"
-    url                                 = "/about/team/"
+    url                                 = "/team/"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Tienda"
-    url                                 = "/about/shop/"
+    url                                 = "/shop/"
 
 # Communities
 [[languages.es.menu.main]]
@@ -325,10 +324,6 @@ disqusShortname                         = "techqueria"
     parent                              = "Comunidades"
     name                                = "Capítulos de la Ciudad"
     url                                 = "/communities/chapters/"
-[[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Eventbrite"
-    url                                 = "https://techqueria.eventbrite.com"
 [[languages.es.menu.main]]
     parent                              = "Comunidades"
     name                                = "Grupo de Facebook"
@@ -349,10 +344,6 @@ disqusShortname                         = "techqueria"
     parent                              = "Comunidades"
     name                                = "Página de LinkedIn"
     url                                 = "https://www.linkedin.com/company/techqueria/"
-[[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Grupo de Meetup"
-    url                                 = "https://www.meetup.com/techqueria/"
 [[languages.es.menu.main]]
     parent                              = "Comunidades"
     name                                = "Boletín electrónico"

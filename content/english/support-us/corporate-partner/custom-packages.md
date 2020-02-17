@@ -4,6 +4,7 @@ description: "Create a custom sponsorship package using our pricing calculator. 
 image: "/assets/img/support-us/corporate-partner/custom-packages.jpg"
 aliases:
   - /support-us/corporate-partner/custom-packages/
+  - /support-us/packages/custom/
 ---
 
 This is the calculator we use to create sponsorship packages for events and marketing.
