@@ -10,3 +10,5 @@ categories:
 ---
 
 I love Techqueria!
+
+![Andy Cabistan Testimonial](/assets/img/testimonials/andy-cabistan-testimonial.jpg)

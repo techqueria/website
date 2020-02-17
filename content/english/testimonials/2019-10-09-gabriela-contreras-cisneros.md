@@ -18,3 +18,5 @@ So today when I attended the Engineering Dinner hosted by @Techqueria & @crunchb
 (It’s actually the first engineering-specific event that I’ve attended since starting my new career and not once did I doubt my belonging.)
 
 ANYWAY, hype the hell outta people because you don’t know how impactful it may be and find your communities!
+
+![Gabriela Contreras-Cisneros Testimonial](/assets/img/testimonials/gabriela-contreras-cisneros-testimonial.jpg)

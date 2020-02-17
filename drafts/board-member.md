@@ -1,16 +1,9 @@
 ---
-title: "Careers"
-description: ""
-image: "/assets/img/careers/_index.jpg"
-noTimeEstimate: true
+title: "Board of Directors - Board Member"
+description: "More details TBA"
 hideImage: true
+noTimeEstimate: true
 toc: true
-url: /careers/
-aliases:
-  - /about/careers/
-  - /career-opportunities/
-  - /careers/
-  - /jobs/
 ---
 
 ## Board Members

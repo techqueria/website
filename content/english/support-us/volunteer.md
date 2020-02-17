@@ -15,7 +15,7 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 ## Volunteering Opportunities
 
-You can find all <a href="https://www.notion.so/techqueriaorg/Volunteering-Opportunities-with-Techqueria-b6a5b74de889495ba0800d6846bc6b59" rel="noopener">our volunteering opportunities</a> on Notion.
+You can find all <a href="https://docs.google.com/document/d/1ryugVO5ecNZgf83HPULTT3Q7HUSEAWUP4BRYfORksdY/edit?usp=sharing" rel="noopener">our volunteering opportunities</a> on Notion.
 
 ## Sign up to volunteer
 

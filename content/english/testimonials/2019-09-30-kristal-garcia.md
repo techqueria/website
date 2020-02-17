@@ -12,3 +12,5 @@ categories:
 I'm not going to lie, seeing more and more folks coming in to Techqueria everyday is what's bringing me all the positive vibes. :sun-smiling:
 
 Techqueria is the community I needed and I'm so excited I get to help provide that for others. Cheers to everyone here for creating and contributing to this community. ✊🏽
+
+![Kristal Garcia Testimonial](/assets/img/testimonials/kristal-garcia-testimonial.jpg)

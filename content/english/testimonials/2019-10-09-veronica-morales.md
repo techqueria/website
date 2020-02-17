@@ -12,3 +12,5 @@ Hola a todos! Just want to share that last week during the GHC conference, I  ac
 Without a doubt I can say that being part of Techqueria was a huge factor of me reaching that goal. The community in this space is irreplaceable and I'm so grateful to be part of this.
 
 From the bottom of my heart, thank you! ❤️
+
+![Veronica Morales Testimonial](/assets/img/testimonials/veronica-morales-testimonial.jpg)

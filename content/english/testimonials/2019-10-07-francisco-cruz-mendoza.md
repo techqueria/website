@@ -28,3 +28,5 @@ From going to events and hearing crazier stories than my own or even just readin
 A big shout out to @Frances Coronel for offering to help along the way, @felipe for doing the same, and @Pablo Carbajal for making my contributions to Techqueria 10x easier with his fantastic photography!
 
 As I get settled in I hope to be more active and will be posting a lot more very soon!
+
+![Francisco Cruz-Mendoza Testimonial](/assets/img/testimonials/francisco-cruz-mendoza-testimonial.jpg)

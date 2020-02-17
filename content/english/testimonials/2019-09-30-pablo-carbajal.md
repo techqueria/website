@@ -12,3 +12,5 @@ categories:
 View from my desk at my new job. Going to be doing development on University systems and creating content to teach people how to use it.
 
 Huge thanks to @gilbertjgonzales @felipe and @Frances Coronel for taking the time out of their busy day to talk to me 1-on-1 about school, career and personal aspirations and goals. ❤️
+
+![Pablo Carbajal Testimonial](/assets/img/testimonials/pablo-carbajal-testimonial.jpg)
