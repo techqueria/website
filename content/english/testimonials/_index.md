@@ -2,7 +2,7 @@
 title: "Testimonials"
 description: "Snippets of love from Techqueria members 😍"
 hideImage: true
-image: "/assets/img/wall-of-love/_index.jpg"
+image: "/assets/img/testimonials/_index.jpg"
 noTimeEstimate: true
 widePage: true
 toc: true
@@ -15,7 +15,7 @@ aliases:
   - /wall-of-love/
 ---
 
-## Testimonails
+## Testimonials
 
 <div class="quote">
   <blockquote>

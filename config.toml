@@ -122,7 +122,7 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "About"
     name                                = "Resources"
-    url                                 = "/about/resources/"
+    url                                 = "/resources/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Team"
@@ -134,7 +134,7 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "About"
     name                                = "Wall of Love"
-    url                                 = "/about/wall-of-love/"
+    url                                 = "/testimonials/"
 
 # Join Us
 [[menu.main]]
@@ -310,11 +310,11 @@ disqusShortname                         = "techqueria"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Equipo"
-    url                                 = "/about/team/"
+    url                                 = "/team/"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Tienda"
-    url                                 = "/about/shop/"
+    url                                 = "/shop/"
 
 # Communities
 [[languages.es.menu.main]]

@@ -1,8 +1,4 @@
 nav#TableOfContents {
-  // ul li ul,
-  // ul li ul li {
-  //   display: none;
-  // }
 
   ul,
   li,
@@ -12,6 +8,7 @@ nav#TableOfContents {
   }
 
   ul {
+    margin-top: 0.25em;
     margin-left: 0.5em;
   }
 

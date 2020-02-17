@@ -1,18 +1,17 @@
 ---
-title: About
-description: "Techqueria is a nonprofit that serves the largest community of Latinx
-  in Tech. \U0001F4BB"
-image: "/assets/img/about/_index.png"
-noTimeEstimate: true
+title: "About"
+description: "Techqueria is a nonprofit that serves the largest community of Latinx in Tech. 🌮"
 hideImage: true
+image: "/assets/img/about/_index.png"
 layout: custom/page-about
+noTimeEstimate: true
 sitemap: true
 toc: true
 aliases:
-- "/about/"
-- "/about-techqueria/"
-
+  - "/about/"
+  - "/about-techqueria/"
 ---
+
 ## Overview
 
 {{< about >}}
@@ -49,8 +48,8 @@ To create more Latinx leaders in the tech industry which in turn will lead to a 
 
 ### Place - Where do members gather?
 
-* in all our online communities
-* in-person events in our chapters across the US
+- in all our online communities
+- in-person events in our chapters across the US
 
 ### Participation - What do members do?
 
@@ -60,39 +59,39 @@ To create more Latinx leaders in the tech industry which in turn will lead to a 
 
 Other things members do...
 
-* ask for advice/share advice
-* build a new Techqueria chapter
-* collaborate with other ERGs
-* create lifelong partnerships and relationships
-* find a mentor who is also Latinx
-* get a new job
-* grow their Latinx ERG (employee resource group)
-* grow their Latinx in Tech network
-* hear about and attend networking events
-* hire Latinx in Tech
-* learn more about certain topics (product management, social entrepreneurship, front end, etc)
-* sponsor Techqueria
-* stay in the loop about tech in LATAM
-* support other Latinx in Tech
-* transition to tech from another field
-* vent about workplace challenges
-* volunteer for Techqueria
+- ask for advice/share advice
+- build a new Techqueria chapter
+- collaborate with other ERGs
+- create lifelong partnerships and relationships
+- find a mentor who is also Latinx
+- get a new job
+- grow their Latinx ERG (employee resource group)
+- grow their Latinx in Tech network
+- hear about and attend networking events
+- hire Latinx in Tech
+- learn more about certain topics (product management, social entrepreneurship, front end, etc)
+- sponsor Techqueria
+- stay in the loop about tech in LATAM
+- support other Latinx in Tech
+- transition to tech from another field
+- vent about workplace challenges
+- volunteer for Techqueria
 
 ### Policy - What are the values, guidelines, and rules?
 
-* [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events
+- [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events
 
 ### Promotion - How is this community discovered?
 
-* in-person events
-* online (we are #1 on Google for "Latinx in tech" or "Latinx tech")
-* word of mouth
+- in-person events
+- online (we are #1 on Google for "Latinx in tech" or "Latinx tech")
+- word of mouth
 
 ### Performance - How is success measured?
 
-* offline engagement (e.g. number of Latinx professionals who attend our events)
-* online engagement (e.g. member growth, social media followers)
-* qualitative feedback (e.g. feedback from members via surveys)
+- offline engagement (e.g. number of Latinx professionals who attend our events)
+- online engagement (e.g. member growth, social media followers)
+- qualitative feedback (e.g. feedback from members via surveys)
 
 ## Chapters
 
@@ -106,9 +105,7 @@ The average amount of experience for our members based on that survey is 5 years
 
 Ergo, the majority of our member base identify as mid-level engineers.
 
-<div class="has-text-centered u-align-item--centered u-max-width--tablet m-auto mt-2 mb-2">
-<canvas id="pie-chart"></canvas>
-</div>
+{{< member-breakdown >}}
 
 ## 2020 Goals
 
@@ -120,64 +117,64 @@ Ergo, the majority of our member base identify as mid-level engineers.
 
 ### January 3, 2020
 
-* **CRM**
-  * 8,487 contacts
-* **Slack**
-  * 4,945 members
+- **CRM**
+  - 8,487 contacts
+- **Slack**
+  - 4,945 members
 
 ### October 20, 2019
 
-* **CRM**
-  * 8,000+ contacts
-* **Slack**
-  * 400% increase in growth over last year
-  * 1,200+ weekly active members
-  * 690+ daily active members
-  * 10,000+ messages sent per week
-* **LinkedIn** (over last 30 days)
-  * 113% growth in followers
-  * 60% increase in visitors and views
-* **Twitter** (over last 28 days)
-  * 106% increase in tweet impressions
-  * 44% increase in visits
-* **Website**
-  * 20,000+ visits over the past year, up 185% from the previous year
-  * average of 4,000 to 6,000 visitors to our website per month
-  * 600+ inbounds from forms on our website since 05/02/19
-  * 100+ form inbounds/month from folks wanting to engage with Techqueria
-* **Facebook Group** (over last 28 days)
-  * 87% increase in engagement
-* **Events**
-  * 70+ events across 5 chapters since January 2016
-    * SF, LA, Austin, NYC, Chicago (2)
-  * 3 chapters TBA
-    * Atlanta, Portland, Denver
-* **Partnership Calls**
-  * 100+ partnership calls over the last 4 months
-  * 5+ partnerships calls on average per week
-* **ERGs**
-  * 60+ ERGs represented
-  * 40+ active in the community
-* **Scholarships Facilitated**
-  * <!-- prettier-ignore -->$135,000+ in value
-  * 140+ free tickets/passes/subscriptions given to members
+- **CRM**
+  - 8,000+ contacts
+- **Slack**
+  - 400% increase in growth over last year
+  - 1,200+ weekly active members
+  - 690+ daily active members
+  - 10,000+ messages sent per week
+- **LinkedIn** (over last 30 days)
+  - 113% growth in followers
+  - 60% increase in visitors and views
+- **Twitter** (over last 28 days)
+  - 106% increase in tweet impressions
+  - 44% increase in visits
+- **Website**
+  - 20,000+ visits over the past year, up 185% from the previous year
+  - average of 4,000 to 6,000 visitors to our website per month
+  - 600+ inbounds from forms on our website since 05/02/19
+  - 100+ form inbounds/month from folks wanting to engage with Techqueria
+- **Facebook Group** (over last 28 days)
+  - 87% increase in engagement
+- **Events**
+  - 70+ events across 5 chapters since January 2016
+    - SF, LA, Austin, NYC, Chicago (2)
+  - 3 chapters TBA
+    - Atlanta, Portland, Denver
+- **Partnership Calls**
+  - 100+ partnership calls over the last 4 months
+  - 5+ partnerships calls on average per week
+- **ERGs**
+  - 60+ ERGs represented
+  - 40+ active in the community
+- **Scholarships Facilitated**
+  - $135,000+ in value
+  - 140+ free tickets/passes/subscriptions given to members
 
 ### August 19, 2019
 
 We reach a 15,000+ member reach.
 
-* 5,000+ subscribers — MailChimp
-* 4,000+ members — Slack
-* 2,500+ members — Meetup
-* 2,200+ followers — Twitter
-* 2,000+ members — Facebook Group
-* 900+ members — LinkedIn Group
-* 700+ followers — LinkedIn Page
-* 400+ likes — Facebook Page
-* 200+ followers — Instagram
-* 160+ stars — GitHub's Website Repo
-* 60+ subscribers — YouTube Channel
-* 50+ members — GitHub Organization
+- 5,000+ subscribers — MailChimp
+- 4,000+ members — Slack
+- 2,500+ members — Meetup
+- 2,200+ followers — Twitter
+- 2,000+ members — Facebook Group
+- 900+ members — LinkedIn Group
+- 700+ followers — LinkedIn Page
+- 400+ likes — Facebook Page
+- 200+ followers — Instagram
+- 160+ stars — GitHub's Website Repo
+- 60+ subscribers — YouTube Channel
+- 50+ members — GitHub Organization
 
 ### August 9, 2019
 
@@ -198,32 +195,3 @@ First Meetup with 3 people in attendance.
 ## Credits
 
 Most photos on the site were taken by [Pablo Carbajal](https://www.linkedin.com/in/phcarbajal/).
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script>
-Chart.defaults.global.defaultFontColor = "Rubik";
-new Chart(document.getElementById("pie-chart"), {
-"type": "doughnut",
-"data": {
-"labels": \["Engineering", "Product/Design", "Operations/Sales", "Founders/Executives", "Recruitment/HR"\],
-"datasets": \[{
-"data": \[60, 15, 15, 5, 5\],
-"backgroundColor": \["#fabf67", "#ff551f", "#3f8db9", "#5a4640", "#2f4052"\]
-}\]
-}
-});
-Chart.defaults.global.defaultFontColor = "Rubik";
-new Chart(document.getElementById("pie-chart"), {
-"type": "doughnut",
-"data": {
-"labels": \["Engineering", "Product/Design", "Operations/Sales", "Founders/Executives", "Recruitment/HR"\],
-"datasets": \[{
-"data": \[60, 15, 15, 5, 5\],
-"backgroundColor": \["#fabf67", "#ff551f", "#3f8db9", "#5a4640", "#2f4052"\]
-}\]
-}
-});
-
-</script>
-
-<noscript>Please enable JavaScript to view the chart.</noscript>
