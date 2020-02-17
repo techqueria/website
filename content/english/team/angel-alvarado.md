@@ -2,7 +2,7 @@
 title: Angel Alvarado
 image: "/assets/img/team/angel-alvarado.jpg"
 description: "Senior Software Engineer, OneDegree"
-linkedin: "angel-alvarado-robledo"
+linkedin: https://www.linkedin.com/in/angel-alvarado-robledo"
 flag: 🇲🇽
 categories:
   - san-francisco

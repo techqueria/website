@@ -1,9 +1,9 @@
 ---
-title: "Testimonial: Gina Giardinieri"
-description: "Sales Coordinator at Mulberry Platform"
+title: "Gina Giardinieri"
 date: 2017-09-29
-image: https://i.imgur.com/oxnVaMg.jpg
-linkedin: gina-giardinieri
+description: "Operations Associate at Mulberry Technology"
+image: "/assets/img/testimonials/gina-giardinieri.jpg"
+linkedin: https://www.linkedin.com/in/gina-giardinieri
 categories:
   - testimonial
 aliases:

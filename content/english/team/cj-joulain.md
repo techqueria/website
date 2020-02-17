@@ -2,7 +2,7 @@
 title: CJ Joulain
 image: "/assets/img/team/cj-joulain.jpg"
 description: "Technical Support Engineer, NPM"
-linkedin: cjoulain
+linkedin: https://www.linkedin.com/in/cjoulain
 categories:
   - san-francisco
   - past-organizer

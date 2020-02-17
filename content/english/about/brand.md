@@ -5,10 +5,11 @@ image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
 hideImage: true
 toc: true
+url: /brand/
 aliases:
-  - /branding/
-  - /brand/
   - /about/brand/
+  - /brand/
+  - /branding/
 ---
 
 ## Overview

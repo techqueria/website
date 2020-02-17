@@ -3,7 +3,7 @@ title: David Silva
 description: "Senior Developer, Slingshot Health"
 github: dvidsilva
 image: "/assets/img/team/david-silva.jpg"
-linkedin: dvidsilva
+linkedin: https://www.linkedin.com/in/dvidsilva
 twitter: dvidsilva
 flag: 🇨🇴
 categories:

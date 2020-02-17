@@ -1,9 +1,9 @@
 ---
-title: "Testimonial: Miguel Correa"
-description: "Front-End Engineer at HelloFresh"
+title: "Miguel Correa"
 date: 2017-04-20
-image: https://avatars2.githubusercontent.com/u/11799597?s=460&v=4
-linkedin: mc1221
+description: "Senior Associate Software Engineer at Workday"
+image: "/assets/img/testimonials/miguel-correa.png"
+linkedin: https://www.linkedin.com/in/mc1221
 categories:
   - testimonial
 aliases:

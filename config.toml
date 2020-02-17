@@ -109,11 +109,11 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "About"
     name                                = "Brand"
-    url                                 = "/about/brand/"
+    url                                 = "/brand/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Code of Conduct"
-    url                                 = "/code-of-conduct"
+    url                                 = "/code-of-conduct/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Contact"
@@ -133,7 +133,7 @@ disqusShortname                         = "techqueria"
     url                                 = "/shop/"
 [[menu.main]]
     parent                              = "About"
-    name                                = "Wall of Love"
+    name                                = "Testimonials"
     url                                 = "/testimonials/"
 
 # Join Us

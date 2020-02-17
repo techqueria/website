@@ -2,7 +2,7 @@
 title: Cristobal Reitze
 image: "/assets/img/team/cristobal-reitze.jpeg"
 description: "MBA | New Business Development, B2B Sales, SaaS"
-linkedin: cristobalreitze
+linkedin: https://www.linkedin.com/in/cristobalreitze
 categories:
   - san-francisco
   - past-volunteer

@@ -1,7 +1,14 @@
 ---
 title: "Careers"
 description: ""
+image: "/assets/img/careers/_index.jpg"
+noTimeEstimate: true
+hideImage: true
+toc: true
+url: /careers/
 aliases:
+  - /about/careers/
+  - /career-opportunities/
   - /careers/
   - /jobs/
 ---

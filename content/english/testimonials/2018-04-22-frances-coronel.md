@@ -1,9 +1,9 @@
 ---
-title: "Testimonial: Frances Coronel"
-description: "Software Engineer at Slack"
+title: "Frances Coronel"
 date: 2018-04-22
+description: "Software Engineer at Slack"
 image: https://i.imgur.com/NWXkplC.jpg
-linkedin: fvcproductions
+linkedin: https://www.linkedin.com/in/fvcproductions
 categories:
   - testimonial
 authors:

@@ -15,7 +15,7 @@
 <!-- Content -->
 <div class="card-content">
   <div class="content">
-    <p>{{ if .Description }}{{ if .Params.pricing }}<span class="mr-sm">💵</span>{{ end }}{{ .Description | truncate 150 | safeHTML }}{{ else }}{{ .Summary | truncate 150 | safeHTML }}{{ end }}</p>
+    {{ if .Description }}{{ if .Params.pricing }}<p><span class="mr-sm">💵</span>{{ end }}{{ .Description | truncate 150 | safeHTML }}{{ else }}{{ .Summary | truncate 150 | safeHTML }}</p>{{ end }}
     <!-- More Info -->
     {{ partial "content/card/card-info.html" . }}
   </div>

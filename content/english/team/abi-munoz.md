@@ -2,7 +2,7 @@
 title: Abi Munoz
 image: "/assets/img/team/abi-munoz.jpeg"
 description: "Gradute Student, NYU Tisch ITP"
-linkedin: abimunoz
+linkedin: https://www.linkedin.com/in/abimunoz
 flag: 🇲🇽
 categories:
   - nyc

@@ -2,7 +2,7 @@
 title: Dulce Villarreal
 image: "/assets/img/team/dulce-villarreal.jpg"
 description: "Blockchain Engineer, Insight Data Science"
-linkedin: dulcevillarreal
+linkedin: https://www.linkedin.com/in/dulcevillarreal
 flag: 🇲🇽
 categories:
   - san-francisco

@@ -2,7 +2,7 @@
 title: Francisco Cruz-Mendoza
 image: "/assets/img/team/francisco-cruz-mendoza.jpeg"
 description: "Director of Global Engagement at Startup Grind"
-linkedin: franciscocrz
+linkedin: https://www.linkedin.com/in/franciscocrz
 categories:
   - san-francisco
   - current-volunteer

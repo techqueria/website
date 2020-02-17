@@ -2,7 +2,7 @@
 title: Maritza Alas
 image: "/assets/img/team/maritza-alas.jpeg"
 description: "Software Engineer, Age of Learning"
-linkedin: maritza-alas
+linkedin: https://www.linkedin.com/in/maritza-alas
 flag: 🇸🇻
 categories:
   - chapter-director
