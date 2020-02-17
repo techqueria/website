@@ -140,9 +140,3 @@ For videos of the talks, check out the playlist below.
 
 <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/playlist?list=PLCWzrxvpdkgiiWrY29sld35Nnf-i52JZm">Twitter Threads with Techqueria | 8/14/19 - YouTube</a></h4><p>Techqueria had an event in partnership with Twitter Alas to talk about what it's like being Latinx in Tech. #LatinxTechTwitter</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-### Feedback
-
-Have feedback? Let us know!
-
-https://bit.ly/techqueria-twitter
