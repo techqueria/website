@@ -1,6 +1,6 @@
 ---
 title: "No Tech For ICE"
-description: "Techqueria has an active policy of not partnering with companies that have active contracts with ICE."
+description: "Techqueria has a firm policy of not partnering with companies that have active contracts with ICE."
 hideImage: true
 image: "/assets/img/about/no-tech-for-ice.jpeg"
 noTimeEstimate: true
@@ -77,4 +77,3 @@ If your company supports ICE, we encourage you to:
 - **WORK** somewhere else
 
 Please feel free to [contact](/contact/) us with other suggestions.
-
