@@ -1,7 +1,7 @@
 ---
 title: "Purchase a Marketing Package"
 description: "Reach thousands of Latinx in Tech across the US by purchasing a marketing package for Techqueria's email newsletter or social media platforms. 📣"
-image: "/assets/img/support-us/corporate-partner/marketing-packages/_index.jpg"
+image: "/assets/img/support-us/corporate-partner/marketing-packages.jpg"
 hideImage: true
 noTimeEstimate: true
 sortByWeight: true
@@ -94,4 +94,4 @@ We have a max of 4 call to actions from the same organization that can be shared
 
 We do not allow for refunds so please be sure of your purchase.
 
-**Techqueria has a strict policy in place to not partner with companies that have an active contract with ICE.**
+**Techqueria has a [strict policy](/about/no-tech-for-ice/) in place to not partner with companies that have an active contract with ICE.**
