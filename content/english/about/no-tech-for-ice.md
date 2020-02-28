@@ -56,8 +56,10 @@ These are companies where Techqueria has actively declined partnerships. Techque
 
 - [Accenture](https://gizmodo.com/accenture-employees-demand-their-company-break-ties-wit-1830474961)
 - [Amazon](https://www.technologyreview.com/s/612335/amazon-is-the-invisible-backbone-behind-ices-immigration-crackdown/)
+- [Clearview AI](https://www.buzzfeednews.com/amphtml/ryanmac/clearview-ai-fbi-ice-global-law-enforcement/)
 - [Booz Allen Hamilton](https://www.vice.com/en_us/article/a358x4/booz-allen-hamilton-is-making-millions-working-with-ice)
 - [Northeastern University](https://www.bostonglobe.com/metro/2018/07/05/northeastern-university-comes-under-fire-for-receiving-millions-from-ice-through-research-contract/wxaLAr1QmpYeocqNOY29fI/story.html)
+- [Palantir](https://en.wikipedia.org/wiki/Palantir_Technologies/)
 - [Salesforce](https://eastbaymajority.com/marc-benioff-salesforce-ice-homeland-security/)
 - [Twitch](https://en.wikipedia.org/wiki/Twitch_(service)#Amazon_subsidiary_(2014%E2%80%93present))
 
