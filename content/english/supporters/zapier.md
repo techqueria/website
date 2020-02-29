@@ -12,8 +12,6 @@ aliases:
   - /support-us/software-sponsor/zapier/
 ---
 
-If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello/?source=website) with us.
-
 ## About Zapier
 
 Zapier is an online automation tool that connects your favorite apps, such as Gmail, Slack, Mailchimp, and over 1,500 more. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration.

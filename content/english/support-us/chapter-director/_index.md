@@ -1,16 +1,16 @@
 ---
 title: "Become a Chapter Director"
 description: "Learn what it takes to be a Chapter Director for Techqueria and apply to become one."
+hideImage: true
 image: "/assets/img/support-us/chapter-director/_index.jpg"
 noTimeEstimate: true
-hideImage: true
 toc: true
 aliases:
-- "/chapter-director/"
-- "/join/become-a-chapter-director/"
-- "/new-chapter-director/"
-- "/start-a-chapter/"
-- "/support-us/chapter-director/"
+  - /chapter-director/
+  - /join/become-a-chapter-director/
+  - /new-chapter-director/
+  - /start-a-chapter/
+  - /support-us/chapter-director/
 ---
 
 ## What does it take to run a Techqueria Chapter?

@@ -6,10 +6,10 @@ toc: true
 noTimeEstimate: true
 hideImage: true
 aliases:
-  - /volunteer/
   - /become-a-volunteer/
-  - /volunteering/
   - /support-us/volunteer/
+  - /volunteer/
+  - /volunteering/
 ---
 
 If you are interested in supporting Techqueria as an individual, one great way to help out is by volunteering your time.

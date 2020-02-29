@@ -6,3 +6,5 @@ image: "/assets/img/supporters/notion.png"
 categories:
   - software-sponsor
 ---
+
+Notion provides Techqueria access to their platform through their nonprofit program.

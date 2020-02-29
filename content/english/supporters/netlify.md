@@ -7,7 +7,6 @@ noTimeEstimate: true
 price: "$336 per year"
 toc: true
 categories:
-  - software-sponsor
   - software-sponsor-available
 aliases:
   - /support-us/software-sponsor/netlify/
@@ -29,9 +28,9 @@ Netlify is a web developer platform that multiplies productivity. By unifying th
 
 This software sponsor will
 
-- provide $150 to Techqueria in order to pay for a yearly subscription of Netlify Forms
+- provide financal contribution to Techqueria in order to pay for a yearly subscription of Netlify Forms + access to Netlify Analytics
 
 In exchange, Techqueria will
 
-- provide a marketing package worth $150 in value
+- provide your company a marketing package worth $336 in value
 - showcase your company under "Software Sponsors" on the Supporters page

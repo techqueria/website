@@ -7,4 +7,4 @@ categories:
   - software-sponsor
 ---
 
-Granted 1Password for free through their open source program.
+1Password provides Techqueria access to their platform through their open source program.

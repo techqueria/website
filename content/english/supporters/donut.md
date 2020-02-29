@@ -29,10 +29,10 @@ Launch coffee, lunch, mentorship, or job shadowing programs in just seconds. Don
 
 This software sponsor will
 
-- provide $5,000 to Techqueria in order to pay for a yearly subscription of Donut for the thousands of members within our Slack community
+- provide financial contribution to Techqueria in order to pay for a yearly subscription of Donut for the thousands of members within our Slack community
 
 In exchange, Techqueria will
 
 - include your company name and link as part of our onboarding process within Donut (meaning that every new member of Techqueria will learn about your org)
 - showcase your company under "Software Sponsors" on the Supporters page
-- provide an event & marketing package worth $5,000 in value
+- provide your company an event & marketing package worth $5,000 in value

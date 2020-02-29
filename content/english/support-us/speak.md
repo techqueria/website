@@ -5,8 +5,8 @@ image: "/assets/img/support-us/speak.jpg"
 noTimeEstimate: true
 hideImage: true
 aliases:
-  - /speak/
   - /become-a-speaker/
+  - /speak/
   - /speakers/
   - /support-us/speak/
 ---

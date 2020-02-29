@@ -31,9 +31,13 @@
 {{- if not .PublishDate.IsZero -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ dateFormat "Monday - January 2, 2006" .Date -}}</p>
 {{- end -}}
-<!-- Sponsor Available -->
+<!-- Software Sponsor -->
+{{- if in .Params.categories "software-sponsor" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💚</span>Current software sponsor</p>
+{{- end -}}
+<!-- Software Sponsor Available -->
 {{- if in .Params.categories "software-sponsor-available" -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Sponsorship available</p>
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Looking for software sponsor</p>
 {{- end -}}
 <!-- Price -->
 {{ with .Params.price -}}

@@ -42,7 +42,7 @@ Data is from a sample of 2,250 responses from Linkedin and intake surveys (2018)
 
 The average amount of experience for our members based on that survey is 5 years.
 
-Ergo, the majority of our member base identify as mid-level engineers.
+Ergo, the majority of our member base identify as mid-career software engineers and that is the audience we primarily serve.
 
 {{< member-breakdown >}}
 

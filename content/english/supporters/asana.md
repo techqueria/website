@@ -6,3 +6,5 @@ link: https://asana.com/careers
 categories:
   - software-sponsor
 ---
+
+Asana provides Techqueria access to their platform through their nonprofit program.

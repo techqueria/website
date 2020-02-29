@@ -12,8 +12,6 @@ aliases:
   - /support-us/software-sponsor/eventbot/
 ---
 
-If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello/?source=website) with us.
-
 ## About Eventbot
 
 Eventbot lets you create events directly in Slack, no external apps needed! Get more RSVPs by putting your event in Slack - and use Eventbot to keep your event from getting lost in the scroll back.
@@ -22,9 +20,9 @@ Eventbot lets you create events directly in Slack, no external apps needed! Get 
 
 This software sponsor will
 
-- provide $534 to Techqueria in order to pay for a yearly subscription of Eventbot
+- provide  financial contribution to Techqueria in order to pay for a yearly subscription of Eventbot
 
 In exchange, Techqueria will
 
-- provide a marketing package worth $534 in value
+- provide your company a marketing package worth the financial contribution in value
 - showcase your company under "Software Sponsors" on the Supporters page
