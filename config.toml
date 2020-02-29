@@ -148,7 +148,7 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "Communities"
     name                                = "City Chapters"
-    url                                 = "https://events.techqueria.org/chapters/?source=website_navbar"
+    url                                 = "https://events.techqueria.org/chapters"
 [[menu.main]]
     parent                              = "Communities"
     name                                = "Facebook Group"
@@ -206,12 +206,12 @@ disqusShortname                         = "techqueria"
 # Events
 [[menu.main]]
     name                                = "Events"
-    url                                 = "https://events.techqueria.org/?source=website_navbar"
+    url                                 = "https://events.techqueria.org"
     externalLink                        = false
 [[menu.main]]
     parent                              = "Events"
     name                                = "Upcoming Events"
-    url                                 = "https://events.techqueria.org/events/?source=website_navbar"
+    url                                 = "https://events.techqueria.org/events"
     weight                              = 1
 [[menu.main]]
     parent                              = "Events"
@@ -221,7 +221,7 @@ disqusShortname                         = "techqueria"
 [[menu.main]]
     parent                              = "Events"
     name                                = "All City Chapters"
-    url                                 = "https://events.techqueria.org/chapters/?source=website_navbar"
+    url                                 = "https://events.techqueria.org/chapters"
     weight                              = 3
 
 # News
@@ -306,7 +306,7 @@ disqusShortname                         = "techqueria"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Eventos"
-    url                                 = "https://events.techqueria.org/?source=website_navbar"
+    url                                 = "https://events.techqueria.org"
 [[languages.es.menu.main]]
     parent                              = "Sobre nosotros"
     name                                = "Equipo"

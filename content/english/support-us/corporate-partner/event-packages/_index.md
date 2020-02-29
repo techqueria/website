@@ -34,7 +34,7 @@ Outside our regular workshops and meetups, we often meet up and network at food 
 
 Gain exposure to a wider audience beyond one night and be inclusive of remote employees or attendees outside our chapter locations. Through a webinar, we will stream your event through YouTube and extend your reach.
 
-### ERG Leads Meetings
+### ERG Leads Unite Meetings
 
 Local Latinx ERG leads get together and share struggles and advice.
 
