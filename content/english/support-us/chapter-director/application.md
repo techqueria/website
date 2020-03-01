@@ -18,10 +18,11 @@ aliases:
   {{< fields/title label="What is your current role?" help="e.g. Software Engineer, Recruiter, Product Designer, Student, etc." >}}
   {{< fields/linkedin >}}
   {{< fields/new_chapter >}}
-  {{< fields/yes_no label="Are you at least 21 years old?" help="This is a hard requirement as our events may have alcohol." required="true" name="age_chapter_director" >}}
-  {{< fields/yes_no label="Can you commit to holding at least 2 events or more per year?" help="This is a hard requirement." required="true" name="events_per_year" >}}
-  {{< fields/yes_no label="Do you have at least 3 years of professional experience in tech and/or community building experience?" help="This is a hard requirement." required="true" name="yoe_chapter_director" >}}
   {{< fields/yes_no label="Have you been a member of Techqueria's Slack Community for at least 6 months?" help="This is a hard requirement." required="true" name="member_of_slack_chapter_director" >}}
+  {{< fields/yes_no label="Are you at least 21 years old?" help="This is a hard requirement as our events may have alcohol." required="true" name="age_chapter_director" >}}
+  {{< fields/yes_no label="Do you have at least 3 years of professional experience in tech and/or community building experience?" help="This is a hard requirement." required="true" name="yoe_chapter_director" >}}
+  {{< fields/yes_no label="Can you commit to holding at least 2 events or more per year?" help="This is a hard requirement." required="true" name="events_per_year" >}}
+  {{< fields/yes_no label="Can you dedicate ~5 hours per week to this role?" help="While the amount of time may vary, we do want to set expectations." required="true" name="hours_per_week_chapter_director" >}}
   {{< fields/yes_no label="Have you already planned at least two local informal events on your own (e.g. cafecito, happy hour, lunch, etc)?" help="This is highly recommended." required="true" name="planned_events_already_chapter_director" >}}
   {{< fields/yes_no label="Have you read through the Reimbursement Guidelines and Chapter Tiers documentation?" help="We will cover this in the onboarding session as well." required="true" name="read_documentation" >}}
   {{< fields/message label="Why do you want to start or lead a Techqueria chapter?" placeholder="" name="why_lead_techqueria_chapter" required="true" >}}

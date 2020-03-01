@@ -28,7 +28,7 @@ Fill out the form below and we'll reach out with more details on you can help su
   {{< fields/email >}}
   {{< fields/linkedin >}}
   {{< fields/location >}}
-  {{< fields/yes_no label="Have you been a member of Techqueria's Slack Community for at least 6 months?" help="This is a hard requirement." required="true" name="already_in_slack" >}}
+  {{< fields/yes_no label="Have you been a member of Techqueria's Slack Community for at least 6 months?" help="This is a hard requirement." required="true" name="member_of_slack_at_least_6_months" >}}
   {{< fields/volunteer >}}
   {{< fields/message >}}
   {{< fields/referral >}}

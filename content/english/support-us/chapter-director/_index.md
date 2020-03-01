@@ -33,12 +33,12 @@ You can find more details on our mission [on our about page](/about/).
 
 ### Qualifications
 
-- a current member of Techqueria in good standing
+- a member of Techqueria for at least 6 months in good standing
   - if you're not a member, you can request an invite [on our Join page](/join/)
   - good standing here meaning you haven't violated our [Code of Conduct](/about/code-of-conduct/)
 - at least 21 years old
   - some of our events have alcohol
-- at least 3 years of experience in the tech industry
+- at least 3 years of experience in the tech industry and/or at least 3 years of community building experience
   - so you're familiar enough with companies and have built up your own network you can tap into
 - able to organize at least 2 events per year
   - if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
@@ -46,6 +46,7 @@ You can find more details on our mission [on our about page](/about/).
 - able to dedicate at least 5 hours per week
   - events take time to plan
   - how much time you dedicate will also depend on how frequently your chapter has events
+- (highly recommended) already planned at least two local informal events on your own
 
 ## Responsibilities
 
@@ -60,12 +61,12 @@ You can find more details on our mission [on our about page](/about/).
 
 ### Example Tasks
 
-- contribute to chapter documentation in [Notion](https://notion.so)
+- contribute to documentation in Google Docs
 - create marketing assets in [Canva](https://canva.com)
-- create tasks in [Asana](https://asana.com) to manage local events or partnerships
+- create and assign tasks in [Asana](https://asana.com) to manage local events or partnerships
 - follow Techqueria's [brand guidelines](/brand/)
 - get the help of a volunteer to take photos, upload photos to a Google Photo album and share with national org
-- host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Notion
+- host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Google Docs
 - use [Bevy](https://events.techqueria.org) to track RSVPs and attendance of local events
 - use Buffer to automatically schedule social media posts advertising the latest local event
 

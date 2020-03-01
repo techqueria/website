@@ -44,16 +44,15 @@ Your chapter has had 1 or more events over the last 1 year period.
 
 You will be able to request access to this and many other platforms by becoming a Chapter Director for Techqueria.
 
-- [Slack](https://slack.com?source=techqueria) — communication & collaboration
 - [Asana](https://asana.com?source=techqueria) — project management
-- [Notion](https://notion.so?source=techqueria) — internal team documentation
 - [Bevy](https://bevylabs.com?source=techqueria) — event creation and management
 - [Buffer](https://buffer.com?source=techqueria) — social media automation
 - [Canva](https://canva.com?source=techqueria) — create design assets for events, social media, or general marketing purposes
-- [HubSpot](https://www.hubspot.com/?source=techqueria) — the central hub of member data, email marketing
 - [G Suite](https://gsuite.google.com/?source=techqueria) — emails, team inboxes, and all the G Suite apps
-- [Open Collective](https://opencollective.com?source=techqueria) — process reimbursements
 - [GitHub](https://github.com?source=techqueria) — maintain open source website
+- [HubSpot](https://www.hubspot.com/?source=techqueria) — the central hub of member data, email marketing
+- [Open Collective](https://opencollective.com?source=techqueria) — process reimbursements
+- [Slack](https://slack.com?source=techqueria) — communication & collaboration
 
 ## Reimbursements
 
