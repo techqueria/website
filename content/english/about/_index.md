@@ -8,8 +8,11 @@ noTimeEstimate: true
 sitemap: true
 toc: true
 aliases:
-  - "/about/"
-  - "/about-techqueria/"
+  - /about-techqueria/
+  - /about/
+  - /about/community-pillars/
+  - /about/techqueria/
+  - /community-pillars/
 ---
 
 ## Overview
@@ -36,22 +39,60 @@ Techqueria is a national 501c3 nonprofit that serves the largest community of La
 4. Positive Vibes
 5. Data-Driven
 
-## Members by Profession
+## Community Pillars
 
-Data is from a sample of 2,250 responses from Linkedin and intake surveys (2018).
+### People - Who are our members?
 
-The average amount of experience for our members based on that survey is 5 years.
+Latinx professionals in the tech industry with a focus to mid to late career professionals in PDE (Product, Design and Engineering)
 
-Ergo, the majority of our member base identify as mid-career software engineers and that is the audience we primarily serve.
+### Purpose - Why does our community exist?
 
-{{< member-breakdown >}}
+To create more Latinx leaders in the tech industry which in turn will lead to a more diverse balance of power in the largest wealth-generating field in the world
 
-## 2020 Goals
+### Place - Where do our members gather?
 
-1. **Networking** — Grow the number of rich networking opportunities our members have access to both online and offline
-2. **Presence** — Grow our external presence and membership in order to become a recognized nonprofit in the tech and D&I sectors
-3. **Infrastructure** — Refine our infrastructure to ensure legal compliance, scalability, and longevity of the org
+- in all our online communities
+- in-person events across all our different chapters across the US
 
-## Credits
+### Participation - What do our members do?
 
-Most photos on the site were taken by [Pablo Carbajal](https://www.linkedin.com/in/phcarbajal/).
+1. Network & collaborate with other Latinx in Tech
+2. Share resources/advice/job opportunities
+3. Engage with Techqueria by becoming a corporate or community partner
+
+Other things members do...
+
+- ask for advice/share advice
+- build a new Techqueria chapter
+- collaborate with other ERGs
+- create lifelong partnerships and relationships
+- find a mentor who is also Latinx
+- get a new job
+- grow their Latinx ERG (employee resource group)
+- grow their Latinx in Tech network
+- hear about and attend networking events
+- hire Latinx in Tech
+- learn more about certain topics (product management, social entrepreneurship, front end, etc)
+- sponsor Techqueria
+- stay in the loop about tech in LATAM
+- support other Latinx in Tech
+- transition to tech from another field
+- vent about workplace challenges
+- volunteer for Techqueria
+
+### Policy - What are our values, guidelines, and rules?
+
+- [Code of Conduct](/about/code-of-conduct/) that we enforce for our online communities and in-person events
+- [No Tech for ICE](/about/no-tech-for-ice) that outlines why we don't partner with companies that support ICE
+
+### Promotion - How is our community discovered?
+
+- word of mouth
+- in-person events
+- online (we are #1 on Google for "Latinx in tech" or "Latinx tech")
+
+### Performance - How is our success measured?
+
+- offline engagement (e.g. number of Latinx professionals who attend our events)
+- online engagement (e.g. member growth, social media followers)
+- qualitative feedback (e.g. feedback from members via surveys)

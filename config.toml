@@ -116,9 +116,16 @@ disqusShortname                         = "techqueria"
     url                                 = "/code-of-conduct/"
 [[menu.main]]
     parent                              = "About"
-    name                                = "Contact"
+    name                                = "Contact Us"
     url                                 = "/contact/"
-# Resources
+[[menu.main]]
+    parent                              = "About"
+    name                                = "Impact Report"
+    url                                 = "/impact-report/"
+[[menu.main]]
+    parent                              = "About"
+    name                                = "No Tech for ICE"
+    url                                 = "/no-tech-for-ice/"
 [[menu.main]]
     parent                              = "About"
     name                                = "Resources"
@@ -129,12 +136,12 @@ disqusShortname                         = "techqueria"
     url                                 = "/team/"
 [[menu.main]]
     parent                              = "About"
-    name                                = "Shop"
-    url                                 = "/shop/"
-[[menu.main]]
-    parent                              = "About"
     name                                = "Testimonials"
     url                                 = "/testimonials/"
+[[menu.main]]
+    parent                              = "About"
+    name                                = "Shop"
+    url                                 = "/shop/"
 
 # Join Us
 [[menu.main]]

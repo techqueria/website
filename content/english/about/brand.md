@@ -1,6 +1,6 @@
 ---
-title: Brand
-description: Download our assets and discover our style guide. 🎨
+title: "Brand"
+description: "Download our assets and discover our style guide."
 image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
 hideImage: true
@@ -164,3 +164,7 @@ These logos are meant for use cases where a simple text logo is needed. These lo
 ### Logo Only
 
 <a href="/assets/img/_logos/banner-logo-only.png" download><img src="/assets/img/_logos/banner-logo-only.png" alt="Banner - Logo Only"></a>
+
+## Photos
+
+Most photos on the site were taken by [Pablo Carbajal](https://www.linkedin.com/in/phcarbajal/).
