@@ -18,7 +18,7 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 You can find all <a href="https://docs.google.com/document/d/1ryugVO5ecNZgf83HPULTT3Q7HUSEAWUP4BRYfORksdY/edit?usp=sharing" rel="noopener">our volunteering opportunities</a> on Google Docs.
 
-## Sign up to volunteer
+## Sign Up to Volunteer
 
 Fill out the form below and we'll reach out with more details on you can help support our mission.
 
@@ -28,7 +28,7 @@ Fill out the form below and we'll reach out with more details on you can help su
   {{< fields/email >}}
   {{< fields/linkedin >}}
   {{< fields/location >}}
-  {{< fields/slack_member >}}
+  {{< fields/yes_no label="Have you been a member of Techqueria's Slack Community for at least 6 months?" help="This is a hard requirement." required="true" name="already_in_slack" >}}
   {{< fields/volunteer >}}
   {{< fields/message >}}
   {{< fields/referral >}}
