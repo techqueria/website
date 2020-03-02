@@ -7,6 +7,7 @@ flag: 🇲🇽
 categories:
   - san-francisco
   - past-organizer
+  - current-volunteer-lead
 aliases:
   - /about/team/angel-alvarado/
   - /team/angel-alvarado/

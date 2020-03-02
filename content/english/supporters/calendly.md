@@ -5,14 +5,12 @@ image: "/assets/img/supporters/calendly.jpg"
 link: https://calendly.com/?source=techqueria
 noTimeEstimate: true
 toc: true
-price: "$72 per year"
+price: "$360 per year"
 categories:
   - software-sponsor-available
 aliases:
   - /support-us/software-sponsor/calendly/
 ---
-
-If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello/?source=website) with us.
 
 ## About Calendly
 
@@ -22,9 +20,9 @@ Buffer is a software application for the web and mobile, designed to manage acco
 
 This software sponsor will
 
-- provide $420 to Techqueria in order to pay for a yearly subscription of Buffer
+- provide financial contribution to Techqueria in order to pay for a yearly subscription of Calendly Pro for 5 users on the team plan
 
 In exchange, Techqueria will
 
-- provide a marketing package worth $420 in value
+- provide your company a marketing package worth financial contribution in value
 - showcase your company under "Software Sponsors" on the Supporters page

@@ -6,3 +6,5 @@ image: "/assets/img/supporters/mailclark.png"
 categories:
   - software-sponsor
 ---
+
+MailClark provides Techqueria access to their platform through their nonprofit program.

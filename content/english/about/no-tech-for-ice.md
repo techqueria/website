@@ -5,9 +5,10 @@ hideImage: true
 image: "/assets/img/about/no-tech-for-ice.jpeg"
 noTimeEstimate: true
 toc: true
+url: /no-tech-for-ice/
 aliases:
   - /notechforice/
-  - /no-tech-for-ice/
+  - /about/no-tech-for-ice/
 tags:
   - mijente
   - policy

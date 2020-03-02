@@ -4,8 +4,8 @@ description: "Your privacy is important to us. It is Techqueria's policy to resp
 image: "/assets/img/about/privacy-policy.jpg"
 noTimeEstimate: true
 hideImage: true
+url: /privacy-policy/
 aliases:
-  - /privacy-policy/
   - /about/privacy-policy/
 ---
 

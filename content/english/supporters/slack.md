@@ -6,3 +6,5 @@ link: https://slack.com/careers
 categories:
   - software-sponsor
 ---
+
+Slack provides Techqueria access to their platform through their nonprofit program.

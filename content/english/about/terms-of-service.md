@@ -4,11 +4,11 @@ description: "By accessing this website, you are agreeing to be bound by these t
 hideImage: true
 image: "/assets/img/about/terms-of-service.jpg"
 noTimeEstimate: true
+url: /terms-of-service/
 aliases:
   - /tos/
   - /about/tos/
   - /about/terms-of-service/
-  - /terms-of-service/
 ---
 
 ### 1. Terms
