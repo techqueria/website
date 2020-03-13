@@ -82,6 +82,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Angel Arciniega](https://github.com/angelsprojects)
 - [Melisa Im](https://github.com/MelisaIm)
 - [Ernesto Martinez](https://github.com/ernieMrtnz)
+- [Carlos Valdez](https://github.com/cvaldez98)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
