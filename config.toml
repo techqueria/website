@@ -1,425 +1,433 @@
 # Core
-baseURL                                 = "https://techqueria.org/"
-buildFuture                             = true
-copyright                               = "This work is licensed under MIT."
-enableEmoji                             = true
-enableRobotsTXT                         = true
-enableInlineShortcodes                  = true
-footnoteReturnLinkContents              = "↩"
-metaDataFormat                          = "yaml"
-title                                   = "Techqueria"
-publishDir                              = "dist"
-Paginate                                = 12
-PaginatePath                            = ""
+baseURL                              = "https://techqueria.org/"
+buildFuture                          = true
+copyright                            = "This work is licensed under MIT."
+enableEmoji                          = true
+enableRobotsTXT                      = true
+enableInlineShortcodes               = true
+footnoteReturnLinkContents           = "↩"
+metaDataFormat                       = "yaml"
+title                                = "Techqueria"
+publishDir                           = "dist"
+Paginate                             = 12
+PaginatePath                         = ""
 
 # Language
-languageCode                            = "en-US"
-DefaultContentLanguage                  = "en"
-enableMissingTranslationPlaceholders    = true
+languageCode                         = "en-US"
+DefaultContentLanguage               = "en"
+enableMissingTranslationPlaceholders = true
 
 # HTML Renderer
 [markup.goldmark.renderer]
-    unsafe                              = true
+    unsafe                           = true
 
 # English then Español
 [languages]
   [languages.en]
-    languageName                        = "English"
-    contentDir                          = "content/english"
-    weight                              = 1
+    languageName                     = "English"
+    contentDir                       = "content/english"
+    weight                           = 1
   [languages.es]
-    languageName                        = "Español"
-    contentDir                          = "content/espanol"
-    weight                              = 2
+    languageName                     = "Español"
+    contentDir                       = "content/espanol"
+    weight                           = 2
     [languages.es.params]
-      description                       = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
-      og_image                          = "https://i.imgur.com/T0sg75l.png"
+      description                    = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
+      og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
-preserveTaxonomyNames                   = false
+preserveTaxonomyNames                = false
 
 [taxonomies]
-  tag                                   = "tags"
-  category                              = "categories"
+  tag                                = "tags"
+  category                           = "categories"
 
 # Code
-pygmentsCodefences                      = true
-pygmentsCodefencesGuessSyntax           = true
-pygmentsStyle                           = "manni"
+[markup]
+  [markup.highlight]
+    codeFences                       = true
+    guessSyntax                      = true
+    hl_Lines                         = ""
+    lineNoStart                      = 1
+    lineNos                          = false
+    lineNumbersInTable               = true
+    noClasses                        = true
+    style                            = "manii"
+    tabWidth                         = 4
 
 # Internal Templates
-googleAnalytics                         = "UA-88917358-1"
-disqusShortname                         = "techqueria"
+googleAnalytics                      = "UA-88917358-1"
+disqusShortname                      = "techqueria"
 
 # Output Formats
 [outputs]
-    home                                = ["HTML", "AMP", "RSS"]
-    page                                = ["HTML", "AMP"]
-    section                             = ["HTML", "RSS"]
+    home                             = ["HTML", "AMP", "RSS"]
+    page                             = ["HTML", "AMP"]
+    section                          = ["HTML", "RSS"]
 
 # RSS
 [outputFormats]
     [outputFormats.RSS]
-        mediatype                       = "application/rss"
-        baseName                        = "feed"
+        mediatype                    = "application/rss"
+        baseName                     = "feed"
 
 # SEO
 [params]
-    description                         = "Techqueria is a nonprofit that serves the largest community of Latinx in Tech."
-    year                                = 2015
-    og_image                            = "https://i.imgur.com/O2YyA3E.png"
-    logo                                = "https://i.imgur.com/iJpGY6L.png"
-    locale                              = "en_US"
-    default_content_language            = "en"
-    google_site_verification            = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
-    phraseAppEnabled                    = true
-    phraseapp_key                       = "{{__phrase_%s__}}"
+    description                      = "Techqueria is a nonprofit that serves the largest community of Latinx in Tech."
+    year                             = 2015
+    og_image                         = "https://i.imgur.com/O2YyA3E.png"
+    logo                             = "https://i.imgur.com/iJpGY6L.png"
+    locale                           = "en_US"
+    default_content_language         = "en"
+    google_site_verification         = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
+    phraseAppEnabled                 = true
+    phraseapp_key                    = "{{__phrase_%s__}}"
 
 # Social Links
 [social]
-    email                               = "hola@techqueria.org"
-    facebook                            = "techqueria"
-    github                              = "techqueria"
-    instagram                           = "techqueriaorg"
-    linkedin                            = "company/techqueria"
-    twitter                             = "Techqueria"
-    youtube                             = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
+    email                            = "hola@techqueria.org"
+    facebook                         = "techqueria"
+    github                           = "techqueria"
+    instagram                        = "techqueriaorg"
+    linkedin                         = "company/techqueria"
+    twitter                          = "Techqueria"
+    youtube                          = "UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 # Permalinks
 [permalinks]
-  news                                  = "/news/:year/:month/:day/:title/"
-  events                                = "/events/:year/:month/:day/:title/"
+  news                               = "/news/:year/:month/:day/:title/"
+  events                             = "/events/:year/:month/:day/:title/"
 
 # Author
 [author]
-    name                                = "Techqueria"
-    copyright                           = "©️ Techqueria.org"
+    name                             = "Techqueria"
+    copyright                        = "©️ Techqueria.org"
 
 # Menu
 
 # Homepage
 [[menu.homepage]]
-    name                                = "Latinx in Tech"
-    url                                 = "/"
+    name                             = "Latinx in Tech"
+    url                              = "/"
 
 # About
 [[menu.main]]
-    name                                = "About"
-    url                                 = "/about/"
+    name                             = "About"
+    url                              = "/about/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Brand"
-    url                                 = "/brand/"
+    parent                           = "About"
+    name                             = "Brand"
+    url                              = "/brand/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Code of Conduct"
-    url                                 = "/code-of-conduct/"
+    parent                           = "About"
+    name                             = "Code of Conduct"
+    url                              = "/code-of-conduct/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Contact Us"
-    url                                 = "/contact/"
+    parent                           = "About"
+    name                             = "Contact Us"
+    url                              = "/contact/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Impact Report"
-    url                                 = "/impact-report/"
+    parent                           = "About"
+    name                             = "Impact Report"
+    url                              = "/impact-report/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "No Tech for ICE"
-    url                                 = "/no-tech-for-ice/"
+    parent                           = "About"
+    name                             = "No Tech for ICE"
+    url                              = "/no-tech-for-ice/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Resources"
-    url                                 = "/resources/"
+    parent                           = "About"
+    name                             = "Resources"
+    url                              = "/resources/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Team"
-    url                                 = "/team/"
+    parent                           = "About"
+    name                             = "Team"
+    url                              = "/team/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Testimonials"
-    url                                 = "/testimonials/"
+    parent                           = "About"
+    name                             = "Testimonials"
+    url                              = "/testimonials/"
 [[menu.main]]
-    parent                              = "About"
-    name                                = "Shop"
-    url                                 = "/shop/"
+    parent                           = "About"
+    name                             = "Shop"
+    url                              = "/shop/"
 
 # Join Us
 [[menu.main]]
-    name                                = "Join Us"
-    url                                 = "/join/"
+    name                             = "Join Us"
+    url                              = "/join/"
 
 # Communities
 [[menu.main]]
-    name                                = "Communities"
-    url                                 = "/communities/"
+    name                             = "Communities"
+    url                              = "/communities/"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "City Chapters"
-    url                                 = "https://events.techqueria.org/chapters"
+    parent                           = "Communities"
+    name                             = "City Chapters"
+    url                              = "https://events.techqueria.org/chapters"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "Facebook Group"
-    url                                 = "https://www.facebook.com/groups/techqueria"
+    parent                           = "Communities"
+    name                             = "Facebook Group"
+    url                              = "https://www.facebook.com/groups/techqueria"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "Facebook Page"
-    url                                 = "https://www.facebook.com/techqueria"
+    parent                           = "Communities"
+    name                             = "Facebook Page"
+    url                              = "https://www.facebook.com/techqueria"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "GitHub Organization"
-    url                                 = "https://github.com/techqueria"
+    parent                           = "Communities"
+    name                             = "GitHub Organization"
+    url                              = "https://github.com/techqueria"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "LinkedIn Group"
-    url                                 = "https://www.linkedin.com/groups/13500636"
+    parent                           = "Communities"
+    name                             = "LinkedIn Group"
+    url                              = "https://www.linkedin.com/groups/13500636"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "LinkedIn Page"
-    url                                 = "https://www.linkedin.com/company/techqueria/"
+    parent                           = "Communities"
+    name                             = "LinkedIn Page"
+    url                              = "https://www.linkedin.com/company/techqueria/"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "Pinterest"
-    url                                 = "https://pinterest.com/techqueria"
+    parent                           = "Communities"
+    name                             = "Pinterest"
+    url                              = "https://pinterest.com/techqueria"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "Slack Workspace"
-    url                                 = "/communities/slack/"
+    parent                           = "Communities"
+    name                             = "Slack Workspace"
+    url                              = "/communities/slack/"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "Twitter"
-    url                                 = "https://twitter.com/Techqueria"
+    parent                           = "Communities"
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
 [[menu.main]]
-    parent                              = "Communities"
-    name                                = "YouTube Channel"
-    url                                 = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+    parent                           = "Communities"
+    name                             = "YouTube Channel"
+    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 # Donate
 [[menu.main]]
-    name                                = "Donate"
-    url                                 = "/donate/"
+    name                             = "Donate"
+    url                              = "/donate/"
 [[menu.main]]
-    parent                              = "Donate"
-    name                                = "Become a Patron"
-    url                                 = "https://www.patreon.com/techqueria"
+    parent                           = "Donate"
+    name                             = "Become a Patron"
+    url                              = "https://www.patreon.com/techqueria"
 [[menu.main]]
-    parent                              = "Donate"
-    name                                = "Donate Space"
-    url                                 = "/donate/donate-space/"
+    parent                           = "Donate"
+    name                             = "Donate Space"
+    url                              = "/donate/donate-space/"
 [[menu.main]]
-    parent                              = "Donate"
-    name                                = "Match Your Gift"
-    url                                 = "/donate/match-your-gift/"
+    parent                           = "Donate"
+    name                             = "Match Your Gift"
+    url                              = "/donate/match-your-gift/"
 
 # Events
 [[menu.main]]
-    name                                = "Events"
-    url                                 = "https://events.techqueria.org"
-    externalLink                        = false
+    name                             = "Events"
+    url                              = "https://events.techqueria.org"
+    externalLink                     = false
 [[menu.main]]
-    parent                              = "Events"
-    name                                = "Upcoming Events"
-    url                                 = "https://events.techqueria.org/events"
-    weight                              = 1
+    parent                           = "Events"
+    name                             = "Upcoming Events"
+    url                              = "https://events.techqueria.org/events"
+    weight                           = 1
 [[menu.main]]
-    parent                              = "Events"
-    name                                = "Past Events"
-    url                                 = "/events/#past-events"
-    weight                              = 2
+    parent                           = "Events"
+    name                             = "Past Events"
+    url                              = "/events/#past-events"
+    weight                           = 2
 [[menu.main]]
-    parent                              = "Events"
-    name                                = "All City Chapters"
-    url                                 = "https://events.techqueria.org/chapters"
-    weight                              = 3
+    parent                           = "Events"
+    name                             = "All City Chapters"
+    url                              = "https://events.techqueria.org/chapters"
+    weight                           = 3
 
 # News
 [[menu.main]]
-    name                                = "News"
-    url                                 = "/news/"
+    name                             = "News"
+    url                              = "/news/"
 
 # Support Us
 [[menu.main]]
-    name                                = "Support Us"
-    url                                 = "/support-us/"
+    name                             = "Support Us"
+    url                              = "/support-us/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Chapter Director"
-    url                                 = "/support-us/chapter-director/"
+    parent                           = "Support Us"
+    name                             = "Become a Chapter Director"
+    url                              = "/support-us/chapter-director/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Community Partner"
-    url                                 = "/support-us/community-partner/"
+    parent                           = "Support Us"
+    name                             = "Become a Community Partner"
+    url                              = "/support-us/community-partner/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Corporate Partner"
-    url                                 = "/support-us/corporate-partner/"
+    parent                           = "Support Us"
+    name                             = "Become a Corporate Partner"
+    url                              = "/support-us/corporate-partner/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Software Sponsor"
-    url                                 = "/support-us/software-sponsor/"
+    parent                           = "Support Us"
+    name                             = "Become a Software Sponsor"
+    url                              = "/support-us/software-sponsor/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Speaker"
-    url                                 = "/support-us/speak/"
+    parent                           = "Support Us"
+    name                             = "Become a Speaker"
+    url                              = "/support-us/speak/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Become a Volunteer"
-    url                                 = "/support-us/volunteer/"
+    parent                           = "Support Us"
+    name                             = "Become a Volunteer"
+    url                              = "/support-us/volunteer/"
 [[menu.main]]
-    parent                              = "Support Us"
-    name                                = "Our Supporters"
-    url                                 = "/supporters/"
+    parent                           = "Support Us"
+    name                             = "Our Supporters"
+    url                              = "/supporters/"
 
 # Social Menu
 [[menu.social]]
-    name                                = "Twitter"
-    url                                 = "https://twitter.com/Techqueria"
-    identifier                          = "fab fa-lg fa-twitter"
-    weight                              = 1
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
+    weight                           = 1
 [[menu.social]]
-    name                                = "LinkedIn"
-    url                                 = "https://www.linkedin.com/company/techqueria/"
-    identifier                          = "fab fa-lg fa-linkedin"
-    weight                              = 2
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+    weight                           = 2
 
 # Slack Menu
 [[menu.portal]]
-    name                                = "Join Us"
-    url                                 = "/join/"
-    identifier                          = "fab fa-lg fa-slack"
+    name                             = "Join Us"
+    url                              = "/join/"
+    identifier                       = "fab fa-lg fa-slack"
 [[menu.portal]]
-    name                                = "Login"
-    url                                 = "https://techqueria.slack.com"
-    identifier                          = "fas fa-lg fa-sign-in-alt"
+    name                             = "Login"
+    url                              = "https://techqueria.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"
 
 # Menu - Español
 
 # Homepage
 [[languages.es.menu.homepage]]
-    name                                = "Latinx en Tecnología"
-    url                                 = "/"
+    name                             = "Latinx en Tecnología"
+    url                              = "/"
 
 # About
 [[languages.es.menu.main]]
-    name                                = "Sobre nosotros"
-    url                                 = "/about/"
+    name                             = "Sobre nosotros"
+    url                              = "/about/"
 [[languages.es.menu.main]]
-    parent                              = "Sobre nosotros"
-    name                                = "Marca"
-    url                                 = "/about/brand/"
+    parent                           = "Sobre nosotros"
+    name                             = "Marca"
+    url                              = "/about/brand/"
 [[languages.es.menu.main]]
-    parent                              = "Sobre nosotros"
-    name                                = "Contacto"
-    url                                 = "/about/contact/"
+    parent                           = "Sobre nosotros"
+    name                             = "Contacto"
+    url                              = "/about/contact/"
 [[languages.es.menu.main]]
-    parent                              = "Sobre nosotros"
-    name                                = "Eventos"
-    url                                 = "https://events.techqueria.org"
+    parent                           = "Sobre nosotros"
+    name                             = "Eventos"
+    url                              = "https://events.techqueria.org"
 [[languages.es.menu.main]]
-    parent                              = "Sobre nosotros"
-    name                                = "Equipo"
-    url                                 = "/team/"
+    parent                           = "Sobre nosotros"
+    name                             = "Equipo"
+    url                              = "/team/"
 [[languages.es.menu.main]]
-    parent                              = "Sobre nosotros"
-    name                                = "Tienda"
-    url                                 = "/shop/"
+    parent                           = "Sobre nosotros"
+    name                             = "Tienda"
+    url                              = "/shop/"
 
 # Communities
 [[languages.es.menu.main]]
-    name                                = "Comunidades"
-    url                                 = "/communities/"
+    name                             = "Comunidades"
+    url                              = "/communities/"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Capítulos de la Ciudad"
-    url                                 = "/communities/chapters/"
+    parent                           = "Comunidades"
+    name                             = "Capítulos de la Ciudad"
+    url                              = "/communities/chapters/"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Grupo de Facebook"
-    url                                 = "https://www.facebook.com/groups/techqueria"
+    parent                           = "Comunidades"
+    name                             = "Grupo de Facebook"
+    url                              = "https://www.facebook.com/groups/techqueria"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Página de Facebook"
-    url                                 = "https://www.facebook.com/techqueria"
+    parent                           = "Comunidades"
+    name                             = "Página de Facebook"
+    url                              = "https://www.facebook.com/techqueria"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Organización de GitHub"
-    url                                 = "https://github.com/techqueria"
+    parent                           = "Comunidades"
+    name                             = "Organización de GitHub"
+    url                              = "https://github.com/techqueria"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Grupo de LinkedIn"
-    url                                 = "https://www.linkedin.com/groups/13500636"
+    parent                           = "Comunidades"
+    name                             = "Grupo de LinkedIn"
+    url                              = "https://www.linkedin.com/groups/13500636"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Página de LinkedIn"
-    url                                 = "https://www.linkedin.com/company/techqueria/"
+    parent                           = "Comunidades"
+    name                             = "Página de LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Boletín electrónico"
-    url                                 = "/communities/newsletter/"
+    parent                           = "Comunidades"
+    name                             = "Boletín electrónico"
+    url                              = "/communities/newsletter/"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Espacio de trabajo en Slack"
-    url                                 = "/communities/slack/"
+    parent                           = "Comunidades"
+    name                             = "Espacio de trabajo en Slack"
+    url                              = "/communities/slack/"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Twitter"
-    url                                 = "https://twitter.com/Techqueria"
+    parent                           = "Comunidades"
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
 [[languages.es.menu.main]]
-    parent                              = "Comunidades"
-    name                                = "Canal de YouTube"
-    url                                 = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+    parent                           = "Comunidades"
+    name                             = "Canal de YouTube"
+    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
 
 # Donate
 [[languages.es.menu.main]]
-    name                                = "Donar"
-    url                                 = "/donate/"
+    name                             = "Donar"
+    url                              = "/donate/"
 [[languages.es.menu.main]]
-    parent                              = "Donar"
-    name                                = "Contribuir en Open Collective"
-    url                                 = "https://opencollective.com/techqueria/"
+    parent                           = "Donar"
+    name                             = "Contribuir en Open Collective"
+    url                              = "https://opencollective.com/techqueria/"
 [[languages.es.menu.main]]
-    parent                              = "Donar"
-    name                                = "Contribuir en Patreon"
-    url                                 = "https://www.patreon.com/techqueria"
+    parent                           = "Donar"
+    name                             = "Contribuir en Patreon"
+    url                              = "https://www.patreon.com/techqueria"
 
 # Resources
 [[languages.es.menu.main]]
-    name                                = "Noticias"
-    url                                 = "/news/"
+    name                             = "Noticias"
+    url                              = "/news/"
 
 [[languages.es.menu.main]]
-    name                                = "Apoyanos"
-    url                                 = "/support-us/"
+    name                             = "Apoyanos"
+    url                              = "/support-us/"
 [[languages.es.menu.main]]
-    parent                              = "Apoyanos"
-    name                                = "Hazte Voluntario"
-    url                                 = "/support-us/volunteer/"
+    parent                           = "Apoyanos"
+    name                             = "Hazte Voluntario"
+    url                              = "/support-us/volunteer/"
 [[languages.es.menu.main]]
-    parent                              = "Apoyanos"
-    name                                = "Donar Espacio"
-    url                                 = "/support-us/donate-space/"
+    parent                           = "Apoyanos"
+    name                             = "Donar Espacio"
+    url                              = "/support-us/donate-space/"
 [[languages.es.menu.main]]
-    parent                              = "Apoyanos"
-    name                                = "Nuestros Partidarios"
-    url                                 = "/supporters/"
-
-[[languages.es.menu.social]]
-    name                                = "LinkedIn"
-    url                                 = "https://www.linkedin.com/company/techqueria/"
-    identifier                          = "fab fa-lg fa-linkedin"
+    parent                           = "Apoyanos"
+    name                             = "Nuestros Partidarios"
+    url                              = "/supporters/"
 
 [[languages.es.menu.social]]
-    name                                = "Twitter"
-    url                                 = "https://twitter.com/Techqueria"
-    identifier                          = "fab fa-lg fa-twitter"
+    name                             = "LinkedIn"
+    url                              = "https://www.linkedin.com/company/techqueria/"
+    identifier                       = "fab fa-lg fa-linkedin"
+
+[[languages.es.menu.social]]
+    name                             = "Twitter"
+    url                              = "https://twitter.com/Techqueria"
+    identifier                       = "fab fa-lg fa-twitter"
 
 # Slack Menu
 
 [[languages.es.menu.portal]]
-    name                                = "Únete a nuestro Slack"
-    url                                 = "/communities/slack/"
-    identifier                          = "fab fa-lg fa-slack"
+    name                             = "Únete a nuestro Slack"
+    url                              = "/communities/slack/"
+    identifier                       = "fab fa-lg fa-slack"
 
 [[languages.es.menu.portal]]
-    name                                = "Iniciar sesión en Slack"
-    url                                 = "https://techqueria.slack.com"
-    identifier                          = "fas fa-lg fa-sign-in-alt"
+    name                             = "Iniciar sesión en Slack"
+    url                              = "https://techqueria.slack.com"
+    identifier                       = "fas fa-lg fa-sign-in-alt"

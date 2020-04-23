@@ -124,6 +124,7 @@ a.image-external-plain:after {
 }
 
 .author-image {
+  @extend %image-shadow;
   border-radius: $radius;
 }
 

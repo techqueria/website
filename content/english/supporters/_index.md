@@ -10,6 +10,7 @@ aliases:
   - /current-supporters/
   - /our-supporters/
   - /partners/
+  - /past-partners/
   - /past-sponsors/
   - /past-supporters/
   - /sponsors/

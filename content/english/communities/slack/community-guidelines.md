@@ -1,5 +1,5 @@
 ---
-title: "Community Guidelines"
+title: "Slack Community Guidelines"
 description: "Learn about our allyship in Slack, best practices, recommendations and customization options. 📝"
 image: "/assets/img/communities/slack/community-guidelines.jpg"
 noTimeEstimate: true
@@ -33,13 +33,6 @@ Within our Slack, you will find:
 - scholarship opportunities
 - specific channels that cater to you - affinities, cities, passions, hobbies, etc
 - and so much more
-
-In terms of metrics, we have (as of February 2020):
-
-- 5,000+ members
-- 1,300+ weekly active members
-- 600+ daily active members
-- 250+ allies
 
 ## Allies 💛
 
@@ -88,11 +81,11 @@ Then use Eventbot to create an event so that folks can RSVP and can also get rem
 
 ### Use threads
 
-This convo in the `#meta` channel could have been 28 separate messages! 🤯
+This convo in the `#random` channel could have been a bunch of separate messages! 🤯
 
 Instead, with threads - it turned into a more rich and focused discussion. 😌
 
-![Threads](https://i.imgur.com/H9KWoqD.jpg)
+![Threads](/assets/img/communities/slack/use-threads.png)
 
 ### Refer to pinned posts
 
@@ -134,7 +127,7 @@ Check out Techqueria's website on GitHub! :github: https://github.com/techqueria
 
 #### Notice someone posting the same message to 3+ different channels?
 
-<img src="https://emoji.slack-edge.com/T0KQTUZ2B/chill-out-with-the-posts/a91d2e074b6b444f.png" class="u-box-shadow--none" alt="Chill out with the posts">
+<img src="/assets/img/communities/slack/chill-out.png" data-src="/assets/img/communities/slack/chill-out.png" class="lozad u-box-shadow--none" alt="Chill out with the posts">
 
 The `:chill-out-with-the-posts:` emoji will be used to indicate that whoever is posting the message needs to slow down with posting the same message to different channels and chill out with the posts.
 
@@ -146,19 +139,23 @@ That way, if we see that the same person is continuously doing this, we can reac
 
 #### Notice someone posting in the wrong channel?
 
-<img src="https://emoji.slack-edge.com/T0KQTUZ2B/switch-to-a-different-channel/a37ccfaee5459a14.png" class="u-box-shadow--none" alt="Chill out with the posts">
+<img src="/assets/img/communities/slack/switch-channel.png" data-src="/assets/img/communities/slack/switch-channel.png" class="lozad u-box-shadow--none" alt="Switch to a different channel">
 
-The :switch-to-a-different-channel: will be used to indicate that someone is posting to the wrong channel and should probably switch to a different channel.
+The `:switch-to-a-different-channel:` will be used to indicate that someone is posting to the wrong channel and should probably switch to a different channel.
 
 We will not be having a channel set up for this but it's just another we are letting folks in a friendly way that they should post their message somewhere else.
 
 #### Notice someone not using threads effectively?
 
-Use `:thread` to encourage people to use threads instead of posting in channel with a bunch of related messages
+<img src="/assets/img/communities/slack/threads.png" data-src="/assets/img/communities/slack/threads.png" class="lozad u-box-shadow--none" alt="Use threads">
+
+Use `:please-use-threads:` to encourage people to use threads instead of posting in channel with a bunch of related messages
 
 #### Notice someone who hasn't uploaded a profile picture?
 
-Use `:frame_with_picture:` to encourage people to fill out their profile and upload a profile picture.
+<img src="/assets/img/communities/slack/profile-pic.png" data-src="/assets/img/communities/slack/profile-pic.png" class="lozad u-box-shadow--none" alt="Upload a profile picture">
+
+Use `:please-upload-a-profile-picture:` to encourage people to fill out their profile and upload a profile picture.
 
 ### HeyTaco
 
@@ -226,25 +223,62 @@ Take a look at them and feel free to [add more custom emoji](https://techqueria.
   - `#locals-`
 - Meta
   - `#meta-`
+- Cafecito
+  - `#cafecito-`
 - Events
   - `#event-company-month-year`
-- Organizers
-  - `#organizers-`
+- Internal Leads
+  - `#techqueria-`
 - Partners
   - `#partner-`
 
 ### Default Channels
 
-There are three default channels everyone automatically gets added to upon joining.
+These are the default channels everyone automatically gets added to upon joining.
+
+> Core
 
 - `#announcements`
-  - locked to the organizers - this is where admins/organizers will post news and information about the community at large
-- `#jobs`
-  - sharing and requesting job opportunities
+  - only admins can post
+  - this is where admins/organizers will post news and information about the community at large
+- `#introductions`
+  - new members introducing themselves
+- `#cafecito`
+  - facilitates 1:1 meetings for members to get to know each other
+- `#meta`
+  - ask an admin an question
+  - provide feedback to Techqueria
+  - provide ideas to Techqueria
+  - report anonymous COC violations
+- `#meta-request-channel`
+  - request a new channel
+- `#positive-vibes`
+  - Give someone kudos using 🌮 or just share what you accomplished this week ✨
 - `#random`
   - conversations that don't fit in any topic channel but could be relevant for everyone
-- `#meta`
-  - provide feedback or ask questions to Techqueria
+  - not location specific
+
+> Career Related
+
+- `#career-advice`
+  - to share or ask for career advice
+- `#compensation`
+  - ask questions about compensation anonymously
+- `#job-seeking`
+  - if you are looking for a job
+- `#jobs`
+  - sharing job opportunities
+- `#resources`
+  - sharing helpful resources
+- `#workplace-challenges`
+  - getting advice on common workplace challenges
+
+> Misc
+
+- `#action`
+  - “Trataron de enterrarnos. No sabían que éramos semillas.”
+- `#allies`
+  - for allies to share resources
 
 ### Public Channels
 
@@ -294,35 +328,25 @@ To see a list of available channels, run the command `/list-private`, and click 
 
 #### How Cafecito Channels Work
 
-`@Buñuelo the Donut` pairs up people in cafecito channels every 2 weeks so they can get to know others in the Techqueria community. ☕
+If you'd like one added, head on over to `#meta-request-channel`.
 
-There are several cafecito channels in Techqueria - all based on location. If you'd like one added, head on over to #meta-request-channel.
+> 1:1 Pairings
+
+- `#cafecito`
+
+Pairs up people in cafecito channels every 2 weeks through a Slack app called [Swirl](https://tryswirl.com) so they can get to know others in the Techqueria community.
+
+> Location Based
+
+For local Techqueria members to hang out for fun/casual/informal events.
 
 - `#cafecito-atx`
-- `#cafecito-chicago`
 - `#cafecito-east-bay`
 - `#cafecito-la`
 - `#cafecito-nyc`
 - `#cafecito-remote`
 - `#cafecito-sf`
 - `#cafecito-south-bay`
-
-#### Setting up Cafecitos
-
-For scheduling a time, we recommend setting up a Calendly account, connecting it to your both your personal and work calendars and then sharing the link - it's a real time saver! https://calendly.com
-
-If you can't meet in person, we recommend using one of the following for video conferencing:
-
-- built-in Slack calls https://get.slack.help/hc/en-us/articles/216771908-Make-calls-in-Slack
-- Daily https://www.daily.co
-- Zoom https://zoom.us
-- Google Hangouts https://hangouts.google.com
-
-#### Leaving Cafecito Channels
-
-1. Leave any of the `#cafecito-` channels you might have joined since this is where Buñuelo pairs you up with someone else from that channel
-2. For any pairing you got in, there will be two meetup reminders messaged to you. Even if you leave the channel, you'll still get them so just expect those but if Buñuelo keeps persisting after that, reach out to us via `#meta`
-3. Okay, good to go - no more messages from Buñuelo!
 
 ### Countries
 
@@ -397,7 +421,7 @@ Other related meta channels include:
 - `#meta`
   - Give feedback, ask questions, bring up concerns, etc
 - `#meta-profile-pic`
-  - Messages reacted with :frame_with_picture:
+  - Where new members didn't upload a profile picture
 - `#meta-request-event`
   - Add a community event to our events platform
 - `#meta-request-channel`

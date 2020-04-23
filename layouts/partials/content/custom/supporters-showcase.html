@@ -84,7 +84,7 @@
 {{ if (index .Site.Taxonomies.categories "software-sponsor") "!=" nil }}
 <div class="content mt-4 u-text--centered">
   <h3 id="software-sponsors"><span class="mr-sm">💻</span>Software Sponsors<span class="ml-sm">💻</span></h3>
-  <p>Organizations that have granted us access to their software as a nonprofit.</p>
+  <p>Organizations that have granted us access to their software.</p>
 </div>
 <section class="c-companies c-companies--software-suporters">
   {{ range (index .Site.Taxonomies.categories "software-sponsor") }}
@@ -104,14 +104,14 @@
   {{ end }}
 </section>
 {{ end }}
-<!-- Past Supporters -->
+<!-- Past Partners -->
 {{ if (index .Site.Taxonomies.categories "past-supporter") "!=" nil }}
 <div class="content mt-4 u-text--centered">
-  <h3 id="past-supporters-and-partners"><span class="mr-sm">🕒</span>Past Supporters<span class="ml-sm">🕒</span></h3>
-  <p>Organizations that have supported us in the past.</p>
-  <p>We've had {{ $companies }} different organizations support us in some capacity since 2015.</p>
+  <h3 id="past-partners-and-partners"><span class="mr-sm">🕒</span>Past Partners<span class="ml-sm">🕒</span></h3>
+  <p>Organizations that we've partnered up with in the past.</p>
+  <p>We've had {{ $companies }} different organizations partner with us in some capacity since 2015.</p>
 </div>
-<section class="c-companies c-companies--past-supporters">
+<section class="c-companies c-companies--past-partners">
   {{ range (index .Site.Taxonomies.categories "past-supporter") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}

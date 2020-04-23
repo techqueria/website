@@ -34,7 +34,7 @@ articles:
 
 Techqueria had an event in partnership with Twitter Alas to talk about what it's like being Latinx in Tech.
 
-We also raised ~\$2,500 at the event in support of El Paso.
+We also raised ~$2,500 at the event in support of El Paso.
 
 Follow us @Techqueria and @TwitterAlas and check out the conversations using the hashtag #LatinxTechTwitter.
 

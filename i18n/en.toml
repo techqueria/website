@@ -61,8 +61,8 @@ other = "Feel free to book a partnership call and we can talk more about the dif
 [interested_sponsor_button]
 other = "Book a partnership call"
 
-[there_is_also]
-other = "You can also become an on-going patron or make a one-time donation."
+[footer_donate_copy]
+other = "Support Techqueria's efforts by becoming an on-going patron or making a one-time donation."
 
 [subscribe]
 other = "Subscribe"
