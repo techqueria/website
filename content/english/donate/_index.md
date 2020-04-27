@@ -1,7 +1,6 @@
 ---
 title: "Donate"
 description: "Support our efforts to elevate Latinx in Tech. 💛"
-link: https://secure.givelively.org/donate/techqueria
 image: "/assets/img/donate/_index.jpg"
 hideImage: true
 aliases:
