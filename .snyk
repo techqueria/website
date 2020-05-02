@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -51,3 +51,104 @@ patch:
         patched: '2019-10-05T21:39:16.479Z'
     - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
         patched: '2019-10-05T21:39:16.479Z'
+  SNYK-JS-LODASH-567746:
+    - '@babel/register > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - eslint > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - brotli-webpack-plugin > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - eslint > table > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - gulp-sass > node-sass > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @oclif/plugin-not-found > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > cli-ux > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > http-proxy-middleware > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > inquirer > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/core > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > winston > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @oclif/plugin-plugins > cli-ux > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > lambda-local > winston > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > analytics > redux > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > rollup-plugin-babel > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > netlify > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > @netlify/config > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > netlify-redirect-parser > @netlify/config > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > netlify > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > @netlify/build > @netlify/config > netlify > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - netlify-cli > netlify-redirect-parser > @netlify/config > netlify > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
+    - workbox-webpack-plugin > workbox-build > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-02T21:40:22.066Z'
