@@ -46,7 +46,7 @@
     "netlify-cli": "^2.25.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "4.0.0",
-    "snyk": "^1.274.0",
+    "snyk": "^1.316.2",
     "webpack": "4.41.6",
     "workbox-webpack-plugin": "5.0.0"
   },
