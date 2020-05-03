@@ -6,9 +6,8 @@ image: "/assets/img/events/2019-12-12-holiday-meetup-atx.jpg"
 link: https://www.eventbrite.com/e/techqueria-holiday-meet-up-tickets-84598296783#
 organizations:
   - "Caritas of Austin"
-categories:
-  - austin
 ---
+
 We invite you to spend the evening with your fellow Techqueria members and reflect on the amazing year we've had!
 
 Please join us to celebrate our 1st holiday meet-up! Techqueria ATX is one of the latest established chapters and this wouldn't have been possible without the support of our amazing community! Feel free to bring a friend or two!

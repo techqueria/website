@@ -1,10 +1,9 @@
 ---
 title: Dalia Icedo
 image: "/assets/img/team/dalia-icedo.jpeg"
-description: "Freelance Product Designer, pxlwtch.com"
+description: "Past Organizer, San Francisco"
 linkedin: https://www.linkedin.com/in/daliaicedo
 categories:
-  - san-francisco
   - past-organizer
   - past-board-member
 aliases:

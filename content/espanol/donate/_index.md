@@ -13,9 +13,6 @@ image: "/assets/img/donate/_index.jpg"
     <p>EIN 83-2656715</p>
   </div>
   <div class="column is-half">
-    <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
-      src="https://donorbox.org/embed/techqueria?amount=25&hide_donation_meter=true" width="100%"
-      style="max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"
-      allowpaymentrequest></iframe>
+    {{< donate >}}
   </div>
 </div>

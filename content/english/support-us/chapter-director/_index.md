@@ -97,6 +97,36 @@ We want to set up you for success so we offer financial support for creating eve
 - You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
 - See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
 
+## Current Active Chapters
+
+1. Atlanta, GA
+2. Austin, TX
+3. Los Angeles, CA
+4. New York, NY
+5. Orlando, FL
+6. San Francisco Bay Area, CA
+7. Washington, D.C.
+8. Virtual Webinars (Global)
+
+## Potential Chapters
+
+We are interested in growing in the following cities and will prioritize applications accordingly.
+
+- Albuquerque, NM
+- Boston, MA
+- Chicago, IL
+- Denver, CO
+- Houston, TX
+- Mexico City, MX
+- Miami, FL
+- Orange County, CA
+- Philadelphia, PA
+- Phoenix, AZ
+- Portland, OR
+- Salt Lake City, UT
+- Seattle, WA
+- Tucson, AZ
+
 ## How to Apply
 
 We will review your application after you submit it using the link below and we will either approve or reject your application based on the answers you provided within 2 weeks.

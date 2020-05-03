@@ -68,6 +68,7 @@ As you are waiting for your invite, feel free to read through our [Slack Communi
   {{< fields/message label="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." placeholder="Add your blurb here" name="why_techqueria" required="true" >}}
   {{< fields/looking_for >}}
   {{< fields/referral >}}
+  {{< fields/slack_community_guidelines >}}
   {{< fields/coc >}}
   {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary is-large is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>

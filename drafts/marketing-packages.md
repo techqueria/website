@@ -39,19 +39,9 @@ Support our members’ growth with opportunities to level up in their career by 
 
 Sharing your company with Techqueria's social media networks is a great way of reaching the Latinx in Tech community.
 
-## Cost Per Month
+## Cost
 
-### 1 Month
-
-We charge $200 per month for a call to action shared through our email newsletter or through our social media accounts.
-
-### 6 Months
-
-$1,080 (10% off)
-
-### 12 Months
-
-$2,040 (15% off)
+We charge $100 for every call to action shared through our email newsletter or through our social media accounts.
 
 ## Process
 
@@ -71,7 +61,6 @@ Make sure to include relevant wording and links so we can craft the message to y
 
 ### Disclaimers
 
-- We have a max of 4 call to actions from the same organization that can be shared per month for up to 12 months.
 - We post 1 CTA across all 6 of our major social media platforms so we don't post the CTA multiple times throughout the month, just once if you purchased the 1 call to action per month package.
 - We have corporate partnerships where we offer both event + marketing packages. In those types of partnerships, companies where they are responsible for providing us specific job postings if they want to promote those, otherwise we default to the general careers link.
 - We haven't researched whether there is a huge difference in clicks between posting a generic career link or a specific job posting but we prefer to promote specific job postings.

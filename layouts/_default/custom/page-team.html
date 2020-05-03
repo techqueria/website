@@ -17,12 +17,21 @@
       {{ partial "content/child.html" . }}
       {{ end }}
     </div>
-    <!-- Current Volunteers -->
+    <!-- Volunteer Leads -->
     <div class="content mt-2">
-      <h2>Current Volunteer Leads</h2>
+      <h2>National Team</h2>
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "current-volunteer-lead").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <!-- Chapter Directors -->
+    <div class="content mt-2">
+      <h2>Chapter Directors</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
       {{ partial "content/child.html" . }}
       {{ end }}
     </div>
@@ -32,6 +41,15 @@
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "board-member").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <!-- Advisory Board -->
+    <div class="content mt-2">
+      <h2>Advisory Board</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "board-advisory-member").Pages.ByTitle }}
       {{ partial "content/child.html" . }}
       {{ end }}
     </div>
