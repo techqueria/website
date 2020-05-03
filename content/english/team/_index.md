@@ -14,7 +14,3 @@ aliases:
   - /about/team/
 sitemap: true
 ---
-
-Techqueria is a 501c3 nonprofit that is made possible thanks to the work of lots of organizers, mentors, sponsors and advisors.
-
-We also get a lot of help from the open source community - you can <a href="https://github.com/techqueria/website/graphs/contributors" rel="noopener" target="_blank">view our website contributors</a> on our website's GitHub repo.

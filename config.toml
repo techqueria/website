@@ -3,19 +3,31 @@ baseURL                              = "https://techqueria.org/"
 buildFuture                          = true
 copyright                            = "This work is licensed under MIT."
 enableEmoji                          = true
-enableRobotsTXT                      = true
 enableInlineShortcodes               = true
+enableRobotsTXT                      = true
 footnoteReturnLinkContents           = "↩"
 metaDataFormat                       = "yaml"
-title                                = "Techqueria"
-publishDir                           = "dist"
 Paginate                             = 12
 PaginatePath                         = ""
+publishDir                           = "dist"
+title                                = "Techqueria"
+
+# Code Snippets
+pygmentsCodefences                   = true
+pygmentsCodefencesGuessSyntax        = true
+pygmentsStyle                        = "manni"
+
+# Taxonomy
+preserveTaxonomyNames                = false
 
 # Language
 languageCode                         = "en-US"
 DefaultContentLanguage               = "en"
 enableMissingTranslationPlaceholders = true
+
+# Internal Templates
+googleAnalytics                      = "UA-88917358-1"
+disqusShortname                      = "techqueria"
 
 # HTML Renderer
 [markup.goldmark.renderer]
@@ -36,28 +48,9 @@ enableMissingTranslationPlaceholders = true
       og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
-preserveTaxonomyNames                = false
-
 [taxonomies]
   tag                                = "tags"
   category                           = "categories"
-
-# Code
-[markup]
-  [markup.highlight]
-    codeFences                       = true
-    guessSyntax                      = true
-    hl_Lines                         = ""
-    lineNoStart                      = 1
-    lineNos                          = false
-    lineNumbersInTable               = true
-    noClasses                        = true
-    style                            = "manii"
-    tabWidth                         = 4
-
-# Internal Templates
-googleAnalytics                      = "UA-88917358-1"
-disqusShortname                      = "techqueria"
 
 # Output Formats
 [outputs]

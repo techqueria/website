@@ -1,10 +1,9 @@
 ---
 title: Andrea Cardona
 image: "/assets/img/team/andrea-cardona.jpeg"
-description: "Software Designer, IBM"
+description: "Chapter Director, Austin"
 linkedin: https://www.linkedin.com/in/andrea-cardona-b647594b
 categories:
-  - austin
   - chapter-director
 aliases:
   - /about/team/andrea-cardona/

@@ -1,11 +1,9 @@
 ---
 title: Dulce Villarreal
 image: "/assets/img/team/dulce-villarreal.jpg"
-description: "Blockchain Engineer, Insight Data Science"
+description: "Chapter Director, San Francisco Bay Area"
 linkedin: https://www.linkedin.com/in/dulcevillarreal
-flag: 🇲🇽
 categories:
-  - san-francisco
   - chapter-director
 aliases:
   - /about/team/dulce-villarreal/
