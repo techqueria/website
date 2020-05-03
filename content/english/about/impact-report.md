@@ -1,6 +1,6 @@
 ---
 title: "Impact Report"
-description: "We incorporated as nonprofit in March of 2018. Since then, we've taken actionable steps to becoming the community we enivision for Latinx in Tech."
+description: "We incorporated as a 501c3 nonprofit in March 2019. Since then, we've taken actionable steps to becoming the community we enivision for Latinx in Tech."
 hideImage: true
 image: "/assets/img/about/impact-report/_index.jpg"
 noTimeEstimate: true
@@ -57,6 +57,13 @@ Average YOE (Years of Experience) = 4 years
 1,223 member sample from 2019 and 2020
 
 <img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/referral.png" alt="Referral (February 28, 2020)">
+
+### Slack (February 20, 2020)
+
+- 5,000+ members
+- 1,300+ weekly active members
+- 600+ daily active members
+- 250+ allies
 
 ### HubSpot CRM (January 3, 2020)
 
@@ -123,8 +130,8 @@ over last 28 days
 
 ### Partnership Calls (October 20, 2019)
 
-  - 100+ partnership calls over the last 4 months
-  - 5+ partnerships calls on average per week
+- 100+ partnership calls over the last 4 months
+- 5+ partnerships calls on average per week
 
 ### ERGs (October 20, 2019)
 

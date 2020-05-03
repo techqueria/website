@@ -11,7 +11,8 @@ const CompressionPlugin = require("compression-webpack-plugin");
 module.exports = {
   mode: "production",
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: "url-loader"
       },
@@ -54,49 +55,23 @@ module.exports = {
       cacheId: "techqueria",
       swDest: "sw.js",
       globDirectory: "./dist",
-      globPatterns: ["index.html", "404.html", "**/*.{js,css,png,svg,jpg,jpeg,icon,json}"],
+      globPatterns: [
+        "index.html",
+        "404.html",
+        "**/*.{js,css,png,svg,jpg,jpeg,icon,json}"
+      ],
       offlineGoogleAnalytics: true,
       clientsClaim: true,
       skipWaiting: true,
-      runtimeCaching: [{
-          urlPattern: /\.(?:html)$/,
-          handler: "networkFirst",
-          options: {
-            cacheName: "page-cache",
-            expiration: {
-              maxEntries: 50
-            },
-          }
-        },
-        {
-          urlPattern: /\.(?:png|gif|jpg|svg|ico|jpeg|css|js)$/,
-          handler: "cacheFirst",
-          options: {
-            cacheName: "assets-cache"
-          }
-        },
-        {
-          urlPattern: new RegExp("https://twemoji.maxcdn.com"),
-          handler: "staleWhileRevalidate"
-        },
-        {
-          urlPattern: new RegExp("https://i.imgur.com"),
-          handler: "staleWhileRevalidate"
-        },
-        {
-          urlPattern: new RegExp("https://www.google-analytics.com"),
-          handler: "staleWhileRevalidate"
-        }
-      ]
+      context: path.join(__dirname, "assets")
     })
   ],
-  context: path.join(__dirname, "assets"),
   entry: {
     app: ["./js/app"],
-    join: ["./js/join"],
+    join: ["./js/join"]
   },
   output: {
     filename: path.join("assets", "js", "[name].js"),
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "dist")
   }
 };

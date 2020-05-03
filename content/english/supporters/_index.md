@@ -10,6 +10,7 @@ aliases:
   - /current-supporters/
   - /our-supporters/
   - /partners/
+  - /past-partners/
   - /past-sponsors/
   - /past-supporters/
   - /sponsors/
@@ -17,4 +18,7 @@ aliases:
   - /support-us/our-supporters/
   - /support-us/supporters/
   - /supporters/
+  - /support-us/software-sponsor/donut/
+  - /support-us/software-sponsor/netlify/
+  - /support-us/software-sponsor/typeform/
 ---

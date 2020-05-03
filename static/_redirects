@@ -17,7 +17,7 @@ https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:spla
 # http://techqueria.org/events/ https://events.techqueria.org
 
 # Redirect chapters page
-https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapters
+https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapters 301!
 
 # Redirect old about locations
 https://techqueria.org/about/team/* https://techqueria.org/team/:splat 301!

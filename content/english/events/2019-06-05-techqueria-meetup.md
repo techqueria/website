@@ -3,8 +3,6 @@ title: "Techqueria Meet-Up!"
 date: 2019-06-05
 image: "/assets/img/events/2019-06-05.png"
 link: https://www.eventbrite.com/e/techqueria-meet-up-tickets-62657254535
-categories:
-  - austin
 ---
 
 Hello! Looking to meet more Latinx's in Tech? Come grab a drink and connect with other Latinx's in Austin!

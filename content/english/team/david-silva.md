@@ -1,13 +1,11 @@
 ---
 title: David Silva
-description: "Senior Developer, Slingshot Health"
+description: "Co-Founder & Board Member & Chapter Director, NYC"
 github: dvidsilva
 image: "/assets/img/team/david-silva.jpg"
 linkedin: https://www.linkedin.com/in/dvidsilva
 twitter: dvidsilva
-flag: 🇨🇴
 categories:
-  - nyc
   - board-member
   - co-founder
   - chapter-director

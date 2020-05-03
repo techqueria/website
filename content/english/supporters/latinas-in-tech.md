@@ -4,5 +4,5 @@ description: "Latinas in Tech is a non-profit organization with the mission to c
 link: https://www.latinasintech.org/
 image: "/assets/img/supporters/latinas-in-tech.png"
 categories:
-  - community-partner
+  - past-supporter
 ---
