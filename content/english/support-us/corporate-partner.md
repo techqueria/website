@@ -71,7 +71,7 @@ Hackathons allow Techqueria members to collaborate intensively on projects they'
 
 ### Lightning Talks
 
-Host lightning talk events where 10+ people give 5 minute rapid style presentaitons.
+Host lightning talk events where 10+ people give 5 minute rapid style presentations.
 
 ### Workshops
 
