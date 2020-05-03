@@ -9,7 +9,7 @@ toc: true
 
 ## Join Slack
 
-Fill out the form on https://techqueria.org/communities/slack/join (English responses please)
+Complete el formulario en https://techqueria.org/join (respuestas en inglés por favor)
 
 ## Ya es miembro?
 
@@ -17,7 +17,7 @@ Si ya ha recibido una invitación, puede iniciar sesión en [techqueria.slack.co
 
 <a href="https://techqueria.slack.com/" target="_blank" class="image-external-plain" rel="noopener"><img alt="Go to Slack" src="/assets/img/communities/slack/login-to-slack.png"></a>
 
-## Nunca ha usado Slack antes?
+## Nunca ha usado Slack?
 
 Si usted es nuevo en Slack, por favor visite nuestra sección de [**Introducción a Slack**](#intro-to-slack) primero.
 
@@ -121,7 +121,7 @@ Dele una mirada y siéntase libre de [agregar más emojis personalizados](https:
 
 ![Empanada](https://i.imgur.com/2lUgWs2.jpg)
 
-## Channels
+## Channels 💬
 
 ### Channels Predeterminados
 

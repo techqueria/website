@@ -49,8 +49,6 @@ If you don't get an invite to our Slack community within 2 weeks, please [contac
 
 As you are waiting for your invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
 
-You can also view the latest metrics about our Slack community [using Slofile](https://slofile.com/slack/techqueria).
-
 ## Apply to Become a Member
 
 <form name="Become a Member" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/" class="form--centered mt-2 no-ids" id="form_become_a_member">

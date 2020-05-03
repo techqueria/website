@@ -93,7 +93,7 @@ You can find more details on our mission [on our about page](/about/).
 
 We want to set up you for success so we offer financial support for creating events and increased benefits as you grow out your chapter.
 
-- Based on the number of people per event and the number of events per year, your chapter fall into a certain tier where the benefits increase as you grow your chapter
+- Based on the number of people per event and the number of events per year, your chapter falls into a certain tier where the benefits increase as you grow your chapter
 - You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
 - See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
 
