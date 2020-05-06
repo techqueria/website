@@ -41,7 +41,7 @@
     "gulp-postcss": "8.0.0",
     "gulp-sass": "4.1.0",
     "gulp-sourcemaps": "2.6.5",
-    "hugo-bin": "0.57.2",
+    "hugo-bin": "0.58.0",
     "lozad": "1.14.0",
     "netlify-cli": "^2.25.0",
     "plugin-error": "1.0.1",
