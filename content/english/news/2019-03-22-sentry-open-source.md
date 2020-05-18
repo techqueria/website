@@ -17,7 +17,7 @@ Congratulations to [Frances Coronel](https://twitter.com/fvcproductions?lang=en)
 
 [![Techqueria banner](https://images.ctfassets.net/em6l9zw4tzag/5l3VeA7ghuTVKUHWghr6lr/067fa02046c8a8a57f6abf277db2ef05/techqueria-banner.png)](https://images.ctfassets.net/em6l9zw4tzag/5l3VeA7ghuTVKUHWghr6lr/067fa02046c8a8a57f6abf277db2ef05/techqueria-banner.png)
 
-As one of the largest Latinx professional communities in tech, Techqueria build spaces around career advice and development as well as events, conferences, and speaking opportunities.
+As one of the largest Latinx professional communities in tech, Techqueria builds spaces around career advice and development as well as events, conferences, and speaking opportunities.
 
 Techqueria is volunteer-run, and Sentry’s Open Source Grant will allow them breathing room to create a member portal that better engages their community through user profiles, job boards, and event calendars.
 
@@ -45,4 +45,4 @@ We wouldn’t feel right ending this post without acknowledging some of the othe
 
 ---
 
-Thanks again to everyone who applied! We can’t wait to see what Techqueria creates over the next three months. Keep your eye out — you just might see an update blog post soon.
+Thanks again to everyone who applied! We can’t wait to see what Techqueria creates over the next three months. Keep your eyes out — you just might see an update blog post soon.
