@@ -4,7 +4,7 @@ description: "A password manager, digital vault, form filler and secure digital 
 link: https://1password.com
 image: "/assets/img/supporters/1password.png"
 categories:
-  - software-sponsor
+  - sponsor-software
 ---
 
 1Password provides Techqueria access to their platform through their open source program.

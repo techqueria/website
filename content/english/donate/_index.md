@@ -11,7 +11,6 @@ aliases:
 sitemap: true
 ---
 
-
 <div class="columns">
   <div class="column is-half">
     <p><img
@@ -19,6 +18,7 @@ sitemap: true
         alt="Donate to Techqueria"></p>
     <p>Techqueria is a tax-exempt public charity under Section 501c3 of the Internal Revenue Code.</p>
     <p>Contributions to Techqueria are tax-deductible to the extent provided by law.</p>
+    <p>Text the code "TECHQUERIA" to 44-321 to reach this page.</p>
     <p>EIN 83-2656715</p>
   </div>
   <div class="column is-half"> {{< donate >}}

@@ -19,6 +19,16 @@ aliases:
 
 {{< about >}}
 
+![Techqueria Mission/Vision 2020](/assets/img/about/deck/mission.png)
+
+![Techqueria Values 2020](/assets/img/about/deck/values.png)
+
+![Techqueria Membership 2020](/assets/img/about/deck/members.png)
+
+![Techqueria Member Profile 2020](/assets/img/about/deck/member-profile.png)
+
+![Techqueria History 2020](/assets/img/about/deck/history.png)
+
 ## Mission Statement
 
 To provide Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
@@ -45,6 +55,7 @@ Techqueria is a national 501c3 nonprofit that serves the largest community of La
 
 Latinx professionals in the tech industry with a focus to mid to late career professionals in PDE (Product, Design and Engineering)
 
+
 ### Purpose - Why does our community exist?
 
 To create more Latinx leaders in the tech industry which in turn will lead to a more diverse balance of power in the largest wealth-generating field in the world
@@ -58,7 +69,7 @@ To create more Latinx leaders in the tech industry which in turn will lead to a 
 
 1. Network & collaborate with other Latinx in Tech
 2. Share resources/advice/job opportunities
-3. Engage with Techqueria by becoming a corporate or community partner
+3. Engage with Techqueria by becoming a partner
 
 Other things members do...
 

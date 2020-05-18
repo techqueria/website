@@ -7,7 +7,7 @@ noTimeEstimate: true
 toc: true
 price: "$420 per year"
 categories:
-  - software-sponsor-available
+  - sponsor-software-available
 aliases:
   - /support-us/software-sponsor/buffer/
 ---

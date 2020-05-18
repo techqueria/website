@@ -6,7 +6,7 @@ link: https://fellow.app/?source=techqueria
 noTimeEstimate: true
 toc: true
 categories:
-  - software-sponsor
+  - sponsor-software
 aliases:
   - /support-us/software-sponsor/fellow/
 ---

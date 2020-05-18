@@ -7,7 +7,7 @@ price: "$5,000 per year"
 noTimeEstimate: true
 toc: true
 categories:
-  - software-sponsor-available
+  - sponsor-software-available
 aliases:
   - /support-us/software-sponsor/donut/
 ---

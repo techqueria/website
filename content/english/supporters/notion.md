@@ -4,7 +4,7 @@ description: "A new tool that blends your everyday work apps into one. It's the 
 link: https://notion.so
 image: "/assets/img/supporters/notion.png"
 categories:
-  - software-sponsor
+  - sponsor-software
 ---
 
 Notion provides Techqueria access to their platform through their nonprofit program.

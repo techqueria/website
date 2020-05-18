@@ -4,7 +4,8 @@ description: "Asana helps teams orchestrate all their work, from daily tasks to 
 image: "/assets/img/supporters/asana.png"
 link: https://asana.com/careers
 categories:
-  - software-sponsor
+  - sponsor-software
+  - sponsor-platinum
 ---
 
 Asana provides Techqueria access to their platform through their nonprofit program.

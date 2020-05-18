@@ -4,26 +4,26 @@
   {{ $paginator := .Paginator.Pages }}
   <!-- Union -->
   {{ $pages := $paginator | union (.Sections) }}
-  <!-- Looping -->
+  <!-- Default sorting option is By Title -->
+  {{ $rangePages := $pages.ByTitle }}
   <!-- Sorting Option: Latest Posts First -->
   {{ if .Params.sortLatestFirst }}
-  {{ range $pages.ByDate.Reverse }}
-  {{ partial "content/child.html" . }}
-  {{ end }}
+    {{ $rangePages = $pages.ByDate.Reverse }}
   <!-- Sorting Option: Oldest Posts First -->
   {{ else if .Params.sortOldestFirst }}
-  {{ range $pages.ByDate }}
-  {{ partial "content/child.html" . }}
-  {{ end }}
+    {{ $rangePages = $pages.ByDate }}
   <!-- Sorting Option: By Weight -->
   {{ else if .Params.sortByWeight }}
-  {{ range $pages.ByWeight }}
-  {{ partial "content/child.html" . }}
+    {{ $rangePages = $pages.ByWeight }}
   {{ end }}
-  <!-- Default sorting option is By Title -->
-  {{ else }}
-  {{ range $pages.ByTitle }}
-  {{ partial "content/child.html" . }}
+  <!-- Cards -->
+  {{ $partialChild := "content/child.html" }}
+  {{ if .Params.biggerCards }}
+    {{ $partialChild = "content/child-bigger.html" }}
   {{ end }}
+  <!-- Looping -->
+  <!-- Sorting Option: Latest Posts First -->
+  {{ range $rangePages }}
+    {{ partial $partialChild . }}
   {{ end }}
 </div>

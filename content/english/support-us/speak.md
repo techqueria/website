@@ -18,9 +18,9 @@ If you are interested in supporting Techqueria as an individual, one great way t
 - improve your brand as we will be marketing your profile on our different social media platforms
 - improve your public speaking skills with practice in front of large audiences (we typically get around ~250 people at our larger events)
 - make new connections by letting the audience ask you questions after the talk
-- receive swag or money for your efforts and time as a small token of our appreciation
+- expand the reach of your content by sharing your knowledge with the largest community of Latinx professionals in tech
 
-We also provide speakers a $25 gift card for certain events. Please ask the event lead for confirmation.
+We can also provide our speakers an honararium or swag for certain events. Please ask the event lead for confirmation.
 
 ## As a speaker you commit to...
 

@@ -42,7 +42,7 @@ You can find more details on our mission [on our about page](/about/).
   - so you're familiar enough with companies and have built up your own network you can tap into
 - able to organize at least 2 events per year
   - if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
-  - we do not create new chapters in [Bevy](https://events.techqueria.org) for chapters that have had just 1 event
+  - we do not create new chapters in [Bevy](https://events.techqueria.org/virtual-webinars/) for chapters that have had just 1 event
 - able to dedicate at least 5 hours per week
   - events take time to plan
   - how much time you dedicate will also depend on how frequently your chapter has events
@@ -67,7 +67,7 @@ You can find more details on our mission [on our about page](/about/).
 - follow Techqueria's [brand guidelines](/brand/)
 - get the help of a volunteer to take photos, upload photos to a Google Photo album and share with national org
 - host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Google Docs
-- use [Bevy](https://events.techqueria.org) to track RSVPs and attendance of local events
+- use [Bevy](https://events.techqueria.org/virtual-webinars/) to track RSVPs and attendance of local events
 - use Buffer to automatically schedule social media posts advertising the latest local event
 
 ## Benefits

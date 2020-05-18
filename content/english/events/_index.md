@@ -1,27 +1,28 @@
 ---
 title: Events
-description: "Find information about our upcoming events with other Latinx in Tech
-  and subscribe to our community calendar. \U0001F39F"
+description: "Find information about our upcoming events with other Latinx in Tech."
 hideImage: true
 image: "/assets/img/events/_index.jpg"
 layout: custom/page-events
 sortLatestFirst: true
 aliases:
-- "/about/event-feedback/"
-- "/about/photos/"
-- "/about/techqueria-event/feedback/"
-- "/event-feedback/"
-- "/eventbrite/"
-- "/feedback/"
-- "/past-events/"
-- "/photos/"
-- "/stock-photos/"
+  - "/about/event-feedback/"
+  - "/about/photos/"
+  - "/about/techqueria-event/feedback/"
+  - "/event-feedback/"
+  - "/eventbrite/"
+  - "/feedback/"
+  - "/past-events/"
+  - "/photos/"
+  - "/stock-photos/"
 sitemap: true
-
 ---
-We do our best to consolidate all past and upcoming events here on our website and through our dedicated [events platform](https://events.techqueria.org "Events Platform").
 
-Watch videos from our previous events on our [YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ).
+> Starting in 2020, we have a dedicated events platform where we publish our events at [events.techqueria.org](https://events.techqueria.org/virtual-webinars/).
+
+You can still find our past events here and in the future, we plan to consolidate them all here on our website.
+
+Watch videos from our previous events on our [YouTube Channel](https://www.youtube.com/c/Techqueria).
 
 Read event recaps and other posts from our community [in La Techqueria](/news/), where we share our latest news and updates.
 
