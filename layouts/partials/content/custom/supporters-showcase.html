@@ -80,18 +80,6 @@
   {{ end }}
 </section>
 {{ end }}
-<!-- Software Sponsors -->
-{{ if (index .Site.Taxonomies.categories "sponsor-software") "!=" nil }}
-<div class="content mt-4 u-text--centered">
-  <h3 id="software-sponsors"><span class="mr-sm">💻</span>Software Sponsors<span class="ml-sm">💻</span></h3>
-  <p>Organizations that have granted us access to their software with a nonprofit or open source discount.</p>
-</div>
-<section class="c-companies c-companies--software-suporters">
-  {{ range (index .Site.Taxonomies.categories "sponsor-software") }}
-  {{ partial "content/card/company.html" . }}
-  {{ end }}
-</section>
-{{ end }}
 <!-- Community Partners -->
 {{ if (index .Site.Taxonomies.categories "community-partner") "!=" nil }}
 <div class="content mt-4 u-text--centered">
@@ -100,6 +88,18 @@
 </div>
 <section class="c-companies c-companies--community-partners">
   {{ range (index .Site.Taxonomies.categories "community-partner") }}
+  {{ partial "content/card/company.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+<!-- Software Sponsors -->
+{{ if (index .Site.Taxonomies.categories "sponsor-software") "!=" nil }}
+<div class="content mt-4 u-text--centered">
+  <h3 id="software-sponsors"><span class="mr-sm">💻</span>Software Sponsors<span class="ml-sm">💻</span></h3>
+  <p>Organizations that have granted us access to their software with a nonprofit or open source discount.</p>
+</div>
+<section class="c-companies c-companies--software-suporters">
+  {{ range (index .Site.Taxonomies.categories "sponsor-software") }}
   {{ partial "content/card/company.html" . }}
   {{ end }}
 </section>

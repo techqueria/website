@@ -5,7 +5,7 @@ hideImage: true
 image: "/assets/img/support-us/_index.jpg"
 layout: "custom/page-support-us"
 noTimeEstimate: true
-biggerCard: true
+biggerCards: true
 sitemap: true
 aliases:
   - /become-a-sponsor/

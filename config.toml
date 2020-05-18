@@ -214,7 +214,7 @@ disqusShortname                      = "techqueria"
 # Events
 [[menu.main]]
     name                             = "Events"
-    url                              = "https://events.techqueria.org"
+    url                              = "https://events.techqueria.org/virtual-webinars/"
     externalLink                     = false
 [[menu.main]]
     parent                           = "Events"

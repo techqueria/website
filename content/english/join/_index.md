@@ -4,8 +4,8 @@ description: "Apply to become a member of Techqueria's community. 🌮➕➕"
 image: "/assets/img/join/_index.jpg"
 noTimeEstimate: true
 hideImage: true
-toc: true
 sitemap: true
+toc: true
 url: /join/
 aliases:
   - /become-a-member/
@@ -20,34 +20,25 @@ aliases:
   - /referral/
 ---
 
+## About Techqueria
+
+Techqueria is a 501c3 nonprofit that serves the largest community of **Latinx in Tech** in the US.
+
+We have nearly 10,000 members from across the world in our community with the majority identifying as mid to senior-level Latinx professionals working in product, design, and engineering roles within the tech industry.
+
+![Techqueria Mission/Vision 2020](/assets/img/about/deck/mission.png)
+
+![Techqueria Membership 2020](/assets/img/about/deck/members.png)
+
 ## Member Benefits
 
-Techqueria is the largest community of **Latinx in Tech** in the US.
+By becoming a member of Techqueria, you will get access to our:
 
-We provide Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
-
-By becoming a member of Techqueria, you will get:
-
-- Access to our <a href="/communities/slack/" rel="noopener" target="_blank">online Slack community</a> where you can network with thousands of other Latinx in Tech
-- Access to our <a href="https://events.techqueria.org" rel="noopener" target="_blank">dedicated events platform</a> where you can automatically get notified of upcoming local and partner events
-- Access to to our monthly email newsletter where you can get updated on national announcements, job postings and more
-- (Future) Access to our member only portal with a dedicated job board, career resources and partner discounts
+{{< member-benefits >}}
 
 ## Allies
 
-This organization exists as a space for Latinx in tech folks to feel included.
-
-However, if you do not identify as Latinx, you will still receive an invitation to our Slack community as a multi-channel guest with access to `#announcements`, `#meta`, `#jobs` and `#allies` where you are welcome to share resources or job postings.
-
-We are firm in this policy of not allowing allies to get additional access to channels beyond the ones outlined above.
-
-## Aftermath
-
-Anyone who signs up will be automatically subscribed to our mailing list, sent an invite to our Slack community and automatically subscribed to our events platform for virtual webinars with the ability to opt in to local city chapters.
-
-If you don't get an invite to our Slack community within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
-
-As you are waiting for your invite, feel free to read through our [Slack Community Guidelines](/slack/community-guidelines/).
+{{< allies >}}
 
 ## Apply to Become a Member
 
@@ -73,3 +64,8 @@ As you are waiting for your invite, feel free to read through our [Slack Communi
   {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary is-large is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>
+
+<div class="u-text--centered">
+  <img src="/assets/img/join/success.png" alt="Techqueria Hurray" class="mt-2 mb-2 u-box-shadow--none" width="400">
+  <p>You're ready to submit now, hurray!</p>
+</div>

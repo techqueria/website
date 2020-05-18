@@ -4,6 +4,7 @@ description: "Partner with Techqueria as a corporate or community partner."
 hideImage: true
 image: "/assets/img/support-us/corporate-partner/_index.jpg"
 noTimeEstimate: true
+biggerCards: true
 aliases:
   - /become-a-corporate-partner/
   - /corporate-partner/
