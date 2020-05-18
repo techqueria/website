@@ -7,7 +7,7 @@ link: https://zapier.com/?source=techqueria
 noTimeEstimate: true
 toc: true
 categories:
-  - software-sponsor-available
+  - sponsor-software-available
 aliases:
   - /support-us/software-sponsor/zapier/
 ---

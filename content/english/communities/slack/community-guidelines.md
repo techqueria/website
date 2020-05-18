@@ -115,10 +115,6 @@ Your profile photo helps us know who you are in Slack. And if your photo is clea
 
 Please see our brand guidelines for Techqueria on our website. :taco: https://techqueria.org/about/brand/
 
-`add event to community calendar`
-
-:google-calendar: You can check out our community calendar and add your own event using https://techqueria.org/events/#community-calendar
-
 `want to contribute to open source`, `get involved in open source`
 
 Check out Techqueria's website on GitHub! :github: https://github.com/techqueria/website

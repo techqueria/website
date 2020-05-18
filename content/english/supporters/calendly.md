@@ -7,7 +7,7 @@ noTimeEstimate: true
 toc: true
 price: "$360 per year"
 categories:
-  - software-sponsor-available
+  - sponsor-software-available
 aliases:
   - /support-us/software-sponsor/calendly/
 ---

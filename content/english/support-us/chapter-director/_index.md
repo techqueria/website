@@ -5,6 +5,7 @@ hideImage: true
 image: "/assets/img/support-us/chapter-director/_index.jpg"
 noTimeEstimate: true
 toc: true
+biggerCard: false
 aliases:
   - /chapter-director/
   - /join/become-a-chapter-director/

@@ -14,5 +14,5 @@ Si usted es un(a) programador(a), siéntase libre de [abrir un pull request](htt
 
 ## Resumen
 
-- Puede ver videos de eventos anteriores en nuestro [canal de Youtube](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ)
+- Puede ver videos de eventos anteriores en nuestro [canal de Youtube](https://www.youtube.com/c/Techqueria)
 - Puede ver imágenes de eventos anteriores en la [galería de fotos de nuestro grupo de Meetup](https://www.meetup.com/techqueria/photos/)

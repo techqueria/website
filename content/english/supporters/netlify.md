@@ -7,7 +7,7 @@ noTimeEstimate: true
 price: "$336 per year"
 toc: true
 categories:
-  - software-sponsor-available
+  - sponsor-software-available
 aliases:
   - /support-us/software-sponsor/netlify/
 ---
@@ -17,8 +17,6 @@ We currently use Netlify's [Open Source Plan](https://www.netlify.com/legal/open
 We would also like to start getting access to the Netlify Analytics feature which costs $9 a month or $108 a year.
 
 In total, sponsorship for Netlify would be $336 per year.
-
-If you're interested in sponsoring this software for Techqueria in exchange for marketing benefits, feel free to [schedule a partnership call](https://calendly.com/techqueria/hello/?source=website) with us.
 
 ## About Netlify
 

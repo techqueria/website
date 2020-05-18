@@ -36,7 +36,7 @@ Partner engages Planner's services to perform the following duties over the peri
   - Recruit volunteers to help with registration (if applicable)
   - Share the attendee list with the Partner which includes name, job function, current organization and LinkedIn URL
   - Source up to **4** speakers and 1 moderator through the Techqueria community
-  - **(Diamond & Titanium Tier)** Upload a video recording of the event onto [Planner's YouTube Channel](https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ) within 1 month after event
+  - **(Diamond & Titanium Tier)** Upload a video recording of the event onto [Planner's YouTube Channel](https://www.youtube.com/c/Techqueria) within 1 month after event
   - **(Diamond & Titanium Tier)** Write 1 blog post recap of the vent within 1 month after event
 - Per Month
   - **4** job postings shared on Planner's monthly email newsletter

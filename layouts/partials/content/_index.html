@@ -16,10 +16,10 @@
   {{ partial "content/content.html" . }}
   <!-- Learn more link -->
   {{ if .Params.link }}
-  <p>Learn more at <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.link }}</a></p>
+  <a class="button is-outlined is-primary is-large" href="{{ .Params.link }}" target="_blank" rel="noopener">Learn more ↗️</a>
   {{ end }}
   {{ if .Params.photos }}
-  <p>Find photos at <a href="{{ .Params.photos }}" target="_blank" rel="noopener">{{ .Params.photos }}</a></p>
+  <a class="button is-outlined is-primary is-large" href="{{ .Params.photos }}" target="_blank" rel="noopener">View photos 📸</a>
   {{ end }}
 </div>
 <!-- Author - articles written -->

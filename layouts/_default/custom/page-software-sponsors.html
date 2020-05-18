@@ -11,7 +11,7 @@
     <!-- Children -->
     <div class="columns is-multiline">
       <!-- Software Sponsors -->
-      {{ range (index .Site.Taxonomies.categories "software-sponsor").Pages.ByTitle }}
+      {{ range (index .Site.Taxonomies.categories "sponsor-software").Pages.ByTitle }}
       {{ partial "content/child.html" . }}
       {{ end }}
       <!-- Available Software Sponsorships -->

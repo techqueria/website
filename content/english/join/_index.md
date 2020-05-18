@@ -56,16 +56,16 @@ As you are waiting for your invite, feel free to read through our [Slack Communi
   {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
   {{< fields/email help="When signing up, please use a personal email address to avoid being locked out if you lose access to your work or school email. Make sure to check for typos in your email as this is usually the main reason someone doesn't receive an invite." >}}
   {{< fields/linkedin >}}
+  {{< fields/latinx help="You will get an invite either way but our community primarily serves Latinx in Tech." >}}
+  {{< fields/tech >}}
   {{< fields/location >}}
   {{< fields/organization label="Where do you currently work or study?" >}}
-  {{< fields/title label="What is your current role?" help="e.g. Software Engineer, Recruiter, Product Designer, Student, etc." >}}
+  {{< fields/title label="What is your current role?" help="e.g. Software Engineer, UX Designer, Product Manager, Student, etc." >}}
   {{< fields/yoe >}}
   {{< fields/job_category >}}
   {{< fields/pronouns >}}
   {{< fields/age >}}
-  {{< fields/latinx help="You will get an invite either way but our community primarily serves Latinx in Tech." >}}
-  {{< fields/tech >}}
-  {{< fields/message label="Why are you interested in joining Techqueria?" help="Just a brief 1 to 2 sentence blurb on why you want to join our Latinx in Tech community." placeholder="Add your blurb here" name="why_techqueria" required="true" >}}
+  {{< fields/message label="Why are you interested in joining Techqueria?" placeholder="A brief 1 to 2 sentence blurb on why you want to join this community" name="why_techqueria" required="true" >}}
   {{< fields/looking_for >}}
   {{< fields/referral >}}
   {{< fields/slack_community_guidelines >}}

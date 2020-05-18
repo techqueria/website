@@ -58,7 +58,7 @@ To create more Latinx leaders in the tech industry which in turn will lead to a 
 
 1. Network & collaborate with other Latinx in Tech
 2. Share resources/advice/job opportunities
-3. Engage with Techqueria by becoming a corporate or community partner
+3. Engage with Techqueria by becoming a partner
 
 Other things members do...
 

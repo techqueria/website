@@ -192,7 +192,7 @@ disqusShortname                      = "techqueria"
 [[menu.main]]
     parent                           = "Communities"
     name                             = "YouTube Channel"
-    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+    url                              = "https://www.youtube.com/c/Techqueria"
 
 # Donate
 [[menu.main]]
@@ -247,16 +247,8 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/chapter-director/"
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a Community Partner"
-    url                              = "/support-us/community-partner/"
-[[menu.main]]
-    parent                           = "Support Us"
-    name                             = "Become a Corporate Partner"
-    url                              = "/support-us/corporate-partner/"
-[[menu.main]]
-    parent                           = "Support Us"
-    name                             = "Become a Software Sponsor"
-    url                              = "/support-us/software-sponsor/"
+    name                             = "Become a Partner"
+    url                              = "/support-us/partner/"
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Become a Speaker"
@@ -367,7 +359,7 @@ disqusShortname                      = "techqueria"
 [[languages.es.menu.main]]
     parent                           = "Comunidades"
     name                             = "Canal de YouTube"
-    url                              = "https://www.youtube.com/channel/UCUhXR0BOgyqrS1E_Sr4PVjQ"
+    url                              = "https://www.youtube.com/c/Techqueria"
 
 # Donate
 [[languages.es.menu.main]]
