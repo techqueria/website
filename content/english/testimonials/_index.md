@@ -17,7 +17,7 @@ aliases:
 
 ## Submit a Testimonial
 
-<form name="Testimonial" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--max-width-unset form--centered no-ids">
+<form name="Testimonial" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/testimonial/" class="form--max-width-unset form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Testimonial Submission">
   <div class="columns mb-0">
     <div class="column pb-0">
