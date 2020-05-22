@@ -12,12 +12,6 @@ aliases:
 
 You've successfully completed the member sign up form for Techqueria! 📝
 
-## Member Benefits
-
-- Access to our online Slack community where you can network with thousands of other Latinx in Tech
-- Access to our dedicated events platform where you can automatically get notified of upcoming local and partner events
-- Access to to our monthly email newsletter where you can get updated on national announcements, job postings and more
-
 ## What happens now?
 
 You will be automatically subscribed to our mailing list, sent an invite to our Slack community and also automatically subscribed to our events platform for virtual webinars with the ability to opt in to local city chapters.
