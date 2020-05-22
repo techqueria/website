@@ -20,6 +20,8 @@
   {{ $partialChild := "content/child.html" }}
   {{ if .Params.biggerCards }}
     {{ $partialChild = "content/child-bigger.html" }}
+  {{ else if .Params.smallerCards }}
+    {{ $partialChild = "content/child-smaller.html" }}
   {{ end }}
   <!-- Looping -->
   <!-- Sorting Option: Latest Posts First -->

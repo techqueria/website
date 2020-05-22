@@ -128,7 +128,7 @@
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-champion") }}
-  {{ partial "content/child.html" . }}
+  {{ partial "content/child-smaller.html" . }}
   {{ end }}
 </section>
 {{ end }}
@@ -139,7 +139,7 @@
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-patron") }}
-  {{ partial "content/child.html" . }}
+  {{ partial "content/child-smaller.html" . }}
   {{ end }}
 </section>
 {{ end }}
@@ -150,7 +150,7 @@
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-core") }}
-  {{ partial "content/child.html" . }}
+  {{ partial "content/child-smaller.html" . }}
   {{ end }}
 </section>
 {{ end }}

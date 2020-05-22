@@ -61,7 +61,7 @@ By becoming a member of Techqueria, you will get access to our:
   {{< fields/referral >}}
   {{< fields/slack_community_guidelines >}}
   {{< fields/coc >}}
-  {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary is-large is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>
 

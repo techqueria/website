@@ -13,8 +13,8 @@ https://deploy-preview-55--techqueria.netlify.com/* https://techqueria.org/:spla
 https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:splat 301!
 
 # Redirect events page
-# https://techqueria.org/events/ https://events.techqueria.org
-# http://techqueria.org/events/ https://events.techqueria.org
+https://techqueria.org/events/ https://events.techqueria.org 301!
+http://techqueria.org/events/ https://events.techqueria.org 301!
 
 # Redirect chapters page
 https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapters 301!

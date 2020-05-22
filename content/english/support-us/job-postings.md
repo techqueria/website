@@ -1,10 +1,11 @@
 ---
-title: "Job Postings"
-description: "Share your job posting with thousands of Latinx in Tech. 📣"
+title: "Share Job Opportunities"
+description: "Share your job opportunities with thousands of Latinx in Tech through our email newsletter, social media platforms or Slack community. 💼"
 image: "/assets/img/support-us/corporate-partner/marketing-packages.jpg"
 hideImage: true
 noTimeEstimate: true
 toc: true
+weight: 1
 aliases:
   - /job-postings/
   - /marketing-packages/
@@ -35,29 +36,37 @@ Share your call to action with thousands of Latinx in Tech.
 
 Support our members’ growth with opportunities to level up in their career by engaging directly with thousands of Latinx in Tech.
 
-- Share your job posting in the member email newsletter sent the last week of every month
+- Share your job posting in the member email newsletter
+- Sent the last week of every month
 - 9,500+ subscribers
 
 ### Social Media
 
 Sharing your company with Techqueria's social media networks is a great way of reaching the Latinx in Tech community.
 
-- Share your job posting across Techqueria's Twitter, LinkedIn, Facebook Page, Facebook Group and Instagram profiles
-- 15,000+ user reach across all platforms
+- Share your job posting across multiple of Techqueria's social media platforms
+  - Twitter https://twitter.com/techqueria
+  - LinkedIn https://linkedin.com/company/techqueria
+  - Facebook Group https://facebook.com/groups/techqueria
+  - Instagram https://instagram.com/techqueriaorg
+  - Facebook Page https://facebook.com/techqueria
+- 10,000+ user reach across all platforms
 
 ### Slack
 
 Reach thousands of Latinx professionals in tech by purchasing a paid mention through our online Slack community.
 
-- Share your job posting in our thriving Slack Community with an `@here` mention in the #jobs channel
-  - @here notifies only the active members of a channel
-  - @channel notifies all members of a channel, active or not
-  - @everyone notifies every person in the #general channel
-- 6,000+ members, 2,000+ weekly active members, 1,000+ daily active members
+- Share your job posting in our thriving Slack Community with an `@here` mention in the `#jobs` channel
+  - `@here` notifies only the active members of a channel
+  - `@channel` notifies all members of a channel, active or not
+  - `@everyone` notifies every person in the `#general` channel
+- 6,000+ members
+- 2,000+ weekly active members
+- 1,000+ daily active members
 
 ## Cost
 
-Due to COVID-19, we are only charging $100 now for every job posting shared, regardless of platform.
+Due to COVID-19, we are currently only charging $100 for every job posting shared, regardless of platform.
 
 Pricing will revert back to $200 starting in September.
 
@@ -73,10 +82,10 @@ We've created **[a detailed document](https://docs.google.com/document/d/1aZZA7U
 
 ## Disclaimers
 
-- We post 1 CTA across all 6 of our major social media platforms so we don't post the CTA multiple times throughout the month, just once if you purchased the 1 call to action per month package.
-- We have corporate partnerships where we offer both event + marketing packages. In those types of partnerships, companies where they are responsible for providing us specific job postings if they want to promote those, otherwise we default to the general careers link.
-- We haven't researched whether there is a huge difference in clicks between posting a generic career link or a specific job posting but we prefer to promote specific job postings.
-- The job section in email newsletter is also dependent on if the companies provide us specific job postings and affects the format.
-- We do not allow for refunds so please be sure of your purchase.
-- **Techqueria has a [strict policy](/about/no-tech-for-ice/) in place to not partner with companies that have an active contract with ICE.**
-- Numbers last updated May 2020
+Our turnaround time is no more than 1 week after submission but we usually reach back out within 48 business hours.
+
+We do not allow for refunds so please be sure of your purchase.
+
+**Techqueria has a [strict policy](/about/no-tech-for-ice/) in place to not partner with companies that have an active contract with ICE.**
+
+The numbers were last updated May 2020.
