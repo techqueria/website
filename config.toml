@@ -243,24 +243,49 @@ disqusShortname                      = "techqueria"
     url                              = "/support-us/"
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a Chapter Director"
-    url                              = "/support-us/chapter-director/"
+    name                             = "Share Job Opportunities"
+    url                              = "/support-us/job-postings/"
+    weight = 1
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a Partner"
-    url                              = "/support-us/partner/"
+    name                             = "Host an Event"
+    url                              = "/support-us/corporate-events/"
+    weight = 2
 [[menu.main]]
     parent                           = "Support Us"
-    name                             = "Become a Speaker"
-    url                              = "/support-us/speak/"
+    name                             = "Sponsor our Software"
+    url                              = "/support-us/software-sponsor/"
+    weight = 3
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Explore Custom Partnerships"
+    url                              = "/support-us/custom-partnerships/"
+    weight = 4
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Become a Volunteer"
     url                              = "/support-us/volunteer/"
+    weight = 5
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Become a Speaker"
+    url                              = "/support-us/speak/"
+    weight = 6
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Become a Chapter Director"
+    url                              = "/support-us/chapter-director/"
+    weight = 7
+[[menu.main]]
+    parent                           = "Support Us"
+    name                             = "Become a Community Partner"
+    url                              = "/support-us/community-partner/"
+    weight = 8
 [[menu.main]]
     parent                           = "Support Us"
     name                             = "Our Supporters"
     url                              = "/supporters/"
+    weight = 9
 
 # Social Menu
 [[menu.social]]

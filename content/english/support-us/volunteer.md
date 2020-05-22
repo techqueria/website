@@ -5,6 +5,7 @@ image: "/assets/img/support-us/volunteer.jpg"
 toc: true
 noTimeEstimate: true
 hideImage: true
+weight: 5
 aliases:
   - /become-a-volunteer/
   - /support-us/volunteer/

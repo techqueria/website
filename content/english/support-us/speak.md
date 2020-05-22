@@ -1,9 +1,10 @@
 ---
 title: "Become a Speaker"
-description: "If you are interested in supporting Techqueria as an individual, one great way to help out is by becoming a speaker."
+description: "If you are interested in supporting Techqueria as an individual, one great way to help out is by becoming a speaker. 💬"
 image: "/assets/img/support-us/speak.jpg"
 noTimeEstimate: true
 hideImage: true
+weight: 6
 aliases:
   - /become-a-speaker/
   - /speak/

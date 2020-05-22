@@ -1,16 +1,30 @@
 ---
 title: "Become a Chapter Director"
-description: "Learn what it takes to be a Chapter Director for Techqueria and apply to become one."
+description: "Learn what it takes to be a Chapter Director for Techqueria and apply to become one. 🌱️"
 hideImage: true
 image: "/assets/img/support-us/chapter-director/_index.jpg"
 noTimeEstimate: true
 toc: true
+weight: 7
 aliases:
+  - /chapter-director-application/
   - /chapter-director/
+  - /chapters/submit-expense/
+  - /donate/open-collective/
   - /join/become-a-chapter-director/
   - /new-chapter-director/
+  - /open-collective/
+  - /reimbursement-guidelines/
+  - /reimbursement-policy/
   - /start-a-chapter/
+  - /submit-expenses/
   - /support-us/chapter-director/
+  - /support-us/chapter-director/application/
+  - /support-us/chapter-director/chapter-director-application/
+  - /support-us/chapter-director/open-collective/
+  - /support-us/chapter-director/reimbursement-policy/
+  - /chapter-tiers/
+  - /support-us/chapter-director/chapter-tiers/
 ---
 
 ## What does it take to run a Techqueria Chapter?
@@ -31,7 +45,7 @@ You can find more details on our mission [on our about page](/about/).
 - focused on both technical and non-technical content
 - open to all and free to those who are interested in attending
 
-### Qualifications
+## Qualifications
 
 - a member of Techqueria for at least 6 months in good standing
   - if you're not a member, you can request an invite [on our Join page](/join/)
@@ -59,7 +73,15 @@ You can find more details on our mission [on our about page](/about/).
 - prepare and manage chapter budget
 - provide internal team a weekly standup
 
-### Example Tasks
+## Minimum Requirements
+
+Progress will be tracked in quarterly check-ins. If you're not meeting minimum requirements after 6 months, you will be warned and then removed.
+
+- help plan at least 4 events per year
+- attend monthly chapter director meetings
+- attend 1:1 quarterly meetings
+
+## Example Tasks
 
 - contribute to documentation in Google Docs
 - create marketing assets in [Canva](https://canva.com)
@@ -97,7 +119,11 @@ We want to set up you for success so we offer financial support for creating eve
 - You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
 - See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
 
-## Current Active Chapters
+## Chapters
+
+### Current Active Chapters
+
+> Chapters that have held at least 1 formal event in the past 6 months
 
 1. Atlanta, GA
 2. Austin, TX
@@ -107,8 +133,18 @@ We want to set up you for success so we offer financial support for creating eve
 6. San Francisco Bay Area, CA
 7. Washington, D.C.
 8. Virtual Webinars (Global)
+9. Miami, FL
 
-## Potential Chapters
+### Incubator Chapters
+
+Chapters that have brand new leads and are planning towards their launch.
+
+- Boston, MA
+- Orange County, CA
+- Portland, OR
+- Salt Lake City, UT
+
+### Target Chapters
 
 We are interested in growing in the following cities and will prioritize applications accordingly.
 
@@ -118,12 +154,7 @@ We are interested in growing in the following cities and will prioritize applica
 - Denver, CO
 - Houston, TX
 - Mexico City, MX
-- Miami, FL
-- Orange County, CA
-- Philadelphia, PA
 - Phoenix, AZ
-- Portland, OR
-- Salt Lake City, UT
 - Seattle, WA
 - Tucson, AZ
 
@@ -136,3 +167,9 @@ We will then set up a 30-minute call for a short interview to expand on these qu
 Finally, we will be onboard you with a 45-minute call to go through all the basics of running your first event and setting you up with all the relevant tooling.
 
 Please account for holiday breaks when appropriate for getting back to you.
+
+> **Due to COVID-19, we are not accepting applications for new Chapter Directors as of April 23, 2020.**
+>
+> **The form will re-open in 2021.**
+
+<!-- /layouts/shortcodes/chapter-director-application.html -->
