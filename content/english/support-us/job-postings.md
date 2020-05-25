@@ -66,9 +66,9 @@ Reach thousands of Latinx professionals in tech by purchasing a paid mention thr
 
 ## Cost
 
-Due to COVID-19, we are currently only charging $100 for every job posting shared, regardless of platform.
+It costs $100 for each job posting shared per platform, regardless of platform.
 
-Pricing will revert back to $200 starting in September.
+For example, it would cost $300 to share a job posting on all 3 platforms — social media, the email newsletter and the Slack community.
 
 ## Process
 
