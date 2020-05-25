@@ -12,8 +12,7 @@
     "start:preview": "gulp server-preview",
     "start:prod": "gulp server-prod",
     "start": "gulp server",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "snyk-protect": "snyk protect"
   },
   "author": "Frances Coronel",
   "license": "MIT",

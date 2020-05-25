@@ -12,6 +12,7 @@ aliases:
   - /support-us/corporate-partner/custom-packages/
   - /support-us/custom-packages/
   - /support-us/packages/custom/
+  - /support-us/partner/custom-partnerships/
 ---
 
 ## Events
