@@ -25,7 +25,7 @@ aliases:
 
 ### Event Add-Ons
 
-- $300 for video recording (not needed for webinars)
+- $300 for video recording (in-person events)
 - $200 for blog post recap of event published on company blog or Techqueria's blog (at least 250 words)
 
 ## Digital Marketing
