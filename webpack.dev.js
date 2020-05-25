@@ -14,12 +14,11 @@ module.exports = {
   },
   context: path.join(__dirname, "assets"),
   entry: {
-    app: ["./js/app"],
-    join: ["./js/join"],
+    app: ["./assets/js/app"],
+    join: ["./assets/js/join"],
   },
   output: {
     path: path.join(__dirname, "dist/assets/js"),
-    publicPath: "/dist/assets/js/",
     filename: "[name].js"
   }
 };
