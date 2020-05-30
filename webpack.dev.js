@@ -18,8 +18,7 @@ module.exports = {
     join: ["./js/join"],
   },
   output: {
-    path: path.join(__dirname, "dist/assets/js"),
-    publicPath: "/dist/assets/js/",
-    filename: "[name].js"
+    filename: path.join("assets", "js", "[name].js"),
+    path: path.join(__dirname, "dist")
   }
 };
