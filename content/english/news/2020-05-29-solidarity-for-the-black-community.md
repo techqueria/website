@@ -2,6 +2,7 @@
 title: "Techqueria Stands in Solidarity with the Black Community"
 date: 2020-05-29
 image: "/assets/img/news/2020-05-29.jpg"
+noComments: true
 description: "We are in difficult times right now. The murders of George Floyd, Breonna Taylor, and Tony McDade at the hands of police, the murder of Ahmaud Arbery and the racial attacks against Christian Cooper and Omar Jimenez are simultaneously a tipping point and a continuation of the state violence that the Black community has endured for centuries. "
 ---
 

@@ -2,7 +2,7 @@
 backend:
   name: git-gateway
   repo: techqueria/website
-  branch: production
+  branch: master
 
 # Publish Mode
 publish_mode: editorial_workflow
