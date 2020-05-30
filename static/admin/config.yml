@@ -1,0 +1,35 @@
+# Backend
+backend:
+  name: git-gateway
+  repo: techqueria/website
+  branch: production
+
+# Publish Mode
+publish_mode: editorial_workflow
+
+# Folder where user uploaded files should go
+# Media files will be stored in the repo under static/files
+media_folder: "assets"
+
+# The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/assets/img"
+
+# The site_url setting should provide a URL to your published site. May be used by the CMS for various functionality. Used together with a collection's preview_path to create links to live content.
+site_url: https://techqueria.org
+
+# A list of collections the CMS should be able to edit
+collections:
+  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Article" # Used in the UI, ie.: "New Post"
+    folder: "content/english/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    preview_path: "news/{{year}}/{{month}}/{{day}}/{{slug}}"
+    slug: "news/{{year}}/{{month}}/{{day}}/{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "text", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Aliases", name: "aliases", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown", hint: "Main content goes here"}

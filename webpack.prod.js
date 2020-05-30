@@ -67,8 +67,8 @@ module.exports = {
     })
   ],
   entry: {
-    app: ["./assets/js/app"],
-    join: ["./assets/js/join"]
+    app: ["./js/app"],
+    join: ["./js/join"]
   },
   output: {
     filename: path.join("assets", "js", "[name].js"),

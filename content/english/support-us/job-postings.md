@@ -18,6 +18,7 @@ aliases:
   - /support-us/corporate-partner/marketing-packages/social-media/
   - /support-us/partner/job-postings/
   - /support-us/partner/marketing-packages/
+  - /support-us/marketing-packages/
 ---
 
 ## Purchase a Marketing Package for Job Postings
