@@ -51,24 +51,12 @@ module.exports = {
     new webpack.optimize.AggressiveMergingPlugin(),
     new BrotliPlugin(),
     new CompressionPlugin(),
-    new WorkboxPlugin.GenerateSW({
-      cacheId: "techqueria",
-      swDest: "sw.js",
-      globDirectory: "./dist",
-      globPatterns: [
-        "index.html",
-        "404.html",
-        "**/*.{js,css,png,svg,jpg,jpeg,icon,json}"
-      ],
-      offlineGoogleAnalytics: true,
-      clientsClaim: true,
-      skipWaiting: true,
-      context: path.join(__dirname, "assets")
-    })
+    new WorkboxPlugin.GenerateSW()
   ],
+  context: path.join(__dirname, "assets"),
   entry: {
-    app: ["./assets/js/app"],
-    join: ["./assets/js/join"]
+    app: ["./js/app"],
+    join: ["./js/join"]
   },
   output: {
     filename: path.join("assets", "js", "[name].js"),
