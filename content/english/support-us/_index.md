@@ -18,3 +18,7 @@ aliases:
 ---
 
 There are many ways to support Techqueria in our mission to provide Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
+
+## Partnerships Deck 2020
+
+{{< deck >}}
