@@ -1,11 +1,10 @@
 <div class="content mt-2">
-  <h2><span class="mr-sm">💛</span>{{ i18n "footer_donate" }}</h2>
-  <p>{{ i18n "footer_donate_copy" }}</p>
-  <!-- Patreon -->
-  <!-- <a href="https://www.patreon.com/join/techqueria/?source=techqueria" rel="noopener" target="_blank"><img alt="Patreon" src="/assets/img/_svg/donate/patreon.svg" style="height:4em;"></a> -->
-  <!-- Open Collective -->
-  <!-- <a href="https://opencollective.com/techqueria/contribute" rel="noopener" target="_blank"><img alt="Open Collective" src="/assets/img/_svg/donate/open-collective.svg" style="height: 3em;"></a> -->
-  <!-- Donorbox -->
-  <!-- <a href="/donate/" rel="noopener"><img alt="Donorbox" src="/assets/img/_svg/donate/donorbox.svg" style="height:4em;"></a> -->
+  {{ if eq .Site.Language.Lang "es" }}
+    <h2><span class="mr-sm">💛</span><a href="/donate/" rel="noopener">Dona</a> a Techqueria</h2>
+    <p>También existe la opción de convertirse en un patrocinador activo a través de Patreon o Open Collective.</p>
+  {{ else }}
+    <h2><span class="mr-sm">💛</span><a href="/donate/" rel="noopener">Donate</a> to Techqueria</h2>
+    <p>Support Techqueria's efforts by becoming an on-going patron or making a one-time donation.</p>
+  {{ end }}
   {{ partial "content/custom/donate.html" . }}
 </div>

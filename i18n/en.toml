@@ -61,9 +61,6 @@ other = "Feel free to book a partnership call and we can talk more about the dif
 [interested_sponsor_button]
 other = "Book a partnership call"
 
-[footer_donate_copy]
-other = "Support Techqueria's efforts by becoming an on-going patron or making a one-time donation."
-
 [subscribe]
 other = "Subscribe"
 
@@ -170,11 +167,6 @@ other = "To that end, we work with both tech companies and employee resource gro
 
 [footer_about_three]
 other = "Coming from all walks of life, we believe that the diversity of our community is the most reliable asset we have. Our space aims to be inclusive so we invite Latinx from the regions of the Caribbean, Haiti, and Brazil as well as those who identify as Afro-Latinx, Asian-Latinx or LGBTQIA. The term Latinx is used instead of Latino or Latina because it is a gender-neutral and inclusive term."
-
-# donate.html
-
-[footer_donate]
-other = "Donate to Techqueria"
 
 # share.html
 

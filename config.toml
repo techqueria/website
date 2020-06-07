@@ -113,6 +113,10 @@ disqusShortname                      = "techqueria"
     url                              = "/brand/"
 [[menu.main]]
     parent                           = "About"
+    name                             = "Career Center"
+    url                              = "https://techqueria.careerwebsite.com"
+[[menu.main]]
+    parent                           = "About"
     name                             = "Code of Conduct"
     url                              = "/code-of-conduct/"
 [[menu.main]]

@@ -62,9 +62,6 @@ other = "Puedes contactarnos y podemos conversar sobre las múltiples maneras en
 [interested_sponsor_button]
 other = "Contáctenos"
 
-[footer_donate_copy]
-other = "También existe la opción de convertirse en un patrocinador activo a través de Patreon o Open Collective."
-
 [subscribe]
 other = "Suscríbase"
 
@@ -173,11 +170,6 @@ other = "Con ese fin, trabajamos tanto con empresas tecnológicas como con grupo
 
 [footer_about_three]
 other = "Viniendo de todos los ámbitos de la vida, creemos que la diversidad de nuestra comunidad es el activo más confiable que tenemos. Nuestro espacio tiene como objetivo ser inclusivo, por lo que invitamos a Latinx de las regiones del Caribe, Haití y Brasil, así como a aquellos que se identifican como Afro-Latinx, Asian-Latinx o LGBTQIA. El término Latinx se usa en lugar de Latino o Latina porque es un término inclusivo y de género neutral."
-
-# donate.html
-
-[footer_donate]
-other = "Dona a Techqueria"
 
 # share.html
 
