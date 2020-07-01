@@ -42,7 +42,7 @@
     "gulp-sourcemaps": "2.6.5",
     "hugo-bin": "0.59.0",
     "lozad": "1.15.0",
-    "netlify-cli": "2.52.0",
+    "netlify-cli": "2.57.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "4.0.0",
     "snyk": "1.334.0",
