@@ -48,7 +48,7 @@ In the interest of fostering an open and welcoming environment, we pledge to mak
 - Not being respectful to reasonable communication boundaries, such as 'leave me alone,' 'go away,' or 'I’m not discussing this with you.'
 - Offensive comments related to a person's identity
 - Other conduct which you know could reasonably be considered inappropriate in a professional setting
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
+- Publishing and monetizing off of others' private information, such as a physical or electronic address, or messages on public/private channels without explicit permission
 - Spamming the group and excessive self-promotion
 - Sustained disruption of event programming
 - The usage of sexualised language or imagery and unwelcome sexual attention or advances
