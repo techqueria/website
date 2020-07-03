@@ -46,7 +46,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 #### Maintainers
 
 - [Frances Coronel](https://github.com/fvcproductions)
-- [Phillip Ventura](https://github.com/fvntr)
+- [Felipe Ventura](https://github.com/fvntr)
 
 #### Contributors
 
