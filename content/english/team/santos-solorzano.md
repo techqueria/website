@@ -4,5 +4,5 @@ image: "/assets/img/team/santos-solorzano.jpeg"
 description: "Slack Community Lead"
 linkedin: https://www.linkedin.com/in/santosjs/
 categories:
-  - current-volunteer-lead
+  - slack-community-lead
 ---

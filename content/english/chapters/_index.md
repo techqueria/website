@@ -5,6 +5,7 @@ identifier: fas fa-map-marker-alt
 hideImage: true
 image: "/assets/img/communities/chapters/_index.jpg"
 link: https://events.techqueria.org/chapters/
+url: /chapters/
 aliases:
   - /communities/chapters/
   - /chapters/

@@ -8,7 +8,7 @@ aliases:
   - /success/signup/
 ---
 
-<img src="/assets/img/join/tacos.gif" alt="Techqueria Tacitos" class="mt-2 mb-2">
+<img src="/assets/img/join/tacos.gif" data-src="/assets/img/join/tacos.gif" alt="Techqueria Tacitos" class="mt-2 mb-2 lozad">
 
 You've successfully completed the member sign up form for Techqueria! 📝
 

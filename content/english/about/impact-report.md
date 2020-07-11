@@ -30,7 +30,7 @@ aliases:
 
 PDE (Product, Design, Engineering) = 42.6%
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/job-function.png" alt="Job Function (February 28, 2020)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/job-function.png" src="/assets/img/about/impact-report/member-stats/job-function.png" alt="Job Function (February 28, 2020)">
 
 ### Years of Experience (February 28, 2020)
 
@@ -38,25 +38,25 @@ PDE (Product, Design, Engineering) = 42.6%
 
 Average YOE (Years of Experience) = 4 years
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/yoe.png" alt="Years of Experience (February 28, 2020)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/yoe.png" src="/assets/img/about/impact-report/member-stats/yoe.png" alt="Years of Experience (February 28, 2020)">
 
 ### Age Range (February 28, 2020)
 
 1,223 member sample from 2019 and 2020
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/age-range.png" alt="Age Range (February 28, 2020)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/age-range.png" src="/assets/img/about/impact-report/member-stats/age-range.png" alt="Age Range (February 28, 2020)">
 
 ### Identify as Latinx (February 28, 2020)
 
 1,223 member sample from 2019 and 2020
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/identify-as-latinx.png" alt="Identify as Latinx (February 28, 2020)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/identify-as-latinx.png" src="/assets/img/about/impact-report/member-stats/identify-as-latinx.png" alt="Identify as Latinx (February 28, 2020)">
 
 ### Referral (February 28, 2020)
 
 1,223 member sample from 2019 and 2020
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/referral.png" alt="Referral (February 28, 2020)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/referral.png" src="/assets/img/about/impact-report/member-stats/referral.png" alt="Referral (February 28, 2020)">
 
 ### Slack (February 20, 2020)
 
@@ -180,7 +180,7 @@ The average amount of experience for our members based on that survey was 5 year
 
 The majority of members sampled identified as mid-career software engineers.
 
-<img class="mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/2018.png" alt="Member Stats (2018)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/2018.png" alt="Member Stats (2018)">" src="/assets/img/about/impact-report/member-stats/2018.png" alt="Member Stats (2018)">
 
 ## 2015
 

@@ -48,10 +48,12 @@ Sharing your company with Techqueria's social media networks is a great way of r
 - Share your job posting across multiple of Techqueria's social media platforms
   - Twitter https://twitter.com/techqueria
   - LinkedIn https://linkedin.com/company/techqueria
-  - Facebook Group https://facebook.com/groups/techqueria
   - Instagram https://instagram.com/techqueriaorg
+  - Facebook Group https://facebook.com/groups/techqueria
   - Facebook Page https://facebook.com/techqueria
-- 10,000+ user reach across all platforms
+- 14,000+ user reach across all platforms*
+
+*Last updated July 2020
 
 ### Slack
 
@@ -61,15 +63,15 @@ Reach thousands of Latinx professionals in tech by purchasing a paid mention thr
   - `@here` notifies only the active members of a channel
   - `@channel` notifies all members of a channel, active or not
   - `@everyone` notifies every person in the `#general` channel
-- 6,000+ members
-- 2,000+ weekly active members
-- 1,000+ daily active members
+- 6,000+ members*
+- 2,000+ weekly active members*
+- 1,000+ daily active members*
+
+*Last updated May 2020
 
 ## Cost
 
-It costs $100 for each job posting shared per platform, regardless of platform.
-
-For example, it would cost $300 to share a job posting on all 3 platforms — social media, the email newsletter and the Slack community.
+Please see the latest costs in the form.
 
 ## Process
 
@@ -83,10 +85,8 @@ We've created **[a detailed document](https://docs.google.com/document/d/1aZZA7U
 
 ## Disclaimers
 
-Our turnaround time is no more than 1 week after submission but we usually reach back out within 48 business hours.
+Our turnaround time is no more than 2 weeks after submission but we usually reach back out within 5 business days.
 
 We do not allow for refunds so please be sure of your purchase.
 
 **Techqueria has a [strict policy](/about/no-tech-for-ice/) in place to not partner with companies that have an active contract with ICE.**
-
-The numbers were last updated May 2020.
