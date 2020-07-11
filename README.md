@@ -2,7 +2,7 @@
 
 <p align="center">
   <span>English</span> |
-  <a href="https://github.com/techqueria/website/blob/master/README-Es_Mx.md#techqueriaorg">Español</a>
+  <a href="https://github.com/techqueria/website/blob/master/README.es.md#techqueriaorg">Español</a>
 </p>
 
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg)](http://badges.mit-license.org)
@@ -46,7 +46,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 #### Maintainers
 
 - [Frances Coronel](https://github.com/fvcproductions)
-- [Phillip Ventura](https://github.com/fvntr)
+- [Felipe Ventura](https://github.com/fvntr)
 
 #### Contributors
 

@@ -26,14 +26,14 @@ In the interest of fostering an open and welcoming environment, we pledge to mak
 
 ## The Standards
 
-### Examples of behaviour that contributes to creating a positive environment include:
+### Examples of behavior that contributes to creating a positive environment include:
 
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
 - Gracefully accepting constructive criticism
 - Referring to people by their preferred pronouns and using gender-neutral pronouns when uncertain
 
-### Examples of unacceptable behaviour by participants include:
+### Examples of unacceptable behavior by participants include:
 
 - Any action that results in complaints from our community
 - Assuming or promoting any kind of inequality including but not limited to: age, body size, disability, ethnicity, gender identity and expression, nationality and race, personal appearance, religion, or sexual identity and orientation
@@ -48,7 +48,7 @@ In the interest of fostering an open and welcoming environment, we pledge to mak
 - Not being respectful to reasonable communication boundaries, such as 'leave me alone,' 'go away,' or 'I’m not discussing this with you.'
 - Offensive comments related to a person's identity
 - Other conduct which you know could reasonably be considered inappropriate in a professional setting
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
+- Publishing and monetizing off of others' private information, such as a physical or electronic address, or messages on public/private channels without explicit permission
 - Spamming the group and excessive self-promotion
 - Sustained disruption of event programming
 - The usage of sexualised language or imagery and unwelcome sexual attention or advances
@@ -90,7 +90,7 @@ All reports will be reviewed and investigated and will result in a response that
 
 Further details of specific enforcement policies may be posted separately.
 
-We hold the right and responsibility to remove comments or other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any members for other behaviours that they deem inappropriate, threatening, offensive, or harmful.
+We hold the right and responsibility to remove comments or other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any members for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 Respect is essential for everybody so if you feel uncomfortable, or suspect of someone's behavior, approach one of the organizers and staff members, we will handle it with confidentiality and care.
 
