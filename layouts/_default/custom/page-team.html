@@ -53,7 +53,7 @@
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "board-advisory-member").Pages.ByTitle }}
-      {{ partial "content/child-bigger.html" . }}
+      {{ partial "content/child.html" . }}
       {{ end }}
     </div>
     <!-- Content Footer -->

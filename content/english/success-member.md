@@ -3,7 +3,6 @@ title: "Member Sign Up Successful"
 description: "We're excited for you to join the Techqueria community! 🎉"
 url: /success/member/
 aliases:
-  - /success/email/
   - /success/slack/
   - /success/signup/
 ---

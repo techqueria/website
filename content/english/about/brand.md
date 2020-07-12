@@ -128,22 +128,15 @@ You can view all our design assets using [this Figma link](https://www.figma.com
 
 ### Transparent
 
-<a href="/assets/img/_logos/logo-square.png" download>
-  <img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-square.png" data-src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250">
-</a>
+<a href="/assets/img/_logos/logo-square.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-square.png" data-src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
 <br>
-<a href="/assets/img/_logos/logo-rectangle.png" download>
-  <img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-rectangle.png" data-src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500">
-</a>
+<br>
+<a href="/assets/img/_logos/logo-rectangle.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-rectangle.png" data-src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
 
 ### Background
 
-<a href="/assets/img/_logos/logo-square-color.png" download>
-  <img src="/assets/img/_logos/logo-square-color.png" alt="Logo - Square - Color" data-src="/assets/img/_logos/logo-square-color.png" class="lozad" width="250">
-</a>
-<a href="/assets/img/_logos/logo-square-no-text.png" download>
-  <img src="/assets/img/_logos/logo-square-no-text.png" alt="Logo - Square - No Text" data-src="/assets/img/_logos/logo-square-no-text.png" class="lozad" width="250">
-</a>
+<a href="/assets/img/_logos/logo-square-color.png" download><img src="/assets/img/_logos/logo-square-color.png" alt="Logo - Square - Color" data-src="/assets/img/_logos/logo-square-color.png" class="lozad" width="250"></a>
+<a href="/assets/img/_logos/logo-square-no-text.png" download><img src="/assets/img/_logos/logo-square-no-text.png" alt="Logo - Square - No Text" data-src="/assets/img/_logos/logo-square-no-text.png" class="lozad" width="250"></a>
 
 ### Text Only
 
@@ -172,7 +165,7 @@ These logos are meant for use cases where a simple text logo is needed. These lo
     <img class="lozad u-box-shadow--none" src="/assets/img/_svg/techqueria-logo-black.svg" data-src="/assets/img/_svg/techqueria-logo-black.svg" alt="SVG - Text - Black" width="400">
   </a>
 </div>
-<div class="box u-box-shadow--none" style="background-color:#black">
+<div class="box u-box-shadow--none" style="background-color:black">
   <a href="/assets/img/_svg/techqueria-logo.svg" download>
     <img class="lozad u-box-shadow--none" src="/assets/img/_svg/techqueria-logo.svg" data-src="/assets/img/_svg/techqueria-logo.svg" alt="SVG - Text - Black" width="400">
   </a>
