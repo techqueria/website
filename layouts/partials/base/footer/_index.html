@@ -1,17 +1,23 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
-      <div class="column is-5">
-        <!-- Who We Are -->
+      <!-- Who We Are -->
+      <div class="column is-3">
         {{ partialCached "base/footer/who-we-are.html" . }}
-        <!-- Language Dropdown -->
-        {{ partial "base/footer/language-dropdown.html" . }}
       </div>
-      <div class="column is-1 is-hidden-mobile"> </div>
-      <!-- Sitemap -->
-      {{ partialCached "base/footer/sitemap.html" . }}
+      <div class="column is-1 is-hidden-mobile"></div>
       <!-- Communities -->
-      {{ partialCached "base/footer/communities.html" . }}
+      <div class="column is-3">
+        {{ partialCached "base/footer/communities.html" . }}
+      </div>
+      <!-- Chapters -->
+      <div class="column is-3">
+        {{ partialCached "base/footer/chapters.html" . }}
+      </div>
+      <!-- Sitemap -->
+      <div class="column is-2">
+        {{ partialCached "base/footer/sitemap.html" . }}
+      </div>
     </div>
     <br>
     <!-- Copyright -->

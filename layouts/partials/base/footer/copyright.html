@@ -1,11 +1,3 @@
 <div class="content has-text-centered">
-  <p>
-    &copy;
-    <a class="link--techqueria" href="/">Techqueria</a>
-    {{ with .Site.Params.year }}
-    {{ . }}
-    {{ end }}
-    {{ i18n "copyright_to" }}
-    {{ now.Year }}
-  </p>
+  <p>&copy; <a class="link--techqueria" href="/">Techqueria</a> {{ with .Site.Params.year }}{{ . }}{{ end }} to {{ now.Year }}</p>
 </div>

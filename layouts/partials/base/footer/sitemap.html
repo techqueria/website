@@ -3,15 +3,14 @@
 {{ $sitemapSections := where $.Site.Sections ".Params.sitemap" "!=" nil }}
 {{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
 {{ $sitemapPages := $sitemapAllPages.ByTitle }}
-<div class="column is-3">
-  <p class="mb-1 is-size-5">
-    <b>{{ i18n "sitemap" }}</b>
-  </p>
-  {{ range $sitemapPages }}
-  <p>
-    <a class="link--techqueria{{ if (eq $currentPage.URL .Permalink) }} has-text-white{{ end }}" href="{{ .RelPermalink }}">
-      {{ .Title }}
-    </a>
-  </p>
-  {{ end }}
-</div>
+<p class="mb-1 is-size-5">
+  <b>Sitemap</b>
+</p>
+{{ range $sitemapPages }}
+<p>
+  <a class="link--techqueria{{ if (eq $currentPage.URL .Permalink) }} has-text-white{{ end }}"
+    href="{{ .RelPermalink }}">
+    {{ .Title }}
+  </a>
+</p>
+{{ end }}

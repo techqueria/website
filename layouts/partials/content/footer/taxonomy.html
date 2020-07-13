@@ -1,7 +1,5 @@
 {{ if or (.Params.categories) (.Params.tags) }}
-<div class="content mt-2">
-  <h2><span class="mr-sm">📂</span>Categories & Tags</h2>
-</div>
+<div class="content mt-2"><h2><span class="mr-sm">📂</span>Categories & Tags</h2></div>
 <div class="tags are-medium">
   <!-- Categories -->
   {{ range $category := .Params.categories }}

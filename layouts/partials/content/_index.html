@@ -14,12 +14,12 @@
   </div>
   <!-- Content with anchor links -->
   {{ partial "content/content.html" . }}
-  <!-- Learn more link -->
-  {{ if .Params.link }}
-  <a class="button is-outlined is-primary" href="{{ .Params.link }}" target="_blank" rel="noopener">Learn more</a>
-  {{ end }}
-  {{ if .Params.photos }}
-  <a class="button is-outlined is-primary" href="{{ .Params.photos }}" target="_blank" rel="noopener">View photos 📸</a>
+  <!-- Chapter Directors -->
+  {{ if .Params.leads }}
+  <h2>Chapter Directors</h2>
+  <div class="content mt-2">
+    {{ .Render "custom/chapter-director" }}
+  </div>
   {{ end }}
 </div>
 <!-- Author - articles written -->

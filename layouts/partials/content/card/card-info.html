@@ -1,6 +1,6 @@
 <!-- Date -->
 {{- if not .PublishDate.IsZero -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ dateFormat "Monday - January 2, 2006" .Date -}}</p>
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ if .Params.channel_name }}Launched {{ dateFormat "January 2006" .Date -}}{{ else }}{{ dateFormat "Monday - January 2, 2006" .Date -}}{{ end }}</p>
 {{- end -}}
 <!-- Software Sponsor -->
 {{- if in .Params.categories "sponsor-software" -}}
@@ -32,3 +32,13 @@
 {{- if not .Params.noTimeEstimate -}}{{- if gt .ReadingTime 1 -}}{{- if .WordCount -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔖</span>{{ .ReadingTime }} min read ∙ {{ .WordCount }} words</p>
 {{- end -}}{{- end -}}{{- end -}}
+<!-- Status -->
+{{- if in .Params.categories "chapter-active" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🟢️</span>Active Chapter</p>
+{{- end -}}
+{{- if in .Params.categories "chapter-incubating" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Incubating Chapter</p>
+{{- end -}}
+{{- if in .Params.categories "chapter-inactive" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Inactive Chapter</p>
+{{- end -}}

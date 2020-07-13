@@ -10,6 +10,10 @@
   box-shadow: 0 0 20px $image-shadow;
 }
 
+%light-image-shadow {
+  box-shadow: 0 0 5px $image-shadow;
+}
+
 %overflow-text {
   @extend .has-text-centered;
 

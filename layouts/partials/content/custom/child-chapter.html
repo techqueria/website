@@ -1,0 +1,13 @@
+<div class="column is-one-third-desktop is-one-third-tablet">
+  {{ if or (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.authors) (.Params.channel_link) (.Params.link) (.Params.photo) (.Params.video) }}
+  <div class="card card-equal-height">
+    <a class="card-reset" rel="noopener"
+      href="{{ .RelPermalink }}">
+      <!-- Content -->
+      {{ partial "content/card/card-content.html" . }}
+    </a>
+    <!-- Links -->
+    {{ partial "content/card/card-links.html" . }}
+  </div>
+  {{ end }}
+</div>

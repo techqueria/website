@@ -12,16 +12,13 @@ https://techqueria.netlify.com/* https://techqueria.org/:splat 301!
 https://deploy-preview-55--techqueria.netlify.com/* https://techqueria.org/:splat 301!
 https://deploy-preview-39--techqueria.netlify.com/* https://techqueria.org/:splat 301!
 
-# Redirect events page
-https://techqueria.org/events/ https://events.techqueria.org 301!
-http://techqueria.org/events/ https://events.techqueria.org 301!
-
-# Redirect chapters page
-https://techqueria.org/communities/chapters/ https://events.techqueria.org/chapters 301!
-
 # Redirect old about locations
 https://techqueria.org/about/team/* https://techqueria.org/team/:splat 301!
 https://techqueria.org/about/resources/* https://techqueria.org/resources/:splat 301!
 
 # Redirect conference resources
 https://techqueria.org/about/resources/conferences/* https://techqueria.org/conference/:splat 301!
+
+# No longer supporting translations
+https://techqueria.org/en/* https://techqueria.org 301!
+https://techqueria.org/es/* https://techqueria.org 301!

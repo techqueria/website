@@ -2,61 +2,58 @@
 
 <!-- TOC -->
 
-- [1. Setting Up](#1-setting-up)
-  - [Ways to Contribute](#ways-to-contribute)
-    - [Benefits of Contributing](#benefits-of-contributing)
-      - [GitHub Profile](#github-profile)
-      - [LinkedIn](#linkedin)
-      - [Credibility](#credibility)
-  - [Fork the repo](#fork-the-repo)
-  - [Installation](#installation)
-- [2. Local Development](#2-local-development)
-  - [Live Server](#live-server)
-  - [Branding](#branding)
-  - [Service Workers](#service-workers)
-  - [Tools](#tools)
-  - [Platforms](#platforms)
-  - [Languages](#languages)
-  - [File Size](#file-size)
-  - [Special Characters](#special-characters)
-  - [Images](#images)
-  - [Team Members](#team-members)
-  - [Events](#events)
-  - [Companies](#companies)
-  - [Adding news updates](#adding-news-updates)
-    - [Blog updates](#blog-updates)
-    - [Press articles](#press-articles)
-  - [Resources](#resources)
-  - [Translations](#translations)
-    - [How to translate content](#how-to-translate-content)
-      - [Option 1. Replace individual strings from the HTML templates in the `layouts` folder.](#option-1-replace-individual-strings-from-the-html-templates-in-the-layouts-folder)
-      - [Option 2. Create a separate Markdown file with the language code extension](#option-2-create-a-separate-markdown-file-with-the-language-code-extension)
-  - [Directory Structure](#directory-structure)
-  - [Available Commands](#available-commands)
-  - [Audits](#audits)
-  - [Deployment](#deployment)
-- [3. Opening a Pull Request](#3-opening-a-pull-request)
-  - [A Good PR](#a-good-pr)
-  - [Checks](#checks)
-  - [GitHub Integrations](#github-integrations)
-  - [GitHub Bots](#github-bots)
-    - [Adding a contributor](#adding-a-contributor)
-    - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
-  - [Issue Tracker](#issue-tracker)
-  - [Stale Pull Requests](#stale-pull-requests)
-- [4. Getting Paid for Bounty Issues](#4-getting-paid-for-bounty-issues)
-  - [Priorities](#priorities)
-  - [Quality](#quality)
-  - [Workflow](#workflow)
-- [Troubleshooting](#troubleshooting)
-  - [Error: Cannot find module](#error-cannot-find-module)
-  - [Not seeing changes live](#not-seeing-changes-live)
-  - [Recently Merged Changes](#recently-merged-changes)
-- [Questions?](#questions)
-  - [GitHub](#github)
-  - [Slack](#slack)
-  - [Gitter](#gitter)
-  - [Email](#email)
+- [Contributing](#contributing)
+  - [1. Setting Up](#1-setting-up)
+    - [Ways to Contribute](#ways-to-contribute)
+      - [Benefits of Contributing](#benefits-of-contributing)
+        - [GitHub Profile](#github-profile)
+        - [LinkedIn](#linkedin)
+        - [Credibility](#credibility)
+    - [Fork the repo](#fork-the-repo)
+    - [Installation](#installation)
+  - [2. Local Development](#2-local-development)
+    - [Live Server](#live-server)
+    - [Branding](#branding)
+    - [Service Workers](#service-workers)
+    - [Tools](#tools)
+    - [Platforms](#platforms)
+    - [Languages](#languages)
+    - [File Size](#file-size)
+    - [Special Characters](#special-characters)
+    - [Images](#images)
+    - [Team Members](#team-members)
+    - [Events](#events)
+    - [Companies](#companies)
+    - [Adding news updates](#adding-news-updates)
+      - [Blog updates](#blog-updates)
+      - [Press articles](#press-articles)
+    - [Resources](#resources)
+    - [Directory Structure](#directory-structure)
+    - [Available Commands](#available-commands)
+    - [Audits](#audits)
+    - [Deployment](#deployment)
+  - [3. Opening a Pull Request](#3-opening-a-pull-request)
+    - [A Good PR](#a-good-pr)
+    - [Checks](#checks)
+    - [GitHub Integrations](#github-integrations)
+    - [GitHub Bots](#github-bots)
+      - [Adding a contributor](#adding-a-contributor)
+      - [Remind yourself to tackle an issue](#remind-yourself-to-tackle-an-issue)
+    - [Issue Tracker](#issue-tracker)
+    - [Stale Pull Requests](#stale-pull-requests)
+  - [4. Getting Paid for Bounty Issues](#4-getting-paid-for-bounty-issues)
+    - [Priorities](#priorities)
+    - [Quality](#quality)
+    - [Workflow](#workflow)
+  - [Troubleshooting](#troubleshooting)
+    - [Error: Cannot find module](#error-cannot-find-module)
+    - [Not seeing changes live](#not-seeing-changes-live)
+    - [Recently Merged Changes](#recently-merged-changes)
+  - [Questions?](#questions)
+    - [GitHub](#github)
+    - [Slack](#slack)
+    - [Gitter](#gitter)
+    - [Email](#email)
 
 <!-- /TOC -->
 
@@ -101,7 +98,7 @@ Just make sure to use the description below and you can briefly describe what yo
 ```txt
 Techqueria is a 501c3 nonprofit serving the largest community for Latinx in Tech.
 
-- Contributed to their open source website through translations and bug fixes
+- Contributed to their open source website through content updates and bug fixes
 ```
 
 Here's an example of how that can be done by posting under "Experience" or "Volunteering" on your LinkedIn profile.
@@ -361,70 +358,6 @@ link: https://get.slack.help/hc/en-us/articles/204368833-Slack-for-Nonprofits
 ---
 ```
 
-### Translations
-
-The language dropdown is located at `layouts/partials/footer/language-dropdown.html` which is referenced at `layouts/partials/footer/who-we-are.html`. It is currently disabled until parent pages are translated.
-
-Language names are configured using `data/i18n/languages.toml`. For now, these only have English and Español but more can be added.
-
-Translated strings can be located at `i18n/en.toml` and `i18n/es.toml`
-
-#### How to translate content
-
-##### Option 1. Replace individual strings from the HTML templates in the `layouts` folder.
-
-Here's an example of translating one string from the `who-we-are.html` layout template.
-
-The syntax for translated strings in the HTML is `{{ i18n "translation_id" }}`.
-
-> `layouts/partials/base/footer/who-we-are.html`, L7
-
-```html
-<p>{{ i18n "who_we_are_nonprofit" }}</p>
-```
-
-The translation IDs must be the same in both `en.toml` and `es.toml`.
-
-> `site/i18n/es.toml`
-
-```toml
-# layouts/partials/base/footer/who-we-are.html
-
-[who_we_are_nonprofit]
-other = "Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry."
-```
-
-> `site/i18n/es.toml`
-
-```toml
-# layouts/partials/base/footer/who-we-are.html
-
-[who_we_are_nonprofit]
-other = "Techqueria es una organización sin fines de lucro 501 (c) (3) que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
-```
-
-##### Option 2. Create a separate Markdown file with the language code extension
-
-Here's an example of translating the "Brand" page in Markdown.
-
-So for Markdown pages to be translated in Spanish, add an identical file within the `content/espanol` directory.
-
-‼️ For pages like this, **do not copy over the urls or aliases** as this will break the page and redirect users to the Spanish version always even if they don't want it.
-
-> `content/english/about/brand.md`
-
-```markdown
-title: Brand 🎨
-description: Download our assets and discover our style guide.
-```
-
-> `content/espanol/about/brand.es.md`
-
-```markdown
-title: Marca 🎨
-description: Descarga nuestros recursos y descubre nuestra guía de estilo.
-```
-
 ### Directory Structure
 
 ```txt
@@ -450,16 +383,8 @@ description: Descarga nuestros recursos y descubre nuestra guía de estilo.
 |  └── sass                        // compressed and compiled to a single CSS file
 ├── config.toml                    // configuration file (Hugo)
 ├── content                        // content goes here (Markdown files with posts and pages)
-|  ├── english                     // content in English
-|  └── espanol                     // mostly same content from English folder translated to Spanish
-├── data
-|  └── i18n
-|     └── languages.toml           // configuring internationalization settings
 ├── drafts                         // files not ready for prime time
 ├── gulpfile.babel.js              // configuration for Gulp
-├── i18n                           // where translations of strings live
-|  ├── en.toml                     // strings translated in English
-|  └── es.toml                     // strings trnaslated in Español
 ├── layouts                        // HTML Liquid templates for pages
 ├── netlify.toml                   // configuration for Netlify deployment
 ├── package-lock.json              // don't delete or modify this

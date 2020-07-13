@@ -122,27 +122,27 @@
   <h2 id="patreon-supporters"><span class="mr-sm">🎗️</span>Active Patreon Supporters<span class="ml-sm">🎗️</span></h2>
 </div>
 <!-- Champion Level Supporters -->
-{{ if (index .Site.Taxonomies.categories "patreon-champion") "!=" nil }}
+<!-- {{ if (index .Site.Taxonomies.categories "patreon-champion") "!=" nil }}
 <div class="content mt-4 u-text--centered">
   <p>Patreon supporters who pledge $100 or more each month</p>
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-champion") }}
-  {{ partial "content/child-smaller.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
 </section>
-{{ end }}
+{{ end }} -->
 <!-- Patron Level Supporters -->
-{{ if (index .Site.Taxonomies.categories "patreon-patron") "!=" nil }}
+<!-- {{ if (index .Site.Taxonomies.categories "patreon-patron") "!=" nil }}
 <div class="content mt-4 u-text--centered">
   <p>Patreon supporters who pledge $50 or more each month</p>
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-patron") }}
-  {{ partial "content/child-smaller.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
 </section>
-{{ end }}
+{{ end }} -->
 <!-- Core Level Supporters -->
 {{ if (index .Site.Taxonomies.categories "patreon-core") "!=" nil }}
 <div class="content mt-2 u-text--centered">
@@ -150,7 +150,7 @@
 </div>
 <section class="columns is-multiline page--team">
   {{ range (index .Site.Taxonomies.categories "patreon-core") }}
-  {{ partial "content/child-smaller.html" . }}
+  {{ partial "content/child.html" . }}
   {{ end }}
 </section>
 {{ end }}

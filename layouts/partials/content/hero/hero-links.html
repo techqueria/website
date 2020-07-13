@@ -29,14 +29,20 @@
   <!-- External Link -->
   {{ if .Params.link }}
   <a class="mt-1 button is-link " href="{{ .Params.link }}" target="_blank" rel="noopener">
-    {{ if in .Params.link "meetup.com" }}Meetup ↗️{{ else if in .Params.link "eventbrite.com" }}Eventbrite ↗️{{ else if in .Params.link "splashthat.com"}}Splashthat ↗️{{ else }}Learn more ↗️
+    {{ if in .Params.link "meetup.com" }}Meetup ↗️{{else if in .Params.link "events.techqueria.org"}}View events{{ else if in .Params.link "eventbrite.com" }}Eventbrite ↗️{{ else if in .Params.link "splashthat.com"}}Splashthat ↗️{{ else }}Learn more ↗️
     {{ end }}
+  </a>
+  {{ end }}
+  <!-- Slack Channel -->
+  {{ if .Params.channel_link }}
+  <a class="mt-1 button is-link" href="{{ .Params.channel_link }}" target="_blank" rel="noopener">
+    Join {{ if .Params.channel_name }}{{ .Params.channel_name }}{{ else }}the chapter's Slack channel{{ end }}
   </a>
   {{ end }}
   <!-- Photos -->
   {{ if .Params.photos }}
   <a class="mt-1 button is-link is-inverted " href="{{ .Params.photos }}" target="_blank" rel="noopener">
-    Photos 📸
+    View Photos 📸
   </a>
   {{ end }}
   <!-- Videos -->

@@ -1,14 +1,14 @@
 {{ define "main" }}
 <!-- Homepage Hero -->
 <section class="hero is-info is-primary is-fancy">
-  <div class="hero-body background-image" style="background-image:url('/assets/img/homepage.jpg');">
-    <div class="container has-text-centered ">
+  <div class="hero-body background-image" style="background-image: url('/assets/img/homepage.jpg');">
+    <div class="container has-text-centered">
       <h1 class="title">
-        {{ i18n "homepage_techqueria_title" }}
+        ¡Hola!
       </h1>
-      <br>
+      <br />
       <h2 class="subtitle">
-        {{ i18n "homepage_techqueria_subtitle_part_1" }} {{ i18n "homepage_techqueria_subtitle_part_2" }}
+        Techqueria is a nonprofit that serves the largest community of Latinx in Tech. 🌮
       </h2>
     </div>
   </div>
@@ -24,10 +24,13 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 $sitemapPages }}
+
       <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/card.html" . }}
+
       </div>
       {{ end }}
+
     </div>
   </div>
 </section>
@@ -38,10 +41,13 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 3 $sitemapPages) }}
+
       <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/card.html" . }}
+
       </div>
       {{ end }}
+
     </div>
   </div>
 </section>
@@ -52,10 +58,13 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 6 $sitemapPages) }}
+
       <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/card.html" . }}
+
       </div>
       {{ end }}
+
     </div>
   </div>
 </section>
@@ -66,10 +75,13 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range first 3 (after 9 $sitemapPages) }}
+
       <div class="column is-one-third-desktop is-full-touch">
         {{ partial "content/card/card.html" . }}
+
       </div>
       {{ end }}
+
     </div>
   </div>
 </section>
