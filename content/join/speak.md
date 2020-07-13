@@ -5,6 +5,7 @@ image: "/assets/img/support-us/speak.jpg"
 noTimeEstimate: true
 hideImage: true
 weight: 6
+url: /speak/
 aliases:
   - /become-a-speaker/
   - /speak/

@@ -11,24 +11,11 @@ aliases:
   - /become-a-member/
   - /communities/slack/join/
   - /communities/slack/join-slack/
-  - /email-newsletter/
   - /join-slack/
-  - /newsletter/
   - /slack/join/
-  - /subscribe/
   - /refer/
   - /referral/
 ---
-
-## About Techqueria
-
-Techqueria is a 501c3 nonprofit that serves the largest community of **Latinx in Tech** in the US.
-
-We have nearly 10,000 members from across the world in our community with the majority identifying as mid to senior-level Latinx professionals working in product, design, and engineering roles within the tech industry.
-
-![Techqueria Mission/Vision 2020](/assets/img/about/deck/mission.png)
-
-![Techqueria Membership 2020](/assets/img/about/deck/members.png)
 
 ## Member Benefits
 
@@ -69,3 +56,5 @@ By becoming a member of Techqueria, you will get access to our:
   <img src="/assets/img/join/success.png" alt="Techqueria Hurray" class="mt-2 mb-2 u-box-shadow--none" width="400">
   <p>You're ready to submit now, hurray!</p>
 </div>
+
+## Other Ways to Get Involved

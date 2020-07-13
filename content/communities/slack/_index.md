@@ -1,6 +1,6 @@
 ---
 title: Slack Workspace
-description: "Where Techqueria members and leads collaborate with partners, allies and each other. "
+description: "Where Techqueria members and leads collaborate with partners, allies and each other. 💬"
 identifier: fab fa-slack
 image: "/assets/img/supporters/slack.png"
 noTimeEstimate: true

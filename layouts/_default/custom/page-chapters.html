@@ -15,11 +15,42 @@
     <div class="content mt-4">
       <h2 id="past-events"><span class="mr-sm">📍</span>{{ $pagesNumbers }} Techqueria Chapters</h2>
     </div>
+    <!-- Active Chapters -->
+    {{ if (index .Site.Taxonomies.categories "chapter-active") "!=" nil }}
+    <div class="content mt-4 u-text--centered">
+      <h3 id="active-chapters"><span class="mr-sm">🟢️</span>Active Chapters<span class="ml-sm">🟢️</span></h3>
+      <p>At least 1 event in last 6 months, more than 3 events hosted since launching</p>
+    </div>
     <div class="columns is-multiline">
-      {{ range $pages.ByTitle }}
+      {{ range (index .Site.Taxonomies.categories "chapter-active").Pages.ByDate }}
       {{ partial "content/custom/child-chapter.html" . }}
       {{ end }}
     </div>
+    {{ end }}
+    <!-- Incubator Chapters -->
+    {{ if (index .Site.Taxonomies.categories "chapter-incubating") "!=" nil }}
+    <div class="content mt-4 u-text--centered">
+      <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>Incubating Chapters<span class="ml-sm">🔵</span></h3>
+      <p>Launched within last 6 months, less than 3 events hosted since launching</p>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "chapter-incubating").Pages.ByDate }}
+      {{ partial "content/custom/child-chapter.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+    <!-- Inactive Chapters -->
+    {{ if (index .Site.Taxonomies.categories "chapter-inactive") "!=" nil }}
+    <div class="content mt-4 u-text--centered">
+      <h3 id="inactive-chapters"><span class="mr-sm">🔴</span>Inactive Chapters<span class="ml-sm">🔴</span></h3>
+      <p>Launched more than 6 months ago, no events held in last 6 months</p>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "chapter-inactive").Pages.ByDate }}
+      {{ partial "content/custom/child-chapter.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}
   </div>

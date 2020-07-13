@@ -64,6 +64,6 @@ We're always looking for [partners and sponsors](/support-us/) to help move our 
 
 ## Want to meet in person?
 
-You're more than welcome to meet local chapter directors in person through one of our [upcoming events](https://events.techqueria.org/virtual-webinars/) that take place across our various chapters.
+You're more than welcome to meet local chapter directors in person through one of our [upcoming events](https://events.techqueria.org/virtual-events/) that take place across our various chapters.
 
 You can check out our different [communities](/communities/) for links to our social media groups and to keep informed on what we're doing.

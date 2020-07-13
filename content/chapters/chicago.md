@@ -1,11 +1,10 @@
 ---
 title: "Chicago, IL"
 date: 2018-11-14
-description: "Chicago officially the City of Chicago, is the most populous city in Illinois, as well as the third most populous city in the United States. "
-image: https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/chicago/Choose_Chicago_8086f9ab-7fa4-4515-aaca-244b7ca7e0f6.jpg
-link: https://events.techqueria.org/chicago/
+channel_name: "#locals-chicago"
+channel_link: https://app.slack.com/client/T0KQTUZ2B/C1RJFR8RJ
 categories:
-  - chapter-incubator
+  - chapter-inactive
 aliases:
   - /chicago/
 ---

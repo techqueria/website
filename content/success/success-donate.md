@@ -2,8 +2,6 @@
 title: "Thank you for donating to Techqueria"
 description: "We have successfully received your donation! 💛"
 url: /success/donate/
-aliases:
-  - /success/donate/
 ---
 
 We have successfully received your donation which helps support our programming for our community members.

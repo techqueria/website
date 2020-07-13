@@ -2,8 +2,6 @@
 title: "Thanks for submitting a testimonial"
 description: "We have successfully received your testimonial! 💛"
 url: /success/testimonial/
-aliases:
-  - /success/testimonial/
 ---
 
 We have successfully received your testimonial and will get back to you within 2 weeks to decide whether or not to add it to our website. 📝

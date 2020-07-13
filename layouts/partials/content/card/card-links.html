@@ -10,7 +10,14 @@
     <!-- Author Links -->
     {{- .Render "custom/author-link" -}}
     <!-- External Link -->
-    {{- if .Params.link -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">{{ if or (in .Params.link "meetup.com") (in .Params.link "eventbrite.com") (in .Params.link "splashthat.com") }}🎟{{ else }}🌐{{ end }}</span><a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ if in .Params.link "meetup.com" }}Meetup{{ else if in .Params.link "eventbrite.com" }}Eventbrite{{ else if in .Params.link "splashthat.com" }}Splashthat{{ else }}Learn more{{ end }}</a></p>{{- end -}}
+    {{- if .Params.link -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">{{ if or (in .Params.link "meetup.com") (in .Params.link "eventbrite.com") (in .Params.link "splashthat.com") }}🎟{{ else }}🌐{{ end }}</span><a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ if in .Params.link "meetup.com" }}Meetup{{else if in .Params.link "events.techqueria.org"}}View events{{ else if in .Params.link "eventbrite.com" }}Eventbrite{{ else if in .Params.link "splashthat.com" }}Splashthat{{ else }}Learn more{{ end }}</a></p>{{- end -}}
+    <!-- Slack Channel -->
+    {{ if .Params.channel_link }}
+    <p class="has-text-weight-light mt-sm is-size-7">
+      <span class="mr-sm">💬</span>
+      <a href="{{ .Params.channel_link }}" target="_blank" rel="noopener">{{ if .Params.channel_name }}Join {{ .Params.channel_name }} in Slack{{ else }}Join the chapter's Slack channel{{ end }}</a>
+    </p>
+    {{ end }}
     <!-- Photos -->
     {{- if .Params.photos -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📸</span><a href="{{ .Params.photos }}" target="_blank" rel="noopener">Photos</a></p>{{- end -}}
     <!-- Photos -->

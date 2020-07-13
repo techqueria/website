@@ -6,6 +6,7 @@ toc: true
 noTimeEstimate: true
 hideImage: true
 weight: 5
+url: /volunteer/
 aliases:
   - /become-a-volunteer/
   - /support-us/volunteer/

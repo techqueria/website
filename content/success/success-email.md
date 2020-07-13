@@ -2,8 +2,6 @@
 title: "Thanks for subscribing to our newsletter!"
 description: "You have successfully subscribed to Techqueria's email newsletter. ✅"
 url: /success/email/
-aliases:
-  - /success/email/
 ---
 
 You have successfully subscribed to hear updates from Techqueria. 📨

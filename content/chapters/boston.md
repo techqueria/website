@@ -1,8 +1,12 @@
 ---
 title: "Boston, MA"
-description: "Chicago officially the City of Chicago, is the most populous city in Illinois, as well as the third most populous city in the United States. "
-image: https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/chicago/Choose_Chicago_8086f9ab-7fa4-4515-aaca-244b7ca7e0f6.jpg
-link: https://events.techqueria.org/chicago/
+date: 2020-01-22
+channel_name: "#locals-boston"
+channel_link: https://app.slack.com/client/T0KQTUZ2B/C7B6J5630
+leads:
+  - Angel Silvestrini
 aliases:
   - /boston/
+categories:
+  - chapter-incubating
 ---

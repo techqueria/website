@@ -18,7 +18,7 @@ aliases:
 sitemap: true
 ---
 
-> Starting in 2020, we have a dedicated events platform where we publish our events at [events.techqueria.org](https://events.techqueria.org/virtual-webinars/).
+> Starting in 2020, we have a dedicated events platform where we publish our events at [events.techqueria.org](https://events.techqueria.org/virtual-events/).
 
 You can still find our past events here and in the future, we plan to consolidate them all here on our website.
 

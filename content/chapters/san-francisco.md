@@ -1,9 +1,9 @@
 ---
 title: "San Francisco Bay Area, CA"
-description: "San Francisco is the cultural, commercial, and financial center of Northern California."
 date: 2015-12-10
 link: https://events.techqueria.org/san-francisco-bay-area/
-layout: custom/page-chapter
+channel_name: "#locals-sf"
+channel_link: https://app.slack.com/client/T0KQTUZ2B/C25P9BJHW/
 image: "/assets/img/communities/chapters/community-san-francisco-photo.jpeg"
 leads:
   - Dulce Villarreal

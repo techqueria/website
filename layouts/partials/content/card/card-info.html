@@ -1,6 +1,6 @@
 <!-- Date -->
 {{- if not .PublishDate.IsZero -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ dateFormat "Monday - January 2, 2006" .Date -}}</p>
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ if .Params.channel_name }}Launched {{ dateFormat "January 2006" .Date -}}{{ else }}{{ dateFormat "Monday - January 2, 2006" .Date -}}{{ end }}</p>
 {{- end -}}
 <!-- Software Sponsor -->
 {{- if in .Params.categories "sponsor-software" -}}
@@ -36,6 +36,9 @@
 {{- if in .Params.categories "chapter-active" -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🟢️</span>Active Chapter</p>
 {{- end -}}
-{{- if in .Params.categories "chapter-incubator" -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">⭕</span>Incubating Chapter</p>
+{{- if in .Params.categories "chapter-incubating" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Incubating Chapter</p>
+{{- end -}}
+{{- if in .Params.categories "chapter-inactive" -}}
+<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Inactive Chapter</p>
 {{- end -}}
