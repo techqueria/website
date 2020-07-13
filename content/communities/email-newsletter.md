@@ -1,5 +1,6 @@
 ---
-title: "Subscribe to our newsletter"
+title: "Email Newsletter"
+identifier: fas fa-envelope
 description: "Get the latest updates from Techqueria in your inbox every month. 📨"
 image: "/assets/img/join/email-newsletter-v2.png"
 noTimeEstimate: true
