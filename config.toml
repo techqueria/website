@@ -157,6 +157,10 @@ disqusShortname               = "techqueria"
     url                       = "/communities/"
 [[menu.main]]
     parent                    = "Communities"
+    name                      = "Email Newsletter"
+    url                       = "/subscribe/"
+[[menu.main]]
+    parent                    = "Communities"
     name                      = "Facebook Group"
     url                       = "https://www.facebook.com/groups/techqueria"
 [[menu.main]]

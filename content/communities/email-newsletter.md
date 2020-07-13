@@ -4,7 +4,6 @@ description: "Get the latest updates from Techqueria in your inbox every month. 
 image: "/assets/img/join/email-newsletter-v2.png"
 noTimeEstimate: true
 hideImage: true
-sitemap: true
 url: /subscribe/
 aliases:
   - /email-newsletter/

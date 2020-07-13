@@ -20,7 +20,7 @@
   }
 
   img {
-    @extend %image-shadow;
+    @extend %light-image-shadow;
     border-radius: 1em;
     height: auto !important;
     width: 100% !important;
