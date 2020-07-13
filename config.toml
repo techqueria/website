@@ -22,8 +22,6 @@ preserveTaxonomyNames                = false
 
 # Language
 languageCode                         = "en-US"
-DefaultContentLanguage               = "en"
-enableMissingTranslationPlaceholders = true
 
 # Internal Templates
 googleAnalytics                      = "UA-88917358-1"
@@ -32,20 +30,6 @@ disqusShortname                      = "techqueria"
 # HTML Renderer
 [markup.goldmark.renderer]
     unsafe                           = true
-
-# English then Español
-[languages]
-  [languages.en]
-    languageName                     = "English"
-    contentDir                       = "content/english"
-    weight                           = 1
-  [languages.es]
-    languageName                     = "Español"
-    contentDir                       = "content/espanol"
-    weight                           = 2
-    [languages.es.params]
-      description                    = "Techqueria es una organización sin fines de lucro que representa una de las comunidades más grandes para profesionales de Latinx en la industria tecnológica."
-      og_image                       = "https://i.imgur.com/T0sg75l.png"
 
 # Categories
 [taxonomies]
@@ -73,8 +57,6 @@ disqusShortname                      = "techqueria"
     locale                           = "en_US"
     default_content_language         = "en"
     google_site_verification         = "eopAXVNFciPM1qMa-owNdbQH3PWDZ6bFhrZQDaKbqZ4"
-    phraseAppEnabled                 = true
-    phraseapp_key                    = "{{__phrase_%s__}}"
 
 # Social Links
 [social]
@@ -123,10 +105,6 @@ disqusShortname                      = "techqueria"
     parent                           = "About"
     name                             = "Contact Us"
     url                              = "/contact/"
-[[menu.main]]
-    parent                           = "About"
-    name                             = "Impact Report"
-    url                              = "/impact-report/"
 [[menu.main]]
     parent                           = "About"
     name                             = "No Tech for ICE"
@@ -315,138 +293,5 @@ disqusShortname                      = "techqueria"
     identifier                       = "fab fa-lg fa-slack"
 [[menu.portal]]
     name                             = "Login"
-    url                              = "https://techqueria.slack.com"
-    identifier                       = "fas fa-lg fa-sign-in-alt"
-
-# Menu - Español
-
-# Homepage
-[[languages.es.menu.homepage]]
-    name                             = "Latinx en Tecnología"
-    url                              = "/"
-
-# About
-[[languages.es.menu.main]]
-    name                             = "Sobre nosotros"
-    url                              = "/about/"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Marca"
-    url                              = "/about/brand/"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Contacto"
-    url                              = "/about/contact/"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Eventos"
-    url                              = "https://events.techqueria.org"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Equipo"
-    url                              = "/team/"
-[[languages.es.menu.main]]
-    parent                           = "Sobre nosotros"
-    name                             = "Tienda"
-    url                              = "/shop/"
-
-# Communities
-[[languages.es.menu.main]]
-    name                             = "Comunidades"
-    url                              = "/communities/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Capítulos de la Ciudad"
-    url                              = "/communities/chapters/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Grupo de Facebook"
-    url                              = "https://www.facebook.com/groups/techqueria"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Página de Facebook"
-    url                              = "https://www.facebook.com/techqueria"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Organización de GitHub"
-    url                              = "https://github.com/techqueria"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Grupo de LinkedIn"
-    url                              = "https://www.linkedin.com/groups/13500636"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Página de LinkedIn"
-    url                              = "https://www.linkedin.com/company/techqueria/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Boletín electrónico"
-    url                              = "/communities/newsletter/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Espacio de trabajo en Slack"
-    url                              = "/communities/slack/"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Twitter"
-    url                              = "https://twitter.com/Techqueria"
-[[languages.es.menu.main]]
-    parent                           = "Comunidades"
-    name                             = "Canal de YouTube"
-    url                              = "https://www.youtube.com/c/Techqueria"
-
-# Donate
-[[languages.es.menu.main]]
-    name                             = "Donar"
-    url                              = "/donate/"
-[[languages.es.menu.main]]
-    parent                           = "Donar"
-    name                             = "Contribuir en Open Collective"
-    url                              = "https://opencollective.com/techqueria/"
-[[languages.es.menu.main]]
-    parent                           = "Donar"
-    name                             = "Contribuir en Patreon"
-    url                              = "https://www.patreon.com/techqueria"
-
-# Resources
-[[languages.es.menu.main]]
-    name                             = "Noticias"
-    url                              = "/news/"
-
-[[languages.es.menu.main]]
-    name                             = "Apoyanos"
-    url                              = "/support-us/"
-[[languages.es.menu.main]]
-    parent                           = "Apoyanos"
-    name                             = "Hazte Voluntario"
-    url                              = "/support-us/volunteer/"
-[[languages.es.menu.main]]
-    parent                           = "Apoyanos"
-    name                             = "Donar Espacio"
-    url                              = "/support-us/donate-space/"
-[[languages.es.menu.main]]
-    parent                           = "Apoyanos"
-    name                             = "Nuestros Partidarios"
-    url                              = "/supporters/"
-
-[[languages.es.menu.social]]
-    name                             = "LinkedIn"
-    url                              = "https://www.linkedin.com/company/techqueria/"
-    identifier                       = "fab fa-lg fa-linkedin"
-
-[[languages.es.menu.social]]
-    name                             = "Twitter"
-    url                              = "https://twitter.com/Techqueria"
-    identifier                       = "fab fa-lg fa-twitter"
-
-# Slack Menu
-
-[[languages.es.menu.portal]]
-    name                             = "Únete a nuestro Slack"
-    url                              = "/communities/slack/"
-    identifier                       = "fab fa-lg fa-slack"
-
-[[languages.es.menu.portal]]
-    name                             = "Iniciar sesión en Slack"
     url                              = "https://techqueria.slack.com"
     identifier                       = "fas fa-lg fa-sign-in-alt"

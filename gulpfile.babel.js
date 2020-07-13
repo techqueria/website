@@ -126,8 +126,6 @@ const runServer = (options) => {
   gulp.watch(
     [
       "./content/**/*",
-      "./data/**/*",
-      "./i18n/**/*",
       "./layouts/**/*",
       "./resources/**/*",
       "./static/**/*",

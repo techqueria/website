@@ -1,17 +1,25 @@
 {
   "jsxBracketSameLine": false,
   "noSemi": true,
-  "parser": "babylon",
-  "printWidth": 80,
+  "printWidth": 150,
   "rcVerbose": true,
   "singleQuote": false,
   "tabWidth": 2,
+  "proseWrap": "always",
   "trailingComma": "none",
   "useTabs": false,
-  "overrides": [{
-    "files": "*.md",
-    "options": {
-      "parser": "markdown"
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template"
+      }
     }
-  }]
+  ]
 }

@@ -3,9 +3,9 @@
 other = "¡Bienvenidos!"
 
 [homepage_techqueria_subtitle_part_1]
-other = "Techqueria is a nonprofit that serves"
+other = ""
 [homepage_techqueria_subtitle_part_2]
-other = "the largest community of Latinx in Tech. 🌮"
+other = ""
 
 [who_we_are]
 other = "Who We Are"
@@ -95,7 +95,7 @@ other = "Sitemap"
 other = "Communities"
 
 [not_found]
-other = "Woops, this page doesn't seem to exist! ☠️"
+other = ""
 
 [go_back]
 other = "Try going back"
@@ -129,7 +129,7 @@ other = "Visit our store"
 # layouts/partials/base/footer/who-we-are.html
 
 [who_we_are_nonprofit]
-other = "Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry."
+other = ""
 
 # Copyright
 

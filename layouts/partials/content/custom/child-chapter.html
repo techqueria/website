@@ -1,0 +1,9 @@
+<div class="column is-one-quarter-desktop is-one-third-tablet">
+  <a rel="noopener"
+    href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+    <div class="card card-equal-height">
+      <!-- Content -->
+      {{ partial "content/card/card-content.html" . }}
+    </div>
+  </a>
+</div>

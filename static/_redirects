@@ -18,3 +18,7 @@ https://techqueria.org/about/resources/* https://techqueria.org/resources/:splat
 
 # Redirect conference resources
 https://techqueria.org/about/resources/conferences/* https://techqueria.org/conference/:splat 301!
+
+# No longer supporting translations
+https://techqueria.org/en/* https://techqueria.org 301!
+https://techqueria.org/es/* https://techqueria.org 301!

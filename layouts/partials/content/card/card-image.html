@@ -1,0 +1,8 @@
+<!-- Image -->
+{{ if .Params.image }}
+<div class="card-image">
+  <figure class="image">
+    <img src="{{ .Params.image }}" data-src="{{ .Params.image }}" alt="{{ .Title }}" class="lozad card-image--figure">
+  </figure>
+</div>
+{{ end }}

@@ -4,7 +4,7 @@
 {{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
 {{ $sitemapPages := $sitemapAllPages.ByTitle }}
 <p class="mb-1 is-size-5">
-  <b>{{ i18n "sitemap" }}</b>
+  <b>Sitemap</b>
 </p>
 {{ range $sitemapPages }}
 <p>
