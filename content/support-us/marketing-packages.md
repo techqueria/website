@@ -1,5 +1,5 @@
 ---
-title: "Promote Your CTA"
+title: "Share Your Job Postings & Events"
 description: "Share your call to action with thousands of Latinx in Tech through our email newsletter, social media platforms or Slack community. 💼"
 image: "/assets/img/support-us/corporate-partner/marketing-packages.jpg"
 hideImage: true

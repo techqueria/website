@@ -259,8 +259,8 @@ disqusShortname               = "techqueria"
     weight                    = 1
 [[menu.main]]
     parent                    = "Support Us"
-    name                      = "Share Job Opportunities"
-    url                       = "/support-us/job-postings/"
+    name                      = "Share Your Job Postings & Events"
+    url                       = "/support-us/marketing-packages/"
     weight                    = 2
 [[menu.main]]
     parent                    = "Support Us"
