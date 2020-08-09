@@ -4,5 +4,5 @@ description: File hosting service that offers cloud storage, file synchronizatio
 link: https://www.dropbox.com/jobs?&gh_src=x36ci4
 image: "/assets/img/supporters/dropbox.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

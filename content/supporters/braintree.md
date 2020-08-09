@@ -4,5 +4,5 @@ description: All-in-one solution to accept, process, and split payments in your 
 link: https://www.braintreepayments.com/careers
 image: "/assets/img/supporters/braintree.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

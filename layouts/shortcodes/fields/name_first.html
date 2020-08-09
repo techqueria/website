@@ -1,0 +1,22 @@
+<!-- Name -->
+<div class="field">
+  <label class="label">Your first name*</label>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
+
+  <div class="control">
+    <input
+      class="input"
+      aria-label="First Name"
+      autocomplete="given-name"
+      type="text"
+      name="first_name"
+      placeholder="Your first name"
+      minlength="2"
+      data-value-invalid="Please enter your first name"
+      data-value-missing="Don't forget to enter your first name"
+      required
+    />
+  </div>
+</div>

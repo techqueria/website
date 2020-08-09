@@ -4,5 +4,5 @@ description: Empowers healthcare organizations with mobile technologies to impro
 link: https://caremessage.org/careers/
 image: "/assets/img/supporters/caremessage.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -5,7 +5,7 @@ business running smoothly."
 link: https://www.appdynamics.com/
 image: "/assets/img/supporters/appdynamics.png"
 categories:
-  - past-supporter
+  - past-partner
 ---
 
 - Bronze Sponsor ($2,000+) in 2019

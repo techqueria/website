@@ -4,5 +4,5 @@ description: Leading software engineering school for women founded in San Franci
 link: https://hackbrightacademy.com/
 image: "/assets/img/supporters/hackbright-academy.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

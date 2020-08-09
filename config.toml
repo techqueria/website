@@ -224,24 +224,29 @@ disqusShortname               = "techqueria"
     externalLink              = false
 [[menu.main]]
     parent                    = "Events"
+    name                      = "#LHM Summit 2020"
+    url                       = "/summit/"
+    weight                    = 1
+[[menu.main]]
+    parent                    = "Events"
     name                      = "Upcoming Events"
     url                       = "https://events.techqueria.org/events"
-    weight                    = 1
+    weight                    = 2
 [[menu.main]]
     parent                    = "Events"
     name                      = "Past Events"
     url                       = "/events/"
-    weight                    = 2
+    weight                    = 3
 [[menu.main]]
     parent                    = "Events"
     name                      = "All City Chapters"
     url                       = "https://events.techqueria.org/chapters"
-    weight                    = 3
+    weight                    = 4
 [[menu.main]]
     parent                    = "Events"
     name                      = "Community Calendar"
     url                       = "/community-calendar/"
-    weight                    = 4
+    weight                    = 5
 
 # News
 [[menu.main]]
@@ -254,34 +259,24 @@ disqusShortname               = "techqueria"
     url                       = "/support-us/"
 [[menu.main]]
     parent                    = "Support Us"
-    name                      = "Become a Partner"
-    url                       = "/support-us/"
+    name                      = "Partnerships Deck"
+    url                       = "/support-us/#partnerships-deck"
     weight                    = 1
 [[menu.main]]
     parent                    = "Support Us"
-    name                      = "Share Your Job Postings & Events"
-    url                       = "/support-us/marketing-packages/"
+    name                      = "Purchase a Marketing Package"
+    url                       = "/support-us/#purchase-a-marketing-package"
     weight                    = 2
 [[menu.main]]
     parent                    = "Support Us"
-    name                      = "Host an Event"
-    url                       = "/support-us/corporate-events/"
+    name                      = "Submit a Partnership Inquiry"
+    url                       = "/support-us/#submit-a-partnership-inquiry"
     weight                    = 3
-[[menu.main]]
-    parent                    = "Support Us"
-    name                      = "Sponsor our Software"
-    url                       = "/support-us/software-sponsor/"
-    weight                    = 4
-[[menu.main]]
-    parent                    = "Support Us"
-    name                      = "Become a Community Partner"
-    url                       = "/support-us/community-partner/"
-    weight                    = 5
 [[menu.main]]
     parent                    = "Support Us"
     name                      = "Our Supporters"
     url                       = "/supporters/"
-    weight                    = 6
+    weight                    = 4
 
 # Social Menu
 [[menu.social]]

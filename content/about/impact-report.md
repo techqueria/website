@@ -180,7 +180,7 @@ The average amount of experience for our members based on that survey was 5 year
 
 The majority of members sampled identified as mid-career software engineers.
 
-<img class="lozad mt-2 mb-2 u-box-shadow--none" data-src="/assets/img/about/impact-report/member-stats/2018.png" alt="Member Stats (2018)">" src="/assets/img/about/impact-report/member-stats/2018.png" alt="Member Stats (2018)">
+<img class="lozad mt-2 mb-2 u-box-shadow--none" src="/assets/img/about/impact-report/member-stats/2018.png" data-src="/assets/img/about/impact-report/member-stats/2018.png"  alt="Member Stats (2018)">
 
 ## 2015
 

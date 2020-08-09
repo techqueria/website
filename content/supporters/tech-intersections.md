@@ -4,5 +4,5 @@ description: "Tech Intersections is an affordable conference for the womxn of co
 link: https://techintersections.org/
 image: "/assets/img/supporters/tech-intersections.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

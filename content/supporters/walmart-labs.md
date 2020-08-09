@@ -6,5 +6,5 @@ image: "/assets/img/supporters/walmart-labs.png"
 aliases:
   - /support-us/supporters/walmart/
 categories:
-  - past-supporter
+  - past-partner
 ---

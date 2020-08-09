@@ -3,14 +3,15 @@ title: "Code of Conduct"
 description: "All members of Techqueria are expected to abide by our Code of Conduct."
 image: "/assets/img/about/code-of-conduct.jpg"
 noTimeEstimate: true
+hideImage: true
 toc: true
+sitemap: true
 url: /code-of-conduct/
 aliases:
   - /code-of-conduct/
   - /about/code-of-conduct/
   - /coc/
   - /about/coc/
-sitemap: true
 ---
 
 All participants of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.

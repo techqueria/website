@@ -15,6 +15,30 @@ aliases:
   - /message-us/
 ---
 
+## Slack
+
+Within [our Slack community](/slack/), you can reach out to us via the `#meta` channel.
+
+For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
+
+## Social Media
+
+You can message us via [Twitter](https://twitter.com/Techqueria ) or [Instagram](https://instagram.com/techqueriaorg).
+
+We are less responsive to direct messages on other social media platforms so it may take longer to get back to you.
+
+## Interested in sharing job opportunities?
+
+You can [purchase a marketing package](/support-us/corporate-partner/marketing-packages/) for job opportunities.
+
+You're also welcome to join [our Slack](/slack/) and share job postings for free in the `#jobs` channel.
+
+## Interested in partnering with us?
+
+If you're **interested in partnerships**, please fill out [this form](/support-us/) instead.
+
+We're always looking for [partners and sponsors](/supporters/) to help move our mission forward!
+
 ## Email
 
 `hola@techqueria.org`
@@ -40,30 +64,10 @@ Filling out the form below sends an email to our executive team.
   {{< fields/submit >}}
 </form>
 
-## Slack
-
-Within [our Slack community](/slack/), you can reach out to us via the `#meta` channel.
-
-For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
-
-## Social Media
-
-You can message us via [Twitter](https://twitter.com/Techqueria ) or [Instagram](https://instagram.com/techqueriaorg).
-
-We are less responsive to direct messages on other social media platforms so it may take longer to get back to you.
-
-## Interested in sharing job opportunities?
-
-You can [purchase a marketing package](/support-us/corporate-partner/marketing-packages/) for job opportunities.
-
-You're also welcome to join [our Slack](/slack/) and share job postings for free in the `#jobs` channel.
-
-## Interested in partnering with us?
-
-We're always looking for [partners and sponsors](/support-us/) to help move our mission forward!
-
 ## Want to meet in person?
 
-You're more than welcome to meet local chapter directors in person through one of our [upcoming events](https://events.techqueria.org/virtual-events/) that take place across our various chapters.
+As of Spring 2020, we are no longer having in-person events due to the pandemic but we have plenty of [upcoming virtual events](https://events.techqueria.org/virtual-events/) and once it's safe again...
 
-You can check out our different [communities](/communities/) for links to our social media groups and to keep informed on what we're doing.
+You're more than welcome to meet local chapter directors in person through one of our in-person events that take place across our various chapters.
+
+You can also check out our different [communities](/communities/) to keep informed on what we're doing.

@@ -4,5 +4,5 @@ description: "O'Reilly Media is a learning company that publishes books, produce
 link: https://www.oreilly.com/
 image: "/assets/img/supporters/oreilly.png"
 categories:
-  - community-partner
+  - past-partner
 ---

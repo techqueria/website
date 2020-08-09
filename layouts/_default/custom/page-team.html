@@ -19,14 +19,8 @@
       {{ range (index .Site.Taxonomies.categories "social-media-lead").Pages.ByTitle }}
       {{ partial "content/child.html" . }}
       {{ end }}
-    </div>
-    <!-- Chapter Directors -->
-    <div class="content mt-2">
-      <h2>Chapter Directors</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
-      {{ partial "content/child-smaller.html" . }}
+      {{ range (index .Site.Taxonomies.categories "partnerships-lead").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
       {{ end }}
     </div>
     <!-- Slack Community Leads -->
@@ -36,6 +30,24 @@
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "slack-community-lead").Pages.ByTitle }}
       {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+     <!-- Dreamers in Tech Leads -->
+     <div class="content mt-2">
+      <h2>Dreamers in Tech Leads</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "dreamers-in-tech-lead").Pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
+    </div>
+    <!-- Chapter Directors -->
+    <div class="content mt-2">
+      <h2>Chapter Directors</h2>
+    </div>
+    <div class="columns is-multiline">
+      {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
+      {{ partial "content/child-smaller.html" . }}
       {{ end }}
     </div>
     <!-- Board of Directors -->

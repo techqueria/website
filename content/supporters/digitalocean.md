@@ -4,5 +4,5 @@ description: Providing developers and businesses a reliable, easy-to-use cloud c
 link: https://www.digitalocean.com/careers
 image: "/assets/img/supporters/digitalocean.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -4,5 +4,5 @@ description: Easy-to-use workflow automation solution that helps school district
 link: https://www.informedk12.com/careers
 image: "/assets/img/supporters/informedk12.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

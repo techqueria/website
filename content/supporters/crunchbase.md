@@ -4,7 +4,7 @@ description: "Crunchbase is the leading platform for professionals to discover i
 link: https://crunchbase.com
 image: "/assets/img/supporters/crunchbase.png"
 categories:
-  - past-supporter
+  - past-partner
 ---
 
 - Bronze Sponsor ($2,000+) in 2019

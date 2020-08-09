@@ -17,9 +17,23 @@
 {{ $placeholder = .Get "placeholder" }}
 {{ end }}
 {{ end }}
+
 <div class="field">
   <label class="label">{{ $label }}{{ if .Get "required"}}*{{ end }}</label>
-  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
-  <div class="control"><textarea class="textarea" aria-label="{{ $label }}" spellcheck="true" rows="5" name="{{$name}}"
-      id="message" placeholder="{{ $placeholder }}" {{ if .Get "required"}}required{{ end }}></textarea></div>
+  {{ if .Get "help" }}
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
+
+  <div class="control">
+    <textarea
+      class="textarea"
+      aria-label="{{ $label }}"
+      spellcheck="true"
+      rows="6"
+      name="{{$name}}"
+      id="message"
+      placeholder="{{ $placeholder }}"
+      {{ if .Get "required"}}required{{ end }}
+    ></textarea>
+  </div>
 </div>

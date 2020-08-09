@@ -4,5 +4,5 @@ description: "Splunk Inc. turns machine data into answers with the leading platf
 link: https://splunk.com
 image: "/assets/img/supporters/splunk.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

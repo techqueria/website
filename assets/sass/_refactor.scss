@@ -65,3 +65,15 @@ video {
 .gl-widget__btn--primary {
   color: $techqueria !important;
 }
+
+// Separator
+
+.mega-separator {
+  height: 4px;
+}
+
+// Columns
+
+.columns.v--flex-wrap {
+  flex-wrap: wrap;
+}

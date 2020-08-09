@@ -4,7 +4,7 @@ description: "Sentry is open-source error tracking that provides visibility acro
 link: https://sentry.io/welcome/
 image: "/assets/img/supporters/sentry.png"
 categories:
-  - past-supporter
+  - past-partner
 ---
 
 - $10K grant given in 2019

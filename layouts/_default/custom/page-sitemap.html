@@ -14,11 +14,11 @@
     {{ $pages := $pages | union (.Site.Sections) }}
     <div class="content">
       <p>There are {{ len $pages }} pages in total.</p>
-      <div class="columns is-multiline">
-        {{ range $pages.ByTitle }}
-        {{ partial "content/child.html" . }}
-        {{ end }}
-      </div>
+    </div>
+    <div class="columns is-multiline">
+      {{ range $pages.ByTitle }}
+      {{ partial "content/child.html" . }}
+      {{ end }}
     </div>
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}

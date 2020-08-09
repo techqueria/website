@@ -4,5 +4,5 @@ description: "We are a digital experience design agency with a relentless focus 
 link: https://www.criticalmass.com
 image: "/assets/img/supporters/critical-mass.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

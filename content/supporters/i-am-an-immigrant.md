@@ -4,5 +4,5 @@ description: "America’s diversity–fueled in great part by immigrants–makes
 link: https://www.iamanimmigrant.com/partners/
 image: "/assets/img/supporters/i-am-an-immigrant.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

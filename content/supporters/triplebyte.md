@@ -4,8 +4,7 @@ description: "We believe the current technical hiring process doesn’t do enoug
 link: https://triplebyte.com/a/Wergxwo/d
 image: "/assets/img/supporters/triplebyte.png"
 categories:
-  - community-partner
+  - affiliate-partner
 ---
-
 
 [![Sign up for Triplebyte](/assets/img/supporters/triplebyte/triplebyte-sign-up.png)](https://triplebyte.com/a/Wergxwo/d)
