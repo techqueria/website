@@ -1,6 +1,6 @@
 ---
-title: Students 🎓
-description: Resources related to students 
+title: "Students"
+description: "Resources for Latinx students aspiring to enter the tech industry 🎓"
 aliases:
   - /students
   - /resources/students/

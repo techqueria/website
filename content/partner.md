@@ -1,9 +1,8 @@
 ---
-title: Support Us
+title: "Become a Partner"
 description: "Help us grow the largest Latinx in Tech community by becoming a partner, sponsor, speaker or volunteer. 💙"
 hideImage: true
 image: "/assets/img/support-us/_index.jpg"
-layout: "custom/page-support-us"
 noTimeEstimate: true
 sortByWeight: true
 toc: true
@@ -13,6 +12,7 @@ aliases:
   - /become-a-software-sponsor/
   - /become-a-sponsor/
   - /become-a-supporter/
+  - /become-partner/
   - /community-partner/
   - /corporate-partner/
   - /corporate-partnerships/

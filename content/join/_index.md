@@ -1,5 +1,5 @@
 ---
-title: "Join Us"
+title: "Become a Member"
 description: "Apply to become a member of Techqueria's community. 🌮➕➕"
 image: "/assets/img/join/_index.jpg"
 noTimeEstimate: true

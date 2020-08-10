@@ -15,37 +15,27 @@ aliases:
   - /message-us/
 ---
 
-## Slack
+## Ways to Contact
+
+### Chat
+
+You can <a onclick="Beacon('open')">chat with us directly</a> through our website.
+
+### Slack
 
 Within [our Slack community](/slack/), you can reach out to us via the `#meta` channel.
 
 For technical support questions related to Slack, please contact [Slack support](https://slack.com/help).
 
-## Social Media
+### Social Media
 
 You can message us via [Twitter](https://twitter.com/Techqueria ) or [Instagram](https://instagram.com/techqueriaorg).
 
 We are less responsive to direct messages on other social media platforms so it may take longer to get back to you.
 
-## Interested in sharing job opportunities?
+### Email
 
-You can [purchase a marketing package](/support-us/corporate-partner/marketing-packages/) for job opportunities.
-
-You're also welcome to join [our Slack](/slack/) and share job postings for free in the `#jobs` channel.
-
-## Interested in partnering with us?
-
-If you're **interested in partnerships**, please fill out [this form](/support-us/) instead.
-
-We're always looking for [partners and sponsors](/supporters/) to help move our mission forward!
-
-## Email
-
-`hola@techqueria.org`
-
-This email is accessible by Techqueria's [national team leads](/team/).
-
-Filling out the form below sends an email to our executive team.
+Filling out the form below sends an email to our national team leads.
 
 <form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--max-width-unset form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Contact Message">
@@ -63,6 +53,18 @@ Filling out the form below sends an email to our executive team.
   {{< fields/referral >}}
   {{< fields/submit >}}
 </form>
+
+## Interested in sharing job opportunities?
+
+You can [purchase a marketing package](/support-us/corporate-partner/marketing-packages/) for job opportunities.
+
+You're also welcome to join [our Slack](/slack/) and share job postings for free in the `#jobs` channel.
+
+## Interested in partnering with us?
+
+If you're **interested in partnerships**, please fill out [this form](/support-us/) or email us at `partnerships@techqueria.org`
+
+We're always looking for [partners and sponsors](/supporters/) to help move our mission forward!
 
 ## Want to meet in person?
 

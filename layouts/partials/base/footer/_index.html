@@ -2,23 +2,18 @@
   <div class="container">
     <div class="columns v--flex-wrap">
       <!-- Who We Are -->
-      <div class="column is-full-mobile is-half-tablet is-one-two-fifths-desktop">
+      <div class="column is-full-mobile is-full-tablet is-two-fifths-desktop">
         {{ partialCached "base/footer/who-we-are.html" . }}
 
       </div>
-      <div class="column is-1 is-hidden-mobile"></div>
+      <div class="column is-1 is-hidden-touch pd-0"></div>
       <!-- Communities -->
-      <div class="column is-full-mobile is-half-tablet is-one-fifth-desktop">
+      <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         {{ partialCached "base/footer/communities.html" . }}
 
       </div>
-      <!-- Chapters -->
-      <div class="column is-full-mobile is-half-tablet is-one-fifth-desktop">
-        {{ partialCached "base/footer/chapters.html" . }}
-
-      </div>
       <!-- Sitemap -->
-      <div class="column is-full-mobile is-half-tablet is-one-fifth-desktop">
+      <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         {{ partialCached "base/footer/sitemap.html" . }}
 
       </div>

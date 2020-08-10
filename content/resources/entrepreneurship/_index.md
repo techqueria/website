@@ -1,6 +1,6 @@
 ---
-title: Entrepreneurship 💼
-description: Resources related to businesses by Latinx Entrepreneurs.
+title: "Entrepreneurship"
+description: "Resources for Latinx entrepreneurs 💼"
 aliases:
   - /entrepreneurship/
   - /resources/entrepreneurship/

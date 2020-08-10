@@ -1,0 +1,82 @@
+---
+title: "Podcast"
+description: "Tech reporter Jose Fermoso brings one of the most popular Slack communities to audio life through in-depth stories and interviews featuring topics affecting Latinx people including immigration policies, the coronavirus pandemic, and the latest in business challenges."
+image: "/assets/img/about/podcast/podcast-banner.png"
+layout: custom/page-about
+noTimeEstimate: true
+toc: true
+url: /podcast/
+aliases:
+  - /about/podcast/
+---
+
+Techqueria and Points of Presence Media, a new nonprofit news organization based in CA, have come together to create a podcast featuring in-depth narrative stories, interviews and business advice about and from the perspective of the Latinx in tech community.
+
+### Upcoming Episodes
+
+- Episode 1 — Coronavirus and the Latinx Community: A Young Doctor, a Green Power CEO, and a Cumbia Star Find Their Way
+- Episode 2 — Black Lives Matter and Latinx: An Afro-Latino New Yorker Reckons with his Anti-Black Family
+- Episode 3 — Coronavirus and the Latinx Community: Family and Friends Remember the Passion and Life’s Work of the Dead
+- Episode 4 — Young Software Engineers In Los Angeles and Chicago Look Back on Their Long Journeys to the Starting Line
+- Episode 5 — Coronavirus and the Latinx Community: The Techqueria Community’s $50K Grant and Our Lives on the “Essential Services” Line
+
+## Listen
+
+### Art19
+
+[Listen in Art19](https://art19.com/shows/techqueria)
+
+### Spotify
+
+[Listen in Spotify](https://open.spotify.com/show/1LAGqrqpV0vXJQN3bjFtJL?si=4_gDtycxRRGOF_bfHAnW6g)
+
+### Apple Podcasts
+
+[Listen in Apple podcasts](https://podcasts.apple.com/us/podcast/techqueria/id1518979670)
+
+### Pandora
+
+[Listen in Pandora](https://pandora.app.link/zbKLrcXKI7)
+
+### Radio Public
+
+[Listen in Radio Public](https://radiopublic.com/techqueria-WlZAk7)
+
+### Stitcher
+
+[Listen in Stitcher](https://www.stitcher.com/s?fid=544620)
+
+## Benefits
+
+- The unique opportunity to be part of the first ever podcast focused on Latinx in tech that comes with its own vibrant community. A uniquely untapped source of stories and innovation.
+- The Latinx listening audience is the fastest growing sector in podcasts. According to [Edison analysts](http://www.insideradio.com/free/edison-25-of-u-s-latino-adults-listen-to-podcasts/article_13e20f14-bb67-11ea-922c-73a10ab9722a.html), 25% of Latinx in the U.S. are monthly listeners.
+- Latinx people are the most loyal brand connectors in the U.S., according to [CCG's 2019 Retail Customer Loyalty Study](https://www.customer.com/blog/retail-marketing/hispanic-brand-loyalty/).
+- With a huge need to tell our stories properly and with necessary reporting context, the show aims to make a difference in our community.
+- Hosted by [Jose Fermoso](https://www.theguardian.com/profile/jose-fermoso), a tech journalist formerly of The Guardian and Wired, the show will have top media bonafides from the start.
+- We will intentionally seek stories that feature Afro Latinx, Asian Latinx and Indigenous Latinx. It's long past time a Latino-led media company truly reflects the community's diversity.
+
+## Sponsorship Packages
+
+Reach out to us at `podcast@techqueria.org` if you're interested in partnering.
+
+### 1 Episode - $4,000
+
+- Mention at beginning and end of episode
+- Messaging to be finalized by partner
+- Social media posts
+  - Facebook Page
+  - Facebook Group
+  - Twitter
+  - Instagram
+  - LinkedIn
+- Slack message in #announcements
+- Logo on website
+
+### 10 Episodes - $35,000 ($10,000 discount)
+
+- Same as above for each episode
+- $5,000 off
+
+---
+
+![Podcast Image](/assets/img/about/podcast/podcast-image.jpeg)

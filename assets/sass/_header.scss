@@ -5,6 +5,14 @@
     color: $techqueria-white;
   }
 
+  &.v--dark-text {
+
+    .title,
+    .subtitle {
+      color: $techqueria-black;
+    }
+  }
+
   .title {
     font-size: $size-5;
 

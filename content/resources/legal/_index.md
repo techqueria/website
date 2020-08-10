@@ -1,6 +1,6 @@
 ---
-title: Legal Help ⚖️
-description: Resources related to legal services.
+title: "Legal"
+description: "Legal resources for Latinx in tech ⚖️"
 aliases:
   - /legal-help/
   - /legal/

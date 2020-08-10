@@ -1,5 +1,5 @@
 ---
-title: "Thanks for subscribing to our newsletter!"
+title: "Thanks for subscribing"
 description: "You have successfully subscribed to Techqueria's email newsletter. ✅"
 url: /success/email/
 ---

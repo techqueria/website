@@ -111,16 +111,8 @@ disqusShortname               = "techqueria"
     url                       = "/no-tech-for-ice/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "Resources"
-    url                       = "/resources/"
-[[menu.main]]
-    parent                    = "About"
     name                      = "Team"
     url                       = "/team/"
-[[menu.main]]
-    parent                    = "About"
-    name                      = "Testimonials"
-    url                       = "/testimonials/"
 [[menu.main]]
     parent                    = "About"
     name                      = "Shop"
@@ -128,25 +120,25 @@ disqusShortname               = "techqueria"
 
 # Join Us
 [[menu.main]]
-    name                      = "Join Us"
+    name                      = "Join"
     url                       = "/join/"
 [[menu.main]]
-    parent                    = "Join Us"
+    parent                    = "Join"
     name                      = "Become a Member"
     url                       = "/join/"
     weight                    = 1
 [[menu.main]]
-    parent                    = "Join Us"
+    parent                    = "Join"
     name                      = "Become a Speaker"
     url                       = "/speak/"
     weight                    = 2
 [[menu.main]]
-    parent                    = "Join Us"
+    parent                    = "Join"
     name                      = "Become a Volunteer"
     url                       = "/volunteer/"
     weight                    = 3
 [[menu.main]]
-    parent                    = "Join Us"
+    parent                    = "Join"
     name                      = "Become a Chapter Director"
     url                       = "/chapter-director/"
     weight                    = 4
@@ -239,8 +231,8 @@ disqusShortname               = "techqueria"
     weight                    = 3
 [[menu.main]]
     parent                    = "Events"
-    name                      = "All City Chapters"
-    url                       = "https://events.techqueria.org/chapters"
+    name                      = "City Chapters"
+    url                       = "/city-chapters/"
     weight                    = 4
 [[menu.main]]
     parent                    = "Events"
@@ -252,28 +244,40 @@ disqusShortname               = "techqueria"
 [[menu.main]]
     name                      = "News"
     url                       = "/news/"
+[[menu.main]]
+    parent                    = "News"
+    name                      = "Podcast"
+    url                       = "/podcast/"
+[[menu.main]]
+    parent                    = "News"
+    name                      = "Resources"
+    url                       = "/resources/"
+[[menu.main]]
+    parent                    = "News"
+    name                      = "Testimonials"
+    url                       = "/testimonials/"
 
 # Support Us
 [[menu.main]]
-    name                      = "Support Us"
-    url                       = "/support-us/"
+    name                      = "Partner"
+    url                       = "/partner/"
 [[menu.main]]
-    parent                    = "Support Us"
+    parent                    = "Partner"
     name                      = "Partnerships Deck"
-    url                       = "/support-us/#partnerships-deck"
+    url                       = "/partner/#partnerships-deck"
     weight                    = 1
 [[menu.main]]
-    parent                    = "Support Us"
+    parent                    = "Partner"
     name                      = "Purchase a Marketing Package"
-    url                       = "/support-us/#purchase-a-marketing-package"
+    url                       = "/partner/#purchase-a-marketing-package"
     weight                    = 2
 [[menu.main]]
-    parent                    = "Support Us"
+    parent                    = "Partner"
     name                      = "Submit a Partnership Inquiry"
-    url                       = "/support-us/#submit-a-partnership-inquiry"
+    url                       = "/partner/#submit-a-partnership-inquiry"
     weight                    = 3
 [[menu.main]]
-    parent                    = "Support Us"
+    parent                    = "Partner"
     name                      = "Our Supporters"
     url                       = "/supporters/"
     weight                    = 4

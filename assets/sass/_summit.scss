@@ -1,0 +1,72 @@
+.page-lhm-summit {
+  .navbar {
+    top: 5rem;
+    z-index: 5;
+    padding: 1rem;
+    background-color: $techqueria-black;
+
+    .navbar-menu {
+      background-color: $techqueria-black;
+    }
+
+    .navbar-item {
+      color: $techqueria-white;
+
+      &:hover {
+        color: $techqueria-black;
+      }
+    }
+
+    .navbar-brand {
+      .navbar-item:hover {
+        color: $techqueria-gray;
+      }
+    }
+
+    .navbar-burger {
+      color: $techqueria-white;
+    }
+  }
+
+  .hero {
+    margin-top: 10rem;
+  }
+
+  .is-200x200 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sponsors-logo-wall {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    &--sponsor {
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 1rem;
+      text-align: center;
+
+      &:not(:hover) {
+        filter: grayscale(100%);
+      }
+
+      &--item {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        position: relative;
+
+        img {
+          max-height: 100px;
+        }
+      }
+    }
+  }
+}

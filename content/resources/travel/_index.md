@@ -1,6 +1,6 @@
 ---
-title: Travel ✈️
-description: Resources related to travel.
+title: "Travel"
+description: "Travel resources for Latinx in tech ✈️"
 aliases:
   - /travel/
   - /resources/travel/

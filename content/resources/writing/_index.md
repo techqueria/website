@@ -1,6 +1,6 @@
 ---
-title: Writing 📝
-description: Resources related to writing.
+title: "Writing"
+description: "Writing resources for Latinx in tech 📝"
 aliases:
   - /writing/
   - /resources/writing/

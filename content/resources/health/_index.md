@@ -1,6 +1,6 @@
 ---
-title: Health Care 🏥
-description: Resources related to health care.
+title: "Health Care"
+description: "Health care resources for Latinx in tech 🏥"
 aliases:
   - /health-care/
   - /resources/health-care/

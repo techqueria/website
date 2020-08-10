@@ -201,3 +201,10 @@
     margin-bottom: 0;
   }
 }
+
+// Backgrounds
+
+.has-background-primary {
+  background-color: $techqueria !important;
+  color: $techqueria-black;
+}

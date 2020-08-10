@@ -12,12 +12,11 @@
     {{ $pages := where .Site.RegularPages "Type" "page" }}
     <!-- Pages & Section Pages -->
     {{ $pages := $pages | union (.Site.Sections) }}
-    <div class="content">
-      <p>There are {{ len $pages }} pages in total.</p>
-    </div>
     <div class="columns is-multiline">
       {{ range $pages.ByTitle }}
+      {{ if .Params.sitemap }}
       {{ partial "content/child.html" . }}
+      {{ end }}
       {{ end }}
     </div>
     <!-- Content Footer -->
