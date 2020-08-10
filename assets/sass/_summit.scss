@@ -28,8 +28,13 @@
     }
   }
 
-  .hero {
-    margin-top: 10rem;
+  // .hero {
+  //   margin-top: 10rem;
+  // }
+
+  .is-100x100 {
+    width: 100px;
+    height: 100px;
   }
 
   .is-200x200 {
@@ -68,5 +73,12 @@
         }
       }
     }
+  }
+
+  .jump-section {
+    display: block;
+    position: relative;
+    top: -10rem;
+    visibility: hidden;
   }
 }

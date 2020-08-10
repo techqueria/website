@@ -1,9 +1,9 @@
 {{ define "main" }}
 <!-- Page -->
-<div class="section pt-0 page-lhm-summit">
+<div class="section pt-0 no-ids page-lhm-summit">
   <div class="container">
     <!-- Navbar -->
-    {{ partial "summit/navbar.html" . }}
+    <!-- {{ partial "summit/navbar.html" . }} -->
 
     <!-- Hero -->
     {{ partial "summit/hero.html" . }}
@@ -14,26 +14,26 @@
     <!-- Attendee Benefits -->
     {{ partial "summit/attendee-benefits.html" . }}
 
+    <!-- Testimonials -->
+    {{ partial "summit/testimonials.html" . }}
+
+    <!-- Gallery -->
+    {{ partial "summit/gallery.html" . }}
+
     <!-- Speakers -->
     {{ partial "summit/speakers.html" . }}
 
     <!-- Schedule -->
     {{ partial "summit/schedule.html" . }}
 
+    <!-- RSVP -->
+    {{ partial "summit/rsvp.html" . }}
+
     <!-- Sponsors -->
     {{ partial "summit/sponsors.html" . }}
 
     <!-- Become a Sponsor -->
     {{ partial "summit/sponsor-benefits.html" . }}
-
-    <!-- Testimonials -->
-    {{ partial "summit/testimonials.html" . }}
-
-    <!-- RSVP -->
-    {{ partial "summit/rsvp.html" . }}
-
-    <!-- Gallery -->
-    {{ partial "summit/gallery.html" . }}
 
     <!-- FAQ -->
     {{ partial "summit/faq.html" . }}

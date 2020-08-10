@@ -16,23 +16,21 @@ aliases:
     <div class="columns mb-0">
       <div class="column pb-0">
         <!-- First Name -->
-        {{ partial "content/fields/first-name.html" . }}
+        {{< fields/name_first >}}
       </div>
       <div class="column pb-0">
         <!-- Last Name -->
-        {{ partial "content/fields/last-name.html" . }}
+        {{< fields/name_last >}}
       </div>
     </div>
   </div>
-  {{< fields/email help="When signing up, please use a personal email address to avoid being locked out if you lose access to your work or school email. Make sure to check for typos in your email as this is usually the main reason someone doesn't receive an invite." >}}
-  {{< fields/linkedin >}}
-  {{< fields/latinx help="You will get an invite either way but our community primarily serves Latinx in Tech." >}}
-  {{< fields/location >}}
+  {{< fields/email >}}
   {{< fields/organization label="Where do you currently work or study?" >}}
   {{< fields/title label="What is your current role?" help="e.g. Software Engineer, UX Designer, Product Manager, Student, etc." >}}
+  {{< fields/linkedin >}}
   {{< fields/yoe >}}
   {{< fields/job_category >}}
+  {{< fields/latinx >}}
   {{< fields/pronouns >}}
-  {{< fields/referral >}}
   {{< fields/submit label="RSVP" classes="button is-primary is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
