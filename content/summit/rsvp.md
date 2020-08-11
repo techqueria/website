@@ -34,6 +34,6 @@ aliases:
   {{< fields/job_searching >}}
   {{< fields/latinx >}}
   {{< fields/pronouns >}}
-  {{< fields/submit label="RSVP to #LHM Summit" classes="button is-primary is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  {{< fields/submit label="RSVP to #LHM Summit" >}}
 </form>
 <script src="/assets/js/rsvp.js"></script>

@@ -1,43 +1,6 @@
 <div class="content mt-2">
   <h2><span class="mr-sm">📨</span>Subscribe to our newsletter</h2>
   <p>Get the latest updates from Techqueria in your inbox every month.</p>
-  <form
-    name="Subscribe to Newsletter"
-    method="POST"
-    data-netlify-recaptcha="true"
-    data-netlify="true"
-    action="/success/email/"
-    class="form--max-width-unset no-ids"
-  >
-    <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Subscribe to Newsletter" />
-    <!-- First Name + Last Name -->
-    <div class="field mt-0 mb-1">
-      <div class="columns mb-0">
-        <div class="column pb-0">
-          <!-- First Name -->
-          {{ partial "content/fields/first-name.html" . }}
+  {{ partial "content/custom/subscribe.html" . }}
 
-        </div>
-        <div class="column pb-0">
-          <!-- Last Name -->
-          {{ partial "content/fields/last-name.html" . }}
-
-        </div>
-      </div>
-    </div>
-    <!-- Email -->
-    <div class="field is-grouped mt-1">
-      <div class="control has-icons-left is-expanded">
-        <input aria-label="Your email" autocomplete="email" class="input is-flat" name="email" placeholder="Your email" required type="email" />
-        <span class="icon is-left">
-          ✉️
-        </span>
-      </div>
-      <div class="control">
-        <button class="button is-link">
-          <strong>Subscribe</strong>
-        </button>
-      </div>
-    </div>
-  </form>
 </div>

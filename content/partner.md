@@ -117,4 +117,4 @@ If you're short on time and have access to a paid Slack plan, you can reach us f
 </form>
 <script src="/assets/js/partner.js"></script>
 
-<div class="mt-8"></div>
+<div class="mt-4"></div>
