@@ -9,7 +9,7 @@ aliases:
   - /summit/tickets/
 ---
 
-<form name="RSVP to #LHM Summit" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/summit/" class="form--centered mt-2 no-ids" id="form_become_a_member">
+<form name="RSVP to #LHM Summit" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/summit/" class="form--centered mt-2 no-ids" id="form_rsvp_lhm_summit">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - RSVP to #LHM Summit">
   <!-- First Name + Last Name -->
   <div class="field mt-0 mb-1">
@@ -29,8 +29,11 @@ aliases:
   {{< fields/title label="What is your current role?" help="e.g. Software Engineer, UX Designer, Product Manager, Student, etc." >}}
   {{< fields/linkedin >}}
   {{< fields/yoe >}}
+  {{< fields/resume help="If you're actively looking for a new job, you can share your resume with our sponsors and they'll reach out if there's a good fit." >}}
   {{< fields/job_category >}}
+  {{< fields/job_searching >}}
   {{< fields/latinx >}}
   {{< fields/pronouns >}}
-  {{< fields/submit label="RSVP" classes="button is-primary is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  {{< fields/submit label="RSVP to #LHM Summit" classes="button is-primary is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
+<script src="/assets/js/rsvp.js"></script>

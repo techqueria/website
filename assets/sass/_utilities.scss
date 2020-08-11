@@ -118,6 +118,14 @@
   @extend %material-shadow;
 }
 
+.light-image-shadow {
+  @extend %light-image-shadow;
+}
+
+.very-light-image-shadow {
+  @extend %very-light-image-shadow;
+}
+
 .bg-image {
   @extend %bg-image;
 }
@@ -207,4 +215,16 @@
 .has-background-primary {
   background-color: $techqueria !important;
   color: $techqueria-black;
+}
+
+// Sizes
+
+.is-size-8 {
+  font-size: 0.75em !important;
+}
+
+// Border Radius
+
+.border-radius-4 {
+  border-radius: 4px;
 }
