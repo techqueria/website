@@ -111,7 +111,7 @@ If you're short on time and have access to a paid Slack plan, you can reach us f
   <!-- How to Partner -->
   {{< partnerships/how-to-partner >}}
   <!-- Elaborate on how they want to partner -->
-  {{< fields/message required="true" name="how_to_partner" label="What do you hope to get out of this partnership?" help="Please elaborate on what your organization would like to achieve by partnering with Techqueria and how you would like to partner with us." placeholder="Please add additional details here" >}}
+  {{< fields/message required="true" name="partnership_aspirations" label="What do you hope to get out of this partnership?" help="Please elaborate on what your organization would like to achieve by partnering with Techqueria and how you would like to partner with us." placeholder="Please add additional details here" >}}
   <!-- Elaborate on any questions they have -->
   {{< fields/message required="true" name="partnership_questions" label="What questions do you have?" help="Please let us know if you have any specfic questions on partnering with Techqueria so that we can best assist you." name="partnerships_message" placeholder="Please add additional details here" >}}
   <!-- No Tech for ICE -->
