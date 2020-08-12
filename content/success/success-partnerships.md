@@ -1,7 +1,7 @@
 ---
 title: "Thank you for submitting your inquiry"
 description: "We have successfully received your partnership inquiry! 🤝"
-url: /success/partnerships/
+url: /success/partner/
 ---
 
 We have successfully received your partnerships inquiry.

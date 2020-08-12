@@ -6,8 +6,6 @@ layout: custom/page-about
 noTimeEstimate: true
 toc: true
 url: /podcast/
-aliases:
-  - /about/podcast/
 ---
 
 Techqueria and Points of Presence Media, a new nonprofit news organization based in CA, have come together to create a podcast featuring in-depth narrative stories, interviews and business advice about and from the perspective of the Latinx in tech community.

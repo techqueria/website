@@ -76,7 +76,7 @@ We'll try our best to get back to you within 7 business days.
 
 If you're short on time and have access to a paid Slack plan, you can reach us faster by sending us an invite to a shared Slack channel.
 
-<form name="Partnerships" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/partnerships" class="form--centered no-ids" id="form_partner_with_techqueria">
+<form name="Partnerships" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/partner/" class="form--centered no-ids" id="form_partner_with_techqueria">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Partnership Inquiry">
   <!-- Email -->
   <div class="mb-0-field">
@@ -86,12 +86,18 @@ If you're short on time and have access to a paid Slack plan, you can reach us f
     <div class="column pb-0">
       <!-- First Name -->
       {{< fields/name_first >}}
-      <!-- Title -->
-      {{< fields/title >}}
     </div>
     <div class="column pb-0">
       <!-- Last Name -->
       {{< fields/name_last >}}
+    </div>
+  </div>
+    <div class="columns mb-0">
+    <div class="column pb-0">
+      <!-- Title -->
+      {{< fields/title >}}
+    </div>
+    <div class="column pb-0">
       <!-- Organization -->
       {{< fields/organization >}}
     </div>

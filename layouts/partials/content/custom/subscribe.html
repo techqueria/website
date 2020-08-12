@@ -1,12 +1,15 @@
 <form
   name="Subscribe to Newsletter"
   method="POST"
-  data-netlify-recaptcha="true"
+  netlify-honeypot="bot-field"
   data-netlify="true"
   action="/success/email/"
   class="form--max-width-unset no-ids"
 >
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Subscribe to Newsletter" />
+  <p class="is-hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
   <!-- First Name + Last Name -->
   <div class="field mt-0 mb-1">
     <div class="columns mb-0">
