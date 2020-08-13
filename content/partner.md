@@ -74,7 +74,7 @@ Please submit an inquiry below if you're interested in becoming a partner of Tec
 
 We'll try our best to get back to you within 7 business days.
 
-If you're short on time and have access to a paid Slack plan, you can reach us faster by sending us an invite to a shared Slack channel.
+If you're short on time, please refer to our partnerships deck on how we can start convos faster through a shared Slack channel.
 
 <form name="Partnerships" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/partner/" class="form--centered no-ids" id="form_partner_with_techqueria">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Partnership Inquiry">
