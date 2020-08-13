@@ -4,5 +4,5 @@ description: "Together with our clients, we're using technologies like AI, cloud
 link: https://www.ibm.com
 image: "/assets/img/supporters/ibm.jpg"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -4,7 +4,7 @@ description: "81cents provides low-cost, success-based promotion, raise, and sal
 link: https://bit.ly/81cents-techqueria
 image: "/assets/img/supporters/81cents.png"
 categories:
-  - community-partner
+  - past-partner
 ---
 
 81cents provides low-cost, success-based promotion, raise, and salary negotiation support for women and other underrepresented minorities.

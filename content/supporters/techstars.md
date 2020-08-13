@@ -4,5 +4,5 @@ description: "Building a startup takes more than funding. Nurture success by joi
 link: https://www.techstars.com/
 image: "/assets/img/supporters/techstars.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

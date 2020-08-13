@@ -12,6 +12,7 @@
 {{ $help = .Get "help" }}
 {{ end }}
 {{ end }}
+
 <div class="field">
   <label class="label">{{ $label }}</label>
   <p class="help">{{ $help }}</p>
@@ -19,13 +20,32 @@
     <div class="column">
       <div class="field mt-0">
         <label class="label">City*</label>
-        <input class="input" aria-label="City" autocomplete="address-level2" type="text" name="city" placeholder="City" data-value-missing="Please include your city." required>
+        <input
+          class="input"
+          aria-label="City"
+          autocomplete="address-level2"
+          type="text"
+          name="city"
+          placeholder="City"
+          data-value-missing="Please include your city."
+          required
+        />
       </div>
     </div>
     <div class="column">
       <div class="field mt-0">
         <label class="label">State*</label>
-        <input class="input" aria-label="State" autocomplete="address-level1" type="text" name="state" placeholder="State" data-value-missing="Please include your state." list="states" required>
+        <input
+          class="input"
+          aria-label="State"
+          autocomplete="address-level1"
+          type="text"
+          name="state"
+          placeholder="State"
+          data-value-missing="Please include your state."
+          list="states"
+          required
+        />
         <datalist id="states">
           <option value="N/A">Outside of USA</option>
           <option value="AL">Alabama</option>
@@ -85,7 +105,17 @@
     <div class="column">
       <div class="field mt-0">
         <label class="label">Country*</label>
-        <input class="input" aria-label="Country" autocomplete="country" type="text" name="country" placeholder="Country" data-value-missing="Please include your country." list="countries" required>
+        <input
+          class="input"
+          aria-label="Country"
+          autocomplete="country"
+          type="text"
+          name="country"
+          placeholder="Country"
+          data-value-missing="Please include your country."
+          list="countries"
+          required
+        />
         <datalist id="countries">
           <option value="AF">Afghanistan</option>
           <option value="AX">Åland Islands</option>

@@ -4,7 +4,7 @@ description: "Springboard, an edtech startup in a mission to bridge the world’
 link: http://mentor.springboard.com/techqueria
 image: "/assets/img/supporters/springboard.png"
 categories:
-  - community-partner
+  - affiliate-partner
 ---
 
 Springboard, an edtech startup in a mission to bridge the world’s skills gap. Learn online, with your own mentor and career coach with Springboard’s self-paced courses and get a job guaranteed or get a full refund.

@@ -4,7 +4,7 @@ description: Digital agriculture company that examines weather, soil and field d
 link: https://climate.com/careers
 image: "/assets/img/supporters/climate-corporation.png"
 categories:
-  - past-supporter
+  - past-partner
 ---
 
 - Bronze Sponsor ($2,000+) in 2019

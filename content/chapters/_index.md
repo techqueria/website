@@ -7,6 +7,7 @@ smallerCards: true
 layout: custom/page-chapters
 image: "/assets/img/communities/chapters/_index.jpg"
 url: /chapters/
+sitemap: true
 aliases:
   - /communities/chapters/
   - /chapters/

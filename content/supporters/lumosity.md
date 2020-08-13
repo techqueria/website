@@ -4,5 +4,5 @@ description: Online program consisting of games claiming to improve memory, atte
 link: https://www.lumosity.com/jobs
 image: "/assets/img/supporters/lumosity.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

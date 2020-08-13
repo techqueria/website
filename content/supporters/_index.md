@@ -4,7 +4,6 @@ description: "Sponsors, partners or contributors who have helped us maintain the
 image: "/assets/img/supporters/_index.jpg"
 layout: "custom/page-supporters"
 hideImage: true
-sitemap: true
 aliases:
   - /current-sponsors/
   - /current-supporters/

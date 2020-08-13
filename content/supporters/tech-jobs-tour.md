@@ -4,7 +4,7 @@ description: "This tour will bring together diverse and non-traditional talent w
 link: https://techjobstour.com/tour-cities/chicago2018/
 image: "/assets/img/supporters/tech-jobs-tour.png"
 categories:
-  - past-supporter
+  - past-partner
 ---
 
 This tour will bring together diverse and non-traditional talent with companies who need their skills the most.

@@ -4,5 +4,5 @@ description: "Dare to grow your business with AdRoll Growth Platform — helping
 link: https://www.adroll.com/
 image: "/assets/img/supporters/adroll-hero.jpg"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -4,5 +4,5 @@ description: "The future of our nation is a high quality STEM education for blac
 link: https://exploringtech.org/home
 image: "/assets/img/supporters/teens-exploring-technology.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

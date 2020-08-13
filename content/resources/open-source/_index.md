@@ -1,6 +1,6 @@
 ---
-title: Open Source 🔧️
-description: Resources related to open source projects.
+title: "Open Source"
+description: "Open source resources for Latinx in tech 🔧️"
 aliases:
   - /open-source/
   - /resources/open-source/

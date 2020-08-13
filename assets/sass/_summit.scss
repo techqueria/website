@@ -1,0 +1,138 @@
+.page-lhm-summit {
+  .navbar {
+    background-color: $techqueria-black;
+    padding: 1rem;
+    top: 5rem;
+    z-index: 5;
+
+    .navbar-menu {
+      background-color: $techqueria-black;
+    }
+
+    .navbar-item {
+      border-radius: 4px;
+      color: $techqueria-white;
+
+      &:hover,
+      &:focus {
+        color: $techqueria-black;
+      }
+
+      @media screen and (min-width: $laptop-large) {
+        margin: 0 0.5rem;
+        padding: 0 1rem;
+      }
+    }
+
+    .navbar-brand {
+      .navbar-item:hover {
+        color: $techqueria-gray;
+      }
+    }
+
+    .navbar-burger {
+      color: $techqueria-white;
+    }
+  }
+
+  .hero {
+    margin-top: 10rem;
+  }
+
+  .is-100x100 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .is-200x200 {
+    height: 200px;
+    width: 200px;
+  }
+
+  .sponsors-logo-wall {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    &--sponsor {
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 2rem;
+      text-align: center;
+
+      &:not(:hover) {
+        filter: grayscale(100%);
+      }
+
+      &--item {
+        align-items: center;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        position: relative;
+
+        img {
+          max-height: 75px;
+        }
+      }
+    }
+  }
+
+  .jump-section {
+    display: block;
+    position: relative;
+    top: -10rem;
+    visibility: hidden;
+  }
+
+  .section-testimonials {
+    margin-top: 2rem;
+
+    @media screen and (min-width: $laptop) {
+      margin-top: 0;
+    }
+  }
+
+  .content blockquote {
+    @extend %image-shadow;
+    align-items: center;
+    background-color: $techqueria-white;
+    border-left-color: $techqueria-dark-green;
+    color: $techqueria-black;
+    display: flex;
+
+    @media screen and (min-width: $tablet) {
+      height: 215px;
+    }
+
+    @media screen and (min-width: $laptop) {
+      height: 160px;
+    }
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 20px;
+  }
+
+  .section {
+    padding: 3em 1em;
+  }
+
+  a:hover:not(.sponsors-logo-wall--sponsor--item) {
+
+    img,
+    video {
+      @extend %light-image-shadow;
+    }
+  }
+}

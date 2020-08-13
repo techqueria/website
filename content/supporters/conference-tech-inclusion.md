@@ -4,5 +4,5 @@ description: "Join us at the Tech Inclusion Conference and Career Fair, focusing
 link: https://sf19.techinclusion.co/
 image: "/assets/img/supporters/tech-inclusion.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -4,5 +4,5 @@ description: Making the tech ecosystem and entrepreneurship more diverse, inclus
 link: https://www.kaporcenter.org/
 image: "/assets/img/supporters/kapor-center.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

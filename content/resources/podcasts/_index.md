@@ -1,6 +1,6 @@
 ---
-title: Podcasts 🎙️
-description: Resources related to podcast recommendations and tools.
+title: "Podcasts"
+description: "Podcasts for Latinx in tech 🎙️"
 aliases:
   - /podcasts/
   - /resources/podcasts/

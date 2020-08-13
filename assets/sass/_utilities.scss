@@ -24,6 +24,10 @@
   margin-top: 4em !important;
 }
 
+.mt-8 {
+  margin-top: 8em !important;
+}
+
 // Margin Right
 
 .mr-sm {
@@ -48,6 +52,10 @@
 
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.mb-sm {
+  margin-bottom: 0.5em !important;
 }
 
 .mb-1 {
@@ -108,6 +116,14 @@
 
 .material-shadow {
   @extend %material-shadow;
+}
+
+.light-image-shadow {
+  @extend %light-image-shadow;
+}
+
+.very-light-image-shadow {
+  @extend %very-light-image-shadow;
 }
 
 .bg-image {
@@ -184,4 +200,31 @@
 
 .u-max-width--tablet {
   max-width: $tablet;
+}
+
+// Fields
+
+.mb-0-field {
+  .field {
+    margin-bottom: 0;
+  }
+}
+
+// Backgrounds
+
+.has-background-primary {
+  background-color: $techqueria !important;
+  color: $techqueria-black;
+}
+
+// Sizes
+
+.is-size-8 {
+  font-size: 0.75em !important;
+}
+
+// Border Radius
+
+.border-radius-4 {
+  border-radius: 4px;
 }

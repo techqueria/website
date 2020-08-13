@@ -4,5 +4,5 @@ description: "At Flatiron School you learn how the future is being built, so you
 link: https://flatironschool.com/
 image: "/assets/img/supporters/flatironschool.jpg"
 categories:
-  - past-supporter
+  - past-partner
 ---

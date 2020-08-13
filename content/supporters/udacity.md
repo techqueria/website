@@ -4,5 +4,5 @@ description: Empowering students not just to advance their education, but to lan
 link: https://www.udacity.com/jobs
 image: "/assets/img/supporters/udacity.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

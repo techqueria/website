@@ -1,5 +1,5 @@
 ---
-title: "San Francisco Bay Area, CA"
+title: "SF Bay Area, CA"
 date: 2015-12-10
 link: https://events.techqueria.org/san-francisco-bay-area/
 channel_name: "#locals-sf"

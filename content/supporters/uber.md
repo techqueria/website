@@ -4,5 +4,5 @@ description: Take your ideas to the next level and make something that people us
 link: https://www.uber.com/careers/
 image: "/assets/img/supporters/uber.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Join Us"
+title: "Become a Member"
 description: "Apply to become a member of Techqueria's community. 🌮➕➕"
 image: "/assets/img/join/_index.jpg"
 noTimeEstimate: true
@@ -48,6 +48,7 @@ By becoming a member of Techqueria, you will get access to our:
   {{< fields/referral >}}
   {{< fields/slack_community_guidelines >}}
   {{< fields/coc >}}
+  {{< fields/disclaimer >}}
   {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>

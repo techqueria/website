@@ -17,7 +17,7 @@ It should be noted that Techqueria is not affiliated with, nor sponsor of, any e
 
 {{< community-calendar >}}
 
-### Submitting events
+### Submitting New Events ➕️
 
 Anyone is welcome to submit events to our community calendar as long as they are relevant to Latinx in Tech.
 
@@ -29,7 +29,7 @@ Upon submitting an event, our leads will be notified and we can approve your eve
   <a class="button is-primary" href="https://bit.ly/techqueria-calendar-add-event" target="_blank" rel="noopener">Submit an event</a>
 </div>
 
-### Subscribing to the calendar
+### Subscribing to Calendar 🔔️
 
 You can subscribe to this calendar so that upcoming events are always on your radar.
 

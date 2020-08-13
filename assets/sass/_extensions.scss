@@ -11,7 +11,11 @@
 }
 
 %light-image-shadow {
-  box-shadow: 0 0 5px $image-shadow;
+  box-shadow: 0 0 5px $light-image-shadow;
+}
+
+%very-light-image-shadow {
+  box-shadow: 0 0 5px $very-light-image-shadow;
 }
 
 %overflow-text {

@@ -1,6 +1,6 @@
 ---
-title: Conferences 💡
-description: Resources related to conferences.
+title: "Conferences"
+description: "Conferences for Latinx in tech 💡"
 aliases:
   - /resources/conferences/
   - /conferences/

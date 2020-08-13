@@ -4,5 +4,5 @@ description: "We're building a platform where all voices can be heard, creating 
 link: https://twitter.com
 image: "/assets/img/supporters/twitter.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

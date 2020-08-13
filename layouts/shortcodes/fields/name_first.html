@@ -1,0 +1,12 @@
+<div class="field">
+  <label class="label">Your first name*</label>
+  {{ if .Get "help" }}
+
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
+
+  <div class="control">
+    {{ partial "content/fields/first-name.html" . }}
+
+  </div>
+</div>

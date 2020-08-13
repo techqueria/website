@@ -4,5 +4,5 @@ description: "LTX Fest is creating space for visionaries to convene,  share and 
 link: https://ltxfest.com/
 image: "/assets/img/supporters/ltx-fest.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

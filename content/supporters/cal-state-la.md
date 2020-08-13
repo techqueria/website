@@ -4,5 +4,5 @@ description: "Cal State LA is the premier comprehensive public university in the
 link: http://www.calstatela.edu/
 image: "/assets/img/supporters/cal-state-la.png"
 categories:
-  - past-supporter
+  - past-partner
 ---

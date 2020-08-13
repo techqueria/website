@@ -69,6 +69,17 @@
         }
       }
     }
+
+    &.is-inverted {
+      color: $techqueria-black;
+    }
+  }
+
+  &.is-warning {
+    &:hover {
+      background-color: $techqueria-black;
+      color: $techqueria-white;
+    }
   }
 }
 
