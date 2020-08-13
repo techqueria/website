@@ -13,4 +13,6 @@ aliases:
   - /communities/email-newsletter/
 ---
 
+{{< fields/disclaimer >}}
+
 {{< subscribe >}}

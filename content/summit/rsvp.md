@@ -29,11 +29,12 @@ aliases:
   {{< fields/title label="What is your current role?" help="e.g. Software Engineer, UX Designer, Product Manager, Student, etc." >}}
   {{< fields/linkedin >}}
   {{< fields/yoe >}}
-  {{< fields/resume help="If you're actively looking for a new job, you can share your resume with our sponsors and they'll reach out if there's a good fit. Please upload a 1-page PDF file." >}}
+  {{< fields/resume help="If you're looking for a new job, you can share your resume with our sponsors and they'll reach out if there's a good fit. Please upload a 1-page PDF file." >}}
   {{< fields/job_category >}}
   {{< fields/job_searching >}}
   {{< fields/pronouns >}}
   {{< fields/latinx >}}
+  {{< fields/disclaimer >}}
   {{< fields/submit label="RSVP to #LHM Summit" >}}
 </form>
 <script src="/assets/js/rsvp.js"></script>

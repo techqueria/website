@@ -10,8 +10,8 @@
     }
 
     .navbar-item {
-      color: $techqueria-white;
       border-radius: 4px;
+      color: $techqueria-white;
 
       &:hover,
       &:focus {
@@ -98,11 +98,11 @@
   }
 
   .content blockquote {
-    border-left-color: #4c885c;
-    color: $techqueria-black;
-    background-color: $techqueria-white;
     @extend %image-shadow;
     align-items: center;
+    background-color: $techqueria-white;
+    border-left-color: $techqueria-dark-green;
+    color: $techqueria-black;
     display: flex;
 
     @media screen and (min-width: $tablet) {
@@ -117,10 +117,10 @@
   ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0;
+    margin-block-start: 1em;
     margin-inline-end: 0;
+    margin-inline-start: 0;
     padding-inline-start: 20px;
   }
 
