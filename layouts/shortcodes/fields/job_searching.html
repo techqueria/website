@@ -1,6 +1,7 @@
 <div class="field">
   <label class="label">What's your job search status?*</label>
   {{ if .Get "help" }}
+
   <p class="help">{{ .Get "help" }}</p>
   {{ end }}
 
@@ -32,10 +33,10 @@
         type="radio"
         aria-label="Are you interested in hearing about job opportunities?"
         name="job_search_status"
-        value="Not looking, but open to offers"
+        value="Not looking but open to offers"
         required
       />
-      Not looking, but open to offers
+      Not looking but open to offers
     </label>
     <br />
     <label class="radio">
