@@ -135,4 +135,15 @@
       @extend %light-image-shadow;
     }
   }
+
+  @media screen and (max-width: $mobile) {
+    .container.is-fluid {
+      padding: 0;
+    }
+
+    .section {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }

@@ -1,63 +1,34 @@
 <span class="jump-section" id="speakers"></span>
 <section class="section">
-  <div class="container has-text-centered py-4">
+  <div class="container is-fluid has-text-centered py-4">
     <h2 class="title">Speakers</h2>
     <p>Leading Latinx professionals in tech</p>
-    <div class="is-centered pt-2 pb-2">
-      <a class="button is-info is-large is-outlined" href="https://airtable.com/shrNQPLbAxFHUqxE6" rel="noopener" target="_blank">Apply to Speak</a>
+    <div class="columns is-centered is-multiline py-5 pt-3">
+      {{ range sort $.Site.Data.speakers ".name" }}
+      <div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd">
+        <div class="level">
+          <div class="level-item">
+            <figure class="image is-200x200">
+              <img class="is-rounded lozad" src="{{ .image }}" data-src="{{ .image }}" alt="{{ .name }}" />
+            </figure>
+          </div>
+        </div>
+        <h5 class="title is-5">{{ .name }}</h5>
+        <p class="subtitle is-6">{{ .title }}, {{ .organization }}</p>
+        <div class="buttons is-centered pb-1">
+          {{ if .twitter }}
+          <a class="button" href="{{ .twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+          {{ end }}
+          {{ if .linkedin }}
+          <a class="button" href="{{ .linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          {{ end }}
+        </div>
+      </div>
+      {{end}}
     </div>
-    <div class="columns is-centered is-multiline py-5">
-      <!-- Frances Coronel -->
-      <div class="column is-6 is-3-widescreen">
-        <div class="level">
-          <div class="level-item">
-            <figure class="image is-200x200">
-              <img class="is-rounded lozad" src="/assets/img/summit/team/frances-coronel.jpg" data-src="/assets/img/summit/team/frances-coronel.jpg" alt="Frances Coronel" />
-            </figure>
-          </div>
-        </div>
-        <h5 class="title is-5">Frances Coronel</h5>
-        <p class="subtitle is-6">Executive Director, Techqueria</p>
-        <div class="buttons is-centered">
-          <a class="button" href="https://twitter.com/fvcproductions" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-          <a class="button" href="https://linkedin.com/in/fvcproductions" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-      <!-- TBD -->
-      <div class="column is-6 is-3-widescreen">
-        <div class="level">
-          <div class="level-item">
-            <figure class="image is-200x200">
-              <img class="is-rounded lozad" src="/assets/img/summit/speakers/blank-speaker.png" data-src="/assets/img/summit/speakers/blank-speaker.png" alt="Frances Coronel" />
-            </figure>
-          </div>
-        </div>
-        <h5 class="title is-5">TBD</h5>
-        <p class="subtitle is-6">TBD</p>
-      </div>
-      <!-- TBD -->
-      <div class="column is-6 is-3-widescreen">
-        <div class="level">
-          <div class="level-item">
-            <figure class="image is-200x200">
-              <img class="is-rounded lozad" src="/assets/img/summit/speakers/blank-speaker.png" data-src="/assets/img/summit/speakers/blank-speaker.png" alt="TBD" />
-            </figure>
-          </div>
-        </div>
-        <h5 class="title is-5">TBD</h5>
-        <p class="subtitle is-6">TBD</p>
-      </div>
-      <!-- TBD -->
-      <div class="column is-6 is-3-widescreen">
-        <div class="level">
-          <div class="level-item">
-            <figure class="image is-200x200">
-              <img class="is-rounded lozad" src="/assets/img/summit/speakers/blank-speaker.png" data-src="/assets/img/summit/speakers/blank-speaker.png" alt="TBD" />
-            </figure>
-          </div>
-        </div>
-        <h5 class="title is-5">TBD</h5>
-        <p class="subtitle is-6">TBD</p>
-      </div>
+    <!-- Apply to Speak -->
+    <div class="is-centered pt-2 pb-2">
+      <a class="button is-info is-large is-outlined" href="https://airtable.com/shrNQPLbAxFHUqxE6" rel="noopener"
+        target="_blank">Apply to Speak</a>
     </div>
 </section>
