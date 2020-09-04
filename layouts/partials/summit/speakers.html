@@ -1,11 +1,11 @@
 <span class="jump-section" id="speakers"></span>
 <section class="section">
-  <div class="container has-text-centered py-4">
+  <div class="container is-fluid has-text-centered py-4">
     <h2 class="title">Speakers</h2>
     <p>Leading Latinx professionals in tech</p>
     <div class="columns is-centered is-multiline py-5 pt-3">
       {{ range sort $.Site.Data.speakers ".name" }}
-      <div class="column is-6 is-3-widescreen">
+      <div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd">
         <div class="level">
           <div class="level-item">
             <figure class="image is-200x200">
@@ -25,8 +25,10 @@
         </div>
       </div>
       {{end}}
-      <!-- Apply to Speak -->
-      <div class="is-centered pt-2 pb-2">
-        <a class="button is-info is-large is-outlined" href="https://airtable.com/shrNQPLbAxFHUqxE6" rel="noopener" target="_blank">Apply to Speak</a>
-      </div>
+    </div>
+    <!-- Apply to Speak -->
+    <div class="is-centered pt-2 pb-2">
+      <a class="button is-info is-large is-outlined" href="https://airtable.com/shrNQPLbAxFHUqxE6" rel="noopener"
+        target="_blank">Apply to Speak</a>
+    </div>
 </section>

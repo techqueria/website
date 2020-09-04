@@ -58,5 +58,47 @@
     "organization": "Avanade",
     "image": "/assets/img/summit/speakers/mina-rabideaux.png",
     "linkedin": "https://www.linkedin.com/in/mina-rabideaux-8b1b2582/"
+  },
+  "Yoselin Gonzalez-Mendez": {
+    "name": "Yoselin Gonzalez-Mendez",
+    "title": "Community Engagement Manager",
+    "organization": "First Graduate",
+    "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
+    "linkedin": "https://www.linkedin.com/in/yoselinggm/"
+  },
+  "Amber Gonzales-Vargas": {
+    "name": "Amber Gonzales-Vargas",
+    "title": "Senior Program Manager",
+    "organization": "Latino Community Foundation",
+    "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
+    "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
+  },
+  "Krys Flores": {
+    "name": "Krys Flores",
+    "title": "Senior Software Engineer",
+    "organization": "EarnUp",
+    "image": "/assets/img/team/krystal-flores.jpg",
+    "linkedin": "https://www.linkedin.com/in/krystalflores/"
+  },
+  "Michael Urbina": {
+    "name": "Michael Urbina",
+    "title": "Executive Recruiter",
+    "organization": "Box",
+    "image": "/assets/img/team/michael-urbina.jpeg",
+    "linkedin": "https://www.linkedin.com/in/michaelurbina/"
+  },
+  "Ramona Robles": {
+    "name": "Ramona Robles",
+    "title": "Learning & Development Manager",
+    "organization": "Unite Us",
+    "image": "/assets/img/summit/speakers/ramona-robles.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ramonarobles/"
+  },
+  "Tonatiuh Ramos": {
+    "name": "Tonatiuh Ramos",
+    "title": "Lead",
+    "organization": "Dreamers in Tech",
+    "image": "/assets/img/team/tonatiuh-ramos.jpg",
+    "linkedin": "https://www.linkedin.com/in/tonaramos/"
   }
 }
