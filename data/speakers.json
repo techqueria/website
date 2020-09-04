@@ -1,0 +1,62 @@
+{
+  "Frances Coronel": {
+    "name": "Frances Coronel",
+    "title": "Executive Director",
+    "organization": "Techqueria",
+    "image": "/assets/img/summit/team/frances-coronel.jpg",
+    "twitter": "https://twitter.com/fvcproductions",
+    "linkedin": "https://linkedin.com/in/fvcproductions"
+  },
+  "Felipe Ventura": {
+    "name": "Felipe Ventura",
+    "title": "Executive Director",
+    "organization": "Techqueria",
+    "image": "/assets/img/team/felipe-ventura.jpg",
+    "twitter": "https://twitter.com/fvntr",
+    "linkedin": "https://linkedin.com/in/fvntr"
+  },
+  "Josh Torres": {
+    "name": "Josh Torres",
+    "title": "Chief of Staff",
+    "organization": "Out in Tech",
+    "image": "/assets/img/summit/speakers/josh-torres.jpg",
+    "twitter": "https://twitter.com/torjo87",
+    "linkedin": "https://www.linkedin.com/in/joshtorres/"
+  },
+  "Jose Fermos": {
+    "name": "Jose Fermos",
+    "title": "Founder",
+    "organization": "Points of Presence Media",
+    "image": "/assets/img/summit/speakers/jose-fermoso.jpeg",
+    "twitter": "https://twitter.com/fermoso",
+    "linkedin": "https://www.linkedin.com/in/jose-fermoso-9240881/"
+  },
+  "Michael Orozco": {
+    "name": "Michael Orozco",
+    "title": "Technical Recruiter",
+    "organization": "Netflix",
+    "image": "/assets/img/summit/speakers/michael-orozco.jpeg",
+    "linkedin": "https://www.linkedin.com/in/michael-orozco-jr-he-him-%C3%A9l-8a397968/"
+  },
+  "Sofia Rodriguez": {
+    "name": "Sofia Rodriguez",
+    "title": "Senior Community Manager",
+    "organization": "Salesforce",
+    "image": "/assets/img/summit/speakers/sofia-rodriguez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sofmata/"
+  },
+  "Ximena Cervantes": {
+    "name": "Ximena Cervantes",
+    "title": "Senior Technical Recruiter",
+    "organization": "Vouch Insurance",
+    "image": "/assets/img/summit/speakers/ximena-cervantes.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ximenacervantes/"
+  },
+  "Mina Rabideaux": {
+    "name": "Mina Rabideaux",
+    "title": "Senior Analyst, Data & Analytics",
+    "organization": "Avanade",
+    "image": "/assets/img/summit/speakers/mina-rabideaux.png",
+    "linkedin": "https://www.linkedin.com/in/mina-rabideaux-8b1b2582/"
+  }
+}
