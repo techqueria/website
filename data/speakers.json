@@ -76,7 +76,7 @@
   "Krys Flores": {
     "name": "Krys Flores",
     "title": "Senior Software Engineer",
-    "organization": "EarnUp",
+    "organization": "Lob",
     "image": "/assets/img/team/krystal-flores.jpg",
     "linkedin": "https://www.linkedin.com/in/krystalflores/"
   },
@@ -156,5 +156,12 @@
     "organization": "DNC (Democratic National Committee)",
     "image": "/assets/img/team/mica-alaniz.jpg",
     "linkedin": "https://www.linkedin.com/in/micaalaniz/"
+  },
+  "Amelia Garcia": {
+    "name": "Amelia Garcia",
+    "title": "Senior Strategy Associate",
+    "organization": "Scribd",
+    "image": "/assets/img/team/amelia-garcia.jpg",
+    "linkedin": "https://www.linkedin.com/in/garciaamelia/"
   }
 }
