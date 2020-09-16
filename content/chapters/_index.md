@@ -12,6 +12,7 @@ aliases:
   - /communities/chapters/
   - /chapters/
   - /cities/
+  - /city-chapters/
   - /es/communities/chapters/austin/
   - /es/communities/chapters/bay-area/
   - /es/communities/chapters/chicago/
