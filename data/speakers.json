@@ -23,8 +23,8 @@
     "twitter": "https://twitter.com/torjo87",
     "linkedin": "https://www.linkedin.com/in/joshtorres/"
   },
-  "Jose Fermos": {
-    "name": "Jose Fermos",
+  "Jose Fermoso": {
+    "name": "Jose Fermoso",
     "title": "Founder",
     "organization": "Points of Presence Media",
     "image": "/assets/img/summit/speakers/jose-fermoso.jpeg",
@@ -100,5 +100,61 @@
     "organization": "Dreamers in Tech",
     "image": "/assets/img/team/tonatiuh-ramos.jpg",
     "linkedin": "https://www.linkedin.com/in/tonaramos/"
+  },
+  "Laura Dominguez": {
+    "name": "Laura Dominguez",
+    "title": "Career Services Manager",
+    "organization": "Flockjay",
+    "image": "/assets/img/team/laura-dominguez.jpg",
+    "linkedin": "https://www.linkedin.com/in/laura-doming/"
+  },
+  "Renee Ramirez": {
+    "name": "Renee Ramirez",
+    "title": "Executive Advisor",
+    "organization": "Google",
+    "image": "/assets/img/team/renee-ramirez.jpg",
+    "linkedin": "https://linkedin.com/in/ReneeInSF"
+  },
+  "Elaine Montilla": {
+    "name": "Elaine Montilla",
+    "title": "Assistant Vice President and CIO",
+    "organization": "The Graduate Center, CUNY",
+    "image": "/assets/img/team/elaine-montilla.jpg",
+    "linkedin": "https://www.linkedin.com/in/emontilla/"
+  },
+  "Red Avila": {
+    "name": "Red Avila",
+    "title": "Senior Technical Recruiter",
+    "organization": "OpenAI",
+    "image": "/assets/img/team/red-avila.jpg",
+    "linkedin": "https://www.linkedin.com/in/jredavila/"
+  },
+  "Zainab Ebrahimi": {
+    "name": "Zainab Ebrahimi",
+    "title": "Software Engineering Consultant",
+    "organization": "Tall Poppy",
+    "image": "/assets/img/team/zainab-ebrahimi.jpg",
+    "linkedin": "https://www.linkedin.com/in/zainab-ebrahimi-a601b347/"
+  },
+  "Cuco Vega": {
+    "name": "Cuco Vega",
+    "title": "Co-Founder, CTO",
+    "organization": "Bexi",
+    "image": "/assets/img/team/cuco-vega.jpg",
+    "linkedin": "https://www.linkedin.com/in/cucovega/"
+  },
+  "Annelise Hagar-Preciado": {
+    "name": "Annelise Hagar-Preciado",
+    "title": "Operations Program Manager",
+    "organization": "Lyft",
+    "image": "/assets/img/team/annelise-hagar-preciado.jpg",
+    "linkedin": "https://www.linkedin.com/in/annelisehagar/"
+  },
+  "Mica Alaniz": {
+    "name": "Mica Alaniz",
+    "title": "Senior Software Engineer, Tech Lead",
+    "organization": "DNC (Democratic National Committee)",
+    "image": "/assets/img/team/mica-alaniz.jpg",
+    "linkedin": "https://www.linkedin.com/in/micaalaniz/"
   }
 }
