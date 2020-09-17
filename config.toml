@@ -231,8 +231,8 @@ disqusShortname               = "techqueria"
     weight                    = 3
 [[menu.main]]
     parent                    = "Events"
-    name                      = "City Chapters"
-    url                       = "/city-chapters/"
+    name                      = "Chapters"
+    url                       = "/chapters/"
     weight                    = 4
 [[menu.main]]
     parent                    = "Events"

@@ -13,8 +13,6 @@ aliases:
   - /support-us/speak/
 ---
 
-> **August 2020 Update** If you're interested in speaking at [our #LHM Summit](/summit/), you can [apply to speak here](https://airtable.com/shrNQPLbAxFHUqxE6).
-
 If you are interested in supporting Techqueria as an individual, one great way to help out is by becoming a speaker for our events.
 
 ## As a speaker, you receive the opportunity to...
