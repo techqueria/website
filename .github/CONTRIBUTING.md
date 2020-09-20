@@ -226,7 +226,7 @@ When adding a new person, make sure to use their LinkedIn profile as the URL and
 ```markdown
 ---
 title: Frances Coronel
-image: "/assets/img/team/frances-coronel.jpg"
+image: "/assets/img/team/staff/frances-coronel.jpg"
 description: "Software Engineer, Slack"
 linkedin: fvcproductions
 twitter: fvcproductions

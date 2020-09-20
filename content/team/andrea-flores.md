@@ -1,6 +1,6 @@
 ---
 title: Andrea Flores
-image: "/assets/img/team/andrea-flores.jpg"
+image: "/assets/img/team/board/andrea-flores.jpg"
 description: "Board Member & Chapter Director, Austin"
 linkedin: https://www.linkedin.com/in/andreaf
 categories:
