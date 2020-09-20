@@ -101,7 +101,7 @@
     @extend %image-shadow;
     align-items: center;
     background-color: $techqueria-white;
-    border-left-color: $techqueria-dark-green;
+    border-left-color: $techqueria-green;
     color: $techqueria-black;
     display: flex;
 
@@ -144,6 +144,25 @@
     .section {
       padding-left: 0;
       padding-right: 0;
+    }
+  }
+
+  .section-speakers {
+
+    a {
+
+      img,
+      video {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    a:hover {
+
+      img,
+      video {
+        box-shadow: 0 0 30px $techqueria-green;
+      }
     }
   }
 }

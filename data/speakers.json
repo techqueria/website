@@ -4,7 +4,6 @@
     "title": "Host",
     "organization": "Latinx in America Podcast",
     "image": "/assets/img/summit/speakers/adriana-flores-ragade.png",
-    "twitter": "https://twitter.com/AmericaLatinx",
     "linkedin": "https://www.linkedin.com/in/adriana-flores-ragade-b4a9a11/"
   },
   "Alexis Lucio": {
@@ -12,15 +11,13 @@
     "title": "Accessibility and Inclusive Design Lead",
     "organization": "Splunk",
     "image": "/assets/img/summit/speakers/alexis-lucio.png",
-    "twitter": "https://twitter.com/alexisxlucio",
     "linkedin": "https://www.linkedin.com/in/alexislucio/"
   },
   "Amanda Lopez": {
     "name": "Amanda Lopez",
     "title": "Manager, Talent Acquisition (Digital Experience)",
     "organization": "Adobe",
-    "image": "/assets/img/summit/speakers/alexis-lucio.png",
-    "twitter": "https://twitter.com/alexisxlucio",
+    "image": "/assets/img/summit/speakers/amanda-lopez.png",
     "linkedin": "https://www.linkedin.com/in/amandalopezmaed/"
   },
   "Amber Gonzales-Vargas": {
@@ -30,143 +27,26 @@
     "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
     "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
   },
-  "Frances Coronel": {
-    "name": "Frances Coronel",
-    "title": "Executive Director",
-    "organization": "Techqueria",
-    "image": "/assets/img/summit/team/frances-coronel.jpg",
-    "twitter": "https://twitter.com/fvcproductions",
-    "linkedin": "https://linkedin.com/in/fvcproductions"
+  "Amelia Garcia": {
+    "name": "Amelia Garcia",
+    "title": "Senior Strategy Associate",
+    "organization": "Scribd",
+    "image": "/assets/img/summit/speakers/amelia-garcia.jpg",
+    "linkedin": "https://www.linkedin.com/in/garciaamelia/"
   },
-  "Felipe Ventura": {
-    "name": "Felipe Ventura",
-    "title": "Executive Director",
-    "organization": "Techqueria",
-    "image": "/assets/img/team/felipe-ventura.jpg",
-    "twitter": "https://twitter.com/fvntr",
-    "linkedin": "https://linkedin.com/in/fvntr"
+  "Andrew Gonzalez": {
+    "name": "Andrew Gonzalez",
+    "title": "Recruiting Partnerships & Operations Associate",
+    "organization": "Jam City",
+    "image": "/assets/img/summit/speakers/andrew-gonzalez.png",
+    "linkedin": "https://www.linkedin.com/in/andrewag/"
   },
-  "Josh Torres": {
-    "name": "Josh Torres",
-    "title": "Chief of Staff",
-    "organization": "Out in Tech",
-    "image": "/assets/img/summit/speakers/josh-torres.jpg",
-    "twitter": "https://twitter.com/torjo87",
-    "linkedin": "https://www.linkedin.com/in/joshtorres/"
-  },
-  "Jose Fermoso": {
-    "name": "Jose Fermoso",
-    "title": "Founder",
-    "organization": "Points of Presence Media",
-    "image": "/assets/img/summit/speakers/jose-fermoso.jpeg",
-    "twitter": "https://twitter.com/fermoso",
-    "linkedin": "https://www.linkedin.com/in/jose-fermoso-9240881/"
-  },
-  "Michael Orozco": {
-    "name": "Michael Orozco",
-    "title": "Technical Recruiter",
-    "organization": "Netflix",
-    "image": "/assets/img/summit/speakers/michael-orozco.jpeg",
-    "linkedin": "https://www.linkedin.com/in/michael-orozco-jr-he-him-%C3%A9l-8a397968/"
-  },
-  "Sofia Rodriguez": {
-    "name": "Sofia Rodriguez",
-    "title": "Senior Community Manager",
-    "organization": "Salesforce",
-    "image": "/assets/img/summit/speakers/sofia-rodriguez.jpeg",
-    "linkedin": "https://www.linkedin.com/in/sofmata/"
-  },
-  "Ximena Cervantes": {
-    "name": "Ximena Cervantes",
-    "title": "Senior Technical Recruiter",
-    "organization": "Vouch Insurance",
-    "image": "/assets/img/summit/speakers/ximena-cervantes.jpeg",
-    "linkedin": "https://www.linkedin.com/in/ximenacervantes/"
-  },
-  "Mina Rabideaux": {
-    "name": "Mina Rabideaux",
-    "title": "Senior Analyst, Data & Analytics",
-    "organization": "Avanade",
-    "image": "/assets/img/summit/speakers/mina-rabideaux.png",
-    "linkedin": "https://www.linkedin.com/in/mina-rabideaux-8b1b2582/"
-  },
-  "Yoselin Gonzalez-Mendez": {
-    "name": "Yoselin Gonzalez-Mendez",
-    "title": "Community Engagement Manager",
-    "organization": "First Graduate",
-    "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
-    "linkedin": "https://www.linkedin.com/in/yoselinggm/"
-  },
-
-  "Krys Flores": {
-    "name": "Krys Flores",
-    "title": "Senior Software Engineer",
-    "organization": "Lob",
-    "image": "/assets/img/team/krystal-flores.jpg",
-    "linkedin": "https://www.linkedin.com/in/krystalflores/"
-  },
-  "Michael Urbina": {
-    "name": "Michael Urbina",
-    "title": "Executive Recruiter",
-    "organization": "Box",
-    "image": "/assets/img/team/michael-urbina.jpeg",
-    "linkedin": "https://www.linkedin.com/in/michaelurbina/"
-  },
-  "Ramona Robles": {
-    "name": "Ramona Robles",
-    "title": "Learning & Development Manager",
-    "organization": "Unite Us",
-    "image": "/assets/img/summit/speakers/ramona-robles.jpeg",
-    "linkedin": "https://www.linkedin.com/in/ramonarobles/"
-  },
-  "Tonatiuh Ramos": {
-    "name": "Tonatiuh Ramos",
-    "title": "Lead",
-    "organization": "Dreamers in Tech",
-    "image": "/assets/img/team/tonatiuh-ramos.jpg",
-    "linkedin": "https://www.linkedin.com/in/tonaramos/"
-  },
-  "Laura Dominguez": {
-    "name": "Laura Dominguez",
-    "title": "Career Services Manager",
-    "organization": "Flockjay",
-    "image": "/assets/img/summit/speakers/laura-dominguez.jpg",
-    "linkedin": "https://www.linkedin.com/in/laura-doming/"
-  },
-  "Renee Ramirez": {
-    "name": "Renee Ramirez",
-    "title": "Executive Advisor",
-    "organization": "Google",
-    "image": "/assets/img/summit/speakers/renee-ramirez.jpg",
-    "linkedin": "https://linkedin.com/in/ReneeInSF"
-  },
-  "Elaine Montilla": {
-    "name": "Elaine Montilla",
-    "title": "Assistant Vice President and CIO",
-    "organization": "The Graduate Center, CUNY",
-    "image": "/assets/img/summit/speakers/elaine-montilla.jpg",
-    "linkedin": "https://www.linkedin.com/in/emontilla/"
-  },
-  "Red Avila": {
-    "name": "Red Avila",
-    "title": "Senior Technical Recruiter",
-    "organization": "OpenAI",
-    "image": "/assets/img/summit/speakers/red-avila.jpg",
-    "linkedin": "https://www.linkedin.com/in/jredavila/"
-  },
-  "Zainab Ebrahimi": {
-    "name": "Zainab Ebrahimi",
-    "title": "Software Engineering Consultant",
-    "organization": "Tall Poppy",
-    "image": "/assets/img/summit/speakers/zainab-ebrahimi.jpg",
-    "linkedin": "https://www.linkedin.com/in/zainab-ebrahimi-a601b347/"
-  },
-  "Cuco Vega": {
-    "name": "Cuco Vega",
-    "title": "Co-Founder, CTO",
-    "organization": "Bexi",
-    "image": "/assets/img/summit/speakers/cuco-vega.jpg",
-    "linkedin": "https://www.linkedin.com/in/cucovega/"
+  "Angie Calderon": {
+    "name": "Angie Calderon",
+    "title": "Talent Specialist",
+    "organization": "Figma",
+    "image": "/assets/img/summit/speakers/angie-calderon.png",
+    "linkedin": "https://www.linkedin.com/in/angiecalderon/"
   },
   "Annelise Hagar-Preciado": {
     "name": "Annelise Hagar-Preciado",
@@ -175,6 +55,286 @@
     "image": "/assets/img/team/annelise-hagar-preciado.jpg",
     "linkedin": "https://www.linkedin.com/in/annelisehagar/"
   },
+  "Brendon Villalobos": {
+    "name": "Brendon Villalobos",
+    "title": "Machine Learning Technical Lead",
+    "organization": "Twilio",
+    "image": "/assets/img/summit/speakers/brendon-villalobos.jpeg",
+    "linkedin": "https://www.linkedin.com/in/bkvillalobos/"
+  },
+  "Camilo Payan": {
+    "name": "Camilo Payan",
+    "title": "Web Developer",
+    "organization": "Residential Elevator Manufacturing, Inc",
+    "image": "/assets/img/summit/speakers/camilo-payan.png",
+    "linkedin": "https://www.linkedin.com/in/cpayan"
+  },
+  "Cari Perez": {
+    "name": "Cari Perez",
+    "title": "Community Manager",
+    "organization": "General Assembly",
+    "image": "/assets/img/team/chapter-directors/cari-perez.jpg",
+    "linkedin": ""
+  },
+  "Carita Marrow": {
+    "name": "Carita Marrow",
+    "title": "Community Manager",
+    "organization": "General Assembly",
+    "image": "/assets/img/summit/speakers/carita-marrow.png",
+    "linkedin": "https://www.linkedin.com/in/caridadperez/"
+  },
+  "Celina Zamora": {
+    "name": "Celina Zamora",
+    "title": "Sr. Program Manager, Developer Community",
+    "organization": "MongoDB",
+    "image": "/assets/img/summit/speakers/celina-zamora.png",
+    "linkedin": "https://www.linkedin.com/in/celina-zamora/"
+  },
+  "Christian Arana": {
+    "name": "Christian Arana",
+    "title": "Policy Director",
+    "organization": "Latino Community Foundation",
+    "image": "/assets/img/summit/speakers/christian-arana.png",
+    "linkedin": "https://www.linkedin.com/in/christian-arana/"
+  },
+  "Citalli Solano Leonce": {
+    "name": "Citalli Solano Leonce",
+    "title": "Director of Engineering",
+    "organization": "Splunk",
+    "image": "/assets/img/summit/speakers/citlalli-solano-leonce.png",
+    "linkedin": "https://www.linkedin.com/in/cit1a11i/"
+  },
+  "Cuco Vega": {
+    "name": "Cuco Vega",
+    "title": "Co-Founder & CTO",
+    "organization": "Bexi",
+    "image": "/assets/img/summit/speakers/cuco-vega.jpg",
+    "linkedin": "https://www.linkedin.com/in/cucovega/"
+  },
+  "Cynthia Maxwell": {
+    "name": "Cynthia Maxwell",
+    "title": "Studio UI Engineering Manager",
+    "organization": "Netflix",
+    "image": "/assets/img/summit/speakers/cynthia-maxwell.jpg",
+    "linkedin": "https://www.linkedin.com/in/cynthiamaxwell/"
+  },
+  "Desiree Zamora Garcia": {
+    "name": "Desiree Zamora Garcia",
+    "title": "Product Design Manager",
+    "organization": "Loom",
+    "image": "/assets/img/summit/speakers/desiree-garcia.png",
+    "linkedin": "https://www.linkedin.com/in/thedezzie/"
+  },
+  "Dia Bondi": {
+    "name": "Dia Bondi",
+    "title": "Communications Catalyst & Coach",
+    "organization": "Dia Bondi Communications ",
+    "image": "/assets/img/summit/speakers/dia-bondi.png",
+    "linkedin": "https://www.linkedin.com/in/dia-bondi/"
+  },
+  "Dr. Ricardo Baeza-Yates": {
+    "name": "Dr. Ricardo Baeza-Yates",
+    "title": "Director of Graduate Data Science Programs",
+    "organization": "Northeastern University",
+    "image": "/assets/img/summit/speakers/ricardo-baeza-yates.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ricardobaezayates/"
+  },
+  "Elaine Montilla": {
+    "name": "Elaine Montilla",
+    "title": "Assistant Vice President and CIO",
+    "organization": "The Graduate Center, CUNY",
+    "image": "/assets/img/summit/speakers/elaine-montilla.jpg",
+    "linkedin": "https://www.linkedin.com/in/emontilla/"
+  },
+  "Eliana Briceno": {
+    "name": "Eliana Briceno",
+    "title": "Senior Customer Success Manager and Team Lead",
+    "organization": "Phone2Action",
+    "image": "/assets/img/summit/speakers/eliana-briceno.png",
+    "linkedin": "https://www.linkedin.com/in/elianabriceno/"
+  },
+  "Emmanuel Olvera": {
+    "name": "Emmanuel Olvera",
+    "title": "Founder",
+    "organization": "EmploesTI",
+    "image": "/assets/img/summit/speakers/emmanuel-olvera.png",
+    "linkedin": "https://www.linkedin.com/in/eolver/"
+  },
+  "Erika Galeana-Sanchez": {
+    "name": "Erika Galeana-Sanchez",
+    "title": "Sr. Creative Producer",
+    "organization": "Airbnb",
+    "image": "/assets/img/summit/speakers/erika-galeana-zanchez.jpg",
+    "linkedin": "https://www.linkedin.com/in/erika-galeana-sanchez/"
+  },
+  "Felipe Ventura": {
+    "name": "Felipe Ventura",
+    "title": "Executive Director",
+    "organization": "Techqueria",
+    "image": "/assets/img/team/felipe-ventura.jpg",
+    "linkedin": "https://linkedin.com/in/fvntr"
+  },
+  "Frances Coronel": {
+    "name": "Frances Coronel",
+    "title": "Executive Director",
+    "organization": "Techqueria",
+    "image": "/assets/img/summit/team/frances-coronel.jpg",
+    "linkedin": "https://linkedin.com/in/fvcproductions"
+  },
+  "Francisco Alegria": {
+    "name": "Francisco Alegria",
+    "title": "Recruiter",
+    "organization": "OkCupid",
+    "image": "/assets/img/summit/speakers/francisco-alegria.png",
+    "linkedin": "https://www.linkedin.com/in/francisco-alegria-844b6a95/"
+  },
+  "Francisco Javier Arceo": {
+    "name": "Francisco Javier Arceo",
+    "title": "Founder & CEO",
+    "organization": "Unidos",
+    "image": "/assets/img/summit/speakers/francisco-javier-arceo.png",
+    "linkedin": "https://www.linkedin.com/in/franciscojavierarceo/"
+  },
+  "Gabrielle Rejouis": {
+    "name": "Gabrielle Rejouis",
+    "title": "Senior Policy Manager",
+    "organization": "Color of Change",
+    "image": "/assets/img/summit/speakers/gabrielle-rejouis.png",
+    "linkedin": "https://www.linkedin.com/in/gabriellerejouis/"
+  },
+  "Gisselle Ruiz": {
+    "name": "Gisselle Ruiz",
+    "title": "Global Talent Acquisition",
+    "organization": "ByteDance",
+    "image": "/assets/img/summit/speakers/gisselle-ruiz.png",
+    "linkedin": "https://www.linkedin.com/in/gisselleruiz/"
+  },
+  "Greg Peters": {
+    "name": "Greg Peters",
+    "title": "Chief Product Officer",
+    "organization": "Netflix",
+    "image": "/assets/img/summit/speakers/greg-peters.jpeg",
+    "linkedin": "https://www.linkedin.com/in/petersgreg/"
+  },
+  "Indira Gutierrez": {
+    "name": "Indira Gutierrez",
+    "title": "Senior Software Engineer",
+    "organization": "Visa",
+    "image": "/assets/img/summit/speakers/indira-gutierrez.png",
+    "linkedin": "https://www.linkedin.com/in/indiragp/"
+  },
+  "John Canela": {
+    "name": "John Canela",
+    "title": "Incident Response Consultant",
+    "organization": "Mandiant",
+    "image": "/assets/img/summit/speakers/john-canela.jpg",
+    "linkedin": "https://www.linkedin.com/in/johncanela/"
+  },
+  "Jose Fermoso": {
+    "name": "Jose Fermoso",
+    "title": "Founder",
+    "organization": "Points of Presence Media",
+    "image": "/assets/img/summit/speakers/jose-fermoso.jpeg",
+    "linkedin": "https://www.linkedin.com/in/jose-fermoso-9240881/"
+  },
+  "Jose Rodriguez Salinas": {
+    "name": "Jose Rodriguez Salinas",
+    "title": "Senior Software Engineer",
+    "organization": "Humu Inc",
+    "image": "/assets/img/summit/speakers/jose-rodriguez-salinas.png",
+    "linkedin": "https://www.linkedin.com/in/josealberto-rodriguez/"
+  },
+  "Josh Torres": {
+    "name": "Josh Torres",
+    "title": "Chief of Staff",
+    "organization": "Out in Tech",
+    "image": "/assets/img/summit/speakers/josh-torres.jpg",
+    "linkedin": "https://www.linkedin.com/in/joshtorres/"
+  },
+  "Joshua Encarnacion": {
+    "name": "Joshua Encarnacion",
+    "title": "CEO",
+    "organization": "Outco",
+    "image": "/assets/img/summit/speakers/joshua-encarnacion.png",
+    "linkedin": "https://www.linkedin.com/in/joshuaenc/"
+  },
+  "Joél-Léhi Organista": {
+    "name": "Joél-Léhi Organista",
+    "title": "Founder & CEO",
+    "organization": "Machitia",
+    "image": "/assets/img/summit/speakers/joel-lehi-organista.png",
+    "linkedin": "https://www.linkedin.com/in/joel-lehi-organista"
+  },
+  "Justin Kitagawa": {
+    "name": "Justin Kitagawa",
+    "title": "Senior Director, Software Engineering",
+    "organization": "Twilio",
+    "image": "/assets/img/summit/speakers/justin-kitagawa.jpeg",
+    "linkedin": ""
+  },
+  "Kelly Kitagawa": {
+    "name": "Kelly Kitagawa",
+    "title": "Senior Director, Software Engineering",
+    "organization": "Twilio",
+    "image": "/assets/img/summit/speakers/kelly-kitagawa.png",
+    "linkedin": ""
+  },
+  "Kendra Morales": {
+    "name": "Kendra Morales",
+    "title": "VP of Client Engagement",
+    "organization": "Betts Recruiting",
+    "image": "/assets/img/summit/speakers/kendra-morales.png",
+    "linkedin": "https://www.linkedin.com/in/kendraleighmorales/"
+  },
+  "Krys Flores": {
+    "name": "Krys Flores",
+    "title": "Senior Software Engineer",
+    "organization": "Lob",
+    "image": "/assets/img/team/krystal-flores.jpg",
+    "linkedin": "https://www.linkedin.com/in/krystalflores/"
+  },
+  "Laura Dominguez": {
+    "name": "Laura Dominguez",
+    "title": "Career Services Manager",
+    "organization": "Flockjay",
+    "image": "/assets/img/summit/speakers/laura-dominguez.jpg",
+    "linkedin": "https://www.linkedin.com/in/laura-doming/"
+  },
+  "Liliana Hu Wu": {
+    "name": "Liliana Hu Wu",
+    "title": "Co-Lead",
+    "organization": "Dreamers in Tech",
+    "image": "/assets/img/team/dreamers-in-tech/liliana-hu-wu.png",
+    "linkedin": "https://www.linkedin.com/in/liliana-huwu/"
+  },
+  "Lorena Villeges": {
+    "name": "Lorena Villeges",
+    "title": "Director of Operations",
+    "organization": "Illumix",
+    "image": "/assets/img/summit/speakers/lorena-villegas.png",
+    "linkedin": "https://www.linkedin.com/in/lorenavillegas609/"
+  },
+  "Luis Curiel": {
+    "name": "Luis Curiel",
+    "title": "Engineering Recruiter",
+    "organization": "Twitter",
+    "image": "/assets/img/summit/speakers/luis-curiel.png",
+    "linkedin": "https://www.linkedin.com/in/luiscuriel/"
+  },
+  "Maria Del Carmen Saenz": {
+    "name": "Maria Del Carmen Saenz",
+    "title": "Senior DevOps Engineer",
+    "organization": "PEAK6 Investments",
+    "image": "/assets/img/summit/speakers/maria-del-carmen-saenz.png",
+    "linkedin": "https://www.linkedin.com/in/mdcsaenz/"
+  },
+  "Marley Pulido-Vargas": {
+    "name": "Marley Pulido-Vargas",
+    "title": "Director, Worker Resources and Training",
+    "organization": "Coworker.org",
+    "image": "/assets/img/summit/speakers/marley-pulido-vargas.png",
+    "linkedin": "https://www.linkedin.com/in/marley-pulido-vargas/"
+  },
   "Mica Alaniz": {
     "name": "Mica Alaniz",
     "title": "Senior Software Engineer, Tech Lead",
@@ -182,11 +342,151 @@
     "image": "/assets/img/summit/speakers/mica-alaniz.jpg",
     "linkedin": "https://www.linkedin.com/in/micaalaniz/"
   },
-  "Amelia Garcia": {
-    "name": "Amelia Garcia",
-    "title": "Senior Strategy Associate",
-    "organization": "Scribd",
-    "image": "/assets/img/team/amelia-garcia.jpg",
-    "linkedin": "https://www.linkedin.com/in/garciaamelia/"
+  "Michael Anthony Urbina": {
+    "name": "Michael Anthony Urbina",
+    "title": "Executive Recruiter",
+    "organization": "Box",
+    "image": "/assets/img/team/michael-urbina.jpeg",
+    "linkedin": "https://www.linkedin.com/in/michaelurbina/"
+  },
+  "Michael Orozco": {
+    "name": "Michael Orozco",
+    "title": "Technical Recruiter",
+    "organization": "Netflix",
+    "image": "/assets/img/summit/speakers/michael-orozco.jpeg",
+    "linkedin": "https://www.linkedin.com/in/michael-orozco-jr-he-him-%C3%A9l-8a397968/"
+  },
+  "Michael Tristan": {
+    "name": "Michael Tristan",
+    "title": "Head of Sales & Customer Success Enablement",
+    "organization": "KeepTruckin",
+    "image": "/assets/img/summit/speakers/michael-tristan.png",
+    "linkedin": "https://www.linkedin.com/in/mtristan/"
+  },
+  "Michelle Gomez": {
+    "name": "Michelle Gomez",
+    "title": "Life & Career Coach",
+    "organization": "Michelle Gomez Coaching",
+    "image": "/assets/img/summit/speakers/michelle-gomez.jpg",
+    "linkedin": "https://www.linkedin.com/in/michelle-m-gomez-35796115/"
+  },
+  "Mina Rabideaux": {
+    "name": "Mina Rabideaux",
+    "title": "Senior Analyst, Data & Analytics",
+    "organization": "Avanade",
+    "image": "/assets/img/summit/speakers/mina-rabideaux.png",
+    "linkedin": "https://www.linkedin.com/in/mina-rabideaux-8b1b2582/"
+  },
+  "Mo Ramos": {
+    "name": "Mo Ramos",
+    "title": "Program Manager, Diversity Talent Acquisition (University Talent)",
+    "organization": "Adobe",
+    "image": "/assets/img/summit/speakers/mo-ramos.png",
+    "linkedin": "https://www.linkedin.com/in/rmontserrat/"
+  },
+  "Noel Claudio": {
+    "name": "Noel Claudio",
+    "title": "Consultant",
+    "organization": "Slalom",
+    "image": "/assets/img/summit/speakers/noel-claudio.png",
+    "linkedin": "https://www.linkedin.com/in/noel-claudio-pmp-csm-bb865054/"
+  },
+  "Odalys Jasmine Garcia Arce": {
+    "name": "Odalys Jasmine Garcia Arce",
+    "title": "Host & Creator",
+    "organization": "Hella Latin@ Podcast",
+    "image": "/assets/img/summit/speakers/odalys-jasmine-garcia-arce.png",
+    "linkedin": "https://www.linkedin.com/in/odalysjasminegarciaarce/"
+  },
+  "Paola Mariselli": {
+    "name": "Paola Mariselli",
+    "title": "Product Design Manager",
+    "organization": "Facebook",
+    "image": "/assets/img/summit/speakers/paola-mariselli.jpeg",
+    "linkedin": "https://www.linkedin.com/in/paolamariselli/"
+  },
+  "Pia Zaragoza": {
+    "name": "Pia Zaragoza",
+    "title": "VP of Accessibility Research and Insights",
+    "organization": "JPMorgan Chase & Co.",
+    "image": "/assets/img/summit/speakers/pia-zaragoza.jpg",
+    "linkedin": "https://www.linkedin.com/in/piazaragoza/"
+  },
+  "Rachael Olasunkanmi": {
+    "name": "Rachael Olasunkanmi",
+    "title": "Student Finance Account Manager",
+    "organization": "We can Code IT",
+    "image": "/assets/img/summit/speakers/rachael-olasunkanmi.png",
+    "linkedin": "https://www.linkedin.com/in/rachaelolasunkanmi/"
+  },
+  "Ramona Robles": {
+    "name": "Ramona Robles",
+    "title": "Learning & Development Manager",
+    "organization": "Unite Us",
+    "image": "/assets/img/summit/speakers/ramona-robles.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ramonarobles/"
+  },
+  "Red Avila": {
+    "name": "Red Avila",
+    "title": "Senior Technical Recruiter",
+    "organization": "OpenAI",
+    "image": "/assets/img/summit/speakers/red-avila.png",
+    "linkedin": "https://www.linkedin.com/in/jredavila/"
+  },
+  "Renee Ramirez": {
+    "name": "Renee Ramirez",
+    "title": "Executive Advisor",
+    "organization": "Google",
+    "image": "/assets/img/summit/speakers/renee-ramirez.jpg",
+    "linkedin": "https://linkedin.com/in/ReneeInSF"
+  },
+  "Sofia Rodriguez": {
+    "name": "Sofia Rodriguez",
+    "title": "Senior Community Manager",
+    "organization": "Salesforce",
+    "image": "/assets/img/summit/speakers/sofia-rodriguez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sofmata/"
+  },
+  "Tonatiuh Ramos": {
+    "name": "Tonatiuh Ramos",
+    "title": "Co-Lead",
+    "organization": "Dreamers in Tech",
+    "image": "/assets/img/team/tonatiuh-ramos.jpg",
+    "linkedin": "https://www.linkedin.com/in/tonaramos/"
+  },
+  "Ximena Cervantes": {
+    "name": "Ximena Cervantes",
+    "title": "Senior Technical Recruiter",
+    "organization": "Vouch Insurance",
+    "image": "/assets/img/summit/speakers/ximena-cervantes.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ximenacervantes/"
+  },
+  "Yemi Andrea Fuquen Moreno": {
+    "name": "Yemi Andrea Fuquen Moreno",
+    "title": "Senior Software Engineer",
+    "organization": "Twilio",
+    "image": "/assets/img/summit/speakers/yemi-andrea-fuquen-moreno.jpeg",
+    "linkedin": "https://www.linkedin.com/in/yeimi-andrea-fuquen-moreno-88bb814b/"
+  },
+  "Yvette Ramirez": {
+    "name": "Yvette Ramirez",
+    "title": "Recruiter",
+    "organization": "Databricks",
+    "image": "/assets/img/summit/speakers/yvette-ramirez.png",
+    "linkedin": "https://www.linkedin.com/in/ramirezy/"
+  },
+  "Yoselin Gonzalez-Mendez": {
+    "name": "Yoselin Gonzalez-Mendez",
+    "title": "Community Engagement Manager",
+    "organization": "First Graduate",
+    "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
+    "linkedin": "https://www.linkedin.com/in/yoselinggm/"
+  },
+  "Zainab Ebrahimi": {
+    "name": "Zainab Ebrahimi",
+    "title": "Software Engineering Consultant",
+    "organization": "Tall Poppy",
+    "image": "/assets/img/summit/speakers/zainab-ebrahimi.jpg",
+    "linkedin": "https://www.linkedin.com/in/zainab-ebrahimi-a601b347/"
   }
 }
