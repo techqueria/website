@@ -1,4 +1,35 @@
 {
+  "Adriana Flores-Ragade": {
+    "name": "Adriana Flores-Ragade",
+    "title": "Host",
+    "organization": "Latinx in America Podcast",
+    "image": "/assets/img/summit/speakers/adriana-flores-ragade.png",
+    "twitter": "https://twitter.com/AmericaLatinx",
+    "linkedin": "https://www.linkedin.com/in/adriana-flores-ragade-b4a9a11/"
+  },
+  "Alexis Lucio": {
+    "name": "Alexis Lucio",
+    "title": "Accessibility and Inclusive Design Lead",
+    "organization": "Splunk",
+    "image": "/assets/img/summit/speakers/alexis-lucio.png",
+    "twitter": "https://twitter.com/alexisxlucio",
+    "linkedin": "https://www.linkedin.com/in/alexislucio/"
+  },
+  "Amanda Lopez": {
+    "name": "Amanda Lopez",
+    "title": "Manager, Talent Acquisition (Digital Experience)",
+    "organization": "Adobe",
+    "image": "/assets/img/summit/speakers/alexis-lucio.png",
+    "twitter": "https://twitter.com/alexisxlucio",
+    "linkedin": "https://www.linkedin.com/in/amandalopezmaed/"
+  },
+  "Amber Gonzales-Vargas": {
+    "name": "Amber Gonzales-Vargas",
+    "title": "Senior Program Manager",
+    "organization": "Latino Community Foundation",
+    "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
+    "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
+  },
   "Frances Coronel": {
     "name": "Frances Coronel",
     "title": "Executive Director",
@@ -66,13 +97,7 @@
     "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
     "linkedin": "https://www.linkedin.com/in/yoselinggm/"
   },
-  "Amber Gonzales-Vargas": {
-    "name": "Amber Gonzales-Vargas",
-    "title": "Senior Program Manager",
-    "organization": "Latino Community Foundation",
-    "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
-    "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
-  },
+
   "Krys Flores": {
     "name": "Krys Flores",
     "title": "Senior Software Engineer",
