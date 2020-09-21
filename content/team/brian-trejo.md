@@ -1,6 +1,6 @@
 ---
 title: Brian Trejo
-image: "https://pbs.twimg.com/profile_images/1093624505035980800/keJO5jXw_400x400.jpg"
+image: "/assets/img/team/chapter-directors/brian-trejo.jpg"
 description: "Chapter Director, Atlanta"
 linkedin: https://www.linkedin.com/in/briantrejo
 categories:

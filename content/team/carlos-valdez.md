@@ -1,8 +1,8 @@
 ---
 title: "Carlos Valdez"
-image: "/assets/img/team/carlos-valdez.jpeg"
+image: "/assets/img/team/volunteers/carlos-valdez.jpeg"
 description: "Slack Community Lead"
 linkedin: https://www.linkedin.com/in/carlosvr98/
 categories:
-  - slack-community-lead
+  - volunteer
 ---
