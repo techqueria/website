@@ -3,7 +3,7 @@
   <div class="container is-fluid has-text-centered py-4">
     <h2 class="title">Speakers</h2>
     {{$len := len $.Site.Data.speakers}}
-    <p>Featuring {{$len}} Latinx professionals and leaders in tech</p>
+    <p class="subtitle">Featuring {{$len}} Latinx professionals and leaders in tech</p>
     <div class="columns is-centered is-multiline py-5 mt-1">
       {{ range sort $.Site.Data.speakers ".name" }}
       <div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd mt-2">
@@ -20,7 +20,9 @@
           {{ .name }}
         </h5>
         <p class="subtitle is-6">
-          {{ .title }}, {{ .organization }}
+          {{ .title }}
+          <br/>
+          {{ .organization }}
         </p>
       </div>
       {{end}}

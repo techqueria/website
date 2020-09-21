@@ -24,7 +24,7 @@
     "name": "Amber Gonzales-Vargas",
     "title": "Senior Program Manager",
     "organization": "Latino Community Foundation",
-    "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
+    "image": "/assets/img/team/advisors/amber-gonzalez-vargas.jpeg",
     "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
   },
   "Amelia Garcia": {
@@ -52,7 +52,7 @@
     "name": "Annelise Hagar-Preciado",
     "title": "Operations Program Manager",
     "organization": "Lyft",
-    "image": "/assets/img/team/annelise-hagar-preciado.jpg",
+    "image": "/assets/img/team/volunteers/annelise-hagar-preciado.jpg",
     "linkedin": "https://www.linkedin.com/in/annelisehagar/"
   },
   "Brendon Villalobos": {
@@ -156,7 +156,7 @@
   "Emmanuel Olvera": {
     "name": "Emmanuel Olvera",
     "title": "Founder",
-    "organization": "EmploesTI",
+    "organization": "EmpleosTI",
     "image": "/assets/img/summit/speakers/emmanuel-olvera.png",
     "linkedin": "https://www.linkedin.com/in/eolver/"
   },
@@ -171,7 +171,7 @@
     "name": "Felipe Ventura",
     "title": "Executive Director",
     "organization": "Techqueria",
-    "image": "/assets/img/team/felipe-ventura.jpg",
+    "image": "/assets/img/team/staff/felipe-ventura.jpg",
     "linkedin": "https://linkedin.com/in/fvntr"
   },
   "Frances Coronel": {
@@ -290,7 +290,7 @@
     "name": "Krys Flores",
     "title": "Senior Software Engineer",
     "organization": "Lob",
-    "image": "/assets/img/team/krystal-flores.jpg",
+    "image": "/assets/img/team/donors/krystal-flores.jpg",
     "linkedin": "https://www.linkedin.com/in/krystalflores/"
   },
   "Laura Dominguez": {
@@ -346,7 +346,7 @@
     "name": "Michael Anthony Urbina",
     "title": "Executive Recruiter",
     "organization": "Box",
-    "image": "/assets/img/team/michael-urbina.jpeg",
+    "image": "/assets/img/team/donors/michael-urbina.jpeg",
     "linkedin": "https://www.linkedin.com/in/michaelurbina/"
   },
   "Michael Orozco": {
@@ -451,7 +451,7 @@
     "name": "Tonatiuh Ramos",
     "title": "Co-Lead",
     "organization": "Dreamers in Tech",
-    "image": "/assets/img/team/tonatiuh-ramos.jpg",
+    "image": "/assets/img/team/dreamers-in-tech/tonatiuh-ramos.jpg",
     "linkedin": "https://www.linkedin.com/in/tonaramos/"
   },
   "Ximena Cervantes": {
@@ -461,11 +461,11 @@
     "image": "/assets/img/summit/speakers/ximena-cervantes.jpeg",
     "linkedin": "https://www.linkedin.com/in/ximenacervantes/"
   },
-  "Yemi Andrea Fuquen Moreno": {
-    "name": "Yemi Andrea Fuquen Moreno",
+  "Yiemi Andrea Fuquen Moreno": {
+    "name": "Yiemi Andrea Fuquen Moreno",
     "title": "Senior Software Engineer",
     "organization": "Twilio",
-    "image": "/assets/img/summit/speakers/yemi-andrea-fuquen-moreno.jpeg",
+    "image": "/assets/img/summit/speakers/yiemi-andrea-fuquen-moreno.jpeg",
     "linkedin": "https://www.linkedin.com/in/yeimi-andrea-fuquen-moreno-88bb814b/"
   },
   "Yvette Ramirez": {
@@ -479,7 +479,7 @@
     "name": "Yoselin Gonzalez-Mendez",
     "title": "Community Engagement Manager",
     "organization": "First Graduate",
-    "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
+    "image": "/assets/img/team/chapter-directors/yoselin-gonzalez-mendez.png",
     "linkedin": "https://www.linkedin.com/in/yoselinggm/"
   },
   "Zainab Ebrahimi": {
