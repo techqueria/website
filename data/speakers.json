@@ -55,6 +55,20 @@
     "image": "/assets/img/team/volunteers/annelise-hagar-preciado.jpg",
     "linkedin": "https://www.linkedin.com/in/annelisehagar/"
   },
+  "Ariele Faber": {
+    "name": "Ariele Faber",
+    "title": "White House Presidential Innovation Fellow",
+    "organization": "White House Presidential Innovation Fellows (Invited)",
+    "image": "/assets/img/team/volunteers/ariele-faber.jpg",
+    "linkedin": "https://www.linkedin.com/in/arielefaber/"
+  },
+  "Austin Hernandez": {
+    "name": "Austin Hernandez",
+    "title": "Senior Product Designer (Invited)",
+    "organization": "18F",
+    "image": "/assets/img/team/volunteers/austin-hernandez.jpg",
+    "linkedin": "https://www.linkedin.com/in/austinhernandez/"
+  },
   "Brendon Villalobos": {
     "name": "Brendon Villalobos",
     "title": "Machine Learning Technical Lead",
@@ -222,6 +236,13 @@
     "organization": "Visa",
     "image": "/assets/img/summit/speakers/indira-gutierrez.jpg",
     "linkedin": "https://www.linkedin.com/in/indiragp/"
+  },
+  "Jessyka Castillo": {
+    "name": "Jessyka Castillo",
+    "title": "Agency Partnerships",
+    "organization": "Cloud.gov (Invited)",
+    "image": "/assets/img/summit/speakers/jessyka-castillo.jpg",
+    "linkedin": "https://www.linkedin.com/in/jessykacastillo/"
   },
   "John Canela": {
     "name": "John Canela",
@@ -453,6 +474,13 @@
     "organization": "Dreamers in Tech",
     "image": "/assets/img/team/dreamers-in-tech/tonatiuh-ramos.jpg",
     "linkedin": "https://www.linkedin.com/in/tonaramos/"
+  },
+  "Victoria Bitzer-Wales": {
+    "name": "Victoria Bitzer-Wales",
+    "title": "Strategic Engagement and Communications, IT Modernization Centers of Excellence",
+    "organization": "GSA (Invited)",
+    "image": "/assets/img/team/dreamers-in-tech/victoria-bitzer.jpg",
+    "linkedin": "https://www.linkedin.com/in/victoria-bitzer/"
   },
   "Ximena Cervantes": {
     "name": "Ximena Cervantes",
