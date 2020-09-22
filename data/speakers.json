@@ -59,14 +59,14 @@
     "name": "Ariele Faber",
     "title": "White House Presidential Innovation Fellow",
     "organization": "White House Presidential Innovation Fellows (Invited)",
-    "image": "/assets/img/team/speakers/ariele-faber.jpg",
+    "image": "/assets/img/summit/speakers/ariele-faber.jpg",
     "linkedin": "https://www.linkedin.com/in/arielefaber/"
   },
   "Austin Hernandez": {
     "name": "Austin Hernandez",
-    "title": "Senior Product Designer (Invited)",
-    "organization": "18F",
-    "image": "/assets/img/team/speakers/austin-hernandez.jpg",
+    "title": "Senior Product Designer",
+    "organization": "18F (Invited)",
+    "image": "/assets/img/summit/speakers/austin-hernandez.jpg",
     "linkedin": "https://www.linkedin.com/in/austinhernandez/"
   },
   "Brendon Villalobos": {
@@ -479,7 +479,7 @@
     "name": "Victoria Bitzer-Wales",
     "title": "Strategic Engagement and Communications, IT Modernization Centers of Excellence",
     "organization": "GSA (Invited)",
-    "image": "/assets/img/speakers/dreamers-in-tech/victoria-bitzer.jpg",
+    "image": "/assets/img/summit/speakers/victoria-bitzer.jpg",
     "linkedin": "https://www.linkedin.com/in/victoria-bitzer/"
   },
   "Ximena Cervantes": {
