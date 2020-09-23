@@ -62,7 +62,7 @@ Our partnerships deck has the most up to date information on how you can partner
 
 {{< deck >}}
 
-## Purchase a Marketing Package
+## Purchase a Marketing Package for Jobs, Events or Programs
 
 If you're interested in promoting a job posting, an event, a program, etc. to the Techqueria community, please submit your details and make your payment via the form below.
 
