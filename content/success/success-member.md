@@ -15,7 +15,9 @@ You've successfully completed the member sign up form for Techqueria! 📝
 
 You will be automatically subscribed to our mailing list, sent an invite to our Slack community and also automatically subscribed to our events platform for virtual webinars with the ability to opt in to local city chapters.
 
-If you don't get an invite to our Slack community within 2 weeks, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
+If you don't get an invite to our Slack community **within 2 weeks**, please [contact us](/contact) and let us know so we can check why you haven't received an invite yet.
+
+It generally takes us at least 1 week after you submit your application to send the invite for Slack.
 
 ## Slack Community Guidelines
 

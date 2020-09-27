@@ -12,7 +12,11 @@ You will be automatically subscribed to email updates on the event and we'll sen
 
 ## Share with friends
 
-In the meantime, please feel free to tell your friends about the summit using our [the #LHM Summit social media kit](https://www.notion.so/techqueriaorg/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9)
+In the meantime, please feel free to tell your friends about the summit using our [the #LHM Summit social media kit](https://www.notion.so/techqueriaorg/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9).
+
+## Join us on Slack
+
+If you are part of Techqueria's Slack community, feel free to join the `#lhm-summit` channel and ask us any questions there!
 
 <video autoplay loop muted playsinline poster="/assets/img/summit/lhm-summit-banner.png" class="border-radius-4 very-light-image-shadow">
   <source src="/assets/img/summit/lhm-summit-banner.mp4" type="video/mp4" />
