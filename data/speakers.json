@@ -88,7 +88,7 @@
     "title": "Community Manager",
     "organization": "General Assembly",
     "image": "/assets/img/team/chapter-directors/cari-perez.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/caridadperez/"
   },
   "Carita Marrow": {
     "name": "Carita Marrow",
@@ -131,13 +131,6 @@
     "organization": "Netflix",
     "image": "/assets/img/summit/speakers/cynthia-maxwell.jpg",
     "linkedin": "https://www.linkedin.com/in/cynthiamaxwell/"
-  },
-  "Desiree Zamora Garcia": {
-    "name": "Desiree Zamora Garcia",
-    "title": "Product Design Manager",
-    "organization": "Loom",
-    "image": "/assets/img/summit/speakers/desiree-garcia.jpg",
-    "linkedin": "https://www.linkedin.com/in/thedezzie/"
   },
   "Dia Bondi": {
     "name": "Dia Bondi",
@@ -291,14 +284,14 @@
     "title": "Senior Director, Software Engineering",
     "organization": "Twilio",
     "image": "/assets/img/summit/speakers/justin-kitagawa.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/justinkitagawa/"
   },
   "Kelly Kitagawa": {
     "name": "Kelly Kitagawa",
-    "title": "Senior Director, Software Engineering",
-    "organization": "Twilio",
+    "title": "Senior Solutions Engineer",
+    "organization": "Splunk",
     "image": "/assets/img/summit/speakers/kelly-kitagawa.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/kellykitagawa/"
   },
   "Kendra Morales": {
     "name": "Kendra Morales",

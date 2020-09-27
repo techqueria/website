@@ -4,5 +4,5 @@ description: "The Home Depot, Inc. is the largest home improvement retailer in t
 link: https://careers.homedepot.com/
 image: "/assets/img/supporters/home-depot.png"
 categories:
-  - sponsor-silver
+  - silver-sponsor
 ---

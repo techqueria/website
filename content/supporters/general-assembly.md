@@ -4,5 +4,5 @@ description: "Master new skills in design, marketing, technology, and data — o
 link: https://generalassemb.ly/
 image: "/assets/img/supporters/general-assembly.png"
 categories:
-  - community-partner
+  - past-partner
 ---
