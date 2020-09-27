@@ -139,12 +139,26 @@
     "image": "/assets/img/summit/speakers/cynthia-maxwell.jpg",
     "linkedin": "https://www.linkedin.com/in/cynthiamaxwell/"
   },
+  "Damian Gona": {
+    "name": "Damian Gona",
+    "title": "Regional Vice President - Latin America & Caribbean",
+    "organization": "Zendesk",
+    "image": "/assets/img/summit/speakers/damian-gona.jpeg",
+    "linkedin": "https://www.linkedin.com/in/damian-gona-466ab121/"
+  },
   "Dia Bondi": {
     "name": "Dia Bondi",
     "title": "Communications Catalyst & Coach",
-    "organization": "Dia Bondi Communications ",
+    "organization": "Dia Bondi Communications",
     "image": "/assets/img/summit/speakers/dia-bondi.jpg",
     "linkedin": "https://www.linkedin.com/in/dia-bondi/"
+  },
+  "Diego Solorzano": {
+    "name": "Diego Solorzano",
+    "title": "Product Manager",
+    "organization": "Blend",
+    "image": "/assets/img/summit/speakers/diego-solorzano.jpg",
+    "linkedin": "https://www.linkedin.com/in/dsolorzanoc"
   },
   "Dr. Ricardo Baeza-Yates": {
     "name": "Dr. Ricardo Baeza-Yates",
