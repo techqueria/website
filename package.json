@@ -54,6 +54,6 @@
   "snyk": true,
   "devDependencies": {
     "prettier": "2.1.2",
-    "prettier-plugin-go-template": "0.0.4"
+    "prettier-plugin-go-template": "0.0.10"
   }
 }
