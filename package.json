@@ -26,7 +26,7 @@
     "babel-eslint": "10.1.0",
     "babel-loader": "^8.0.5",
     "brotli-webpack-plugin": "1.1.0",
-    "browser-sync": "2.26.9",
+    "browser-sync": "2.26.12",
     "bulma": "^0.8.0",
     "compression-webpack-plugin": "4.0.1",
     "cssnano": "4.1.10",
