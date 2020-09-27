@@ -94,14 +94,14 @@
 </section>
 {{ end }}
 <!-- Corporate Donors -->
-{{ if (index .Site.Taxonomies.categories "corporate-donor") "!=" nil }}
+{{ if (index .Site.Taxonomies.categories "donor") "!=" nil }}
 
 <div class="content mt-4 u-text--centered">
   <h3 id="software-sponsors"><span class="mr-sm">💛</span>Corporate Donors<span class="ml-sm">💛</span></h3>
   <p>Organizations that have donated funds to us.</p>
 </div>
 <section class="c-companies c-companies--software-suporters">
-  {{ range (index .Site.Taxonomies.categories "corporate-donor") }}
+  {{ range (index .Site.Taxonomies.categories "donor") }}
  {{ partial "content/card/company.html" . }}
  {{ end }}
 

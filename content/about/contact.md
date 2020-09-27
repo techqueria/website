@@ -33,7 +33,7 @@ We are less responsive to direct messages on other social media platforms so it 
 
 ## Job Postings
 
-You can [purchase a marketing package for jobs, events or programs](/support-us/corporate-partner/marketing-packages/) for job opportunities.
+You can [purchase a marketing package for jobs, events or programs](/partner) for job opportunities.
 
 You're also welcome to join [our Slack](/slack/) and share job postings for free in the `#jobs` channel.
 

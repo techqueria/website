@@ -268,8 +268,8 @@ disqusShortname               = "techqueria"
     weight                    = 1
 [[menu.main]]
     parent                    = "Partner"
-    name                      = "Purchase a Marketing Package"
-    url                       = "/partner/#purchase-a-marketing-package"
+    name                      = "Purchase a CTA"
+    url                       = "/partner/#purchase-a-cta"
     weight                    = 2
 [[menu.main]]
     parent                    = "Partner"
