@@ -79,6 +79,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Ernesto Martinez](https://github.com/ernieMrtnz)
 - [Carlos Valdez](https://github.com/cvaldez98)
 - [Luis Pineda](https://github.com/luispinedajr)
+- [Yarden Krok](https://github.com/yarden2k3)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
