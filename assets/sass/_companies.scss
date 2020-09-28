@@ -43,23 +43,23 @@
 
   @media screen and (min-width: $laptop) {
     .c-companies--diamond-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(1000px, 1000px));
+      grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
     }
 
     .c-companies--titanium-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(800px, 800px));
-    }
-
-    .c-companies--platinum-sponsors {
       grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
     }
 
-    .c-companies--gold-sponsors {
+    .c-companies--platinum-sponsors {
       grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
     }
 
-    .c-companies--silver-sponsors {
+    .c-companies--gold-sponsors {
       grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    }
+
+    .c-companies--silver-sponsors {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
     }
 
     .c-companies--bronze-sponsors {

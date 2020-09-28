@@ -6,6 +6,13 @@
     "image": "/assets/img/summit/speakers/adriana-flores-ragade.jpg",
     "linkedin": "https://www.linkedin.com/in/adriana-flores-ragade-b4a9a11/"
   },
+  "Alejandro Jimenez": {
+    "name": "Alejandro Jimenez",
+    "title": "Graduate Student",
+    "organization": "Harvard Graduate School of Education",
+    "image": "/assets/img/summit/speakers/alejandro-jimenez.jpg",
+    "linkedin": "https://www.linkedin.com/in/alejandro-jimenez-a98a6210a/"
+  },
   "Alexis Lucio": {
     "name": "Alexis Lucio",
     "title": "Accessibility and Inclusive Design Lead",
@@ -59,7 +66,7 @@
     "name": "Ariele Faber",
     "title": "White House Presidential Innovation Fellow",
     "organization": "White House Presidential Innovation Fellows (Invited)",
-    "image": "/assets/img/summit/speakers/ariele-faber.jpg",
+    "image": "/assets/img/summit/speakers/ariele-faber.jpeg",
     "linkedin": "https://www.linkedin.com/in/arielefaber/"
   },
   "Austin Hernandez": {
@@ -88,7 +95,7 @@
     "title": "Community Manager",
     "organization": "General Assembly",
     "image": "/assets/img/team/chapter-directors/cari-perez.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/caridadperez/"
   },
   "Carita Marrow": {
     "name": "Carita Marrow",
@@ -132,19 +139,26 @@
     "image": "/assets/img/summit/speakers/cynthia-maxwell.jpg",
     "linkedin": "https://www.linkedin.com/in/cynthiamaxwell/"
   },
-  "Desiree Zamora Garcia": {
-    "name": "Desiree Zamora Garcia",
-    "title": "Product Design Manager",
-    "organization": "Loom",
-    "image": "/assets/img/summit/speakers/desiree-garcia.jpg",
-    "linkedin": "https://www.linkedin.com/in/thedezzie/"
+  "Damian Gona": {
+    "name": "Damian Gona",
+    "title": "Regional Vice President - Latin America & Caribbean",
+    "organization": "Zendesk",
+    "image": "/assets/img/summit/speakers/damian-gona.jpeg",
+    "linkedin": "https://www.linkedin.com/in/damian-gona-466ab121/"
   },
   "Dia Bondi": {
     "name": "Dia Bondi",
     "title": "Communications Catalyst & Coach",
-    "organization": "Dia Bondi Communications ",
+    "organization": "Dia Bondi Communications",
     "image": "/assets/img/summit/speakers/dia-bondi.jpg",
     "linkedin": "https://www.linkedin.com/in/dia-bondi/"
+  },
+  "Diego Solorzano": {
+    "name": "Diego Solorzano",
+    "title": "Product Manager",
+    "organization": "Blend",
+    "image": "/assets/img/summit/speakers/diego-solorzano.jpg",
+    "linkedin": "https://www.linkedin.com/in/dsolorzanoc"
   },
   "Dr. Ricardo Baeza-Yates": {
     "name": "Dr. Ricardo Baeza-Yates",
@@ -152,6 +166,13 @@
     "organization": "Northeastern University",
     "image": "/assets/img/summit/speakers/ricardo-baeza-yates.jpg",
     "linkedin": "https://www.linkedin.com/in/ricardobaezayates/"
+  },
+  "Eddy Monge": {
+    "name": "Eddy Monge",
+    "title": "Community & Culture Manager",
+    "organization": "ThankView",
+    "image": "/assets/img/summit/speakers/eddy-monge.png",
+    "linkedin": "https://www.linkedin.com/in/eddymonge/"
   },
   "Elaine Montilla": {
     "name": "Elaine Montilla",
@@ -230,6 +251,13 @@
     "image": "/assets/img/summit/speakers/greg-peters.jpg",
     "linkedin": "https://www.linkedin.com/in/petersgreg/"
   },
+  "Hillary Mickell ": {
+    "name": "Hillary Mickell ",
+    "title": "Dean and Regional CEO",
+    "organization": "Northeastern University",
+    "image": "/assets/img/summit/speakers/hillary-mickell.jpeg",
+    "linkedin": "https://www.linkedin.com/in/hmickell/"
+  },
   "Indira Gutierrez": {
     "name": "Indira Gutierrez",
     "title": "Senior Software Engineer",
@@ -291,14 +319,14 @@
     "title": "Senior Director, Software Engineering",
     "organization": "Twilio",
     "image": "/assets/img/summit/speakers/justin-kitagawa.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/justinkitagawa/"
   },
   "Kelly Kitagawa": {
     "name": "Kelly Kitagawa",
-    "title": "Senior Director, Software Engineering",
-    "organization": "Twilio",
+    "title": "Senior Solutions Engineer",
+    "organization": "Splunk",
     "image": "/assets/img/summit/speakers/kelly-kitagawa.jpg",
-    "linkedin": ""
+    "linkedin": "https://www.linkedin.com/in/kellykitagawa/"
   },
   "Kendra Morales": {
     "name": "Kendra Morales",
@@ -355,6 +383,13 @@
     "organization": "Coworker.org",
     "image": "/assets/img/summit/speakers/marley-pulido-vargas.jpg",
     "linkedin": "https://www.linkedin.com/in/marley-pulido-vargas/"
+  },
+  "Maxeme Tuchman": {
+    "name": "Maxeme Tuchman",
+    "title": "CEO & Co-Founder",
+    "organization": "Caribu",
+    "image": "/assets/img/summit/speakers/maxeme-tuchman.png",
+    "linkedin": "https://www.linkedin.com/in/maxemetuchman/"
   },
   "Mica Alaniz": {
     "name": "Mica Alaniz",
@@ -486,7 +521,7 @@
     "name": "Victoria Bitzer-Wales",
     "title": "Strategic Engagement and Communications, IT Modernization Centers of Excellence",
     "organization": "GSA (Invited)",
-    "image": "/assets/img/summit/speakers/victoria-bitzer.jpg",
+    "image": "/assets/img/summit/speakers/victoria-bitzer.png",
     "linkedin": "https://www.linkedin.com/in/victoria-bitzer/"
   },
   "Ximena Cervantes": {
@@ -497,7 +532,7 @@
     "linkedin": "https://www.linkedin.com/in/ximenacervantes/"
   },
   "Yeimi Andrea Fuquen Moreno": {
-    "name": "Yiemi Andrea Fuquen Moreno",
+    "name": "Yeimi Andrea Fuquen Moreno",
     "title": "Senior Software Engineer",
     "organization": "Twilio",
     "image": "/assets/img/summit/speakers/yiemi-andrea-fuquen-moreno.jpg",

@@ -1,0 +1,20 @@
+{
+  "Plural Music": {
+    "name": "Alán Hensley",
+    "description": "PluralMusic DJ & Co-Owner",
+    "image": "/assets/img/summit/performers/alan.jpg",
+    "link": "https://www.instagram.com/soul7beats/"
+  },
+  "Mariachi Arcoiris de Los Angeles": {
+    "name": "Mariachi Arcoiris de Los Angeles",
+    "description": "First and only LGBTQ Mariachi in the world",
+    "image": "/assets/img/summit/performers/mariachi-arcoiris.jpg",
+    "link": "https://www.mariachiarcoiris.com/"
+  },
+  "Karol Posadas": {
+    "name": "Karol Posadas",
+    "description": "Selena Tribute Band",
+    "image": "/assets/img/summit/performers/karol-posadas.png",
+    "link": "https://www.selenatribute.com/"
+  }
+}

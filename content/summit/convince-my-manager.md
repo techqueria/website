@@ -9,9 +9,8 @@ aliases:
   - /convince-my-manager/
 ---
 
-You can use the template below to convince your manager to take time off to attend the #LHM Summit and be fully present!
+> You can use the template below to convince your manager to take time off to attend the #LHM Summit and be fully present!
 
-```txt
 Hi [INSERT YOUR MANAGER'S NAME HERE],
 
 I would like to request time off to attend a few sessions that are of interest to me at Techqueria's #LHM Summit 2020 from October 7th to 9th.
@@ -48,4 +47,3 @@ Let me know what you think!
 
 Thanks,
 [YOUR NAME HERE]
-```

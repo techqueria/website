@@ -1,6 +1,6 @@
 ---
 title: "Become a Partner"
-description: "Help us grow the largest Latinx in Tech community by becoming a partner, sponsor, speaker or volunteer. 💙"
+description: "Partner with the largest community of Latinx professionals and help us become leaders in tech. 💙"
 hideImage: true
 image: "/assets/img/support-us/_index.jpg"
 noTimeEstimate: true
@@ -62,7 +62,7 @@ Our partnerships deck has the most up to date information on how you can partner
 
 {{< deck >}}
 
-## Purchase a Marketing Package
+## Purchase a CTA
 
 If you're interested in promoting a job posting, an event, a program, etc. to the Techqueria community, please submit your details and make your payment via the form below.
 
@@ -124,3 +124,12 @@ If you're short on time, please refer to our partnerships deck on how we can sta
 <script src="/assets/js/partner.js"></script>
 
 <div class="mt-4"></div>
+
+## Book a Call
+
+<p class="mb-0">If you're ready to chat, feel free to book a call with our partnerships team.</p>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/techqueria-partnerships/new-partner-call" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
