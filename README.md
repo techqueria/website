@@ -1,4 +1,4 @@
-# Techqueria.org
+# Techqueria.org An Amazing Website
 
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg)](http://badges.mit-license.org)
 
