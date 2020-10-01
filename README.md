@@ -20,7 +20,7 @@ This repo is where we host our open-source website and soon to be member hub.
 
 ## Contributing
 
-> To get started...
+> To get started..........
 
 1. 🍴 [Fork](https://github.com/techqueria/website#fork-destination-box) this repository
 2. 🔨 View our [contributing guidelines](.github/CONTRIBUTING.md)
