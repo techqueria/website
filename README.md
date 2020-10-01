@@ -14,7 +14,7 @@
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftechqueria%2Fwebsite?ref=badge_small)
 
-[Techqueria](http://techqueria.org/) is a nonprofit serving the largest community for Latinx in Tech. 🌮
+[Techqueria](http://techqueria.org/) is a non-profit serving the largest community for Latinx in Tech. 🌮
 
 This repo is where we host our open-source website and soon to be member hub.
 
