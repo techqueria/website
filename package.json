@@ -45,7 +45,7 @@
     "lozad": "1.16.0",
     "netlify-cli": "2.59.1",
     "plugin-error": "1.0.1",
-    "postcss-csso": "4.0.0",
+    "postcss-csso": "5.0.0",
     "snyk": "^1.359.1",
     "twemoji": "13.0.1",
     "webpack": "4.43.0",
