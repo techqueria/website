@@ -69,13 +69,6 @@
     "image": "/assets/img/summit/speakers/ariele-faber.jpeg",
     "linkedin": "https://www.linkedin.com/in/arielefaber/"
   },
-  "Austin Hernandez": {
-    "name": "Austin Hernandez",
-    "title": "Senior Product Designer",
-    "organization": "18F (Invited)",
-    "image": "/assets/img/summit/speakers/austin-hernandez.jpg",
-    "linkedin": "https://www.linkedin.com/in/austinhernandez/"
-  },
   "Brendon Villalobos": {
     "name": "Brendon Villalobos",
     "title": "Machine Learning Technical Lead",
@@ -237,13 +230,6 @@
     "image": "/assets/img/summit/speakers/gabrielle-rejouis.jpg",
     "linkedin": "https://www.linkedin.com/in/gabriellerejouis/"
   },
-  "Gisselle Ruiz": {
-    "name": "Gisselle Ruiz",
-    "title": "Global Talent Acquisition",
-    "organization": "ByteDance",
-    "image": "/assets/img/summit/speakers/gisselle-ruiz.jpg",
-    "linkedin": "https://www.linkedin.com/in/gisselleruiz/"
-  },
   "Greg Peters": {
     "name": "Greg Peters",
     "title": "Chief Product Officer",
@@ -272,13 +258,6 @@
     "image": "/assets/img/summit/speakers/jessyka-castillo.jpg",
     "linkedin": "https://www.linkedin.com/in/jessykacastillo/"
   },
-  "John Canela": {
-    "name": "John Canela",
-    "title": "Incident Response Consultant",
-    "organization": "Mandiant",
-    "image": "/assets/img/summit/speakers/john-canela.jpg",
-    "linkedin": "https://www.linkedin.com/in/johncanela/"
-  },
   "Jose Fermoso": {
     "name": "Jose Fermoso",
     "title": "Founder",
@@ -299,13 +278,6 @@
     "organization": "Out in Tech",
     "image": "/assets/img/summit/speakers/josh-torres.jpg",
     "linkedin": "https://www.linkedin.com/in/joshtorres/"
-  },
-  "Joshua Encarnacion": {
-    "name": "Joshua Encarnacion",
-    "title": "CEO",
-    "organization": "Outco",
-    "image": "/assets/img/summit/speakers/joshua-encarnacion.jpg",
-    "linkedin": "https://www.linkedin.com/in/joshuaenc/"
   },
   "Joél-Léhi Organista": {
     "name": "Joél-Léhi Organista",
