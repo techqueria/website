@@ -128,6 +128,12 @@
     padding: 3em 1em;
   }
 
+  .section-schedule {
+    a:hover {
+      color: $techqueria-black;
+    }
+  }
+
   a:hover:not(.sponsors-logo-wall--sponsor--item) {
 
     img,
