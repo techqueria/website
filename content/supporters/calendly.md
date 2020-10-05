@@ -2,7 +2,7 @@
 title: "Calendly"
 description: "Techqueria uses Calendly to help schedule meetings with our partners without back-and-forth emails."
 image: "/assets/img/supporters/calendly.jpg"
-link: https://calendly.com/?source=techqueria
+link: https://calendly.com/techqueria?source=techqueria
 noTimeEstimate: true
 toc: true
 price: "$360 per year"
