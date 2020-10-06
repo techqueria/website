@@ -69,6 +69,13 @@
     "image": "/assets/img/summit/speakers/ariele-faber.jpeg",
     "linkedin": "https://www.linkedin.com/in/arielefaber/"
   },
+  "Barbara Teyssandier": {
+    "name": "Barbara Teyssandier",
+    "title": "Recruiter, Operations",
+    "organization": "Waymo",
+    "image": "/assets/img/summit/speakers/barbara-teyssandier.jpg",
+    "linkedin": "https://www.linkedin.com/in/barbarateyssandier/"
+  },
   "Brendon Villalobos": {
     "name": "Brendon Villalobos",
     "title": "Machine Learning Technical Lead",
@@ -97,12 +104,33 @@
     "image": "/assets/img/summit/speakers/carita-marrow.jpg",
     "linkedin": "https://www.linkedin.com/in/caridadperez/"
   },
+  "Cat Martinez": {
+    "name": "Cat Martinez",
+    "title": "Community Growth Manager",
+    "organization": "OutSystems",
+    "image": "/assets/img/summit/speakers/cat-martinez.jpg",
+    "linkedin": "https://www.linkedin.com/in/cathmartinez/"
+  },
+  "Catalina Perez": {
+    "name": "Catalina Perez",
+    "title": "Founder & Career Coach",
+    "organization": "Catalyst Creation",
+    "image": "/assets/img/summit/speakers/catalina-perez.jpg",
+    "linkedin": "https://www.linkedin.com/in/cpenapen/"
+  },
   "Celina Zamora": {
     "name": "Celina Zamora",
     "title": "Sr. Program Manager, Developer Community",
     "organization": "MongoDB",
     "image": "/assets/img/summit/speakers/celina-zamora.jpg",
     "linkedin": "https://www.linkedin.com/in/celina-zamora/"
+  },
+  "Cesar Manara": {
+    "name": "Cesar Manara",
+    "title": "Community Manager",
+    "organization": "Stack Overflow",
+    "image": "/assets/img/summit/speakers/cesar-manara.jpg",
+    "linkedin": "https://www.linkedin.com/in/cesar-manara-63b1b658/"
   },
   "Christian Arana": {
     "name": "Christian Arana",
@@ -117,6 +145,13 @@
     "organization": "Splunk",
     "image": "/assets/img/summit/speakers/citlalli-solano-leonce.jpg",
     "linkedin": "https://www.linkedin.com/in/cit1a11i/"
+  },
+  "Claire Miller": {
+    "name": "Claire Miller",
+    "title": "Senior Technical Support Engineer ",
+    "organization": "Zendesk",
+    "image": "/assets/img/summit/speakers/claire-miller.jpg",
+    "linkedin": "https://www.linkedin.com/in/claire-michelle-miller-30b96344/"
   },
   "Cuco Vega": {
     "name": "Cuco Vega",
@@ -286,12 +321,26 @@
     "image": "/assets/img/summit/speakers/joel-lehi-organista.jpg",
     "linkedin": "https://www.linkedin.com/in/joel-lehi-organista"
   },
+  "Julieta Dasilva": {
+    "name": "Julieta Dasilva",
+    "title": "Recruiter",
+    "organization": "Zapier",
+    "image": "/assets/img/summit/speakers/julieta-dasilva.jpg",
+    "linkedin": "https://www.linkedin.com/in/juliettadasilva/"
+  },
   "Justin Kitagawa": {
     "name": "Justin Kitagawa",
     "title": "Senior Director, Software Engineering",
     "organization": "Twilio",
     "image": "/assets/img/summit/speakers/justin-kitagawa.jpg",
     "linkedin": "https://www.linkedin.com/in/justinkitagawa/"
+  },
+  "Karina Macias Sandoval": {
+    "name": "Karina Macias Sandoval",
+    "title": "Recruiting and Talent Operations",
+    "organization": "Nova Credit",
+    "image": "/assets/img/summit/speakers/karina-macias-sandoval.jpg",
+    "linkedin": "https://www.linkedin.com/in/kmsandoval/"
   },
   "Kelly Kitagawa": {
     "name": "Kelly Kitagawa",
@@ -306,6 +355,13 @@
     "organization": "Betts Recruiting",
     "image": "/assets/img/summit/speakers/kendra-morales.jpg",
     "linkedin": "https://www.linkedin.com/in/kendraleighmorales/"
+  },
+  "Kendra Ritterhern": {
+    "name": "Kendra Ritterhern",
+    "title": "Product Manager",
+    "organization": "Blend",
+    "image": "/assets/img/summit/speakers/kendra-ritterhern.jpg",
+    "linkedin": "https://www.linkedin.com/in/kendra-ritterhern-6413a2105/detail/photo/"
   },
   "Krys Flores": {
     "name": "Krys Flores",
@@ -326,6 +382,13 @@
     "title": "Co-Lead",
     "organization": "Dreamers in Tech",
     "image": "/assets/img/team/dreamers-in-tech/liliana-hu-wu.png",
+    "linkedin": "https://www.linkedin.com/in/liliana-huwu/"
+  },
+  "Lisa Del Sol": {
+    "name": "Lisa Del Sol",
+    "title": "Director of Community",
+    "organization": "MyHealthTeams",
+    "image": "/assets/img/team/dreamers-in-tech/lisa-del-sol.jpg",
     "linkedin": "https://www.linkedin.com/in/liliana-huwu/"
   },
   "Lorena Villeges": {
@@ -482,6 +545,13 @@
     "image": "/assets/img/summit/speakers/sofia-rodriguez.jpg",
     "linkedin": "https://www.linkedin.com/in/sofmata/"
   },
+  "Stephanie Rivera": {
+    "name": "Stephanie Rivera",
+    "title": "Full Stack Bureaucrat",
+    "organization": "18F (Invited)",
+    "image": "/assets/img/summit/speakers/stephanie-rivera.jpg",
+    "linkedin": "https://www.linkedin.com/in/stephaniekrivera/"
+  },
   "Tonatiuh Ramos": {
     "name": "Tonatiuh Ramos",
     "title": "Co-Lead",
@@ -509,6 +579,13 @@
     "organization": "Twilio",
     "image": "/assets/img/summit/speakers/yiemi-andrea-fuquen-moreno.jpg",
     "linkedin": "https://www.linkedin.com/in/yeimi-andrea-fuquen-moreno-88bb814b/"
+  },
+  "Yesenia Rosales": {
+    "name": "Yesenia Rosales",
+    "title": "Insurance Customer Care/QC Manager",
+    "organization": "Blend",
+    "image": "/assets/img/summit/speakers/yesenia-rosales.jpg",
+    "linkedin": "https://www.linkedin.com/in/rsls101/"
   },
   "Yvette Ramirez": {
     "name": "Yvette Ramirez",

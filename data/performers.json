@@ -1,4 +1,16 @@
 {
+  "Chulita Vinyl Club": {
+    "name": "Chulita Vinyl Club",
+    "description": "Chulita Vinyl Club is made up of women, gender-non-conforming, non-binary, LGBTQ+ and self-identifying people of color that utilize music and vinyl as a form of resistance against the erasure of culture.",
+    "image": "/assets/img/summit/performers/chulita-vinyl-club.jpg",
+    "link": "https://www.chulitavinylclub.com/"
+  },
+  "Sally Limón": {
+    "name": "Sally Limón",
+    "description": "Oakland’s own bearded bilingual baby drag thing",
+    "image": "/assets/img/summit/performers/sally-limon.jpg",
+    "link": "https://www.instagram.com/sally_limon_please/"
+  },
   "Plural Music": {
     "name": "Alán Hensley",
     "description": "PluralMusic DJ & Co-Owner",
