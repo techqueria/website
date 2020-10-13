@@ -7,4 +7,6 @@ hideImage: true
 aliases:
   - /summit/
   - /conference/
+  - /summit/rsvp/
+  - /summit/tickets/
 ---

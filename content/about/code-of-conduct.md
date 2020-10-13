@@ -68,19 +68,15 @@ For all official Techqueria events, in instances where alcohol is present, the f
 
 ## Reporting Violations
 
-In the unfortunate case that you see someone violating the code of conduct, here are some ways that you can report it to us.
+In the unfortunate case that you see someone violating the code of conduct, please do one of the following:
 
-### Twitter
+### Website Form
 
-DM [@Techqueria](https://twitter.com/Techqueria) on Twitter
-
-### Contact Us
-
-You can contact us using [https://techqueria.org/contact](https://techqueria.org/contact)
+Fill out the form below.
 
 ### Slack
 
-Within the Slack group, you can reach out to us via the `#meta` channel.
+Within the Slack group, you can reach out to us via the `#meta` channel using the "Report a COC Violation" workflow.
 
 For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/communities/slack/).
 
@@ -99,3 +95,28 @@ Witch-hunting and shaming someone the actions of someone else is also in violati
 ## Attribution
 
 This Code of Conduct is adapted from dev.to and inspired by [Women Who Code](https://www.womenwhocode.com/) and [LGBTQ in Technology](https://lgbtq.technology/).
+
+## Report Code of Conduct Violation
+
+### What rule was violated?
+
+Threats of violence
+Unwelcome remarks regarding a person’s lifestyle choices and practices
+Trolling, insulting/derogatory comments, public or private harassment
+Unwelcome physical contact
+Any action that results in complaints from our community
+Assuming or promoting any kind of inequality
+Attacking personal tastes
+Continued one-on-one communication after requests to cease
+Deliberate “outing”
+Deliberate intimidation
+Sharing disturbing graphics or content
+Exclusionary jokes or comments
+Not being respectful to communication boundaries
+Publishing private content without permission
+Spamming the group and excessive self-promotion
+Other (provide more details)
+
+### Who violated that rule? Please put their full name and email if known.
+
+### Please elaborate.
