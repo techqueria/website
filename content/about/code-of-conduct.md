@@ -74,7 +74,7 @@ In the unfortunate case that you see someone violating the code of conduct, plea
 
 ### Website Form
 
-Fill out this form.
+Fill out [the form](#report-code-of-conduct-violation) below.
 
 ### Slack
 
@@ -115,5 +115,5 @@ Filling out the form below notifies Techqueria's admins.
   {{< fields/coc-violation >}}
   {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email if known." name="coc_violation_who" placeholder="Please elaborate here" >}}
   {{< fields/message required="true" label="Please elaborate on this COC violation." help="Any information would be helpful." name="coc_violation_elaborate" placeholder="Please elaborate here" >}}
-  {{< fields/submit >}}
+  {{< fields/submit label="Submit report" >}}
 </form>
