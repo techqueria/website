@@ -113,7 +113,7 @@ Filling out the form below notifies Techqueria's admins.
     </div>
   </div>
   {{< fields/coc-violation >}}
-  {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email if known." name="coc_violation_who" placeholder="Please elaborate here" >}}
-  {{< fields/message required="true" label="Please elaborate on this COC violation." help="Any information would be helpful." name="coc_violation_elaborate" placeholder="Please elaborate here" >}}
+  {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email if known." name="who_violated_coc" placeholder="Please elaborate here" >}}
+  {{< fields/message required="true" label="Please elaborate on this COC violation." help="Any information would be helpful." name="elaborate_on_violation" placeholder="Please elaborate here" >}}
   {{< fields/submit label="Submit report" >}}
 </form>
