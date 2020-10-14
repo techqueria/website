@@ -111,11 +111,11 @@
     "image": "/assets/img/summit/speakers/cat-martinez.jpg",
     "linkedin": "https://www.linkedin.com/in/cathmartinez/"
   },
-  "Catalina Perez": {
-    "name": "Catalina Perez",
+  "Catalina Pena": {
+    "name": "Catalina Peña",
     "title": "Founder & Career Coach",
     "organization": "Catalyst Creation",
-    "image": "/assets/img/summit/speakers/catalina-perez.jpg",
+    "image": "/assets/img/summit/speakers/catalina-pena.jpg",
     "linkedin": "https://www.linkedin.com/in/cpenapen/"
   },
   "Celina Zamora": {
@@ -481,6 +481,13 @@
     "organization": "Hella Latin@ Podcast",
     "image": "/assets/img/summit/speakers/odalys-jasmine-garcia-arce.jpg",
     "linkedin": "https://www.linkedin.com/in/odalysjasminegarciaarce/"
+  },
+  "Pablo Colunga": {
+    "name": "Pablo Colunga",
+    "title": "Candidate for Masters in Computer Science",
+    "organization": "Northeastern University",
+    "image": "/assets/img/summit/speakers/pablo-colunga.jpg",
+    "linkedin": "https://www.linkedin.com/in/pablo-colunga/"
   },
   "Paola Mariselli": {
     "name": "Paola Mariselli",
