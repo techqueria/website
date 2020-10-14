@@ -1,11 +1,13 @@
+{{ if not (eq .Section "donate") }}
+
 <div class="content mt-2">
   <h2><span class="mr-sm">💛</span>Donate to Techqueria</h2>
   <p>
     Support Techqueria's efforts by
-    <a href="https://patreon.com/techqueria" rel="noopener" target="_blank"
-      >becoming an on-going patron</a
-    >
+    <a href="https://patreon.com/techqueria" rel="noopener" target="_blank">becoming an on-going patron</a>
     or <a href="/donate/" rel="noopener">making a one-time donation</a>.
   </p>
   {{ partial "content/custom/donate.html" . }}
+
 </div>
+{{ end }}

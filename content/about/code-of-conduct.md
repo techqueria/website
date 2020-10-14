@@ -14,6 +14,8 @@ aliases:
   - /about/coc/
 ---
 
+> As of September 2020, we are currently working on revamping our Code of Conduct guidelines and plan to share updates soon.
+
 All participants of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.
 
 We believe in respect, compassion, understanding, and inclusion and expect all community members to act on these values.
@@ -68,19 +70,15 @@ For all official Techqueria events, in instances where alcohol is present, the f
 
 ## Reporting Violations
 
-In the unfortunate case that you see someone violating the code of conduct, here are some ways that you can report it to us.
+In the unfortunate case that you see someone violating the code of conduct, please submit the report through our website or Slack.
 
-### Twitter
+### Website Form
 
-DM [@Techqueria](https://twitter.com/Techqueria) on Twitter
-
-### Contact Us
-
-You can contact us using [https://techqueria.org/contact](https://techqueria.org/contact)
+Fill out [the form](#report-code-of-conduct-violation) below.
 
 ### Slack
 
-Within the Slack group, you can reach out to us via the `#meta` channel.
+Within the Slack group, you can reach out to us via the `#meta` channel using the "Report a COC Violation" workflow.
 
 For more information on getting the most out of our Slack workspace, [see our Slack welcome page](/communities/slack/).
 
@@ -99,3 +97,23 @@ Witch-hunting and shaming someone the actions of someone else is also in violati
 ## Attribution
 
 This Code of Conduct is adapted from dev.to and inspired by [Women Who Code](https://www.womenwhocode.com/) and [LGBTQ in Technology](https://lgbtq.technology/).
+
+## Report Code of Conduct Violation
+
+Filling out the form below notifies Techqueria's admins.
+
+<form name="Code of Conduct Violation Report" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/coc-violation/" class="form--max-width-unset form--centered no-ids">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Code of Conduct Violation Report">
+  <div class="columns mb-0">
+    <div class="column pb-0 pt-0">
+      {{< fields/name >}}
+    </div>
+    <div class="column pb-0 pt-0">
+      {{< fields/email >}}
+    </div>
+  </div>
+  {{< fields/coc-violation >}}
+  {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email if known." name="who_violated_coc" placeholder="Please elaborate here" >}}
+  {{< fields/message required="true" label="Please elaborate on this COC violation." help="Any information would be helpful." name="elaborate_on_violation" placeholder="Please elaborate here" >}}
+  {{< fields/submit label="Submit report" >}}
+</form>

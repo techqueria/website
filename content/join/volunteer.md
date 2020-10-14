@@ -18,9 +18,9 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 ## Volunteering Opportunities
 
-You can find all <a href="https://docs.google.com/document/d/1ryugVO5ecNZgf83HPULTT3Q7HUSEAWUP4BRYfORksdY/edit?usp=sharing" rel="noopener">our volunteering opportunities</a> on Google Docs.
+You can find all <a href="https://www.notion.so/techqueriaorg/86b10a50006e48ad937198e25297af9c?v=410cd2988aa740fc860b165444327866" rel="noopener" target="_blank">our volunteering opportunities</a> on Notion.
 
-However, we generally share the latest volunteering opportunities through the `#meta-volunteer` channel in [our Slack community](/slack/).
+However, we generally share the latest volunteering opportunities through the `#meta-volunteer` channel in [our Slack community](/slack/) and we are starting to share volunteering events in [Point](https://pointapp.org/orgs/364).
 
 ## Sign Up to Volunteer
 

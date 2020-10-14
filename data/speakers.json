@@ -6,6 +6,13 @@
     "image": "/assets/img/summit/speakers/adriana-flores-ragade.jpg",
     "linkedin": "https://www.linkedin.com/in/adriana-flores-ragade-b4a9a11/"
   },
+  "Alejandra Vasquez": {
+    "name": "Alejandra Vasquez",
+    "title": "Documentary Filmmaker | Producer",
+    "organization": "Varsity Oro",
+    "image": "/assets/img/summit/speakers/alejandra-vasquez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/alejandrayvasquez/"
+  },
   "Alejandro Jimenez": {
     "name": "Alejandro Jimenez",
     "title": "Graduate Student",
@@ -111,11 +118,11 @@
     "image": "/assets/img/summit/speakers/cat-martinez.jpg",
     "linkedin": "https://www.linkedin.com/in/cathmartinez/"
   },
-  "Catalina Perez": {
-    "name": "Catalina Perez",
+  "Catalina Pena": {
+    "name": "Catalina Peña",
     "title": "Founder & Career Coach",
     "organization": "Catalyst Creation",
-    "image": "/assets/img/summit/speakers/catalina-perez.jpg",
+    "image": "/assets/img/summit/speakers/catalina-pena.jpg",
     "linkedin": "https://www.linkedin.com/in/cpenapen/"
   },
   "Celina Zamora": {
@@ -300,6 +307,13 @@
     "image": "/assets/img/summit/speakers/jose-rodriguez-salinas.jpg",
     "linkedin": "https://www.linkedin.com/in/josealberto-rodriguez/"
   },
+  "Jose Vadi": {
+    "name": "José Vadi",
+    "title": "Contributing Producer",
+    "organization": "Pop-Up Magazine",
+    "image": "/assets/img/summit/speakers/jose-vadi.jpeg",
+    "linkedin": "https://www.linkedin.com/in/jos%C3%A9-vadi/"
+  },
   "Josh Torres": {
     "name": "Josh Torres",
     "title": "Chief of Staff",
@@ -313,6 +327,13 @@
     "organization": "Machitia",
     "image": "/assets/img/summit/speakers/joel-lehi-organista.jpg",
     "linkedin": "https://www.linkedin.com/in/joel-lehi-organista"
+  },
+  "John Paul Brammer": {
+    "name": "John Paul Brammer",
+    "title": "Author and Illustrator",
+    "organization": "¡Hola Papi!",
+    "image": "/assets/img/summit/speakers/john-paul-brammer.jpg",
+    "linkedin": "https://twitter.com/jpbrammer"
   },
   "Julieta Dasilva": {
     "name": "Julieta Dasilva",
@@ -482,6 +503,13 @@
     "image": "/assets/img/summit/speakers/odalys-jasmine-garcia-arce.jpg",
     "linkedin": "https://www.linkedin.com/in/odalysjasminegarciaarce/"
   },
+  "Pablo Colunga": {
+    "name": "Pablo Colunga",
+    "title": "Candidate for Masters in Computer Science",
+    "organization": "Northeastern University",
+    "image": "/assets/img/summit/speakers/pablo-colunga.jpg",
+    "linkedin": "https://www.linkedin.com/in/pablo-colunga/"
+  },
   "Paola Mariselli": {
     "name": "Paola Mariselli",
     "title": "Product Design Manager",
@@ -509,6 +537,13 @@
     "organization": "We can Code IT",
     "image": "/assets/img/summit/speakers/rachael-olasunkanmi.jpg",
     "linkedin": "https://www.linkedin.com/in/rachaelolasunkanmi/"
+  },
+  "Rachel Smith": {
+    "name": "Rachel Smith",
+    "title": "Founder",
+    "organization": "Design to Combat COVID-19",
+    "image": "/assets/img/summit/speakers/rachel-smith.jpeg",
+    "linkedin": "https://www.linkedin.com/in/rachdsmith/"
   },
   "Ramona Robles": {
     "name": "Ramona Robles",

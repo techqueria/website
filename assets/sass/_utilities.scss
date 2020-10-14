@@ -222,6 +222,11 @@
 
 // Width
 
+.u-max-width--small {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
 .u-max-width--mobile {
   max-width: $mobile;
 }
