@@ -7,7 +7,7 @@ aliases:
   - /successses/
 ---
 
-We have successfully received your form submission and we will follow with you if needed. 📝
+We have successfully received your form submission and we will follow up with you if needed ASAP. 📝
 
 In the meantime, enjoy these cute tacitos or consider [becoming a member of Techqueria](/join/)!
 
