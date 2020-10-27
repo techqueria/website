@@ -26,10 +26,10 @@ aliases:
 
 <h2>3. Join us on Slack 💬</h2>
 
-<p>If you are part of Techqueria's Slack community, feel free to join the <code>#lhm-summit</code> channel and ask us any questions there!</p>
+<p>If you are part of Techqueria's Slack community, feel free to join the <code>#meta-conference</code> channel and ask us any questions there!</p>
 
-<video autoplay loop muted playsinline poster="/assets/img/summit/lhm-summit-banner.png" class="border-radius-4 very-light-image-shadow mt-1">
-  <source src="/assets/img/summit/lhm-summit-banner.mp4" type="video/mp4" />
+<video autoplay loop muted playsinline poster="/assets/img/summit/2020/lhm-summit-banner.png" class="border-radius-4 very-light-image-shadow mt-1">
+  <source src="/assets/img/summit/2020/lhm-summit-banner.mp4" type="video/mp4" />
 </video>
 
 </div>

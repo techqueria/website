@@ -4,5 +4,5 @@ image: "/assets/img/team/staff/mary-ramirez.png"
 description: "Partnerships Lead"
 linkedin: https://www.linkedin.com/in/marybramirez/
 categories:
-  - partnerships-lead
+  - staff
 ---

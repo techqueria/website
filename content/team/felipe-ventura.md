@@ -7,7 +7,7 @@ twitter: fvntr
 github: fvntr
 categories:
   - board-member
-  - co-director
+  - executive-team
 aliases:
   - /about/team/felipe-ventura/
   - /team/felipe-ventura/
