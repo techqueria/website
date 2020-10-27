@@ -45,29 +45,9 @@ While Techqueria does not partner with these companies, we understand that the L
 
 ## Companies Supporting ICE
 
-Below is a list of well known companies with active ICE contracts.
+A list of on the companies partnering with ICE can be found [here](https://companies-that-work-with-ice.com/) and [here](https://www.vox.com/recode/2019/7/30/20728147/tech-company-ice-contracts-foia-microsoft-palantir-concur-dell).
 
-This is not a comprehensive list and further information on different companies partnering with ICE can be found [here](https://companies-that-work-with-ice.com/) and [here](https://www.vox.com/recode/2019/7/30/20728147/tech-company-ice-contracts-foia-microsoft-palantir-concur-dell).
-
-Some of these companies have reached out to Techqueria (as noted in the section) and we have passed on partnership opportunities with them.
-
-### Declined
-
-These are companies where Techqueria has actively declined partnerships. Techqueria will not partner with these companies unless they drop their contracts with ICE.
-
-- [Accenture](https://gizmodo.com/accenture-employees-demand-their-company-break-ties-wit-1830474961)
-- [Amazon](https://www.technologyreview.com/s/612335/amazon-is-the-invisible-backbone-behind-ices-immigration-crackdown/)
-- [Booz Allen Hamilton](https://www.vice.com/en_us/article/a358x4/booz-allen-hamilton-is-making-millions-working-with-ice)
-- [Salesforce](https://eastbaymajority.com/marc-benioff-salesforce-ice-homeland-security/)
-- [Twitch](https://en.wikipedia.org/wiki/Twitch_(service)#Amazon_subsidiary_(2014%E2%80%93present))
-
-### Past Partners
-
-Companies Techqueria has partnered with in the past but that we will no longer partner with unless they drop ICE.
-
-- [GitHub](https://techcrunch.com/2019/11/13/github-faces-more-resignations-in-light-of-ice-contract/)
-- [Google](https://www.usatoday.com/story/tech/2019/08/15/google-ice-protest-employees-push-avoid-work-border-groups/2026760001/)
-
+Some of these companies have reached out to Techqueria and we have passed on partnership opportunities with them.
 
 ### Call to Action
 
