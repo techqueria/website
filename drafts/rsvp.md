@@ -1,7 +1,7 @@
 ---
 title: "RSVP to #LHM Summit"
 description: "Attend Techqueria's first virtual summit and celebrate the thriving Latinx in tech community."
-image: "/assets/img/summit/rsvp/rsvp.png"
+image: "/assets/img/summit/2020/rsvp/rsvp.png"
 noTimeEstimate: true
 hideImage: true
 aliases:

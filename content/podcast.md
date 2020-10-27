@@ -44,6 +44,10 @@ Techqueria and Points of Presence Media, a new nonprofit news organization based
 
 [Listen in Stitcher](https://www.stitcher.com/s?fid=544620)
 
+### Overcast
+
+[Listen in Overcast](https://overcast.fm/itunes1518979670/techqueria)
+
 ## Benefits
 
 - The unique opportunity to be part of the first ever podcast focused on Latinx in tech that comes with its own vibrant community. A uniquely untapped source of stories and innovation.

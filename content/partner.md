@@ -122,14 +122,3 @@ If you're short on time, please refer to our partnerships deck on how we can sta
   {{< fields/submit label="Submit partnership inquiry" >}}
 </form>
 <script src="/assets/js/partner.js"></script>
-
-<div class="mt-4"></div>
-
-## Book a Call
-
-<p class="mb-0">If you're ready to chat, feel free to book a call with our partnerships team.</p>
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/techqueria/new-partner-call" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->

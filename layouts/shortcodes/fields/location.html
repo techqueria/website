@@ -1,5 +1,5 @@
 {{ $label := "Where are you currently based?*" }}
-{{ $help := "We'll be able to reach out with relevant opportunities based on your location." }}
+{{ $help := "We can reach out with relevant opportunities based on your location." }}
 <!-- Label -->
 {{ if .Get "label" }}
 {{ if isset .Params "label" }}
@@ -14,8 +14,7 @@
 {{ end }}
 
 <div class="field">
-  <label class="label">{{ $label }}</label>
-  <p class="help">{{ $help }}</p>
+  <label class="label mb-1">{{ $label }}</label>
   <div class="columns">
     <div class="column">
       <div class="field mt-0">
@@ -114,6 +113,7 @@
           placeholder="Country"
           data-value-missing="Please include your country."
           list="countries"
+          maxlength="2"
           required
         />
         <datalist id="countries">

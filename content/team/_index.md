@@ -12,5 +12,6 @@ aliases:
   - /donate/patreon-supporters/
   - /patreon-supporters/
   - /about/team/
+  - /team/sandra-pinto/
 sitemap: true
 ---

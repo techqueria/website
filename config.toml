@@ -165,6 +165,10 @@ disqusShortname               = "techqueria"
     url                       = "https://g.page/Techqueria?we"
 [[menu.main]]
     parent                    = "Communities"
+    name                      = "Instagram"
+    url                       = "https://instagram.com/techqueriaorg"
+[[menu.main]]
+    parent                    = "Communities"
     name                      = "GitHub Organization"
     url                       = "https://github.com/techqueria"
 [[menu.main]]

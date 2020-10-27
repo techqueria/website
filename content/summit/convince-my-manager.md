@@ -1,7 +1,7 @@
 ---
 title: "Convince My Manager"
 description: "Convince your manager that you should take some time off to attend #LHM Summit."
-image: "/assets/img/summit/lhm-summit-banner.png"
+image: "/assets/img/summit/2020/lhm-summit-banner.png"
 noTimeEstimate: true
 hideImage: true
 aliases:
