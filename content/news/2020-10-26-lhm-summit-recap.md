@@ -5,6 +5,8 @@ date: 2020-10-26
 image: "/assets/img/news/2020-10-26-lhm-summit/summit-logo.png"
 authors:
   - Frances Coronel
+aliases:
+  - /news/2020/10/26/techquerias-first-virtual-summit-a-brief-recap/
 ---
 
 #LHM Summit was Techqueria's first ever virtual summit that took place during Latinx Heritage Month (LHM) earlier this month from Wednesday October 7th to Friday October 9th, 2020.
