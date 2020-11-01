@@ -28,19 +28,30 @@ aliases:
   - /support-us/chapter-director/reimbursement-policy/
 ---
 
-## What does it take to run a Techqueria Chapter?
-
-> We cannot seek achievement for ourselves and forget about progress and prosperity for our community... Our ambitions must be broad enough to include the aspirations and needs of others, for their sakes and for our own.
+> **Due to COVID-19, we are not accepting applications for new Chapter Directors as of April 23, 2020.**
 >
-> — Cesar Chavez
+> **The form will re-open in 2021 and we're currently working on documentaiton to make it easier for any member to host a branded Techqueria event.**
 
-The ideal Chapter Director for Techqueria is scrappy, cares about D&I in all of its different aspects and is passionate about community.
+## Purpose
 
-They also respect our core mission and values and align with our overall nonprofit strategy.
+Chapter Directors work to help local Latinx professionals in tech advance in their own personal career through networking events while delivering the established values and standards Techqueria stands for.
 
-You can find more details on our mission [on our about page](/about/).
+The ideal Chapter Director for Techqueria is scrappy, cares about D&I in all of its different aspects, and is passionate about community.
 
-### Techqueria Chapters are:
+They also respect our [core mission and values](about) and align with our overall nonprofit strategy.
+
+## Roles
+
+- Chapter Director
+  - Someone who oversees the development of a local chapter
+- Chapter Volunteer
+  - Someone who helps support Chapter Directors on an ongoing or one-off basis
+- Member
+  - Someone who is a member of Techqueria's Slack community
+
+## Chapters
+
+Techqueria Chapters are:
 
 - local city-based communities that are run by dedicated chapter directors and volunteers who want to nurture and grow the largest community of Latinx in tech in the world
 - focused on both technical and non-technical content
@@ -48,22 +59,26 @@ You can find more details on our mission [on our about page](/about/).
 
 ## Qualifications
 
-- a member of Techqueria for at least 6 months in good standing
-  - if you're not a member, you can request an invite [on our Join page](/join/)
-  - good standing here meaning you haven't violated our [Code of Conduct](/about/code-of-conduct/)
-- at least 21 years old
-  - some of our events have alcohol
-- at least 3 years of experience in the tech industry and/or at least 3 years of community building experience
-  - so you're familiar enough with companies and have built up your own network you can tap into
-- able to organize at least 2 events per year
-  - if you just want to host 1 event, make it an informal one and invite local folks using Slack, social media, etc.
-  - we do not create new chapters in [Bevy](https://events.techqueria.org/virtual-events/) for chapters that have had just 1 event
-- able to dedicate at least 5 hours per week
-  - events take time to plan
-  - how much time you dedicate will also depend on how frequently your chapter has events
-- (highly recommended) already planned at least two local informal events on your own
+In order to qualify to become a Chapter Director, one must meet the minimum qualifications:
+
+- a member of Techqueria's Slack Community for at least 6 months
+- never violated our [Code of Conduct](https://techqueria.org/about/code-of-conduct/)
+- at least 21 years old because some of our events have alcohol
+- at least 3 years of experience in the tech industry and/or at least 3 years of community building experience so you’re familiar enough with companies and have built up your own network you can tap into
+- already planned at least 4 local informal events on your own
+- able to organize at least 4 events per year
+  - if you just want to host 1 event, please refer to [Hosting TQ Event 101 (WIP)](https://www.notion.so/Hosting-TQ-Event-101-WIP-9f8d0d89723a412b95f431f4a0b6d42a)
+- able to dedicate at least 2 hours per week
+
+## Term
+
+This agreement shall continue in full force for 1 year with potential for renewal or until terminated as set forth herein.
 
 ## Responsibilities
+
+### Overview
+
+At its core, the Chapter Director has the following responsibilities:
 
 - build a group of volunteers
 - communicate with the national leadership team and ensure alignment of goals
@@ -73,85 +88,162 @@ You can find more details on our mission [on our about page](/about/).
 - plan events for the local Latinx in tech community to benefit and thrive from
 - prepare and manage chapter budget
 - provide internal team a weekly standup
+- respond to chapter emails
 
-## Minimum Requirements
-
-Progress will be tracked in quarterly check-ins. If you're not meeting minimum requirements after 6 months, you will be warned and then removed.
-
-- help plan at least 4 events per year
-- attend monthly chapter director meetings
-- attend 1:1 quarterly meetings
-
-## Example Tasks
+### Example Tasks
 
 - contribute to documentation in Google Docs
-- create marketing assets in [Canva](https://canva.com)
-- create and assign tasks in [Asana](https://asana.com) to manage local events or partnerships
-- follow Techqueria's [brand guidelines](/brand/)
-- get the help of a volunteer to take photos, upload photos to a Google Photo album and share with national org
-- host an organizer meeting every month via Google Hangouts Meet and take meeting notes in Google Docs
-- use [Bevy](https://events.techqueria.org/virtual-events/) to track RSVPs and attendance of local events
+- create marketing assets in [Canva](https://canva.com/) for events
+- create and assign tasks in [Asana](https://asana.com/) to manage local events or partnerships
+- follow Techqueria’s [brand guidelines](https://techqueria.org/brand/)
+- share photos of the event to attendees via Slack
+- host an organizer meeting every month and take meeting notes
+- use [Bevy](https://events.techqueria.org/virtual-webinars/) to track RSVPs and attendance of local events
 - use Buffer to automatically schedule social media posts advertising the latest local event
+- respond in Help Scout to chapter emails
+
+### Onboarding
+
+- The Chapter Director must be formally on-boarded before launching their first Chapter Event.
+
+### Logo Usage
+
+- Logos will be provided by Techqueria and only these official logos should be used for all Events
+and marketing.
+- Logos may not be used in any other manner without the prior approval from Techqueria.
+
+### Team
+
+- The Chapter Director can recruit volunteers to help carry out activities and the Chapter Director is solely responsible for this team.
+- Volunteers should not be paid by the Chapter Director, however, they can be given small gifts as a token of appreciation for their time and effort.
+  - Gifts for volunteers cannot exceed $500 in value per year.
+
+### Events
+
+- The Chapter Director must organize at least 1 event every quarter (every 3 months).
+  - These events can be in partnership with other orgs
+  - Events must show up in Techqueria's event platform - Bevy
+- The Chapter Director must promote Techqueria events through the appropriate channels if the event is open to allies. These tools include, but are not limited to, the following minimum requirements:
+  - Share the event on Bevy
+  - Send at least 1 Chapter Newsletter per quarter through Bevy
+  - Share the event on social media through Buffer
+- The Chapter Director must add events that are in planning to a centralized source so it's easier to keep track of them. [](https://www.notion.so/aaecb2d2377f4270b9c7f510e4af897e)
+- The Chapter Director will be responsible for tracking chapter events and meeting attendance.
+
+### Meetings
+
+- The Chapter Director is highly encouraged to attend the monthly meeting for all Chapter Directors of Techqueria.
+
+### Budget & Reimbursements
+
+- Each chapter is allowed to reimburse up to $500 for any event costs for their chapter per year.
+- If the chapter has received additional funding from another source, they can reimburse up to that amount.
+- Chapter Directors are responsible for managing their own budget and sharing updates on a quarterly basis.
+- Chapter Directors must provide enough detail when requesting reimbursements.
+
+### Incidents
+
+- The Chapter Director is responsible for reporting any incidents (injury, property damage, etc) to Techqueria.
+- The Chapter Director shall bear sole responsibility for, and shall hold Techqueria harmless against, and defend any claim arising from any injury, death, property damage or other loss or damage relating to Events hosted by the Chapter Director.
 
 ## Benefits
 
-> I think it's important to move people beyond just dreaming into doing.
->
-> They have to be able to see that **you are just like them and you made it.**
->
-> — Sonia Sotomayor
+> "I think it’s important to move people beyond just dreaming into doing.They have to be able to see that you are just like them and you made it."— Sonia Sotomayor
 
 ### Impact & Visibility
 
-- You'll be helping grow the largest community of Latinx in tech
+- You’ll be helping grow the largest community of Latinx in tech
 - You can add this position to your LinkedIn profile and be recognized as a community leader
 - You will be helping facilitate events where you will be engaging and growing your local community of Latinx professionals in the tech industry
 
 ### Org Support
 
 - There is a dedicated onboarding process where you will be introduced to tooling to make your life easier as a new Chapter Director for Techqueria
+  - Chapter Directors receive access to premium software which can also be used for personal usage.
 - There are dedicated Slack channels where you can ask the national leadership team any questions and interact with other chapter directors
+- We want to set up you for success so we offer financial support for creating events and increased benefits as you grow out your chapter.
+- Annual gift from leadership team.
 
-### Financial Support
+## Chapter Director Status
 
-We want to set up you for success so we offer financial support for creating events and increased benefits as you grow out your chapter.
+- It is the responsibility of the Chapter Director to notify their team if they will not be available to support the chapter for more than 2 weeks (PTO, OOO, etc).
+- If the Chapter Director does not help organize an event after 1 quarter (3 months), they will be moved to "Inactive".
+- If the Chapter Director does not help organize an event after 2 quarters (6 months), they will no longer be considered Chapter Directors and will be off-boarded.
 
-- Based on the number of people per event and the number of events per year, your chapter falls into a certain tier where the benefits increase as you grow your chapter
-- You are discouraged from paying out of pocket costs as we have dedicated levels of event reimbursement we can provide depending on the number of attendees
-- See "Chapter Tiers" and "Reimbursement Policy" pages for more specifics
+## Chapter Status
 
-## Chapters
+A city chapter can become closed or can reactivate and become an official chapter again.
 
-### Current Active Chapters
+> Active →← Incubating or Inactive →← Closed
 
-> Chapters that have held at least 1 formal event in the past 6 months
+### Active Chapter
 
-1. Atlanta, GA
-2. Austin, TX
-3. Los Angeles, CA
-4. New York, NY
-5. Orlando, FL
-6. San Francisco Bay Area, CA
-7. Washington, D.C.
-8. Virtual Webinars (Global)
-9. Miami, FL
+- at least 4 events hosted over past 12 months
+- Chapter Directors are formally on-boarded when their chapter is considered active
 
-### Incubator Chapters
+### Incubating Chapter
 
-Chapters that have brand new leads and are planning towards their launch.
+- hosted at least 1 event over past 3 months
+- once chapter hosts at least 4 events, it becomes an active chapter
+- a relaunching chapter is one that was re-launched chapter after having been previously formed more than 6 months ago
 
-- Boston, MA
-- Orange County, CA
-- Portland, OR
-- Salt Lake City, UT
+### Inactive Chapter
+
+- no event hosted in 3 consecutive months
+- Chapter Directors notified via Slack
+
+### Closed Chapter
+
+- no event hosted in 6 consecutive months
+- Chapter Directors notified via Slack
+- Chapter Directors are off-boarded when their chapter is considered closed
+
+## Communication
+
+- Slack is the main platform Techqueria uses to communicate across different chapters, coordinate events and work with external partners.
+- The Chapter Director is committed to keeping up to date on updates via Slack through `#techqueria-leaders` and their own chapter channels.
+
+## Community Conduct
+
+Chapter Directors must adhere to the [Code of Conduct](https://www.notion.so/Code-of-Conduct-63757e2715894da2b7e85d6dc7574a3f) and the [Leaders Code of Conduct](https://www.notion.so/Leaders-Code-of-Conduct-7a130832bb7040f3ab6338119341964f)  at all times.
+
+Violating either Code of Conduct is grounds for removal.
+
+## Termination
+
+- Techqueria has the right to terminate this agreement without prior notice to the Chapter Director.
+- If the Chapter Director is no longer able to run the Chapter, they may terminate this agreement by providing written notice to Techqueria explaining their desire to step down.
+- If a Chapter Director is asked to leave or requests to step down from their current position, or this Agreement is terminated, the following steps will take place:
+  - Access to any Techqueria platforms will be removed after the notice to leave has been provided by the Chapter Director.
+  - The Chapter Director will be required to update their LinkedIn profile (and other related Social Media profiles) to show their affiliation with Techqueria has come to an end.
+  - The Chapter Director will be responsible for carrying out a proper handover to Techqueria of all Social Media logins and other relevant information pertaining to the Chapter.
+  - The Chapter Director needs to shut down any 3rd party websites that promote Techqueria events and make use of Techqueria logos.
+
+## Creating a New Chapter
+
+> Online Application → Interview → Onboarding
+
+Any new chapter formed must first have at least active Chapter Director.
+
+Anyone interested in becoming a Chapter Director can apply online.
+
+We will review your application after you submit it and we will either approve or reject your application based on the answers you provided within 4 weeks.
+
+We will then set up a 30-minute call for a short interview to expand on these questions and give you the opportunity to ask the Techqueria team any questions.
+
+Finally, we will be onboard you with a 45-minute call to go through all the basics of running your first event and setting you up with all the relevant tooling.
+
+Please account for holiday breaks when appropriate for getting back to you.
+
+### Current Chapters
+
+You can find a list of our current chapters along with their status at https://techqueria.org/chapters.
 
 ### Target Chapters
 
 We are interested in growing in the following cities and will prioritize applications accordingly.
 
 - Albuquerque, NM
-- Boston, MA
-- Chicago, IL
 - Denver, CO
 - Houston, TX
 - Mexico City, MX
@@ -159,18 +251,8 @@ We are interested in growing in the following cities and will prioritize applica
 - Seattle, WA
 - Tucson, AZ
 
-## How to Apply
-
-We will review your application after you submit it using the link below and we will either approve or reject your application based on the answers you provided within 2 weeks.
-
-We will then set up a 30-minute call for a short interview to expand on these questions and give you the opportunity to ask us any questions.
-
-Finally, we will be onboard you with a 45-minute call to go through all the basics of running your first event and setting you up with all the relevant tooling.
-
-Please account for holiday breaks when appropriate for getting back to you.
-
-> **Due to COVID-19, we are not accepting applications for new Chapter Directors as of April 23, 2020.**
->
-> **The form will re-open in 2021.**
-
 <!-- /layouts/shortcodes/chapter-director-application.html -->
+
+## Kudos
+
+Inspiration for these Chapter Director guidelines came from Google Developer Groups and Startup Grind.

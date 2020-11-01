@@ -1,6 +1,6 @@
 ---
 title: City Chapters
-description: We have multiple chapters in cities across the country.
+description: "Techqueria has multiple chapters in cities across the country. 🌎"
 identifier: fas fa-map-marker-alt
 hideImage: true
 smallerCards: true
@@ -19,3 +19,5 @@ aliases:
   - /es/communities/chapters/la/
   - /es/communities/chapters/nyc/
 ---
+
+> Last updated October 2020

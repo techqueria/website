@@ -32,13 +32,3 @@
 {{- if not .Params.noTimeEstimate -}}{{- if gt .ReadingTime 1 -}}{{- if .WordCount -}}
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔖</span>{{ .ReadingTime }} min read ∙ {{ .WordCount }} words</p>
 {{- end -}}{{- end -}}{{- end -}}
-<!-- Status -->
-{{- if in .Params.categories "chapter-active" -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🟢️</span>Active Chapter</p>
-{{- end -}}
-{{- if in .Params.categories "chapter-incubating" -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Incubating Chapter</p>
-{{- end -}}
-{{- if in .Params.categories "chapter-inactive" -}}
-<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔴</span>Inactive Chapter</p>
-{{- end -}}

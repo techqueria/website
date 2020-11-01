@@ -1,6 +1,6 @@
 ---
-title: "Shop"
-description: "Buy all kinds of cool swag from Techqueria's official Spreadshirt store!"
+title: "Shop Merch"
+description: "Buy all kinds of cool swag from Techqueria's official store. 🛒"
 image: "/assets/img/shop/_index.png"
 hideImage: true
 noTimeEstimate: true
@@ -10,6 +10,7 @@ aliases:
   - /shop/
   - /store/
   - /about/shop/
+  - /merch/
 sitemap: true
 ---
 

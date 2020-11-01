@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Get in touch with a Techqueria team member via email, Slack or social media."
+description: "Get in touch with a Techqueria team member via email, Slack or social media. 📨"
 hideImage: true
 image: "/assets/img/about/contact.jpg"
 noTimeEstimate: true
@@ -39,7 +39,7 @@ You're also welcome to join [our Slack](/slack/) and share job postings for free
 
 ## Partnerships
 
-If you're **interested in partnerships**, please fill out [this form](/support-us/) or email us at `partnerships@techqueria.org`
+If you're **interested in partnerships**, please fill out [this form](/partner/) or email us at `partnerships@techqueria.org`
 
 We're always looking for [partners and sponsors](/supporters/) to help move our mission forward!
 

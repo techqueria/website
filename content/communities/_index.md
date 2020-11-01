@@ -1,6 +1,6 @@
 ---
 title: Communities
-description: "Opportunities to network and connect with other Latinx in Tech. 🤗️"
+description: "Techqueria offers many different platforms to network and connect with other Latinx in Tech. 🌐"
 image: "/assets/img/communities/_index.jpg"
 hideImage: true
 aliases:

@@ -91,7 +91,7 @@ disqusShortname               = "techqueria"
     url                       = "/about/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "Brand"
+    name                      = "Brand Guidelines"
     url                       = "/brand/"
 [[menu.main]]
     parent                    = "About"
@@ -107,7 +107,7 @@ disqusShortname               = "techqueria"
     url                       = "/contact/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "No Tech for ICE"
+    name                      = "No Tech for ICE Policy"
     url                       = "/no-tech-for-ice/"
 [[menu.main]]
     parent                    = "About"
@@ -115,7 +115,7 @@ disqusShortname               = "techqueria"
     url                       = "/team/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "Shop"
+    name                      = "Shop Merch"
     url                       = "/shop/"
 
 # Join Us

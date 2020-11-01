@@ -73,7 +73,7 @@ By becoming a member of Techqueria, you will get access to our:
     </div>
   </div>
   {{< fields/disclaimer >}}
-  {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  {{< fields/submit label="Submit application" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>
 

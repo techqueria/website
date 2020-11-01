@@ -1,6 +1,6 @@
 ---
-title: "Brand"
-description: "Download our assets and discover our style guide."
+title: "Brand Guidelines"
+description: "Download our assets and explore our brand guidelines."
 hideImage: true
 image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
@@ -10,31 +10,12 @@ aliases:
   - /about/brand/
   - /brand/
   - /branding/
+  - /brand-guidelines/
 ---
 
-## Overview
+## Copy
 
-### Slogans
-
-We're the largest community for Latinx in Tech.
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry.
-
-### Meta Description
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-### Standard Description
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source.
-
-We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
+For copy and verbiage, please refer to our [About](/about/) page.
 
 ## Colors
 

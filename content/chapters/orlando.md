@@ -7,7 +7,7 @@ channel_name: "#locals-florida"
 aliases:
   - /orlando/
 categories:
-  - chapter-incubating
+  - chapter-inactive
 leads:
   - Javier Dutan
 aliases:

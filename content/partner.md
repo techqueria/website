@@ -1,6 +1,6 @@
 ---
 title: "Become a Partner"
-description: "Partner with the largest community of Latinx professionals and help us become leaders in tech. 💙"
+description: "Partner with the largest community of Latinx professionals and help us become leaders in tech. 🤝"
 hideImage: true
 image: "/assets/img/support-us/_index.jpg"
 noTimeEstimate: true

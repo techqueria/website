@@ -1,5 +1,5 @@
 ---
-title: "No Tech For ICE"
+title: "No Tech For ICE Policy"
 description: "Techqueria has a firm policy of not partnering with companies that have active contracts with ICE."
 hideImage: true
 image: "/assets/img/about/no-tech-for-ice.jpeg"
@@ -9,6 +9,7 @@ url: /no-tech-for-ice/
 aliases:
   - /notechforice/
   - /about/no-tech-for-ice/
+  - /no-tech-for-ice-policy/
 tags:
   - mijente
   - policy
