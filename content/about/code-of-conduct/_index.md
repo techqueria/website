@@ -218,12 +218,15 @@ That list will include the following information about members who have been rem
 - Email
 - What caused their removal
 - When they were removed
-- When they can ask to rejoin
 - Any other relevant info about the removal
 
 ## Updating the Code of Conduct
 
 The [Trust & Safety Committee](/trust-and-safety/) is responsible for making updates to the Code of Conduct.
+
+## Questions or feedback?
+
+Let us know in `#meta-code-of-conduct`.
 
 ## Kudos
 
