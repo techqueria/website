@@ -46,6 +46,7 @@
   position: relative;
   transform: rotate(2deg);
   z-index: 1;
+  @extend %material-shadow;
 
   @media screen and (min-width: $laptop) {
     transform: none;

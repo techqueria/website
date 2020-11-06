@@ -26,7 +26,9 @@ They will implement and maintain a warning system, removal process and banning p
 
 ## Slack Channel
 
-The private channel will be `#committee-trust-safety` for discussions of reports.
+For committee updates and collaboration, the private channel is `#committee-trust-safety`.
+
+All Code of Conduct reports pipe to the private channel `#meta-coc-reports`.
 
 ## Bias
 
@@ -41,4 +43,4 @@ The private channel will be `#committee-trust-safety` for discussions of reports
 
 ## Questions?
 
-Let us know in `#meta-committees`
+Let us know in `#meta-committees`.

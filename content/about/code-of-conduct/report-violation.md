@@ -16,7 +16,7 @@ If you have any screenshots, please note that and we can reach out to get those 
 
 Directly messaging an admin or member of the Techqueria team does not start an investigation
 
-Please refer to [Techqueria's Code of Conduct](/coc/) before submitting a report.
+Please refer to [Techqueria's Code of Conduct](/code-of-conduct/) before submitting a report.
 
 <form name="Code of Conduct Violation Report" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/coc-violation/" class="form--max-width-unset form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Code of Conduct Violation Report">

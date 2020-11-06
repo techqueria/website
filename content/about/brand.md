@@ -119,8 +119,7 @@ You can download any of these images below by clicking on them.
 ### Transparent
 
 <a href="/assets/img/_logos/logo-square.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-square.png" data-src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
-<br>
-<br>
+<br> <br>
 <a href="/assets/img/_logos/logo-rectangle.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-rectangle.png" data-src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
 
 ### Background
@@ -130,7 +129,8 @@ You can download any of these images below by clicking on them.
 
 ### Text Only
 
-These logos are meant for use cases where a simple text logo is needed. These logos also uses the Rubik font which will be used in upcoming iterations of other logos as well.
+These logos are meant for use cases where a simple text logo is needed. These logos also uses the Rubik font which will be used in upcoming iterations
+of other logos as well.
 
 <div class="box u-box-shadow--none" style="background-color:#fabf67">
   <a href="/assets/img/_logos/text-black.png" download>

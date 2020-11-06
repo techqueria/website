@@ -6,6 +6,7 @@ hideImage: true
 toc: true
 aliases:
   - /leaders-coc/
+  - /leaders-code-of-conduct/
 ---
 
 ## Definition
@@ -70,6 +71,7 @@ For the following behavior, we will remove you as a lead immediately.
 - Violating any [Political Advocacy Guidelines](https://www.notion.so/Political-Advocacy-Guidelines-8609b060add2400b8e81ab88037f6be7) which could threaten Techqueria's 501c3 status
 - Depositing money meant for Techqueria into your personal bank account/to yourself
 - Refusing to sign Techqueria's NDA
+- Refusing to sign the Leaders Code of Conduct
 
 ## Reporting Violations
 

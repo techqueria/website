@@ -24,7 +24,8 @@ We have no tolerance for any form of harassment; we expect everyone to act profe
 
 ## The Pledge
 
-In the interest of fostering an open and welcoming environment, we pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, we pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal
+appearance, race, religion, or sexual identity and orientation.
 
 ## Acceptable Behavior
 
@@ -90,7 +91,7 @@ For the following behavior, we will issue 1 warning before moving forward with a
 - Unwelcome remarks regarding a person’s lifestyle choices and practices
   - e.g. "How can you still practice that?"
 - Cursing directly at another member
-  - e.g. "F*** you"
+  - e.g. "F\*\*\* you"
 
 ### Severity Level 3
 
@@ -110,7 +111,8 @@ For the following behavior, we will ban immediately.
 - Threats of violence
   - e.g. "When I see you next time, I'm going to punch you in the face."
 - Trolling
-  - e.g. starts flame wars or intentionally upsets other members by posting inflammatory and digressive, extraneous, or off-topic messages in Slack with the intent of provoking readers into displaying emotional responses and normalizing tangential discussion, either for the troll's amusement or a specific gain.
+  - e.g. starts flame wars or intentionally upsets other members by posting inflammatory and digressive, extraneous, or off-topic messages in Slack with the intent of provoking readers into displaying emotional responses and normalizing tangential discussion, either for the troll's amusement or a
+    specific gain.
   - e.g. quickly posting or replying to messages, indicating large amounts of free time with nothing better to do than start fights
 - Unwelcome physical contact
   - e.g. trying to kiss someone over and over again even if they're not interested
@@ -140,9 +142,9 @@ If you have any screenshots, please note that in the report, and we can reach ou
 
 There are two ways that you can report a Code of Conduct violation:
 
-1) Website Form
+1. Website Form
 
-2) Slack
+2. Slack
 
 ### Website
 
@@ -166,9 +168,9 @@ The process is as follows:
 2. Report is piped to a private Slack channel and email that Trust & Safety Committee members can access
 3. Investigation starts and the Trust & Safety Committee members review the report
 4. Trust & Safety Committee members vote to move forward with a deemed necessary response that is appropriate to the circumstances
-     - e.g. message to both reporter and those accused that it's not a Code of Conduct violation
-     - e.g. warning to violator and message to reporter notifying of warning
-     - e.g. banning violator and message to reporter notifying of ban
+   - e.g. message to both reporter and those accused that it's not a Code of Conduct violation
+   - e.g. warning to violator and message to reporter notifying of warning
+   - e.g. banning violator and message to reporter notifying of ban
 5. Investigation has been concluded
 
 Any emails must be sent using the `safety@techqueria.org` email which committee members have access to and any messages in Slack must come from a member of the [Trust & Safety Committee](https://techqueria.org/trust-and-safety) or it is not valid.
@@ -320,4 +322,4 @@ Let us know in `#meta-code-of-conduct`.
 
 ## Kudos
 
-This Code of Conduct was inspired by [Women Who Code](https://www.womenwhocode.com/), [LGBTQ in Technology](https://lgbtq.technology/) and the [DEV Community](https://dev.to/code-of-conduct).
+Inspiration for this Code of Conduct came in part from [Women Who Code](https://www.womenwhocode.com/), [LGBTQ in Technology](https://lgbtq.technology/) and the [DEV Community](https://dev.to/code-of-conduct).
