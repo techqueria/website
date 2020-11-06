@@ -118,6 +118,8 @@ If you're short on time, please refer to our partnerships deck on how we can sta
   {{< partnerships/no-tech-for-ice >}}
   <!-- How did they hear about Techqueria? -->
   {{< fields/referral >}}
+  <!-- Disclaimer -->
+  {{< fields/disclaimer >}}
   <!-- Submit form -->
   {{< fields/submit label="Submit partnership inquiry" >}}
 </form>

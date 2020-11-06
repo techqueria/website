@@ -10,6 +10,12 @@ aliases:
 
 Filling out this form notifies [Techqueria's Trust & Safety Committee](/trust-and-safety/) in order to start an investigation.
 
+Members must submit a report in order to start an investigation.
+
+If you have any screenshots, please note that and we can reach out to get those from you during the investigation.
+
+Directly messaging an admin or member of the Techqueria team does not start an investigation
+
 Please refer to [Techqueria's Code of Conduct](/coc/) before submitting a report.
 
 <form name="Code of Conduct Violation Report" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/coc-violation/" class="form--max-width-unset form--centered no-ids">

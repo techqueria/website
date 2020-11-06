@@ -52,6 +52,7 @@ We feel the event met our mission goals and exceeded all our expectations!
 > as of 10/26
 
 all stats remained same, only two changed slighty:
+
 - 24% in engineering
 - 6.52 YOE on average
 
@@ -61,10 +62,10 @@ all stats remained same, only two changed slighty:
 
 We would love to get your feedback on the summit so we can improve for next year and we welcome you to check out all the photos and videos!
 
-- [Share your feedback](https://docs.google.com/forms/d/e/1faipqlse9m5xp4qmfwvogirlu6t3do-6avbmnbwy6vi4nwr4f-j5fiw/viewform?_hsenc=p2anqtz-8szhkzf63kxsksemjxutqlxp98dygkme9pbfarc6036mhim9zmg_mybjnsqli-g_vxc0zw) 📝 💡 💭
-- [View photos on Google Photos](https://photos.app.goo.gl/ahrvy2xs9fbyjxun8?_hsenc=p2anqtz-8szhkzf63kxsksemjxutqlxp98dygkme9pbfarc6036mhim9zmg_mybjnsqli-g_vxc0zw) 📸 🖼️ 🤳🏽️
-- [Watch videos on YouTube](https://www.youtube.com/playlist?list=plcwzrxvpdkgjuya48mr25wpylz2u3j1ne&_hsenc=p2anqtz-8szhkzf63kxsksemjxutqlxp98dygkme9pbfarc6036mhim9zmg_mybjnsqli-g_vxc0zw) 🎥 🍿🎞
-- [Listen to the Spotify playlist](https://open.spotify.com/playlist/0ogkuam8l1dxgwonicnkbv?si=2ocdqjuwsgazygfmo5pfxq&_hsenc=p2anqtz-8szhkzf63kxsksemjxutqlxp98dygkme9pbfarc6036mhim9zmg_mybjnsqli-g_vxc0zw) 🎧 🎶 🎤
+- [Share your feedback](https://docs.google.com/forms/d/e/1faipqlse9m5xp4qmfwvogirlu6t3do-6avbmnbwy6vi4nwr4f-j5fiw/viewform) 📝 💡 💭
+- [View photos on Google Photos](https://photos.app.goo.gl/ahrvy2xs9fbyjxun8) 📸 🖼️ 🤳🏽️
+- [Watch videos on YouTube](https://www.youtube.com/playlist?list=plcwzrxvpdkgjuya48mr25wpylz2u3j1ne) 🎥 🍿🎞
+- [Listen to the Spotify playlist](https://open.spotify.com/playlist/0ogkuam8l1dxgwonicnkbv?si=2ocdqjuwsgazygfmo5pfxq) 🎧 🎶 🎤
 
 ## Sponsors 🤝
 

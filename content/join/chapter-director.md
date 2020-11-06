@@ -205,7 +205,7 @@ A city chapter can become closed or can reactivate and become an official chapte
 
 ## Community Conduct
 
-Chapter Directors must adhere to the [Code of Conduct](https://www.notion.so/Code-of-Conduct-63757e2715894da2b7e85d6dc7574a3f) and the [Leaders Code of Conduct](https://www.notion.so/Leaders-Code-of-Conduct-7a130832bb7040f3ab6338119341964f)  at all times.
+Chapter Directors must adhere to the [Code of Conduct](/coc/) and the [Leaders Code of Conduct](/leaders-coc/) at all times.
 
 Violating either Code of Conduct is grounds for removal.
 

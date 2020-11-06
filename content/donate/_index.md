@@ -11,6 +11,10 @@ aliases:
 sitemap: true
 ---
 
+<!-- Google Ads Campaign Conversion Tracking -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-596888539/ZugWCJ-hu-IBENuXz5wC'});
+</script>
 <div class="columns">
   <div class="column is-half">
     <p><img

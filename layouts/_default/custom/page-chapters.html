@@ -43,7 +43,7 @@
 
     <div class="content mt-4 u-text--centered">
       <h3 id="relaunching-chapters"><span class="mr-sm">⭕</span>{{$relaunchingChaptersNumber}} Relaunching Chapter<span class="ml-sm">⭕</span></h3>
-      <p>Re-launched within last 6 months, less than 4 events hosted since re-launching</p>
+      <p>Re-launched within last 12 months, less than 4 events hosted since re-launching</p>
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "chapter-relaunching").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
@@ -56,7 +56,7 @@
 
     <div class="content mt-4 u-text--centered">
       <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>{{$incubatingChaptersNumber}} Incubating Chapters<span class="ml-sm">🔵</span></h3>
-      <p>Launched within last 6 months, less than 4 events hosted since launching</p>
+      <p>Launched within last 12 months, less than 4 events hosted since launching</p>
     </div>
     <div class="columns is-multiline">
       {{ range (index .Site.Taxonomies.categories "chapter-incubating").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}

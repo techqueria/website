@@ -30,5 +30,7 @@ We'll get back to you if we have a need for your space.
   {{< fields/slack_member >}}
   {{< fields/message >}}
   {{< fields/referral >}}
+  <!-- Disclaimer -->
+  {{< fields/disclaimer >}}
   {{< fields/submit label="Submit info" >}}
 </form>

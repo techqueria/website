@@ -19,26 +19,7 @@ For copy and verbiage, please refer to our [About](/about/) page.
 
 ## Colors
 
-There are 8 main colors in usage.
-
-```scss
-// Techqueria's Official Brand Color
-$techqueria: #fabf67;
-// Flamingo
-$techqueria-red: #ff551f;
-// Madison
-$techqueria-black: #2f4052;
-// Gray
-$techqueria-gray: #a3b1bf;
-// Boston Blue
-$techqueria-blue-light: #3f8db9;
-// Fun Blue
-$techqueria-blue: #1756a9;
-// Kabul
-$techqueria-brown: #5a4640;
-// Rebel
-$techqueria-brown-dark: #46352f;
-```
+There are 12 main colors in usage.
 
 <div class="columns is-multiline">
   <!-- Yellow -->
@@ -55,7 +36,21 @@ $techqueria-brown-dark: #46352f;
       <br>#ff551f
     </div>
   </div>
-  <!-- Black -->
+  <!-- Dark Red -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:#9f2600; color: white;">
+      <b>Rust</b>
+      <br>#9f2600
+    </div>
+  </div>
+  <!-- Green -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:#4c895c; color: white;">
+      <b>Amazon Green</b>
+      <br>#4c895c
+    </div>
+  </div>
+  <!-- Black Light -->
   <div class="column is-one-quarter">
     <div class="box" style="background-color:#2f4052; color: white;">
       <b>Madison</b>
@@ -97,6 +92,20 @@ $techqueria-brown-dark: #46352f;
       <br>#46352f
     </div>
   </div>
+  <!-- White -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:white; color: black;">
+      <b>White</b>
+      <br>#FFFFF
+    </div>
+  </div>
+  <!-- Black -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:black; color: white;">
+      <b>Black</b>
+      <br>#00000
+    </div>
+  </div>
 </div>
 
 ## Typography
@@ -105,7 +114,7 @@ $techqueria-brown-dark: #46352f;
 
 ## Logos
 
-You can view all our design assets using [this Figma link](https://www.figma.com/file/I33DuKmkVHxSKdkFCE7LqlHu/Techqueria) and you can download any of these images below by clicking on them.
+You can download any of these images below by clicking on them.
 
 ### Transparent
 

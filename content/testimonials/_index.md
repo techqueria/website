@@ -31,5 +31,7 @@ aliases:
   </div>
   {{< fields/message required="true" label="Your testimonial" >}}
   {{< fields/referral >}}
+  <!-- Disclaimer -->
+  {{< fields/disclaimer >}}
   {{< fields/submit label="Submit testimonial" >}}
 </form>

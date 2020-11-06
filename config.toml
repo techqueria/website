@@ -230,11 +230,6 @@ disqusShortname               = "techqueria"
     weight                    = 2
 [[menu.main]]
     parent                    = "Events"
-    name                      = "Past Events"
-    url                       = "/events/"
-    weight                    = 3
-[[menu.main]]
-    parent                    = "Events"
     name                      = "Chapters"
     url                       = "/chapters/"
     weight                    = 4
