@@ -28,8 +28,8 @@ Please refer to [Techqueria's Code of Conduct](/code-of-conduct/) before submitt
       {{< fields/email >}}
     </div>
   </div>
-  {{< fields/message required="true" label="Which rule was violated?" help="Please explicity call out which which rule was violated." name="violation_type" placeholder="Please elaborate here" >}}
-  {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email if known." name="who_violated_coc" placeholder="Please elaborate here" >}}
+  {{< fields/message required="true" label="Which rule was violated?" help="Please explicity call out which which rule was violated and which platform it was on." name="violation_type" placeholder="Please elaborate here" >}}
+  {{< fields/message required="true" label="Who violated that rule?" help="Please include their full name and email, if known." name="who_violated_coc" placeholder="Please elaborate here" >}}
   {{< fields/message required="true" label="Please elaborate on this COC violation." help="Any information would be helpful." name="elaborate_on_violation" placeholder="Please elaborate here" >}}
   {{< fields/submit label="Submit report" >}}
 </form>

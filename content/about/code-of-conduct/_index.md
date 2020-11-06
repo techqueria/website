@@ -40,7 +40,8 @@ Techqueria is a **professional organization** so the best reference for how to b
 
 If your behavior is not appropriate for the workplace, it's not appropriate for Techqueria.
 
-It is important to note that the US Constitution protects the right to free speech, but only from infringement by the government itself. It does not protect free speech in a private setting, such as the Techqueria community.
+It is important to note that the US Constitution protects the right to free speech, but only from infringement by the government itself. It does not protect free speech in a private setting, such as the Techqueria community. Additionally, any speech that is harassing and designed to trigger is
+unacceptable here.
 
 Techqueria holds the right and responsibility to remove comments or other contributions that are not aligned to this Code of Conduct or to temporarily or permanently ban any members for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
