@@ -1,8 +1,6 @@
 ---
 title: "Impact Report"
-description:
-  "We incorporated as a 501c3 nonprofit in March 2019. Since then, we've taken actionable steps to becoming the community we enivision for Latinx in
-  Tech."
+description: "We incorporated as a 501c3 nonprofit in March 2019. Since then, we've taken actionable steps to becoming the community we enivision for Latinx in Tech."
 hideImage: true
 image: "/assets/img/about/impact-report/_index.jpg"
 noTimeEstimate: true
@@ -81,8 +79,7 @@ Average YOE (Years of Experience) = 4 years
 
 ### Slack (July 27, 2019)
 
-Our active membership in our Slack community has ballooned since the beginning of this year with ~25% of our membership base being weekly active
-users.
+Our active membership in our Slack community has ballooned since the beginning of this year with ~25% of our membership base being weekly active users.
 
 ![2019-07-27-slack-public-channels](/assets/img/about/impact-report/2019-07-27-slack-public-channels.jpg)
 
@@ -143,7 +140,7 @@ over last 28 days
 
 ### Scholarships Facilitated (October 20, 2019)
 
-- \$135,000+ in value
+- $135,000+ in value
 - 140+ free tickets/passes/subscriptions given to members
 
 ### Member Reach (August 19, 2019)

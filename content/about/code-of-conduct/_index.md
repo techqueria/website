@@ -116,8 +116,7 @@ For the following behavior, we will ban immediately.
     specific gain.
   - e.g. quickly posting or replying to messages, indicating large amounts of free time with nothing better to do than start fights
 - Unwelcome physical contact
-  - e.g. trying to kiss someone over and over again even if they're not interested
-  - e.g. groping someone at a Techqueria event if they have not consented
+  - e.g. touching someone even if they're not interested
 - Unwelcome sexual attention
   - e.g. whistling at a woman at a Techqueria event
 

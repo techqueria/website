@@ -1,34 +1,42 @@
 <!-- Date -->
 {{- if not .PublishDate.IsZero -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🗓️</span>{{ if .Params.channel_name }}Launched {{ dateFormat "January 2006" .Date -}}{{ else }}{{ dateFormat "Monday - January 2, 2006" .Date -}}{{ end }}</p>
 {{- end -}}
 <!-- Software Sponsor -->
 {{- if in .Params.categories "sponsor-software" -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💚</span>Current software sponsor</p>
 {{- end -}}
 <!-- Software Sponsor Available -->
 {{- if in .Params.categories "software-sponsor-available" -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔵</span>Looking for software sponsor</p>
 {{- end -}}
 <!-- Price -->
 {{ with .Params.price -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">💵</span>{{ . }}</p>
 {{- end -}}
 <!-- Location -->
 {{ with .Params.location -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📍</span>{{ . }}</p>
 {{- end -}}
 <!-- Companies -->
 {{- if .Params.organizations -}}
 {{ range .Params.organizations -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🏢</span>{{ . }}</p>
 {{- end -}}
 {{- end -}}
 <!-- Publication -->
 {{ with .Params.publication -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📰</span>{{ . }}</p>
 {{- end -}}
 <!-- Reading Time & Word Count -->
 {{- if not .Params.noTimeEstimate -}}{{- if gt .ReadingTime 1 -}}{{- if .WordCount -}}
+
 <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🔖</span>{{ .ReadingTime }} min read ∙ {{ .WordCount }} words</p>
 {{- end -}}{{- end -}}{{- end -}}

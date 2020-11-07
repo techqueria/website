@@ -17,19 +17,19 @@ aliases:
   - /referral/
 ---
 
-## 1. Member Benefits
+## Member Benefits
 
 By becoming a member of Techqueria, you will get access to our:
 
 {{< member-benefits >}}
 
-## 2. Allies
+## Allies
 
 {{< allies >}}
 
 <div class="mt-4"></div>
 
-## 3. Apply to Become a Member
+## Apply to Become a Member
 
 <form name="Become a Member" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/"
   class="form--centered no-ids" id="form_become_a_member">
@@ -80,4 +80,4 @@ By becoming a member of Techqueria, you will get access to our:
   <p>You're ready to submit now, hurray!</p>
 </div>
 
-## 4. Other Ways to Get Involved
+## Other Ways to Get Involved
