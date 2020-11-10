@@ -37,6 +37,7 @@
 }
 
 %fancy-title {
+  @extend %material-shadow;
   background-color: $techqueria-black;
   border-radius: 32px 16px;
   color: $techqueria-white;

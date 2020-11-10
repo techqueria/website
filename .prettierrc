@@ -1,8 +1,8 @@
 {
   "jsxBracketSameLine": false,
   "noSemi": true,
-  "printWidth": 150,
   "rcVerbose": true,
+  "printWidth": 300,
   "singleQuote": false,
   "tabWidth": 2,
   "proseWrap": "always",

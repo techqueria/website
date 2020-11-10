@@ -1,6 +1,6 @@
 ---
-title: "Brand"
-description: "Download our assets and discover our style guide."
+title: "Brand Guidelines"
+description: "Download our assets and explore our brand guidelines."
 hideImage: true
 image: "/assets/img/_logos/banner-logo-only.png"
 noTimeEstimate: true
@@ -10,54 +10,16 @@ aliases:
   - /about/brand/
   - /brand/
   - /branding/
+  - /brand-guidelines/
 ---
 
-## Overview
+## Copy
 
-### Slogans
-
-We're the largest community for Latinx in Tech.
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry.
-
-### Meta Description
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-### Standard Description
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-We build Latinx-centered spaces that revolve around career advice, technical talks, mentorship, open jobs, upcoming events/conferences, speaking opportunities, and open-source.
-
-We come from all walks of life and believe that the diversity of our community is the most reliable asset we have.
+For copy and verbiage, please refer to our [About](/about/) page.
 
 ## Colors
 
-There are 8 main colors in usage.
-
-```scss
-// Techqueria's Official Brand Color
-$techqueria: #fabf67;
-// Flamingo
-$techqueria-red: #ff551f;
-// Madison
-$techqueria-black: #2f4052;
-// Gray
-$techqueria-gray: #a3b1bf;
-// Boston Blue
-$techqueria-blue-light: #3f8db9;
-// Fun Blue
-$techqueria-blue: #1756a9;
-// Kabul
-$techqueria-brown: #5a4640;
-// Rebel
-$techqueria-brown-dark: #46352f;
-```
+There are 12 main colors in usage.
 
 <div class="columns is-multiline">
   <!-- Yellow -->
@@ -74,7 +36,21 @@ $techqueria-brown-dark: #46352f;
       <br>#ff551f
     </div>
   </div>
-  <!-- Black -->
+  <!-- Dark Red -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:#9f2600; color: white;">
+      <b>Rust</b>
+      <br>#9f2600
+    </div>
+  </div>
+  <!-- Green -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:#4c895c; color: white;">
+      <b>Amazon Green</b>
+      <br>#4c895c
+    </div>
+  </div>
+  <!-- Black Light -->
   <div class="column is-one-quarter">
     <div class="box" style="background-color:#2f4052; color: white;">
       <b>Madison</b>
@@ -116,6 +92,20 @@ $techqueria-brown-dark: #46352f;
       <br>#46352f
     </div>
   </div>
+  <!-- White -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:white; color: black;">
+      <b>White</b>
+      <br>#FFFFF
+    </div>
+  </div>
+  <!-- Black -->
+  <div class="column is-one-quarter">
+    <div class="box" style="background-color:black; color: white;">
+      <b>Black</b>
+      <br>#00000
+    </div>
+  </div>
 </div>
 
 ## Typography
@@ -124,13 +114,12 @@ $techqueria-brown-dark: #46352f;
 
 ## Logos
 
-You can view all our design assets using [this Figma link](https://www.figma.com/file/I33DuKmkVHxSKdkFCE7LqlHu/Techqueria) and you can download any of these images below by clicking on them.
+You can download any of these images below by clicking on them.
 
 ### Transparent
 
 <a href="/assets/img/_logos/logo-square.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-square.png" data-src="/assets/img/_logos/logo-square.png" alt="Logo - Square" width="250"></a>
-<br>
-<br>
+<br> <br>
 <a href="/assets/img/_logos/logo-rectangle.png" download><img class="lozad u-box-shadow--none" src="/assets/img/_logos/logo-rectangle.png" data-src="/assets/img/_logos/logo-rectangle.png" alt="Logo - Rectangle" width="500"></a>
 
 ### Background
@@ -140,7 +129,8 @@ You can view all our design assets using [this Figma link](https://www.figma.com
 
 ### Text Only
 
-These logos are meant for use cases where a simple text logo is needed. These logos also uses the Rubik font which will be used in upcoming iterations of other logos as well.
+These logos are meant for use cases where a simple text logo is needed. These logos also uses the Rubik font which will be used in upcoming iterations
+of other logos as well.
 
 <div class="box u-box-shadow--none" style="background-color:#fabf67">
   <a href="/assets/img/_logos/text-black.png" download>

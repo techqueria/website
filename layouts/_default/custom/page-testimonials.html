@@ -6,28 +6,36 @@
   <div class="container">
     <!-- Breadcrumbs -->
     {{ partial "content/custom/breadcrumbs.html" . }}
+
     <!-- Submit Testimonial Button -->
     <div class="buttons u-justify-content--centered mt-2 mb-2">
-      <a class="button is-primary is-medium" href="#submit-a-testimonial" rel="noopener">Submit a testimonial</a>
+      <a class="button is-primary" href="#submit-your-testimonial" rel="noopener">Submit a testimonial</a>
     </div>
     <!-- Children -->
     <div class="columns is-multiline mt-1">
       <!-- Defining Pages -->
       {{ $paginator := .Paginator.Pages }}
+
       <!-- Union -->
       {{ $pages := $paginator | union (.Sections) }}
+
       <!-- Looping -->
       {{ range $pages.ByDate.Reverse }}
+
       <div class="column is-one-third-desktop is-half-tablet">
         {{ partial "content/card/card-testimonial.html" . }}
+
       </div>
       {{ end }}
+
     </div>
-    <hr>
+    <hr />
     <!-- Content -->
     {{ partial "content/_index.html" . }}
+
     <!-- Content Footer -->
     {{ partial "content/footer/_index.html" . }}
+
   </div>
 </div>
 {{ end }}

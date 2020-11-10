@@ -6,6 +6,7 @@ noTimeEstimate: true
 hideImage: true
 sitemap: true
 toc: true
+biggerCards: true
 url: /join/
 aliases:
   - /become-a-member/
@@ -29,51 +30,53 @@ By becoming a member of Techqueria, you will get access to our:
 
 <div class="mt-4"></div>
 
-## Apply to Become a Member
+<h2 class="u-text--left-mobile-only">Become a Member of Techqueria</h2>
 
 <form name="Become a Member" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/"
-  class="form--centered form--max-width-unset no-ids" id="form_become_a_member">
+  class="form--centered no-ids" id="form_become_a_member">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Member">
-  <div class="columns is-multiline mb-0">
-    <div class="column is-full-tablet is-half-desktop">
-      <!-- 1. Name -->
-      {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
-      <!-- Organization -->
-      {{< fields/organization label="Where do you currently work or study?" help="You can also put unemployed." >}}
-      <!-- LinkedIn -->
-      {{< fields/linkedin >}}
-      <!-- Years of Experience -->
-      {{< fields/yoe >}}
-      <!-- Identify as Latinx -->
-      {{< fields/latinx help="You will get an invite either way but our community supports Techqueria's mission of creating more Latinx leaders in Tech." >}}
-      <!-- In Tech -->
-      {{< fields/tech >}}
-      <!-- Looking For -->
-      {{< fields/looking_for >}}
-      <!-- Referral -->
-      {{< fields/referral >}}
-      <!-- Agree to Community Guidelines -->
-      {{< fields/slack_community_guidelines >}}
-    </div>
-    <div class="column is-full-tablet is-half-desktop">
-      <!-- 2. Email -->
-      {{< fields/email help="Use a personal email address to avoid being locked out if you lose access to your work or school email and make sure check for typos." >}}
-      <!-- Location -->
-      {{< fields/location >}}
-      <!-- Title -->
-      {{< fields/title label="What is your current role?" help="e.g. Software Engineer, UX Designer, Product Manager, Student, etc." >}}
-      <!-- Gender Pronouns -->
-      {{< fields/pronouns >}}
-      <!-- Age -->
-      {{< fields/age >}}
-      <!-- Job Category -->
-      {{< fields/job_category >}}
-      <!-- COC -->
-      {{< fields/coc >}}
-    </div>
-  </div>
+  <!-- Name -->
+  {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
+  <!-- Email -->
+  {{< fields/email help="Use a personal email address to avoid being locked out if you lose access to your work or school email and make sure to check for typos." >}}
+  <!-- Title -->
+  {{< fields/title label="What is your current role?" help="e.g. Product Manager, Software Engineer, Product Designer" >}}
+  <!-- Org -->
+  {{< fields/organization label="Where do you currently work or study?" help="You can also put N/A if you're unemployed." >}}
+  <!-- Location -->
+  {{< fields/location >}}
+  <!-- Years of Experience -->
+  {{< fields/yoe >}}
+  <!-- LinkedIn -->
+  {{< fields/linkedin >}}
+  <!-- Resume -->
+  {{< fields/resume help="Please upload a 1-page PDF file." >}}
+  <!-- Category -->
+  {{< fields/job_category >}}
+  <!-- Job Searching Status -->
+  {{< fields/job_searching >}}
+  <!-- Share Profile with Recruiters -->
+  {{< fields/yes_no label="Can we share your profile with recruiters?*" help="If you're job searching, we can share your info with recruiters within our network." required="true" name="share_profile_with_recruiters" custom_yes="Yes, you can share my profile with recruiters" custom_no="No, do not share my profile with recruiters" >}}
+  <!-- Identify as Latinx -->
+  {{< fields/latinx help="You will get an invite either way but our community supports Techqueria's mission of creating more Latinx leaders in Tech." >}}
+  <!-- In Tech -->
+  {{< fields/tech >}}
+  <!-- Gender Pronouns -->
+  {{< fields/pronouns >}}
+  <!-- Age -->
+  {{< fields/age >}}
+  <!-- What they hope to gain from Techqueria -->
+  {{< fields/looking_for >}}
+  <!-- How they heard about Techqueria -->
+  {{< fields/referral >}}
+  <!-- Slack Guidelines -->
+  {{< fields/slack_community_guidelines >}}
+  <!-- Code of Conduct -->
+  {{< fields/coc >}}
+  <!-- Disclaimer -->
   {{< fields/disclaimer >}}
-  {{< fields/submit label="SUBMIT APPLICATION" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  <!-- Submit form -->
+  {{< fields/submit label="Submit application" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>
 
