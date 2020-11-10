@@ -6,6 +6,7 @@ noTimeEstimate: true
 hideImage: true
 sitemap: true
 toc: true
+biggerCards: true
 url: /join/
 aliases:
   - /become-a-member/
@@ -29,44 +30,48 @@ By becoming a member of Techqueria, you will get access to our:
 
 <div class="mt-4"></div>
 
-## Apply to Become a Member
+<h2 class="u-text--left-mobile-only">Become a Member of Techqueria</h2>
 
 <form name="Become a Member" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/member/"
   class="form--centered no-ids" id="form_become_a_member">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Member">
-  <!-- 1. Name -->
+  <!-- Name -->
   {{< fields/name help="Please include your first name and last name. Make sure to capitalize your name." >}}
-  <!-- 2. Email -->
+  <!-- Email -->
   {{< fields/email help="Use a personal email address to avoid being locked out if you lose access to your work or school email and make sure to check for typos." >}}
-  <!-- 3. Title -->
+  <!-- Title -->
   {{< fields/title label="What is your current role?" help="e.g. Product Manager, Software Engineer, Product Designer" >}}
-  <!-- 4. Org -->
+  <!-- Org -->
   {{< fields/organization label="Where do you currently work or study?" help="You can also put N/A if you're unemployed." >}}
-  <!-- 5. Location -->
+  <!-- Location -->
   {{< fields/location >}}
-  <!-- 6. Years of Experience -->
+  <!-- Years of Experience -->
   {{< fields/yoe >}}
-  <!-- 7. LinkedIn -->
+  <!-- LinkedIn -->
   {{< fields/linkedin >}}
-  <!-- 8. Resume -->
-  {{< fields/resume help="If you're looking for a new job and interested in opting into our resume bank, please upload a 1-page PDF file." >}}
-  <!-- 9. Category -->
+  <!-- Resume -->
+  {{< fields/resume help="Please upload a 1-page PDF file." >}}
+  <!-- Category -->
   {{< fields/job_category >}}
-  <!-- 10. Identify as Latinx -->
+  <!-- Job Searching Status -->
+  {{< fields/job_searching >}}
+  <!-- Share Profile with Recruiters -->
+  {{< fields/yes_no label="Can we share your profile with recruiters?*" help="If you're job searching, we can share your info with recruiters within our network." required="true" name="share_profile_with_recruiters" custom_yes="Yes, you can share my profile with recruiters" custom_no="No, do not share my profile with recruiters" >}}
+  <!-- Identify as Latinx -->
   {{< fields/latinx help="You will get an invite either way but our community supports Techqueria's mission of creating more Latinx leaders in Tech." >}}
-  <!-- 11. In Tech -->
+  <!-- In Tech -->
   {{< fields/tech >}}
-  <!-- 12. Gender Pronouns -->
+  <!-- Gender Pronouns -->
   {{< fields/pronouns >}}
-  <!-- 13. Age -->
+  <!-- Age -->
   {{< fields/age >}}
-  <!-- 14. What they hope to gain from Techqueria -->
+  <!-- What they hope to gain from Techqueria -->
   {{< fields/looking_for >}}
-  <!-- 15. How they heard about Techqueria -->
+  <!-- How they heard about Techqueria -->
   {{< fields/referral >}}
-  <!-- 16. Slack Guidelines -->
+  <!-- Slack Guidelines -->
   {{< fields/slack_community_guidelines >}}
-  <!-- 17. Code of Conduct -->
+  <!-- Code of Conduct -->
   {{< fields/coc >}}
   <!-- Disclaimer -->
   {{< fields/disclaimer >}}

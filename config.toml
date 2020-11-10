@@ -118,30 +118,40 @@ disqusShortname               = "techqueria"
     name                      = "Shop Merch"
     url                       = "/shop/"
 
-# Join Us
+# Get Involved
 [[menu.main]]
-    name                      = "Join"
+    name                      = "Get Involved"
     url                       = "/join/"
 [[menu.main]]
-    parent                    = "Join"
+    parent                    = "Get Involved"
     name                      = "Become a Member"
     url                       = "/join/"
     weight                    = 1
 [[menu.main]]
-    parent                    = "Join"
+    parent                    = "Get Involved"
     name                      = "Become a Speaker"
     url                       = "/speak/"
     weight                    = 2
 [[menu.main]]
-    parent                    = "Join"
+    parent                    = "Get Involved"
     name                      = "Become a Volunteer"
     url                       = "/volunteer/"
     weight                    = 3
 [[menu.main]]
-    parent                    = "Join"
+    parent                    = "Get Involved"
     name                      = "Become a Chapter Director"
     url                       = "/chapter-director/"
     weight                    = 4
+[[menu.main]]
+    parent                    = "Get Involved"
+    name                      = "Submit Your Resume"
+    url                       = "/submit-resume/"
+    weight                    = 5
+[[menu.main]]
+    parent                    = "Get Involved"
+    name                      = "Submit Your Testimonial"
+    url                       = "/submit-testimonial/"
+    weight                    = 6
 
 # Communities
 [[menu.main]]
@@ -245,7 +255,7 @@ disqusShortname               = "techqueria"
     url                       = "/news/"
 [[menu.main]]
     parent                    = "News"
-    name                      = "Podcast"
+    name                      = "Techqueria Podcast"
     url                       = "/podcast/"
 [[menu.main]]
     parent                    = "News"

@@ -13,10 +13,11 @@ aliases:
   - /testimonial/
   - /testimonials/
   - /wall-of-love/
+  - /submit-testimonials/
+  - /submit-testimonial/
 ---
 
-## Submit a Testimonial
-
+<h2 class="u-text--left-mobile-only" id="submit-your-testimonial">Submit Your Testimonial</h2>
 <form name="Testimonial" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/testimonial/" class="form--max-width-unset form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - New Testimonial Submission">
   <div class="columns mb-0">

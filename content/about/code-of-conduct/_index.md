@@ -14,7 +14,7 @@ aliases:
   - /code-of-conduct/
 ---
 
-> Effective November 4, 2020
+> Effective November 10, 2020
 
 All participants and members of Techqueria are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with Techqueria.
 

@@ -1,139 +1,38 @@
 <div class="field">
   <label class="label">Which category best describes your role?*</label>
-  <div class="control has-icons-left" id="job_category">
-    <!-- Accounting -->
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Accounting" required />
-      Accounting
-    </label>
-    <!-- Consulting -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Consulting" required />
-      Consulting
-    </label>
-    <!-- Customer Support -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Customer Support" required />
-      Customer Support
-    </label>
-    <!-- Cybersecurity -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Cybersecurity" required />
-      Cybersecurity
-    </label>
-    <!-- Data Science -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Data Science" required />
-      Data Science
-    </label>
-    <!-- Design -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Design" required />
-      Design
-    </label>
-    <!-- Education -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Education" required />
-      Education
-    </label>
-    <!-- Engineering -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Engineering" required />
-      Engineering
-    </label>
-    <!-- Finance -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Finance" required />
-      Finance
-    </label>
-    <!-- Founder -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Founder" required />
-      Founder
-    </label>
-    <!-- Human Resources -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Human Resources" required />
-      Human Resources
-    </label>
-    <!-- Marketing -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Marketing" required />
-      Marketing
-    </label>
-    <!-- Operations -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Operations" required />
-      Operations
-    </label>
-    <!-- Product -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Product" required />
-      Product
-    </label>
-
-    <!-- Recruiting -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Recruiting" required />
-      Recruiting
-    </label>
-    <!-- Sales -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Sales" required />
-      Sales
-    </label>
-    <!-- Student -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Student" required />
-      Student
-    </label>
-    <!-- Venture Capital -->
-    <br />
-    <label class="radio">
-      <input type="radio" aria-label="Which category best describes your role?" name="job_category" value="Venture Capital" required />
-      Venture Capital
-    </label>
-    <!-- Other -->
-    <br />
-    <label class="radio">
-      <input
-        type="radio"
-        aria-label="Which category best describes your role?"
-        id="job_category_other_radio"
-        name="job_category"
-        value="Other"
-        required
-      />
-      Other
-    </label>
-    <br />
+  <div class="field">
+    <div class="control has-icons-left">
+      <div class="select">
+        <select name="job_category" id="job_category" required>
+          <option value="">-- Choose job category --</option>
+          <option value="Accounting">Accounting</option>
+          <option value="Consulting">Consulting</option>
+          <option value="Customer Support">Customer Support</option>
+          <option value="Cybersecurity">Cybersecurity</option>
+          <option value="Data Science">Data Science</option>
+          <option value="Design">Design</option>
+          <option value="Education">Education</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Finance">Finance</option>
+          <option value="Founder">Founder</option>
+          <option value="Human Resources">Human Resources</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Operations">Operations</option>
+          <option value="Product">Product</option>
+          <option value="Recruiting">Recruiting</option>
+          <option value="Sales">Sales</option>
+          <option value="Student">Student</option>
+          <option value="Venture Capital">Venture Capital</option>
+          <option value="Other" id="job_category_other_selected">Other</option>
+        </select>
+      </div>
+      <div class="icon is-small is-left">
+        📂
+      </div>
+    </div>
   </div>
   <div class="control has-icons-left mt-sm">
-    <input
-      class="input"
-      aria-label="Other selected"
-      autocomplete="off"
-      type="text"
-      id="job_category_other_input"
-      name="job_category_other_input"
-      placeholder="If you selected other, enter it here"
-    />
+    <input class="input" aria-label="Other selected" autocomplete="off" type="text" id="job_category_other_input" name="job_category_other_input" placeholder="If you selected other, enter it here" />
     <span class="icon is-left">
       📝
     </span>

@@ -17,16 +17,19 @@
 {{ if .Get "name" }}
 {{ $name = .Get "name" }}
 {{ end }}
+
 <div class="field">
   <label class="label">{{ $label }}{{ if .Get "required"}}*{{ end }}</label>
-  {{ if .Get "help" }}<p class="help">{{ .Get "help" }}</p>{{ end }}
+  {{ if .Get "help" }}
+
+  <p class="help">{{ .Get "help" }}</p>
+  {{ end }}
+
   <div class="control">
-    <label class="radio">
-      <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="Yes" {{ if .Get "required"}}required{{ end }}> Yes
-    </label>
-    <br>
-    <label class="radio">
-      <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="No" {{ if .Get "required"}}required{{ end }}> No
-    </label>
+    <label class="radio"> <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="Yes" {{ if .Get "required"}}required{{ end }} /> {{ if .Get "custom_yes" }}{{ .Get "custom_yes" }}{{ else }}Yes{{ end }}
+ </label>
+    <br />
+    <label class="radio"> <input type="radio" aria-label="{{ $label }}" name="{{ $name }}" value="No" {{ if .Get "required"}}required{{ end }} /> {{ if .Get "custom_no" }}{{ .Get "custom_no" }}{{ else }}No{{ end }}
+ </label>
   </div>
 </div>
