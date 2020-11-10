@@ -154,7 +154,7 @@ You can submit violations on our website using the form below.
 
 ### Slack Channel
 
-Within the Slack group, you can join the `#meta` channel and use the "Report a COC Violation" workflow, which sends a message to a private channel called `#meta-coc-reports` that only the Trust & Safety Committee has access to.
+Within the Slack group, you can join the `#meta-code-of-conduct` channel and use the "Report a COC Violation" workflow, which sends a message to a private channel called `#meta-coc-reports` that only the Trust & Safety Committee has access to.
 
 From there, the committee will follow up with the reporter via Slack as they conduct an investigation and determine the next steps.
 
