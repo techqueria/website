@@ -150,7 +150,7 @@ There are two ways that you can report a Code of Conduct violation:
 
 You can submit violations on our website using the form below.
 
-[https://techqueria.org/report-a-violation](https://techqueria.org/report-a-violation)
+[https://techqueria.org/about/code-of-conduct/report-violation/](https://techqueria.org/about/code-of-conduct/report-violation/)
 
 ### Slack Channel
 
