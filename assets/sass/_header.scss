@@ -1,12 +1,10 @@
 .hero {
-
   .title,
   .subtitle {
     color: $techqueria-white;
   }
 
   &.v--dark-text {
-
     .title,
     .subtitle {
       color: $techqueria-black;
@@ -60,10 +58,7 @@
   }
 
   &.is-primary.is-bold {
-    background-image: linear-gradient(45deg,
-        $techqueria-blue-light 0%,
-        lighten($techqueria-blue-light, 25%) 99%,
-        lighten($techqueria-blue-light, 25%) 100%);
+    background-image: linear-gradient(45deg, $techqueria-blue-light 0%, lighten($techqueria-blue-light, 25%) 99%, lighten($techqueria-blue-light, 25%) 100%);
   }
 
   &.is-danger.is-bold {
@@ -85,8 +80,9 @@
   }
 
   &.is-not-fancy {
-    .title, .subtitle {
-      color: black;
+    .title,
+    .subtitle {
+      color: $techqueria-black;
     }
   }
 
