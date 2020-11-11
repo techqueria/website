@@ -40,7 +40,7 @@
     "gulp-imagemin": "^7.0.0",
     "gulp-postcss": "9.0.0",
     "gulp-sass": "4.1.0",
-    "gulp-sourcemaps": "2.6.5",
+    "gulp-sourcemaps": "3.0.0",
     "hugo-bin": "0.59.0",
     "lozad": "1.16.0",
     "netlify-cli": "2.68.0",
