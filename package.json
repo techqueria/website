@@ -28,7 +28,7 @@
     "brotli-webpack-plugin": "1.1.0",
     "browser-sync": "2.26.13",
     "bulma": "^0.8.0",
-    "compression-webpack-plugin": "6.0.2",
+    "compression-webpack-plugin": "6.1.1",
     "cssnano": "4.1.10",
     "del": "6.0.0",
     "eslint": "7.13.0",
