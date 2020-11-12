@@ -246,7 +246,6 @@ These are the default channels everyone automatically gets added to upon joining
   - ask an admin an question
   - provide feedback to Techqueria
   - provide ideas to Techqueria
-  - report anonymous COC violations (you can also do this in `#meta-code-of-conduct`)
 - `#meta-request-channel`
   - request a new channel
 - `#positive-vibes`
