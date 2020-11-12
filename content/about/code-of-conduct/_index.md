@@ -130,37 +130,23 @@ For all official Techqueria events, in instances where alcohol is present, the f
 
 ## Techqueria Leads
 
-All Techqueria leads are expected to follow both the [Code of Conduct](https://techqueria.org/code-of-conduct) and the [Leaders Code of Conduct](https://techqueria.org/leaders-code-of-conduct).
+All Techqueria leads are expected to follow both the [Code of Conduct](/code-of-conduct) and the [Leaders Code of Conduct](/leaders-code-of-conduct).
 
 If you feel a Techqueria lead (director, chapter lead, volunteer lead, board member, etc) has violated the Code of Conduct, please report that violation.
 
 ## Reporting Violations
 
-Members **must** submit a report to start an investigation. Directly messaging an admin or member of the Techqueria team does not start an investigation.
+Members **must** submit a report to start an investigation.
+
+Directly messaging an admin or member of the Techqueria team does not start an investigation.
 
 If you have any screenshots, please note that in the report, and we can reach out to get those from you during the investigation.
 
-There are two ways that you can report a Code of Conduct violation:
-
-1. Website Form
-
-2. Slack
-
-### Website
-
-You can submit violations on our website using the form below.
-
-[https://techqueria.org/report-a-violation](https://techqueria.org/report-a-violation)
-
-### Slack Channel
-
-Within the Slack group, you can join the `#meta-code-of-conduct` channel and use the "Report a COC Violation" workflow, which sends a message to a private channel called `#meta-coc-reports` that only the Trust & Safety Committee has access to.
-
-From there, the committee will follow up with the reporter via Slack as they conduct an investigation and determine the next steps.
+You can report a Code of Conduct violation by filling out a form [on our website](/report-violation).
 
 ## Enforcement
 
-Techqueria's [Trust & Safety Committee](http://techqueria.org/trust-and-safety) is responsible for overseeing Code of Conduct violations.
+Techqueria's [Trust & Safety Committee](/trust-and-safety) is responsible for overseeing Code of Conduct violations.
 
 The process is as follows:
 
@@ -173,9 +159,9 @@ The process is as follows:
    - e.g. banning violator and message to reporter notifying of ban
 5. Investigation has been concluded
 
-Any emails must be sent using the `safety@techqueria.org` email which committee members have access to and any messages in Slack must come from a member of the [Trust & Safety Committee](https://techqueria.org/trust-and-safety) or it is not valid.
+Any emails must be sent using the `safety@techqueria.org` email which committee members have access to and any messages in Slack must come from a member of the [Trust & Safety Committee](/trust-and-safety) or it is not valid.
 
-If the committee cannot come to a decision on a violation, it must be escalated in accordance with [committee guidelines](https://techqueria.org/committees).
+If the committee cannot come to a decision on a violation, it must be escalated in accordance with [committee guidelines](/committees).
 
 ### When In Doubt
 
@@ -187,9 +173,9 @@ Is this member helping to contribute to Techqueria's mission through their actio
 
 ### Timeline
 
-Investigations should be reviewed and enforced by the [Trust & Safety Committee](https://techqueria.org/trust-and-safety) within 30 days or less.
+Investigations should be reviewed and enforced by the [Trust & Safety Committee](/trust-and-safety) within 30 days or less.
 
-If an investigation takes 31 days or more, they must be escalated in accordance with [Committee guidelines](https://techqueria.org/committees).
+If an investigation takes 31 days or more, they must be escalated in accordance with [Committee guidelines](/committees).
 
 ### Cool Down Period
 
@@ -301,7 +287,7 @@ This decision is final and we thank you for bringing this to our attention.
 
 ## Documenting Code of Conduct Violators
 
-All members who have violated the Code of Conduct will be [documented in a list](https://www.notion.so/38166a7a2d3f41278652aa7bb7dd7929) that is accessible by the [Trust & Safety Committee](https://techqueria.org/trust-and-safety).
+All members who have violated the Code of Conduct will be [documented in a list](https://www.notion.so/38166a7a2d3f41278652aa7bb7dd7929) that is accessible by the [Trust & Safety Committee](/trust-and-safety).
 
 That list will include the following information about members who have been removed:
 
@@ -314,7 +300,7 @@ That list will include the following information about members who have been rem
 
 ## Updating the Code of Conduct
 
-The [Trust & Safety Committee](https://techqueria.org/trust-and-safety) is responsible for making updates to the Code of Conduct and can do so through a majority vote at a committee meeting.
+The [Trust & Safety Committee](/trust-and-safety) is responsible for making updates to the Code of Conduct and can do so through a majority vote at a committee meeting.
 
 ## Questions?
 

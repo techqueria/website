@@ -28,8 +28,7 @@ For technical support questions related to Slack, please contact [Slack support]
 
 ## Code of Conduct Violations
 
-You can report Code of Conduct violations via a private Slack workflow in the `#meta-code-of-conduct` channel or you can
-[fill out a form](/report-coc-violation/) on our website.
+You can report Code of Conduct violations by [filling out a form](/report-coc-violation/) on our website.
 
 ## Social Media
 

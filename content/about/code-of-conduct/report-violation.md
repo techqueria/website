@@ -6,6 +6,7 @@ hideImage: true
 aliases:
   - /report-violation/
   - /report-coc-violation/
+  - /report-a-violation/
 ---
 
 Filling out this form notifies [Techqueria's Trust & Safety Committee](/trust-and-safety/) in order to start an investigation.
