@@ -239,8 +239,6 @@ Specifically, you have violated:
 [EXPLAIN VIOLATION]
 
 This specific violation was [TYPE OF SEVERITY] and therefore, [LIST OUT WHAT CAN HAPPEN NEXT].
-
-This decision is final.
 ```
 
 #### Follow up with reporter - warning
@@ -248,11 +246,11 @@ This decision is final.
 ```txt
 [NAME], you submitted a Code of Conduct violation report on [DATE] about [WHO] regarding [EXPLAIN VIOLATIONS REPORTED].
 
-After investigating, the Trust & Safety Committee has decided to ban [WHO] from Techqueria starting [DATE].
+After investigating, the Trust & Safety Committee has decided to issue a warning to [WHO] on [DATE].
 
-[EXPLAIN WHY THERE WAS BAN]
+[EXPLAIN WHY THERE WAS A WARNING]
 
-This decision is final and we thank you for bringing this to our attention.
+We thank you for bringing this to our attention.
 ```
 
 #### Ban
@@ -269,8 +267,6 @@ Specifically, you have been found to violate:
 [EXPLAIN VIOLATION]
 
 You are also banned from attending in-person events and will be asked to leave if you are present.
-
-This decision is final.
 ```
 
 #### Follow up with reporter - ban
@@ -281,8 +277,6 @@ This decision is final.
 After investigating, the Trust & Safety Committee has decided to ban [WHO] from Techqueria starting [DATE].
 
 [EXPLAIN WHY THERE WAS BAN]
-
-This decision is final and we thank you for bringing this to our attention.
 ```
 
 ## Documenting Code of Conduct Violators
