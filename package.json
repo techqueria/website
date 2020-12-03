@@ -49,7 +49,7 @@
     "snyk": "^1.424.4",
     "twemoji": "13.0.1",
     "webpack": "4.43.0",
-    "workbox-webpack-plugin": "5.1.4"
+    "workbox-webpack-plugin": "6.0.2"
   },
   "snyk": true,
   "devDependencies": {
