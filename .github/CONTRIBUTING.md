@@ -83,7 +83,7 @@ Feel free to contribute to the Techqueria website in one or more of the followin
 
 You can ask to be added to our GitHub organization.
 
-After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
+After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world know you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
 
 ![GitHub Organizations](https://i.imgur.com/DpZcMFl.jpg)
 
