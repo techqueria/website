@@ -1,6 +1,6 @@
 ---
 title: Dulce Villarreal
-image: "/assets/img/team/chapter-directors/dulce-villarreal.jpg"
+image: "/assets/img/team/dulce-villarreal.jpg"
 description: "Chapter Director, San Francisco Bay Area"
 linkedin: https://www.linkedin.com/in/dulcevillarreal
 categories:

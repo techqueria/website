@@ -1,7 +1,7 @@
 ---
 title: Liliana A Monge
 description: Co-Founder & CEO, Sabio
-image: "/assets/img/team/donors/liliana-a-monge.jpg"
+image: "/assets/img/team/liliana-a-monge.jpg"
 linkedin: https://www.linkedin.com/in/lilianamonge
 categories:
   - patreon-champion

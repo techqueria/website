@@ -2,7 +2,7 @@
 title: "Francisco Cruz-Mendoza"
 date: 2019-10-07
 description: "Director of Global Engagement at Startup Grind"
-image: "/assets/img/team/staff/francisco-cruz-mendoza.jpeg"
+image: "/assets/img/team/francisco-cruz-mendoza.jpeg"
 link: https://techqueria.slack.com/archives/CMPLUKBSA/p1570506709133400
 linkedin: https://www.linkedin.com/in/franciscocrz
 categories:
