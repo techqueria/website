@@ -7,7 +7,7 @@ twitter: FrancesCoronel
 github: FrancesCoronel
 categories:
   - board-member
-  - executive-team
+  - staff
 aliases:
   - /about/team/frances-coronel/
   - /team/frances-coronel/

@@ -60,7 +60,7 @@ By becoming a member of Techqueria, you will get access to our:
   <!-- Identify as Latinx -->
   {{< fields/latinx help="You will get an invite either way but our community supports Techqueria's mission of creating more Latinx leaders in Tech." >}}
   <!-- In Tech -->
-  {{< fields/tech >}}
+  {{< fields/tech help="You will not get an invite if you are not in tech." >}}
   <!-- Gender Pronouns -->
   {{< fields/pronouns >}}
   <!-- Age -->

@@ -1,7 +1,7 @@
 ---
-title: Felipe Ventura
-image: "/assets/img/team/staff/felipe-ventura.jpg"
-description: "Executive Director & Board Member"
+title: Cat Martinez
+image: "/assets/img/team/volunteers"
+description: "Partnerships Lead"
 linkedin: https://www.linkedin.com/in/fvntr
 twitter: fvntr
 github: fvntr
