@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.16.0
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -156,3 +156,8 @@ patch:
         patched: '2020-07-03T01:50:46.583Z'
     - netlify-cli > @netlify/build > @netlify/functions-utils > @netlify/zip-it-and-ship-it > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
         patched: '2020-07-03T01:50:46.583Z'
+  'npm:semver:20150403':
+    - netlify-cli > @netlify/plugin-edge-handlers > rollup-plugin-node-builtins > browserify-fs > levelup > semver:
+        patched: '2020-11-08T22:56:06.861Z'
+    - netlify-cli > @netlify/build > @netlify/plugin-edge-handlers > rollup-plugin-node-builtins > browserify-fs > levelup > semver:
+        patched: '2020-11-08T22:56:06.861Z'
