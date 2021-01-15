@@ -176,7 +176,7 @@ gulp.task("hugo", (done) => buildSite(done, [], "prod"));
 
 gulp.task(
   "server-prod",
-  gulp.series("api.twitter.com/1/statuses/oembed", "img-minify", "js", "sass-minify", "html-minify", (done) => {
+  gulp.series("hugo", "img-minify", "js", "sass-minify", "html-minify", (done) => {
     runServer("hugo");
     done();
   })
