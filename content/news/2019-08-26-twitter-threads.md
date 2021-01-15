@@ -84,8 +84,6 @@ We had an amazing time with a dozen different Latinx in Tech speakers speaking a
 
 For the event, we encouraged people to use the hashtag `#LatinxTechTwitter` on social media. And they did.
 
-{{< tweet "1161826717607944193" >}}
-
 {{< tweet "1161879890011885571" >}}
 
 {{< tweet "1161868786841993216" >}}
@@ -101,8 +99,6 @@ In fact, we got so much traction Wednesday night with that hashtag that we ended
 ## El Paso
 
 The proudest moment for us though was the sheer generosity our Latinx community brought to the table. The event leads recognized the level of trauma our community went through with the El Paso shooting recently and this heaviness was acknowledged multiple times throughout the event as well.
-
-{{< tweet "1161819180724658176" >}}
 
 Ergo, we decided to have our main call to action be to donate to the El Paso Community Foundation which had a fund to support the El Paso victims. Our initial target for donations in our meeting the night before was $250. By the end of the event, we ended up with ~$2,500 in donations.
 
