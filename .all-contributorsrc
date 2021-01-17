@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "michellbrito",
+      "name": "Michell Brito",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32559031?v=4",
+      "profile": "http://michellbrito.com",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "website",
+  "projectOwner": "techqueria",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
