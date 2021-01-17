@@ -1,4 +1,7 @@
 # Techqueria.org
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![GitHub Issues](https://img.shields.io/github/issues/techqueria/website.svg)](https://github.com/techqueria/website/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/techqueria/website.svg)](https://github.com/techqueria/website/pulls) [![MIT License](https://img.shields.io/github/license/techqueria/website.svg)](http://badges.mit-license.org)
 
@@ -89,3 +92,23 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 ### **Support this project by becoming a sponsor.** Your logo will show up here with a link to your website. ([Become a sponsor](https://opencollective.com/techqueria#sponsor))
 
 <a href="https://opencollective.com/techqueria#sponsor" target="_blank" rel="noopener"><img alt="Open Collective - Sponsors" src="https://opencollective.com/techqueria/sponsors.svg?width=890"></a>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://michellbrito.com"><img src="https://avatars3.githubusercontent.com/u/32559031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michell Brito</b></sub></a><br /><a href="#maintenance-michellbrito" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
