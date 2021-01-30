@@ -81,6 +81,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 - [Luis Pineda](https://github.com/luispinedajr)
 - [Yarden Krok](https://github.com/yarden2k3)
 - [Diana Sanabria Nieto](https://github.com/DianiSN)
+- [Michell Brito](https://github.com/michellbrito)
 
 ### Thank you to **all our backers**! ([Become a backer](https://opencollective.com/techqueria#backer))
 
