@@ -2,8 +2,6 @@
 title: "Community-Building and Mentorship: Notes on Techqueria's Latest Event"
 date: 2016-07-19
 image: "/assets/img/news/2016-07-19.jpg"
-authors:
-  - CJ Joulain
 ---
 
 A few weeks ago, Techqueria hosted a fireside chat with senior Latinx engineers at Dev Bootcamp SF. Back in May, we had an event on non-traditional tech paths that was oriented towards how folks, particularly young people, could begin planning for the steps they’d need to take to make the leap into web development. Knowing that we have members of our community who are more established in their careers, we wanted our June event to be centered on experienced programmers sharing their knowledge with others.
@@ -51,3 +49,5 @@ An audio archive of the panel’s discussion is available below:
 <div class="mt-2 mb-2">
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274377031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 </div>
+
+Written by CJ Joulain

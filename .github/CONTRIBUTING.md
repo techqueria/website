@@ -83,7 +83,7 @@ Feel free to contribute to the Techqueria website in one or more of the followin
 
 You can ask to be added to our GitHub organization.
 
-After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
+After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world know you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
 
 ![GitHub Organizations](https://i.imgur.com/DpZcMFl.jpg)
 
@@ -107,7 +107,7 @@ Here's an example of how that can be done by posting under "Experience" or "Volu
 
 ##### Credibility
 
-- You can tell people you've contributed to an open source project - [not that many developers do](https://www.digitalocean.com/currents/october-2018/)!
+- You can tell people you've contributed to an open source project - [not many developers do](https://www.digitalocean.com/currents/october-2018/)!
 - You can tell people you have contributed to the largest community for Latinx in Tech
 - You can also tell people you've worked on a project that uses one of the [most popular static site generators in the world](https://www.staticgen.com/) - [Hugo](https://gohugo.io/)
 
@@ -307,7 +307,7 @@ link: https://slack.com/careers
 
 #### Blog updates
 
-Make sure to always turn comments on and add or reference a person from the `/team` page as the author so they can get proper credit.
+Make sure to always turn comments on and reference the author so they can get proper credit.
 
 > Example: `content/english/news/2016-07-19-community-building.md`
 
@@ -317,8 +317,6 @@ title: "Techqueria is now officially a 501c3 nonprofit!"
 date: 2019-03-07
 description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 image: "/assets/img/news/2019-03-07-nonprofit.png"
-authors:
-  - "Shashi Jain"
 ---
 ```
 
@@ -498,7 +496,6 @@ We use several GitHub integrations/bots to make it easy to catch errors for ever
 
 We take advantage of GitHub bots to make reviewing PRs and recognizing contributors easier.
 
-- [All Contributors](https://allcontributors.org/) helps us recognize all contributors, not just the ones who push code
 - [Background Check](https://probot.github.io/apps/background-check/) notifies maintainers when new contributors who have been toxic in the past join the project
 - [Delete Merged Branch](https://probot.github.io/apps/delete-merged-branch/) automatically deletes merged branches
 - [First Timers](https://probot.github.io/apps/first-timers/) creates starter issues to help onboard new open source contributors
@@ -609,7 +606,7 @@ Please make a comment mentioning `@techqueria/admins` in your issue or PR and on
 
 ### Slack
 
-If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
+If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta-website` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
 
 ### Gitter
 

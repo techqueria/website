@@ -2,8 +2,6 @@
 title: "Techqueria LA: Civic Technology"
 date: 2017-05-19
 image: https://cdn-images-1.medium.com/max/800/1*NwJnxS9-NC0gzA_Gjve2EQ.jpeg
-authors:
-  - "Abi Munoz"
 ---
 
 ![Picture 1](https://cdn-images-1.medium.com/max/800/1*NwJnxS9-NC0gzA_Gjve2EQ.jpeg)
@@ -55,3 +53,5 @@ Santa Monica, CA 90401
 We are sincerely working towards building an inclusive community. We encourage all people to participate in Techqueria, at any capacity and regardless of their background or level of expertise. If you have an idea for an event, suggesting for a space where we can host future events or know of a community that Techqueria should connect with, please chat with us on Slack!
 
 ❤ Techqueria LA
+
+Written by Abi Munoz

@@ -6,8 +6,6 @@ image: https://i.imgur.com/NWXkplC.jpg
 linkedin: https://www.linkedin.com/in/fvcproductions
 categories:
   - testimonial
-authors:
-  - Frances Coronel
 aliases:
   - /news/2018/04/22/frances-coronel/
 ---

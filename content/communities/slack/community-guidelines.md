@@ -48,7 +48,7 @@ However, it is not a requirement to identify as Latinx to be in this community w
 
 The purpose of the `#allies` channel is for allies to share resources, events, etc with our community and to ask us any questions on how to partner up together or become a better ally. 🧠
 
-If you have any questions, comments or concerns, let us know in `#allies` or `#meta` and a lead will get back to you.
+If you have any questions, comments or concerns, let us know in `#allies` and a lead will get back to you.
 
 With your support, Techqueria can become a stronger & more valuable community for Latinx in Tech. 💛
 

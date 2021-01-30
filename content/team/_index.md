@@ -1,6 +1,6 @@
 ---
 title: Team
-description: "Techqueria is possible thanks to the work of lots of organizers, mentors, sponsors and advisors. 🎈"
+description: "Techqueria is possible thanks to the work of lots of staff members, volunteers and advisors. 🎈"
 layout: "custom/page-team"
 image: "/assets/img/team/_index.jpg"
 hideImage: true
@@ -12,6 +12,6 @@ aliases:
   - /donate/patreon-supporters/
   - /patreon-supporters/
   - /about/team/
-  - /team/sandra-pinto/
+  - /team/abel-quintero/
 sitemap: true
 ---

@@ -3,8 +3,6 @@ title: "Reflecting on Pride Month: Intersecting Identities"
 description: "This past June, Techqueria and Blend partnered for a Pride Month event entitled Pride Month: Intersecting Identities. The following is a reflection by Portland Chapter Director Abel Quintero"
 date: 2020-09-07
 image: "/assets/img/news/2020-09-07.jpg"
-authors:
-  - Abel Quintero
 ---
 
 ## A reflection on Pride Month: Intersecting Identities
@@ -16,3 +14,5 @@ Today, while the movement has had many significant victories like marriage equal
 Advocacy and organizing for LGBTQ+ community, while generally hitting a high point during Pride Month, does not stop after June. It is crucial to recognize that Pride is year-round and that there is still much progress to be made on local, state, and national levels. Outside of Techqueria, I also have the privilege of volunteering on the leadership team for Out in Tech, a global nonprofit uniting the LGBTQ+ community in tech. We put on frequent events for the community, both in-person (pre-pandemic) and virtually in the era of COVID-19. As underrepresented communities, it is essential that we continue to build each other up, keep spirits high during the current crises we face, and provide space to be who we are -- a radical act in itself.
 
 Checkout our recap of the event [here](https://www.youtube.com/watch?v=d17Qcf2CU7o)!
+
+Written by Abel Quintero

@@ -2,8 +2,6 @@
 title: "Help shape the future Techqueria"
 date: 2017-06-23
 image: "/assets/img/news/2017-06-23.jpg"
-authors:
-  - David Silva
 ---
 
 Techqueria started in Nov 2015, the first meetup had only 3 people in a co-working space in Berkeley. The community has grown a lot since. There are members in several states, lots of new friends and connections are being made, members are finding jobs, mentors, and a place to celebrate the progress Latinx are making in tech community.
@@ -23,3 +21,5 @@ You can send anonymous feedback by DMing us on slack or you can request some tim
 We’d also love to see more of you involved with the organization!
 
 If you would like to get involved in the decisions and work of the organization let us know!
+
+Written by David Silva

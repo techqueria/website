@@ -3,8 +3,6 @@ title: "Jekyll on github pages and service workers. Progressive web apps and off
 date: 2016-11-14
 description: "I attended the chrome dev summit 2016 last week, and Google has been pushing Progressive web apps pretty hard. They’re basically a new way..."
 image: "/assets/img/news/2016-11-14-hacker-noon.jpg"
-authors:
-  - David Silva
 ---
 
 I attended the chrome dev summit 2016 last week, and Google has been pushing [Progressive web apps](https://developers.google.com/web/progressive-web-apps/) pretty hard. They’re basically a new way to deliver amazing experiences to users in the web, by making websites more reliable, fast and engaging; by adding [offline experiences](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/), periodic background syncs and push notifications.
@@ -51,3 +49,5 @@ I recommend the following ones if you want to get more information:
 - [Future Progressive Web Apps](https://www.youtube.com/watch?v=J2dOTKBoTL4&t=600s): Jake (one of the originators of Service Workers) shares the future of the web app model, with Foreign Fetch, Streams and more.
 
 Originally written here: https://hackernoon.com/jekyll-on-github-pages-and-service-workers-progressive-web-apps-and-offline-mode-for-your-blog-b1cf9e87a6d1
+
+Written by David Silva

@@ -2,8 +2,6 @@
 title: "Focus on inclusion, diversity will follow"
 date: 2016-10-29
 image: "/assets/img/news/2016-10-29.jpg"
-authors:
-  - David Silva
 ---
 
 I’m one of the founders of a community called [techqueria](http://techqueria.org/), a community with a slack team and a monthly meetup. Originally, when I had the idea, I was just looking for a group to meet other latinxs, make friends, and if possible help each other. Most of us, especially those new to the country, don’t have a lot of friends or a good network of support in the area, much less the tech industry. Over time, we have been more involved with different diversity initiatives and other groups that have a bigger focus on social justice and making tech more accessible. With my involvement in this area, I wanted to share some of my thoughts on diversity and inclusivity.
@@ -37,3 +35,5 @@ Company P wants to have implicit bias training and hires a consultant that belie
 I went for longer than I expected, so I’ll cut here, TL;DR if we pay less attention to the quantity of diverse employees in the company and we pay more attention to the quality, and making sure they’re welcome, things will move forward much faster.
 
 And to end, something that’s 100% my opinion, and maybe hasn’t been shared by anyone else: I would much rather be the only latino at a company where I’m appreciated, promoted, and listened to, than working in a company that’s 100% diverse but I don’t feel that I’m appreciated. And _FYI I’m not like a sociologist or anything, just a Jewish person from Colombia, an art school dropout that went to seminary for a while, and now writes code for a living, so please do comment or contact me if you disagree and have better information than me._
+
+Written by David Silva
