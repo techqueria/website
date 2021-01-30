@@ -1,6 +1,6 @@
 ---
 title: Francisco Cruz-Mendoza
-image: "/assets/img/team/staff/francisco-cruz-mendoza.jpeg"
+image: "/assets/img/team/francisco-cruz-mendoza.jpeg"
 description: "Social Media Lead"
 linkedin: https://www.linkedin.com/in/franciscocrz
 twitter: Franciscocrz

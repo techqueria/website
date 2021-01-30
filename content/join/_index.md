@@ -56,11 +56,11 @@ By becoming a member of Techqueria, you will get access to our:
   <!-- Job Searching Status -->
   {{< fields/job_searching >}}
   <!-- Share Profile with Recruiters -->
-  {{< fields/yes_no label="Can we share your profile with recruiters?*" help="If you're job searching, we can share your info with recruiters within our network." required="true" name="share_profile_with_recruiters" custom_yes="Yes, you can share my profile with recruiters" custom_no="No, do not share my profile with recruiters" >}}
+  {{< fields/yes_no label="Can we share your profile with recruiters?" help="If you're job searching, we can share your info with recruiters within our network." required="true" name="share_profile_with_recruiters" custom_yes="Yes, you can share my profile with recruiters" custom_no="No, do not share my profile with recruiters" >}}
   <!-- Identify as Latinx -->
   {{< fields/latinx help="You will get an invite either way but our community supports Techqueria's mission of creating more Latinx leaders in Tech." >}}
   <!-- In Tech -->
-  {{< fields/tech >}}
+  {{< fields/tech help="You will be considered an ally if you are not interested or currently in the tech industry." >}}
   <!-- Gender Pronouns -->
   {{< fields/pronouns >}}
   <!-- Age -->
@@ -76,7 +76,7 @@ By becoming a member of Techqueria, you will get access to our:
   <!-- Disclaimer -->
   {{< fields/disclaimer >}}
   <!-- Submit form -->
-  {{< fields/submit label="Submit application" classes="button is-primary  is-fullwidth is-size-5 has-text-weight-semibold" >}}
+  {{< fields/submit label="Submit application" classes="button is-primary is-fullwidth is-size-5 has-text-weight-semibold" >}}
 </form>
 <script src="/assets/js/join.js"></script>
 

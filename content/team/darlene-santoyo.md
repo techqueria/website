@@ -1,6 +1,6 @@
 ---
 title: Darlene Santoyo
-image: "/assets/img/team/chapter-directors/darlene-santoyo.jpg"
+image: "/assets/img/team/darlene-santoyo.jpg"
 description: "Chapter Director, Austin"
 linkedin: https://www.linkedin.com/in/dsantoyo
 categories:

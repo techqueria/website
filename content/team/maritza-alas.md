@@ -1,6 +1,6 @@
 ---
 title: Maritza Alas
-image: "/assets/img/team/chapter-directors/maritza-alas.jpg"
+image: "/assets/img/team/maritza-alas.jpg"
 description: "Chapter Director, Los Angeles"
 linkedin: https://www.linkedin.com/in/maritza-alas
 categories:
