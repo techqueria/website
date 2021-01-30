@@ -1,5 +1,5 @@
 ---
-title: "Gabriela Contreras-Cisneros"
+title: "Gabriela C"
 date: 2019-10-09
 description: "Software Engineer at Threads"
 image: "/assets/img/testimonials/gabriela-contreras-cisneros.jpeg"
