@@ -233,9 +233,7 @@ twitter: fvcproductions
 github: fvcproductions
 flag: 🇵🇪
 categories:
-  - board-member
-  - cto
-  - patreon-friend
+  - staff
   - san-francisco
 ---
 ```

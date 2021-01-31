@@ -1,9 +1,9 @@
 <span class="jump-section" id="speakers"></span>
 <section class="section section-speakers">
   <div class="container is-fluid has-text-centered py-4">
-    <h2 class="title">Speakers 💬</h2>
-    {{$len := len $.Site.Data.speakers}}
-    <p class="subtitle">Featuring {{$len}} Latinx professionals and leaders in tech</p>
+    <!-- <h2 class="title">Speakers 💬</h2>
+    {{ $len := len $.Site.Data.speakers }}
+    <p class="subtitle">Featuring {{ $len }} Latinx professionals and leaders in tech</p>
     <div class="columns is-centered is-multiline py-5 mt-1">
       {{ range sort $.Site.Data.speakers ".name" }}
       <div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd mt-2">
@@ -25,6 +25,7 @@
           {{ .organization }}
         </p>
       </div>
-      {{end}}
-    </div>
+      {{ end }}
+    </div> -->
+  </div>
 </section>

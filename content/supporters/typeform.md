@@ -7,7 +7,7 @@ price: "$252 per year"
 noTimeEstimate: true
 toc: true
 categories:
-  - sponsor-software-available
+  - sponsor-software
 aliases:
   - /support-us/software-sponsor/typeform/
 ---
