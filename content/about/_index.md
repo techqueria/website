@@ -62,3 +62,13 @@ Techqueria is a 501c3 nonprofit that serves the largest community of Latinx in T
 3. Over Communication
 4. Positive Vibes
 5. Data-Driven
+
+## Guidestar
+
+Techqueria earned a 2020 Platinum Seal by adding information to our Nonprofit Profile on GuideStar.
+
+By sharing these metrics, we’re helping the sector move beyond simplistic financial ratios to assess nonprofit progress.
+
+<a href="https://www.guidestar.org/profile/83-2656715" target="_blank" rel="noopener">
+  <img src="https://widgets.guidestar.org/gximage2?o=9774060&l=v4" />
+</a>

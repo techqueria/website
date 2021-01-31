@@ -24,7 +24,7 @@
     "@babel/register": "7.12.10",
     "autoprefixer": "9.8.6",
     "babel-eslint": "10.1.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "8.2.2",
     "brotli-webpack-plugin": "1.1.0",
     "browser-sync": "2.26.14",
     "bulma": "^0.8.0",
@@ -46,7 +46,7 @@
     "netlify-cli": "3.2.3",
     "plugin-error": "1.0.1",
     "postcss-csso": "4.0.0",
-    "snyk": "^1.424.4",
+    "snyk": "1.440.1",
     "twemoji": "13.0.1",
     "webpack": "4.43.0",
     "workbox-webpack-plugin": "5.1.4"
