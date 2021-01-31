@@ -90,27 +90,9 @@
     transition: none;
   }
 
-  &.has-shadow {
-    @extend %material-shadow;
-  }
-
-  @media screen and (max-width: $tablet) {
-    .navbar-logo {
-      padding-right: 0;
-    }
-  }
-
-  @media screen and (min-width: $laptop) {
-    .slack-buttons {
-      margin-left: 2em;
-    }
-  }
-
-  @media screen and (max-width: $laptop) {
-
-    .navbar-link::after,
-    .navbar-dropdown {
-      display: none;
+  .navbar-end {
+    .navbar-item:hover {
+      background-color: inherit;
     }
   }
 
@@ -122,21 +104,24 @@
     }
   }
 
-  .slack-buttons {
-    &--navbar-start {
-      display: none !important;
+  .button.is-primary {
+    font-size: inherit;
+  }
 
-      @media only screen and (min-width: $tablet) {
-        display: flex !important;
-      }
+  @media screen and (max-width: $tablet) {
+    .navbar-logo {
+      padding-right: 0;
     }
+  }
 
-    &--navbar-end {
-      display: block !important;
-
-      @media only screen and (min-width: $mobile) {
-        display: none !important;
-      }
+  @media screen and (max-width: $laptop) {
+    .navbar-link::after,
+    .navbar-dropdown {
+      display: none;
     }
+  }
+
+  &.has-shadow {
+    @extend %material-shadow;
   }
 }

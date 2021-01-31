@@ -4,7 +4,7 @@ description: "Concrete Rose is an early stage investment platform focused on the
 link: https://www.concreterosecapital.com/
 image: "/assets/img/supporters/concrete-rose.png"
 categories:
-  - donor
+  - past-partner
 ---
 
 Concrete Rose is an early stage investment platform focused on the diversity opportunity by capitalizing underrepresented founders, investing in companies serving underrepresented consumers, and helping early stage companies build diverse teams.

@@ -12,7 +12,7 @@
 {{ if (index .Site.Taxonomies.categories "sponsor") "!=" nil }}
   <div class="content mt-4 u-text--centered">
     <h3 id="sponsors"><span class="mr-sm">💎</span>Sponsors<span class="ml-sm">💎</span></h3>
-    <p>Organizations that have contributed $50,000 or more.</p>
+    <p>Organizations that have contributed to us in exchange for services.</p>
   </div>
   <section class="c-companies c-companies--sponsors">
     {{ range (index .Site.Taxonomies.categories "sponsor") }}
@@ -48,7 +48,7 @@
 {{ if (index .Site.Taxonomies.categories "community-partner") "!=" nil }}
   <div class="content mt-4 u-text--centered">
     <h3 id="community-partners"><span class="mr-sm">👥</span>Community Partners<span class="ml-sm">👥</span></h3>
-    <p>Organizations we partner with that also support Latinx in Tech.</p>
+    <p>Nonprofit organizations we partner with that also support Latinx in Tech.</p>
   </div>
   <section class="c-companies c-companies--community-partners">
     {{ range (index .Site.Taxonomies.categories "community-partner") }}
@@ -82,4 +82,4 @@
   </section>
 {{ end }}
 <!-- Patreon Supporters -->
-{{ partial "content/custom/patreon-supporters.html" . }}
+<!-- {{ partial "content/custom/patreon-supporters.html" . }} -->

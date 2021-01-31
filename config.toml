@@ -144,67 +144,19 @@ disqusShortname               = "techqueria"
     weight                    = 4
 [[menu.main]]
     parent                    = "Get Involved"
+    name                      = "Subscribe to Email Newsletter"
+    url                       = "/subscribe/"
+    weight                    = 5
+[[menu.main]]
+    parent                    = "Get Involved"
     name                      = "Submit Your Resume"
     url                       = "/submit-resume/"
-    weight                    = 5
+    weight                    = 6
 [[menu.main]]
     parent                    = "Get Involved"
     name                      = "Submit Your Testimonial"
     url                       = "/submit-testimonial/"
-    weight                    = 6
-
-# Communities
-[[menu.main]]
-    name                      = "Communities"
-    url                       = "/communities/"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Email Newsletter"
-    url                       = "/subscribe/"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Facebook Group"
-    url                       = "https://www.facebook.com/groups/techqueria"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Facebook Page"
-    url                       = "https://www.facebook.com/techqueria"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Google Business"
-    url                       = "https://g.page/Techqueria?we"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Instagram"
-    url                       = "https://instagram.com/techqueriaorg"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "GitHub Organization"
-    url                       = "https://github.com/techqueria"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "LinkedIn Group"
-    url                       = "https://www.linkedin.com/groups/13500636"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "LinkedIn Page"
-    url                       = "https://www.linkedin.com/company/techqueria/"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Pinterest"
-    url                       = "https://pinterest.com/techqueria"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Slack Workspace"
-    url                       = "/communities/slack/"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "Twitter"
-    url                       = "https://twitter.com/Techqueria"
-[[menu.main]]
-    parent                    = "Communities"
-    name                      = "YouTube Channel"
-    url                       = "https://www.youtube.com/c/Techqueria"
+    weight                    = 7
 
 # Donate
 [[menu.main]]
@@ -240,7 +192,7 @@ disqusShortname               = "techqueria"
     weight                    = 2
 [[menu.main]]
     parent                    = "Events"
-    name                      = "Chapters"
+    name                      = "City Chapters"
     url                       = "/chapters/"
     weight                    = 4
 [[menu.main]]
@@ -291,24 +243,7 @@ disqusShortname               = "techqueria"
     url                       = "/supporters/"
     weight                    = 4
 
-# Social Menu
-[[menu.social]]
-    name                      = "Twitter"
-    url                       = "https://twitter.com/Techqueria"
-    identifier                = "fab fa-lg fa-twitter"
-    weight                    = 1
-[[menu.social]]
-    name                      = "LinkedIn"
-    url                       = "https://www.linkedin.com/company/techqueria/"
-    identifier                = "fab fa-lg fa-linkedin"
-    weight                    = 2
-
-# Slack Menu
+# Primary CTA Menu
 [[menu.portal]]
     name                      = "Join Us"
     url                       = "/join/"
-    identifier                = "fab fa-lg fa-slack"
-[[menu.portal]]
-    name                      = "Login"
-    url                       = "https://techqueria.slack.com"
-    identifier                = "fas fa-lg fa-sign-in-alt"

@@ -13,16 +13,6 @@
     <!-- Hidden on Desktop and Larger -->
     <div class="navbar-item hide-on-desktop-and-larger">
       <div class="buttons">
-        <!-- Social -->
-        {{ range .Site.Menus.social }}
-        <a class="button is-white" href="{{ .URL }}" target="_blank" rel="noopener">
-          {{ if .Identifier }}
-          <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-          {{ end }}
-        </a>
-        {{ end }}
-        <!-- Slack -->
-        <div class="slack-buttons--navbar-start">
           {{ range .Site.Menus.portal }}
           <a class="button is-primary is-small" target="_blank" href="{{ .URL }}" rel="noopener">
             <span class="icon">
@@ -35,7 +25,6 @@
             </span>
           </a>
           {{ end }}
-        </div>
       </div>
     </div>
     <!-- Hamburger Menu -->
@@ -77,24 +66,11 @@
     </a>
     {{ end }}
     {{ end }}
-    {{ range .Site.Menus.social.ByWeight }}
-    <a class="navbar-item is-hidden-laptop-large" href="{{ .URL }}" target="_blank" rel="noopener">
-      {{ if .Identifier }}
-      <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-      {{ end }}
-    </a>
-    {{ end }}
     <div class="navbar-end">
       <!-- Portal -->
-      <div class="slack-buttons--navbar-end">
         {{ range .Site.Menus.portal }}
         <div class="navbar-item">
-          <a class="button is-primary" target="_blank" href="{{ .URL }}" rel="noopener">
-            <span class="icon">
-              {{ if .Identifier }}
-              <i class="{{ .Identifier }}" alt="{{ .Name }}" title="{{ .Name }}"></i>
-              {{ end }}
-            </span>
+          <a class="button is-primary" href="{{ .URL }}" rel="noopener">
             <span>
               {{ .Name }}
             </span>
@@ -102,6 +78,5 @@
         </div>
         {{ end }}
       </div>
-    </div>
   </div>
 </nav>

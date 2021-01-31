@@ -11,7 +11,7 @@ aliases:
 
 Techqueria is registered through several third party platforms which support gift matching programs.
 
-<div class="columns">
+<div class="columns is-multiline">
   <div class="column is-half">
     <p><img
         src="/assets/img/donate/donate.jpg"

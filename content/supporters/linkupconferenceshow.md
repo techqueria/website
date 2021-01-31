@@ -4,5 +4,5 @@ description: "LinkUpConferenceShow is a digital networking conference that merge
 link: https://linkupconferenceshow.com/
 image: "/assets/img/supporters/linkupconferenceshow.png"
 categories:
-  - community-partner
+  - past-partner
 ---

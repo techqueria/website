@@ -1,5 +1,5 @@
 ---
-title: "Become a Partner"
+title: "Partner"
 description: "Partner with the largest community of Latinx professionals and help us become leaders in tech. 🤝"
 hideImage: true
 image: "/assets/img/support-us/_index.jpg"

@@ -15,7 +15,7 @@ sitemap: true
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-596888539/ZugWCJ-hu-IBENuXz5wC'});
 </script>
-<div class="columns">
+<div class="columns is-multiline">
   <div class="column is-half">
     <p><img
         src="/assets/img/donate/donate.jpg"

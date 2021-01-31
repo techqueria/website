@@ -1,5 +1,5 @@
 ---
-title: "Podcast"
+title: "The Techqueria Podcast"
 description: "Tech reporter Jose Fermoso brings one of the most popular Slack communities to audio life through in-depth stories and interviews featuring topics affecting Latinx people including immigration policies, the coronavirus pandemic, and the latest in business challenges."
 image: "/assets/img/about/podcast/podcast-banner.png"
 layout: custom/page-about
@@ -52,7 +52,5 @@ Sponsor benefits include:
 - With a huge need to tell our stories properly and with necessary reporting context, the show aims to make a difference in our community.
 - Hosted by [Jose Fermoso](https://www.theguardian.com/profile/jose-fermoso), a tech journalist formerly of The Guardian and Wired, the show will have top media bonafides from the start.
 - We will intentionally seek stories that feature Afro Latinx, Asian Latinx and Indigenous Latinx. It's long past time a Latino-led media company truly reflects the community's diversity.
-
----
 
 ![Podcast Image](/assets/img/about/podcast/podcast-image.jpeg)

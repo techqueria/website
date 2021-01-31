@@ -6,7 +6,6 @@ noTimeEstimate: true
 hideImage: true
 sitemap: true
 toc: true
-biggerCards: true
 url: /join/
 aliases:
   - /become-a-member/
@@ -17,6 +16,10 @@ aliases:
   - /refer/
   - /referral/
 ---
+
+## About Techqueria
+
+{{< about >}}
 
 ## Member Benefits
 
