@@ -1,74 +1,74 @@
 {{ define "main" }}
-<!-- Hero -->
-{{ partial "content/hero/hero.html" . }}
-<!-- Page -->
-<section class="section page page--team">
-  <div class="container">
-    <!-- Breadcrumbs -->
-    {{ partial "content/custom/breadcrumbs.html" . }}
-    <!-- Content -->
-    {{ partial "content/_index.html" . }}
-    <!-- Staff -->
-    <div class="content mt-2">
-      <h2>Staff</h2>
+  <!-- Hero -->
+  {{ partial "content/hero/hero.html" . }}
+  <!-- Page -->
+  <section class="section page page--team">
+    <div class="container">
+      <!-- Breadcrumbs -->
+      {{ partial "content/custom/breadcrumbs.html" . }}
+      <!-- Content -->
+      {{ partial "content/_index.html" . }}
+      <!-- Staff -->
+      <div class="content mt-2">
+        <h2>Staff</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "executive-director").Pages.ByWeight }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+        {{ range (index .Site.Taxonomies.categories "staff").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Volunteers -->
+      <div class="content mt-2">
+        <h2>Volunteers</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "volunteer").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Dreamers in Tech Leads -->
+      <div class="content mt-2">
+        <h2>Dreamers in Tech Leads</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "dreamers-in-tech-lead").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Chapter Directors -->
+      <div class="content mt-2">
+        <h2>Chapter Directors</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Board of Directors -->
+      <div class="content mt-2">
+        <h2>Board of Directors</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "board-member").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Advisory Board -->
+      <div class="content mt-2">
+        <h2>Advisory Board</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ range (index .Site.Taxonomies.categories "board-advisory-member").Pages.ByTitle }}
+          {{ partial "content/child.html" . }}
+        {{ end }}
+      </div>
+      <!-- Content Footer -->
+      <div class="content">
+        {{ partial "content/footer/_index.html" . }}
+      </div>
     </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "executive-team").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-      {{ range (index .Site.Taxonomies.categories "staff").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    <!-- Volunteers -->
-    <div class="content mt-2">
-      <h2>Volunteers</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "volunteer").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-     <!-- Dreamers in Tech Leads -->
-     <div class="content mt-2">
-      <h2>Dreamers in Tech Leads</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "dreamers-in-tech-lead").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    <!-- Chapter Directors -->
-    <div class="content mt-2">
-      <h2>Chapter Directors</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
-      {{ partial "content/child-smaller.html" . }}
-      {{ end }}
-    </div>
-    <!-- Board of Directors -->
-    <div class="content mt-2">
-      <h2>Board of Directors</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "board-member").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    <!-- Advisory Board -->
-    <div class="content mt-2">
-      <h2>Advisory Board</h2>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "board-advisory-member").Pages.ByTitle }}
-      {{ partial "content/child.html" . }}
-      {{ end }}
-    </div>
-    <!-- Content Footer -->
-    <div class="content">
-      {{ partial "content/footer/_index.html" . }}
-    </div>
-  </div>
-</section>
+  </section>
 {{ end }}

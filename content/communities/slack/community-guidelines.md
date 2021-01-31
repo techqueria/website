@@ -44,7 +44,6 @@ However, it is not a requirement to identify as Latinx to be in this community w
 2. `#allies` to share resources and have discussions around allyship
 3. `#events` to share events with the community
 4. `#jobs` to share job opportunities with the community
-5. `#meta` to ask us any questions or provide feedback
 
 The purpose of the `#allies` channel is for allies to share resources, events, etc with our community and to ask us any questions on how to partner up together or become a better ally. 🧠
 
@@ -86,6 +85,8 @@ This convo in the `#random` channel could have been a bunch of separate messages
 
 Instead, with threads - it turned into a more rich and focused discussion. 😌
 
+Please do not use the feature "Also send to channel" as this causes the channel to become more noisy.
+
 ![Threads](/assets/img/communities/slack/use-threads.png)
 
 ### Refer to pinned posts
@@ -102,7 +103,7 @@ If you use any of the trigger phrases, Slackbot will respond with a helpful mess
 
 Threads let you respond directly to a message in a channel, keeping the replies, images, and other files neatly organized in a single conversation. Threaded replies stay connected to the original message, and only those who have contributed to or are following the thread will be notified of new messages. :please-use-threads-next-time:
 
-`code of conduct`
+`techqueria code of conduct`
 
 All participants in the Techqueria Slack Workspace are required to comply with the following code of conduct - make sure to read through it! If you have questions, comments or concerns - reach out to us via #meta or contact us through our website. :taco:
 
@@ -322,27 +323,7 @@ To see a list of available channels, run the command `/list-private`, and click 
 
 ### Cafecito Channels
 
-#### How Cafecito Channels Work
-
-If you'd like one added, head on over to `#meta-request-channel`.
-
-> 1:1 Pairings
-
-- `#cafecito`
-
-Pairs up people in cafecito channels every 2 weeks through a Slack app called [Swirl](https://tryswirl.com) so they can get to know others in the Techqueria community.
-
-> Location Based
-
-For local Techqueria members to hang out for fun/casual/informal events.
-
-- `#cafecito-atx`
-- `#cafecito-east-bay`
-- `#cafecito-la`
-- `#cafecito-nyc`
-- `#cafecito-remote`
-- `#cafecito-sf`
-- `#cafecito-south-bay`
+Pairs up people in cafecito channels every 2 weeks through a Slack app called [Donut](https://donut.com) so they can get to know others in the Techqueria community.
 
 ### Countries
 
@@ -418,15 +399,23 @@ Other related meta channels include:
   - Give feedback, ask questions, bring up concerns, etc
 - `#meta-code-of-conduct`
   - Discussion around code of conduct
+- `#meta-committees`
+  - Discussion around committees
+- `#meta-slack-community`
+  - Discussion around Slack community
 - `#meta-profile-pic`
   - Where new members didn't upload a profile picture
-- `#meta-request-event`
+- `#meta-hosting-events`
   - Add a community event to our events platform
 - `#meta-request-channel`
   - Request a new channel
 - `#meta-website`
-  - Discussing & contributing to Techqueria website https://techqueria.org
+  - Discussing & contributing to Techqueria website
 - `#meta-website-alerts`
   - Automated activity feed from all our website integrations
-- `#twitter`
+- `#meta-twitter`
   - Automated feed of Twitter account activity
+- `#meta-instagram`
+  - Automated feed of Instagram account activity
+- `#meta-facebook-page`
+  - Automated feed of Facebook page account activity

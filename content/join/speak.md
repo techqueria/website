@@ -35,7 +35,7 @@ We can also provide our speakers an honararium or swag for certain events. Pleas
 
 If we have a need for speakers and you seem like a good fit for the event discussion, we'll reach out and send you more details!
 
-<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
+<form name="Speak" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/speak/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Speaker">
   {{< fields/name >}}
   {{< fields/email >}}

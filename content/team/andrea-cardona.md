@@ -1,6 +1,6 @@
 ---
 title: Andrea Cardona
-image: "/assets/img/team/chapter-directors/andrea-cardona.jpeg"
+image: "/assets/img/team/andrea-cardona.jpeg"
 description: "Chapter Director, Austin"
 linkedin: https://www.linkedin.com/in/andrea-cardona-b647594b
 categories:
