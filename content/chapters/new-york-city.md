@@ -9,7 +9,6 @@ categories:
   - chapter-active
 leads:
   - Carolina Castro
-  - David Silva
   - Vanessa Jimenez
   - Chloe Potsklan
 aliases:
