@@ -4,7 +4,7 @@ description: "Yesterday, Techqueria’s Board of Directors removed David as a co
 date: 2021-02-02
 ---
 
-A Letter from Shashi Jain:
+A Letter from Board Chair Shashi Jain:
 
 Yesterday, Techqueria’s Board of Directors removed David as a community member. David and I co-founded the organization in 2015, and I sincerely appreciate and am grateful for the dedication, passion, and enthusiasm David has given our community over the past five years. On a personal note, David is like a brother to me, even when we don't see eye to eye, and I don’t take this situation lightly.
 
