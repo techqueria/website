@@ -4,5 +4,5 @@ description: Cloud communications platform for building SMS, Voice & Messaging a
 link: https://www.twilio.com/company/jobs
 image: "/assets/img/supporters/twilio.png"
 categories:
-  - silver-sponsor
+  - past-partner
 ---
