@@ -118,6 +118,11 @@ disqusShortname               = "techqueria"
     name                      = "Shop Merch"
     url                       = "/shop/"
 
+[[menu.main]]
+    parent                    = "About"
+    name                      = "Financial Documents"
+    url                       = "/finance/"
+
 # Get Involved
 [[menu.main]]
     name                      = "Get Involved"
