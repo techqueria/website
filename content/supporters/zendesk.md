@@ -4,5 +4,5 @@ description: "At Zendesk, we believe in making other people’s lives better—b
 link: https://jobs.zendesk.com/us/en/
 image: "/assets/img/supporters/zendesk.png"
 categories:
-  - silver-sponsor
+  - past-partner
 ---
