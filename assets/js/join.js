@@ -4,7 +4,7 @@
 const formEl = document.getElementById("form_become_a_member");
 // Location
 const stateLocationElInputEl = document.getElementById("stateInput");
-const countryLocationElInputEl = document.getElementById("countyInput");
+const countryLocationElInputEl = document.getElementById("countryInput");
 // Job Category
 const jobCategoryEl = document.getElementById("job_category");
 const jobCategoryOtherInputEl = document.getElementById("job_category_other_input");
