@@ -2,6 +2,9 @@
 
 // Form
 const formEl = document.getElementById("form_become_a_member");
+// Location
+const stateLocationElInputEl = document.getElementById("stateInput");
+const countryLocationElInputEl = document.getElementById("countyInput");
 // Job Category
 const jobCategoryEl = document.getElementById("job_category");
 const jobCategoryOtherInputEl = document.getElementById("job_category_other_input");
@@ -64,12 +67,26 @@ const validateOtherTextInputWithSelected = (element, elementSelect, elementOther
   }
 };
 
+const validateLocation = (stateElement, countryElement) => {
+  countryElement.addEventListener("change", () => {
+    if (countryElement.value !== "US") {
+      stateElement.value = "N/A";
+    }
+  });
+
+  stateElement.addEventListener("change", () => {
+    if (stateElement.validity.patternMismatch) {
+      stateElement.value = stateElement.value.toUpperCase();
+    }
+  });
+};
+
 // Form Fields
 window.addEventListener("DOMContentLoaded", () => {
   validateOtherTextInputWithRadio(lookingForEl, lookingForOtherCheckboxEl, lookingForOtherInputEl);
   validateOtherTextInputWithRadio(referralEl, referralOtherRadioEl, referralOtherInputEl);
   validateOtherTextInputWithSelected(jobCategoryEl, jobCategoryOtherSelectedEl, jobCategoryOtherInputEl);
-
+  validateLocation(stateLocationElInputEl, countryLocationElInputEl);
   formEl.addEventListener("submit", () => {
     getTextValuesForMultipleCheckboxes(lookingForCheckboxesEls, "looking_for_text_value");
   });
