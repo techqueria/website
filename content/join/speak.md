@@ -55,3 +55,4 @@ If we have a need for speakers and you seem like a good fit for the event discus
   {{< fields/disclaimer >}}
   {{< fields/submit label="Submit info" >}}
 </form>
+<script src="/assets/js/join.js"></script>

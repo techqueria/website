@@ -40,3 +40,4 @@ Fill out the form below and we'll reach out with more details on you can help su
   {{< fields/disclaimer >}}
   {{< fields/submit label="Submit info" >}}
 </form>
+<script src="/assets/js/join.js"></script>

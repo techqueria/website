@@ -20,7 +20,6 @@ const referralOtherInputEl = document.getElementById("referral_other_input");
 const referralOtherRadioEl = document.getElementById("referral_other_radio");
 
 // Functions
-
 const getTextValuesForMultipleCheckboxes = (checkboxEls, elementID) => {
   const textArrayEl = [];
   let parsedTextEl = "";
