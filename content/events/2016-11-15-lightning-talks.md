@@ -16,7 +16,8 @@ In November, our event will showcase the talents of our membership. We'll start 
 
 Our speakers will include Jessica Earley, Patricia Arbona and Kevin Hernandez.
 
-Then we'll discuss the history of Techqueria and break into discussion groups on how we can strengthen our community even more. We pride ourselves in being a peer mentorship network for Latinxs and other underrepresented groups in tech. We'd love your feedback on how we can improve and make bigger strides towards inclusion.
+Then we'll discuss the history of Techqueria and break into discussion groups on how we can strengthen our community even more. We pride ourselves in being a peer mentorship network for Latinxs and other underrepresented groups in tech. We'd love your feedback on how we can improve and make bigger
+strides towards inclusion.
 
 All, including allies, are welcome. The event is open to the public.
 

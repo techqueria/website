@@ -7,4 +7,5 @@ categories:
   - past-partner
 ---
 
-At Northeastern, experience is our essence and ethos. It’s what you gain when you make the world your classroom, your laboratory, and your platform to create change or grow your enterprise. Throughout our university network, experience draws you into society and compels you to solve its complex challenges. It makes you agile and able to reinvent yourself. To find ways of doing things differently, and better. And to seize opportunities as they unfold—anytime, anywhere.
+At Northeastern, experience is our essence and ethos. It’s what you gain when you make the world your classroom, your laboratory, and your platform to create change or grow your enterprise. Throughout our university network, experience draws you into society and compels you to solve its complex
+challenges. It makes you agile and able to reinvent yourself. To find ways of doing things differently, and better. And to seize opportunities as they unfold—anytime, anywhere.

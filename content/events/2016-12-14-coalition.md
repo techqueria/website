@@ -11,7 +11,8 @@ organizations:
 
 In light of recent political events, Techqueria and PyLadies are committed to ensuring that underrepresented groups in tech feel included, valued, and safe.
 
-Our lives are enriched when everyone is heard and gets to thrive and, more than ever, we need to work together to make sure this remains a priority in the work we all do. This event is a discussion about we can do to support each other. Let's share resources and knowledge and brainstorm for a movement for inclusion in tech and beyond. All are welcome.
+Our lives are enriched when everyone is heard and gets to thrive and, more than ever, we need to work together to make sure this remains a priority in the work we all do. This event is a discussion about we can do to support each other. Let's share resources and knowledge and brainstorm for a
+movement for inclusion in tech and beyond. All are welcome.
 
 For this event, we plan to have break into groups to plan for skill-sharing and event planning for now and the future.
 

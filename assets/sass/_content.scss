@@ -1,5 +1,4 @@
 .content {
-
   h1,
   h2,
   h3,
@@ -11,11 +10,13 @@
   ul,
   li,
   table {
-    a[href^="https://"]:not([href*="techqueria.org"]):after {
+    a[href^="https://"]:not([href*="techqueria.org"]):after
+    {
       content: " ↗";
     }
 
-    a[href^="http://"]:not([href*="techqueria.org"]):after {
+    a[href^="http://"]:not([href*="techqueria.org"]):after
+    {
       content: " ↗";
     }
   }

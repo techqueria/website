@@ -15,7 +15,8 @@ aliases:
 
 We are a close knit community of Latinx in Tech, elevating each other as we grow into leaders within the tech industry.
 
-Whether you're already a Latinx professional in tech or are interested in becoming one, you'll be joining a fast-growing community. We help each other out with problems/questions, share positive, support one another's concerns over compensation and workplace challenges and network through both offline and online initiatives.
+Whether you're already a Latinx professional in tech or are interested in becoming one, you'll be joining a fast-growing community. We help each other out with problems/questions, share positive, support one another's concerns over compensation and workplace challenges and network through both
+offline and online initiatives.
 
 Within our Slack, you will find:
 
@@ -101,7 +102,8 @@ If you use any of the trigger phrases, Slackbot will respond with a helpful mess
 
 `please use threads`
 
-Threads let you respond directly to a message in a channel, keeping the replies, images, and other files neatly organized in a single conversation. Threaded replies stay connected to the original message, and only those who have contributed to or are following the thread will be notified of new messages. :please-use-threads-next-time:
+Threads let you respond directly to a message in a channel, keeping the replies, images, and other files neatly organized in a single conversation. Threaded replies stay connected to the original message, and only those who have contributed to or are following the thread will be notified of new
+messages. :please-use-threads-next-time:
 
 `techqueria code of conduct`
 
@@ -161,17 +163,11 @@ The [HeyTaco! bot](https://www.heytaco.chat) sparks conversations and builds str
 
 You can use `@heytaco` to give someone a 🌮 when you'd like to show praise, appreciation, or to add a little happiness to their day.
 
-1. Every person in our Slack Workspace has 5 tacos to give out per day
-   5️⃣ 🌮
-2. To give someone a taco, add a taco emoji after their username
-   Like this: `@username your positive attitude was a real help today! :taco:`
-   ![HeyTaco! Examples](/assets/img/communities/slack/hey-taco-examples.png)
-3. You can give tacos to anyone on your team as long as the bot has been invited to the channel
-   You can invite the bot to channels using `/invite @heytaco`
-4. There is a leaderboard to see who is getting the most tacos
-   Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
-5. Need help?
-   If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
+1. Every person in our Slack Workspace has 5 tacos to give out per day 5️⃣ 🌮
+2. To give someone a taco, add a taco emoji after their username Like this: `@username your positive attitude was a real help today! :taco:` ![HeyTaco! Examples](/assets/img/communities/slack/hey-taco-examples.png)
+3. You can give tacos to anyone on your team as long as the bot has been invited to the channel You can invite the bot to channels using `/invite @heytaco`
+4. There is a leaderboard to see who is getting the most tacos Anyone in our Slack Workspace can sign in and see the leaderboard using [https://www.heytaco.chat/leaderboard](https://www.heytaco.chat/leaderboard)
+5. Need help? If you need help, you can just DM `@heytaco` the word `help` and it will assist you.
 
 ## Customization 🆒
 

@@ -16,5 +16,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.settings.editor": "json",
-  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.settings.enableNaturalLanguageSearch": false
 }

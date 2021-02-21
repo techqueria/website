@@ -15,4 +15,3 @@ aliases:
   - /wall-of-love/
   - /member-testimonials/
 ---
-
