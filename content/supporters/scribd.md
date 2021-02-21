@@ -4,5 +4,5 @@ description: "Scribd' mission is to change the way the world reads, and they’r
 link: https://scribd.com/careers
 image: "/assets/img/supporters/scribd.png"
 categories:
-  - silver-sponsor
+  - past-partner
 ---
