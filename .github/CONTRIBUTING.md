@@ -556,11 +556,13 @@ We have a bounty program in order to build and maintain our member portal where 
 
 ### Priorities
 
-Our bounty program is about creating opportunities for our community to contribute to Techqueria's Casa member portal, to make it their own. It also gives us an opportunity to get to know developers who we could potentially work with more in the future. We celebrate making open source contributions more sustainable by paying, but money alone shouldn't be the primary motivation for participation.
+Our bounty program is about creating opportunities for our community to contribute to Techqueria's Casa member portal, to make it their own. It also gives us an opportunity to get to know developers who we could potentially work with more in the future. We celebrate making open source contributions
+more sustainable by paying, but money alone shouldn't be the primary motivation for participation.
 
 ### Quality
 
-We're not able to accept pull requests that aren't completed to a high standard in a reasonable timeframe. Please only pick up bounties that you are confident you can complete at your current knowledge and skill level. We will not accept pull requests or pay bounties for code that's not up to the standard we need to maintain for our members who rely on this platform. Our dev team is happy to answer questions and provide some limited support, but we don't have capacity to mentor junior developers through the bounty program.
+We're not able to accept pull requests that aren't completed to a high standard in a reasonable timeframe. Please only pick up bounties that you are confident you can complete at your current knowledge and skill level. We will not accept pull requests or pay bounties for code that's not up to the
+standard we need to maintain for our members who rely on this platform. Our dev team is happy to answer questions and provide some limited support, but we don't have capacity to mentor junior developers through the bounty program.
 
 We want to attract quality contributions. The issue will only be considered complete and approved for payment if the pull request is merged by a core team member.
 

@@ -135,7 +135,6 @@
   }
 
   a:hover:not(.sponsors-logo-wall--sponsor--item) {
-
     img,
     video {
       @extend %light-image-shadow;
@@ -154,9 +153,7 @@
   }
 
   .section-speakers {
-
     a {
-
       img,
       video {
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -164,10 +161,9 @@
     }
 
     a:hover {
-
       img,
       video {
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.50);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
       }
     }
   }
