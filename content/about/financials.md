@@ -5,6 +5,7 @@ hideImage: true
 image: "/assets/img/about/financials.jpg"
 noTimeEstimate: true
 toc: true
+url: /financials/
 aliases:
   - /finance/
   - /about/finance/

@@ -121,7 +121,7 @@ disqusShortname               = "techqueria"
 [[menu.main]]
     parent                    = "About"
     name                      = "Financials"
-    url                       = "/about/financials/"
+    url                       = "/financials/"
 
 # Get Involved
 [[menu.main]]
@@ -170,7 +170,7 @@ disqusShortname               = "techqueria"
 [[menu.main]]
     parent                    = "Donate"
     name                      = "Donate via Website"
-    url                       = "/donate/#donate-via-website"
+    url                       = "https://secure.givelively.org/donate/techqueria"
 [[menu.main]]
     parent                    = "Donate"
     name                      = "Donate via Patreon"
@@ -255,4 +255,4 @@ disqusShortname               = "techqueria"
 # Primary CTA Menu
 [[menu.portal]]
     name                      = "Donate"
-    url                       = "/donate/"
+    url                       = "https://secure.givelively.org/donate/techqueria"

@@ -4,6 +4,7 @@ description: "Has Techqueria helped you feel supported, empowered or connected? 
 image: "/assets/img/testimonials/_index.jpg"
 hideImage: true
 noTimeEstimate: true
+url: /submit-testimonial/
 aliases:
   - /submit-testimonials/
   - /submit-testimonial/
