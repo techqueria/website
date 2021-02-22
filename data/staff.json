@@ -1,14 +1,50 @@
 {
-  "Amber Gonzalez-Vargas": {
-    "name": "Amber Gonzalez-Vargas",
-    "title": "Board Advisory Member",
-    "image": "/assets/img/team/amber-gonzalez-vargas.jpeg",
-    "linkedin": "https://www.linkedin.com/in/amber-gonzales-vargas-040b2649/"
+  "Frances Coronel": {
+    "name": "Frances Coronel",
+    "title": "Co-Director",
+    "image": "/assets/img/team/frances-coronel.jpg",
+    "linkedin": "https://linkedin.com/in/francescoronel"
   },
-  "Lili Gangas": {
-    "name": "Lili Gangas",
-    "title": "Board Advisory Member",
-    "image": "/assets/img/team/lili-gangas.jpeg",
-    "linkedin": "https://www.linkedin.com/in/liligangas/"
+  "Felipe Ventura": {
+    "name": "Felipe Ventura",
+    "title": "Co-Director",
+    "image": "/assets/img/team/felipe-ventura.jpg",
+    "linkedin": "https://www.linkedin.com/in/fvntr"
+  },
+  "Mary Ramirez": {
+    "name": "Mary Ramirez",
+    "title": "Partnerships",
+    "image": "/assets/img/team/mary-ramirez.png",
+    "linkedin": "https://www.linkedin.com/in/marybramirez/"
+  },
+  "Cat Martinez": {
+    "name": "Cat Martinez",
+    "title": "Partnerships",
+    "image": "/assets/img/team/cat-martinez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/cathmartinez/"
+  },
+  "Sal Ramirez": {
+    "name": "Sal Ramirez",
+    "title": "Events",
+    "image": "/assets/img/team/sal-ramirez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/salramirez/"
+  },
+  "Francisco Cruz-Mendoza": {
+    "name": "Francisco Cruz-Mendoza",
+    "title": "Community",
+    "image": "/assets/img/team/francisco-cruz-mendoza.jpeg",
+    "linkedin": "https://www.linkedin.com/in/franciscocrz"
+  },
+  "Annelise Hagar Preciado": {
+    "name": "Annelise Hagar Preciado",
+    "title": "Operations",
+    "image": "/assets/img/team/annelise-hagar-preciado.jpg",
+    "linkedin": "https://www.linkedin.com/in/annelisehagar/"
+  },
+  "Jasmin Gonzalez": {
+    "name": "Jasmin Gonzalez",
+    "title": "Marketing",
+    "image": "/assets/img/team/jasmin-gonzalez.jpg",
+    "linkedin": "https://www.linkedin.com/in/gonzalezjasmin/"
   }
 }
