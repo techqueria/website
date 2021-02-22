@@ -27,7 +27,7 @@ aliases:
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-596888539/ZugWCJ-hu-IBENuXz5wC'});
 </script>
-<div class="columns is-multiline">
+<div class="columns is-multiline is-centered">
   <div class="column is-half">
     <p>Techqueria is a tax-exempt public charity under Section 501c3 of the Internal Revenue Code.</p>
     <p>Contributions to Techqueria are tax-deductible to the extent provided by law.</p>
@@ -39,7 +39,7 @@ aliases:
 
 ## Donate via Patreon
 
-<div class="columns is-multiline">
+<div class="columns is-multiline is-centered">
   <div class="column is-half"><img src="/assets/img/supporters/patreon.png"></div>
   <div class="column is-half">
     <p>Patreon is a membership platform based in the United States that provides business tools for creators to run a
