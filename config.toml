@@ -115,13 +115,13 @@ disqusShortname               = "techqueria"
     url                       = "/team/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "Shop Merch"
+    name                      = "Shop"
     url                       = "/shop/"
 
 [[menu.main]]
     parent                    = "About"
-    name                      = "Financial Documents"
-    url                       = "/finance/"
+    name                      = "Financials"
+    url                       = "/about/financials/"
 
 # Get Involved
 [[menu.main]]
@@ -169,16 +169,20 @@ disqusShortname               = "techqueria"
     url                       = "/donate/"
 [[menu.main]]
     parent                    = "Donate"
-    name                      = "Become a Patron"
-    url                       = "https://www.patreon.com/techqueria"
+    name                      = "Donate via Website"
+    url                       = "/donate/#donate-via-website"
 [[menu.main]]
     parent                    = "Donate"
-    name                      = "Donate Space"
-    url                       = "/donate/donate-space/"
+    name                      = "Donate via Patreon"
+    url                       = "https://www.patreon.com/bePatron?u=14280066"
 [[menu.main]]
     parent                    = "Donate"
     name                      = "Match Your Gift"
-    url                       = "/donate/match-your-gift/"
+    url                       = "/donate/#match-your-gift"
+[[menu.main]]
+    parent                    = "Donate"
+    name                      = "Donate Space"
+    url                       = "/donate/#donate-space"
 
 # Events
 [[menu.main]]
@@ -250,5 +254,5 @@ disqusShortname               = "techqueria"
 
 # Primary CTA Menu
 [[menu.portal]]
-    name                      = "Join Us"
-    url                       = "/join/"
+    name                      = "Donate"
+    url                       = "/donate/"

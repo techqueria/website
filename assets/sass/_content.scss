@@ -101,4 +101,12 @@
       background-color: $table-background-color;
     }
   }
+
+  a.button:after {
+    content: "" !important;
+  }
+
+  .columns.is-multiline {
+    align-items: center;
+  }
 }

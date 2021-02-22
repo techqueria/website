@@ -3,7 +3,7 @@ title: "Typeform"
 description: "Techqueria uses Typeform to easily collect payments for small transactions and also capture form submissions outside of the website."
 link: http://referral.typeform.com/mtfBiqW
 image: "/assets/img/supporters/typeform.png"
-price: "$252 per year"
+price: "$425 per year"
 noTimeEstimate: true
 toc: true
 categories:
@@ -20,9 +20,9 @@ Typeform is an online program that makes very flexible, customized forms for eve
 
 This software sponsor will
 
-- provide financial contribution to Techqueria in order to pay for a yearly subscription of Typeform
+- provide financial contribution to Techqueria in order to pay for a yearly subscription of Typeform Premium
 
 In exchange, Techqueria will
 
-- provide your company a marketing package worth financial contribution in value
+- provide your company a partnership worth financial contribution in value
 - showcase your company under "Software Sponsors" on the Supporters page

@@ -13,6 +13,8 @@ aliases:
   - /brand-guidelines/
 ---
 
+> As of December 2020, we are currently working on rolling out a new logo. More to come.
+
 ## Copy
 
 For copy and verbiage, please refer to our [About](/about/) page.

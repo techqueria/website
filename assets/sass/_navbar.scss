@@ -7,6 +7,7 @@
   .navbar-menu {
     box-shadow: none;
     flex-grow: unset;
+    padding-top: 0;
 
     @media only screen and (min-width: $tablet) and (max-width: $laptop) {
       font-size: $size-7;
@@ -14,7 +15,7 @@
   }
 
   .navbar-burger {
-    height: 5rem;
+    height: 6rem;
     width: 3em;
 
     span {
@@ -97,7 +98,9 @@
   }
 
   .hide-on-desktop-and-larger {
-    display: flex !important;
+    @media only screen and (min-width: $tablet) {
+      display: flex !important;
+    }
 
     @media only screen and (min-width: $laptop) {
       display: none !important;

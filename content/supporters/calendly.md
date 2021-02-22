@@ -14,7 +14,7 @@ aliases:
 
 ## About Calendly
 
-Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Twitter, Facebook, Instagram, Instagram Stories, Pinterest, and Linkedin, as well as analyze their results and engage with their community.
+Calendly helps you schedule meetings without the back-and-forth emails.
 
 ## Sponsorship
 
@@ -24,5 +24,5 @@ This software sponsor will
 
 In exchange, Techqueria will
 
-- provide your company a marketing package worth financial contribution in value
+- provide your company a partnership worth financial contribution in value
 - showcase your company under "Software Sponsors" on the Supporters page

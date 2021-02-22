@@ -102,7 +102,7 @@ We couldn't have made this a reality without our core team:
 
 ## Donate 💛
 
-If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](/donate) or [becoming a monthly patron](https://patreon.com/techqueria).
+If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](/donate) or [becoming a monthly patron](https://www.patreon.com/bePatron?u=14280066).
 
 ## Links
 

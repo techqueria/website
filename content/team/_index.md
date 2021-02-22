@@ -14,3 +14,5 @@ aliases:
   - /about/team/
 sitemap: true
 ---
+
+You are welcome to view our [our org chart](https://miro.com/app/board/o9J_ldsflvc=/) and an overview of our [roles and responsibilities](https://www.notion.so/86b10a50006e48ad937198e25297af9c?v=09db21d2d9584e85a893cc642e9c1132).
