@@ -2,7 +2,7 @@
 title: "Become a Chapter Director"
 description: "Learn what it takes to be a Chapter Director for Techqueria and apply to become one. 🌱️"
 hideImage: true
-image: "/assets/img/support-us/chapter-director/_index.jpg"
+image: "/assets/img/support-us/chapter-director.jpg"
 noTimeEstimate: true
 toc: true
 url: /chapter-director/

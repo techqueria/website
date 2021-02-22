@@ -19,8 +19,104 @@
   },
   "Andrea Flores": {
     "name": "Andrea Cardona",
-    "title": "Board Member & Chapter Director, Austin",
+    "title": "Chapter Director, Austin",
     "image": "/assets/img/team/andrea-flores.jpg",
     "linkedin": "https://www.linkedin.com/in/andreaf"
+  },
+  "Cari Perez": {
+    "name": "Cari Perez",
+    "title": "Chapter Director, Miami",
+    "image": "/assets/img/team/cari-perez.jpg",
+    "linkedin": "https://www.linkedin.com/in/caridadperez/"
+  },
+  "Carolina Castro": {
+    "name": "Carolina Castro",
+    "title": "Chapter Director, New York City",
+    "image": "/assets/img/team/carolina-castro.jpeg",
+    "linkedin": "https://www.linkedin.com/in/castroca/"
+  },
+  "Chloe Potsklan": {
+    "name": "Chloe Potsklan",
+    "title": "Chapter Director, New York City",
+    "image": "/assets/img/team/chloe-potsklan.jpeg",
+    "linkedin": "https://www.linkedin.com/in/cpotsklan/"
+  },
+  "Darlene Santoyo": {
+    "name": "Darlene Santoyo",
+    "title": "Chapter Director, Austin",
+    "image": "/assets/img/team/darlene-santoyo.jpg",
+    "linkedin": "https://www.linkedin.com/in/dsantoyo"
+  },
+  "Dulce Villarreal": {
+    "name": "Dulce Villarreal",
+    "title": "Chapter Director, San Francisco Bay Area",
+    "image": "/assets/img/team/dulce-villarreal.jpg",
+    "linkedin": "https://www.linkedin.com/in/dulcevillarreal"
+  },
+  "Edward Barrios": {
+    "name": "Edward Barrios",
+    "title": "Chapter Director, Washington D.C.",
+    "image": "/assets/img/team/edward-barrios.jpeg",
+    "linkedin": "https://www.linkedin.com/company/techqueria"
+  },
+  "Esteban Uribe": {
+    "name": "Esteban Uribe",
+    "title": "Chapter Director, Los Angeles",
+    "image": "/assets/img/team/esteban-uribe.jpeg",
+    "linkedin": "https://www.linkedin.com/in/estebanuribe"
+  },
+  "Graciela Corral Hernandez": {
+    "name": "Graciela Corral Hernandez",
+    "title": "Chapter Director, Seattle",
+    "image": "/assets/img/team/graciela-corral-hernandez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/graciela-corral-hernandez/"
+  },
+  "Javier Dutan": {
+    "name": "Javier Dutan",
+    "title": "Chapter Director, Orlando",
+    "image": "/assets/img/team/javier-dutan.png",
+    "linkedin": "https://www.linkedin.com/in/javierdutan/"
+  },
+  "Joel Lehi Organista": {
+    "name": "Joel Lehi Organista",
+    "title": "Chapter Director, Salt Lake City",
+    "image": "/assets/img/team/joel-lehi-organista.jpeg",
+    "linkedin": "https://www.linkedin.com/in/joel-lehi-organista/"
+  },
+  "Margarita Carabello": {
+    "name": "Margarita Carabello",
+    "title": "Chapter Director, Atlanta",
+    "image": "/assets/img/team/margarita-carabello.png",
+    "linkedin": "https://www.linkedin.com/in/margarita-c-39277b36"
+  },
+  "Maritza Alas": {
+    "name": "Maritza Alas",
+    "title": "Chapter Director, Los Angeles",
+    "image": "/assets/img/team/maritza-alas.jpg",
+    "linkedin": "https://www.linkedin.com/in/maritza-alas"
+  },
+  "Roberto Salcido": {
+    "name": "Roberto Salcido",
+    "title": "Email Marketing Volunteer",
+    "image": "/assets/img/team/roberto-salcido.jpg",
+    "linkedin": "https://www.linkedin.com/in/roberto-salcido"
+  },
+  "Shannon Morales": {
+    "name": "Shannon Morales",
+    "title": "Chapter Director, Philadelphia",
+    "image": "/assets/img/team/shannon-morales.png",
+    "linkedin": "https://www.linkedin.com/in/shannon-morales-b7092552/"
+  },
+  "Vanessa Jimenez": {
+    "name": "Vanessa Jimenez",
+    "title": "Chapter Director, New York City",
+    "image": "/assets/img/team/vanessa-jimenez.jpeg",
+    "linkedin": "https://www.linkedin.com/in/vanessajimenez27"
+  },
+  "Yoselin Gonzalez Mendez": {
+    "name": "Yoselin Gonzalez Mendez",
+    "title": "Chapter Director, San Francisco Bay Area",
+    "image": "/assets/img/team/yoselin-gonzalez-mendez.png",
+    "linkedin": "https://www.linkedin.com/in/yoselinggm/"
   }
 }
