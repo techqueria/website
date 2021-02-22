@@ -35,4 +35,4 @@ In exchange, Techqueria will
 
 - include your company name and link as part of our onboarding process within Donut (meaning that every new member of Techqueria will learn about your org)
 - showcase your company under "Software Sponsors" on the Supporters page
-- provide your company an event & marketing package worth $5,000 in value
+- provide your company an event & partnership worth $5,000 in value

@@ -26,14 +26,6 @@ aliases:
 - $252K revenue — 287% increase
 - 5 paid staff
 
-Techqueria earned a 2020 Platinum Seal by adding information to our Nonprofit Profile on GuideStar.
-
-By sharing these metrics, we’re helping the sector move beyond simplistic financial ratios to assess nonprofit progress.
-
-<a href="https://www.guidestar.org/profile/83-2656715" target="_blank" rel="noopener" class="image-external-plain">
-  <img src="https://widgets.guidestar.org/gximage2?o=9774060&l=v4" />
-</a>
-
 ## 2019
 
 In March 2019, Techqueria incorporated as a 501c3 nonprofit.
