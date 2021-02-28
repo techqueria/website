@@ -16,10 +16,9 @@ Learn about AWS Core Services in this hands-on two part workshop with DevOps Arc
 
 We will be going through live demos of the AWS Compute, Storage, and Networking Services. Come with questions as we teach you how to scale and grow with cloud services. We engourage you to bring your laptop and have an AWS account setup before the workshop so you can follow along.
 
-6:00 - doors open
-6:30 - opening remarks and beginning of presentation
-8:30 - wrap-up and closing remarks
+6:00 - doors open 6:30 - opening remarks and beginning of presentation 8:30 - wrap-up and closing remarks
 
-Victor Ramirez, currently Software DevOps Architect @Moody’s Analytics, studied Computer Science at San Francisco State University and went into Software Release Management, first with Leap Frog and then Streamline Solutions. He now works in DevOps, concentrating in Continuous Deliver and Cloud Architecture for Moody’s Analytics.
+Victor Ramirez, currently Software DevOps Architect @Moody’s Analytics, studied Computer Science at San Francisco State University and went into Software Release Management, first with Leap Frog and then Streamline Solutions. He now works in DevOps, concentrating in Continuous Deliver and Cloud
+Architecture for Moody’s Analytics.
 
 There will be opportunities to talk to the speakers, other attendees, and recruiters before and after the talks, come enjoy some food with us, make new friends and connect with the latinx community.

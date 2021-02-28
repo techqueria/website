@@ -42,32 +42,8 @@
   }
 
   @media screen and (min-width: $laptop) {
-    .c-companies--diamond-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
-    }
-
-    .c-companies--titanium-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
-    }
-
-    .c-companies--platinum-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
-    }
-
-    .c-companies--gold-sponsors {
+    .c-companies--sponsors {
       grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
-    }
-
-    .c-companies--silver-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
-    }
-
-    .c-companies--bronze-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-    }
-
-    .c-companies--iron-sponsors {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     }
 
     .c-companies--software-suporters {

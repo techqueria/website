@@ -6,4 +6,5 @@ hideImage: true
 aliases:
   - /resource/
   - /resources/
+  - /resources/immigration/center-for-immigration-studies/
 ---

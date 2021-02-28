@@ -5,4 +5,3 @@ date: 2020-10-22
 image: "/assets/img/news/2020-10-22-sololearn.jpg"
 link: https://blog.asana.com/2020/03/latinx-engineering-mentorship/#close
 ---
-

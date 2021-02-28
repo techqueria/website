@@ -10,4 +10,5 @@ categories:
   - "san-francisco"
 ---
 
-We're excited to partner up with Mezcla, the Latinx employee resource group at Mixpanel, to bring together experienced panelists from all parts of the analytics industry. Together we will have a discussion about what it is like to develop products in analytics and the power it has to affect and change our communities.
+We're excited to partner up with Mezcla, the Latinx employee resource group at Mixpanel, to bring together experienced panelists from all parts of the analytics industry. Together we will have a discussion about what it is like to develop products in analytics and the power it has to affect and
+change our communities.

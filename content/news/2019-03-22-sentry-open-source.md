@@ -9,11 +9,13 @@ featuring:
   - Frances Coronel
 ---
 
-On January 29th, we [announced Sentry’s Open Source Grant](https://blog.sentry.io/2019/01/29/apply-sentry-open-source-grant), and, quite frankly, we were pleasantly surprised by the applications we received. Thank you to everyone who applied — we sincerely appreciate the time and effort spent detailing your open source hopes and dreams. The passion demonstrated in these applications is what keeps the open source community innovative and, well, open.
+On January 29th, we [announced Sentry’s Open Source Grant](https://blog.sentry.io/2019/01/29/apply-sentry-open-source-grant), and, quite frankly, we were pleasantly surprised by the applications we received. Thank you to everyone who applied — we sincerely appreciate the time and effort spent
+detailing your open source hopes and dreams. The passion demonstrated in these applications is what keeps the open source community innovative and, well, open.
 
 ## Now, the reason you’re reading this blog post…
 
-Congratulations to [Frances Coronel](https://twitter.com/fvcproductions?lang=en), Open Source Lead at [Techqueria](https://techqueria.org/) and recipient of Sentry’s first-ever Open Source Grant! She has been working professionally as a developer since 2015 and has both a Bachelors and Masters in Computer Science. Her passions outside of work include contributing to open-source, public speaking and mentoring other URMs in tech. She has been involved with Techqueria as an open source lead since 2018.
+Congratulations to [Frances Coronel](https://twitter.com/fvcproductions?lang=en), Open Source Lead at [Techqueria](https://techqueria.org/) and recipient of Sentry’s first-ever Open Source Grant! She has been working professionally as a developer since 2015 and has both a Bachelors and Masters in
+Computer Science. Her passions outside of work include contributing to open-source, public speaking and mentoring other URMs in tech. She has been involved with Techqueria as an open source lead since 2018.
 
 [![Techqueria banner](https://images.ctfassets.net/em6l9zw4tzag/5l3VeA7ghuTVKUHWghr6lr/067fa02046c8a8a57f6abf277db2ef05/techqueria-banner.png)](https://images.ctfassets.net/em6l9zw4tzag/5l3VeA7ghuTVKUHWghr6lr/067fa02046c8a8a57f6abf277db2ef05/techqueria-banner.png)
 
@@ -35,7 +37,8 @@ We wouldn’t feel right ending this post without acknowledging some of the othe
 
 **[lufthaden](http://luftdaten.info)** - Building a network of cheap air quality sensors. Sensors are built by volunteers, and data is used by universities and local environmental initiatives.
 
-**[matterhorn](https://github.com/Ethan-Arrowood/matterhorn)** - Enabling developers to experiment, and quickly and securely develop production-level backend systems by providing preconfigured, modern development tools. It is built with Node.js and comes with configurations for Microsoft’s TypeScript type system, Facebook’s Jest test runner, JS Foundation’s ESLint linter, and Microsoft’s Azure DevOps CI pipeline.
+**[matterhorn](https://github.com/Ethan-Arrowood/matterhorn)** - Enabling developers to experiment, and quickly and securely develop production-level backend systems by providing preconfigured, modern development tools. It is built with Node.js and comes with configurations for Microsoft’s
+TypeScript type system, Facebook’s Jest test runner, JS Foundation’s ESLint linter, and Microsoft’s Azure DevOps CI pipeline.
 
 **[plots2](https://github.com/publiclab/plots2)** - Aims to provide information, tutorials and build a community for DIY people interested in environment and scientific research.
 

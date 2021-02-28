@@ -28,9 +28,11 @@ We'll be hosting a panel with 3 latinx in the music industry, that will share ab
 
 Ricardo Galbis runs an electronic music label and brand called Subdrive, which is comprised of label releases from up and coming talent, a long-running podcast, events, and a panel series, and is a senior product designer at Splice.
 
-DJ Bembona is a Puerto Rican-Panamanian DJ, Multi-Platform Artist & Activist, born & raised in Brooklyn, NY. Her work represents & pushes forward the Afro-Diasporadical movement, Latinx/Indigenous/Caribbean/African, with the purpose of empowering & bridging the gap between POC communities, generations, activist work & beyond.
+DJ Bembona is a Puerto Rican-Panamanian DJ, Multi-Platform Artist & Activist, born & raised in Brooklyn, NY. Her work represents & pushes forward the Afro-Diasporadical movement, Latinx/Indigenous/Caribbean/African, with the purpose of empowering & bridging the gap between POC communities,
+generations, activist work & beyond.
 
-Santi Danino Beck i s a Musician, Hardvard Graduate, from Lima, Peru, and was raised on Latin music before moving to Washington, D.C. and falling in love with pop and American R&B. Andrew’s parents were both musicians - his father an Israeli-born violinist, his mother an opera singer - who raised him on classical music and jazz, before he took a rebellious turn toward old school hip-hop.
+Santi Danino Beck i s a Musician, Hardvard Graduate, from Lima, Peru, and was raised on Latin music before moving to Washington, D.C. and falling in love with pop and American R&B. Andrew’s parents were both musicians - his father an Israeli-born violinist, his mother an opera singer - who raised
+him on classical music and jazz, before he took a rebellious turn toward old school hip-hop.
 
 There will be light bites (empanadas), beer and wine and refreshments!
 
@@ -46,4 +48,5 @@ Splice As advocates for artists everywhere, we’re building a creative ecosyste
 
 Techqueria is a nonprofit that empowers Latinx professionals in the tech industry by building networking and career advancement opportunities.
 
-Photographs and/or video might be taken at the event. By taking part in this event you grant the event organizers full rights to use the images resulting from the photography/video filming, and any reproductions or adaptations of the images for fundraising, publicity or other purposes to help grow the community.
+Photographs and/or video might be taken at the event. By taking part in this event you grant the event organizers full rights to use the images resulting from the photography/video filming, and any reproductions or adaptations of the images for fundraising, publicity or other purposes to help grow
+the community.

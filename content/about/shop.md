@@ -1,5 +1,5 @@
 ---
-title: "Shop Merch"
+title: "Shop"
 description: "Buy all kinds of cool swag from Techqueria's official store. 🛒"
 image: "/assets/img/shop/_index.png"
 hideImage: true
@@ -14,8 +14,10 @@ aliases:
 sitemap: true
 ---
 
+> 💻 Looking for laptop stickers? Check out our [Redbubble store](https://www.redbubble.com/i/sticker/Techqueria-by-techqueria/44479650.EJUG5) to buy our removable, kiss-cut vinyl stickers.
+
 <div id="techqueria-shop">
-    <a href="https://shop.spreadshirt.com/techqueria">techqueria</a>
+    <a href="https://shop.spreadshirt.com/techqueria">Techqueria's Spreadshirt Shop is loading... 🌮 🛒</a>
 </div>
 
 <script>
