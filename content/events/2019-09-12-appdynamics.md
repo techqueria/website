@@ -27,11 +27,7 @@ Our goal for this event is to create a space for our Latinx in Tech community an
 
 The event will open to the public at 5:00 PM for a dance lesson, amazing Latin American food and drink, and opportunities to engage with community organizations benefiting our local Latinx communities.
 
-5:00 PM - Doors open to the public
-5:30 PM - Salsa dance lesson
-6:15 PM to 6:45 PM - Keynote and nonprofit introductions
-6:45 PM to 8:00 PM - Dancing, networking, and fun!
-It’s going to be a lot of great food, fun, and celebration, so we hope to see you all there!
+5:00 PM - Doors open to the public 5:30 PM - Salsa dance lesson 6:15 PM to 6:45 PM - Keynote and nonprofit introductions 6:45 PM to 8:00 PM - Dancing, networking, and fun! It’s going to be a lot of great food, fun, and celebration, so we hope to see you all there!
 
 ## Organizations Represented
 

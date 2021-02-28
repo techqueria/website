@@ -83,7 +83,7 @@ Feel free to contribute to the Techqueria website in one or more of the followin
 
 You can ask to be added to our GitHub organization.
 
-After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
+After you are added you to our Techqueria GitHub organization as a contibutor, you can let the world know you've helped us by displaying our organization avatar on your GitHub profile (see screenshot below).
 
 ![GitHub Organizations](https://i.imgur.com/DpZcMFl.jpg)
 
@@ -107,7 +107,7 @@ Here's an example of how that can be done by posting under "Experience" or "Volu
 
 ##### Credibility
 
-- You can tell people you've contributed to an open source project - [not that many developers do](https://www.digitalocean.com/currents/october-2018/)!
+- You can tell people you've contributed to an open source project - [not many developers do](https://www.digitalocean.com/currents/october-2018/)!
 - You can tell people you have contributed to the largest community for Latinx in Tech
 - You can also tell people you've worked on a project that uses one of the [most popular static site generators in the world](https://www.staticgen.com/) - [Hugo](https://gohugo.io/)
 
@@ -233,9 +233,7 @@ twitter: fvcproductions
 github: fvcproductions
 flag: 🇵🇪
 categories:
-  - board-member
-  - cto
-  - patreon-friend
+  - staff
   - san-francisco
 ---
 ```
@@ -307,7 +305,7 @@ link: https://slack.com/careers
 
 #### Blog updates
 
-Make sure to always turn comments on and add or reference a person from the `/team` page as the author so they can get proper credit.
+Make sure to always turn comments on and reference the author so they can get proper credit.
 
 > Example: `content/english/news/2016-07-19-community-building.md`
 
@@ -317,8 +315,6 @@ title: "Techqueria is now officially a 501c3 nonprofit!"
 date: 2019-03-07
 description: "This incorporation is part of a larger push to better serve our growing Latinx in Tech community."
 image: "/assets/img/news/2019-03-07-nonprofit.png"
-authors:
-  - "Shashi Jain"
 ---
 ```
 
@@ -498,7 +494,6 @@ We use several GitHub integrations/bots to make it easy to catch errors for ever
 
 We take advantage of GitHub bots to make reviewing PRs and recognizing contributors easier.
 
-- [All Contributors](https://allcontributors.org/) helps us recognize all contributors, not just the ones who push code
 - [Background Check](https://probot.github.io/apps/background-check/) notifies maintainers when new contributors who have been toxic in the past join the project
 - [Delete Merged Branch](https://probot.github.io/apps/delete-merged-branch/) automatically deletes merged branches
 - [First Timers](https://probot.github.io/apps/first-timers/) creates starter issues to help onboard new open source contributors
@@ -561,11 +556,13 @@ We have a bounty program in order to build and maintain our member portal where 
 
 ### Priorities
 
-Our bounty program is about creating opportunities for our community to contribute to Techqueria's Casa member portal, to make it their own. It also gives us an opportunity to get to know developers who we could potentially work with more in the future. We celebrate making open source contributions more sustainable by paying, but money alone shouldn't be the primary motivation for participation.
+Our bounty program is about creating opportunities for our community to contribute to Techqueria's Casa member portal, to make it their own. It also gives us an opportunity to get to know developers who we could potentially work with more in the future. We celebrate making open source contributions
+more sustainable by paying, but money alone shouldn't be the primary motivation for participation.
 
 ### Quality
 
-We're not able to accept pull requests that aren't completed to a high standard in a reasonable timeframe. Please only pick up bounties that you are confident you can complete at your current knowledge and skill level. We will not accept pull requests or pay bounties for code that's not up to the standard we need to maintain for our members who rely on this platform. Our dev team is happy to answer questions and provide some limited support, but we don't have capacity to mentor junior developers through the bounty program.
+We're not able to accept pull requests that aren't completed to a high standard in a reasonable timeframe. Please only pick up bounties that you are confident you can complete at your current knowledge and skill level. We will not accept pull requests or pay bounties for code that's not up to the
+standard we need to maintain for our members who rely on this platform. Our dev team is happy to answer questions and provide some limited support, but we don't have capacity to mentor junior developers through the bounty program.
 
 We want to attract quality contributions. The issue will only be considered complete and approved for payment if the pull request is merged by a core team member.
 
@@ -609,7 +606,7 @@ Please make a comment mentioning `@techqueria/admins` in your issue or PR and on
 
 ### Slack
 
-If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
+If you are part of the [Techqueria Slack workspace](https://techqueria.org/slack/), we also have a dedicated `#meta-website` channel for discussion and a `#meta-website-alerts` for GitHub notifications.
 
 ### Gitter
 

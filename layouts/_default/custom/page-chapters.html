@@ -1,85 +1,76 @@
 {{ define "main" }}
-<!-- Variables -->
-{{ $pages := .Sections | union .Pages }}
-{{ $pagesNumbers := len $pages }}
-{{ $activeChapters := (index .Site.Taxonomies.categories "chapter-active").Pages }}
-{{ $relaunchingChapters := (index .Site.Taxonomies.categories "chapter-relaunching").Pages }}
-{{ $incubatingChapters := (index .Site.Taxonomies.categories "chapter-incubating").Pages }}
-{{ $inactiveChapters := (index .Site.Taxonomies.categories "chapter-inactive").Pages }}
-{{ $activeChaptersNumber := len $activeChapters }}
-{{ $relaunchingChaptersNumber := len $relaunchingChapters }}
-{{ $incubatingChaptersNumber := len $incubatingChapters }}
-{{ $inactiveChaptersNumber := len $inactiveChapters }}
-<!-- Hero -->
-{{ partial "content/hero/hero.html" . }}
-<!-- Page -->
-<div class="section page">
-  <div class="container">
-    <!-- Breadcrumbs -->
-    {{ partial "content/custom/breadcrumbs.html" . }}
+  <!-- Variables -->
+  {{ $pages := .Sections | union .Pages }}
+  {{ $pagesNumbers := len $pages }}
+  {{ $activeChapters := (index .Site.Taxonomies.categories "chapter-active").Pages }}
+  {{ $relaunchingChapters := (index .Site.Taxonomies.categories "chapter-relaunching").Pages }}
+  {{ $incubatingChapters := (index .Site.Taxonomies.categories "chapter-incubating").Pages }}
+  {{ $inactiveChapters := (index .Site.Taxonomies.categories "chapter-inactive").Pages }}
+  {{ $activeChaptersNumber := len $activeChapters }}
+  {{ $relaunchingChaptersNumber := len $relaunchingChapters }}
+  {{ $incubatingChaptersNumber := len $incubatingChapters }}
+  {{ $inactiveChaptersNumber := len $inactiveChapters }}
+  <!-- Hero -->
+  {{ partial "content/hero/hero.html" . }}
+  <!-- Page -->
+  <div class="section page">
+    <div class="container">
+      <!-- Breadcrumbs -->
+      {{ partial "content/custom/breadcrumbs.html" . }}
 
-    <!-- Content -->
-    {{ partial "content/_index.html" . }}
+      <!-- Content -->
+      {{ partial "content/_index.html" . }}
 
-    <!-- Chapters -->
-    <div class="content mt-4">
-      <h2 id="past-events"><span class="mr-sm">📍</span>{{ $pagesNumbers }} Techqueria Chapters</h2>
+      <!-- Chapters -->
+      <div class="content mt-4">
+        <h2 id="past-events"><span class="mr-sm">📍</span>{{ $pagesNumbers }} Techqueria Chapters</h2>
+      </div>
+      <!-- Active Chapters -->
+      {{ if $activeChapters }}
+        <div class="content mt-4 u-text--centered">
+          <h3 id="active-chapters"><span class="mr-sm">🟢️</span>{{ $activeChaptersNumber }} Active Chapters<span class="ml-sm">🟢️</span></h3>
+          <p>At least 1 event in last 6 months, 4 or more events hosted since launching</p>
+        </div>
+        <div class="columns is-multiline">
+          {{ range $activeChapters.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- relaunching Chapters -->
+      {{ if (index .Site.Taxonomies.categories "chapter-relaunching") "!=" nil }}
+        <div class="content mt-4 u-text--centered">
+          <h3 id="relaunching-chapters"><span class="mr-sm">⭕</span>{{ $relaunchingChaptersNumber }} Relaunching Chapter<span class="ml-sm">⭕</span></h3>
+          <p>Re-launched within last 12 months, less than 4 events hosted since re-launching</p>
+        </div>
+        <div class="columns is-multiline">
+          {{ range (index .Site.Taxonomies.categories "chapter-relaunching").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- Incubator Chapters -->
+      {{ if (index .Site.Taxonomies.categories "chapter-incubating") "!=" nil }}
+        <div class="content mt-4 u-text--centered">
+          <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>{{ $incubatingChaptersNumber }} Incubating Chapters<span class="ml-sm">🔵</span></h3>
+          <p>Launched within last 12 months, less than 4 events hosted since launching</p>
+        </div>
+        <div class="columns is-multiline">
+          {{ range (index .Site.Taxonomies.categories "chapter-incubating").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- Inactive Chapters -->
+      {{ if (index .Site.Taxonomies.categories "chapter-inactive") "!=" nil }}
+        <div class="content mt-4 u-text--centered">
+          <h3 id="inactive-chapters"><span class="mr-sm">🔴</span>{{ $inactiveChaptersNumber }} Inactive Chapters<span class="ml-sm">🔴</span></h3>
+          <p>Launched more than 6 months ago, no events held in last 6 months</p>
+        </div>
+        <div class="columns is-multiline">
+          {{ range (index .Site.Taxonomies.categories "chapter-inactive").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- Content Footer -->
+      {{ partial "content/footer/_index.html" . }}
     </div>
-    <!-- Active Chapters -->
-    {{ if (index .Site.Taxonomies.categories "chapter-active") "!=" nil }}
-
-    <div class="content mt-4 u-text--centered">
-      <h3 id="active-chapters"><span class="mr-sm">🟢️</span>{{$activeChaptersNumber}} Active Chapters<span class="ml-sm">🟢️</span></h3>
-      <p>At least 1 event in last 6 months, 4 or more events hosted since launching</p>
-    </div>
-    <div class="columns is-multiline">
-      {{ range $activeChapters.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
-
-    </div>
-    {{ end }}
-
-    <!-- relaunching Chapters -->
-    {{ if (index .Site.Taxonomies.categories "chapter-relaunching") "!=" nil }}
-
-    <div class="content mt-4 u-text--centered">
-      <h3 id="relaunching-chapters"><span class="mr-sm">⭕</span>{{$relaunchingChaptersNumber}} Relaunching Chapter<span class="ml-sm">⭕</span></h3>
-      <p>Re-launched within last 12 months, less than 4 events hosted since re-launching</p>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "chapter-relaunching").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
-
-    </div>
-    {{ end }}
-
-    <!-- Incubator Chapters -->
-    {{ if (index .Site.Taxonomies.categories "chapter-incubating") "!=" nil }}
-
-    <div class="content mt-4 u-text--centered">
-      <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>{{$incubatingChaptersNumber}} Incubating Chapters<span class="ml-sm">🔵</span></h3>
-      <p>Launched within last 12 months, less than 4 events hosted since launching</p>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "chapter-incubating").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
-
-    </div>
-    {{ end }}
-
-    <!-- Inactive Chapters -->
-    {{ if (index .Site.Taxonomies.categories "chapter-inactive") "!=" nil }}
-
-    <div class="content mt-4 u-text--centered">
-      <h3 id="inactive-chapters"><span class="mr-sm">🔴</span>{{$inactiveChaptersNumber}} Inactive Chapters<span class="ml-sm">🔴</span></h3>
-      <p>Launched more than 6 months ago, no events held in last 6 months</p>
-    </div>
-    <div class="columns is-multiline">
-      {{ range (index .Site.Taxonomies.categories "chapter-inactive").Pages.ByDate }} {{ partial "content/custom/child-chapter.html" . }} {{ end }}
-
-    </div>
-    {{ end }}
-
-    <!-- Content Footer -->
-    {{ partial "content/footer/_index.html" . }}
-
   </div>
-</div>
 {{ end }}

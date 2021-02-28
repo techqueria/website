@@ -1,0 +1,19 @@
+{{ range $.Site.Data.performers }}
+  <div class="column is-full-mobile is-one-third-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd mt-2">
+    <div class="level">
+      <div class="level-item">
+        <a href="{{ .link }}" target="_blank" rel="noopener">
+          <figure class="image is-200x200">
+            <img class="is-rounded lozad" src="{{ .image }}" data-src="{{ .image }}" alt="{{ .name }}" />
+          </figure>
+        </a>
+      </div>
+    </div>
+    <h5 class="title is-5">
+      {{ .name }}
+    </h5>
+    <p class="subtitle is-6">
+      {{ .description }}
+    </p>
+  </div>
+{{ end }}

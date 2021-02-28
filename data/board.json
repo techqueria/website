@@ -1,0 +1,32 @@
+{
+  "Frances Coronel": {
+    "name": "Frances Coronel",
+    "title": "Board Member",
+    "image": "/assets/img/team/frances-coronel.jpg",
+    "linkedin": "https://linkedin.com/in/francescoronel"
+  },
+  "Felipe Ventura": {
+    "name": "Felipe Ventura",
+    "title": "Board Member & Treasurer",
+    "image": "/assets/img/team/felipe-ventura.jpg",
+    "linkedin": "https://www.linkedin.com/in/fvntr"
+  },
+  "Andrea Flores": {
+    "name": "Andrea Flores",
+    "title": "Board Member & Secretary",
+    "image": "/assets/img/team/andrea-flores.jpg",
+    "linkedin": "https://www.linkedin.com/in/andreaf"
+  },
+  "Shashi Jain": {
+    "name": "Shashi Jain",
+    "title": "Board Chair & Co-Founder",
+    "image": "/assets/img/team/shashi-jain.jpeg",
+    "linkedin": "https://www.linkedin.com/in/quahada"
+  },
+  "Esteban Uribe": {
+    "name": "Esteban Uribe",
+    "title": "Board Member",
+    "image": "/assets/img/team/esteban-uribe.jpeg",
+    "linkedin": "https://www.linkedin.com/in/andreaf"
+  }
+}

@@ -6,7 +6,7 @@ publication: "Sentry"
 image: "/assets/img/news/2019-10-03.jpg"
 link: https://blog.sentry.io/2019/10/03/scaling-techqueria-with-sentrys-open-source-grant/
 featuring:
-- Frances Coronel
+  - Frances Coronel
 ---
 
 <video autoplay="" loop="" muted="" playsinline="" poster="https://images.ctfassets.net/em6l9zw4tzag/2qbBNFUVheAWoKBQ7mWfOb/5b06df03b3f8b64271ca5199fd566486/techqueria_hero_image__2_.jpg">

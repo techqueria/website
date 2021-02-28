@@ -3,8 +3,6 @@ title: "Techqueria's First Virtual Summit — A Brief Recap"
 description: "#LHM Summit was Techqueria's first ever virtual summit that took place during Latinx Heritage Month (LHM)."
 date: 2020-10-26
 image: "/assets/img/news/2020-10-26-lhm-summit/summit-logo.png"
-authors:
-  - Frances Coronel
 aliases:
   - /news/2020/10/26/techquerias-first-virtual-summit-a-brief-recap/
 ---
@@ -104,7 +102,7 @@ We couldn't have made this a reality without our core team:
 
 ## Donate 💛
 
-If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](/donate) or [becoming a monthly patron](https://patreon.com/techqueria).
+If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](/donate) or [becoming a monthly patron](https://www.patreon.com/bePatron?u=14280066).
 
 ## Links
 
@@ -123,3 +121,5 @@ If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](
 ## Questions? 🤔
 
 If you have any questions, let us know in the [`#meta-conference`](/slack) channel on Slack or send us an email at [conference@techqueria.org](mailto:conference@techqueria.org)
+
+Written by Frances Coronel

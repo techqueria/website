@@ -7,6 +7,7 @@
   .navbar-menu {
     box-shadow: none;
     flex-grow: unset;
+    padding-top: 0;
 
     @media only screen and (min-width: $tablet) and (max-width: $laptop) {
       font-size: $size-7;
@@ -14,7 +15,7 @@
   }
 
   .navbar-burger {
-    height: 5rem;
+    height: 6rem;
     width: 3em;
 
     span {
@@ -90,8 +91,24 @@
     transition: none;
   }
 
-  &.has-shadow {
-    @extend %material-shadow;
+  .navbar-end {
+    .navbar-item:hover {
+      background-color: inherit;
+    }
+  }
+
+  .hide-on-desktop-and-larger {
+    @media only screen and (min-width: $tablet) {
+      display: flex !important;
+    }
+
+    @media only screen and (min-width: $laptop) {
+      display: none !important;
+    }
+  }
+
+  .button.is-primary {
+    font-size: inherit;
   }
 
   @media screen and (max-width: $tablet) {
@@ -100,43 +117,14 @@
     }
   }
 
-  @media screen and (min-width: $laptop) {
-    .slack-buttons {
-      margin-left: 2em;
-    }
-  }
-
   @media screen and (max-width: $laptop) {
-
     .navbar-link::after,
     .navbar-dropdown {
       display: none;
     }
   }
 
-  .hide-on-desktop-and-larger {
-    display: flex !important;
-
-    @media only screen and (min-width: $laptop) {
-      display: none !important;
-    }
-  }
-
-  .slack-buttons {
-    &--navbar-start {
-      display: none !important;
-
-      @media only screen and (min-width: $tablet) {
-        display: flex !important;
-      }
-    }
-
-    &--navbar-end {
-      display: block !important;
-
-      @media only screen and (min-width: $mobile) {
-        display: none !important;
-      }
-    }
+  &.has-shadow {
+    @extend %material-shadow;
   }
 }

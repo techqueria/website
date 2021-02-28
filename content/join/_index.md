@@ -6,7 +6,6 @@ noTimeEstimate: true
 hideImage: true
 sitemap: true
 toc: true
-biggerCards: true
 url: /join/
 aliases:
   - /become-a-member/
@@ -17,6 +16,10 @@ aliases:
   - /refer/
   - /referral/
 ---
+
+## About Techqueria
+
+{{< about >}}
 
 ## Member Benefits
 
@@ -83,6 +86,7 @@ By becoming a member of Techqueria, you will get access to our:
 <div class="u-text--centered">
   <img src="/assets/img/join/success.png" alt="Techqueria Hurray" class="mt-2 mb-2 u-box-shadow--none" width="400">
   <p>You're ready to submit now, hurray!</p>
+  <p>Please note it takes some time for us to review your application.</p>
 </div>
 
 ## Other Ways to Get Involved

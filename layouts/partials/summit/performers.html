@@ -3,7 +3,7 @@
   <div class="container is-fluid has-text-centered py-4">
     <h2 class="title">Performers 🎤</h2>
     <div class="columns is-centered is-multiline py-5 mt-1">
-      {{ range sort $.Site.Data.performers ".name" }}
+      {{ range $.Site.Data.performers }}
       <div class="column is-full-mobile is-one-third-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd mt-2">
         <div class="level">
           <div class="level-item">

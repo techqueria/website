@@ -4,5 +4,5 @@ description: "Code Nation equips students in under-resourced high schools with t
 link: https://codenation.org/
 image: "/assets/img/supporters/code-nation.png"
 categories:
-  - community-partner
+  - past-partner
 ---

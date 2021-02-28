@@ -17,9 +17,13 @@ aliases:
   - /career-opportunities/
   - /careers/
   - /jobs/
+  - /sitemap/
+  - /directory/
+  - /all-pages/
+  - /about/sitemap/
 ---
 
-## Overview
+## Description
 
 ### 1st Person
 
@@ -42,18 +46,6 @@ To provide Latinx professionals with the resources and support that they need to
 ## Vision Statement
 
 To become the most powerful and robust professional network of Latinx professionals in the tech industry across the world.
-
-## One-Liners
-
-Techqueria is the largest community for Latinx in Tech.
-
-Techqueria is a nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501(c)(3) nonprofit that serves the largest community of Latinx professionals in the tech industry.
-
-Techqueria is a national 501(c)(3) nonprofit that serves the largest community of Latinx in Tech.
-
-Techqueria is a 501c3 nonprofit that serves the largest community of Latinx in Tech in the US.
 
 ## Values
 

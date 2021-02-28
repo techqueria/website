@@ -2,25 +2,46 @@
 <div class="card-content pt-0">
   <div class="content">
     <!-- Twitter -->
-    {{- if .Params.twitter -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-twitter fa-fw"></i></span><a href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">Twitter Profile</a></p>{{- end -}}
+    {{- if .Params.twitter -}}
+      <p class="has-text-weight-light mt-sm is-size-7">
+        <span class="mr-sm"><i class="fab fa-twitter fa-fw"></i></span><a href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">Twitter Profile</a>
+      </p>{{- end -}}
+
     <!-- LinkedIn -->
-    {{- if .Params.linkedin -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-linkedin fa-fw"></i></span><a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">LinkedIn Profile</a></p>{{- end -}}
+    {{- if .Params.linkedin -}}
+      <p class="has-text-weight-light mt-sm is-size-7">
+        <span class="mr-sm"><i class="fab fa-linkedin fa-fw"></i></span><a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">LinkedIn Profile</a>
+      </p>{{- end -}}
+
     <!-- GitHub -->
-    {{- if .Params.github -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">GitHub Profile</a></p>{{- end -}}
-    <!-- Author Links -->
-    {{- .Render "custom/author-link" -}}
+    {{- if .Params.github -}}
+      <p class="has-text-weight-light mt-sm is-size-7">
+        <span class="mr-sm"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">GitHub Profile</a>
+      </p>{{- end -}}
+
     <!-- External Link -->
-    {{- if .Params.link -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">{{ if or (in .Params.link "meetup.com") (in .Params.link "eventbrite.com") (in .Params.link "splashthat.com") }}🎟{{ else }}🌐{{ end }}</span><a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ if in .Params.link "meetup.com" }}Meetup{{else if in .Params.link "events.techqueria.org"}}View events{{ else if in .Params.link "eventbrite.com" }}Eventbrite{{ else if in .Params.link "splashthat.com" }}Splashthat{{ else }}Learn more{{ end }}</a></p>{{- end -}}
+    {{- if .Params.link -}}
+      <p class="has-text-weight-light mt-sm is-size-7">
+        <span class="mr-sm">{{ if or (in .Params.link "meetup.com") (in .Params.link "eventbrite.com") (in .Params.link "splashthat.com") }}🎟{{ else }}🌐{{ end }}</span
+        ><a href="{{ .Params.link }}" target="_blank" rel="noopener"
+          >{{ if in .Params.link "meetup.com" }}Meetup{{ else if in .Params.link "events.techqueria.org" }}View events{{ else if in .Params.link "eventbrite.com" }}Eventbrite{{ else if in .Params.link "splashthat.com" }}Splashthat{{ else }}Learn more{{ end }}</a
+        >
+      </p>{{- end -}}
+
     <!-- Slack Channel -->
     {{ if .Params.channel_link }}
-    <p class="has-text-weight-light mt-sm is-size-7">
-      <span class="mr-sm">💬</span>
-      <a href="{{ .Params.channel_link }}" target="_blank" rel="noopener">{{ if .Params.channel_name }}Join {{ .Params.channel_name }} in Slack{{ else }}Join the chapter's Slack channel{{ end }}</a>
-    </p>
+      <p class="has-text-weight-light mt-sm is-size-7">
+        <span class="mr-sm">💬</span>
+        <a href="{{ .Params.channel_link }}" target="_blank" rel="noopener">{{ if .Params.channel_name }}Join {{ .Params.channel_name }} in Slack{{ else }}Join the chapter's Slack channel{{ end }}</a>
+      </p>
     {{ end }}
     <!-- Photos -->
-    {{- if .Params.photos -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📸</span><a href="{{ .Params.photos }}" target="_blank" rel="noopener">Photos</a></p>{{- end -}}
+    {{- if .Params.photos -}}
+      <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📸</span><a href="{{ .Params.photos }}" target="_blank" rel="noopener">Photos</a></p>{{- end -}}
+
     <!-- Photos -->
-    {{- if .Params.video -}}<p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🎥</span><a href="{{ .Params.video }}" target="_blank" rel="noopener">Video</a></p>{{- end -}}
+    {{- if .Params.video -}}
+      <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🎥</span><a href="{{ .Params.video }}" target="_blank" rel="noopener">Video</a></p>{{- end -}}
+
   </div>
 </div>
