@@ -108,8 +108,8 @@ If you enjoyed #LHM Summit, consider making a [one-time donation to Techqueria](
 
 - [View Website](https://techqueria.org/summit)
 - [View Raffle Prize Winners](https://gleam.io/EDNT1/lhm-summit-promo-raffle-prize-contest)
-- [Read Hopin Attendee Guide](https://www.notion.so/techqueriaorg/LHM-Summit-Attendee-Guide-b267b0c3248b468ebeae2f0f1d391c3b)
-- [View Social Media Kit](https://www.notion.so/techqueriaorg/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9)
+- [Read Hopin Attendee Guide](https://www.notion.so/techqueria/LHM-Summit-Attendee-Guide-b267b0c3248b468ebeae2f0f1d391c3b)
+- [View Social Media Kit](https://www.notion.so/techqueria/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9)
 - [View Calendar of All Sessions](https://calendar.google.com/calendar/u/0/embed?src=c_cbjjd2hl62d60p78gapfi0o13g@group.calendar.google.com&ctz=America/New_York)
 - [Add Yourself to the LinkedIn Connections Google Sheet](https://docs.google.com/spreadsheets/d/1gja1lTfx0Csw3audtyP8QXokoXckgwGPTiLAltkNc9M/edit#gid=0)
 - [Listen to Spotify Playlist](https://open.spotify.com/playlist/0OGkUAm8l1DxgwonIcnKbV?si=d6ZZIE_uQgyo-tANveKj1g)
