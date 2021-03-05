@@ -171,7 +171,7 @@ _If you're interested, you can find more information about Techqueria on our web
 
 :twitter: https://twitter.com/techqueria
 
-:instagram: https://instagram.com/techqueriaorg
+:instagram: https://instagram.com/techqueria
 
 :facebook: https://facebook.com/techqueria
 
