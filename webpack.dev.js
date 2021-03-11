@@ -17,7 +17,7 @@ module.exports = {
   context: path.join(__dirname, "assets"),
   entry: {
     app: ["./js/app"],
-    join: ["./js/join"],
+    join: ["./js/join", "./js/location"],
     rsvp: ["./js/rsvp"],
     partner: ["./js/partner"],
     resume: ["./js/resume"]
