@@ -2,7 +2,7 @@
   <!-- Hero -->
   {{ partial "content/hero/hero.html" . }}
   <!-- Page -->
-  <section class="section page page--team">
+  <section class="section page page--team section-speakers">
     <div class="container">
       <!-- Breadcrumbs -->
       {{ partial "content/custom/breadcrumbs.html" . }}
@@ -12,12 +12,20 @@
       <div class="content mt-2">
         <h2>Staff</h2>
       </div>
-      <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "executive-director").Pages.ByWeight }}
-          {{ partial "content/child.html" . }}
+      <div class="columns is-multiline py-5 mt-1">
+        {{ $staff := .Site.Data.staff }}
+        {{ range $staff }}
+          {{ partial "content/child-team.html" . }}
         {{ end }}
-        {{ range (index .Site.Taxonomies.categories "staff").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
+      </div>
+      <!-- Dreamers in Tech -->
+      <div class="content mt-2">
+        <h2>Dreamers in Tech</h2>
+      </div>
+      <div class="columns is-multiline">
+        {{ $dit := .Site.Data.dit }}
+        {{ range $dit }}
+          {{ partial "content/child-team.html" . }}
         {{ end }}
       </div>
       <!-- Volunteers -->
@@ -25,26 +33,9 @@
         <h2>Volunteers</h2>
       </div>
       <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "volunteer").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
-        {{ end }}
-      </div>
-      <!-- Dreamers in Tech Leads -->
-      <div class="content mt-2">
-        <h2>Dreamers in Tech Leads</h2>
-      </div>
-      <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "dreamers-in-tech-lead").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
-        {{ end }}
-      </div>
-      <!-- Chapter Directors -->
-      <div class="content mt-2">
-        <h2>Chapter Directors</h2>
-      </div>
-      <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "chapter-director").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
+        {{ $volunteers := .Site.Data.volunteers }}
+        {{ range $volunteers }}
+          {{ partial "content/child-team.html" . }}
         {{ end }}
       </div>
       <!-- Board of Directors -->
@@ -52,8 +43,9 @@
         <h2>Board of Directors</h2>
       </div>
       <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "board-member").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
+        {{ $board := .Site.Data.board }}
+        {{ range $board }}
+          {{ partial "content/child-team.html" . }}
         {{ end }}
       </div>
       <!-- Advisory Board -->
@@ -61,8 +53,9 @@
         <h2>Advisory Board</h2>
       </div>
       <div class="columns is-multiline">
-        {{ range (index .Site.Taxonomies.categories "board-advisory-member").Pages.ByTitle }}
-          {{ partial "content/child.html" . }}
+        {{ $advisors := .Site.Data.advisors }}
+        {{ range $advisors }}
+          {{ partial "content/child-team.html" . }}
         {{ end }}
       </div>
       <!-- Content Footer -->

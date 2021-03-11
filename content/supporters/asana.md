@@ -5,7 +5,7 @@ image: "/assets/img/supporters/asana.png"
 link: https://asana.com/careers
 categories:
   - sponsor-software
-  - sponsor-platinum
+  - sponsor
 ---
 
 Asana provides Techqueria access to their platform through their nonprofit program.

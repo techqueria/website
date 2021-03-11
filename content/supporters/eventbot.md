@@ -20,9 +20,9 @@ Eventbot lets you create events directly in Slack, no external apps needed! Get 
 
 This software sponsor will
 
-- provide  financial contribution to Techqueria in order to pay for a yearly subscription of Eventbot
+- provide financial contribution to Techqueria in order to pay for a yearly subscription of Eventbot
 
 In exchange, Techqueria will
 
-- provide your company a marketing package worth the financial contribution in value
+- provide your company a partnership worth the financial contribution in value
 - showcase your company under "Software Sponsors" on the Supporters page

@@ -17,8 +17,7 @@ aliases:
 
 ## Chat
 
-You can <a onclick="Beacon('open')">chat with us directly</a> through our website. If someone from the team is available, they can respond right away.
-Otherwise, we'll ask for your email and follow up that way.
+You can <a onclick="Beacon('open')">chat with us directly</a> through our website. If someone from the team is available, they can respond right away. Otherwise, we'll ask for your email and follow up that way.
 
 ## Slack
 
@@ -48,9 +47,8 @@ If you're interested in partnerships, please fill out [this form](/partner/) or 
 
 ## In-Person
 
-As of Spring 2020, we are no longer having in-person events due to the pandemic but we have plenty of
-[upcoming virtual events](https://events.techqueria.org/virtual-events/) and once it's safe to meet in-person again, you're more than welcome to meet
-local organizers in person through one of our events that take place across our various chapters.
+As of Spring 2020, we are no longer having in-person events due to the pandemic but we have plenty of [upcoming virtual events](https://events.techqueria.org/virtual-events/) and once it's safe to meet in-person again, you're more than welcome to meet local organizers in person through one of our
+events that take place across our various chapters.
 
 You can also check out our different [communities](/communities/) to keep informed on what we're doing.
 

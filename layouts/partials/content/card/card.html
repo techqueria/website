@@ -1,24 +1,23 @@
 <!-- Card has links -->
-{{ if or (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.authors) (.Params.link) (.Params.photo) (.Params.video) }}
-<div class="card card-equal-height">
-  <a class="card-reset" rel="noopener"
-    href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
-    <!-- Image -->
-    {{ partial "content/card/card-image.html" . }}
-    <!-- Content -->
-    {{ partial "content/card/card-content.html" . }}
-  </a>
-  <!-- Links -->
-  {{ partial "content/card/card-links.html" . }}
-</div>
-<!-- Card does not have links -->
-{{ else }}
-<a rel="noopener" href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+{{ if or (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.link) (.Params.photo) (.Params.video) }}
   <div class="card card-equal-height">
-    <!-- Image -->
-    {{ partial "content/card/card-image.html" . }}
-    <!-- Content -->
-    {{ partial "content/card/card-content.html" . }}
+    <a class="card-reset" rel="noopener" href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+      <!-- Image -->
+      {{ partial "content/card/card-image.html" . }}
+      <!-- Content -->
+      {{ partial "content/card/card-content.html" . }}
+    </a>
+    <!-- Links -->
+    {{ partial "content/card/card-links.html" . }}
   </div>
-</a>
+  <!-- Card does not have links -->
+  {{ else }}
+  <a rel="noopener" href="{{ if .Params.internalLink }}{{ .Params.internalLink }}{{ else }}{{ .RelPermalink }}{{ end }}">
+    <div class="card card-equal-height">
+      <!-- Image -->
+      {{ partial "content/card/card-image.html" . }}
+      <!-- Content -->
+      {{ partial "content/card/card-content.html" . }}
+    </div>
+  </a>
 {{ end }}

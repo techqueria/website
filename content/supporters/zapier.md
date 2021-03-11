@@ -24,5 +24,5 @@ This software sponsor will
 
 In exchange, Techqueria will
 
-- provide a marketing package worth $600 in value
+- provide a partnership worth $600 in value
 - showcase your company under "Software Sponsors" on the Supporters page

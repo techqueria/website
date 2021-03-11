@@ -4,5 +4,5 @@ description: "Connect with purpose. Join 1:1 coffee breaks with like-minded prof
 link: https://www.meetcafecito.com/
 image: "/assets/img/supporters/meet-cafecito.png"
 categories:
-  - community-partner
+  - affiliate-partner
 ---

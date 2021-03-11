@@ -4,7 +4,7 @@ description: "The Tides Foundation envisions a world of shared prosperity and so
 link: https://www.tides.org/
 image: "/assets/img/supporters/tides.png"
 categories:
-  - donor
+  - past-partner
 ---
 
 The Tides Foundation envisions a world of shared prosperity and social justice founded on equality and human rights, sustainable environment, quality education, and healthy individuals and communities.

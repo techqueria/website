@@ -9,7 +9,8 @@ description: "Dreamers in Tech will act as an initiative that will be officially
 
 Dreamers in Tech will act as an initiative that will be officially supported and fiscally sponsored by Techqueria for the next 6 months with the possibility of an extension.
 
-Dreamers in Tech or DIT is a network comprised of undocumented, DACAmented, allies, and tech enthusiasts committed to increasing diversity and inclusion in the tech industry. DIT focuses on community, empowerment, and representation to develop a pipeline that provides opportunities to break into tech, mitigate imposter syndrome, and help individuals own their narrative.
+Dreamers in Tech or DIT is a network comprised of undocumented, DACAmented, allies, and tech enthusiasts committed to increasing diversity and inclusion in the tech industry. DIT focuses on community, empowerment, and representation to develop a pipeline that provides opportunities to break into
+tech, mitigate imposter syndrome, and help individuals own their narrative.
 
 We are looking forward to creating milestones in collaboration with Dreamers in Tech and having them further support the undocumented in tech community within Techqueria and beyond.
 

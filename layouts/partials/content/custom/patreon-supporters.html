@@ -1,0 +1,10 @@
+<div class="content mt-4 u-text--centered">
+  <h2 id="patreon-supporters"><span class="mr-sm">🎗️</span>Active Patreon Donors<span class="ml-sm">🎗️</span></h2>
+  <p>Individuals who pledge us $25 or more each month <a href="https://www.patreon.com/bePatron?u=14280066" rel="noopener">via Patreon</a>.</p>
+  <div class="columns is-multiline py-5 mt-1">
+    {{ $patreon := .Site.Data.patreon }}
+    {{ range $patreon }}
+      {{ partial "content/child-team.html" . }}
+    {{ end }}
+  </div>
+</div>
