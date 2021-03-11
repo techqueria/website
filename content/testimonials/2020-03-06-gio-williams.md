@@ -7,9 +7,9 @@ categories:
   - testimonial
 ---
 
-Hi all! I received an accepted an offer from a great company that I found here via the jobs channel. 
+Hi all! I received an accepted an offer from a great company that I found here via the jobs channel.
 
-I’ll be moving from Austin to the SF Bay Area at the end of the month. 
+I’ll be moving from Austin to the SF Bay Area at the end of the month.
 
 This is an exciting change for me and I have this community to thank for all the helpful resources ✨
 

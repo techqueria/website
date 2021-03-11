@@ -45,5 +45,4 @@ After attending the summit, I'd be happy to share the takeaways with during a te
 
 Let me know what you think!
 
-Thanks,
-[YOUR NAME HERE]
+Thanks, [YOUR NAME HERE]

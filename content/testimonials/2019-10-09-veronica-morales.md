@@ -7,7 +7,7 @@ categories:
   - testimonial
 ---
 
-Hola a todos! Just want to share that last week during the GHC conference, I  accepted an offer with Google for their IT Residency Program.
+Hola a todos! Just want to share that last week during the GHC conference, I accepted an offer with Google for their IT Residency Program.
 
 Without a doubt I can say that being part of Techqueria was a huge factor of me reaching that goal. The community in this space is irreplaceable and I'm so grateful to be part of this.
 

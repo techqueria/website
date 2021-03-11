@@ -2,18 +2,19 @@
 <section class="section section-speakers">
   <div class="container is-fluid has-text-centered py-4">
     <h2 class="title">Speakers 💬</h2>
-    {{$len := len $.Site.Data.speakers}}
-    <p class="subtitle">Featuring {{$len}} Latinx professionals and leaders in tech</p>
+    {{ $speakers := .Site.Data.speakers }}
+    <p class="subtitle">Featuring 91 Latinx professionals and leaders in tech</p>
     <div class="columns is-centered is-multiline py-5 mt-1">
-      {{ range sort $.Site.Data.speakers ".name" }}
-      <div class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd mt-2">
+      {{ range $speakers }}
+      <div
+        class="column is-full-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen is-one-fifth-fullhd mt-2">
         <div class="level">
           <div class="level-item">
             <a href="{{ .linkedin }}" target="_blank" rel="noopener">
-            <figure class="image is-200x200">
-              <img class="is-rounded lozad" src="{{ .image }}" data-src="{{ .image }}" alt="{{ .name }}" />
-            </figure>
-          </a>
+              <figure class="image is-200x200">
+                <img class="is-rounded lozad" src="{{ .image }}" data-src="{{ .image }}" alt="{{ .name }}" />
+              </figure>
+            </a>
           </div>
         </div>
         <h5 class="title is-5">
@@ -21,10 +22,10 @@
         </h5>
         <p class="subtitle is-6">
           {{ .title }}
-          <br/>
+          <br />
           {{ .organization }}
         </p>
       </div>
-      {{end}}
+      {{ end }}
     </div>
 </section>

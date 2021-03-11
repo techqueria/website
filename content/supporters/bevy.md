@@ -4,5 +4,5 @@ description: "Enterprise-grade software designed to build, grow and scale global
 image: "/assets/img/supporters/bevy.png"
 link: https://bevyhq.com
 categories:
-  - sponsor-software
+  - past-partner
 ---

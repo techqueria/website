@@ -5,7 +5,6 @@ image: "/assets/img/events/2019-03-26.png"
 link: https://www.eventbrite.com/e/techqueria-meet-up-tickets-59138099648
 ---
 
-
 Hello! Looking to meet more Latinx's in Tech? Come grab a drink and maybe a taco or two, and connect with other Latinx's in Austin!
 
 Our inaugural event was a success this past January and we'd like to keep that momentum going! So join us for some good food, drinks, and of course overall great company - plus it's Taco Tuesday! Feel free to bring a friend!

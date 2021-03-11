@@ -40,9 +40,9 @@ hr {
 }
 
 button,
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   @extend %overflow-text;
 }
 

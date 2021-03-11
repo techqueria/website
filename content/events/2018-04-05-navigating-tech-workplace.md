@@ -11,8 +11,10 @@ organizations:
   - "Spotify"
 ---
 
-Join us for a panel discussion with Latinx from different backgrounds sharing their experiences dealing with biases, salary negotiations and promoting diversity at work. Our speakers include a designer, a founder, a VC and an engineer whose career experiences can provide valuable advice for up and coming Latinx professionals. Each person's unique circumstance will help shed light on workplace issues we commonly face and how to tackle them effectively.
+Join us for a panel discussion with Latinx from different backgrounds sharing their experiences dealing with biases, salary negotiations and promoting diversity at work. Our speakers include a designer, a founder, a VC and an engineer whose career experiences can provide valuable advice for up and
+coming Latinx professionals. Each person's unique circumstance will help shed light on workplace issues we commonly face and how to tackle them effectively.
 
-Our goal for the event is to bring together like-minded people, create a sense of unity and break through the biases that so often plague our working environments. After attending, we hope each attendee walks away with a little more determination, confidence and some real action items on how to drive Diversity and Inclusion in the workplace. All latinx and allies are welcome to attend.
+Our goal for the event is to bring together like-minded people, create a sense of unity and break through the biases that so often plague our working environments. After attending, we hope each attendee walks away with a little more determination, confidence and some real action items on how to
+drive Diversity and Inclusion in the workplace. All latinx and allies are welcome to attend.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t7lxQeaR6jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
