@@ -17,10 +17,11 @@ module.exports = {
   context: path.join(__dirname, "assets"),
   entry: {
     app: ["./js/app"],
-    join: ["./js/join", "./js/location"],
+    join: ["./js/join"],
     rsvp: ["./js/rsvp"],
     partner: ["./js/partner"],
-    resume: ["./js/resume"]
+    resume: ["./js/resume"],
+    location: ["./js/location"]
   },
   output: {
     filename: path.join("assets", "js", "[name].js"),
