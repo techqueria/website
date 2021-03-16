@@ -4,5 +4,5 @@ description: "Powerful analytics platform for you. Fast actionable insights for 
 link: https://www.sisense.com/
 image: "/assets/img/supporters/sisense.png"
 categories:
-  - sponsor-bronze
+  - sponsor
 ---
