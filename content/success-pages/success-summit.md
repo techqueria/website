@@ -22,7 +22,7 @@ aliases:
 
 <p>In the meantime, please feel free to tell your friends about the summit using the #LHM Summit social media kit.</p>
 
-<a class="button is-success is-outlined image-external-plain" href="https://www.notion.so/techqueriaorg/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9" rel="noopener" target="_blank">Share with friends</a>
+<a class="button is-success is-outlined image-external-plain" href="https://www.notion.so/techqueria/LHM-Summit-Social-Media-Kit-cc81725c00534f9aaade5997315004b9" rel="noopener" target="_blank">Share with friends</a>
 
 <h2>3. Join us on Slack 💬</h2>
 

@@ -31,7 +31,7 @@ You can report Code of Conduct violations by [filling out a form](/report-coc-vi
 
 ## Social Media
 
-You can message us via [Twitter](https://twitter.com/Techqueria) or [Instagram](https://instagram.com/techqueriaorg).
+You can message us via [Twitter](https://twitter.com/Techqueria) or [Instagram](https://instagram.com/techqueria).
 
 We are less responsive to direct messages on other social media platforms so it may take longer to get back to you or we may not be able to respond.
 
