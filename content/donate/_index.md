@@ -71,6 +71,22 @@ YourCause provides CSR software for employee giving, volunteering, nonprofit sol
 
 ---
 
+## Donate Tickets/Discounts
+
+Do you want Techqueria to promote your events/conferences/programs/business? Do you have any tickets or discounts to offer the members of the Techqueria community?
+
+<form name="Donate Discounts" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
+  <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Donate Space">
+  {{< fields/name >}}
+  {{< fields/email >}}
+  {{< fields/donate_discounts >}}
+  {{< fields/message >}}
+  {{< fields/referral >}}
+  <!-- Disclaimer -->
+  {{< fields/disclaimer >}}
+  {{< fields/submit label="Submit info" >}}
+</form>
+
 ## Donate Space
 
 We'll get back to you if we have a need for your space.
