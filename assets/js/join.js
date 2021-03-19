@@ -17,7 +17,6 @@ const referralOtherInputEl = document.getElementById("referral_other_input");
 const referralOtherRadioEl = document.getElementById("referral_other_radio");
 
 // Functions
-
 const getTextValuesForMultipleCheckboxes = (checkboxEls, elementID) => {
   const textArrayEl = [];
   let parsedTextEl = "";
@@ -69,7 +68,6 @@ window.addEventListener("DOMContentLoaded", () => {
   validateOtherTextInputWithRadio(lookingForEl, lookingForOtherCheckboxEl, lookingForOtherInputEl);
   validateOtherTextInputWithRadio(referralEl, referralOtherRadioEl, referralOtherInputEl);
   validateOtherTextInputWithSelected(jobCategoryEl, jobCategoryOtherSelectedEl, jobCategoryOtherInputEl);
-
   formEl.addEventListener("submit", () => {
     getTextValuesForMultipleCheckboxes(lookingForCheckboxesEls, "looking_for_text_value");
   });
