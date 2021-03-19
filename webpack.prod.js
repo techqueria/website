@@ -59,7 +59,8 @@ module.exports = {
     join: ["./js/join"],
     rsvp: ["./js/rsvp"],
     partner: ["./js/partner"],
-    resume: ["./js/resume"]
+    resume: ["./js/resume"],
+    location: ["./js/location"]
   },
   output: {
     filename: path.join("assets", "js", "[name].js"),
