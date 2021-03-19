@@ -40,7 +40,7 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 
 #### Maintainers
 
-- [Frances Coronel](https://github.com/fvcproductions)
+- [Frances Coronel](https://github.com/FrancesCoronel)
 - [Michell Brito](https://github.com/michellbrito)
 
 #### Contributors
