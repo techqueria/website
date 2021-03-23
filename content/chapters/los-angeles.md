@@ -7,9 +7,6 @@ channel_name: "#locals-la"
 channel_link: https://app.slack.com/client/T0KQTUZ2B/C1RJU0G6R
 categories:
   - chapter-active
-leads:
-  - Maritza Alas
-  - Esteban Uribe
 aliases:
   - /communities/los-angeles/
   - /communities/la/

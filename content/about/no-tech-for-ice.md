@@ -45,11 +45,7 @@ Many of our members and their families suffer due to the abusive actions of ICE 
 
 While Techqueria does not partner with these companies, we understand that the Latinx employees of these companies can benefit from our community and events. So while we hold these companies accountable for their actions, we still want to support and offer resources to their employees.
 
-## Companies Supporting ICE
-
-A list of on the companies partnering with ICE can be found [here](https://companies-that-work-with-ice.com/) and [here](https://www.vox.com/recode/2019/7/30/20728147/tech-company-ice-contracts-foia-microsoft-palantir-concur-dell).
-
-Some of these companies have reached out to Techqueria and we have passed on partnership opportunities with them.
+Some of these companies that have active contracts with ICE have reached out to Techqueria and we have passed on partnership opportunities with them.
 
 ## Call to Action
 

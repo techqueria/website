@@ -21,14 +21,14 @@
       <!-- Content -->
       {{ partial "content/_index.html" . }}
 
-      <!-- Chapters -->
+      <!-- City Chapters -->
       <div class="content mt-4">
-        <h2 id="past-events"><span class="mr-sm">📍</span>{{ $pagesNumbers }} Techqueria Chapters</h2>
+        <h2 id="past-events"><span class="mr-sm">📍</span>{{ $pagesNumbers }} Chapters in Total</h2>
       </div>
-      <!-- Active Chapters -->
+      <!-- Active City Chapters -->
       {{ if $activeChapters }}
         <div class="content mt-4 u-text--centered">
-          <h3 id="active-chapters"><span class="mr-sm">🟢️</span>{{ $activeChaptersNumber }} Active Chapters<span class="ml-sm">🟢️</span></h3>
+          <h3 id="active-chapters"><span class="mr-sm">🟢️</span>{{ $activeChaptersNumber }} Active City Chapters<span class="ml-sm">🟢️</span></h3>
           <p>At least 1 event in last 6 months, 4 or more events hosted since launching</p>
         </div>
         <div class="columns is-multiline">
@@ -36,7 +36,7 @@
         </div>
       {{ end }}
 
-      <!-- relaunching Chapters -->
+      <!-- relaunching City Chapters -->
       {{ if (index .Site.Taxonomies.categories "chapter-relaunching") "!=" nil }}
         <div class="content mt-4 u-text--centered">
           <h3 id="relaunching-chapters"><span class="mr-sm">⭕</span>{{ $relaunchingChaptersNumber }} Relaunching Chapter<span class="ml-sm">⭕</span></h3>
@@ -47,10 +47,10 @@
         </div>
       {{ end }}
 
-      <!-- Incubator Chapters -->
+      <!-- Incubator City Chapters -->
       {{ if (index .Site.Taxonomies.categories "chapter-incubating") "!=" nil }}
         <div class="content mt-4 u-text--centered">
-          <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>{{ $incubatingChaptersNumber }} Incubating Chapters<span class="ml-sm">🔵</span></h3>
+          <h3 id="incubating-chapters"><span class="mr-sm">🔵</span>{{ $incubatingChaptersNumber }} Incubating City Chapters<span class="ml-sm">🔵</span></h3>
           <p>Launched within last 12 months, less than 4 events hosted since launching</p>
         </div>
         <div class="columns is-multiline">
@@ -58,10 +58,10 @@
         </div>
       {{ end }}
 
-      <!-- Inactive Chapters -->
+      <!-- Inactive City Chapters -->
       {{ if (index .Site.Taxonomies.categories "chapter-inactive") "!=" nil }}
         <div class="content mt-4 u-text--centered">
-          <h3 id="inactive-chapters"><span class="mr-sm">🔴</span>{{ $inactiveChaptersNumber }} Inactive Chapters<span class="ml-sm">🔴</span></h3>
+          <h3 id="inactive-chapters"><span class="mr-sm">🔴</span>{{ $inactiveChaptersNumber }} Inactive City Chapters<span class="ml-sm">🔴</span></h3>
           <p>Launched more than 6 months ago, no events held in last 6 months</p>
         </div>
         <div class="columns is-multiline">

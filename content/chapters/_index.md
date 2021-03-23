@@ -9,10 +9,25 @@ image: "/assets/img/communities/chapters/_index.jpg"
 url: /chapters/
 sitemap: true
 aliases:
-  - /communities/chapters/
   - /chapters/
+  - /chapters/atlanta/
+  - /chapters/austin/
+  - /chapters/boston/
+  - /chapters/chicago/
+  - /chapters/los-angeles/
+  - /chapters/miami/
+  - /chapters/new-york-city/
+  - /chapters/orange-county/
+  - /chapters/orlando/
+  - /chapters/philly/
+  - /chapters/portland/
+  - /chapters/salt-lake-city/
+  - /chapters/san-francisco/
+  - /chapters/virtual-events/
+  - /chapters/washington-dc/
   - /cities/
   - /city-chapters/
+  - /communities/chapters/
   - /es/communities/chapters/austin/
   - /es/communities/chapters/bay-area/
   - /es/communities/chapters/chicago/
@@ -20,4 +35,4 @@ aliases:
   - /es/communities/chapters/nyc/
 ---
 
-> Last updated October 2020
+> Last updated March 2021
