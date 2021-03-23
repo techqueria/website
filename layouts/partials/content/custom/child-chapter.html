@@ -1,7 +1,7 @@
 <div class="column is-one-third-desktop is-one-third-tablet">
-  {{ if or (.Params.twitter) (.Params.linkedin) (.Params.github) (.Params.channel_link) (.Params.link) (.Params.photo) (.Params.video) }}
+  {{ if .Params.channel_link }}
     <div class="card card-equal-height">
-      <a class="card-reset" rel="noopener" href="{{ .RelPermalink }}">
+      <a class="card-reset" rel="noopener" href="{{ .Params.channel_link }}">
         <!-- Content -->
         {{ partial "content/card/card-content.html" . }}
       </a>

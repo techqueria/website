@@ -1,3 +1,3 @@
 ---
-title: "Latinx in Tech"
+title: "Techqueria"
 ---

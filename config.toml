@@ -82,7 +82,7 @@ disqusShortname               = "techqueria"
 
 # Homepage
 [[menu.homepage]]
-    name                      = "Latinx in Tech"
+    name                      = "Techqueria"
     url                       = "/"
 
 # About
@@ -111,8 +111,8 @@ disqusShortname               = "techqueria"
     url                       = "/no-tech-for-ice/"
 [[menu.main]]
     parent                    = "About"
-    name                      = "Team"
-    url                       = "/team/"
+    name                      = "Leadership"
+    url                       = "/leadership/"
 [[menu.main]]
     parent                    = "About"
     name                      = "Shop"
