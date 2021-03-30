@@ -23,6 +23,18 @@
     "image": "/assets/img/team/andrea-flores.jpg",
     "linkedin": "https://www.linkedin.com/in/andreaf"
   },
+  "Angel Silvestrini": {
+    "name": "Angel Silvestrini",
+    "title": "Chapter Director, Boston",
+    "image": "/assets/img/team/angel-silvestrini.png",
+    "linkedin": "https://www.linkedin.com/in/ajsilvestrini"
+  },
+  "Brian Trejo": {
+    "name": "Brian Trejo",
+    "title": "Chapter Director, Atlanta",
+    "image": "/assets/img/team/brian-trejo.jpg",
+    "linkedin": "https://www.linkedin.com/in/briantrejo"
+  },
   "Cari Perez": {
     "name": "Cari Perez",
     "title": "Chapter Director, Miami",
@@ -52,12 +64,6 @@
     "title": "Chapter Director, San Francisco Bay Area",
     "image": "/assets/img/team/dulce-villarreal.jpg",
     "linkedin": "https://www.linkedin.com/in/dulcevillarreal"
-  },
-  "Edward Barrios": {
-    "name": "Edward Barrios",
-    "title": "Chapter Director, Washington D.C.",
-    "image": "/assets/img/team/edward-barrios.jpeg",
-    "linkedin": "https://www.linkedin.com/company/techqueria"
   },
   "Esteban Uribe": {
     "name": "Esteban Uribe",
@@ -94,12 +100,6 @@
     "title": "Chapter Director, Los Angeles",
     "image": "/assets/img/team/maritza-alas.jpg",
     "linkedin": "https://www.linkedin.com/in/maritza-alas"
-  },
-  "Roberto Salcido": {
-    "name": "Roberto Salcido",
-    "title": "Email Marketing Volunteer",
-    "image": "/assets/img/team/roberto-salcido.jpg",
-    "linkedin": "https://www.linkedin.com/in/roberto-salcido"
   },
   "Shannon Morales": {
     "name": "Shannon Morales",
