@@ -7,10 +7,6 @@ channel_link: https://app.slack.com/client/T0KQTUZ2B/C1RQ5GWRG
 image: "/assets/img/communities/chapters/community-new-york-area-photo.jpg"
 categories:
   - chapter-active
-leads:
-  - Carolina Castro
-  - Vanessa Jimenez
-  - Chloe Potsklan
 aliases:
   - /nyc/
   - /new-york-city/

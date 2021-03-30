@@ -1,0 +1,38 @@
+{
+  "Shashi Jain": {
+    "name": "Shashi Jain",
+    "title": "Board Chair & Co-Founder",
+    "image": "/assets/img/team/shashi-jain.jpeg",
+    "linkedin": "https://www.linkedin.com/in/quahada"
+  },
+  "Felipe Ventura": {
+    "name": "Felipe Ventura",
+    "title": "Board Member & Treasurer",
+    "image": "/assets/img/team/felipe-ventura.jpg",
+    "linkedin": "https://www.linkedin.com/in/fvntr"
+  },
+  "Frances Coronel": {
+    "name": "Frances Coronel",
+    "title": "Board Member & Secretary",
+    "image": "/assets/img/team/frances-coronel.jpg",
+    "linkedin": "https://linkedin.com/in/francescoronel"
+  },
+  "Esteban Uribe": {
+    "name": "Esteban Uribe",
+    "title": "Board Member",
+    "image": "/assets/img/team/esteban-uribe.jpeg",
+    "linkedin": "https://www.linkedin.com/in/estebanuribe"
+  },
+  "Kristal Garcia": {
+    "name": "Kristal Garcia",
+    "title": "Interim Board Member",
+    "image": "/assets/img/team/kristal-garcia.jpeg",
+    "linkedin": "https://www.linkedin.com/in/kgarcia4"
+  },
+  "Annelise Hagar Preciado": {
+    "name": "Annelise Hagar Preciado",
+    "title": "Interim Board Member",
+    "image": "/assets/img/team/annelise-hagar-preciado.jpg",
+    "linkedin": "https://www.linkedin.com/in/annelisehagar/"
+  }
+}

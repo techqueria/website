@@ -1,0 +1,6 @@
+<div class="columns is-multiline">
+  {{ $chapter_directors := .Site.Data.team.chapter_directors }}
+  {{ range $chapter_directors }}
+    {{ partial "content/child-team.html" . }}
+  {{ end }}
+</div>

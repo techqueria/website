@@ -1,0 +1,6 @@
+<div class="columns is-multiline">
+  {{ $advisors := .Site.Data.team.advisors }}
+  {{ range $advisors }}
+    {{ partial "content/child-team.html" . }}
+  {{ end }}
+</div>
