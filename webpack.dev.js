@@ -20,7 +20,6 @@ module.exports = {
     join: ["./js/join"],
     rsvp: ["./js/rsvp"],
     partner: ["./js/partner"],
-    resume: ["./js/resume"],
     location: ["./js/location"]
   },
   output: {
