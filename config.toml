@@ -155,7 +155,7 @@ disqusShortname               = "techqueria"
 [[menu.main]]
     parent                    = "Get Involved"
     name                      = "Submit Your Resume"
-    url                       = "/submit-resume/"
+    url                       = "https://jst.me/4e8d"
     weight                    = 6
 [[menu.main]]
     parent                    = "Get Involved"
