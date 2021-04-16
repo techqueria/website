@@ -9,8 +9,6 @@ link: https://www.alley.com/post/authenticity-in-the-workplace-as-a-latinx-profe
 
 In honor of #HispanicHeritageMonth, Alley brought together 5 dynamic Latinx leaders for a candid conversation on the value of embracing your authenticity in the business world.
 
-Featuring:
-
 - Vice President Of Brand Strategy at Alley, Aimara Rodriguez
 - Founder of The Latinista, Yai Vargas
 - CEO at BRAVA Investments and Author of LEAPFROG: The New Revolution for Women Entrepreneurs, Nathalie Molina Niño

@@ -33,7 +33,7 @@ aliases:
 
 [Techqueria](/about) is a 501c3 nonprofit that empowers Latinx professionals with the resources and support that they need to thrive and become leaders in the tech industry.
 
-Founded in 2015, Techqueria is the largest community of Latinx professionals in tech in the U.S. with over 11,000 members and 7 chapters. Their online Slack community has nearly 8,000+ members and 2,000+ weekly active users.
+Founded in 2015, Techqueria is the largest community of Latinx professionals in tech in the U.S. with over 14,000 members and allies. Their online Slack community has nearly 9,000+ members and 2,200+ weekly active users.
 
 The majority of their members work in PDE (product, design and engineering), have 3 to 5 years of experience, identify as millennials and joined Techqueria through word of mouth.
 

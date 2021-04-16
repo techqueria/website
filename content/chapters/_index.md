@@ -35,4 +35,4 @@ aliases:
   - /es/communities/chapters/nyc/
 ---
 
-> Last updated March 2021
+> Last updated April 15, 2021

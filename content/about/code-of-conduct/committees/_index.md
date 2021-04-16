@@ -106,7 +106,7 @@ A Committee Chair is a committee member that oversees the committee.
 
 ### Conduct
 
-All committee members are required to sign and adhere to [Techqueria's Leaders Code of Conduct](https://techqueria.org/leaders-code-of-conduct).
+All committee members are required to sign and adhere to [Techqueria's Code of Conduct](https://techqueria.org/code-of-conduct).
 
 ## Selection Process
 
@@ -147,7 +147,7 @@ In order to become a formal member of an existing committee, a prospective membe
 
 A committee member should step down if they:
 
-- violate the Code of Conduct or the Leaders Code of Conduct
+- violate the Code of Conduct
 - miss multiple meetings in a row
 - not actively contributing
 

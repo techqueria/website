@@ -130,7 +130,7 @@ For all official Techqueria events, in instances where alcohol is present, the f
 
 ## Techqueria Leads
 
-All Techqueria leads are expected to follow both the [Code of Conduct](/code-of-conduct) and the [Leaders Code of Conduct](/leaders-code-of-conduct).
+All Techqueria leads are expected to follow the [Code of Conduct](/code-of-conduct).
 
 If you feel a Techqueria lead (director, chapter lead, volunteer lead, board member, etc) has violated the Code of Conduct, please report that violation.
 

@@ -7,6 +7,4 @@ image: "/assets/img/news/2019-04-28-creativemornings-austin.jpg"
 link: https://creativemorningsaustin.tumblr.com/post/184514413736/cmugshot-andrea-flores
 aliases:
   - /press/2019/04/28/creativemornings-austin-andrea-flores/
-featuring:
-  - Andrea Flores
 ---

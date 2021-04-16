@@ -5,8 +5,6 @@ description: "Awardees graced the stage ranging from tech moguls to Facebook exe
 publication: "Black Enterprise"
 image: "https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2016/12/IMG_20161208_204646.jpg"
 link: https://www.blackenterprise.com/digital-diversity-network-highlights-techs-top-40-under-40/
-featuring:
-  - David Silva
 ---
 
 Digital Diversity Network made an unforgettable splash in Silicon Valley.

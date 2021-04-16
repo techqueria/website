@@ -1,83 +1,71 @@
 {{ define "main" }}
-<!-- Homepage Hero -->
-<section class="hero is-info is-primary is-fancy">
-  <div class="hero-body background-image" style="background-image: url('/assets/img/homepage.jpg');">
-    <div class="container has-text-centered">
-      <h1 class="title">Techqueria is a nonprofit that serves the largest community of Latinx professionals in tech. 🌮</h1>
-      <h1 class="subtitle">11,000+ members. 7 active chapters.</h1>
-    </div>
-  </div>
-</section>
-<!-- Pages -->
-{{ $sitemapRegularPages := where $.Site.Pages ".Params.sitemap" "!=" nil }}
-{{ $sitemapSections := where $.Site.Sections ".Params.sitemap" "!=" nil }}
-{{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
-{{ $sitemapPages := $sitemapAllPages.ByTitle }}
-<!-- Please note this page will need to be updated depending on number of pages -->
-<!-- First 3 Pages -->
-<section class="section homepage">
-  <div class="container">
-    <div class="columns is-multiline">
-      {{ range first 3 $sitemapPages }}
-
-      <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/card.html" . }}
-
+  <!-- Homepage Hero -->
+  <section class="hero is-info is-primary is-fancy">
+    <div class="hero-body background-image" style="background-image: url('/assets/img/homepage.jpg');">
+      <div class="container has-text-centered">
+        <h1 class="title">Techqueria is a nonprofit that serves the largest community of Latinx professionals in tech. 🌮</h1>
+        <h1 class="subtitle">14,000+ members and allies</h1>
       </div>
-      {{ end }}
-
     </div>
-  </div>
-</section>
-<!-- Donate -->
-{{ partialCached "content/cta/cta.donate.html" . }}
-<!-- Second 3 Pages -->
-<section class="section homepage">
-  <div class="container">
-    <div class="columns is-multiline">
-      {{ range first 3 (after 3 $sitemapPages) }}
-
-      <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/card.html" . }}
-
+  </section>
+  <!-- Pages -->
+  {{ $sitemapRegularPages := where $.Site.Pages ".Params.sitemap" "!=" nil }}
+  {{ $sitemapSections := where $.Site.Sections ".Params.sitemap" "!=" nil }}
+  {{ $sitemapAllPages := $sitemapRegularPages | union $sitemapSections }}
+  {{ $sitemapPages := $sitemapAllPages.ByTitle }}
+  <!-- Please note this page will need to be updated depending on number of pages -->
+  <!-- First 3 Pages -->
+  <section class="section homepage">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range first 3 $sitemapPages }}
+          <div class="column is-one-third-desktop is-full-touch">
+            {{ partial "content/card/card.html" . }}
+          </div>
+        {{ end }}
       </div>
-      {{ end }}
-
     </div>
-  </div>
-</section>
-<!-- Join -->
-{{ partialCached "content/cta/cta.member.html" . }}
-<!-- Third 3 Pages -->
-<section class="section homepage">
-  <div class="container">
-    <div class="columns is-multiline">
-      {{ range first 3 (after 6 $sitemapPages) }}
-
-      <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/card.html" . }}
-
+  </section>
+  <!-- Donate -->
+  {{ partialCached "content/cta/cta.donate.html" . }}
+  <!-- Second 3 Pages -->
+  <section class="section homepage">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range first 3 (after 3 $sitemapPages) }}
+          <div class="column is-one-third-desktop is-full-touch">
+            {{ partial "content/card/card.html" . }}
+          </div>
+        {{ end }}
       </div>
-      {{ end }}
-
     </div>
-  </div>
-</section>
-<!-- Partner -->
-{{ partialCached "content/cta/cta.sponsor.html" . }}
-<!-- Last 3 Pages -->
-<section class="section homepage">
-  <div class="container">
-    <div class="columns is-multiline">
-      {{ range first 3 (after 9 $sitemapPages) }}
-
-      <div class="column is-one-third-desktop is-full-touch">
-        {{ partial "content/card/card.html" . }}
-
+  </section>
+  <!-- Join -->
+  {{ partialCached "content/cta/cta.member.html" . }}
+  <!-- Third 3 Pages -->
+  <section class="section homepage">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range first 3 (after 6 $sitemapPages) }}
+          <div class="column is-one-third-desktop is-full-touch">
+            {{ partial "content/card/card.html" . }}
+          </div>
+        {{ end }}
       </div>
-      {{ end }}
-
     </div>
-  </div>
-</section>
+  </section>
+  <!-- Partner -->
+  {{ partialCached "content/cta/cta.sponsor.html" . }}
+  <!-- Last 3 Pages -->
+  <section class="section homepage">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range first 3 (after 9 $sitemapPages) }}
+          <div class="column is-one-third-desktop is-full-touch">
+            {{ partial "content/card/card.html" . }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
 {{ end }}
