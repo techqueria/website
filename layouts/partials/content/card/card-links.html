@@ -7,17 +7,25 @@
         <span class="mr-sm"><i class="fab fa-twitter fa-fw"></i></span><a href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noopener">Twitter Profile</a>
       </p>{{- end -}}
 
+
     <!-- LinkedIn -->
     {{- if .Params.linkedin -}}
       <p class="has-text-weight-light mt-sm is-size-7">
         <span class="mr-sm"><i class="fab fa-linkedin fa-fw"></i></span><a href="{{ .Params.linkedin }}" target="_blank" rel="noopener">LinkedIn Profile</a>
       </p>{{- end -}}
 
+
     <!-- GitHub -->
     {{- if .Params.github -}}
       <p class="has-text-weight-light mt-sm is-size-7">
         <span class="mr-sm"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/{{ .Params.github }}" target="_blank" rel="noopener">GitHub Profile</a>
       </p>{{- end -}}
+
+
+    <!-- Email -->
+    {{- if .Params.email }}
+      <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📩</span><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>{{- end -}}
+
 
     <!-- External Link -->
     {{- if .Params.link -}}
@@ -28,18 +36,21 @@
         >
       </p>{{- end -}}
 
+
     <!-- Slack Channel -->
     {{ if .Params.channel_link }}
       <p class="has-text-weight-light mt-sm is-size-7">
         <span class="mr-sm">💬</span>
-        <a href="{{ .Params.channel_link }}" target="_blank" rel="noopener">{{ if .Params.channel_name }}Join {{ .Params.channel_name }} in Slack{{ else }}Join the chapter's Slack channel{{ end }}</a>
+        <a href="{{ .Params.channel_link }}" target="_blank" rel="noopener">{{ if .Params.channel_name }}{{ .Params.channel_name }}{{ else }}Join the chapter's Slack channel{{ end }}</a>
       </p>
     {{ end }}
+
     <!-- Photos -->
     {{- if .Params.photos -}}
       <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">📸</span><a href="{{ .Params.photos }}" target="_blank" rel="noopener">Photos</a></p>{{- end -}}
 
-    <!-- Photos -->
+
+    <!-- Video -->
     {{- if .Params.video -}}
       <p class="has-text-weight-light mt-sm is-size-7"><span class="mr-sm">🎥</span><a href="{{ .Params.video }}" target="_blank" rel="noopener">Video</a></p>{{- end -}}
 

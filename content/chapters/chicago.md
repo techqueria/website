@@ -1,6 +1,7 @@
 ---
 title: "Chicago, IL"
 date: 2018-11-14
+email: chicago@techqueria.org
 channel_name: "#locals-chicago"
 channel_link: https://app.slack.com/client/T0KQTUZ2B/C1RJFR8RJ
 categories:

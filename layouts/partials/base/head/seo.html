@@ -1,26 +1,26 @@
 <!-- Set Title Variable -->
 {{ $pageTitle := .Title }}
 {{ if .IsHome }}
-  {{ $pageTitle = (print .Site.Title " | " .Title) }}
-{{ else }}
+  {{ $pageTitle = (print .Site.Title " | Latinx in Tech") }}
+  {{ else }}
   {{ $pageTitle = (print .Title " | " .Site.Title) }}
 {{ end }}
 <!-- Set Description Variable -->
 {{ $pageDescription := .Description | truncate 150 }}
 {{ if .Description }}
   {{ $pageDescription = .Description | truncate 150 }}
-{{ else if .IsPage }}
+  {{ else if .IsPage }}
   {{ $pageDescription = .Summary | truncate 150 }}
-{{ else }}
+  {{ else }}
   {{ $pageDescription = .Site.Params.description | truncate 150 }}
 {{ end }}
 <!-- Set Image Variable -->
 {{ $pageImage := .Params.image }}
 {{ if hasPrefix .Params.image "/assets" }}
   {{ $pageImage = .Params.image | absURL }}
-{{ else if .Params.image }}
+  {{ else if .Params.image }}
   {{ $pageImage = .Params.image }}
-{{ else }}
+  {{ else }}
   {{ $pageImage = .Site.Params.og_image }}
 {{ end }}
 <!-- Set Categories -->
@@ -37,80 +37,79 @@
 {{ $pageDate := dateFormat "2006-01-02" .Date }}
 <!-- SEO -->
 <title>{{ $pageTitle }}</title>
-<meta itemprop="description" content="{{ $pageDescription }}">
-<meta itemprop="image" content="{{ $pageImage }}">
-<meta itemprop="name" content="{{ $pageTitle }}">
-<meta content="yes" name="apple-mobile-web-app-capable">
-<meta content="black" name="apple-mobile-web-app-status-bar-style">
-<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
-<meta name="application-name" content="{{ .Site.Title }}">
-<meta name="DC.description" content="{{ $pageDescription }}">
-<meta name="DC.title" content="{{ $pageTitle }}">
-<meta name="description" content="{{ $pageDescription }}">
-<meta content="True" name="HandheldFriendly">
-<meta name="image" content="{{ $pageImage }}">
-<meta content="yes" name="mobile-web-app-capable">
-<meta content="320" name="MobileOptimized">
-<meta name="msapplication-tooltip" content="{{ $pageDescription }}">
-<meta content="width=device-width;height=device-height" name="msapplication-window">
-<meta content="index, follow" name="robots">
-<meta name="title" content="{{ $pageTitle }}">
-<meta content="summary_large_image" name="twitter:card">
-<meta name="twitter:description" content="{{ $pageDescription }}">
-<meta name="twitter:image:src" content="{{ $pageImage }}">
-<meta name="twitter:text:title" content="{{ $pageTitle }}">
-<meta name="twitter:title" content="{{ $pageTitle }}">
-<meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport">
-<meta property="dcterms:description" content="{{ $pageDescription }}">
-<meta property="dcterms:title" content="{{ $pageTitle }}">
-<meta property="og:description" content="{{ $pageDescription }}">
-<meta property="og:image" content="{{ $pageImage }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:title" content="{{ $pageTitle }}">
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta
-property="og:url" content="{{ .Permalink }}">
+<meta itemprop="description" content="{{ $pageDescription }}" />
+<meta itemprop="image" content="{{ $pageImage }}" />
+<meta itemprop="name" content="{{ $pageTitle }}" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Site.Title }}" />
+<meta name="DC.description" content="{{ $pageDescription }}" />
+<meta name="DC.title" content="{{ $pageTitle }}" />
+<meta name="description" content="{{ $pageDescription }}" />
+<meta content="True" name="HandheldFriendly" />
+<meta name="image" content="{{ $pageImage }}" />
+<meta content="yes" name="mobile-web-app-capable" />
+<meta content="320" name="MobileOptimized" />
+<meta name="msapplication-tooltip" content="{{ $pageDescription }}" />
+<meta content="width=device-width;height=device-height" name="msapplication-window" />
+<meta content="index, follow" name="robots" />
+<meta name="title" content="{{ $pageTitle }}" />
+<meta content="summary_large_image" name="twitter:card" />
+<meta name="twitter:description" content="{{ $pageDescription }}" />
+<meta name="twitter:image:src" content="{{ $pageImage }}" />
+<meta name="twitter:text:title" content="{{ $pageTitle }}" />
+<meta name="twitter:title" content="{{ $pageTitle }}" />
+<meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport" />
+<meta property="dcterms:description" content="{{ $pageDescription }}" />
+<meta property="dcterms:title" content="{{ $pageTitle }}" />
+<meta property="og:description" content="{{ $pageDescription }}" />
+<meta property="og:image" content="{{ $pageImage }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title" content="{{ $pageTitle }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
 <!-- Language -->
 {{ with .Site.Params.default_content_language }}
-  <meta name="DC.language" content="{{ . }}">
+  <meta name="DC.language" content="{{ . }}" />
 {{ end }}
 <!-- Locale -->
 {{ with .Site.Params.locale }}
-  <meta property="og:locale" content="{{ . }}">
+  <meta property="og:locale" content="{{ . }}" />
 {{ end }}
 <!-- Twitter -->
 {{ with .Site.Social.twitter }}
-  <meta content="@{{ . }}" name="twitter:creator">
-  <meta content="@{{ . }}" name="twitter:site">
+  <meta content="@{{ . }}" name="twitter:creator" />
+  <meta content="@{{ . }}" name="twitter:site" />
 {{ end }}
 <!-- Author -->
 {{ with $.Site.Author.name }}
-  <meta name="DC.creator" content="{{ . }}">
-  <meta name="DC.publisher" content="{{ . }}">
+  <meta name="DC.creator" content="{{ . }}" />
+  <meta name="DC.publisher" content="{{ . }}" />
 {{ end }}
 <!-- Facebook -->
 {{ with .Site.Social.facebook }}
-  <meta content="https://www.facebook.com/{{ . }}" property="article:author">
-  <meta content="https://www.facebook.com/{{ . }}" property="article:publisher">
+  <meta content="https://www.facebook.com/{{ . }}" property="article:author" />
+  <meta content="https://www.facebook.com/{{ . }}" property="article:publisher" />
 {{ end }}
 <!-- Google Site Verification -->
 {{ with .Site.Params.google_site_verification }}
-  <meta name="google-site-verification" content="{{ . }}">
+  <meta name="google-site-verification" content="{{ . }}" />
 {{ end }}
 <!-- Pinterest Domain Verification -->
 {{ with .Site.Params.pinterest_domain_verification }}
-  <meta name="p:domain_verify" content="{{ . }}">
+  <meta name="p:domain_verify" content="{{ . }}" />
 {{ end }}
 <!-- Blog Post -->
 {{ if .IsPage }}
-  <meta content="Blog" property="article:section">
-  <meta itemprop="wordCount" content="{{ .WordCount }}">
+  <meta content="Blog" property="article:section" />
+  <meta itemprop="wordCount" content="{{ .WordCount }}" />
 {{ end }}
 <!-- Check for valid date -->
 {{ if not .PublishDate.IsZero }}
-  <meta itemprop="datePublished" content="{{ $pageDate }}">
-  <meta property="article:published_time" content="{{ $pageDate }}">
-  <meta property="og:updated_time" content="{{ $pageDate }}">
+  <meta itemprop="datePublished" content="{{ $pageDate }}" />
+  <meta property="article:published_time" content="{{ $pageDate }}" />
+  <meta property="og:updated_time" content="{{ $pageDate }}" />
 {{ end }}
 <!-- Twitter Labels - Categories & Tags -->
 <!-- {{ if or (.Params.Categories) (.Params.tags) }}
@@ -124,11 +123,11 @@ property="og:url" content="{{ .Permalink }}">
   {{ end }}
 {{ end }} -->
 <!-- Keywords -->
-  {{ if or (.Params.categories) (.Params.tags) }}
-  <meta itemprop="keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria"> <meta name="DC.subject" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
+{{ if or (.Params.categories) (.Params.tags) }}
+  <meta itemprop="keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria" /> <meta name="DC.subject" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria" />
   {{ if .IsPage }}
-    <meta name="news_keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
-    <meta property="article:tag" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria">
+    <meta name="news_keywords" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria" />
+    <meta property="article:tag" content="{{ $pageCategories }}, {{ $pageTags }}, techqueria" />
   {{ end }}
 {{ end }}
 <!-- Series -->
@@ -136,16 +135,16 @@ property="og:url" content="{{ .Permalink }}">
 {{ if .IsPage }}
   <!-- Next Section -->
   {{ if .NextInSection }}
-    <link rel="prefetch" href="{{ .NextInSection.Permalink }}">
-    <link rel="prerender" href="{{ .NextInSection.Permalink }}">
+    <link rel="prefetch" href="{{ .NextInSection.Permalink }}" />
+    <link rel="prerender" href="{{ .NextInSection.Permalink }}" />
   {{ end }}
   <!-- Previous Section -->
   {{ if .PrevInSection }}
-    <link rel="prefetch" href="{{ .PrevInSection.Permalink }}">
-    <link rel="prerender" href="{{ .PrevInSection.Permalink }}">
+    <link rel="prefetch" href="{{ .PrevInSection.Permalink }}" />
+    <link rel="prerender" href="{{ .PrevInSection.Permalink }}" />
   {{ end }}
 {{ end }}
 <!-- Alternative Output -->
 {{ range .AlternativeOutputFormats -}}
-  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" />
 {{ end -}}

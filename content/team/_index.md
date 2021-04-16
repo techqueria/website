@@ -49,9 +49,9 @@ aliases:
 
 You are welcome to view our [our org chart](https://miro.com/app/board/o9J_ldsflvc=/) and an overview of our [roles and responsibilities](https://www.notion.so/86b10a50006e48ad937198e25297af9c?v=09db21d2d9584e85a893cc642e9c1132).
 
-## Staff
+## National Team
 
-> **We're hiring!** Reach out to Frances via DM in Techqueria's Slack if you'd like to get involved.
+> **We're recruiting!** Check out our [volunteer opportunities](https://www.notion.so/techqueria/Volunteer-Opportunities-be0411f7944c43d0b70d81f3e8120789) if you're interested in learning more.
 
 {{< team/staff >}}
 

@@ -62,7 +62,7 @@ Techqueria Chapters are:
 In order to qualify to become a Chapter Director, one must meet the minimum qualifications:
 
 - a member of Techqueria’s Slack Community for at least 6 months
-- never violated our [Code of Conduct](https://www.notion.so/Code-of-Conduct-63757e2715894da2b7e85d6dc7574a3f)
+- never violated our [Code of Conduct](https://techqueria.org/code-of-conduct)
 - at least 21 years old because some of our events have alcohol
 - at least 3 years of experience in the tech industry and/or at least 3 years of community building experience so you’re familiar enough with companies and have built up your own network you can tap into
 - already planned at least 4 local informal events on your own within the Techqueria community
@@ -206,7 +206,7 @@ A city chapter can become closed or can reactivate and become an official chapte
 
 ## Community Conduct
 
-Chapter Directors must adhere to the [Code of Conduct](https://www.notion.so/Code-of-Conduct-63757e2715894da2b7e85d6dc7574a3f) and the [Leaders Code of Conduct](https://www.notion.so/Leaders-Code-of-Conduct-7a130832bb7040f3ab6338119341964f) at all times.
+Chapter Directors must adhere to the [Code of Conduct](https://techqueria.org/code-of-conduct) at all times.
 
 Violating either Code of Conduct is grounds for removal.
 

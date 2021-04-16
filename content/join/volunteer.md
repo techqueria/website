@@ -18,23 +18,19 @@ If you are interested in supporting Techqueria as an individual, one great way t
 
 ## Volunteering Opportunities
 
-You can find all <a href="https://www.notion.so/techqueria/86b10a50006e48ad937198e25297af9c?v=410cd2988aa740fc860b165444327866" rel="noopener" target="_blank">our volunteering opportunities</a> on Notion.
+You can find all <a href="https://www.notion.so/techqueria/Volunteer-Opportunities-be0411f7944c43d0b70d81f3e8120789" rel="noopener" target="_blank">our volunteering opportunities</a> on Notion.
 
 However, we generally share the latest volunteering opportunities through the `#meta-volunteer` channel in [our Slack community](/slack/) and we are starting to share volunteering events in [Point](https://pointapp.org/orgs/364).
 
-## Sign Up to Volunteer
+## Sign Up to Volunteer Email List
 
-Fill out the form below and we'll reach out with more details on you can help support our mission.
+Fill out the form below and we'll reach out via email with volunteer opportunities whenever they're available.
 
 <form name="Volunteer" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/success/" class="form--centered no-ids">
   <input type="hidden" aria-label="Subject" name="_subject" value="Techqueria - Become a Volunteer">
   {{< fields/name >}}
   {{< fields/email >}}
   {{< fields/linkedin >}}
-  {{< fields/location >}}
-  {{< fields/yes_no label="Have you been a member of Techqueria's Slack Community for at least 6 months?" help="This is a MANDATORY requirement and we recommend joining our Slack community first if you do not qualify yet." required="true" name="member_of_slack_at_least_6_months" >}}
-  {{< fields/volunteer >}}
-  {{< fields/message >}}
   {{< fields/referral >}}
   <!-- Disclaimer -->
   {{< fields/disclaimer >}}

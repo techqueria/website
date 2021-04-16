@@ -1,43 +1,43 @@
 {
   "Frances Coronel": {
     "name": "Frances Coronel",
-    "title": "Co-Director",
+    "title": "Executive Director",
+    "type": "Part-Time Staff",
     "image": "/assets/img/team/frances-coronel.jpg",
     "linkedin": "https://linkedin.com/in/francescoronel"
   },
-  "Felipe Ventura": {
-    "name": "Felipe Ventura",
-    "title": "Co-Director",
-    "image": "/assets/img/team/felipe-ventura.jpg",
-    "linkedin": "https://www.linkedin.com/in/fvntr"
-  },
   "Mary Ramirez": {
     "name": "Mary Ramirez",
-    "title": "Partnerships Lead",
+    "title": "Partnerships Director",
+    "type": "Part-Time Staff",
     "image": "/assets/img/team/mary-ramirez.png",
     "linkedin": "https://www.linkedin.com/in/marybramirez/"
   },
   "Cat Martinez": {
     "name": "Cat Martinez",
-    "title": "Partnerships Lead",
+    "title": "Partnerships Director",
+    "type": "Part-Time Staff",
     "image": "/assets/img/team/cat-martinez.jpeg",
     "linkedin": "https://www.linkedin.com/in/cathmartinez/"
   },
   "Sal Ramirez": {
     "name": "Sal Ramirez",
-    "title": "Events Lead",
+    "title": "Events Director",
+    "type": "Part-Time Staff",
     "image": "/assets/img/team/sal-ramirez.jpeg",
     "linkedin": "https://www.linkedin.com/in/salramirez/"
   },
   "Francisco Cruz-Mendoza": {
     "name": "Francisco Cruz-Mendoza",
-    "title": "Chapter Community Lead",
+    "title": "Chapter Community Director",
+    "type": "Volunteer",
     "image": "/assets/img/team/francisco-cruz-mendoza.jpeg",
     "linkedin": "https://www.linkedin.com/in/franciscocrz"
   },
   "Jasmin Gonzalez": {
     "name": "Jasmin Gonzalez",
-    "title": "Marketing Lead",
+    "title": "Marketing Director",
+    "type": "Part-Time Staff",
     "image": "/assets/img/team/jasmin-gonzalez.jpg",
     "linkedin": "https://www.linkedin.com/in/gonzalezjasmin/"
   }

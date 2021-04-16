@@ -6,6 +6,4 @@ description:
 publication: "Seen by Indeed"
 image: "/assets/img/news/2019-11-13_slack_logo.png"
 link: https://www.beseen.com/blog/talent/slack-communities-for-tech-pros/
-featuring:
-  - Techqueria
 ---

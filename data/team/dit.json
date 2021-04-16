@@ -1,8 +1,14 @@
 {
   "Tonatiuh Ramos": {
     "name": "Tonatiuh Ramos",
-    "title": "Dreamers in Tech Lead",
+    "title": "Dreamers in Tech Director",
     "image": "/assets/img/team/tonatiuh-ramos.jpg",
     "linkedin": "https://www.linkedin.com/in/tonaramos"
+  },
+  "Maybelline Perez": {
+    "name": "Maybelline Perez",
+    "title": "Dreamers in Tech Marketing Fellow",
+    "image": "/assets/img/team/maybelline-perez.jpg",
+    "linkedin": "https://www.linkedin.com/in/maybelline-p%C3%A9rezvillatoro/"
   }
 }
