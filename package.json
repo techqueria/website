@@ -27,7 +27,7 @@
     "browser-sync": "2.26.14",
     "bulma": "^0.8.0",
     "compression-webpack-plugin": "6.1.1",
-    "cssnano": "4.1.11",
+    "cssnano": "5.0.2",
     "del": "6.0.0",
     "eslint": "7.25.0",
     "eslint-plugin-import": "2.22.1",
