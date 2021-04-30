@@ -46,7 +46,7 @@
     "postcss-csso": "4.0.0",
     "prettier": "2.2.1",
     "prettier-plugin-go-template": "0.0.10",
-    "snyk": "1.573.0",
+    "snyk": "1.574.0",
     "twemoji": "13.0.2",
     "webpack": "4.43.0",
     "workbox-webpack-plugin": "5.1.4"
