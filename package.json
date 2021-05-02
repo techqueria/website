@@ -39,7 +39,7 @@
     "gulp-postcss": "9.0.0",
     "gulp-sass": "4.1.0",
     "gulp-sourcemaps": "3.0.0",
-    "hugo-bin": "0.59.0",
+    "hugo-bin": "0.71.1",
     "lozad": "1.16.0",
     "netlify-cli": "3.24.3",
     "plugin-error": "1.0.1",
