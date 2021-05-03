@@ -41,7 +41,7 @@
     "gulp-sourcemaps": "3.0.0",
     "hugo-bin": "0.59.0",
     "lozad": "1.16.0",
-    "netlify-cli": "3.24.3",
+    "netlify-cli": "3.25.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "4.0.0",
     "prettier": "2.2.1",
