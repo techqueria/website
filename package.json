@@ -52,6 +52,6 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "devDependencies": {
-    "hugo-extended": "0.83.0"
+    "hugo-extended": "0.83.1"
   }
 }
