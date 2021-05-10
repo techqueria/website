@@ -44,7 +44,7 @@
     "netlify-cli": "3.25.0",
     "plugin-error": "1.0.1",
     "postcss-csso": "4.0.0",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "prettier-plugin-go-template": "0.0.10",
     "snyk": "1.576.0",
     "twemoji": "13.0.2",
